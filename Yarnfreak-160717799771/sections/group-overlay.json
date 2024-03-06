@@ -1,0 +1,78 @@
+{
+  "type": "aside",
+  "name": "Overlay",
+  "sections": {
+    "cookie": {
+      "type": "overlay-cookie",
+      "disabled": true,
+      "settings": {
+        "show_cookies_popup": false,
+        "position": "popup-cookies--left"
+      }
+    },
+    "text-promo": {
+      "type": "overlay-text-promo",
+      "disabled": true,
+      "settings": {
+        "position": "popup-cookies--right",
+        "title": "Text block",
+        "text": "<p>Use this text to share announcements or sales.<\/p>",
+        "button_text": "Learn more",
+        "button_url": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "color": "",
+        "bg_color": "",
+        "trigger": "always",
+        "target_url_enabled": false,
+        "target_url": "",
+        "target_referrer_enabled": false,
+        "target_referrer": "",
+        "target_device_enabled": false,
+        "target_device": "mobile"
+      }
+    },
+    "newsletter": {
+      "type": "overlay-newsletter",
+      "blocks": {
+        "newsletter-0": {
+          "type": "large-newsletter",
+          "settings": {
+            "subheading": "Broadcast",
+            "title": "Newsletter",
+            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
+            "bg_color": "",
+            "color": "",
+            "newsletter_enable": true,
+            "show_name": false,
+            "button_text": "Join",
+            "show_arrow": false,
+            "terms": true,
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "trigger": "always",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "newsletter-0"
+      ],
+      "disabled": true,
+      "settings": {}
+    }
+  },
+  "order": [
+    "cookie",
+    "text-promo",
+    "newsletter"
+  ]
+}

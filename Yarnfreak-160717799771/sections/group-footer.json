@@ -1,0 +1,97 @@
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer-0": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Tilmeld dig vores nyhedsbrev",
+            "text": "<p>- og bliv opdateret på nyheder, events og vores helt egne anbefalinger af uimodståelige håndarbejdsprojekter<\/p>",
+            "show_name": true,
+            "button_text": "Tilmeld",
+            "show_arrow": true,
+            "terms": true,
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_social_links": true,
+            "column_width": 35
+          }
+        },
+        "footer-1": {
+          "type": "linklist",
+          "disabled": true,
+          "settings": {
+            "linklist": "footer",
+            "title": "Kundeservice",
+            "column_width": 20
+          }
+        },
+        "5456b62e-5c8a-4496-8737-a59981fb892b": {
+          "type": "text",
+          "settings": {
+            "image_width": 150,
+            "title": "Kundeservice",
+            "text": "<p><a href=\"https:\/\/yarnfreak.myshopify.com\/pages\/om-yarnfreak\">Om Yarnfreak<\/a><\/p><p><a href=\"http:\/\/www.facebook.com\/pg\/yarnfreakdk\/events\/\">KnitNight i Yarnfreak<\/a><\/p><p><a href=\"https:\/\/yarnfreak.myshopify.com\/pages\/handelsbetingelser\">Handelsbetingelser<\/a><\/p><p><a href=\"https:\/\/yarnfreak.myshopify.com\/pages\/handelsbetingelser\">Levering og retur<\/a><\/p><p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2567\/1966\/files\/returseddel-yarnfreak.pdf?10941167111175999188\">Returseddel<\/a><\/p><p><a href=\"https:\/\/retur.pakkelabels.dk\/yarnfreak\">Køb returlabel<\/a><\/p><p><a href=\"https:\/\/yarnfreak.myshopify.com\/pages\/faq\">FAQ<\/a><\/p><p><a href=\"https:\/\/yarnfreak.myshopify.com\/pages\/privatlivspolitik\">Privatlivspolitik<\/a><\/p>",
+            "column_width": 20
+          }
+        },
+        "footer-2": {
+          "type": "text",
+          "settings": {
+            "image_width": 150,
+            "title": "Kontakt",
+            "text": "<p><a href=\"mailto:kontakt@yarnfreak.dk\" title=\"mailto:kontakt@yarnfreak.dk\">kontakt@yarnfreak.dk<\/a><\/p><p><a href=\"tel:93977833\" title=\"tel: 93 97 78 33\">(+45) 93 97 78 33<\/a><\/p><p><strong><br\/>Besøg butikken:<\/strong><br\/>Ingerslevs Plads 2<br\/>8000 Aarhus C <\/p><p>CVR: 42329940<\/p>",
+            "column_width": 20
+          }
+        },
+        "d0babde7-e645-4eec-a268-a44467c64c6c": {
+          "type": "text",
+          "settings": {
+            "image_width": 150,
+            "title": "Åbningstider",
+            "text": "<p>Mandag: 11.00 - 17.30<br\/>Tirsdag:  11.00 - 17.30<br\/>Onsdag:  11.00 - 17.30<br\/>Torsdag: 11.00 - 17.30<br\/>Fredag:   11.00 - 17.30<br\/>Lørdag:   10.00 - 14.00<\/p>",
+            "column_width": 20
+          }
+        }
+      },
+      "block_order": [
+        "footer-0",
+        "footer-1",
+        "5456b62e-5c8a-4496-8737-a59981fb892b",
+        "footer-2",
+        "d0babde7-e645-4eec-a268-a44467c64c6c"
+      ],
+      "settings": {
+        "logo": "{{ shop.brand.logo }}",
+        "logo_image_width": 150,
+        "overlay_opacity": 100,
+        "overlay_color": "#000000",
+        "border_color": "#ffffff",
+        "padding_top": 75,
+        "padding_bottom": 75
+      }
+    },
+    "supporting-menu": {
+      "type": "section-supporting-menu",
+      "disabled": true,
+      "settings": {
+        "linklist": "",
+        "footer_payment_enable": false,
+        "show_locale_selector": true,
+        "show_country_selector": true,
+        "show_country_name": false,
+        "show_country_flag": true,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    }
+  },
+  "order": [
+    "footer",
+    "supporting-menu"
+  ]
+}

@@ -1,0 +1,326 @@
+{%- liquid
+  assign unique = section.id
+  assign animation_anchor = '#highlights--' | append: unique
+  assign heading = section.settings.heading
+  assign heading_size_class = section.settings.heading_size | plus: 0 | prepend: 'heading-size-'
+  assign font_size_class = section.settings.text_size | plus: 0 | prepend: 'body-size-'
+  assign text_color = section.settings.color
+  assign item_bg_color = section.settings.item_bg_color
+  assign blocks_style = section.settings.style
+  assign sub_collections = linklists[section.settings.subcollections].links
+
+  assign columns_desktop = section.settings.grid | plus: 0
+  assign columns_medium = 3
+  assign columns_small = 2
+  assign columns_mobile = section.settings.layout_mobile | plus: 0
+
+  capture items_classes
+    echo 'highlights__items'
+    if section.settings.layout_mobile == 'carousel'
+      echo ' highlights__items--mobile-slider'
+    else
+      echo ' highlights__items--mobile-grid'
+    endif
+  endcapture
+-%}
+
+{%- style -%}
+  #highlights--subcollections {
+    --PT: {{ section.settings.padding_top }}px;
+    --PB: {{ section.settings.padding_bottom }}px;
+
+    
+    --columns-desktop: {{ columns_desktop }};
+    --columns-medium: {{ columns_medium }};
+    --columns-small: {{ columns_small }};
+    --columns-mobile: {{ columns_mobile }};
+  }
+
+  #highlights--subcollections a {
+    {% if text_color != blank and text_color != 'rgba(0,0,0,0)' %}
+      color:{{ text_color }};
+    {% endif %}
+  
+   
+  }
+ .sub-collection-item {
+  {% if item_bg_color != blank and  item_bg_color != 'rgba(0,0,0,0)' %}
+    background-color: {{ item_bg_color }};
+    {% endif %}
+ }
+{%- endstyle -%}
+
+<div
+  class="highlights section-padding"
+  id="highlights--subcollections"
+  data-section-id="highlights--subcollections"
+  data-section-type="highlights">
+  <div class="{{ section.settings.width }} highlights__container">
+
+   
+
+  {%- if sub_collections.size > 0 -%}
+      <div class="{{ items_classes }}">
+        {%- for sublink in sub_collections -%}
+          {%- liquid
+          if sublink.type != 'collection_link' or sublink.object.handle == blank
+          continue
+            endif
+            assign sub_collection_handle = sublink.object.handle
+            assign sub_collection_handle_separator = sub_collection_handle | append: ',' | prepend: ','
+            assign sub_collection = collections[sub_collection_handle]
+
+            if sublink.object.handle contains sub_collection_handle_separator
+              continue
+            endif
+
+            assign bg_color_brightness = bg_color | color_brightness
+            if bg_color_brightness <= 65
+              assign bg_color_brighter = bg_color | color_lighten: 10
+            else
+              assign bg_color_brighter = bg_color | color_darken: 5
+            endif
+
+            assign border_color_brightness = border_color | color_brightness
+            if border_color_brightness <= 65
+              assign border_color_brighter = border_color | color_lighten: 10
+            else
+              assign border_color_brighter = border_color | color_darken: 5
+            endif
+
+            assign link = sub_collection.url
+            assign animation_delay = forloop.index0 | times: 150
+            assign has_bg_color = false
+            if bg_color != 'rgba(0,0,0,0)' and bg_color != blank
+              assign has_bg_color = true
+            endif
+
+            assign has_text_color = false
+            if text_color != 'rgba(0,0,0,0)' and text_color != blank
+              assign has_text_color = true
+            endif
+
+            assign has_border_color = false
+            if border_color != 'rgba(0,0,0,0)' and border_color != blank
+              assign has_border_color = true
+            endif
+
+            capture aos
+              echo 'data-aos="fade"'
+              echo 'data-aos-duration="500"'
+              echo 'data-aos-delay="' | append: animation_delay | append: '"'
+              echo 'data-aos-anchor="' | append: animation_anchor | append: '"'
+            endcapture
+
+            capture style
+              if has_text_color or has_bg_color or has_border_color
+                echo 'style="'
+
+                if has_bg_color
+                  echo '--bg: ' | append:  item_bg_color | append: ';'
+                  echo '--bg-brighter: ' | append: bg_color_brighter | append: ';'
+                endif
+
+                if has_text_color
+                  echo '--text: ' | append: text_color | append: ';'
+                endif
+
+                if has_border_color
+                  echo '--border: ' | append: border_color | append: ';'
+                  echo '--border-brighter: ' | append: border_color_brighter | append: ';'
+                endif
+
+                echo '"'
+              endif
+            endcapture
+
+            capture item_attributes
+              echo 'class="highlights__item highlights__item--' | append: blocks_style
+
+              echo '"'
+              echo aos | append: ' ' | append: style | append: ' ' | append: block.shopify_attributes
+            endcapture
+
+            capture item_inner_classes
+              echo 'highlights__item-inner '
+              if blocks_style == 'button'
+                echo ' btn btn--outline btn--large'
+                unless link != blank
+                  echo ' is-disabled'
+                endunless
+              elsif link != blank
+                echo ' highlights__item-link'
+              endif
+            endcapture
+          -%}
+
+          <div {{ item_attributes }}>
+            {%- if link != blank -%}
+              <a href="{{ link }}" class="{{ item_inner_classes }}">
+                <div class="highlights__item__background sub-collection-item"></div>
+            {%- endif -%}
+
+              
+
+              <div class="highlights__item__content {{ font_size_class }}">
+                <span>{{ sublink.title }}</span>
+              </div>
+
+            {%- if link != blank -%}
+              </a>
+            {%- else -%}
+              </div>
+            {%- endif -%}
+          </div>
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Highlights - MCB",
+    "settings": [
+      {
+      "type": "text",
+      "id": "subcollections",
+      "label": "Choose submenu",
+      "info": "Vælg det metafelt, som skal bruges til over produkterne. Kan være “subcollection” eller “filtercollection”."
+
+    },
+      {
+        "type": "header",
+        "content": "Layout"
+      },
+      {
+        "type": "select",
+        "id": "style",
+        "label": "Style",
+        "options": [
+          { "value": "square", "label": "Square" },
+          { "value": "rectangle", "label": "Rectangle" },
+          { "value": "circle", "label": "Circle" },
+          { "value": "button", "label": "Button" }
+        ],
+        "default": "rectangle"
+      },
+      {
+        "type":    "range",
+        "id":      "grid",
+        "min":     3,
+        "max":     8,
+        "step":    1,
+        "label":   "Highlights per row",
+        "default": 6
+      },
+      {
+        "type": "header",
+        "content": "Style"
+      },
+      {
+        "type": "select",
+        "id": "width",
+        "label": "Width",
+        "default": "wrapper--full-padded",
+        "options": [
+          {"value": "wrapper--full-padded", "label": "Full width padded"},
+          {"value": "wrapper", "label": "Normal"},
+          {"value": "wrapper--narrow", "label": "Narrow"}
+        ]
+      },
+      
+      {
+        "type": "header",
+        "content": "Text"
+      },
+      
+      
+      {
+        "type":  "range",
+        "id":    "text_size",
+        "label": "Text size",
+        "min":    1,
+        "max":    15,
+        "step":   1,
+        "default": 3
+      },
+      
+     
+      
+      {
+        "type": "header",
+        "content": "Colors"
+      },
+      {
+        "type": "color",
+        "id": "color",
+        "label": "Text"
+      },
+      {
+        "type": "color",
+        "id": "item_bg_color",
+        "label": "Background"
+      },
+      {
+        "type": "header",
+        "content": "Mobile"
+      },
+      {
+        "type": "select",
+        "id": "layout_mobile",
+        "label": "Layout",
+        "options": [
+          {
+            "value": "1",
+            "label": "1 highlight per row"
+          },
+          {
+            "value": "2",
+            "label": "2 highlights per row"
+          },
+          {
+            "value": "carousel",
+            "label": "Carousel"
+          }
+        ],
+        "default": "2"
+      },
+      {
+        "type": "header",
+        "content": "Section padding"
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "Padding top",
+        "default": 50
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "Padding bottom",
+        "default": 50
+      }
+    ],
+    
+    "presets": [
+      {
+        "category": "Text",
+        "name": "Highlights - MCB"
+       
+      }
+    ],
+    "disabled_on": {
+      "groups": ["header", "aside", "footer"]
+    }
+  }
+{% endschema %}

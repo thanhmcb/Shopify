@@ -1,0 +1,447 @@
+{
+  "sections": {
+    "hero": {
+      "type": "collection-image-with-title",
+      "custom_css": [],
+      "settings": {
+        "show_title": true,
+        "show_description": true,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "",
+        "show_image": false,
+        "banner_layout": "overlay",
+        "height": "screen-height-one-third",
+        "mobile_height": "screen-height-one-half--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_highlights_9gDepz": {
+      "type": "section-highlights",
+      "blocks": {
+        "highlight_BVRziT": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Highlight",
+            "url": "",
+            "color": "",
+            "bg_color": "#f0f0f0",
+            "border_color": ""
+          }
+        },
+        "highlight_XHVht6": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Highlight",
+            "url": "",
+            "color": "",
+            "bg_color": "#f0f0f0",
+            "border_color": ""
+          }
+        },
+        "highlight_bBbwJc": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Highlight",
+            "url": "",
+            "color": "",
+            "bg_color": "#f0f0f0",
+            "border_color": ""
+          }
+        },
+        "highlight_zFcc6e": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Tynn Silk Mohair",
+            "url": "",
+            "color": "",
+            "bg_color": "#f6f5f1",
+            "border_color": ""
+          }
+        },
+        "highlight_iExtB6": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Highlight",
+            "url": "shopify:\/\/collections\/addi",
+            "color": "",
+            "bg_color": "#f6f5f1",
+            "border_color": ""
+          }
+        },
+        "highlight_AMwM3T": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Highlight",
+            "url": "",
+            "color": "",
+            "bg_color": "#f0f0f0",
+            "border_color": ""
+          }
+        },
+        "highlight_94HnDx": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Sunday",
+            "url": "",
+            "color": "",
+            "bg_color": "#f6f5f1",
+            "border_color": ""
+          }
+        },
+        "highlight_pYp9Ck": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Peer Gynt",
+            "url": "",
+            "color": "",
+            "bg_color": "#f6f5f1",
+            "border_color": ""
+          }
+        },
+        "highlight_a8NXmb": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Peruvian highland wool",
+            "url": "",
+            "color": "",
+            "bg_color": "#f6f5f1",
+            "border_color": ""
+          }
+        },
+        "highlight_EQbmrG": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Tosh Merino Light",
+            "url": "",
+            "color": "",
+            "bg_color": "#f6f5f1",
+            "border_color": ""
+          }
+        },
+        "highlight_iBmJGJ": {
+          "type": "highlight",
+          "disabled": true,
+          "settings": {
+            "heading": "Fritidsgarn",
+            "url": "",
+            "color": "",
+            "bg_color": "#f0f0f0",
+            "border_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight_BVRziT",
+        "highlight_XHVht6",
+        "highlight_bBbwJc",
+        "highlight_zFcc6e",
+        "highlight_iExtB6",
+        "highlight_AMwM3T",
+        "highlight_94HnDx",
+        "highlight_pYp9Ck",
+        "highlight_a8NXmb",
+        "highlight_EQbmrG",
+        "highlight_iBmJGJ"
+      ],
+      "settings": {
+        "style": "circle",
+        "grid": 6,
+        "width": "wrapper--full-padded",
+        "heading": "",
+        "heading_position": "text-center",
+        "heading_size": 4,
+        "text_size": 1,
+        "color": "",
+        "bg_color": "",
+        "layout_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "section_highlights_custom_K6Gx4z": {
+      "type": "section-highlights-custom",
+      "settings": {
+        "subcollections": "{{ collection.metafields.custom.subcollection.value }}",
+        "style": "button",
+        "grid": 6,
+        "width": "wrapper--full-padded",
+        "text_size": 3,
+        "color": "",
+        "item_bg_color": "#791414",
+        "layout_mobile": "2",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "55bab27b-e4a3-4f34-a2c3-f8b6dad781b8": {
+      "type": "section-rich-text",
+      "blocks": {
+        "6bcc1ae1-40b2-43be-95b4-c942374caa74": {
+          "type": "heading",
+          "settings": {
+            "title": "{{ collection.title }}",
+            "text_size": 8
+          }
+        }
+      },
+      "block_order": [
+        "6bcc1ae1-40b2-43be-95b4-c942374caa74"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 32
+      }
+    },
+    "subcollections": {
+      "type": "subcollections",
+      "settings": {
+        "subcollections": "{{ collection.metafields.custom.subcollection.value }}",
+        "subcollection_layout": "carousel",
+        "show_text_below_image": true,
+        "subcollection_description": false,
+        "select_image": "collection",
+        "color": "#ffffff",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "featured_image_YAVy8C": {
+          "type": "featured_image",
+          "disabled": true,
+          "settings": {
+            "featured_heading": "{{ collection.title }}",
+            "featured_text": "",
+            "featured_button_text": "",
+            "featured_button_link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false,
+            "featured_color_text": "#ffffff",
+            "featured_color_overlay": "#222222",
+            "featured_overlay_opacity": 10
+          }
+        }
+      },
+      "block_order": [
+        "featured_image_YAVy8C"
+      ],
+      "settings": {
+        "submenu": "{{ collection.metafields.custom.submenu.value }}",
+        "enable_sort": false,
+        "enable_filters": true,
+        "filter_layout": "inline-open",
+        "grid": 4,
+        "grid_mobile": "2",
+        "product_limit": 50,
+        "border_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "44250e85-175a-4693-aee7-eebbfbe00a2e": {
+      "type": "section-double",
+      "blocks": {
+        "template--19780313055579__44250e85-175a-4693-aee7-eebbfbe00a2e-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Introducing",
+            "text_size": 3
+          }
+        },
+        "template--19780313055579__44250e85-175a-4693-aee7-eebbfbe00a2e-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Image with text",
+            "text_size": 8
+          }
+        },
+        "template--19780313055579__44250e85-175a-4693-aee7-eebbfbe00a2e-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "template--19780313055579__44250e85-175a-4693-aee7-eebbfbe00a2e-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19780313055579__44250e85-175a-4693-aee7-eebbfbe00a2e-subheading-1",
+        "template--19780313055579__44250e85-175a-4693-aee7-eebbfbe00a2e-heading-1",
+        "template--19780313055579__44250e85-175a-4693-aee7-eebbfbe00a2e-text-1",
+        "template--19780313055579__44250e85-175a-4693-aee7-eebbfbe00a2e-buttons-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "",
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "{{ collection.image }}",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "0d594e12-8082-477b-872a-30236ea89afe": {
+      "type": "section-double",
+      "blocks": {
+        "template--19780313055579__0d594e12-8082-477b-872a-30236ea89afe-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Introducing",
+            "text_size": 3
+          }
+        },
+        "template--19780313055579__0d594e12-8082-477b-872a-30236ea89afe-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Image with text",
+            "text_size": 8
+          }
+        },
+        "template--19780313055579__0d594e12-8082-477b-872a-30236ea89afe-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "template--19780313055579__0d594e12-8082-477b-872a-30236ea89afe-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19780313055579__0d594e12-8082-477b-872a-30236ea89afe-subheading-1",
+        "template--19780313055579__0d594e12-8082-477b-872a-30236ea89afe-heading-1",
+        "template--19780313055579__0d594e12-8082-477b-872a-30236ea89afe-text-1",
+        "template--19780313055579__0d594e12-8082-477b-872a-30236ea89afe-buttons-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "is-reversed",
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "c34ac82e-3897-4a38-af30-7c5ae5965369": {
+      "type": "section-custom-content",
+      "blocks": {
+        "template--19903511527771__c34ac82e-3897-4a38-af30-7c5ae5965369-image-1": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "template--19903511527771__c34ac82e-3897-4a38-af30-7c5ae5965369-text-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "Introducing",
+            "subheading_size": 3,
+            "title": "Custom content",
+            "heading_size": 8,
+            "text": "<p>Use this section to create unique side-by-side layouts with various content blocks. Pair text with images, newsletter blocks, products, videos, testimonials and more.<\/p>",
+            "text_size": 4,
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19903511527771__c34ac82e-3897-4a38-af30-7c5ae5965369-image-1",
+        "template--19903511527771__c34ac82e-3897-4a38-af30-7c5ae5965369-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full-padded",
+        "borders": false,
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "section_highlights_9gDepz",
+    "section_highlights_custom_K6Gx4z",
+    "55bab27b-e4a3-4f34-a2c3-f8b6dad781b8",
+    "subcollections",
+    "main",
+    "44250e85-175a-4693-aee7-eebbfbe00a2e",
+    "0d594e12-8082-477b-872a-30236ea89afe",
+    "c34ac82e-3897-4a38-af30-7c5ae5965369"
+  ]
+}
