@@ -1,0 +1,151 @@
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "subheading_option": "none",
+            "text_size": 6,
+            "show_rating": true,
+            "enable_star_rating": true,
+            "show_rating_count": false,
+            "padding_bottom": 14
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "padding_bottom": 20
+          }
+        },
+        "088e2e94-da72-4ee7-8937-ebccd5239470": {
+          "type": "siblings",
+          "disabled": true,
+          "settings": {
+            "siblings_collection": "{{ product.metafields.theme.siblings.value }}",
+            "sibling_color": "{{ product.metafields.theme.sibling_color.value }}",
+            "padding_bottom": 16
+          }
+        },
+        "variants": {
+          "type": "variants",
+          "settings": {
+            "info_page": "",
+            "size_chart_style": "text",
+            "subscriptions_enable_selectors": false,
+            "padding_bottom": 16
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+            "show_quantity": false,
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "padding_bottom": 32
+          }
+        },
+        "tabs": {
+          "type": "tab_richtext",
+          "settings": {
+            "show_read_more": false,
+            "show_contact_form": false,
+            "style": "accordions",
+            "title_1": "Om digitale gavekort",
+            "raw_content_1": "<p>Gavekortet til Yarnfreak er digitalt, og bliver sendt på mail til download, umiddelbart efter ordren er gennemført, så du selv kan printe ud til modtageren. <\/p><p>Der er også mulighed for at sende gavekortet direkte til modtageren på  et ønsket tidspunkt. Sæt da kryds i \"jeg vil sende gavekortet direkte til modtageren\" ovenfor \"læg i kurv\"<\/p><p>Fandt du ikke det du søgte, kan du læse mere under <a href=\"https:\/\/yarnfreak.myshopify.com\/pages\/handelsbetingelser\">vores handelsbetingelser &gt;<\/a><\/p>",
+            "title_2": "",
+            "raw_content_2": "",
+            "title_3": "",
+            "raw_content_3": "",
+            "title_4": "",
+            "raw_content_4": "",
+            "title_5": "",
+            "raw_content_5": "",
+            "padding_bottom": 0
+          }
+        },
+        "0be0a364-b4a0-4796-9b5d-7246eaf7d5ad": {
+          "type": "complementary-products",
+          "disabled": true,
+          "settings": {
+            "bg_color": "",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "088e2e94-da72-4ee7-8937-ebccd5239470",
+        "variants",
+        "buttons",
+        "tabs",
+        "0be0a364-b4a0-4796-9b5d-7246eaf7d5ad"
+      ],
+      "custom_css": [
+        ".product__content {--product-price: 120%; --product-variant-header: 120%; --product-variant: 100%; --product-price-mobile: 150%; --product-variant-header-mobile: 120%; --product-variant-mobile: 100%;}"
+      ],
+      "settings": {
+        "product_sticky_enable": true,
+        "image_layout": "stacked",
+        "image_size": "stretch",
+        "show_cart_bar": true,
+        "enable_zoom": true,
+        "enable_video_looping": true,
+        "mobile_image_style": "slider",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "related": {
+      "type": "related",
+      "blocks": {
+        "related": {
+          "type": "related",
+          "settings": {
+            "product_recommendations_heading": "Måske kunne du også bruge...",
+            "limit": 6
+          }
+        },
+        "recent": {
+          "type": "recent",
+          "settings": {
+            "product_recently_heading": "Tidligere set",
+            "product_recently_limit": 4
+          }
+        }
+      },
+      "block_order": [
+        "related",
+        "recent"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_tabs": true,
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "reviews": {
+      "type": "reviews",
+      "disabled": true,
+      "settings": {
+        "enable_product_reviews": false,
+        "enable_accordion": true,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 30
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related",
+    "reviews"
+  ]
+}

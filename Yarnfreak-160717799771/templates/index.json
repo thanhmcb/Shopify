@@ -1,0 +1,1174 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "section-slideshow",
+      "blocks": {
+        "image_RYaAcV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Forside_52_weeks_of_acc_1.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#383838",
+            "show_overlay_text": false,
+            "title": "52 Weeks of Accessories",
+            "heading_size": 7,
+            "description": "Den smukke nye bog fra Laine",
+            "text_size": 4,
+            "flex_align_desktop": "align--bottom-left-desktop",
+            "flex_align_mobile": "align--top-left-mobile",
+            "bg_color": "",
+            "color": "#ffffff",
+            "first_button_text": "Se mere her",
+            "first_button_link": "shopify:\/\/products\/52-weeks-of-accessories",
+            "first_button_type": "btn--white",
+            "first_button_size": "btn--large",
+            "first_button_style": "btn--outline",
+            "first_button_show_arrow": true,
+            "second_button_text": "",
+            "second_button_link": "",
+            "second_button_type": "btn--white",
+            "second_button_size": "",
+            "second_button_style": "btn--solid",
+            "second_button_show_arrow": false
+          }
+        },
+        "slideshow-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Forside_redesigned.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#383838",
+            "show_overlay_text": false,
+            "title": "RE:DESIGNED PROJECT",
+            "heading_size": 7,
+            "description": "Luksus opbevaring i skind til dine pinde, garn og strikkegear",
+            "text_size": 4,
+            "flex_align_desktop": "align--bottom-left-desktop",
+            "flex_align_mobile": "align--bottom-left-mobile",
+            "bg_color": "",
+            "color": "#ffffff",
+            "first_button_text": "Se mere her",
+            "first_button_link": "shopify:\/\/collections\/all",
+            "first_button_type": "btn--white",
+            "first_button_size": "btn--large",
+            "first_button_style": "btn--outline",
+            "first_button_show_arrow": true,
+            "second_button_text": "",
+            "second_button_link": "",
+            "second_button_type": "btn--white",
+            "second_button_size": "",
+            "second_button_style": "btn--solid",
+            "second_button_show_arrow": false
+          }
+        },
+        "slideshow-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gavekort_4_91bf7c22-f99d-4723-9094-9e60ea73fd86.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#383838",
+            "show_overlay_text": false,
+            "title": "Gavekort til en du holder af",
+            "heading_size": 9,
+            "description": "Her finder du vores gavekort, som du kan bruge online og i vores butik",
+            "text_size": 4,
+            "flex_align_desktop": "align--bottom-left-desktop",
+            "flex_align_mobile": "align--bottom-left-mobile",
+            "bg_color": "",
+            "color": "#383838",
+            "first_button_text": "Se mere",
+            "first_button_link": "shopify:\/\/products\/gift-card",
+            "first_button_type": "btn--primary",
+            "first_button_size": "btn--small",
+            "first_button_style": "btn--outline",
+            "first_button_show_arrow": true,
+            "second_button_text": "",
+            "second_button_link": "",
+            "second_button_type": "btn--white",
+            "second_button_size": "",
+            "second_button_style": "btn--solid",
+            "second_button_show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_RYaAcV",
+        "slideshow-0",
+        "slideshow-1"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full-padded",
+        "transition": "zoom-out",
+        "show_arrows": true,
+        "autoplay": true,
+        "autoplay_speed": 8
+      }
+    },
+    "0bdc5216-bb7d-4bd3-85aa-e3404e77c34e": {
+      "type": "section-announcement",
+      "blocks": {
+        "template--19780313153883__0bdc5216-bb7d-4bd3-85aa-e3404e77c34e-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Afsendelse 1-2 hverdage<\/p>",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "desktop"
+          }
+        },
+        "template--19780313153883__0bdc5216-bb7d-4bd3-85aa-e3404e77c34e-text-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Fri fragt ved køb over 300DKK<\/p>",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "4cad45ed-7836-450c-a7e6-ec960ab23dc7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Bestil online og afhent i butik<\/p>",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "template--19780313153883__0bdc5216-bb7d-4bd3-85aa-e3404e77c34e-text-1",
+        "template--19780313153883__0bdc5216-bb7d-4bd3-85aa-e3404e77c34e-text-2",
+        "4cad45ed-7836-450c-a7e6-ec960ab23dc7"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "marquee",
+        "slider_speed": 5,
+        "text_alignment": "left",
+        "marquee_speed": 75,
+        "direction": "ticker-rtl",
+        "message_spacing": 40,
+        "text_size": 4,
+        "bg_color": "rgba(0,0,0,0)",
+        "color": "",
+        "padding_top": 40,
+        "padding_bottom": 20
+      }
+    },
+    "c002b235-715e-44b0-8501-332a623f66ac": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "template--19903511822683__c002b235-715e-44b0-8501-332a623f66ac-icon-1": {
+          "type": "icon",
+          "settings": {
+            "column_width": 25,
+            "icon_name": "icon-fast-shipment",
+            "icon_size": 30,
+            "icon_alignment": "icon--top",
+            "icon_color": "#545454",
+            "title": "",
+            "heading_size": 3,
+            "text": "<p>Afsendelse 1-2 hverdage<\/p>",
+            "text_size": 3
+          }
+        },
+        "template--19903511822683__c002b235-715e-44b0-8501-332a623f66ac-icon-2": {
+          "type": "icon",
+          "settings": {
+            "column_width": 25,
+            "icon_name": "icon-box",
+            "icon_size": 30,
+            "icon_alignment": "icon--top",
+            "icon_color": "#545454",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>Fri fragt ved køb over 499 DKK<\/p>",
+            "text_size": 3
+          }
+        },
+        "template--19903511822683__c002b235-715e-44b0-8501-332a623f66ac-icon-3": {
+          "type": "icon",
+          "settings": {
+            "column_width": 25,
+            "icon_name": "icon-heart",
+            "icon_size": 30,
+            "icon_alignment": "icon--top",
+            "icon_color": "#545454",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>Bestil online og afhent i butik<\/p>",
+            "text_size": 3
+          }
+        },
+        "41d840e1-822f-47e5-bfd3-96d74e2cb392": {
+          "type": "icon",
+          "settings": {
+            "column_width": 25,
+            "icon_name": "icon-mail",
+            "icon_size": 30,
+            "icon_alignment": "icon--top",
+            "icon_color": "#545454",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>kontakt@yarnfreak.dk<\/p>",
+            "text_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "template--19903511822683__c002b235-715e-44b0-8501-332a623f66ac-icon-1",
+        "template--19903511822683__c002b235-715e-44b0-8501-332a623f66ac-icon-2",
+        "template--19903511822683__c002b235-715e-44b0-8501-332a623f66ac-icon-3",
+        "41d840e1-822f-47e5-bfd3-96d74e2cb392"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "align_text": "text-center",
+        "align_columns": "flex-align-top",
+        "width": "wrapper--full-padded",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 0,
+        "layout_mobile": "carousel"
+      }
+    },
+    "4770d3b1-d906-4474-a58f-eaf55e632d4f": {
+      "type": "section-collections-list",
+      "blocks": {
+        "template--19780313153883__4770d3b1-d906-4474-a58f-eaf55e632d4f-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "project-bags",
+            "collection_image": "shopify:\/\/shop_images\/projekt.tasker.jpg",
+            "title": "Project bags"
+          }
+        },
+        "template--19780313153883__4770d3b1-d906-4474-a58f-eaf55e632d4f-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "pindesaet",
+            "collection_image": "shopify:\/\/shop_images\/forside-kategori-vertical-pindesaet_720x_2138c96a-a447-4f11-a61a-d7ee791ebbdc.jpg",
+            "title": "Pindesæt"
+          }
+        },
+        "template--19780313153883__4770d3b1-d906-4474-a58f-eaf55e632d4f-collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "petiteknit-opskrifter",
+            "collection_image": "shopify:\/\/shop_images\/petiteknit.jpg",
+            "title": "Opskrifter fra PetiteKnit"
+          }
+        },
+        "template--19780313153883__4770d3b1-d906-4474-a58f-eaf55e632d4f-collection-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "boger",
+            "collection_image": "shopify:\/\/shop_images\/boger2.jpg",
+            "title": "Bøger og magasiner"
+          }
+        }
+      },
+      "block_order": [
+        "template--19780313153883__4770d3b1-d906-4474-a58f-eaf55e632d4f-collection-1",
+        "template--19780313153883__4770d3b1-d906-4474-a58f-eaf55e632d4f-collection-2",
+        "template--19780313153883__4770d3b1-d906-4474-a58f-eaf55e632d4f-collection-3",
+        "template--19780313153883__4770d3b1-d906-4474-a58f-eaf55e632d4f-collection-4"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "layout": "grid",
+        "aspect_ratio": 1,
+        "grid": 4,
+        "layout_mobile": "2",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "e515239b-c8ef-407c-bfa2-82e34ec84c5c": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "template--19780313153883__e515239b-c8ef-407c-bfa2-82e34ec84c5c-collection-1": {
+          "type": "collection",
+          "settings": {
+            "title": "Cardiff Cashmere",
+            "featured_collection": "cardiff-cashmere-classic",
+            "show_image": false,
+            "align_with_product_images": false,
+            "image": "shopify:\/\/shop_images\/Terrakotta.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "<h4>Cardiff Cashmere Classic <\/h4><p>Italiensk luksusgarn til pinde 3.5<\/p>",
+            "color": "#ffffff",
+            "link_text": "KØB HER",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "template--19780313153883__e515239b-c8ef-407c-bfa2-82e34ec84c5c-collection-1"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "layout": "stacked",
+        "show_product_count": false,
+        "product_layout": "slider",
+        "layout_mobile": "slider",
+        "product_limit": 12,
+        "grid": 5,
+        "rows": 1,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "b5acfcf7-da68-42d8-9174-980a68bb6409": {
+      "type": "section-collections-list",
+      "blocks": {
+        "f37c9ef8-7ff1-4e6b-baad-03ee7e2020d3": {
+          "type": "collection",
+          "settings": {
+            "collection": "rauma-fivel",
+            "collection_image": "shopify:\/\/shop_images\/fivel_2.jpg",
+            "title": "Rauma Fivel"
+          }
+        },
+        "46fbafc1-76ff-4dbc-8b89-2d03454b2824": {
+          "type": "collection",
+          "settings": {
+            "collection": "sandnes-garn-peer-gynt",
+            "collection_image": "shopify:\/\/shop_images\/peer.gynt_3af57900-1e00-4a31-b25d-2f04bb3050e1.jpg",
+            "title": "Sandnes Garn Peer Gynt"
+          }
+        },
+        "6f2944d5-ccf7-4123-89b5-22f3307ccd96": {
+          "type": "collection",
+          "settings": {
+            "collection": "camarose-snefnug",
+            "collection_image": "shopify:\/\/shop_images\/snefnug.jpg",
+            "title": "CaMaRose Snefnug"
+          }
+        },
+        "2a394f48-5301-4368-8747-f996aae0d296": {
+          "type": "collection",
+          "settings": {
+            "collection": "sandnes-garn-sunday-petiteknit",
+            "collection_image": "shopify:\/\/shop_images\/sunday_3.jpg",
+            "title": "Sandnes Garn Sunday"
+          }
+        },
+        "a5541222-74f5-42ef-93d6-0ec8e26cc066": {
+          "type": "collection",
+          "settings": {
+            "collection": "filcolana-peruvian-highland-wool",
+            "collection_image": "shopify:\/\/shop_images\/peruvian.jpg",
+            "title": "Filcolana Peruvian Highland Wool"
+          }
+        }
+      },
+      "block_order": [
+        "f37c9ef8-7ff1-4e6b-baad-03ee7e2020d3",
+        "46fbafc1-76ff-4dbc-8b89-2d03454b2824",
+        "6f2944d5-ccf7-4123-89b5-22f3307ccd96",
+        "2a394f48-5301-4368-8747-f996aae0d296",
+        "a5541222-74f5-42ef-93d6-0ec8e26cc066"
+      ],
+      "settings": {
+        "title": "Godt basisgarn",
+        "description": "",
+        "layout": "grid",
+        "aspect_ratio": 1,
+        "grid": 5,
+        "layout_mobile": "slider",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "c23c34b6-16fb-4bc7-9b0e-c4ddb70640d0": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "1b2651cf-761b-4457-95c7-fe835a2779b6": {
+          "type": "collection",
+          "settings": {
+            "title": "",
+            "featured_collection": "filcolana-peruvian-highland-wool",
+            "show_image": true,
+            "align_with_product_images": false,
+            "image": "shopify:\/\/shop_images\/filcolana_peruvian_JPG.webp",
+            "overlay_opacity": 10,
+            "overlay_color": "#000000",
+            "description": "<h4>Filcolana Peruvian Highland Wool <\/h4><p>Et alsidigt garn i 67 smukke farver<br\/>          <\/p>",
+            "color": "#ffffff",
+            "link_text": "Vis alle",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
+        },
+        "87123dd5-c0bc-49c4-ac75-dc2491e5e452": {
+          "type": "collection",
+          "settings": {
+            "title": "",
+            "featured_collection": "sandnes-garn-peer-gynt",
+            "show_image": true,
+            "align_with_product_images": false,
+            "image": "shopify:\/\/shop_images\/76E0304A-BE80-4BBC-B16B-93AC8D7D8EA6.jpg",
+            "overlay_opacity": 30,
+            "overlay_color": "#000000",
+            "description": "<h4>Sandnes Garn | Peer Gynt <\/h4><p>Der skal skrives en god beskrivelse her omkring garnet<br\/>          <\/p>",
+            "color": "#ffffff",
+            "link_text": "Vis alle",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
+        },
+        "4d70017b-dd52-49bf-ae23-9b2f4aa367d4": {
+          "type": "collection",
+          "settings": {
+            "title": "",
+            "featured_collection": "sandnes-garn-sunday-petiteknit",
+            "show_image": true,
+            "align_with_product_images": false,
+            "image": "shopify:\/\/shop_images\/557F553A-856B-4A81-9915-33B21EACD146.jpg",
+            "overlay_opacity": 30,
+            "overlay_color": "#000000",
+            "description": "<h4>Sandnes Garn | Sunday Petiteknit<\/h4><p>Der skal skrives en god beskrivelse her omkring garnet<br\/>          <\/p>",
+            "color": "#ffffff",
+            "link_text": "Vis alle",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
+        },
+        "5e68ef0d-8c7a-47eb-a324-fb60325ce844": {
+          "type": "collection",
+          "settings": {
+            "title": "",
+            "featured_collection": "rauma-vams",
+            "show_image": true,
+            "align_with_product_images": false,
+            "image": "shopify:\/\/shop_images\/IMG_8966.jpg",
+            "overlay_opacity": 30,
+            "overlay_color": "#000000",
+            "description": "<h4>Rauma | Vams <\/h4><p>Der skal skrives en god beskrivelse her omkring garnet<br\/>          <\/p>",
+            "color": "#ffffff",
+            "link_text": "Vis alle",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
+        },
+        "da7e5759-06ab-4ef1-b599-21bc7c41dff6": {
+          "type": "collection",
+          "settings": {
+            "title": "",
+            "featured_collection": "noro-silk-garden-sock",
+            "show_image": true,
+            "align_with_product_images": false,
+            "image": "shopify:\/\/shop_images\/DDA8C9EB-B531-41CF-84F2-DE79986E9204.jpg",
+            "overlay_opacity": 30,
+            "overlay_color": "#000000",
+            "description": "<h4>Noro | Silk garden sock<\/h4><p>Der skal skrives en god beskrivelse her omkring garnet<br\/>          <\/p>",
+            "color": "#ffffff",
+            "link_text": "Vis alle",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "1b2651cf-761b-4457-95c7-fe835a2779b6",
+        "87123dd5-c0bc-49c4-ac75-dc2491e5e452",
+        "4d70017b-dd52-49bf-ae23-9b2f4aa367d4",
+        "5e68ef0d-8c7a-47eb-a324-fb60325ce844",
+        "da7e5759-06ab-4ef1-b599-21bc7c41dff6"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Vores favoritkvaliteter",
+        "text": "",
+        "layout": "stacked",
+        "show_product_count": true,
+        "product_layout": "slider",
+        "layout_mobile": "slider",
+        "product_limit": 12,
+        "grid": 4,
+        "rows": 1,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "image-with-text": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/laura_d.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-left",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "shopify:\/\/products\/opskrift-pa-nordic-mix-sweater-fremstrikk",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "subheading": "Laura Dalgaards bidrag til Fremstrikk",
+            "subheading_size": 4,
+            "title": "Nordic Mix Sweater",
+            "heading_size": 7,
+            "text": "<p>\"Jeg var først og fremmest inspireret af garnet, altså Fivel - og jeg fik lyst til at lave et mash-up af forskellige traditionelle mønstre og give det nyt liv\", fortæller Laura. <\/p><p>I processen fandt hun derfor gamle billeder af sweatre i mønsterstrik, som hun først klippede i stykker og herefter satte sammen til en helt ny sweater med forskellige mønstre. <\/p>",
+            "text_size": 3,
+            "button_text": "Køb opskrift og garn her",
+            "button_url": "shopify:\/\/products\/opskrift-pa-nordic-mix-sweater-fremstrikk",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": true,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "#f6f5f1",
+            "color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image",
+        "text"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full-padded",
+        "borders": false,
+        "reverse_blocks": false,
+        "padding_top": 33,
+        "padding_bottom": 32
+      }
+    },
+    "section_tab_collections_pMRN6M": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "collection_AxjDWj": {
+          "type": "collection",
+          "settings": {
+            "title": "Labels til alle anledninger",
+            "featured_collection": "labels",
+            "show_image": false,
+            "align_with_product_images": false,
+            "image": "shopify:\/\/shop_images\/Terrakotta.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "<h4>Cardiff Cashmere Classic <\/h4><p>Italiensk luksusgarn til pinde 3.5<\/p>",
+            "color": "#ffffff",
+            "link_text": "KØB HER",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "collection_AxjDWj"
+      ],
+      "settings": {
+        "title": "Labels til enhver anledning",
+        "text": "",
+        "layout": "stacked",
+        "show_product_count": false,
+        "product_layout": "slider",
+        "layout_mobile": "slider",
+        "product_limit": 12,
+        "grid": 5,
+        "rows": 1,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "4aa3cd59-e2ad-456c-99cb-240ef233cce3": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "3650e953-fa8c-4d6a-aeca-f9fda92f0f07": {
+          "type": "collection",
+          "settings": {
+            "title": "PetiteKnit",
+            "featured_collection": "petiteknit-opskrifter",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 30,
+            "overlay_color": "#000000",
+            "description": "<h4>PetiteKnit  | Opskrifter <\/h4><p>Skriv en beskrivelse her<\/p>",
+            "color": "#ffffff",
+            "link_text": "Vis alle",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "3650e953-fa8c-4d6a-aeca-f9fda92f0f07"
+      ],
+      "settings": {
+        "title": "De nyeste opskrifter fra PetiteKnit",
+        "text": "",
+        "layout": "stacked",
+        "show_product_count": false,
+        "product_layout": "grid",
+        "layout_mobile": "slider",
+        "product_limit": 5,
+        "grid": 5,
+        "rows": 1,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "da41e77f-50d6-4d75-8732-4aac3bafdda6": {
+      "type": "section-custom-content",
+      "blocks": {
+        "template--19903511822683__da41e77f-50d6-4d75-8732-4aac3bafdda6-text-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "Helt ny, smuk farvepalette",
+            "subheading_size": 4,
+            "title": "Rosa Pomar Mondim",
+            "heading_size": 7,
+            "text": "<p>Vores yndlings-strømpegarn, Mondim, er kommet i 14 helt nye melerede farver. <\/p><p>Kender du ikke Mondim, så er det et skønt non-superwash uld, uden nylon, fra portugisiske får.<\/p>",
+            "text_size": 3,
+            "button_text": "Se alle farver her",
+            "button_url": "shopify:\/\/collections\/retrosaria-rosa-pomar-mondim",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": true,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "#f6f5f1",
+            "color": ""
+          }
+        },
+        "template--19903511822683__da41e77f-50d6-4d75-8732-4aac3bafdda6-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Skaermbillede_2024-01-02_kl._8.53.05_PM.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "shopify:\/\/collections\/retrosaria-rosa-pomar-mondim",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19903511822683__da41e77f-50d6-4d75-8732-4aac3bafdda6-text-1",
+        "template--19903511822683__da41e77f-50d6-4d75-8732-4aac3bafdda6-image-1"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "reverse_blocks": true,
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "b4d366fb-81ea-4c3e-95db-2b70a6c59577": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--19780313153883__b4d366fb-81ea-4c3e-95db-2b70a6c59577-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Særligt udvalgte brands",
+            "text_size": 5
+          }
+        },
+        "template--19780313153883__b4d366fb-81ea-4c3e-95db-2b70a6c59577-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Vi sælger alt det garn vi selv holder allermest af - fra danske og udenlandske leverandører<\/p>",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--19780313153883__b4d366fb-81ea-4c3e-95db-2b70a6c59577-heading-1",
+        "template--19780313153883__b4d366fb-81ea-4c3e-95db-2b70a6c59577-text-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "rgba(0,0,0,0)",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    },
+    "f90563f7-b862-46c6-8c1f-db48a79c5763": {
+      "type": "section-collections-list",
+      "blocks": {
+        "template--19780313153883__f90563f7-b862-46c6-8c1f-db48a79c5763-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "la-bien-aimee",
+            "collection_image": "shopify:\/\/shop_images\/Logo_LBA_33c72f69-bcb9-4e6e-8ceb-bc67fda39a15.jpg",
+            "title": ""
+          }
+        },
+        "template--19780313153883__f90563f7-b862-46c6-8c1f-db48a79c5763-collection-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "madelinetosh",
+            "collection_image": "shopify:\/\/shop_images\/Logo_Madelinetosh_d93aa51f-0f46-47ef-821e-75a34e04901b.jpg",
+            "title": ""
+          }
+        },
+        "template--19780313153883__f90563f7-b862-46c6-8c1f-db48a79c5763-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "sandnes-garn",
+            "collection_image": "shopify:\/\/shop_images\/Logo_Sandnes_9bcad073-631a-4f25-9f20-5835c313174b.jpg",
+            "title": ""
+          }
+        },
+        "template--19780313153883__f90563f7-b862-46c6-8c1f-db48a79c5763-collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "rauma-garn",
+            "collection_image": "shopify:\/\/shop_images\/Logo_Rauma_e37394dd-d0df-4e36-a069-8253945a1bd4.jpg",
+            "title": ""
+          }
+        },
+        "8602a60e-7777-4307-93e3-7094b016aed3": {
+          "type": "collection",
+          "settings": {
+            "collection": "noro-yarns",
+            "collection_image": "shopify:\/\/shop_images\/Logo_Noro_79d04089-fd88-4e79-b777-02dd00c85fbd.jpg",
+            "title": ""
+          }
+        },
+        "197da5e8-0353-4f80-999f-af90c27a1d69": {
+          "type": "collection",
+          "settings": {
+            "collection": "filcolana",
+            "collection_image": "shopify:\/\/shop_images\/Logo_filcolana_5b25a61f-3a02-4ac0-bcc9-5153c151f777.jpg",
+            "title": ""
+          }
+        },
+        "8a7883f8-f7ae-4a49-b9e2-8c2ea2d3ae50": {
+          "type": "collection",
+          "settings": {
+            "collection": "cardiff-cashmere",
+            "collection_image": "shopify:\/\/shop_images\/Logo_Cardiff_670d6455-0156-4547-a5f7-a254b03ec784.jpg",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19780313153883__f90563f7-b862-46c6-8c1f-db48a79c5763-collection-2",
+        "template--19780313153883__f90563f7-b862-46c6-8c1f-db48a79c5763-collection-4",
+        "template--19780313153883__f90563f7-b862-46c6-8c1f-db48a79c5763-collection-1",
+        "template--19780313153883__f90563f7-b862-46c6-8c1f-db48a79c5763-collection-3",
+        "8602a60e-7777-4307-93e3-7094b016aed3",
+        "197da5e8-0353-4f80-999f-af90c27a1d69",
+        "8a7883f8-f7ae-4a49-b9e2-8c2ea2d3ae50"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "layout": "slider",
+        "aspect_ratio": 1,
+        "grid": 6,
+        "layout_mobile": "slider",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "tabs": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "tabs-0": {
+          "type": "collection",
+          "settings": {
+            "title": "",
+            "featured_collection": "boger",
+            "show_image": false,
+            "align_with_product_images": false,
+            "image": "shopify:\/\/shop_images\/forside-kategori-vertical-boger_720x_d13e15a0-a87b-4451-a25b-e71ec969db50.jpg",
+            "overlay_opacity": 30,
+            "overlay_color": "#000000",
+            "description": "<h4>Bøger og magasiner<\/h4><p>Her finder du vores store udvalg af bøger indenfor skrik o ggarn universet<\/p>",
+            "color": "#ffffff",
+            "link_text": "Vis alle",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "tabs-0"
+      ],
+      "settings": {
+        "title": "Vores egne favoritbøger",
+        "text": "",
+        "layout": "stacked",
+        "show_product_count": false,
+        "product_layout": "slider",
+        "layout_mobile": "slider",
+        "product_limit": 12,
+        "grid": 4,
+        "rows": 3,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "69913ec9-d7b1-43f5-9da4-6dd8cae27259": {
+      "type": "section-collection",
+      "disabled": true,
+      "settings": {
+        "heading": "Udsalg",
+        "description": "",
+        "layout": "inline",
+        "link_text": "Vis alle",
+        "link_url": "",
+        "button_type": "btn--primary",
+        "button_size": "btn--large",
+        "button_style": "btn--text",
+        "show_arrow": false,
+        "featured_collection": "udsalg",
+        "style": "slider",
+        "grid": 4,
+        "rows": 3,
+        "width": "wrapper",
+        "layout_mobile": "carousel",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "7f96ee35-bef6-427b-a780-2201db5b989a": {
+      "type": "section-collections-list-hover",
+      "blocks": {
+        "template--19780313153883__7f96ee35-bef6-427b-a780-2201db5b989a-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/filcolana_peruvian_JPG.webp",
+            "title": "Uld"
+          }
+        },
+        "template--19780313153883__7f96ee35-bef6-427b-a780-2201db5b989a-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/shutterstock_91330928.jpg",
+            "title": "Alpaca"
+          }
+        },
+        "dbb8236d-3f1c-47d7-b922-ab9c84ed326d": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/365673611_302369022470444_5066163541287235783_n.jpg",
+            "title": "Cashmere"
+          }
+        },
+        "fb597148-68a8-4371-9aa3-bdf8bceaff79": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/BEAEDADF-2A4D-43FF-BB94-82481D9E968A.jpg",
+            "title": "Mohair"
+          }
+        },
+        "ab1323b8-70d0-4218-905c-1997bcc0922f": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/IMG_7177_f7518300-8398-4482-b730-7f004feea17e.jpg",
+            "title": "Håndfarvet garn"
+          }
+        }
+      },
+      "block_order": [
+        "template--19780313153883__7f96ee35-bef6-427b-a780-2201db5b989a-collection-1",
+        "template--19780313153883__7f96ee35-bef6-427b-a780-2201db5b989a-collection-2",
+        "dbb8236d-3f1c-47d7-b922-ab9c84ed326d",
+        "fb597148-68a8-4371-9aa3-bdf8bceaff79",
+        "ab1323b8-70d0-4218-905c-1997bcc0922f"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "screen-height-two-thirds",
+        "mobile_height": "screen-height-one-half--mobile",
+        "overlay_opacity": 30,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "heading_size": 7,
+        "bg_color": "",
+        "color": "#ffffff",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "section_rich_text_3kfwqx": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_QWxanK": {
+          "type": "heading",
+          "settings": {
+            "title": "Ses vi på instagram?",
+            "text_size": 5
+          }
+        }
+      },
+      "block_order": [
+        "heading_QWxanK"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "rgba(0,0,0,0)",
+        "color": "",
+        "padding_top": 26,
+        "padding_bottom": 26
+      }
+    },
+    "169644671948586b0a": {
+      "type": "apps",
+      "blocks": {
+        "e4ad99cc-b902-4251-b50b-343e85fed4f8": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "alignment": "center",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "e4ad99cc-b902-4251-b50b-343e85fed4f8"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "section_divider_GQ8eqH": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 25,
+        "padding_bottom": 25
+      }
+    },
+    "8fab1aa8-c3f1-4620-9e39-18ee156876d6": {
+      "type": "section-double",
+      "blocks": {
+        "template--19780313153883__8fab1aa8-c3f1-4620-9e39-18ee156876d6-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "",
+            "text_size": 3
+          }
+        },
+        "template--19780313153883__8fab1aa8-c3f1-4620-9e39-18ee156876d6-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Besøg butikken i Aarhus",
+            "text_size": 8
+          }
+        },
+        "template--19780313153883__8fab1aa8-c3f1-4620-9e39-18ee156876d6-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Kom forbi Yarnfreak og oplev vores farverige univers med håndfarvet garn og lækkert strik og hækleri.<\/p><p><\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "template--19780313153883__8fab1aa8-c3f1-4620-9e39-18ee156876d6-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Læs mere",
+            "button_url": "shopify:\/\/pages\/om-yarnfreak",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "template--19780313153883__8fab1aa8-c3f1-4620-9e39-18ee156876d6-subheading-1",
+        "template--19780313153883__8fab1aa8-c3f1-4620-9e39-18ee156876d6-heading-1",
+        "template--19780313153883__8fab1aa8-c3f1-4620-9e39-18ee156876d6-text-1",
+        "template--19780313153883__8fab1aa8-c3f1-4620-9e39-18ee156876d6-buttons-1"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "screen-height-two-thirds",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/yarnfreak-butik-02-transformed.webp",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "bg_color": "#f3f3f3",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "lookbook": {
+      "type": "section-look",
+      "blocks": {
+        "lookbook-0": {
+          "type": "product",
+          "settings": {
+            "product": "opskrift-pa-moby-sweater",
+            "position_x": 43,
+            "position_y": 43
+          }
+        },
+        "lookbook-1": {
+          "type": "product",
+          "settings": {
+            "product": "double-sunday-petiteknit-whipped-cream-1012",
+            "position_x": 61,
+            "position_y": 56
+          }
+        },
+        "e71947b2-7057-4588-8860-96a0d25c730a": {
+          "type": "product",
+          "settings": {
+            "product": "tynn-silk-mohair-natur-1012",
+            "position_x": 50,
+            "position_y": 80
+          }
+        }
+      },
+      "block_order": [
+        "lookbook-0",
+        "lookbook-1",
+        "e71947b2-7057-4588-8860-96a0d25c730a"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "",
+        "title": "Shop the look",
+        "show_dots": true,
+        "products_per_row": "2",
+        "enable_aspect_ratio": false,
+        "image_aspect_ratio": 1,
+        "button_type": "btn--white",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "bg_color": "",
+        "color": "",
+        "dot_color": "#383838",
+        "dot_background": "",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "0bdc5216-bb7d-4bd3-85aa-e3404e77c34e",
+    "c002b235-715e-44b0-8501-332a623f66ac",
+    "4770d3b1-d906-4474-a58f-eaf55e632d4f",
+    "e515239b-c8ef-407c-bfa2-82e34ec84c5c",
+    "b5acfcf7-da68-42d8-9174-980a68bb6409",
+    "c23c34b6-16fb-4bc7-9b0e-c4ddb70640d0",
+    "image-with-text",
+    "section_tab_collections_pMRN6M",
+    "4aa3cd59-e2ad-456c-99cb-240ef233cce3",
+    "da41e77f-50d6-4d75-8732-4aac3bafdda6",
+    "b4d366fb-81ea-4c3e-95db-2b70a6c59577",
+    "f90563f7-b862-46c6-8c1f-db48a79c5763",
+    "tabs",
+    "69913ec9-d7b1-43f5-9da4-6dd8cae27259",
+    "7f96ee35-bef6-427b-a780-2201db5b989a",
+    "section_rich_text_3kfwqx",
+    "169644671948586b0a",
+    "section_divider_GQ8eqH",
+    "8fab1aa8-c3f1-4620-9e39-18ee156876d6",
+    "lookbook"
+  ]
+}
