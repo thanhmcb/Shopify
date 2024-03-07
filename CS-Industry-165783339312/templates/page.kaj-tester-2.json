@@ -1,0 +1,54 @@
+{
+  "sections": {
+    "0b4056f9-ff3e-4072-b483-40e39e5c4f39": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18836617953584__0b4056f9-ff3e-4072-b483-40e39e5c4f39-1685093767b3e2e52c-0": {
+          "type": "image",
+          "settings": {
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "",
+            "title": "KAJ Tester",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18836617953584__0b4056f9-ff3e-4072-b483-40e39e5c4f39-1685093767b3e2e52c-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "md",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#000000",
+        "background_gradient": ""
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    }
+  },
+  "order": [
+    "0b4056f9-ff3e-4072-b483-40e39e5c4f39",
+    "main"
+  ]
+}

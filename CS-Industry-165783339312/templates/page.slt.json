@@ -1,0 +1,435 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "3e7dc412-585b-499a-9f9f-d213ad19b2ae": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18735408939312__3e7dc412-585b-499a-9f9f-d213ad19b2ae-168138351266b6bd17-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CeramicSpeed_SLT_Cheese_Manufacturing.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center-start text-start",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "The Best Weapon Against Bearing Failure",
+            "title": "{{ page.metafields.custom.sidetitel.value }}",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#fafafa",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18735408939312__3e7dc412-585b-499a-9f9f-d213ad19b2ae-168138351266b6bd17-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "lg",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "1702287659872553e8": {
+      "type": "apps",
+      "blocks": {
+        "cc5d42e7-2645-43dc-85fb-84917bc4e810": {
+          "type": "shopify:\/\/apps\/ez-add-breadcrumbs\/blocks\/app-block\/457dc635-4337-4779-8f31-361dd27778c8",
+          "settings": {
+            "show_breadcrumbs": true,
+            "color": "#000000",
+            "horizontal_alignment": "left",
+            "fontsize": 15,
+            "breadcrumb_font": "helvetica_n4",
+            "marginleft": 0,
+            "margintop": 0,
+            "marginright": 0,
+            "marginbottom": 0,
+            "show_home_link": false,
+            "home_page": "Home",
+            "home_url": "\/",
+            "all_uppercase": false,
+            "use_slider": false,
+            "article_use_tag": true,
+            "separator": "<span> › <\/span>",
+            "css_tablet": "\/* font-family: Helvetica; *\/",
+            "css_mobile": "\/* font-family: Helvetica; *\/",
+            "custom_css": "\/* font-family: Helvetica; *\/",
+            "css_last_crumb": "\/* font-weight: medium; *\/",
+            "css_hover": "\/* text-decoration-line: underline; *\/",
+            "menus": "*"
+          }
+        }
+      },
+      "block_order": [
+        "cc5d42e7-2645-43dc-85fb-84917bc4e810"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "2411d344-c299-4a72-b10e-c244bb673217": {
+      "type": "multi-column",
+      "blocks": {
+        "template--19264571113776__2411d344-c299-4a72-b10e-c244bb673217-168490937767ec2ca1-1": {
+          "type": "item",
+          "settings": {
+            "image": "{{ page.metafields.custom.pdf_1.value }}",
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--19264571113776__2411d344-c299-4a72-b10e-c244bb673217-168490937767ec2ca1-0": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "{{ page.metafields.custom.broedtekst | metafield_tag }}",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--19264571113776__2411d344-c299-4a72-b10e-c244bb673217-168490937767ec2ca1-1",
+        "template--19264571113776__2411d344-c299-4a72-b10e-c244bb673217-168490937767ec2ca1-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "gap": "small",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "0c6fbbcb-f1ab-48d2-8b50-7d16cf1d0950": {
+      "type": "multi-column",
+      "blocks": {
+        "0045358d-fa10-4b60-a71b-809eb51af850": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "4"
+          }
+        },
+        "template--19265942421808__0c6fbbcb-f1ab-48d2-8b50-7d16cf1d0950-1684918020f05b1b5d-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/599a14e179b74cdbad6b2b8b8b074b06f67a69fc.png",
+            "column_size": "1.5",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "887ae5c8-4190-4ebe-8fb5-167920fd017e": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "4"
+          }
+        }
+      },
+      "block_order": [
+        "0045358d-fa10-4b60-a71b-809eb51af850",
+        "template--19265942421808__0c6fbbcb-f1ab-48d2-8b50-7d16cf1d0950-1684918020f05b1b5d-0",
+        "887ae5c8-4190-4ebe-8fb5-167920fd017e"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "889d0599-8f68-4f96-8242-61e9c37ef985": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--19265942421808__889d0599-8f68-4f96-8242-61e9c37ef985-1687940134b60da42e-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--19265942421808__889d0599-8f68-4f96-8242-61e9c37ef985-1687940134b60da42e-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "template--19265942421808__889d0599-8f68-4f96-8242-61e9c37ef985-1687940134b60da42e-2": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19265942421808__889d0599-8f68-4f96-8242-61e9c37ef985-1687940134b60da42e-0",
+        "template--19265942421808__889d0599-8f68-4f96-8242-61e9c37ef985-1687940134b60da42e-1",
+        "template--19265942421808__889d0599-8f68-4f96-8242-61e9c37ef985-1687940134b60da42e-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/599a14e179b74cdbad6b2b8b8b074b06f67a69fc.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "cfe5935b-5167-41ae-9eef-bdba57960f45": {
+      "type": "media-grid",
+      "blocks": {
+        "template--19265942421808__cfe5935b-5167-41ae-9eef-bdba57960f45-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JG_210323_CeramicSpeed_0047R.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--19265942421808__cfe5935b-5167-41ae-9eef-bdba57960f45-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JG_210323_CeramicSpeed_0140R.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--19265942421808__cfe5935b-5167-41ae-9eef-bdba57960f45-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JG_210323_CeramicSpeed_0155R.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "c2e29098-2a0f-483a-9f29-7585d54367b6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JG_210323_CeramicSpeed_0036R.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--19265942421808__cfe5935b-5167-41ae-9eef-bdba57960f45-image-1",
+        "template--19265942421808__cfe5935b-5167-41ae-9eef-bdba57960f45-image-2",
+        "template--19265942421808__cfe5935b-5167-41ae-9eef-bdba57960f45-image-3",
+        "c2e29098-2a0f-483a-9f29-7585d54367b6"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "d54270e8-b633-4b8e-baba-748d90935ae1": {
+      "type": "custom-html",
+      "custom_css": [
+        "table td {border: 1px solid rgb(var(--border-color)); padding: 20px 10px; padding-left: 20px;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<table class=\"ccpops-table\" style=\"border-collapse: collapse; width: 90.9664%; height: 239.141px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 25.0391px;\">\n<td style=\"height: 25.0391px; width: 99.8987%; text-align: center;\" colspan=\"2\"><span style=\"color: #000000; font-family: arial, helvetica, sans-serif; font-size: 16px;\">Technical Specifications<\/span><\/td>\n<\/tr>\n<tr style=\"height: 23.7891px;\">\n<td style=\"width: 40.1578%; height: 23.7891px;\"><span style=\"font-family: arial, helvetica, sans-serif;\">Base oil viscosity at 40ºC (105F)<\/span><\/td>\n<td style=\"width: 40.7408%; height: 23.7891px;\"><span style=\"font-family: arial, helvetica, sans-serif;\">220 c St<\/span><\/td>\n<\/tr>\n<tr style=\"height: 23.7891px;\">\n<td style=\"width: 40.1578%; height: 23.7891px;\"><span style=\"font-family: arial, helvetica, sans-serif;\">NSF H1 Food Grade<\/span><\/td>\n<td style=\"width: 40.7408%; height: 23.7891px;\"><span style=\"font-family: arial, helvetica, sans-serif;\">Yes<\/span><\/td>\n<\/tr>\n<tr style=\"height: 23.7891px;\">\n<td style=\"width: 40.1578%; height: 23.7891px;\"><span style=\"font-family: arial, helvetica, sans-serif;\">MOH\/MOSH\/MOAH free<\/span><\/td>\n<td style=\"width: 40.7408%; height: 23.7891px;\"><span style=\"font-family: arial, helvetica, sans-serif;\">Yes<\/span><\/td>\n<\/tr>\n<tr style=\"height: 23.7891px;\">\n<td style=\"width: 44.1578%; height: 23.7891px;\"><span style=\"font-family: arial, helvetica, sans-serif;\">Operating temperature (ºC\/F)<\/span><\/td>\n<td style=\"width: 40.7408%; height: 23.7891px;\"> <\/td>\n<\/tr>\n<tr style=\"height: 23.7891px;\">\n<td style=\"width: 44.1578%; height: 23.7891px;\"><span style=\"font-family: arial, helvetica, sans-serif;\">Maximum continuous<\/span><\/td>\n<td style=\"width: 40.7408%; height: 23.7891px;\"><span style=\"font-family: arial, helvetica, sans-serif;\">85ºC \/ 185F<\/span><\/td>\n<\/tr>\n<tr style=\"height: 23.7891px;\">\n<td style=\"width: 44.1578%; height: 23.7891px;\"><span style=\"font-family: arial, helvetica, sans-serif;\">Minimum start-up temperatures<\/span><\/td>\n<td style=\"width: 40.7408%; height: 23.7891px;\"><span style=\"font-family: arial, helvetica, sans-serif;\">-25ºC \/ -15F<\/span><\/td>\n<\/tr>\n<tr style=\"height: 23.7891px;\">\n<td style=\"width: 44.1578%; height: 23.7891px;\"><span style=\"font-family: arial, helvetica, sans-serif;\">Maximum intermittent<\/span><\/td>\n<td style=\"width: 55.7408%; height: 23.7891px;\"><span style=\"font-family: arial, helvetica, sans-serif;\">95ºC \/205F<\/span><\/td>\n<\/tr>\n<tr style=\"height: 23.7891px;\">\n<td style=\"width: 44.1578%; height: 23.7891px;\"><span style=\"font-family: arial, helvetica, sans-serif;\">Relubrication Free<\/span><\/td>\n<td style=\"width: 55.7408%; height: 23.7891px;\"><span style=\"font-family: arial, helvetica, sans-serif;\">Yes<\/span><\/td>\n<\/tr>\n<tr style=\"height: 23.7891px;\">\n<td style=\"width: 44.1578%; height: 23.7891px;\"><span style=\"font-family: arial, helvetica, sans-serif;\">Recommended maximum speed<\/span><\/td>\n<td style=\"width: 55.7408%; height: 23.7891px;\"><span style=\"font-family: arial, helvetica, sans-serif;\">40.000\/dm where dm = 0,5 (d+D) mm<\/span><\/td>\n<\/tr>\n<\/tbody>\n<\/table>\n<p> <\/p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "8c517fc6-04cc-4c15-bca9-29ee7bf0e10d": {
+      "type": "slideshow",
+      "blocks": {
+        "template--19265942421808__8c517fc6-04cc-4c15-bca9-29ee7bf0e10d-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JG_210323_CeramicSpeed_0047R.jpg",
+            "content_max_width": 700,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "template--19265942421808__8c517fc6-04cc-4c15-bca9-29ee7bf0e10d-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JG_210323_CeramicSpeed_0140R.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Tell your story",
+            "title": "Slide 2",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19265942421808__8c517fc6-04cc-4c15-bca9-29ee7bf0e10d-image-1",
+        "template--19265942421808__8c517fc6-04cc-4c15-bca9-29ee7bf0e10d-image-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3e7dc412-585b-499a-9f9f-d213ad19b2ae",
+    "1702287659872553e8",
+    "2411d344-c299-4a72-b10e-c244bb673217",
+    "0c6fbbcb-f1ab-48d2-8b50-7d16cf1d0950",
+    "889d0599-8f68-4f96-8242-61e9c37ef985",
+    "cfe5935b-5167-41ae-9eef-bdba57960f45",
+    "d54270e8-b633-4b8e-baba-748d90935ae1",
+    "8c517fc6-04cc-4c15-bca9-29ee7bf0e10d"
+  ]
+}

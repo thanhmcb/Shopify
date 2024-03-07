@@ -1,0 +1,141 @@
+{
+  "sections": {
+    "d1558fe2_1702295386": {
+      "type": "powr-popup",
+      "settings": {}
+    },
+    "banner": {
+      "type": "collection-banner",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": true,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "collection_title_size": "h0",
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/71730fe4b97f06f6166f43121ddde23e2506b110.webp",
+        "mobile_text_position": "place-self-center-start text-start",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "sub_image_background": "#000000",
+        "sub_image_width": 330,
+        "featured_product": "",
+        "featured_product_heading": "Featured product",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "sub_collections_mcb_fXjWwN": {
+      "type": "sub-collections-mcb",
+      "blocks": {
+        "item_QLeCiR": {
+          "type": "item",
+          "repeater": "{{ collection.metafields.custom.subcollections.value }}",
+          "settings": {
+            "image": "{{ block.repeater.image.value }}",
+            "stretch_image": true,
+            "link_text": "{{ block.repeater.link_text.value }}",
+            "link_url_collection": "{{ block.repeater.collection.value }}",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_QLeCiR"
+      ],
+      "settings": {
+        "full_width": false,
+        "stack_image": false,
+        "grid-gap": 20,
+        "block_size": "medium",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "blocks": {
+        "item_nqe3pP": {
+          "type": "item",
+          "settings": {
+            "title": "d",
+            "liquid": "",
+            "option_value_metafield": "custom_erp.bore_diameter"
+          }
+        },
+        "item_3aftB4": {
+          "type": "item",
+          "settings": {
+            "title": "D [mm]",
+            "liquid": "",
+            "option_value_metafield": "custom_erp.outside_diameter"
+          }
+        },
+        "item_LbBL4q": {
+          "type": "item",
+          "settings": {
+            "title": "B",
+            "liquid": "",
+            "option_value_metafield": "custom_erp.width"
+          }
+        },
+        "item_rikNKG": {
+          "type": "item",
+          "settings": {
+            "title": "C [kN]",
+            "liquid": "",
+            "option_value_metafield": "custom_erp.load_rating_dynamic"
+          }
+        },
+        "item_xUxYgj": {
+          "type": "item",
+          "settings": {
+            "title": "(C0)",
+            "liquid": "(C<span class=\"small\">0<\/span>)",
+            "option_value_metafield": "custom_erp.load_rating_static"
+          }
+        }
+      },
+      "block_order": [
+        "item_nqe3pP",
+        "item_3aftB4",
+        "item_LbBL4q",
+        "item_rikNKG",
+        "item_xUxYgj"
+      ],
+      "settings": {
+        "hide_sold_out_variants": true,
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "filter_layout": "horizontal",
+        "show_sort_by": false,
+        "show_filters": true,
+        "show_filter_group_name": false,
+        "show_color_swatch": true,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": true,
+        "open_first_filter_group": false
+      }
+    }
+  },
+  "order": [
+    "d1558fe2_1702295386",
+    "banner",
+    "sub_collections_mcb_fXjWwN",
+    "main"
+  ]
+}

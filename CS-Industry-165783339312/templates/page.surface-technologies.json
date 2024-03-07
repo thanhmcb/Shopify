@@ -1,0 +1,495 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "3e7dc412-585b-499a-9f9f-d213ad19b2ae": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18735408939312__3e7dc412-585b-499a-9f9f-d213ad19b2ae-168138351266b6bd17-0": {
+          "type": "image",
+          "settings": {
+            "image": "{{ page.metafields.custom.top_billede.value }}",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center-start text-start",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "",
+            "title": "{{ page.metafields.custom.sidetitel.value }}",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#fafafa",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18735408939312__3e7dc412-585b-499a-9f9f-d213ad19b2ae-168138351266b6bd17-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "lg",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "170228772504e456f1": {
+      "type": "apps",
+      "blocks": {
+        "178a8fea-ee34-4aa6-8238-dd66b4ecae9e": {
+          "type": "shopify:\/\/apps\/ez-add-breadcrumbs\/blocks\/app-block\/457dc635-4337-4779-8f31-361dd27778c8",
+          "settings": {
+            "show_breadcrumbs": true,
+            "color": "#000000",
+            "horizontal_alignment": "left",
+            "fontsize": 15,
+            "breadcrumb_font": "din_next_n4",
+            "marginleft": 0,
+            "margintop": 0,
+            "marginright": 0,
+            "marginbottom": 0,
+            "show_home_link": false,
+            "home_page": "Home",
+            "home_url": "\/",
+            "all_uppercase": false,
+            "use_slider": false,
+            "article_use_tag": true,
+            "separator": "<span> › <\/span>",
+            "css_tablet": "\/* font-family: Helvetica; *\/",
+            "css_mobile": "\/* font-family: Helvetica; *\/",
+            "custom_css": "\/* font-family: Helvetica; *\/",
+            "css_last_crumb": "\/* font-weight: medium; *\/",
+            "css_hover": "\/* text-decoration-line: underline; *\/",
+            "menus": "*"
+          }
+        }
+      },
+      "block_order": [
+        "178a8fea-ee34-4aa6-8238-dd66b4ecae9e"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "8267439a-98a8-4b9a-9ba0-1c04b204f1de": {
+      "type": "multi-column",
+      "blocks": {
+        "365334f8-59a1-4eac-a489-0e3e0479cdc5": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
+        "2fae7327-7a6d-4db4-95f5-b2217f02777b": {
+          "type": "item",
+          "settings": {
+            "column_size": "1.5",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p>The industry’s demand for extremely varied technical surface technologies has been increasing over the last couple of years. The overall performance and reliability of machines, units, and equipment are becoming more and more important which has led to the development of a variety of processes and new materials for surface treatment. At CeramicSpeed we offer four kinds of surface treatments:<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "365334f8-59a1-4eac-a489-0e3e0479cdc5",
+        "2fae7327-7a6d-4db4-95f5-b2217f02777b"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "663f4373-eede-4a7a-923e-776e464dcc5d": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "template--19294607606064__663f4373-eede-4a7a-923e-776e464dcc5d-16891582872518af71-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/248c80a0fc1c15a077360b71cd3012d62cfb912f.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Black Oxide",
+            "content": "<p>Black Oxide treatment is an old technology often associated with initial wear protection or run-in protection. Recent studies have shown that black oxidizing also has a positive effect on bearing steel in regards to hydrogen embrittlement and white etching crack building in bearing steel. As oxidizing is a simple and inexpensive process, this offers a straightforward solution to improving safety margins for many bearing applications<\/p>"
+          }
+        },
+        "template--19294607606064__663f4373-eede-4a7a-923e-776e464dcc5d-16891582872518af71-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ac1f2a5b7b8db825eafe9bf7c6cb60cc3ca01e93.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "HardCoat",
+            "content": "<p>This coating is within the family of DLC coatings, an ideal solution for demanding applications where bearing components are under high loads or subject to extreme friction and wear. The high hardness and low coefficient of friction can prevent rolling elements from pitting, seizing, and ultimately failing during operation.<\/p>"
+          }
+        },
+        "fa22c554-0cba-4499-8c1f-46c71ff41b49": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/69a63cd0ac8e3003918b86c0182ad965e48ac2fe.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "CorroCoat",
+            "content": "<p>Our CorroCoat system consists of 98% pure chrome. A chromium coating has many advantages, and it can be deposited by a high-energy process for any steel that is suitable for coating. The hardness of this coating system is between 75 and 78 HRC (1300-1560 HV).<\/p>"
+          }
+        },
+        "faf6f1d0-4673-4575-b136-2b776463c029": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/b0dd2c6e3d1a715528526565296b21723d2edc1c.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "SlipCoat",
+            "content": "<p>CeramicSpeed SlipCoat is a technology allowing for safe running without oil or grease in the bearing under certain conditions. This allows for longer bearing life in environments where oils or greases are not allowed – typically due to the risk of contaminating the processed media.<\/p><p>SlipCoat is FDA \/ EN1935 approved for incidental food contact.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19294607606064__663f4373-eede-4a7a-923e-776e464dcc5d-16891582872518af71-0",
+        "template--19294607606064__663f4373-eede-4a7a-923e-776e464dcc5d-16891582872518af71-1",
+        "fa22c554-0cba-4499-8c1f-46c71ff41b49",
+        "faf6f1d0-4673-4575-b136-2b776463c029"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "2411d344-c299-4a72-b10e-c244bb673217": {
+      "type": "multi-column",
+      "blocks": {
+        "template--19264571113776__2411d344-c299-4a72-b10e-c244bb673217-168490937767ec2ca1-0": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "{{ page.metafields.custom.broedtekst | metafield_tag }}",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--19264571113776__2411d344-c299-4a72-b10e-c244bb673217-168490937767ec2ca1-1": {
+          "type": "item",
+          "settings": {
+            "image": "{{ page.metafields.custom.pdf_1.value }}",
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--19264571113776__2411d344-c299-4a72-b10e-c244bb673217-168490937767ec2ca1-0",
+        "template--19264571113776__2411d344-c299-4a72-b10e-c244bb673217-168490937767ec2ca1-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "small",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "265c539d-ac53-4507-a81b-6017c4dc5258": {
+      "type": "multi-column",
+      "blocks": {
+        "template--19264571113776__265c539d-ac53-4507-a81b-6017c4dc5258-168491219134c9bdc6-2": {
+          "type": "item",
+          "settings": {
+            "image": "{{ page.metafields.custom.pdf_2.value }}",
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--19264571113776__265c539d-ac53-4507-a81b-6017c4dc5258-168491219134c9bdc6-1": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "{{ page.metafields.custom.accordion_broedtekst | metafield_tag }}",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--19264571113776__265c539d-ac53-4507-a81b-6017c4dc5258-168491219134c9bdc6-2",
+        "template--19264571113776__265c539d-ac53-4507-a81b-6017c4dc5258-168491219134c9bdc6-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "a1f0871b-a182-4d4e-b546-dfd446179f94": {
+      "type": "multi-column",
+      "blocks": {
+        "0d354f20-24b5-4fc0-8960-ba2cfae876c3": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "{{ page.metafields.custom.accordion_broedtekst_2 | metafield_tag }}",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "ce7a43e4-35e3-4d9a-87bd-8d38656d7a56": {
+          "type": "item",
+          "settings": {
+            "image": "{{ page.metafields.custom.pdf_3.value }}",
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "0d354f20-24b5-4fc0-8960-ba2cfae876c3",
+        "ce7a43e4-35e3-4d9a-87bd-8d38656d7a56"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "60bcd317-8743-4ad9-bea9-56011fbb7036": {
+      "type": "multi-column",
+      "blocks": {
+        "c327ffec-b1f4-4d58-84c8-984785ef0ca8": {
+          "type": "item",
+          "settings": {
+            "image": "{{ page.metafields.custom.pdf_4.value }}",
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "b930a304-d05b-48f1-a42f-3e066d290453": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "{{ page.metafields.custom.afsluttende_tekst | metafield_tag }}",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "c327ffec-b1f4-4d58-84c8-984785ef0ca8",
+        "b930a304-d05b-48f1-a42f-3e066d290453"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "a8d9106c-49dd-4b40-ad8c-4708c016d788": {
+      "type": "multi-column",
+      "blocks": {
+        "9d5572d9-47ac-4d1a-b621-44ee4b08eb7e": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
+        "955f226b-203c-4d2f-b9f2-f7486f98ad1f": {
+          "type": "item",
+          "settings": {
+            "column_size": "1.5",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p>Many advantages can be achieved by coating the material surface of e.g., rolling bearings and linear components, however, many coating processes are not suitable for situations in which rolling or compressive stress occurs - but our coating system is created for this. <\/p><p> <\/p><p>Our coating system protects the surface from external environmental conditions and increases the durability of bearing rollers, races, or other wear parts’ durability. This type of coating also results in extremely good rolling capacity especially if it’s used on rolling bearings which results in supreme protection against wear and corrosion.<\/p><p> <\/p><p>CeramicSpeed Coating protects the surface, but the technical improvement involved in this process also leads to energy savings and efficient use of material. Any steel suitable for rolling bearings may be used as the basic material to be coated e.g.  100Cr6 (1.3505) steel. But the coating is also very beneficial if you use AISI 440C (1.4125) corrosion-resistant steel or AISIM50 (1.3551).<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "9d5572d9-47ac-4d1a-b621-44ee4b08eb7e",
+        "955f226b-203c-4d2f-b9f2-f7486f98ad1f"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "588cca5f-9cda-495e-ae1d-5211c8f55301": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<table class=\"ccpops-table\" style=\"border-collapse: collapse; width: 100.096%; height: 360.836px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 47.5781px;\">\n<td style=\"width: 16.7584%; height: 47.5781px;\"> <\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 47.5781px;\"><span style=\"font-family: arial, helvetica, sans-serif;\"><strong>Bearing Steel (Reference)<\/strong><\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 47.5781px;\"><span style=\"font-family: arial, helvetica, sans-serif;\"><strong>CorroCoat<\/strong><\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 47.5781px;\"><span style=\"font-family: arial, helvetica, sans-serif;\"><strong>HardCoat<\/strong><\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 47.5781px;\"><span style=\"font-family: arial, helvetica, sans-serif;\"><strong>Black Oxide<\/strong><\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center;\"><span style=\"font-family: arial, helvetica, sans-serif;\"><strong>SlipCoat<\/strong><\/span><\/td>\n<\/tr>\n<tr style=\"height: 23.7891px;\">\n<td style=\"width: 16.7584%; height: 23.7891px;\"><span style=\"font-family: arial, helvetica, sans-serif;\"><strong>Process<\/strong><\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 23.7891px;\"> <\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 23.7891px;\"><span style=\"font-family: arial, helvetica, sans-serif;\">Dipping<\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 23.7891px;\"><span style=\"font-family: arial, helvetica, sans-serif;\">Physical Vapor deposition (PVD)<\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 23.7891px;\"><span style=\"font-family: arial, helvetica, sans-serif;\">Dipping<\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center;\"><span style=\"font-family: arial, helvetica, sans-serif;\">Chemical bonding<\/span><\/td>\n<\/tr>\n<tr style=\"height: 71.3672px;\">\n<td style=\"width: 16.7584%; height: 71.3672px;\"><span style=\"font-family: arial, helvetica, sans-serif;\"><strong>Process Temperature °C<\/strong><\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 71.3672px;\"> <\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 71.3672px;\"><span style=\"font-family: arial, helvetica, sans-serif;\">&lt;80<\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 71.3672px;\"><span style=\"font-family: arial, helvetica, sans-serif;\">170<\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 71.3672px;\"><span style=\"font-family: arial, helvetica, sans-serif;\">140<\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center;\"><span style=\"font-family: arial, helvetica, sans-serif;\">20<\/span><\/td>\n<\/tr>\n<tr style=\"height: 23.7891px;\">\n<td style=\"width: 16.7584%; height: 23.7891px;\"><span style=\"font-family: arial, helvetica, sans-serif;\"><strong>Color<\/strong><\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 23.7891px;\"> <\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 23.7891px;\"><span style=\"font-family: arial, helvetica, sans-serif;\">Grey<\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 23.7891px;\"><span style=\"font-family: arial, helvetica, sans-serif;\">Black<\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 23.7891px;\"><span style=\"font-family: arial, helvetica, sans-serif;\">Black<\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center;\"><span style=\"font-family: arial, helvetica, sans-serif;\">Transparent<\/span><\/td>\n<\/tr>\n<tr style=\"height: 47.5781px;\">\n<td style=\"width: 16.7584%; height: 47.5781px;\"><span style=\"font-family: arial, helvetica, sans-serif;\"><strong>Hardness HV (vickers)<\/strong><\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 47.5781px;\"><span style=\"font-family: arial, helvetica, sans-serif;\">700<\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 47.5781px;\"><span style=\"font-family: arial, helvetica, sans-serif;\">1200-1300*<\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 47.5781px;\"><span style=\"font-family: arial, helvetica, sans-serif;\">1200-1800*<\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 47.5781px;\"><span style=\"font-family: arial, helvetica, sans-serif;\">700<\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center;\"><span style=\"font-family: arial, helvetica, sans-serif;\">700<\/span><\/td>\n<\/tr>\n<tr style=\"height: 71.3672px;\">\n<td style=\"width: 16.7584%; height: 71.3672px;\"><span style=\"font-family: arial, helvetica, sans-serif;\"><strong>Max. running temperature °C<\/strong><\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 71.3672px;\"><span style=\"font-family: arial, helvetica, sans-serif;\">150\/200<\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 71.3672px;\"><span style=\"font-family: arial, helvetica, sans-serif;\">800<\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 71.3672px;\"><span style=\"font-family: arial, helvetica, sans-serif;\">500<\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 71.3672px;\"><span style=\"font-family: arial, helvetica, sans-serif;\">200<\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center;\"><span style=\"font-family: arial, helvetica, sans-serif;\">&lt;260<\/span><\/td>\n<\/tr>\n<tr style=\"height: 27.7891px;\">\n<td style=\"width: 16.7584%; height: 27.7891px;\"><span style=\"font-family: arial, helvetica, sans-serif;\"><strong>Thickness µm<\/strong><\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 27.7891px;\"><span style=\"font-family: arial, helvetica, sans-serif;\">Solid<\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 27.7891px;\"><span style=\"font-family: arial, helvetica, sans-serif;\">3-6 µm<\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 27.7891px;\"><span style=\"font-family: arial, helvetica, sans-serif;\">&lt;3µm<\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 27.7891px;\"><span style=\"font-family: arial, helvetica, sans-serif;\">&lt;1 µm<\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center;\"><span style=\"font-family: arial, helvetica, sans-serif;\">&lt;1<\/span><\/td>\n<\/tr>\n<tr style=\"height: 23.7891px;\">\n<td style=\"width: 16.7584%; height: 23.7891px;\"><span style=\"font-family: arial, helvetica, sans-serif;\"><strong>Coefficient of friction (against steel)<\/strong><\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 23.7891px;\"><span style=\"font-family: arial, helvetica, sans-serif;\">0,8<\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 23.7891px;\"><span style=\"font-family: arial, helvetica, sans-serif;\">0,25<\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 23.7891px;\"><span style=\"font-family: arial, helvetica, sans-serif;\">0,05-0,1<\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 23.7891px;\"><span style=\"font-family: arial, helvetica, sans-serif;\">0,7<\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center;\"><span style=\"font-family: arial, helvetica, sans-serif;\">0,05-0,1<\/span><\/td>\n<\/tr>\n<\/tbody>\n<\/table>\n<p> <\/p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "27d786c1-4b06-496e-8f62-df8fe0ed03ff": {
+      "type": "multi-column",
+      "blocks": {
+        "7e0750a7-d322-4a53-b14b-4e30c7ee7d13": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
+        "template--19294607606064__27d786c1-4b06-496e-8f62-df8fe0ed03ff-1689163092c9b9bc29-1": {
+          "type": "item",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/Black oxide.mp4",
+            "column_size": "1.5",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "7e0750a7-d322-4a53-b14b-4e30c7ee7d13",
+        "template--19294607606064__27d786c1-4b06-496e-8f62-df8fe0ed03ff-1689163092c9b9bc29-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3e7dc412-585b-499a-9f9f-d213ad19b2ae",
+    "170228772504e456f1",
+    "8267439a-98a8-4b9a-9ba0-1c04b204f1de",
+    "663f4373-eede-4a7a-923e-776e464dcc5d",
+    "2411d344-c299-4a72-b10e-c244bb673217",
+    "265c539d-ac53-4507-a81b-6017c4dc5258",
+    "a1f0871b-a182-4d4e-b546-dfd446179f94",
+    "60bcd317-8743-4ad9-bea9-56011fbb7036",
+    "a8d9106c-49dd-4b40-ad8c-4708c016d788",
+    "588cca5f-9cda-495e-ae1d-5211c8f55301",
+    "27d786c1-4b06-496e-8f62-df8fe0ed03ff"
+  ]
+}

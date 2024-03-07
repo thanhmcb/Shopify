@@ -1,0 +1,749 @@
+{
+  "sections": {
+    "d1558fe2_1702295386": {
+      "type": "powr-popup",
+      "settings": {}
+    },
+    "7181aaa8-8169-4761-921a-2e70dbc3ec71": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "collection": "",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 8,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Products",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "50984654-52ba-4f09-a0b0-6ad9ece3ed35": {
+      "type": "video",
+      "blocks": {
+        "template--18836617920816__50984654-52ba-4f09-a0b0-6ad9ece3ed35-1687514868373453d4-0": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--18836617920816__50984654-52ba-4f09-a0b0-6ad9ece3ed35-1687514868373453d4-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Customized Bearing Solutions That Last",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--18836617920816__50984654-52ba-4f09-a0b0-6ad9ece3ed35-1687514868373453d4-0",
+        "template--18836617920816__50984654-52ba-4f09-a0b0-6ad9ece3ed35-1687514868373453d4-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "lg",
+        "video": "shopify:\/\/files\/videos\/Why choose_website.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "c6c2cbdc-b9a3-4d43-8c5c-c4f5b540ab3e": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "template--18733566722352__c6c2cbdc-b9a3-4d43-8c5c-c4f5b540ab3e-168206069776b62010-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Balls_ub.png",
+            "stretch_image": false,
+            "link_text": "Ceramic Balls",
+            "link_url": "shopify:\/\/pages\/ceramic-balls",
+            "background": "",
+            "text_color": "#000000",
+            "overlay_color": "#ffffff",
+            "overlay_opacity": 39
+          }
+        },
+        "template--18733566722352__c6c2cbdc-b9a3-4d43-8c5c-c4f5b540ab3e-168206069776b62010-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Insulate_Open_ub.png",
+            "stretch_image": false,
+            "link_text": "DGBB",
+            "link_url": "shopify:\/\/pages\/dgbb",
+            "background": "",
+            "text_color": "#1b1b1b",
+            "overlay_color": "#ffffff",
+            "overlay_opacity": 39
+          }
+        },
+        "template--18733566722352__c6c2cbdc-b9a3-4d43-8c5c-c4f5b540ab3e-168206069776b62010-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ACBB_ub_R.png",
+            "stretch_image": false,
+            "link_text": "ACBB",
+            "link_url": "shopify:\/\/pages\/acbb",
+            "background": "",
+            "text_color": "#000000",
+            "overlay_color": "#ffffff",
+            "overlay_opacity": 39
+          }
+        },
+        "template--18733566722352__c6c2cbdc-b9a3-4d43-8c5c-c4f5b540ab3e-168206069776b62010-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Linear_motion_ub.png",
+            "stretch_image": false,
+            "link_text": "Linear Motion",
+            "link_url": "shopify:\/\/pages\/linear-motion",
+            "background": "",
+            "text_color": "#000000",
+            "overlay_color": "#ffffff",
+            "overlay_opacity": 38
+          }
+        },
+        "6ed40756-e883-4ed7-98a0-8cb22fe45ad0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Coating_ub_S.png",
+            "stretch_image": false,
+            "link_text": "Surface Technologies",
+            "link_url": "",
+            "background": "",
+            "text_color": "#000000",
+            "overlay_color": "#ffffff",
+            "overlay_opacity": 38
+          }
+        }
+      },
+      "block_order": [
+        "template--18733566722352__c6c2cbdc-b9a3-4d43-8c5c-c4f5b540ab3e-168206069776b62010-0",
+        "template--18733566722352__c6c2cbdc-b9a3-4d43-8c5c-c4f5b540ab3e-168206069776b62010-1",
+        "template--18733566722352__c6c2cbdc-b9a3-4d43-8c5c-c4f5b540ab3e-168206069776b62010-2",
+        "template--18733566722352__c6c2cbdc-b9a3-4d43-8c5c-c4f5b540ab3e-168206069776b62010-3",
+        "6ed40756-e883-4ed7-98a0-8cb22fe45ad0"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_image": false,
+        "grid-gap": 0,
+        "block_size": "large",
+        "subheading": "",
+        "title": "Products",
+        "content": "",
+        "link_url": "shopify:\/\/pages\/contact",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#000000",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "2fc2a219-8e73-4a4c-82ba-72effa6048b8": {
+      "type": "video",
+      "blocks": {
+        "template--18836617920816__2fc2a219-8e73-4a4c-82ba-72effa6048b8-168475572856581798-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "People are the heart and soul of our company.",
+            "heading_tag": "h2"
+          }
+        },
+        "361250ae-3e17-4695-b2b3-c0aa0d0c1c62": {
+          "type": "play",
+          "settings": {}
+        },
+        "f54c3ac4-e33f-4bce-a850-4869478246eb": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "size": "lg",
+            "text": "",
+            "url": "",
+            "background": "",
+            "text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "template--18836617920816__2fc2a219-8e73-4a4c-82ba-72effa6048b8-168475572856581798-1",
+        "361250ae-3e17-4695-b2b3-c0aa0d0c1c62",
+        "f54c3ac4-e33f-4bce-a850-4869478246eb"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": true,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/About Us.mp4",
+        "external_video_url": "",
+        "poster": "shopify:\/\/shop_images\/Ceramic_speed_industry_people.png",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "864d382e-ced2-49e7-a801-626440b7efbf": {
+      "type": "impact-text",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "eb4bbbbf-15a3-4313-8ae2-6de29c8c583d": {
+      "type": "media-grid",
+      "blocks": {
+        "1e63ff0d-1243-4fda-82b1-475f91dd2b12": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/Test_1.mp4",
+            "external_video_url": "",
+            "show_video_controls": false,
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--18836617920816__eb4bbbbf-15a3-4313-8ae2-6de29c8c583d-168484355822232f63-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rI6uFtSw.jpg",
+            "title": "Food & Beverage",
+            "heading_tag": "h5",
+            "link_url": "shopify:\/\/pages\/food-beverage",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "template--18836617920816__eb4bbbbf-15a3-4313-8ae2-6de29c8c583d-168484355822232f63-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Skaermbillede_2023-05-19_kl._10.50.38.png",
+            "title": "Electrical Motors",
+            "heading_tag": "h5",
+            "link_url": "shopify:\/\/pages\/electrical-motors",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--18836617920816__eb4bbbbf-15a3-4313-8ae2-6de29c8c583d-168484355822232f63-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2c7e8b07ad9f2e89c49d2a724cde12817775875b.webp",
+            "title": "Pharma and Chemical",
+            "heading_tag": "h5",
+            "link_url": "shopify:\/\/pages\/pharma-and-chemical",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 19
+          }
+        },
+        "3f620a35-273a-4b30-9843-ef0ce0c7be4d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/c2c6ce0ee547ccedcb4b709eb8783a38d5688ffc.webp",
+            "title": "Science",
+            "heading_tag": "h5",
+            "link_url": "shopify:\/\/pages\/science",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "1e63ff0d-1243-4fda-82b1-475f91dd2b12",
+        "template--18836617920816__eb4bbbbf-15a3-4313-8ae2-6de29c8c583d-168484355822232f63-2",
+        "template--18836617920816__eb4bbbbf-15a3-4313-8ae2-6de29c8c583d-168484355822232f63-0",
+        "template--18836617920816__eb4bbbbf-15a3-4313-8ae2-6de29c8c583d-168484355822232f63-1",
+        "3f620a35-273a-4b30-9843-ef0ce0c7be4d"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "reduce_width": true,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "e1fc9b15-9a09-44ef-9042-2d54b326fabc": {
+      "type": "impact-text",
+      "blocks": {
+        "template--18836617920816__e1fc9b15-9a09-44ef-9042-2d54b326fabc-16890551297b8a094b-0": {
+          "type": "item",
+          "settings": {
+            "title": "We deliver bearings for a wide range of industries",
+            "subheading": "",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 1.3
+          }
+        }
+      },
+      "block_order": [
+        "template--18836617920816__e1fc9b15-9a09-44ef-9042-2d54b326fabc-16890551297b8a094b-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 0.5,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "#000000",
+        "heading_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 1) 100%, rgba(249, 32, 32, 1) 100%)",
+        "text_color": "#fafafa",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "9d9736b8-3b41-4bab-b606-1a5143fd1e4d": {
+      "type": "media-grid",
+      "blocks": {
+        "template--18836617920816__9d9736b8-3b41-4bab-b606-1a5143fd1e4d-1688722264abb2aafc-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rI6uFtSw.jpg",
+            "title": "Food & Beverage",
+            "heading_tag": "h3",
+            "link_url": "shopify:\/\/pages\/food-beverage",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20
+          }
+        },
+        "template--18836617920816__9d9736b8-3b41-4bab-b606-1a5143fd1e4d-1688722264abb2aafc-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/e72a3863be103e1f20efe23267ac45f4735d3d2f.webp",
+            "title": "Electrical Motors",
+            "heading_tag": "h3",
+            "link_url": "shopify:\/\/pages\/electrical-motors",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20
+          }
+        },
+        "template--18836617920816__9d9736b8-3b41-4bab-b606-1a5143fd1e4d-1688722264abb2aafc-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/623c487d76142317e5b1dbb7498aa19b9b5541b6.webp",
+            "title": "Pharma and Chemical",
+            "heading_tag": "h3",
+            "link_url": "shopify:\/\/pages\/pharma-and-chemical",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20
+          }
+        },
+        "871e189f-a0e2-41e7-b6c9-f52f80fa7691": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1b91cb585ab791a59c23d355a19d64deef300f1c.jpg",
+            "title": "Science",
+            "heading_tag": "h3",
+            "link_url": "shopify:\/\/pages\/science",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 4,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "template--18836617920816__9d9736b8-3b41-4bab-b606-1a5143fd1e4d-1688722264abb2aafc-0",
+        "template--18836617920816__9d9736b8-3b41-4bab-b606-1a5143fd1e4d-1688722264abb2aafc-1",
+        "template--18836617920816__9d9736b8-3b41-4bab-b606-1a5143fd1e4d-1688722264abb2aafc-2",
+        "871e189f-a0e2-41e7-b6c9-f52f80fa7691"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "c01b8fa0-d0f5-4560-943c-8c06f3d3d42f": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "template--18733566722352__c01b8fa0-d0f5-4560-943c-8c06f3d3d42f-168206069776b62010-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cb3064439fa7325af2dab8cbbb155a36771cd97a.webp",
+            "stretch_image": true,
+            "link_text": "Food & Beverage",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 35
+          }
+        },
+        "template--18733566722352__c01b8fa0-d0f5-4560-943c-8c06f3d3d42f-168206069776b62010-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/e72a3863be103e1f20efe23267ac45f4735d3d2f.webp",
+            "stretch_image": true,
+            "link_text": "Electrical Motors",
+            "link_url": "",
+            "background": "",
+            "text_color": "#fafafa",
+            "overlay_color": "#000000",
+            "overlay_opacity": 35
+          }
+        },
+        "template--18733566722352__c01b8fa0-d0f5-4560-943c-8c06f3d3d42f-168206069776b62010-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2c7e8b07ad9f2e89c49d2a724cde12817775875b.webp",
+            "stretch_image": true,
+            "link_text": "Pharma and Chemical",
+            "link_url": "",
+            "background": "",
+            "text_color": "#fafafa",
+            "overlay_color": "#000000",
+            "overlay_opacity": 35
+          }
+        },
+        "template--18733566722352__c01b8fa0-d0f5-4560-943c-8c06f3d3d42f-168206069776b62010-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/c2c6ce0ee547ccedcb4b709eb8783a38d5688ffc.webp",
+            "stretch_image": true,
+            "link_text": "Science",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--18733566722352__c01b8fa0-d0f5-4560-943c-8c06f3d3d42f-168206069776b62010-0",
+        "template--18733566722352__c01b8fa0-d0f5-4560-943c-8c06f3d3d42f-168206069776b62010-1",
+        "template--18733566722352__c01b8fa0-d0f5-4560-943c-8c06f3d3d42f-168206069776b62010-2",
+        "template--18733566722352__c01b8fa0-d0f5-4560-943c-8c06f3d3d42f-168206069776b62010-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "stack_image": false,
+        "grid-gap": 20,
+        "block_size": "large",
+        "subheading": "",
+        "title": "Customized bearings for a wide range of industries",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "5736967b-ea44-46c8-aa67-525d37a582c8": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18836617920816__5736967b-ea44-46c8-aa67-525d37a582c8-168484290317e27806-0": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/aba887f0cdffb35c6ce5d500244a472f6cd853b0.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Increase the strength and durability",
+            "heading_tag": "h0",
+            "button_text": "Read more",
+            "button_link": "shopify:\/\/pages\/about-us",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 8,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18836617920816__5736967b-ea44-46c8-aa67-525d37a582c8-168484290317e27806-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "sm",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "blog_posts_jkUPVN": {
+      "type": "blog-posts",
+      "blocks": {
+        "blog_cbJ83X": {
+          "type": "blog",
+          "settings": {
+            "blog": "nyhedsblog-1",
+            "posts_count": 3,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "blog_cbJ83X"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "",
+        "content": "<h1>News<\/h1>",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "2f8b3309-81b0-4801-97eb-c185d1517d71": {
+      "type": "hot-spots",
+      "blocks": {
+        "template--18836617920816__2f8b3309-81b0-4801-97eb-c185d1517d71-1688712164e19cb48f-0": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 48,
+            "vertical_position": 74,
+            "horizontal_position_mobile": 25,
+            "vertical_position_mobile": 70,
+            "icon_width": 88,
+            "title": "Ceramic Balls",
+            "content": "<p>All CeramicSpeed Bearings are fitted with the highest quality Silicon Nitride balls.<\/p>"
+          }
+        },
+        "template--18836617920816__2f8b3309-81b0-4801-97eb-c185d1517d71-1688712164e19cb48f-1": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 47,
+            "vertical_position": 21,
+            "horizontal_position_mobile": 62,
+            "vertical_position_mobile": 14,
+            "icon_width": 32,
+            "title": "High carbon chromium steel rings",
+            "content": "<p>CeramicSpeed standard steel rings are produced from high carbon chromium steel 100Cr6 \/ ASTM52100 with Ovako steel purity Q or better.<\/p>"
+          }
+        },
+        "template--18836617920816__2f8b3309-81b0-4801-97eb-c185d1517d71-1688712164e19cb48f-2": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 37,
+            "vertical_position": 43,
+            "horizontal_position_mobile": 83,
+            "vertical_position_mobile": 75,
+            "icon_width": 32,
+            "title": "Lubricants",
+            "content": "<p>We offer quality lubricants<br\/>from leading industrial suppliers to exactly match each individual application.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18836617920816__2f8b3309-81b0-4801-97eb-c185d1517d71-1688712164e19cb48f-0",
+        "template--18836617920816__2f8b3309-81b0-4801-97eb-c185d1517d71-1688712164e19cb48f-1",
+        "template--18836617920816__2f8b3309-81b0-4801-97eb-c185d1517d71-1688712164e19cb48f-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/Forside_leje_uden_baggrund.png",
+        "img_width": 35,
+        "title": "Increase the strength and durability",
+        "content": "<p>CeramicSpeed Bearings are optimized to give the very best performance in their specific operating environment, improving performance, quality, and consistency in production equipment.<\/p>",
+        "button_text": "Learn More",
+        "button_url": "shopify:\/\/pages\/why-hybrid-bearings",
+        "desktop_text_position": "place-self-start text-start",
+        "image_background": "#000000",
+        "image_background_gradient": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "overlay_text_color": "#ffffff",
+        "overlay_button_background": "",
+        "overlay_button_text_color": "",
+        "hot_spot_dot_background": "#ffffff",
+        "hot_spot_dot_text_color": "#000000",
+        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_text_color": "#000000",
+        "hot_spot_content_opacity": 90,
+        "hot_spot_content_blur_radius": 3
+      }
+    },
+    "e26710b0-4095-4414-8aff-52d75579b3f8": {
+      "type": "revealed-image-on-scroll",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Products.jpg",
+        "subheading": "",
+        "title": "Bearings That Last",
+        "background": "",
+        "text_color_inside": "#ffffff",
+        "text_color_outside": "#000000"
+      }
+    }
+  },
+  "order": [
+    "d1558fe2_1702295386",
+    "7181aaa8-8169-4761-921a-2e70dbc3ec71",
+    "50984654-52ba-4f09-a0b0-6ad9ece3ed35",
+    "c6c2cbdc-b9a3-4d43-8c5c-c4f5b540ab3e",
+    "2fc2a219-8e73-4a4c-82ba-72effa6048b8",
+    "864d382e-ced2-49e7-a801-626440b7efbf",
+    "eb4bbbbf-15a3-4313-8ae2-6de29c8c583d",
+    "e1fc9b15-9a09-44ef-9042-2d54b326fabc",
+    "9d9736b8-3b41-4bab-b606-1a5143fd1e4d",
+    "c01b8fa0-d0f5-4560-943c-8c06f3d3d42f",
+    "5736967b-ea44-46c8-aa67-525d37a582c8",
+    "blog_posts_jkUPVN",
+    "2f8b3309-81b0-4801-97eb-c185d1517d71",
+    "e26710b0-4095-4414-8aff-52d75579b3f8"
+  ]
+}

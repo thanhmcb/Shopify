@@ -1,0 +1,41 @@
+{
+  "parent": "page.downloads.json",
+  "context": {
+    "market": "german"
+  },
+  "sections": {
+    "b2dcd222-bbcc-4b9c-b2c0-8bcfacd1119a": {
+      "settings": {
+        "title": "Kataloge"
+      },
+      "blocks": {}
+    },
+    "5be18546-902a-4ea6-92bc-457f42ff8d45": {
+      "settings": {
+        "title": "Fallbeispiel"
+      },
+      "blocks": {
+        "template--19264124911920__5be18546-902a-4ea6-92bc-457f42ff8d45-16849091811393e154-0": {
+          "repeater": "{{ page.metafields.custom.case_stories_de.value }}",
+          "settings": {
+            "image": "{{ block.repeater.frontpage.value }}",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "{{ block.repeater.pdf_url.value }}",
+            "header-3a5a5910dc04173ab5e290a34ca820ac": null,
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      }
+    },
+    "8cd72f51-f820-4c55-a866-55850a7a79e3": {
+      "settings": {
+        "title": "Produktübersicht"
+      },
+      "blocks": {}
+    }
+  }
+}

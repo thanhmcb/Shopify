@@ -1,0 +1,277 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "3e7dc412-585b-499a-9f9f-d213ad19b2ae": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18735408939312__3e7dc412-585b-499a-9f9f-d213ad19b2ae-168138351266b6bd17-0": {
+          "type": "image",
+          "settings": {
+            "image": "{{ page.metafields.custom.top_billede.value }}",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center-start text-start",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "60 % drop or more on bearing-related maintenance",
+            "title": "{{ page.metafields.custom.sidetitel.value }}",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#fafafa",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18735408939312__3e7dc412-585b-499a-9f9f-d213ad19b2ae-168138351266b6bd17-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "lg",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "1702286509e42087b6": {
+      "type": "apps",
+      "blocks": {
+        "67626ddb-7c22-464e-adf5-c0b22d41316d": {
+          "type": "shopify:\/\/apps\/ez-add-breadcrumbs\/blocks\/app-block\/457dc635-4337-4779-8f31-361dd27778c8",
+          "settings": {
+            "show_breadcrumbs": true,
+            "color": "#000000",
+            "horizontal_alignment": "left",
+            "fontsize": 15,
+            "breadcrumb_font": "din_next_n4",
+            "marginleft": 0,
+            "margintop": 0,
+            "marginright": 0,
+            "marginbottom": 0,
+            "show_home_link": false,
+            "home_page": "Home",
+            "home_url": "\/",
+            "all_uppercase": false,
+            "use_slider": false,
+            "article_use_tag": true,
+            "separator": "<span> › <\/span>",
+            "css_tablet": "\/* font-family: Helvetica; *\/",
+            "css_mobile": "\/* font-family: Helvetica; *\/",
+            "custom_css": "\/* font-family: Helvetica; *\/",
+            "css_last_crumb": "\/* font-weight: medium; *\/",
+            "css_hover": "\/* text-decoration-line: underline; *\/",
+            "menus": "*"
+          }
+        }
+      },
+      "block_order": [
+        "67626ddb-7c22-464e-adf5-c0b22d41316d"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "c102c8e8-924a-4831-9b90-31b5c016cb00": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--19265347453232__c102c8e8-924a-4831-9b90-31b5c016cb00-1689325246856d869a-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CRA_30360_FoodIndustry-001.png",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Reliability is everything",
+            "content": "<p>In the food and beverage industry, uptime and reliability are everything. Production equipment requires food-grade certification, and any breakdown will cause costly repairs and production stops. The bearings used must be of the highest possible quality and must be able to handle temperature fluctuations from significant minus temperatures up to high plus temperatures. These working conditions often combine with steam, sometimes high humidity, and contamination through the processed medium itself or the detergents during the strict pressure washdowns. The wash downs do often happen with hot aggressive medium and under pressure which can lead to contamination of the grease inside the bearings. <\/p><p>In the food and beverage industry bearings normally require constant lubrication in production. But in some production equipment, it can be quite difficult to lubricate the bearings since they often are placed on places that are difficult to access. <\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#fafafa",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19265347453232__c102c8e8-924a-4831-9b90-31b5c016cb00-1689325246856d869a-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "ca37ac6c-575d-4efe-b816-f71d8dfec0dc": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--19265347453232__ca37ac6c-575d-4efe-b816-f71d8dfec0dc-1689325246856d869a-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/a768063a3dbb494613c7b4afbe6c97c376b14454.webp",
+            "media_width": 40,
+            "media_position": "start",
+            "text_position": "place-self-center-end text-end",
+            "icon": "none",
+            "icon_width": 32,
+            "subheading": "",
+            "title": "CeramicSpeed Corrotec",
+            "content": "<p>CeramicSpeed Corrotec ball bearings are FDA and EN1935-approved and therefore suitable for use in the food industry. Our Corrotec line is specifically set up for the challenges in the food and beverage industry. Bearings are manufactured using stainless steel rings with silicon nitride (Si3N4) balls and lubricants all approved for use in the food industry.<\/p><p>The CeramicSpeed hybrid bearings do bring some unique benefits to these challenging and demanding environments. The bearings are greased for life and do not need to be relubricated and as the ceramic balls have a four times lower surface roughness the bearing will be running up to 17°C cooler compared to all-steel bearings and that can extend the lifetime of the lubricant significantly and increase the lifetime of your machine and reduce maintenance.<\/p><p>The two times harder balls will also show a much higher resistance to contamination\/particles as those will be crushed. The combination of steel and ceramic brings the unique advantage of avoiding the risk of smearing. For a dry contact situation, the friction coefficient between steel and silicon nitride (Si3N4) is lower than for steel to steel and micro-welding does not occur. Therefore hybrid bearings generate much lower friction even with a very thin film of lubrication.<\/p><p>All in all, Hybrid ball bearings are proven to last 4 to 8 times longer than steel bearings – in some cases even longer. Hybrid Ball Bearings eliminate frequent replacements, production stops, or unforeseen breakdowns due to bearing failure and they will cause a noticeable reduction in your company's MRO spending.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#fafafa",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19265347453232__ca37ac6c-575d-4efe-b816-f71d8dfec0dc-1689325246856d869a-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "25021be0-b5f2-4a9a-bdc0-f7e3867e262f": {
+      "type": "multi-column",
+      "blocks": {
+        "0feb7c61-6852-44a6-9545-4e8827743182": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
+        "template--19264571113776__25021be0-b5f2-4a9a-bdc0-f7e3867e262f-168491219134c9bdc6-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/de019d7ccec13e937d09f35917b1634a6c089d51.webp",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0744\/8671\/0576\/files\/case_xterme_premier-is_en.pdf?v=1684911217",
+            "link_text": "Read our customer case from Premier Is here",
+            "link_style": "button"
+          }
+        },
+        "template--19264571113776__25021be0-b5f2-4a9a-bdc0-f7e3867e262f-168491219134c9bdc6-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1f1eebfba3a7b11ba4b8d6a04740cb37e5085ccb.webp",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0744\/8671\/0576\/files\/case_xtreme_bag-welder_en.pdf?v=1684912959",
+            "link_text": "Read our customer case with an increase of bearing life of 44 times ",
+            "link_style": "button"
+          }
+        }
+      },
+      "block_order": [
+        "0feb7c61-6852-44a6-9545-4e8827743182",
+        "template--19264571113776__25021be0-b5f2-4a9a-bdc0-f7e3867e262f-168491219134c9bdc6-0",
+        "template--19264571113776__25021be0-b5f2-4a9a-bdc0-f7e3867e262f-168491219134c9bdc6-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "a8b7979b-9528-4910-a83c-35642dba7ff7": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "template--19265347453232__a8b7979b-9528-4910-a83c-35642dba7ff7-168932646470d42891-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/81a27ac6e12e6b42af7bdf7e3b9188a1906fd03d_65ef495d-42cf-4815-9f67-d9533925e076.webp",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "A\/S Bryggeriet Vestfyen",
+            "content": "<p>Read our customer case from a Danish brewery  where they achieved more than 4 times increase in bearing.<\/p>",
+            "button_url": "shopify:\/\/blogs\/case-stories\/a-s-bryggeriet-vestfyen",
+            "button_text": "Read the case here"
+          }
+        },
+        "template--19265347453232__a8b7979b-9528-4910-a83c-35642dba7ff7-168932646470d42891-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fa3674004a30d246f74ade3107ef3d6805ffe3fb_62e85734-701a-4598-9c4f-31b825ac7991.webp",
+            "image_rotation_degrees": -4.5,
+            "subheading": "",
+            "title": "Can Seamers",
+            "content": "<p>Read how a Danish producer of powdered milk has managed to reduce downtime and maintenance costs significantly.<\/p>",
+            "button_url": "shopify:\/\/blogs\/case-stories\/can-seamers",
+            "button_text": "Read the case here"
+          }
+        }
+      },
+      "block_order": [
+        "template--19265347453232__a8b7979b-9528-4910-a83c-35642dba7ff7-168932646470d42891-0",
+        "template--19265347453232__a8b7979b-9528-4910-a83c-35642dba7ff7-168932646470d42891-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3e7dc412-585b-499a-9f9f-d213ad19b2ae",
+    "1702286509e42087b6",
+    "c102c8e8-924a-4831-9b90-31b5c016cb00",
+    "ca37ac6c-575d-4efe-b816-f71d8dfec0dc",
+    "25021be0-b5f2-4a9a-bdc0-f7e3867e262f",
+    "a8b7979b-9528-4910-a83c-35642dba7ff7"
+  ]
+}

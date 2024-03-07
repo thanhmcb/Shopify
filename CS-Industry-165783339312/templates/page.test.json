@@ -1,0 +1,500 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "3e7dc412-585b-499a-9f9f-d213ad19b2ae": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18735408939312__3e7dc412-585b-499a-9f9f-d213ad19b2ae-168138351266b6bd17-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5db8652d0c3039ca7748f8473f59651ee8472679.webp",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center-start text-start",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "",
+            "title": "flot titel",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#fafafa",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18735408939312__3e7dc412-585b-499a-9f9f-d213ad19b2ae-168138351266b6bd17-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "sm",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "54b5dac4-f763-44d4-a340-45889c430866": {
+      "type": "media-with-text",
+      "disabled": true,
+      "blocks": {
+        "template--18735775252784__54b5dac4-f763-44d4-a340-45889c430866-1681718356df09f25e-0": {
+          "type": "image",
+          "settings": {
+            "media_width": 35,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<p>CeramicSpeed Insulate ball bearings are custom-made for electrical motors and guarantee against damage caused by stray currents. The ceramic balls used for the CeramicSpeed Insulate series are non-conductive and have an insulating ability of 15 kV per mm - higher than that of atmospheric air.<\/p><p>We deliver our Insulate series in a variety of combinations - if you can't find the one that fits you please <a href=\"https:\/\/www.ceramicspeed.com\/en\/industry\/contact-industry\/\" title=\"Contact Industry\">contact us<\/a> and we will find the right solution for you. <\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#fafafa",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18735775252784__54b5dac4-f763-44d4-a340-45889c430866-1681718356df09f25e-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "63e53c85-af6a-49af-8888-56c525d47e5f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18735408939312__63e53c85-af6a-49af-8888-56c525d47e5f-1681383620ef02c3d1-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "{{ page.metafields.custom.broedtekst | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "template--18735408939312__63e53c85-af6a-49af-8888-56c525d47e5f-1681383620ef02c3d1-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "8bf0803f-4039-43d8-bb07-6c134d5841c6": {
+      "type": "multi-column",
+      "blocks": {
+        "template--18735775252784__8bf0803f-4039-43d8-bb07-6c134d5841c6-16817177421f634f28-0": {
+          "type": "item",
+          "settings": {
+            "image": "{{ page.metafields.custom.pdf_1.value }}",
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--18735775252784__8bf0803f-4039-43d8-bb07-6c134d5841c6-16817177421f634f28-2": {
+          "type": "item",
+          "settings": {
+            "image": "{{ page.metafields.custom.pdf_2.value }}",
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "ddcaf6a9-31e2-4ac6-b4f4-bd0a62f2b0e0": {
+          "type": "item",
+          "settings": {
+            "image": "{{ page.metafields.custom.pdf_3.value }}",
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--18735775252784__8bf0803f-4039-43d8-bb07-6c134d5841c6-16817177421f634f28-1": {
+          "type": "item",
+          "settings": {
+            "image": "{{ page.metafields.custom.pdf_4.value }}",
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--18735775252784__8bf0803f-4039-43d8-bb07-6c134d5841c6-16817177421f634f28-0",
+        "template--18735775252784__8bf0803f-4039-43d8-bb07-6c134d5841c6-16817177421f634f28-2",
+        "ddcaf6a9-31e2-4ac6-b4f4-bd0a62f2b0e0",
+        "template--18735775252784__8bf0803f-4039-43d8-bb07-6c134d5841c6-16817177421f634f28-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "stack_on_mobile": false,
+        "gap": "small",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "dd0df060-40ee-4754-a978-a550d5f8e765": {
+      "type": "accordion-content",
+      "blocks": {
+        "template--18735775252784__dd0df060-40ee-4754-a978-a550d5f8e765-1681718666a9451fde-0": {
+          "type": "item",
+          "settings": {
+            "title": "{{ page.metafields.custom.accordion_overskrift.value }}z",
+            "content": "{{ page.metafields.custom.accordion_broedtekst | metafield_tag }}<p>xzxzx<\/p>"
+          }
+        },
+        "template--18735775252784__dd0df060-40ee-4754-a978-a550d5f8e765-1681718666a9451fde-1": {
+          "type": "item",
+          "settings": {
+            "title": "{{ page.metafields.custom.accordion_overskrift_2.value }}",
+            "content": "{{ page.metafields.custom.accordion_broedtekst_2 | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "template--18735775252784__dd0df060-40ee-4754-a978-a550d5f8e765-1681718666a9451fde-0",
+        "template--18735775252784__dd0df060-40ee-4754-a978-a550d5f8e765-1681718666a9451fde-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "21607970-a781-4c52-9c1c-3dd9ec7725f5": {
+      "type": "image-link-blocks",
+      "disabled": true,
+      "blocks": {
+        "template--18735408939312__21607970-a781-4c52-9c1c-3dd9ec7725f5-1681385774de8e82e9-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9abd72e2f48cada80ee1e7c5dce5b3353b5aca0a.webp",
+            "stretch_image": true,
+            "link_text": "4-8 times longer lifetime",
+            "link_url": "#",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--18735408939312__21607970-a781-4c52-9c1c-3dd9ec7725f5-1681385774de8e82e9-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0d0ac81c7179ab25905cea0a0b507d9f6bf454c5.webp",
+            "stretch_image": true,
+            "link_text": "Zero Current Erosion",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--18735408939312__21607970-a781-4c52-9c1c-3dd9ec7725f5-1681385774de8e82e9-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/e0bbf62a2a8f14ddb90d2cd7d486876a5d6e9d0f.webp",
+            "stretch_image": true,
+            "link_text": "Higher Speed Capability",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--18735408939312__21607970-a781-4c52-9c1c-3dd9ec7725f5-1681385774de8e82e9-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/e09c2766041b0728c62ea4aa335ea33f52a42bbe.webp",
+            "stretch_image": true,
+            "link_text": "Lightning-fast ROI",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--18735408939312__21607970-a781-4c52-9c1c-3dd9ec7725f5-1681385774de8e82e9-0",
+        "template--18735408939312__21607970-a781-4c52-9c1c-3dd9ec7725f5-1681385774de8e82e9-1",
+        "template--18735408939312__21607970-a781-4c52-9c1c-3dd9ec7725f5-1681385774de8e82e9-2",
+        "template--18735408939312__21607970-a781-4c52-9c1c-3dd9ec7725f5-1681385774de8e82e9-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "block_size": "large",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "7bbc9987-f67a-47ae-8607-ce9206d4a094": {
+      "type": "media-with-text",
+      "blocks": {
+        "c2b78fd8-0bee-40a3-bc6f-2b6dfc2c365b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3a14a58c774fda38a01cbae5ddda58be79d9a7ab.png",
+            "media_width": 45,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Do you want to know the facts behind ceramic hybrid bearings?",
+            "content": "<p>Read this article written by our Managing director Anders Thormann, who has been within bearing business for more than 22 years.<\/p>",
+            "link_text": "Read the article here",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "c2b78fd8-0bee-40a3-bc6f-2b6dfc2c365b"
+      ],
+      "settings": {
+        "full_width": true,
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "f4623f98-11d8-4689-ac66-2164b039103b": {
+      "type": "video",
+      "blocks": {
+        "fb8ff530-2bc8-4826-89ff-9b3f88715fe0": {
+          "type": "play",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "fb8ff530-2bc8-4826-89ff-9b3f88715fe0"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "external_video_url": "https:\/\/youtu.be\/9gt8utuVan0",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "08748512-f0b5-4fd4-a737-851e3529a33f": {
+      "type": "hot-spots",
+      "blocks": {
+        "template--18735775252784__08748512-f0b5-4fd4-a737-851e3529a33f-1681717220bc8c8c4f-0": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 43,
+            "vertical_position": 50,
+            "horizontal_position_mobile": 24,
+            "vertical_position_mobile": 70,
+            "icon": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg",
+            "icon_width": 100,
+            "title": "Feature 1",
+            "content": "<p>Share useful information about your product features.<\/p>"
+          }
+        },
+        "template--18735775252784__08748512-f0b5-4fd4-a737-851e3529a33f-1681717220bc8c8c4f-1": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 60,
+            "vertical_position": 31,
+            "horizontal_position_mobile": 62,
+            "vertical_position_mobile": 14,
+            "icon_width": 32,
+            "title": "Feature 2",
+            "content": "<p>Share useful information about your product features.<\/p>"
+          }
+        },
+        "template--18735775252784__08748512-f0b5-4fd4-a737-851e3529a33f-1681717220bc8c8c4f-2": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 58,
+            "vertical_position": 72,
+            "horizontal_position_mobile": 83,
+            "vertical_position_mobile": 75,
+            "icon_width": 32,
+            "title": "Feature 3",
+            "content": "<p>Share useful information about your product features.<\/p>"
+          }
+        },
+        "47cd6646-d695-413e-a388-c697d07d9878": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 30,
+            "vertical_position": 30,
+            "horizontal_position_mobile": 30,
+            "vertical_position_mobile": 30,
+            "icon_width": 32,
+            "title": "Feature name",
+            "content": "<p>Share useful information about your product features.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18735775252784__08748512-f0b5-4fd4-a737-851e3529a33f-1681717220bc8c8c4f-0",
+        "template--18735775252784__08748512-f0b5-4fd4-a737-851e3529a33f-1681717220bc8c8c4f-1",
+        "template--18735775252784__08748512-f0b5-4fd4-a737-851e3529a33f-1681717220bc8c8c4f-2",
+        "47cd6646-d695-413e-a388-c697d07d9878"
+      ],
+      "settings": {
+        "full_width": false,
+        "image": "shopify:\/\/shop_images\/Abent_leje.png",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "desktop_text_position": "place-self-start text-start",
+        "image_background": "",
+        "image_background_gradient": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "overlay_text_color": "#ffffff",
+        "overlay_button_background": "",
+        "overlay_button_text_color": "",
+        "hot_spot_dot_background": "#ffffff",
+        "hot_spot_dot_text_color": "#000000",
+        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_text_color": "#000000",
+        "hot_spot_content_opacity": 90,
+        "hot_spot_content_blur_radius": 3
+      }
+    },
+    "b23db604-f929-4041-966d-d569efc59318": {
+      "type": "multi-column",
+      "blocks": {
+        "template--18735408939312__b23db604-f929-4041-966d-d569efc59318-16813839451d95fa14-0": {
+          "type": "item",
+          "settings": {
+            "column_size": "1.5",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "{{ page.metafields.custom.afsluttende_tekst | metafield_tag }}",
+            "link_url": "https:\/\/www.ceramicspeed.com\/media\/5651\/case_xterme_premier-is_en.pdf",
+            "link_text": "",
+            "link_style": "button"
+          }
+        },
+        "template--18735408939312__b23db604-f929-4041-966d-d569efc59318-16813839451d95fa14-2": {
+          "type": "item",
+          "settings": {
+            "image": "{{ page.metafields.custom.billede.value }}",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "{{ page.metafields.custom.link_til_downloadknap.value }}",
+            "link_text": "{{ page.metafields.custom.knap_til_download | metafield_text }}",
+            "link_style": "button"
+          }
+        }
+      },
+      "block_order": [
+        "template--18735408939312__b23db604-f929-4041-966d-d569efc59318-16813839451d95fa14-0",
+        "template--18735408939312__b23db604-f929-4041-966d-d569efc59318-16813839451d95fa14-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3e7dc412-585b-499a-9f9f-d213ad19b2ae",
+    "54b5dac4-f763-44d4-a340-45889c430866",
+    "63e53c85-af6a-49af-8888-56c525d47e5f",
+    "8bf0803f-4039-43d8-bb07-6c134d5841c6",
+    "dd0df060-40ee-4754-a978-a550d5f8e765",
+    "21607970-a781-4c52-9c1c-3dd9ec7725f5",
+    "7bbc9987-f67a-47ae-8607-ce9206d4a094",
+    "f4623f98-11d8-4689-ac66-2164b039103b",
+    "08748512-f0b5-4fd4-a737-851e3529a33f",
+    "b23db604-f929-4041-966d-d569efc59318"
+  ]
+}

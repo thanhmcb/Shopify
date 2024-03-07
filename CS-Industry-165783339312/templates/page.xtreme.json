@@ -1,0 +1,359 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "3e7dc412-585b-499a-9f9f-d213ad19b2ae": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18735408939312__3e7dc412-585b-499a-9f9f-d213ad19b2ae-168138351266b6bd17-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DGBB_insulate_corrotec_xtreme3_RR.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center-start text-start",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "",
+            "title": "{{ page.metafields.custom.sidetitel.value }}",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18735408939312__3e7dc412-585b-499a-9f9f-d213ad19b2ae-168138351266b6bd17-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "md",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "1702288043ef9b3f6c": {
+      "type": "apps",
+      "blocks": {
+        "5ea3c225-d875-4a0e-85de-3bbbabe646de": {
+          "type": "shopify:\/\/apps\/ez-add-breadcrumbs\/blocks\/app-block\/457dc635-4337-4779-8f31-361dd27778c8",
+          "settings": {
+            "show_breadcrumbs": true,
+            "color": "#000000",
+            "horizontal_alignment": "left",
+            "fontsize": 15,
+            "breadcrumb_font": "din_next_n4",
+            "marginleft": 0,
+            "margintop": 0,
+            "marginright": 0,
+            "marginbottom": 0,
+            "show_home_link": false,
+            "show_last_crumb": true,
+            "home_page": "Home",
+            "home_url": "\/",
+            "all_uppercase": false,
+            "use_slider": false,
+            "article_use_tag": true,
+            "separator": "<span> › <\/span>",
+            "css_tablet": "\/* font-family: Helvetica; *\/",
+            "css_mobile": "\/* font-family: Helvetica; *\/",
+            "custom_css": "\/* font-family: Helvetica; *\/",
+            "css_last_crumb": "\/* font-weight: medium; *\/",
+            "css_hover": "\/* text-decoration-line: underline; *\/",
+            "menus": "*"
+          }
+        }
+      },
+      "block_order": [
+        "5ea3c225-d875-4a0e-85de-3bbbabe646de"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "98152976-4604-4534-866d-6aad6bb66eae": {
+      "type": "accordion-content",
+      "blocks": {
+        "template--19294281171248__98152976-4604-4534-866d-6aad6bb66eae-16890777936751107f-0": {
+          "type": "item",
+          "settings": {
+            "title": "Can CeramicSpeed Bearings run in contaminated environments?",
+            "content": "<p>Our Xtreme series is designed for applications in contaminated environments, where particles can penetrate the bearing and affect the bearing performance. Characterized by unmatched hardness, the hybrid balls tolerate a high degree of contamination, crushing the particles that penetrate into the bearing races. Our Xtreme series are also highly resistant against water and detergents because Silicon Nitride does not corrode. <\/p>"
+          }
+        },
+        "template--19294281171248__98152976-4604-4534-866d-6aad6bb66eae-16890777936751107f-1": {
+          "type": "item",
+          "settings": {
+            "title": "Can CeramicSpeed Bearings be optimized specifically for oscillating applications?",
+            "content": "<p>Yes,  our Xtreme series can also be manufactured and optimized specifically for oscillating applications. These applications match special machines, where a bearing not performing full rotation is needed.<\/p>"
+          }
+        },
+        "template--19294281171248__98152976-4604-4534-866d-6aad6bb66eae-16890777936751107f-2": {
+          "type": "item",
+          "settings": {
+            "title": "Can CeramicSpeed Bearings operate at extremely high speed?",
+            "content": "<p>CeramicSpeed bearings can operate at much higher RPMs - up to 50 % higher - giving you the possibility of using long-life bearings in demanding high-speed applications, such as machine tool spindles and turbomachinery<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19294281171248__98152976-4604-4534-866d-6aad6bb66eae-16890777936751107f-0",
+        "template--19294281171248__98152976-4604-4534-866d-6aad6bb66eae-16890777936751107f-1",
+        "template--19294281171248__98152976-4604-4534-866d-6aad6bb66eae-16890777936751107f-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "A highly resistant bearing that is unlikely to fail even in the most contaminated environments",
+        "content": "<p>Imagine a ball bearing in which the balls are harder and tougher than anything that comes into contact with them: dust, grit, metal filings, or tiny mineral fragments. Imagine a bearing in which all contaminants are ground to microscopic powder by the balls themselves - a bearing that is unlikely to fail.<\/p><p>We deliver our Xtreme series in a variety of combinations - if you can't find the one that fits you please <a href=\"\/pages\/contact\" title=\"Contact\">contact us<\/a> and we will find the right solution for you.<\/p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "7647fb8a-7d5c-4149-8a81-524827856e62": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "template--18735408939312__7647fb8a-7d5c-4149-8a81-524827856e62-1681386433e228e7ce-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Premier_is_freezing_tunnel.png",
+            "image_rotation_degrees": -5,
+            "subheading": "",
+            "title": "",
+            "content": "<p>The lifetime of a CeramicSpeed Bearing is 4-8 times longer than a traditional bearing. One of our customers “Premier Is” has achieved an increase of more than 4 times in bearing life, while also reducing downtime and operational costs just by a simple switch to CeramicSpeed Hybrid Bearings. By replacing standard bearings with CeramicSpeed Hybrid Bearings the company also decreased their unplanned production shutdowns remarkably. Read the entire customer case <a href=\"https:\/\/www.ceramicspeed.com\/media\/5651\/case_xterme_premier-is_en.pdf\" target=\"_blank\" title=\"Case Xterme Premier Is EN\">here. <\/a><\/p><p>Labor and other costs associated with replacing worn-out bearings often exceed the price of the actual bearing several times over. Multiply these costs 4-8 times, and you can calculate the potential for reducing costs by replacing traditional bearings with CeramicSpeed Bearings. <\/p><p>Are you curious about how much you can save on your maintenance cost by replacing standard bearings? Contact us <a href=\"https:\/\/www.ceramicspeed.com\/en\/industry\/contact-industry\/\" target=\"_blank\" title=\"Contact Industry\">here<\/a> and let us help you.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18735408939312__7647fb8a-7d5c-4149-8a81-524827856e62-1681386433e228e7ce-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "fca950ae-c747-40ae-b91b-232b8e6dcc86": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "template--18836617593136__fca950ae-c747-40ae-b91b-232b8e6dcc86-16850139352b08998a-0": {
+          "type": "item",
+          "settings": {
+            "image": "{{ page.metafields.custom.pdf_1.value }}",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "{{ page.metafields.custom.link_til_downloadknap.value }}",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--18836617593136__fca950ae-c747-40ae-b91b-232b8e6dcc86-16850139352b08998a-1": {
+          "type": "item",
+          "settings": {
+            "image": "{{ page.metafields.custom.pdf_2.value }}",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "{{ page.metafields.custom.link_til_downloadknap.value }}",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "df912fc1-7ace-43e2-8d48-6554b649ff17": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/e899efc3b89dc967152b8a599b2a7008f9711882.webp",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "{{ page.metafields.custom.link_til_downloadknap.value }}",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "d3feb2e1-aa22-4345-b98f-9fcc2a7c2ac5": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/c6440c4582937449f8233da98a9cf9291c07efad.webp",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "{{ page.metafields.custom.link_til_downloadknap.value }}",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "1af443b0-99e7-404c-a497-14860a4d20d9": {
+          "type": "item",
+          "settings": {
+            "image": "{{ page.metafields.custom.pdf_4.value }}",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "{{ page.metafields.custom.link_til_downloadknap.value }}",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--18836617593136__fca950ae-c747-40ae-b91b-232b8e6dcc86-16850139352b08998a-0",
+        "template--18836617593136__fca950ae-c747-40ae-b91b-232b8e6dcc86-16850139352b08998a-1",
+        "df912fc1-7ace-43e2-8d48-6554b649ff17",
+        "d3feb2e1-aa22-4345-b98f-9fcc2a7c2ac5",
+        "1af443b0-99e7-404c-a497-14860a4d20d9"
+      ],
+      "settings": {
+        "full_width": false,
+        "stack_image": true,
+        "grid-gap": 20,
+        "block_size": "large",
+        "subheading": "",
+        "title": "Available Sizes",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "#b2c9c9",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "9c4ae488-9d5e-4387-a7e2-198e3466b62c": {
+      "type": "video",
+      "blocks": {
+        "template--18836617593136__9c4ae488-9d5e-4387-a7e2-198e3466b62c-168501423891c9b470-0": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--18836617593136__9c4ae488-9d5e-4387-a7e2-198e3466b62c-168501423891c9b470-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Electrical Equipment",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--18836617593136__9c4ae488-9d5e-4387-a7e2-198e3466b62c-168501423891c9b470-0",
+        "template--18836617593136__9c4ae488-9d5e-4387-a7e2-198e3466b62c-168501423891c9b470-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "md",
+        "video": "{{ page.metafields.custom.video.value }}",
+        "external_video_url": "",
+        "poster": "shopify:\/\/shop_images\/Skaermbillede_2023-05-25_kl._13.45.41.png",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "8be30c4e-bd53-4a66-b2eb-77d982458b42": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--19294281171248__8be30c4e-bd53-4a66-b2eb-77d982458b42-1689078998c5db8e83-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--19294281171248__8be30c4e-bd53-4a66-b2eb-77d982458b42-1689078998c5db8e83-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        },
+        "template--19294281171248__8be30c4e-bd53-4a66-b2eb-77d982458b42-1689078998c5db8e83-2": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19294281171248__8be30c4e-bd53-4a66-b2eb-77d982458b42-1689078998c5db8e83-0",
+        "template--19294281171248__8be30c4e-bd53-4a66-b2eb-77d982458b42-1689078998c5db8e83-1",
+        "template--19294281171248__8be30c4e-bd53-4a66-b2eb-77d982458b42-1689078998c5db8e83-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/JG_201214_CeramicSpeed_Industri_00091.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3e7dc412-585b-499a-9f9f-d213ad19b2ae",
+    "1702288043ef9b3f6c",
+    "98152976-4604-4534-866d-6aad6bb66eae",
+    "7647fb8a-7d5c-4149-8a81-524827856e62",
+    "fca950ae-c747-40ae-b91b-232b8e6dcc86",
+    "9c4ae488-9d5e-4387-a7e2-198e3466b62c",
+    "8be30c4e-bd53-4a66-b2eb-77d982458b42"
+  ]
+}

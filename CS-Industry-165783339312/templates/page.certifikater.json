@@ -1,0 +1,144 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "067f8c35-13f9-42dc-9cd2-f2d4ffecb18b": {
+      "type": "slideshow",
+      "blocks": {
+        "template--20573109420336__067f8c35-13f9-42dc-9cd2-f2d4ffecb18b-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3255dc483a2f55200df953018fb7704a94f49fb6.webp",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "",
+            "title": "Certificates",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20573109420336__067f8c35-13f9-42dc-9cd2-f2d4ffecb18b-image-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "md",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "170228567238af388c": {
+      "type": "apps",
+      "blocks": {
+        "1e452a18-1097-4c11-a6c2-6413c7e918c6": {
+          "type": "shopify:\/\/apps\/ez-add-breadcrumbs\/blocks\/app-block\/457dc635-4337-4779-8f31-361dd27778c8",
+          "settings": {
+            "show_breadcrumbs": true,
+            "color": "#000000",
+            "horizontal_alignment": "left",
+            "fontsize": 15,
+            "breadcrumb_font": "din_next_n4",
+            "marginleft": 0,
+            "margintop": 0,
+            "marginright": 0,
+            "marginbottom": 0,
+            "show_home_link": false,
+            "home_page": "Home",
+            "home_url": "\/",
+            "all_uppercase": false,
+            "use_slider": false,
+            "article_use_tag": true,
+            "separator": "<span> › <\/span>",
+            "css_tablet": "\/* font-family: Helvetica; *\/",
+            "css_mobile": "\/* font-family: Helvetica; *\/",
+            "custom_css": "\/* font-family: Helvetica; *\/",
+            "css_last_crumb": "\/* font-weight: medium; *\/",
+            "css_hover": "\/* text-decoration-line: underline; *\/",
+            "menus": "*"
+          }
+        }
+      },
+      "block_order": [
+        "1e452a18-1097-4c11-a6c2-6413c7e918c6"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "a0e8969f-83ed-4c2a-85a5-49d71e08bae0": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "63f72126-1391-41c6-9ad8-fd95bd77874a": {
+          "type": "item",
+          "repeater": "{{ page.metafields.custom.downloads_certificates.value }}",
+          "settings": {
+            "image": "{{ block.repeater.frontpage.value }}",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "{{ block.repeater.url_til_abning_af_billede.value }}",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "63f72126-1391-41c6-9ad8-fd95bd77874a"
+      ],
+      "settings": {
+        "full_width": false,
+        "stack_image": true,
+        "grid-gap": 20,
+        "block_size": "medium",
+        "subheading": "",
+        "title": "Certificates",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "067f8c35-13f9-42dc-9cd2-f2d4ffecb18b",
+    "170228567238af388c",
+    "a0e8969f-83ed-4c2a-85a5-49d71e08bae0"
+  ]
+}

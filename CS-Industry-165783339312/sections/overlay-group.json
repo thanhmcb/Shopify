@@ -1,0 +1,84 @@
+{
+  "type": "custom.overlay",
+  "name": "Overlay group",
+  "sections": {
+    "newsletter-popup": {
+      "type": "newsletter-popup",
+      "disabled": true,
+      "settings": {
+        "apparition_delay": 5,
+        "show_only_on_index": true,
+        "show_only_for_visitors": true,
+        "show_only_once": true,
+        "image": "shopify:\/\/shop_images\/PEM_Sleeknote.jpg",
+        "title": "Signup for our newsletter",
+        "button_text": "Subscribe",
+        "subtext": "Describe what your customers will receive when subscribing to your newsletter."
+      }
+    },
+    "privacy-banner": {
+      "type": "privacy-banner",
+      "settings": {
+        "privacy_bar_title": "Cookie policy",
+        "privacy_bar_content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.<\/p>"
+      }
+    },
+    "cart-drawer": {
+      "type": "cart-drawer",
+      "settings": {
+        "show_cart_note": false,
+        "show_shipping_text": true,
+        "show_view_cart_button": false,
+        "show_checkout_button": true,
+        "recommendations_title": "Trending this month",
+        "products": [
+          "ospw-for-shimano-dura-ace-9250-and-ultegra-8150",
+          "kopi-af-bb86-bottom-bracket-for-sram-dub-gravel-2"
+        ],
+        "product_card_background": "#f2f2f2"
+      }
+    },
+    "search-drawer": {
+      "type": "search-drawer",
+      "settings": {
+        "full_width": false,
+        "show_article_category": true,
+        "search_menu": "",
+        "search_menu_show_title": true
+      }
+    },
+    "product-contact-drawer": {
+      "type": "product-contact-drawer",
+      "blocks": {
+        "name_email_8YcwiB": {
+          "type": "name-email",
+          "settings": {}
+        },
+        "box_with_link_QgTN3x": {
+          "type": "box-with-link",
+          "disabled": true,
+          "settings": {
+            "upload_title": "<div>Please upload the file here <a href =\"https:\/\/app.mediafire.com\/myfiles\" class=\"link\">here<\/a> and paste the link under<\/div>"
+          }
+        },
+        "message_WDEcgr": {
+          "type": "message",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "name_email_8YcwiB",
+        "box_with_link_QgTN3x",
+        "message_WDEcgr"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "newsletter-popup",
+    "privacy-banner",
+    "cart-drawer",
+    "search-drawer",
+    "product-contact-drawer"
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "3e7dc412-585b-499a-9f9f-d213ad19b2ae": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18735408939312__3e7dc412-585b-499a-9f9f-d213ad19b2ae-168138351266b6bd17-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Electrical_motor_side_billede.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center-start text-start",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "Your guarantee against stray current damages",
+            "title": "{{ page.metafields.custom.sidetitel.value }}",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#fafafa",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18735408939312__3e7dc412-585b-499a-9f9f-d213ad19b2ae-168138351266b6bd17-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "lg",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "17022863149f6e2695": {
+      "type": "apps",
+      "blocks": {
+        "1dc1535f-a75f-465d-884e-93ee6230b8c2": {
+          "type": "shopify:\/\/apps\/ez-add-breadcrumbs\/blocks\/app-block\/457dc635-4337-4779-8f31-361dd27778c8",
+          "settings": {
+            "show_breadcrumbs": true,
+            "color": "#000000",
+            "horizontal_alignment": "left",
+            "fontsize": 15,
+            "breadcrumb_font": "din_next_n4",
+            "marginleft": 0,
+            "margintop": 0,
+            "marginright": 0,
+            "marginbottom": 0,
+            "show_home_link": false,
+            "home_page": "Home",
+            "home_url": "\/",
+            "all_uppercase": false,
+            "use_slider": false,
+            "article_use_tag": true,
+            "separator": "<span> › <\/span>",
+            "css_tablet": "\/* font-family: Helvetica; *\/",
+            "css_mobile": "\/* font-family: Helvetica; *\/",
+            "custom_css": "\/* font-family: Helvetica; *\/",
+            "css_last_crumb": "\/* font-weight: medium; *\/",
+            "css_hover": "\/* text-decoration-line: underline; *\/",
+            "menus": "*"
+          }
+        }
+      },
+      "block_order": [
+        "1dc1535f-a75f-465d-884e-93ee6230b8c2"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "2411d344-c299-4a72-b10e-c244bb673217": {
+      "type": "multi-column",
+      "blocks": {
+        "template--19264571113776__2411d344-c299-4a72-b10e-c244bb673217-168490937767ec2ca1-0": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "Hybrid ball bearings are the future",
+            "heading_tag": "h3",
+            "content": "<p>Hybrid ball bearings are the future for manufacturers of electrical motors. The demand for stronger, more durable, and longer-lasting bearings for electrical motors is on the rise – and in many applications, conventional steel balls in motor bearings simply won’t cut it.<\/p><p>The requirement of the bearing for an electrical motor is numerous. They must support the load of the shaft, and be precise to keep the gap between the rotor and stator small and constant. The bearings need to be able to handle different speeds in case you have a motor with variable speed control using pulse width modulation (PWM) at the same time they must stay quiet and vibration free.<\/p><p>CeramicSpeed “Insulate” hybrid bearing product line does attack all those points to deliver you with the best solution package in one bearing.  Our ceramic silicon nitride (Si3N4) balls of the highest quality offer a four times smother and two-time harder surface compared to steel balls. That result in a much lower internal bearing rotation resistance which saves energy reduces the bearing operation temperature by up to 40°C and reduces the vibration inside the bearing. As the ceramic material is lighter compared to steel it offers higher speed capabilities under the same operating conditions as the same-size steel bearing. <\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--19264571113776__2411d344-c299-4a72-b10e-c244bb673217-168490937767ec2ca1-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shutterstock_2160127527__1___1_-removebg-preview.png",
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--19264571113776__2411d344-c299-4a72-b10e-c244bb673217-168490937767ec2ca1-0",
+        "template--19264571113776__2411d344-c299-4a72-b10e-c244bb673217-168490937767ec2ca1-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "small",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "265c539d-ac53-4507-a81b-6017c4dc5258": {
+      "type": "multi-column",
+      "blocks": {
+        "template--19264571113776__265c539d-ac53-4507-a81b-6017c4dc5258-168491219134c9bdc6-2": {
+          "type": "item",
+          "settings": {
+            "image": "{{ page.metafields.custom.pdf_2.value }}",
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--19264571113776__265c539d-ac53-4507-a81b-6017c4dc5258-168491219134c9bdc6-1": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "Insulating properties",
+            "heading_tag": "h3",
+            "content": "<p>As silicon nitride (Si3N4) is such a great electrical insulator (15kV\/mm) hybrid bearing can perfectly insulate the shaft from the housing in all cases such as AC, DC, and PWM controlled electrical motors and as well in generators.  We give you a guarantee that with CeramicSpeed Insulate bearings you will never have trouble with bearing damages due to electrical erosion ever again.<\/p><p>Hybrid ball bearings are proven to last 4 to 8 times longer than steel bearings – in some cases even longer. Hybrid Ball Bearings eliminate frequent replacements, production stops, or unforeseen breakdowns due to bearing failure and they will cause a noticeable reduction in your company's MRO spending.<\/p><h5><strong>How do you prevent damage caused by bearing current? Learn more <\/strong><a href=\"https:\/\/www.ceramicspeed.com\/en\/industry\/why-hybrid-bearings\/zero-current-erosion\/\"><strong>here<\/strong><\/a><\/h5>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--19264571113776__265c539d-ac53-4507-a81b-6017c4dc5258-168491219134c9bdc6-2",
+        "template--19264571113776__265c539d-ac53-4507-a81b-6017c4dc5258-168491219134c9bdc6-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "25021be0-b5f2-4a9a-bdc0-f7e3867e262f": {
+      "type": "multi-column",
+      "blocks": {
+        "0feb7c61-6852-44a6-9545-4e8827743182": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
+        "template--19264571113776__25021be0-b5f2-4a9a-bdc0-f7e3867e262f-168491219134c9bdc6-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/de019d7ccec13e937d09f35917b1634a6c089d51.webp",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0744\/8671\/0576\/files\/case_xterme_premier-is_en.pdf?v=1684911217",
+            "link_text": "Read our customer case from Premier Is here",
+            "link_style": "button"
+          }
+        },
+        "template--19264571113776__25021be0-b5f2-4a9a-bdc0-f7e3867e262f-168491219134c9bdc6-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1f1eebfba3a7b11ba4b8d6a04740cb37e5085ccb.webp",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0744\/8671\/0576\/files\/case_xtreme_bag-welder_en.pdf?v=1684912959",
+            "link_text": "Read our customer case with an increase of bearing life of 44 times ",
+            "link_style": "button"
+          }
+        }
+      },
+      "block_order": [
+        "0feb7c61-6852-44a6-9545-4e8827743182",
+        "template--19264571113776__25021be0-b5f2-4a9a-bdc0-f7e3867e262f-168491219134c9bdc6-0",
+        "template--19264571113776__25021be0-b5f2-4a9a-bdc0-f7e3867e262f-168491219134c9bdc6-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "74b3fafa-45b1-447b-ba45-3d4386d1545d": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "template--19265472135472__74b3fafa-45b1-447b-ba45-3d4386d1545d-168932646470d42891-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/84f78aa73c388b7485ca0993dc899c8baf532d57_83d81279-beb1-49ff-9765-6d97ae9630ff.webp",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "Customer Case from Grundfos",
+            "content": "<p>Read how our customer grundfos Improved reliability and extended<br\/>lifetime<br\/><\/p>",
+            "button_url": "shopify:\/\/blogs\/case-stories\/grundfos",
+            "button_text": "Read the customer case here"
+          }
+        },
+        "template--19265472135472__74b3fafa-45b1-447b-ba45-3d4386d1545d-168932646470d42891-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3a14a58c774fda38a01cbae5ddda58be79d9a7ab.png",
+            "image_rotation_degrees": 1.5,
+            "subheading": "",
+            "title": "The fact behind",
+            "content": "<p>Want to learn more about the facts behind ceramic hybrid bearings in elevtrical motors, then read this article written by our EVP Anders Thormann<\/p>",
+            "button_url": "https:\/\/www.linkedin.com\/pulse\/facts-behind-ceramic-hybrid-bearings-electrical-motors-thormann\/?trackingId=vNcLphfMTKq4Ro22dvBLfg%3D%3D",
+            "button_text": "Read the article here"
+          }
+        }
+      },
+      "block_order": [
+        "template--19265472135472__74b3fafa-45b1-447b-ba45-3d4386d1545d-168932646470d42891-0",
+        "template--19265472135472__74b3fafa-45b1-447b-ba45-3d4386d1545d-168932646470d42891-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3e7dc412-585b-499a-9f9f-d213ad19b2ae",
+    "17022863149f6e2695",
+    "2411d344-c299-4a72-b10e-c244bb673217",
+    "265c539d-ac53-4507-a81b-6017c4dc5258",
+    "25021be0-b5f2-4a9a-bdc0-f7e3867e262f",
+    "74b3fafa-45b1-447b-ba45-3d4386d1545d"
+  ]
+}

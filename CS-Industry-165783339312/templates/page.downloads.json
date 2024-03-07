@@ -1,0 +1,248 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "b2dcd222-bbcc-4b9c-b2c0-8bcfacd1119a": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "template--19264124911920__b2dcd222-bbcc-4b9c-b2c0-8bcfacd1119a-16849091811393e154-0": {
+          "type": "item",
+          "repeater": "{{ page.metafields.custom.catalogs.value }}",
+          "settings": {
+            "image": "{{ block.repeater.frontpage.value }}",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "{{ block.repeater.seo_siden.value }}",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--19264124911920__b2dcd222-bbcc-4b9c-b2c0-8bcfacd1119a-16849091811393e154-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_image": true,
+        "grid-gap": 10,
+        "block_size": "large",
+        "subheading": "",
+        "title": "Catalogs",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "5be18546-902a-4ea6-92bc-457f42ff8d45": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "template--19264124911920__5be18546-902a-4ea6-92bc-457f42ff8d45-16849091811393e154-0": {
+          "type": "item",
+          "repeater": "{{ page.metafields.custom.case_stories.value }}",
+          "settings": {
+            "image": "{{ block.repeater.frontpage.value }}",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "{{ block.repeater.pdf_url.value }}",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--19264124911920__5be18546-902a-4ea6-92bc-457f42ff8d45-16849091811393e154-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_image": true,
+        "grid-gap": 10,
+        "block_size": "large",
+        "subheading": "",
+        "title": "Cases",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "8cd72f51-f820-4c55-a866-55850a7a79e3": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "template--19264124911920__8cd72f51-f820-4c55-a866-55850a7a79e3-16854399300bc8c384-2": {
+          "type": "item",
+          "repeater": "{{ page.metafields.custom.product_overview.value }}",
+          "settings": {
+            "image": "{{ block.repeater.frontpage.value }}",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "{{ block.repeater.pdf_url.value }}",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--19264124911920__8cd72f51-f820-4c55-a866-55850a7a79e3-16854399300bc8c384-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_image": true,
+        "grid-gap": 10,
+        "block_size": "large",
+        "subheading": "",
+        "title": "Product Overview",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "08945408-d920-4eb8-b60c-99d8cdc773f3": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "34e174c3-8fa9-4ac7-b52d-1bba83f58d1e": {
+          "type": "item",
+          "repeater": "{{ page.metafields.custom.one_pagers.value }}",
+          "settings": {
+            "image": "{{ block.repeater.frontpage.value }}",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "{{ block.repeater.pdf_url.value }}",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "34e174c3-8fa9-4ac7-b52d-1bba83f58d1e"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_image": true,
+        "grid-gap": 10,
+        "block_size": "large",
+        "subheading": "",
+        "title": "One Pagers",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "48285409-ad22-4299-a63c-d071d7e8e0be": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "97d77048-60e3-4210-96ae-2b5f249e3989": {
+          "type": "item",
+          "repeater": "{{ page.metafields.custom.elforsk_brochure.value }}",
+          "settings": {
+            "image": "{{ block.repeater.frontpage.value }}",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "{{ block.repeater.pdf_url.value }}",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "97d77048-60e3-4210-96ae-2b5f249e3989"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_image": true,
+        "grid-gap": 10,
+        "block_size": "large",
+        "subheading": "",
+        "title": "Elforsk",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "3741a13e-00fa-43a2-9a30-b01b572beb1b": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "68e7c294-2c9e-4c62-893d-48271db6a762": {
+          "type": "item",
+          "repeater": "{{ page.metafields.custom.downloads_certificates.value }}",
+          "settings": {
+            "image": "{{ block.repeater.frontpage.value }}",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "{{ block.repeater.url_til_abning_af_billede.value }}",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "68e7c294-2c9e-4c62-893d-48271db6a762"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_image": true,
+        "grid-gap": 10,
+        "block_size": "large",
+        "subheading": "",
+        "title": "Certificates",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "b2dcd222-bbcc-4b9c-b2c0-8bcfacd1119a",
+    "5be18546-902a-4ea6-92bc-457f42ff8d45",
+    "8cd72f51-f820-4c55-a866-55850a7a79e3",
+    "08945408-d920-4eb8-b60c-99d8cdc773f3",
+    "48285409-ad22-4299-a63c-d071d7e8e0be",
+    "3741a13e-00fa-43a2-9a30-b01b572beb1b"
+  ]
+}

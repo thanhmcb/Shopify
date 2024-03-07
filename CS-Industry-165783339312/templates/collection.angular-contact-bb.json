@@ -1,0 +1,247 @@
+{
+  "sections": {
+    "d1558fe2_1702295386": {
+      "type": "powr-popup",
+      "settings": {}
+    },
+    "banner": {
+      "type": "collection-banner",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": true,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "collection_title_size": "h0",
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/ACBB_right.png",
+        "mobile_text_position": "place-self-center-start text-start",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "sub_image_background": "#000000",
+        "sub_image_width": 330,
+        "featured_product": "",
+        "featured_product_heading": "Featured product",
+        "text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 7
+      }
+    },
+    "sub_collections_mcb_fXjWwN": {
+      "type": "sub-collections-mcb",
+      "blocks": {
+        "item_QLeCiR": {
+          "type": "item",
+          "repeater": "{{ collection.metafields.custom.subcollections.value }}",
+          "settings": {
+            "image": "{{ block.repeater.image.value }}",
+            "stretch_image": true,
+            "link_text": "{{ block.repeater.link_text.value }}",
+            "link_url_collection": "{{ block.repeater.collection.value }}",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_QLeCiR"
+      ],
+      "settings": {
+        "full_width": false,
+        "stack_image": false,
+        "grid-gap": 20,
+        "block_size": "medium",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "rich_text_8Mnq9P": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_jgcd4T": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><br\/>d = Inner ring dimension<br\/>D = Outer ring dimension<br\/>B = Bearing width<\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_jgcd4T"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "blocks": {
+        "item_nqe3pP": {
+          "type": "item",
+          "settings": {
+            "title": "d",
+            "liquid": "",
+            "option_value_metafield": "custom_erp.bore_diameter"
+          }
+        },
+        "item_3aftB4": {
+          "type": "item",
+          "settings": {
+            "title": "D [mm]",
+            "liquid": "",
+            "option_value_metafield": "custom_erp.outside_diameter"
+          }
+        },
+        "item_LbBL4q": {
+          "type": "item",
+          "settings": {
+            "title": "B",
+            "liquid": "",
+            "option_value_metafield": "custom_erp.width"
+          }
+        },
+        "item_rikNKG": {
+          "type": "item",
+          "settings": {
+            "title": "C [kN]",
+            "liquid": "",
+            "option_value_metafield": "custom_erp.load_rating_dynamic"
+          }
+        },
+        "item_xUxYgj": {
+          "type": "item",
+          "settings": {
+            "title": "(C0)",
+            "liquid": "(C<span class=\"small\">0<\/span>)",
+            "option_value_metafield": "custom_erp.load_rating_static"
+          }
+        }
+      },
+      "block_order": [
+        "item_nqe3pP",
+        "item_3aftB4",
+        "item_LbBL4q",
+        "item_rikNKG",
+        "item_xUxYgj"
+      ],
+      "settings": {
+        "hide_sold_out_variants": true,
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "filter_layout": "horizontal",
+        "show_sort_by": false,
+        "show_filters": true,
+        "show_filter_group_name": false,
+        "show_color_swatch": true,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": true,
+        "open_first_filter_group": false
+      }
+    },
+    "multi_column_GqVgAY": {
+      "type": "multi-column",
+      "blocks": {
+        "spacer_hjRWa6": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
+        "item_U6F6Qx": {
+          "type": "item",
+          "settings": {
+            "column_size": "1.5",
+            "title": "Precision Engineered Excellence: Unleash the Power of Angular Contact Ball Bearings (ACBB) for Unmatched Performance",
+            "heading_tag": "h1",
+            "content": "<p>Discover the versatility and strength of Angular Contact Ball Bearings (ACBB), designed to handle both radial and axial loads simultaneously. These specialized ball bearings are engineered with a unique configuration of inner and outer rings, ensuring optimal performance under various conditions<\/p><h3>1. Radial and Axial Load Handling<\/h3><p>ACBBs are proficient in managing radial loads in both directions and axial loads in one direction. The strategic disposition of the inner and outer rings prevents the contact point between the ball and raceway from aligning with the vertical centerline of the bearing.<\/p><h3>2. Variable Contact Angles<\/h3><p>Depending on the specific ACBB series and type, you can choose bearings with contact angles of 15°, 25°, 30°, and 40°. Larger contact angles provide enhanced axial load support, while lower contact angles are ideal for higher-speed applications.<\/p><h3>3. Pairing for Optimal Performance<\/h3><p>To counteract the axial force generated by radial loads, ACBBs are commonly used in pairs. Available as single or double rows and matched pairs, the O-arrangement (face to face) and X-arrangement (back to back) offer distinct behaviors against tilting moments and reactions to bearing clearance influenced by temperature.<\/p><h3>4. Configurations for Higher Axial Loads<\/h3><p>For applications requiring even higher axial loads, consider the tandem (T) arrangement or TO and TX arrangements.<\/p><h3>5. Diverse Cage Materials and Tolerance Classes<\/h3><p>Choose from ACBBs with various cage materials, including pressed steel, polymer, or machined brass. Additionally, our bearings are available in different tolerance classes to meet your specific application requirements.<\/p><h3>6. Wide Range of Applications<\/h3><p>ACBBs find applications in diverse industries, including pumps and compressors, spindles, e-motors, packaging machines, drilling machines, and wheel bearings.<\/p><p>Trust in the reliability and performance of our ACBBs to enhance the efficiency and durability of your machinery. Explore the options available and find the perfect solution for your unique needs.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "spacer_hjRWa6",
+        "item_U6F6Qx"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_y7Yt9t": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_Wd3Y4E": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_fjhkVU": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_gRVcPq": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Wd3Y4E",
+        "heading_fjhkVU",
+        "richtext_gRVcPq"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/ACBB_red_RR.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    }
+  },
+  "order": [
+    "d1558fe2_1702295386",
+    "banner",
+    "sub_collections_mcb_fXjWwN",
+    "rich_text_8Mnq9P",
+    "main",
+    "multi_column_GqVgAY",
+    "image_with_text_overlay_y7Yt9t"
+  ]
+}

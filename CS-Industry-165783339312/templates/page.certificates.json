@@ -1,0 +1,227 @@
+{
+  "sections": {
+    "0b4056f9-ff3e-4072-b483-40e39e5c4f39": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18836617953584__0b4056f9-ff3e-4072-b483-40e39e5c4f39-1685093767b3e2e52c-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/f991638abdce0c4565190a7b08f62365f12c3c45_33cc6e7a-d04c-454c-99ae-134bc33b9230.webp",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "",
+            "title": "Certificates",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18836617953584__0b4056f9-ff3e-4072-b483-40e39e5c4f39-1685093767b3e2e52c-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "md",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#000000",
+        "background_gradient": ""
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "170228562310d4bd63": {
+      "type": "apps",
+      "blocks": {
+        "d43ed3ad-a7ca-40af-952d-7c157385c659": {
+          "type": "shopify:\/\/apps\/ez-add-breadcrumbs\/blocks\/app-block\/457dc635-4337-4779-8f31-361dd27778c8",
+          "settings": {
+            "show_breadcrumbs": true,
+            "color": "#000000",
+            "horizontal_alignment": "left",
+            "fontsize": 15,
+            "breadcrumb_font": "din_next_n4",
+            "marginleft": 0,
+            "margintop": 0,
+            "marginright": 0,
+            "marginbottom": 0,
+            "show_home_link": true,
+            "home_page": "Home",
+            "home_url": "\/",
+            "all_uppercase": false,
+            "use_slider": false,
+            "article_use_tag": true,
+            "separator": "<span> › <\/span>",
+            "css_tablet": "\/* font-family: Helvetica; *\/",
+            "css_mobile": "\/* font-family: Helvetica; *\/",
+            "custom_css": "\/* font-family: Helvetica; *\/",
+            "css_last_crumb": "\/* font-weight: medium; *\/",
+            "css_hover": "\/* text-decoration-line: underline; *\/",
+            "menus": "*"
+          }
+        }
+      },
+      "block_order": [
+        "d43ed3ad-a7ca-40af-952d-7c157385c659"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "7741d359-b741-4d2d-8987-1b86b03078f5": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "template--19750427623728__7741d359-b741-4d2d-8987-1b86b03078f5-1687784114cbbd982d-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/995537d07ed13107cd13fdc521597748e03300f2.webp",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0744\/8671\/0576\/files\/iso-9001_2015-certificate.pdf?v=1685451278",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--19750427623728__7741d359-b741-4d2d-8987-1b86b03078f5-1687784114cbbd982d-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/71ea328aac7f8bc8ae4395af4e76584a4d188d1e.webp",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0744\/8671\/0576\/files\/food-approval-2021.pdf?v=1687784418",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--19750427623728__7741d359-b741-4d2d-8987-1b86b03078f5-1687784114cbbd982d-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/65a1125e69ab8c73745e39e9f38cf99be831a726.webp",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0744\/8671\/0576\/files\/certicificate-of-conformity_insulate.pdf?v=1687784504",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--19750427623728__7741d359-b741-4d2d-8987-1b86b03078f5-1687784114cbbd982d-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/41e708e05144a7496efa077d4a5e8c5c1e8bed6c.webp",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0744\/8671\/0576\/files\/certificate-of-conformity_corrotec.jpg?v=1687784581",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "fb282313-1a1f-4458-8786-8088d9bcab20": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0047e9b077bc68837a7d282edf385350450857f3.webp",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0744\/8671\/0576\/files\/coc_xterme.png?v=1687784654",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "2a49827a-4e6f-474d-830b-172fd08b195d": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cfc0d18b93ecd2cf33641059900c7405f641ecb6.webp",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0744\/8671\/0576\/files\/fda_compiled_e_signeddocx.pdf?v=1685451762",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "0a7fe0bf-43e6-46d9-97f7-65ac6ff90e16": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/c851e4bf78cb8a0c10773c37d566f355999ac6c6.webp",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0744\/8671\/0576\/files\/slt_fda_en.png?v=1685451847",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--19750427623728__7741d359-b741-4d2d-8987-1b86b03078f5-1687784114cbbd982d-0",
+        "template--19750427623728__7741d359-b741-4d2d-8987-1b86b03078f5-1687784114cbbd982d-1",
+        "template--19750427623728__7741d359-b741-4d2d-8987-1b86b03078f5-1687784114cbbd982d-2",
+        "template--19750427623728__7741d359-b741-4d2d-8987-1b86b03078f5-1687784114cbbd982d-3",
+        "fb282313-1a1f-4458-8786-8088d9bcab20",
+        "2a49827a-4e6f-474d-830b-172fd08b195d",
+        "0a7fe0bf-43e6-46d9-97f7-65ac6ff90e16"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_image": true,
+        "grid-gap": 20,
+        "block_size": "medium",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "0b4056f9-ff3e-4072-b483-40e39e5c4f39",
+    "main",
+    "170228562310d4bd63",
+    "7741d359-b741-4d2d-8987-1b86b03078f5"
+  ]
+}

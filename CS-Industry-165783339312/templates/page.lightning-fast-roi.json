@@ -1,0 +1,342 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "3e7dc412-585b-499a-9f9f-d213ad19b2ae": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18735408939312__3e7dc412-585b-499a-9f9f-d213ad19b2ae-168138351266b6bd17-0": {
+          "type": "image",
+          "settings": {
+            "image": "{{ page.metafields.custom.top_billede.value }}",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center-start text-start",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "60 % drop or more on bearing-related maintenance",
+            "title": "{{ page.metafields.custom.sidetitel.value }}",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#fafafa",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18735408939312__3e7dc412-585b-499a-9f9f-d213ad19b2ae-168138351266b6bd17-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "lg",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "1702286691d92c9332": {
+      "type": "apps",
+      "blocks": {
+        "aeb64a88-492e-4ab8-9d0a-94616b2bc1d0": {
+          "type": "shopify:\/\/apps\/ez-add-breadcrumbs\/blocks\/app-block\/457dc635-4337-4779-8f31-361dd27778c8",
+          "settings": {
+            "show_breadcrumbs": true,
+            "color": "#000000",
+            "horizontal_alignment": "left",
+            "fontsize": 15,
+            "breadcrumb_font": "din_next_n4",
+            "marginleft": 0,
+            "margintop": 0,
+            "marginright": 0,
+            "marginbottom": 0,
+            "show_home_link": false,
+            "home_page": "Home",
+            "home_url": "\/",
+            "all_uppercase": false,
+            "use_slider": false,
+            "article_use_tag": true,
+            "separator": "<span> › <\/span>",
+            "css_tablet": "\/* font-family: Helvetica; *\/",
+            "css_mobile": "\/* font-family: Helvetica; *\/",
+            "custom_css": "\/* font-family: Helvetica; *\/",
+            "css_last_crumb": "\/* font-weight: medium; *\/",
+            "css_hover": "\/* text-decoration-line: underline; *\/",
+            "menus": "*"
+          }
+        }
+      },
+      "block_order": [
+        "aeb64a88-492e-4ab8-9d0a-94616b2bc1d0"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "2411d344-c299-4a72-b10e-c244bb673217": {
+      "type": "multi-column",
+      "blocks": {
+        "template--19264571113776__2411d344-c299-4a72-b10e-c244bb673217-168490937767ec2ca1-0": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p><a href=\"\/pages\/why-hybrid-bearings\" title=\"Why Hybrid Bearings?\">Hybrid bearings<\/a> from CeramicSpeed are more expensive than conventional steel bearings. No doubt about that. But calculating your ROI is about so much more than just the price of a ball bearing – which in any case is a minor fraction of the total cost of any production machine. It’s also necessary to take the costs of production downtime into account, which are often much higher than the actual maintenance costs. Downtime cost is an important factor when optimizing production efficiency.<br\/><\/p><h3><strong>Much longer between production stops<\/strong><\/h3><p>With a bearing life many, many times longer than conventional bearings, CeramicSpeed bearings extend the periods between planned maintenance stops by a factor of 4, 8, or in some cases more than 20. This means that if you are used to changing bearings every 3 months, you can now expect to do it once a year – or once every two or three years, depending on your production setup and production environment. Plus, with CeramicSpeed bearings, you are virtually guaranteed never to suffer unplanned production.<br\/><\/p><h3>Try our ROI app<\/h3><p>But why not try it yourself? With our ROI app, you can calculate the savings on maintenance you can expect in your production setup. Try it by clicking on the image to the right or contact us<a href=\"https:\/\/industry.ceramicspeed.com\/pages\/contact\" target=\"_blank\" title=\"https:\/\/industry.ceramicspeed.com\/pages\/contact\"> here <\/a>and let us help you with the calculation.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "2cb98492-d8e5-444c-82ff-cf619ef06955": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "4"
+          }
+        },
+        "bc7fea3a-63df-43a1-8924-7128ebfbcd20": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CSAppGIF.gif",
+            "column_size": "4",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "http:\/\/roi.ceramicspeed.com\/en\/Roi\/Values",
+            "link_text": "Try our app here",
+            "link_style": "button"
+          }
+        }
+      },
+      "block_order": [
+        "template--19264571113776__2411d344-c299-4a72-b10e-c244bb673217-168490937767ec2ca1-0",
+        "2cb98492-d8e5-444c-82ff-cf619ef06955",
+        "bc7fea3a-63df-43a1-8924-7128ebfbcd20"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "small",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "b3eac445-ee0d-432d-9503-1b70196ef109": {
+      "type": "multi-column",
+      "blocks": {
+        "a5c90542-6cb9-4d38-aa22-78bd50a75e2e": {
+          "type": "item",
+          "settings": {
+            "image": "{{ page.metafields.custom.pdf_4.value }}",
+            "column_size": "4",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "b4196b60-9d33-4b34-a150-ed5e4334664b": {
+          "type": "item",
+          "settings": {
+            "image": "{{ page.metafields.custom.pdf_3.value }}",
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "a5c90542-6cb9-4d38-aa22-78bd50a75e2e",
+        "b4196b60-9d33-4b34-a150-ed5e4334664b"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "25021be0-b5f2-4a9a-bdc0-f7e3867e262f": {
+      "type": "multi-column",
+      "blocks": {
+        "0feb7c61-6852-44a6-9545-4e8827743182": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
+        "template--19264571113776__25021be0-b5f2-4a9a-bdc0-f7e3867e262f-168491219134c9bdc6-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/de019d7ccec13e937d09f35917b1634a6c089d51.webp",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0744\/8671\/0576\/files\/case_xterme_premier-is_en.pdf?v=1684911217",
+            "link_text": "Read our customer case from Premier Is here",
+            "link_style": "button"
+          }
+        },
+        "template--19264571113776__25021be0-b5f2-4a9a-bdc0-f7e3867e262f-168491219134c9bdc6-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1f1eebfba3a7b11ba4b8d6a04740cb37e5085ccb.webp",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0744\/8671\/0576\/files\/case_xtreme_bag-welder_en.pdf?v=1684912959",
+            "link_text": "Read our customer case with an increase of bearing life of 44 times ",
+            "link_style": "button"
+          }
+        }
+      },
+      "block_order": [
+        "0feb7c61-6852-44a6-9545-4e8827743182",
+        "template--19264571113776__25021be0-b5f2-4a9a-bdc0-f7e3867e262f-168491219134c9bdc6-0",
+        "template--19264571113776__25021be0-b5f2-4a9a-bdc0-f7e3867e262f-168491219134c9bdc6-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "17744a7c-b558-459d-a8eb-5271cff001d1": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--19265262420272__17744a7c-b558-459d-a8eb-5271cff001d1-1687938006589d51c6-0": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19265262420272__17744a7c-b558-459d-a8eb-5271cff001d1-1687938006589d51c6-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "a4902a39-a022-4950-8ffe-23517d91b198": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--19265262420272__a4902a39-a022-4950-8ffe-23517d91b198-16893203390ba90a9e-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--19265262420272__a4902a39-a022-4950-8ffe-23517d91b198-16893203390ba90a9e-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        },
+        "template--19265262420272__a4902a39-a022-4950-8ffe-23517d91b198-16893203390ba90a9e-2": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19265262420272__a4902a39-a022-4950-8ffe-23517d91b198-16893203390ba90a9e-0",
+        "template--19265262420272__a4902a39-a022-4950-8ffe-23517d91b198-16893203390ba90a9e-1",
+        "template--19265262420272__a4902a39-a022-4950-8ffe-23517d91b198-16893203390ba90a9e-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/n8G4_ERz.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3e7dc412-585b-499a-9f9f-d213ad19b2ae",
+    "1702286691d92c9332",
+    "2411d344-c299-4a72-b10e-c244bb673217",
+    "b3eac445-ee0d-432d-9503-1b70196ef109",
+    "25021be0-b5f2-4a9a-bdc0-f7e3867e262f",
+    "17744a7c-b558-459d-a8eb-5271cff001d1",
+    "a4902a39-a022-4950-8ffe-23517d91b198"
+  ]
+}

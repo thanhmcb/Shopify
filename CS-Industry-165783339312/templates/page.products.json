@@ -1,0 +1,712 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "3e7dc412-585b-499a-9f9f-d213ad19b2ae": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18735408939312__3e7dc412-585b-499a-9f9f-d213ad19b2ae-168138351266b6bd17-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Products.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "",
+            "title": "Products",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18735408939312__3e7dc412-585b-499a-9f9f-d213ad19b2ae-168138351266b6bd17-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "md",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "5f80f12e-daff-445d-a95e-f23ddd77a712": {
+      "type": "multi-column",
+      "blocks": {
+        "38754184-5b6e-496c-8da5-2ce4f0be3c52": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "4"
+          }
+        },
+        "template--19281752129840__5f80f12e-daff-445d-a95e-f23ddd77a712-1685008256f737c794-1": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "{{ page.metafields.custom.broedtekst | metafield_tag }}",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "9d8278c3-6e1b-47b8-a63c-eea52481a378": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "4"
+          }
+        }
+      },
+      "block_order": [
+        "38754184-5b6e-496c-8da5-2ce4f0be3c52",
+        "template--19281752129840__5f80f12e-daff-445d-a95e-f23ddd77a712-1685008256f737c794-1",
+        "9d8278c3-6e1b-47b8-a63c-eea52481a378"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_grid_JncTdx": {
+      "type": "media-grid",
+      "blocks": {
+        "image_XUcbBz": {
+          "type": "image",
+          "settings": {
+            "title": "Deep Groove Ball Bearings",
+            "heading_tag": "h4",
+            "link_url": "shopify:\/\/collections\/deep-groove-ball-bearings-dgbb",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_NqYyiG": {
+          "type": "image",
+          "settings": {
+            "title": "Angular Contact Ball Bearings",
+            "heading_tag": "h4",
+            "link_url": "shopify:\/\/collections\/angular-contact-ball-bearings-acbb",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_RQRrcY": {
+          "type": "image",
+          "settings": {
+            "title": "4 Contact Ball Bearings",
+            "heading_tag": "h4",
+            "link_url": "shopify:\/\/collections\/4-contact-ball-bearings",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_gF3pfH": {
+          "type": "image",
+          "settings": {
+            "title": "Self Aligning Ball Bearings",
+            "heading_tag": "h4",
+            "link_url": "shopify:\/\/collections\/self-aligning-ball-bearings",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_gqE8tk": {
+          "type": "image",
+          "settings": {
+            "title": "Insert Bearings",
+            "heading_tag": "h4",
+            "link_url": "shopify:\/\/collections\/insert-bearings",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_XUcbBz",
+        "image_NqYyiG",
+        "image_RQRrcY",
+        "image_gF3pfH",
+        "image_gqE8tk"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "media_grid_JwgdPf": {
+      "type": "media-grid",
+      "blocks": {
+        "image_zeTEd6": {
+          "type": "image",
+          "settings": {
+            "title": "Thrust Bearings",
+            "heading_tag": "h4",
+            "link_url": "shopify:\/\/collections\/thrust-bearings",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_ECFVnb": {
+          "type": "image",
+          "settings": {
+            "title": "Cylindrical Roller Bearings",
+            "heading_tag": "h4",
+            "link_url": "shopify:\/\/collections\/cylindrical-roller-bearings",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_caDJCr": {
+          "type": "image",
+          "settings": {
+            "title": "Spherical Roller Bearing",
+            "heading_tag": "h4",
+            "link_url": "shopify:\/\/collections\/spherical-roller-bearings",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_ED6LXA": {
+          "type": "image",
+          "settings": {
+            "title": "Tapered Roller Bearing",
+            "heading_tag": "h4",
+            "link_url": "shopify:\/\/collections\/tapered-roller-bearings",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_WNJbmk": {
+          "type": "image",
+          "settings": {
+            "title": "Linear Motion",
+            "heading_tag": "h4",
+            "link_url": "shopify:\/\/pages\/linear-motion",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_Pad9gm": {
+          "type": "image",
+          "settings": {
+            "title": "Ceramic Balls",
+            "heading_tag": "h4",
+            "link_url": "shopify:\/\/pages\/ceramic-balls",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_DU9fMR": {
+          "type": "image",
+          "settings": {
+            "title": "Surface Technologies",
+            "heading_tag": "h4",
+            "link_url": "shopify:\/\/pages\/surface-technologies",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_zeTEd6",
+        "image_ECFVnb",
+        "image_caDJCr",
+        "image_ED6LXA",
+        "image_WNJbmk",
+        "image_Pad9gm",
+        "image_DU9fMR"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "10e3e395-05b3-41a3-a08f-6aaa42cfe1e2": {
+      "type": "media-grid",
+      "blocks": {
+        "template--18836617494832__10e3e395-05b3-41a3-a08f-6aaa42cfe1e2-1684909463f1b13b5d-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Balls_ub.png",
+            "title": "Ceramic Balls",
+            "heading_tag": "h5",
+            "link_url": "shopify:\/\/pages\/ceramic-balls",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15
+          }
+        },
+        "template--18836617494832__10e3e395-05b3-41a3-a08f-6aaa42cfe1e2-1684909463f1b13b5d-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Insulate_Open_ub.png",
+            "title": "DGBB",
+            "heading_tag": "h5",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15
+          }
+        },
+        "template--18836617494832__10e3e395-05b3-41a3-a08f-6aaa42cfe1e2-1684909463f1b13b5d-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ACBB_ub_R.png",
+            "title": "ACBB",
+            "heading_tag": "h5",
+            "link_url": "shopify:\/\/pages\/acbb",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15
+          }
+        },
+        "d043eb23-1c09-43c2-9b68-4022473bc599": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Linear_motion_ub.png",
+            "title": "Linear Motion",
+            "heading_tag": "h5",
+            "link_url": "shopify:\/\/pages\/linear-motion",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 14
+          }
+        },
+        "0d69d852-10f9-4867-a3c2-d150cec08aec": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Coating_ub.png",
+            "title": "Surface Technologies",
+            "heading_tag": "h5",
+            "link_url": "shopify:\/\/pages\/surface-technologies",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15
+          }
+        }
+      },
+      "block_order": [
+        "template--18836617494832__10e3e395-05b3-41a3-a08f-6aaa42cfe1e2-1684909463f1b13b5d-0",
+        "template--18836617494832__10e3e395-05b3-41a3-a08f-6aaa42cfe1e2-1684909463f1b13b5d-1",
+        "template--18836617494832__10e3e395-05b3-41a3-a08f-6aaa42cfe1e2-1684909463f1b13b5d-2",
+        "d043eb23-1c09-43c2-9b68-4022473bc599",
+        "0d69d852-10f9-4867-a3c2-d150cec08aec"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 250,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "54dd9040-4c51-477b-ba38-ca77f9d2d574": {
+      "type": "video",
+      "blocks": {
+        "template--19281752129840__54dd9040-4c51-477b-ba38-ca77f9d2d574-1685008537f42c7463-0": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--19281752129840__54dd9040-4c51-477b-ba38-ca77f9d2d574-1685008537f42c7463-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "How it's made",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--19281752129840__54dd9040-4c51-477b-ba38-ca77f9d2d574-1685008537f42c7463-0",
+        "template--19281752129840__54dd9040-4c51-477b-ba38-ca77f9d2d574-1685008537f42c7463-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "{{ page.metafields.custom.video.value }}",
+        "external_video_url": "",
+        "poster": "shopify:\/\/shop_images\/how_its_made.png",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "46d23284-7b78-4410-9e31-06d3a2f50d71": {
+      "type": "multi-column",
+      "blocks": {
+        "11153fb2-91c2-46cd-a224-0f399e641830": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9abd72e2f48cada80ee1e7c5dce5b3353b5aca0a.webp",
+            "column_size": "3",
+            "title": "4-8 times longer lifetime",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "11e3faf9-afd3-4de4-809d-9fd610f012b2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0d0ac81c7179ab25905cea0a0b507d9f6bf454c5.webp",
+            "column_size": "3",
+            "title": "Higher Speed Capability",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "11153fb2-91c2-46cd-a224-0f399e641830",
+        "11e3faf9-afd3-4de4-809d-9fd610f012b2"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "7647fb8a-7d5c-4149-8a81-524827856e62": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "template--18735408939312__7647fb8a-7d5c-4149-8a81-524827856e62-1681386433e228e7ce-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Premier_is_freezing_tunnel.png",
+            "image_rotation_degrees": -5,
+            "subheading": "",
+            "title": "",
+            "content": "<p>The lifetime of a CeramicSpeed Bearing is 4-8 times longer than a traditional bearing. One of our customers “Premier Is” has achieved an increase of more than 4 times in bearing life, while also reducing downtime and operational costs just by a simple switch to CeramicSpeed Hybrid Bearings. By replacing standard bearings with CeramicSpeed Hybrid Bearings the company also decreased their unplanned production shutdowns remarkably. Read the entire customer case <a href=\"https:\/\/www.ceramicspeed.com\/media\/5651\/case_xterme_premier-is_en.pdf\" target=\"_blank\" title=\"Case Xterme Premier Is EN\">here. <\/a><\/p><p>Labor and other costs associated with replacing worn-out bearings often exceed the price of the actual bearing several times over. Multiply these costs 4-8 times, and you can calculate the potential for reducing costs by replacing traditional bearings with CeramicSpeed Bearings. <\/p><p>Are you curious about how much you can save on your maintenance cost by replacing standard bearings? Contact us <a href=\"https:\/\/www.ceramicspeed.com\/en\/industry\/contact-industry\/\" target=\"_blank\" title=\"Contact Industry\">here<\/a> and let us help you.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18735408939312__7647fb8a-7d5c-4149-8a81-524827856e62-1681386433e228e7ce-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "b23db604-f929-4041-966d-d569efc59318": {
+      "type": "multi-column",
+      "blocks": {
+        "template--18735408939312__b23db604-f929-4041-966d-d569efc59318-16813839451d95fa14-0": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p>The lifetime of a CeramicSpeed Bearing is 4-8 times longer than a traditional bearing. One of our customers “Premier Is” has achieved an increase of more than 4 times in bearing life, while also reducing downtime and operational costs just by a simple switch to CeramicSpeed Hybrid Bearings. By replacing standard bearings with CeramicSpeed Hybrid Bearings the company also decreased their unplanned production shutdowns remarkably. Read the entire customer case <a href=\"https:\/\/www.ceramicspeed.com\/media\/5651\/case_xterme_premier-is_en.pdf\" target=\"_blank\" title=\"Case Xterme Premier Is EN\">here. <\/a><\/p><p>Labor and other costs associated with replacing worn-out bearings often exceed the price of the actual bearing several times over. Multiply these costs 4-8 times, and you can calculate the potential for reducing costs by replacing traditional bearings with CeramicSpeed Bearings. <\/p><p>Are you curious about how much you can save on your maintenance cost by replacing standard bearings? Contact us <a href=\"https:\/\/www.ceramicspeed.com\/en\/industry\/contact-industry\/\" target=\"_blank\" title=\"Contact Industry\">here<\/a> and let us help you.<\/p>",
+            "link_url": "https:\/\/www.ceramicspeed.com\/media\/5651\/case_xterme_premier-is_en.pdf",
+            "link_text": "",
+            "link_style": "button"
+          }
+        },
+        "7ef3cbbf-1464-4170-bc78-15bb818f8d26": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
+        "template--18735408939312__b23db604-f929-4041-966d-d569efc59318-16813839451d95fa14-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Premier_is_freezing_tunnel.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0744\/8671\/0576\/files\/case_xterme_premier-is_en.pdf?v=1684911217",
+            "link_text": "Download PDF",
+            "link_style": "button"
+          }
+        }
+      },
+      "block_order": [
+        "template--18735408939312__b23db604-f929-4041-966d-d569efc59318-16813839451d95fa14-0",
+        "7ef3cbbf-1464-4170-bc78-15bb818f8d26",
+        "template--18735408939312__b23db604-f929-4041-966d-d569efc59318-16813839451d95fa14-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "a275f4e1-599a-4d68-abb7-9ada8e2eacca": {
+      "type": "revealed-image-on-scroll",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/E4pH4gHy.png",
+        "subheading": "",
+        "title": "",
+        "background": "#fafafa",
+        "text_color_inside": "#15e7ee",
+        "text_color_outside": "#000000"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3e7dc412-585b-499a-9f9f-d213ad19b2ae",
+    "5f80f12e-daff-445d-a95e-f23ddd77a712",
+    "media_grid_JncTdx",
+    "media_grid_JwgdPf",
+    "10e3e395-05b3-41a3-a08f-6aaa42cfe1e2",
+    "54dd9040-4c51-477b-ba38-ca77f9d2d574",
+    "46d23284-7b78-4410-9e31-06d3a2f50d71",
+    "7647fb8a-7d5c-4149-8a81-524827856e62",
+    "b23db604-f929-4041-966d-d569efc59318",
+    "a275f4e1-599a-4d68-abb7-9ada8e2eacca"
+  ]
+}

@@ -1,0 +1,741 @@
+{
+  "sections": {
+    "d1558fe2_1702295386": {
+      "type": "powr-popup",
+      "settings": {}
+    },
+    "main": {
+      "type": "main-article",
+      "disabled": true,
+      "settings": {
+        "allow_transparent_header": false,
+        "layout": "content_first",
+        "show_author": false,
+        "show_date": true,
+        "show_comments_count": false,
+        "show_share_buttons": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px"
+      }
+    },
+    "0659fb2d-39b4-41bf-8b91-a71609396e4e": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18733505282352__0659fb2d-39b4-41bf-8b91-a71609396e4e-168138351266b6bd17-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Foodmax_1411_R.jpg",
+            "content_max_width": 720,
+            "mobile_text_position": "place-self-center-start text-start",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "A Comprehensive Guide",
+            "title": "Understanding Bearing Lubrication",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18733505282352__0659fb2d-39b4-41bf-8b91-a71609396e4e-168138351266b6bd17-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "lg",
+        "controls_type": "none",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "1702283004224aa14b": {
+      "type": "apps",
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "6432ef71-8d0c-467a-8f21-4d2c8eba0a21": {
+      "type": "multi-column",
+      "blocks": {
+        "a114bfb7-3cf2-4884-b8d1-738fde497f0c": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
+        "template--18881402798384__6432ef71-8d0c-467a-8f21-4d2c8eba0a21-1686118806445f08d5-2": {
+          "type": "item",
+          "settings": {
+            "column_size": "1.5",
+            "title": "",
+            "heading_tag": "h3",
+            "content": "<p>Bearing lubrication is the lifeblood of many applications, influencing their performance, reducing friction, and overall efficiency. In this guide, we will take a closer look into the intricate world of lubricating bearings, covering various types of techniques, and best practices. <\/p><h2><strong>Understanding Types of Lubrication<\/strong><\/h2><p>Bearing lubrication include a diverse range of methods, each tailored to meet specific needs and adapt to varying conditions, ensuring optimal performance, and extended service life for bearing applications.<\/p><p><strong>Grease Lubrication:<\/strong> This method is more than just applying bearing lubricant; it involves carefully applying thickened lubricants to form a strong and protective layer on the surfaces of the bearings. The unique characteristic of grease lubrication lies in its ability to form a semi-solid film, enhancing adhesion to the moving parts. This adherence plays a crucial role in preventing metal-to-metal contact, reducing friction, avoide bearing failures, and shielding the bearings from wear and tear. A wide variety of grease lubricants is available in the market, offering versatility in addressing a myriad of application requirements.<\/p><p><strong>Oil Lubrication:<\/strong> The technique of oil lubricant takes a fluid approach, utilizing either mineral or synthetic oils to ensure the smooth operation, particularly those involving rolling element bearings. Synthetic oils, renowned for their superior performance characteristics, are often the preferred choice, especially in extreme operating conditions. These synthetic formulations exhibit enhanced thermal stability, oxidation resistance, and a wider temperature operating range compared to their mineral counterparts. Oil lubrication provides a continuous flow of lubricant to critical bearing surfaces, forming a dynamic, fluid film that mitigates friction and dissipates heat effectively. The versatility of oil lubrication makes it suitable for applications ranging from high-speed machinery to heavy-duty industrial equipment.<\/p><p>By understanding lubricating properties and strategically choosing between grease and oil lubrication based on specific application requirements, industries can fine-tune their approach to bearing lubrication and bearing lubricant, optimizing performance and ensuring the durability of their mechanical systems. This thoughtful selection of lubrication methods not only enhances efficiency but also contributes to a long service life and reliability of the components involved.<\/p><h3>Oil Film<\/h3><p>Understanding the oil film concept is crucial when lubricating bearings. In oil lubrication, whether with mineral or synthetic oils, the goal is to maintain a dynamic fluid film on vital bearing surfaces. This fluid film prevents metal-to-metal contact, reducing wear and enhancing system efficiency. Synthetic oils, chosen for superior characteristics, offer enhanced performance in terms of thermal stability and oxidation resistance.<\/p><p>In summary, the presence and maintenance of a dynamic oil film are central to successful oil lubrication, influencing the efficiency and service life of components in applications.<\/p><h2><strong>Exploring Lubricant Components<\/strong><\/h2><p>The effectiveness of grease lubricants lies in their composition as you can read here below. In addition to these key components, the formulation of grease may also include other specialized additives to tailor its performance to specific applications. These additives can include extreme pressure (EP) additives for withstanding high loads, viscosity modifiers for improved temperature stability, and anti-foaming agents to prevent air entrainment. The careful balance of these components in grease lubricants contributes to their ability to provide reliable and long-lasting protection for various types of machinery and equipment.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "button"
+          }
+        }
+      },
+      "block_order": [
+        "a114bfb7-3cf2-4884-b8d1-738fde497f0c",
+        "template--18881402798384__6432ef71-8d0c-467a-8f21-4d2c8eba0a21-1686118806445f08d5-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "9ae619e5-14e5-420b-a037-318a460f076b": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18733505282352__9ae619e5-14e5-420b-a037-318a460f076b-1681383620ef02c3d1-1": {
+          "type": "heading",
+          "settings": {
+            "text": "{{ article.metafields.custom.overskrift_til_artikel.value }}",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "bdaba691-0ec8-4c02-9d05-1cb7060c8313": {
+          "type": "richtext",
+          "settings": {
+            "content": "{{ article.metafields.custom.indledningstekst | metafield_tag }}",
+            "text_align": "center"
+          }
+        },
+        "template--18733505282352__9ae619e5-14e5-420b-a037-318a460f076b-1681383620ef02c3d1-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "4 to 8 times longer life than steel"
+          }
+        },
+        "63fbbe43-2176-4541-a52a-a37150976580": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Hybrid ball bearings are proven to last 4 to 8 times longer than steel bearings – in some cases even longer. For your customers, this eliminates frequent replacements, production stops or unforeseen breakdowns due to bearing failure. Hybrid bearings also give your customer a number of distinct advantages, not least a massive reduction in MRO spending.<\/p>",
+            "text_align": "center"
+          }
+        },
+        "bc4089b3-adf8-4818-8283-d2a4cfade653": {
+          "type": "heading",
+          "settings": {
+            "text": "{{ article.metafields.custom.underrubrik.value }}",
+            "heading_tag": "h5",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "3610b4ac-3634-4205-97d4-1b4ad47e37c0": {
+          "type": "richtext",
+          "settings": {
+            "content": "{{ article.metafields.custom.broedtekst | metafield_tag }}",
+            "text_align": "center"
+          }
+        },
+        "63d92438-53ab-4e5a-982d-f9857e83245e": {
+          "type": "heading",
+          "settings": {
+            "text": "{{ article.metafields.custom.underrubrik1.value }}",
+            "heading_tag": "h5",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "342ea9b6-3c77-4711-8176-e14710bf9c97": {
+          "type": "richtext",
+          "settings": {
+            "content": "{{ article.metafields.custom.broedtekst_2 | metafield_tag }}",
+            "text_align": "center"
+          }
+        },
+        "f78ab3f2-0bfc-4ec9-90b9-2600fe6a8fc2": {
+          "type": "heading",
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h5",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "e20a2d12-3902-4b74-afce-d196c3a63734": {
+          "type": "richtext",
+          "settings": {
+            "content": "{{ article.metafields.custom.broedtekst_3 | metafield_tag }}",
+            "text_align": "center"
+          }
+        },
+        "9eefc1ca-f0fd-4b8f-9f95-edeb969d65a3": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "{{ article.metafields.custom.knap_tekst | metafield_text }}",
+            "url": "{{ article.metafields.custom.knaplink.value }}",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18733505282352__9ae619e5-14e5-420b-a037-318a460f076b-1681383620ef02c3d1-1",
+        "bdaba691-0ec8-4c02-9d05-1cb7060c8313",
+        "template--18733505282352__9ae619e5-14e5-420b-a037-318a460f076b-1681383620ef02c3d1-0",
+        "63fbbe43-2176-4541-a52a-a37150976580",
+        "bc4089b3-adf8-4818-8283-d2a4cfade653",
+        "3610b4ac-3634-4205-97d4-1b4ad47e37c0",
+        "63d92438-53ab-4e5a-982d-f9857e83245e",
+        "342ea9b6-3c77-4711-8176-e14710bf9c97",
+        "f78ab3f2-0bfc-4ec9-90b9-2600fe6a8fc2",
+        "e20a2d12-3902-4b74-afce-d196c3a63734",
+        "9eefc1ca-f0fd-4b8f-9f95-edeb969d65a3"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "content_width": "medium",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "e65cfb7b-4e35-4f5a-8add-534b407d9944": {
+      "type": "multi-column",
+      "blocks": {
+        "template--18733505282352__e65cfb7b-4e35-4f5a-8add-534b407d9944-16813839451d95fa14-1": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h3",
+            "content": "{{ article.metafields.custom.punkter_til_faktaboks | metafield_tag }}",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "26a659e1-02af-484e-b7de-a7cf6283ddc5": {
+          "type": "item",
+          "settings": {
+            "image": "{{ article.metafields.custom.billede_til_faktaboks.value }}",
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "{{ article.metafields.custom.punkter_til_faktaboks_hoejre_side | metafield_tag }}",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "07ab62c3-589e-4b9e-997e-4aa177805480": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Monosnap_case_insulate_electric-motor_dairy_en.pdf_2023-04-13_13-09-19.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "https:\/\/www.ceramicspeed.com\/media\/xswajs0l\/case_insulate_electric-motor_dairy_en.pdf",
+            "link_text": "",
+            "link_style": "button"
+          }
+        }
+      },
+      "block_order": [
+        "template--18733505282352__e65cfb7b-4e35-4f5a-8add-534b407d9944-16813839451d95fa14-1",
+        "26a659e1-02af-484e-b7de-a7cf6283ddc5",
+        "07ab62c3-589e-4b9e-997e-4aa177805480"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "{{ article.metafields.custom.faktaboks_overskrift.value }}",
+        "content": "",
+        "background": "#2b2b2b",
+        "background_gradient": "",
+        "text_color": "#fafafa"
+      }
+    },
+    "20adbcda-16e8-4307-ae0d-994fa70f5a36": {
+      "type": "blog-posts",
+      "blocks": {
+        "template--18733505282352__20adbcda-16e8-4307-ae0d-994fa70f5a36-168145500942078b87-0": {
+          "type": "blog",
+          "settings": {
+            "blog": "news",
+            "posts_count": 2,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18733505282352__20adbcda-16e8-4307-ae0d-994fa70f5a36-168145500942078b87-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "show_excerpt": false,
+        "show_date": false,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "Catalogs",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "ebe176fd-3621-47d8-a282-141e1b6016fc": {
+      "type": "blog-posts",
+      "blocks": {
+        "a2824080-8062-4aa3-b7dc-cdb6dc5ddac4": {
+          "type": "blog",
+          "settings": {
+            "blog": "case-stories",
+            "posts_count": 2,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "a2824080-8062-4aa3-b7dc-cdb6dc5ddac4"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "show_excerpt": false,
+        "show_date": false,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "Catalogs",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "50b873dc-22d1-406d-a8de-c9f575ff88a8": {
+      "type": "blog-posts",
+      "blocks": {
+        "201d6fd7-8f40-4ee3-ba3d-ba35fd001183": {
+          "type": "blog",
+          "settings": {
+            "blog": "product-overview",
+            "posts_count": 2,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "201d6fd7-8f40-4ee3-ba3d-ba35fd001183"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "show_excerpt": false,
+        "show_date": false,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "Catalogs",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "52b96ecd-6bda-4831-8cd1-5f84dd22e331": {
+      "type": "blog-posts",
+      "blocks": {
+        "ec776cdc-517c-44c0-a082-aeb26b7ee53e": {
+          "type": "blog",
+          "settings": {
+            "blog": "one-pagers",
+            "posts_count": 2,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "ec776cdc-517c-44c0-a082-aeb26b7ee53e"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "show_excerpt": false,
+        "show_date": false,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "Catalogs",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "b2ee08cc-7c83-4491-96ac-559fdf3e1837": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "template--21860308517168__b2ee08cc-7c83-4491-96ac-559fdf3e1837-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Foodmax_1411_R.jpg",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "Base Oil",
+            "content": "<p>Serving as the primary component, the selection of base oil (whether mineral or synthetic) depends on factors such as viscosity, crucial for high loads and low RPMs.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "template--21860308517168__b2ee08cc-7c83-4491-96ac-559fdf3e1837-item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grease_2.jpg",
+            "image_rotation_degrees": 1.5,
+            "subheading": "",
+            "title": "Soap\/Thickener",
+            "content": "<p>This component ensures proper adhesion to bearing surfaces, preventing metal-to-metal contact.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "657081a0-664d-4de8-84d1-23d3822ffc82": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grease_1.jpg",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Additives",
+            "content": "<p>Incorporating additives enhances specific properties, such as anti-wear, corrosion resistance, and oxidation stability.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21860308517168__b2ee08cc-7c83-4491-96ac-559fdf3e1837-item-1",
+        "template--21860308517168__b2ee08cc-7c83-4491-96ac-559fdf3e1837-item-2",
+        "657081a0-664d-4de8-84d1-23d3822ffc82"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "multi_column_ncxAkT": {
+      "type": "multi-column",
+      "blocks": {
+        "spacer_9XABt3": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
+        "item_QBErVL": {
+          "type": "item",
+          "settings": {
+            "column_size": "1.5",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<h2><strong>Factors Influencing Lubrication<br\/><\/strong><\/h2><p>Several factors influence the effectiveness of lubrication in ball bearings:<\/p><p><strong>Operating Conditions:<\/strong> Selecting the right lubricant that aligns with the bearing's operating temperature range is vital. Specialized lubricants excel in high-temperature applications, providing enhanced thermal stability.<\/p><p><strong>Load and Speed:<\/strong> Proper base oil viscosity aligns with load and speed conditions, preventing bearing failure, and reduce friction, especially in systems operating under heavy loads and high speeds.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "spacer_9XABt3",
+        "item_QBErVL"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_GFeCKa": {
+      "type": "multi-column",
+      "blocks": {
+        "spacer_3yqjYf": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
+        "item_DkLzm6": {
+          "type": "item",
+          "settings": {
+            "column_size": "1.5",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<h2>Lubrication Intervals<\/h2><p>Establishing a proper interval of lubrication is a crucial aspect of maintaining optimal performance, to avoide bearing failure, extending the service life of ball bearings and prevent corrosion. The frequency at which lubrication should occur depends on several factors in the bearing applications, including operating conditions, load and speed, and the type of lubricant used.<\/p><p>For grease lubrication, the viscosity and composition of the grease play a significant role in determining the lubrication interval. In applications with heavy loads or high speeds, more frequent lubrication may be necessary to ensure a consistent and protective layer on bearing surfaces. Regular monitoring of grease life and adherence to recommended lubrication schedules are essential to prevent issues related to grease degradation.<\/p><p>In oil lubrication systems, the frequency of oil changes or replenishment depends on factors such as operating temperature, contamination levels, and the type of oil used. Regular oil analysis can help determine the condition of the lubricant and identify any signs of degradation, allowing for timely intervention.<\/p><p>It is essential for industries to establish a comprehensive maintenance plan of lubricating bearings, considering the specific demands of their application. This may involve routine inspections, condition monitoring, and proactive lubrication measures to address potential challenges and ensure the reliable and efficient functioning of ball bearings over an extended period.<\/p><p>By implementing a well-defined lubrication strategy and adhering to recommended intervals, industries can maximize the benefits of their chosen lubrication methods, contributing to increased bearing life, reduced friction, and enhanced overall system efficiency.<br\/><br\/>In the schedule below you can get an overview over the different kinds of lubricants we offer.<br\/><\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "spacer_3yqjYf",
+        "item_DkLzm6"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_a9ER4X": {
+      "type": "media-with-text",
+      "settings": {
+        "full_width": true,
+        "enable_parallax": false,
+        "spacing": "none"
+      }
+    },
+    "media_with_text_jwjMDT": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_ciWrkV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PEM_uden_baggrund_lille.png",
+            "media_width": 40,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 32,
+            "subheading": "",
+            "title": "Do you have inquiries related to lubrication?",
+            "content": "<p>Please feel free to reach out to our Customer Service Manager Per Møller for expert assistance and guidance.<\/p>",
+            "link_text": "Reach out to us here",
+            "link_url": "shopify:\/\/pages\/contact",
+            "background": "#fafafa",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_ciWrkV"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "none"
+      }
+    },
+    "image_with_text_overlay_yBBKnp": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_E746LQ": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_y7xyzj": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_GdgrzG": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_E746LQ",
+        "heading_y7xyzj",
+        "richtext_GdgrzG"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Grease_DE_skema.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "multi_column_ttbDkq": {
+      "type": "multi-column",
+      "blocks": {
+        "spacer_73ygdf": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
+        "item_k9Mg4K": {
+          "type": "item",
+          "settings": {
+            "column_size": "1.5",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<h2><strong>Mastering Lubrication Techniques<\/strong><\/h2><p>Various techniques ensure effective lubrication:<\/p><p><strong>Oil Mist Lubrication: <\/strong>Creating a fine oil mist ensures continuous lubrication to contact surfaces, particularly effective in high-speed applications.<\/p><p><strong>Splash Lubrication:<\/strong> This technique relies on motion to splash oil onto bearing surfaces; when properly implemented, it prevents issues associated with inadequate lubricant distribution.<\/p><p><strong>Pre-Lubrication:<\/strong> Bearings pre-lubricated during manufacturing come with an initial application of lubricant, facilitating a proper run-in procedure.<br\/><\/p><h2><strong>Addressing Common Challenges and Solutions<\/strong><\/h2><p>Challenges in the lubrication process require careful consideration:<\/p><p><strong>Grease Degradation: <\/strong>Monitoring grease life and adhering to proper lubrication schedules are essential to prevent issues related to degradation of grease, including potential challenges such as grease hardening.<\/p><p><strong>Corrosion Prevention: <\/strong>Lubricants with anti-corrosion coatings protect bearings, especially in environments prone to moisture and corrosive elements.<\/p><p><strong>Friction Reduction: <\/strong>Proper lubrication significantly reduces friction, leading to increased efficiency and preventing equipment failure.<\/p><h2><strong>Navigating Advanced Concepts and Considerations<\/strong><\/h2><p>Advanced concepts cater to specific conditions and requirements:<\/p><p><strong>Extreme Conditions: <\/strong>Specialized lubricants designed for high-temperature conditions provide enhanced protection against heat-induced wear.<\/p><p><strong>Extreme Pressure:<\/strong> Lubricants formulated for high pressure conditions ensure the service life of the bearings when operating under heavy loads.<\/p><p><strong>Lubricant Properties: <\/strong>Understanding the viscosity index is crucial in selecting lubricants that maintain their properties across a wide temperature range.<\/p><h2><strong>Seeking Expert Guidance and Conclusion<\/strong><\/h2><p>In navigating the complexities of bearing lubrication, seeking expert guidance from industry leaders can aid in selecting the most proper lubricant for specific applications. In conclusion, an informed approach to bearing lubrication, coupled with quality lubricants and adherence to recommended maintenance practices, fosters increased bearing life, reduced friction, and improved efficiency in mechanical systems, ensuring long-lasting and reliable performance across various ball bearing types.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "spacer_73ygdf",
+        "item_k9Mg4K"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_wKA9zD": {
+      "type": "video",
+      "blocks": {
+        "play_4PNrLt": {
+          "type": "play",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "play_4PNrLt"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "md",
+        "video": "shopify:\/\/files\/videos\/Test lubrication_2.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    }
+  },
+  "order": [
+    "d1558fe2_1702295386",
+    "main",
+    "0659fb2d-39b4-41bf-8b91-a71609396e4e",
+    "1702283004224aa14b",
+    "6432ef71-8d0c-467a-8f21-4d2c8eba0a21",
+    "9ae619e5-14e5-420b-a037-318a460f076b",
+    "e65cfb7b-4e35-4f5a-8add-534b407d9944",
+    "20adbcda-16e8-4307-ae0d-994fa70f5a36",
+    "ebe176fd-3621-47d8-a282-141e1b6016fc",
+    "50b873dc-22d1-406d-a8de-c9f575ff88a8",
+    "52b96ecd-6bda-4831-8cd1-5f84dd22e331",
+    "b2ee08cc-7c83-4491-96ac-559fdf3e1837",
+    "multi_column_ncxAkT",
+    "multi_column_GFeCKa",
+    "media_with_text_a9ER4X",
+    "media_with_text_jwjMDT",
+    "image_with_text_overlay_yBBKnp",
+    "multi_column_ttbDkq",
+    "video_wKA9zD"
+  ]
+}

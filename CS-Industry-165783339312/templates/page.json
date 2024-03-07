@@ -1,0 +1,245 @@
+{
+  "sections": {
+    "0b4056f9-ff3e-4072-b483-40e39e5c4f39": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18836617953584__0b4056f9-ff3e-4072-b483-40e39e5c4f39-1685093767b3e2e52c-0": {
+          "type": "image",
+          "settings": {
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "",
+            "title": "Designation Systems",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18836617953584__0b4056f9-ff3e-4072-b483-40e39e5c4f39-1685093767b3e2e52c-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "md",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#000000",
+        "background_gradient": ""
+      }
+    },
+    "170228237242cc9b22": {
+      "type": "apps",
+      "blocks": {
+        "f4fb6974-2d04-4435-a3b4-1ca295c1a0a1": {
+          "type": "shopify:\/\/apps\/ez-add-breadcrumbs\/blocks\/app-block\/457dc635-4337-4779-8f31-361dd27778c8",
+          "settings": {
+            "show_breadcrumbs": true,
+            "color": "#000000",
+            "horizontal_alignment": "left",
+            "fontsize": 14,
+            "breadcrumb_font": "din_next_n4",
+            "marginleft": 0,
+            "margintop": 0,
+            "marginright": 0,
+            "marginbottom": 0,
+            "show_home_link": false,
+            "home_page": "Home",
+            "home_url": "\/",
+            "all_uppercase": false,
+            "use_slider": true,
+            "article_use_tag": true,
+            "separator": "<span> › <\/span>",
+            "css_tablet": "\/* font-family: DIN Next; *\/",
+            "css_mobile": "\/* font-family: DIN Next; *\/",
+            "custom_css": "\/* font-family: DIN Next; *\/",
+            "css_last_crumb": "\/* font-family: DIN Next; *\/",
+            "css_hover": "\/* text-decoration-line: underline; *\/",
+            "menus": "*"
+          }
+        }
+      },
+      "block_order": [
+        "f4fb6974-2d04-4435-a3b4-1ca295c1a0a1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "4e4a8105-c3f3-4ab4-bfba-28a400ad48e7": {
+      "type": "multi-column",
+      "blocks": {
+        "fc1c106d-e2ff-414e-9776-f2d1ccad2edf": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
+        "template--18836617953584__4e4a8105-c3f3-4ab4-bfba-28a400ad48e7-16850938324265b389-1": {
+          "type": "item",
+          "settings": {
+            "column_size": "1.5",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "{{ page.metafields.custom.broedtekst | metafield_tag }}",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "a486f66f-a8ce-4115-be43-22f54dd574a6": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "12"
+          }
+        }
+      },
+      "block_order": [
+        "fc1c106d-e2ff-414e-9776-f2d1ccad2edf",
+        "template--18836617953584__4e4a8105-c3f3-4ab4-bfba-28a400ad48e7-16850938324265b389-1",
+        "a486f66f-a8ce-4115-be43-22f54dd574a6"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "994d5229-794c-4392-b68f-e0031320fc54": {
+      "type": "multi-column",
+      "blocks": {
+        "84b5ed00-337f-4c2e-abf4-c318c2d7a266": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
+        "f32dba2f-9e80-4548-9ba4-95981effbe3e": {
+          "type": "item",
+          "settings": {
+            "image": "{{ page.metafields.custom.pdf_1.value }}",
+            "column_size": "1.5",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "2f7047fa-6364-4e09-987a-794638ef5738": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        }
+      },
+      "block_order": [
+        "84b5ed00-337f-4c2e-abf4-c318c2d7a266",
+        "f32dba2f-9e80-4548-9ba4-95981effbe3e",
+        "2f7047fa-6364-4e09-987a-794638ef5738"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "e1fc312b-65e0-410b-b457-65c2e9f19298": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18836617953584__e1fc312b-65e0-410b-b457-65c2e9f19298-1687940134b60da42e-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--18836617953584__e1fc312b-65e0-410b-b457-65c2e9f19298-1687940134b60da42e-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "template--18836617953584__e1fc312b-65e0-410b-b457-65c2e9f19298-1687940134b60da42e-2": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18836617953584__e1fc312b-65e0-410b-b457-65c2e9f19298-1687940134b60da42e-0",
+        "template--18836617953584__e1fc312b-65e0-410b-b457-65c2e9f19298-1687940134b60da42e-1",
+        "template--18836617953584__e1fc312b-65e0-410b-b457-65c2e9f19298-1687940134b60da42e-2"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "{{ page.metafields.custom.pdf_1.value }}",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    }
+  },
+  "order": [
+    "0b4056f9-ff3e-4072-b483-40e39e5c4f39",
+    "170228237242cc9b22",
+    "main",
+    "4e4a8105-c3f3-4ab4-bfba-28a400ad48e7",
+    "994d5229-794c-4392-b68f-e0031320fc54",
+    "e1fc312b-65e0-410b-b457-65c2e9f19298"
+  ]
+}

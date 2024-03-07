@@ -1,0 +1,360 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "3e7dc412-585b-499a-9f9f-d213ad19b2ae": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18735408939312__3e7dc412-585b-499a-9f9f-d213ad19b2ae-168138351266b6bd17-0": {
+          "type": "image",
+          "settings": {
+            "image": "{{ page.metafields.custom.top_billede.value }}",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center-start text-start",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "",
+            "title": "{{ page.metafields.custom.sidetitel.value }}",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#fafafa",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18735408939312__3e7dc412-585b-499a-9f9f-d213ad19b2ae-168138351266b6bd17-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "lg",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "170228679375e9888e": {
+      "type": "apps",
+      "blocks": {
+        "ee753577-567f-4983-b9a7-f75ba73f9758": {
+          "type": "shopify:\/\/apps\/ez-add-breadcrumbs\/blocks\/app-block\/457dc635-4337-4779-8f31-361dd27778c8",
+          "settings": {
+            "show_breadcrumbs": true,
+            "color": "#000000",
+            "horizontal_alignment": "left",
+            "fontsize": 15,
+            "breadcrumb_font": "din_next_n4",
+            "marginleft": 0,
+            "margintop": 0,
+            "marginright": 0,
+            "marginbottom": 0,
+            "show_home_link": false,
+            "home_page": "Home",
+            "home_url": "\/",
+            "all_uppercase": false,
+            "use_slider": false,
+            "article_use_tag": true,
+            "separator": "<span> › <\/span>",
+            "css_tablet": "\/* font-family: Helvetica; *\/",
+            "css_mobile": "\/* font-family: Helvetica; *\/",
+            "custom_css": "\/* font-family: Helvetica; *\/",
+            "css_last_crumb": "\/* font-weight: medium; *\/",
+            "css_hover": "\/* text-decoration-line: underline; *\/",
+            "menus": "*"
+          }
+        }
+      },
+      "block_order": [
+        "ee753577-567f-4983-b9a7-f75ba73f9758"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "2411d344-c299-4a72-b10e-c244bb673217": {
+      "type": "multi-column",
+      "blocks": {
+        "ae0a9459-e82d-422e-bd19-458988a3804a": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
+        "template--19264571113776__2411d344-c299-4a72-b10e-c244bb673217-168490937767ec2ca1-0": {
+          "type": "item",
+          "settings": {
+            "column_size": "1.5",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "{{ page.metafields.custom.broedtekst | metafield_tag }}",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--19264571113776__2411d344-c299-4a72-b10e-c244bb673217-168490937767ec2ca1-1": {
+          "type": "item",
+          "settings": {
+            "image": "{{ page.metafields.custom.pdf_1.value }}",
+            "video": "shopify:\/\/files\/videos\/Lubrication.mp4",
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "ae0a9459-e82d-422e-bd19-458988a3804a",
+        "template--19264571113776__2411d344-c299-4a72-b10e-c244bb673217-168490937767ec2ca1-0",
+        "template--19264571113776__2411d344-c299-4a72-b10e-c244bb673217-168490937767ec2ca1-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "#fafafa",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "c97712cc-e053-455a-b5b0-c9785f017866": {
+      "type": "impact-text",
+      "blocks": {
+        "template--19265850835248__c97712cc-e053-455a-b5b0-c9785f017866-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "content": "<h1>Bearing lubricants contain three main ingredients:<\/h1>",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "template--19265850835248__c97712cc-e053-455a-b5b0-c9785f017866-item-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "#fafafa",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "",
+        "text_color": "#000000",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "f67ba3a6-c42f-46a3-8c69-3d1e078b70e1": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "template--19265850835248__f67ba3a6-c42f-46a3-8c69-3d1e078b70e1-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grease_4.jpg",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "1. Base oil",
+            "content": "<p>Which is with mineral or synthetic oils<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "template--19265850835248__f67ba3a6-c42f-46a3-8c69-3d1e078b70e1-item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grease_2.jpg",
+            "image_rotation_degrees": 1.5,
+            "subheading": "",
+            "title": "2. Soap\/thickener",
+            "content": "<p>To ensure that the oil remains in place.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "26bf078f-8b15-467b-be48-e9889954cd4d": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grease_1.jpg",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "3. Additives",
+            "content": "<p>To optimize lubricant properties<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19265850835248__f67ba3a6-c42f-46a3-8c69-3d1e078b70e1-item-1",
+        "template--19265850835248__f67ba3a6-c42f-46a3-8c69-3d1e078b70e1-item-2",
+        "26bf078f-8b15-467b-be48-e9889954cd4d"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "#fafafa",
+        "background_gradient": "",
+        "text_color": "#000000",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "49540b74-ad02-4568-aebb-ed1f1062cc3e": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--19265850835248__49540b74-ad02-4568-aebb-ed1f1062cc3e-16878512240d344330-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--19265850835248__49540b74-ad02-4568-aebb-ed1f1062cc3e-16878512240d344330-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "template--19265850835248__49540b74-ad02-4568-aebb-ed1f1062cc3e-16878512240d344330-2": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19265850835248__49540b74-ad02-4568-aebb-ed1f1062cc3e-16878512240d344330-0",
+        "template--19265850835248__49540b74-ad02-4568-aebb-ed1f1062cc3e-16878512240d344330-1",
+        "template--19265850835248__49540b74-ad02-4568-aebb-ed1f1062cc3e-16878512240d344330-2"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/N9KAfTpc.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#fafafa",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "3dae7328-9bf4-4ac5-a4fa-f2114c78f2a9": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "198b60cb-4068-4111-9ded-f12c9c7853d5": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "c9e34728-c81e-4c70-8d58-f557a51929fe": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "c4ba490d-a804-41c1-8e10-923249c940a5": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "198b60cb-4068-4111-9ded-f12c9c7853d5",
+        "c9e34728-c81e-4c70-8d58-f557a51929fe",
+        "c4ba490d-a804-41c1-8e10-923249c940a5"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/0hPvhW34.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "690ad0a1-564d-4556-bf8f-5bfd33d625db": {
+      "type": "custom-html",
+      "custom_css": [
+        "table td {border: 1px solid rgb(var(--border-color)); padding: 20px 10px; padding-left: 20px;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<table class=\"ccpops-table\" style=\"border-collapse: collapse; width: 100.096%; height: 569.571px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 66.4258px;\">\n<td style=\"width: 33.3149%; height: 66.4258px;\">Thickner<\/td>\n<td style=\"width: 33.3149%; text-align: center; height: 66.4258px;\"> <\/td>\n<td style=\"width: 33.3149%; text-align: center; height: 66.4258px;\">Calcium Sulphonate Complex<\/td>\n<\/tr>\n<tr style=\"height: 23.7891px;\">\n<td style=\"width: 33.3149%; height: 23.7891px;\">Base fluid<\/td>\n<td style=\"width: 33.3149%; text-align: center; height: 23.7891px;\"> <\/td>\n<td style=\"width: 33.3149%; text-align: center; height: 23.7891px;\">White mineral oil<\/td>\n<\/tr>\n<tr style=\"height: 43.5352px;\">\n<td style=\"width: 33.3149%; height: 43.5352px;\">Texture<\/td>\n<td style=\"width: 33.3149%; text-align: center; height: 43.5352px;\"> <\/td>\n<td style=\"width: 33.3149%; text-align: center; height: 43.5352px;\">Smooth<\/td>\n<\/tr>\n<tr style=\"height: 43.5352px;\">\n<td style=\"width: 33.3149%; height: 43.5352px;\">Colour<\/td>\n<td style=\"width: 33.3149%; text-align: center; height: 43.5352px;\">Visual<\/td>\n<td style=\"width: 33.3149%; text-align: center; height: 43.5352px;\">Light Brown<\/td>\n<\/tr>\n<tr style=\"height: 67.3242px;\">\n<td style=\"width: 33.3149%; height: 67.3242px;\">NLGI Grade<\/td>\n<td style=\"width: 33.3149%; text-align: center; height: 67.3242px;\">ASTM D 217<\/td>\n<td style=\"width: 33.3149%; text-align: center; height: 67.3242px;\">2<\/td>\n<\/tr>\n<tr style=\"height: 43.5352px;\">\n<td style=\"width: 33.3149%; height: 43.5352px;\">Dropping point<\/td>\n<td style=\"width: 33.3149%; text-align: center; height: 43.5352px;\">IP 396<\/td>\n<td style=\"width: 33.3149%; text-align: center; height: 43.5352px;\">&gt;300ºC<\/td>\n<\/tr>\n<tr style=\"height: 47.5781px;\">\n<td style=\"width: 33.3149%; height: 47.5781px;\">Base oil viscosity at 40ºC<\/td>\n<td style=\"width: 33.3149%; text-align: center; height: 47.5781px;\">ASTM D 7152<\/td>\n<td style=\"width: 33.3149%; text-align: center; height: 47.5781px;\">220 mm²\/s<\/td>\n<\/tr>\n<tr style=\"height: 47.5781px;\">\n<td style=\"width: 33.3149%; height: 47.5781px;\">Base oil viscosity at 100ºC<\/td>\n<td style=\"width: 33.3149%; text-align: center; height: 47.5781px;\">ASTM D 7152<\/td>\n<td style=\"width: 33.3149%; text-align: center; height: 47.5781px;\">22mm²\/s<\/td>\n<\/tr>\n<tr style=\"height: 67.3242px;\">\n<td style=\"width: 33.3149%; height: 67.3242px;\">Penetration 60 strokes<\/td>\n<td style=\"width: 33.3149%; text-align: center; height: 67.3242px;\">ISO 2137<\/td>\n<td style=\"width: 33.3149%; text-align: center; height: 67.3242px;\">265-295<\/td>\n<\/tr>\n<tr style=\"height: 23.7891px;\">\n<td style=\"width: 33.3149%; height: 23.7891px;\">4-ball weld load<\/td>\n<td style=\"width: 33.3149%; text-align: center; height: 23.7891px;\">DIN 51350:40<\/td>\n<td style=\"width: 33.3149%; text-align: center; height: 23.7891px;\">&gt;7500N<\/td>\n<\/tr>\n<tr style=\"height: 23.7891px;\">\n<td style=\"width: 33.3149%; height: 23.7891px;\">Water wash out at 79ºC<\/td>\n<td style=\"width: 33.3149%; text-align: center; height: 23.7891px;\">ASTM D 1264<\/td>\n<td style=\"width: 33.3149%; text-align: center; height: 23.7891px;\">&gt;5%<\/td>\n<\/tr>\n<tr style=\"height: 23.7891px;\">\n<td style=\"width: 33.3149%; height: 23.7891px;\">Emcor dist water<\/td>\n<td style=\"width: 33.3149%; text-align: center; height: 23.7891px;\">ISO 11007<\/td>\n<td style=\"width: 33.3149%; text-align: center; height: 23.7891px;\">0<\/td>\n<\/tr>\n<tr style=\"height: 23.7891px;\">\n<td style=\"width: 33.3149%; height: 23.7891px;\">Density<\/td>\n<td style=\"width: 33.3149%; text-align: center; height: 23.7891px;\">IP 530<\/td>\n<td style=\"width: 33.3149%; text-align: center; height: 23.7891px;\">1020 kg\/m³<\/td>\n<\/tr>\n<tr style=\"height: 23.7891px;\">\n<td style=\"width: 33.3149%; height: 23.7891px;\">Temperature range<\/td>\n<td style=\"width: 33.3149%; text-align: center; height: 23.7891px;\"> <\/td>\n<td style=\"width: 33.3149%; text-align: center; height: 23.7891px;\">-25ºC to +140ºC (max +150ºC)<\/td>\n<\/tr>\n<\/tbody>\n<\/table>\n<p> <\/p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3e7dc412-585b-499a-9f9f-d213ad19b2ae",
+    "170228679375e9888e",
+    "2411d344-c299-4a72-b10e-c244bb673217",
+    "c97712cc-e053-455a-b5b0-c9785f017866",
+    "f67ba3a6-c42f-46a3-8c69-3d1e078b70e1",
+    "49540b74-ad02-4568-aebb-ed1f1062cc3e",
+    "3dae7328-9bf4-4ac5-a4fa-f2114c78f2a9",
+    "690ad0a1-564d-4556-bf8f-5bfd33d625db"
+  ]
+}

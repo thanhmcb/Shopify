@@ -1,0 +1,358 @@
+{
+  "sections": {
+    "0b4056f9-ff3e-4072-b483-40e39e5c4f39": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18836617953584__0b4056f9-ff3e-4072-b483-40e39e5c4f39-1685093767b3e2e52c-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/prtQ6Wfw.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "",
+            "title": "Insulated Bearings",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18836617953584__0b4056f9-ff3e-4072-b483-40e39e5c4f39-1685093767b3e2e52c-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "md",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#000000",
+        "background_gradient": ""
+      }
+    },
+    "170228237242cc9b22": {
+      "type": "apps",
+      "blocks": {
+        "f4fb6974-2d04-4435-a3b4-1ca295c1a0a1": {
+          "type": "shopify:\/\/apps\/ez-add-breadcrumbs\/blocks\/app-block\/457dc635-4337-4779-8f31-361dd27778c8",
+          "settings": {
+            "show_breadcrumbs": true,
+            "color": "#000000",
+            "horizontal_alignment": "left",
+            "fontsize": 14,
+            "breadcrumb_font": "din_next_n4",
+            "marginleft": 0,
+            "margintop": 0,
+            "marginright": 0,
+            "marginbottom": 0,
+            "show_home_link": false,
+            "home_page": "Home",
+            "home_url": "\/",
+            "all_uppercase": false,
+            "use_slider": true,
+            "article_use_tag": true,
+            "separator": "<span> › <\/span>",
+            "css_tablet": "\/* font-family: DIN Next; *\/",
+            "css_mobile": "\/* font-family: DIN Next; *\/",
+            "custom_css": "\/* font-family: DIN Next; *\/",
+            "css_last_crumb": "\/* font-family: DIN Next; *\/",
+            "css_hover": "\/* text-decoration-line: underline; *\/",
+            "menus": "*"
+          }
+        }
+      },
+      "block_order": [
+        "f4fb6974-2d04-4435-a3b4-1ca295c1a0a1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "d1713a43-f823-41d9-8e8a-e04238ce90c9": {
+      "type": "multi-column",
+      "blocks": {
+        "c4f42433-803a-4cfe-9223-17ee6c911ca3": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
+        "template--21818659012912__d1713a43-f823-41d9-8e8a-e04238ce90c9-item-3": {
+          "type": "item",
+          "settings": {
+            "column_size": "1.5",
+            "title": "",
+            "heading_tag": "h2",
+            "content": "<p>CeramicSpeed Hybrid bearings with ceramic balls as rolling elements are electrically insulated bearings, representing a cutting-edge solution to enhance the reliability and efficiency of electric motors, particularly in demanding applications such as traction motors and generators.<\/p><h2><strong>High-Performing Insulated Bearings - Trusted Worldwide<\/strong><\/h2><p>The ceramic balls in CeramicSpeed electrically insulated bearings serve a dual purpose: they act as effective insulators against shaft voltage and contribute to the overall bearing life. The ceramic balls provide protection, reducing wear and minimizing the risk of electrical corrosion. This combination of insulation and durability translates to an extended service life for the bearings, contributing to the economic viability of electric motor applications.<\/p><p>In environments with high-frequency operations, such as those found in electric motors, insulated bearings play a crucial role in mitigating the risks associated with electrical issues. The steel rings used for our Xtreme and Insulate series are made from 100Cr6 (Nr. 1.3505), which is the globally accepted standard bearing steel. 100Cr6, when hardened properly, presents an optimum compromise between surface hardness and core toughness, and its machinability allows for raceways with super smooth surfaces, allowing quiet and long-lasting bearings. The inner ring and outer ring, coupled with the ceramic rolling elements, prevent the flow of electric current through the shaft and rotor, safeguarding against potential electrical discharge and subsequent damage.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "c4f42433-803a-4cfe-9223-17ee6c911ca3",
+        "template--21818659012912__d1713a43-f823-41d9-8e8a-e04238ce90c9-item-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "cc8c0c97-ee04-4e8c-8904-b300b288e5fb": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--21818659012912__cc8c0c97-ee04-4e8c-8904-b300b288e5fb-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--21818659012912__cc8c0c97-ee04-4e8c-8904-b300b288e5fb-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        },
+        "template--21818659012912__cc8c0c97-ee04-4e8c-8904-b300b288e5fb-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21818659012912__cc8c0c97-ee04-4e8c-8904-b300b288e5fb-subheading-1",
+        "template--21818659012912__cc8c0c97-ee04-4e8c-8904-b300b288e5fb-heading-1",
+        "template--21818659012912__cc8c0c97-ee04-4e8c-8904-b300b288e5fb-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "sm",
+        "image": "shopify:\/\/shop_images\/JG_201214_CeramicSpeed_Industri_00091.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "9418e1b5-7caa-461b-941d-6e96ebef9515": {
+      "type": "multi-column",
+      "blocks": {
+        "a9a71719-2fd4-43f9-8982-346d760d1d7a": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
+        "template--21818659012912__9418e1b5-7caa-461b-941d-6e96ebef9515-item-2": {
+          "type": "item",
+          "settings": {
+            "column_size": "1.5",
+            "title": "",
+            "heading_tag": "h2",
+            "content": "<h2>Insulated bearings - a positive effect on maintenance and repair<\/h2><p>Hybrid bearings with ceramic balls play a pivotal role in minimizing maintenance and repair requirements due to the non-conductive nature of ceramic balls, providing insulation against electrical conductivity within the bearing.<\/p><p>The incorporation of ceramic balls in hybrid bearings offers a distinct advantage by preventing electrical conductivity throughout the bearing system. Unlike traditional steel balls, ceramic balls are non-electrically conductive, also called insulated bearings, creating an effective barrier against the passage of electrical currents within the bearing. This inherent property acts as a safeguard, isolating the bearing from potential electrical issues that could lead to wear, damage, or other operational complications.<\/p><p>As a result of this electrical insulation, hybrid bearings with ceramic balls experience reduced wear and tear, mitigating the need for frequent maintenance and repairs. The non-conductive nature of the ceramic material ensures a more stable and durable bearing performance over time, making it well-suited for applications where electrical isolation is a critical consideration.<\/p><p>The integration of ceramic balls in hybrid bearings not only enhances mechanical properties but also provides a reliable solution to minimize maintenance and repair interventions, thanks to the inherent electrical insulation properties of ceramic materials.<\/p><p>Furthermore, the incorporation of ceramic balls in these bearings enhances their resistance to electrical corrosion, making them a reliable choice for applications where protection against wear and tear is essential. This not only ensures the sustained functionality of the bearings but also contributes to the overall efficiency of the electric motor.<\/p><p>In conclusion, insulated hybrid bearings with ceramic balls emerge as a state-of-the-art solution, combining electrically insulated features and ceramic balls to provide superior protection against shaft voltage and electrical corrosion. These bearings offer an economical and reliable alternative, delivering higher operational reliability and an extended service life for electric motors operating in diverse and demanding conditions.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "a9a71719-2fd4-43f9-8982-346d760d1d7a",
+        "template--21818659012912__9418e1b5-7caa-461b-941d-6e96ebef9515-item-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "29ad72ea-ee42-4bfd-bf7e-8e2934a4db23": {
+      "type": "accordion-content",
+      "blocks": {
+        "template--21818659012912__29ad72ea-ee42-4bfd-bf7e-8e2934a4db23-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "Material Composition",
+            "content": "<p>Hybrid Bearings are fitted with ceramic balls (often made of materials like silicon nitride - Si3N4). The inner ring and outer ring are typically made of steel. Conventional Steel Bearings are fitted with steel balls, and both the inner rings and outer ring are also made of steel.<\/p>"
+          }
+        },
+        "template--21818659012912__29ad72ea-ee42-4bfd-bf7e-8e2934a4db23-item-2": {
+          "type": "item",
+          "settings": {
+            "title": "Friction and Wear",
+            "content": "<p>Hybrid Bearings: Ceramic balls have a lower coefficient of friction compared to steel balls. This reduces friction between the rolling elements and the raceways, resulting in less heat generation and wear. As a result, hybrid bearings often exhibit improved performance and durability.<\/p><p>Conventional Steel Bearings: While steel bearings are robust, they may experience higher levels of friction and wear compared to hybrid bearings.<\/p>"
+          }
+        },
+        "template--21818659012912__29ad72ea-ee42-4bfd-bf7e-8e2934a4db23-item-3": {
+          "type": "item",
+          "settings": {
+            "title": "Weight",
+            "content": "<p>Ceramic balls are lighter than steel balls. This reduces the centrifugal force acting on the rolling elements during rotation, potentially allowing for higher speeds and less strain on the bearing components.<\/p><p>Steel bearings are heavier due to the steel balls, which may impact factors like rotational speed and overall bearing weight.<\/p>"
+          }
+        },
+        "401ef62e-2198-44eb-b439-1e6d350648eb": {
+          "type": "item",
+          "settings": {
+            "title": "Electrical Conductivity",
+            "content": "<p><strong>Hybrid Bearings<\/strong>: Ceramic balls are non-conductive, providing electrical insulation within the bearing. This makes hybrid bearings suitable for applications where electrical conductivity could be a concern.<\/p><p><strong>Conventional Steel Bearings: <\/strong>Steel is conductive, so conventional steel bearings do not offer the same electrical insulation as hybrid bearings and are therefore referred to as non-insulated bearings<\/p>"
+          }
+        },
+        "11dda3c0-3ae2-4fce-a8f0-e707dd963209": {
+          "type": "item",
+          "settings": {
+            "title": "Application Suitability",
+            "content": "<p><strong>Hybrid Bearings:<\/strong> Preferred in applications where reduced friction, lower wear, and electrical insulation are crucial, such as high-speed machinery, electric motors, or environments where the risk of electrical arcing is a concern.<\/p><p><strong>Conventional Steel Bearings<\/strong>: Widely used in various applications but may experience limitations in high-speed or demanding environments where reduced friction and wear are critical.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21818659012912__29ad72ea-ee42-4bfd-bf7e-8e2934a4db23-item-1",
+        "template--21818659012912__29ad72ea-ee42-4bfd-bf7e-8e2934a4db23-item-2",
+        "template--21818659012912__29ad72ea-ee42-4bfd-bf7e-8e2934a4db23-item-3",
+        "401ef62e-2198-44eb-b439-1e6d350648eb",
+        "11dda3c0-3ae2-4fce-a8f0-e707dd963209"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "",
+        "content": "<h2>What is the difference between an insulated bearing and conventional bearings?<\/h2><p>The choice between insulated bearings like CeramicSpeed Hybrid Bearings with ceramic balls and conventional steel bearings depends on the specific requirements of the application, considering factors like speed, friction, wear resistance, and electrical considerations. Hybrid bearings often offer advantages in certain high-performance or specialized applications.<\/p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "#b2c9c9",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "6ee206ac-fd3f-40d5-b057-c696865a82ae": {
+      "type": "slideshow",
+      "blocks": {
+        "template--21818659012912__6ee206ac-fd3f-40d5-b057-c696865a82ae-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PEM_Mellem.png",
+            "content_max_width": 400,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Got any questions?",
+            "heading_tag": "h0",
+            "button_text": "Contact us here",
+            "button_link": "shopify:\/\/pages\/contact",
+            "text_color": "#000000",
+            "button_background": "#b2c9c9",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21818659012912__6ee206ac-fd3f-40d5-b057-c696865a82ae-image-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "sm",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "57df4114-a396-410b-90ba-432ba54bf7b3": {
+      "type": "video",
+      "blocks": {
+        "template--21818659012912__57df4114-a396-410b-90ba-432ba54bf7b3-play-1": {
+          "type": "play",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "template--21818659012912__57df4114-a396-410b-90ba-432ba54bf7b3-play-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/CeramicSpeed_Electrical equipment_bdbc25b9-8e16-4524-9daf-51f36df666ef.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    }
+  },
+  "order": [
+    "0b4056f9-ff3e-4072-b483-40e39e5c4f39",
+    "170228237242cc9b22",
+    "main",
+    "d1713a43-f823-41d9-8e8a-e04238ce90c9",
+    "cc8c0c97-ee04-4e8c-8904-b300b288e5fb",
+    "9418e1b5-7caa-461b-941d-6e96ebef9515",
+    "29ad72ea-ee42-4bfd-bf7e-8e2934a4db23",
+    "6ee206ac-fd3f-40d5-b057-c696865a82ae",
+    "57df4114-a396-410b-90ba-432ba54bf7b3"
+  ]
+}

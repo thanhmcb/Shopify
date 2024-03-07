@@ -1,0 +1,584 @@
+{
+  "sections": {
+    "d1558fe2_1702295386": {
+      "type": "powr-popup",
+      "settings": {}
+    },
+    "main": {
+      "type": "main-article",
+      "disabled": true,
+      "settings": {
+        "allow_transparent_header": false,
+        "layout": "content_first",
+        "show_author": false,
+        "show_date": true,
+        "show_comments_count": false,
+        "show_share_buttons": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px"
+      }
+    },
+    "0659fb2d-39b4-41bf-8b91-a71609396e4e": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18733505282352__0659fb2d-39b4-41bf-8b91-a71609396e4e-168138351266b6bd17-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CU_Wind_team.jpg",
+            "content_max_width": 720,
+            "mobile_text_position": "place-self-center-start text-start",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "",
+            "title": "New Partnership with University of Colorado",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18733505282352__0659fb2d-39b4-41bf-8b91-a71609396e4e-168138351266b6bd17-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "lg",
+        "controls_type": "none",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "9ae619e5-14e5-420b-a037-318a460f076b": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18733505282352__9ae619e5-14e5-420b-a037-318a460f076b-1681383620ef02c3d1-1": {
+          "type": "heading",
+          "settings": {
+            "text": "{{ article.metafields.custom.overskrift_til_artikel.value }}",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "bdaba691-0ec8-4c02-9d05-1cb7060c8313": {
+          "type": "richtext",
+          "settings": {
+            "content": "{{ article.metafields.custom.indledningstekst | metafield_tag }}",
+            "text_align": "center"
+          }
+        },
+        "template--18733505282352__9ae619e5-14e5-420b-a037-318a460f076b-1681383620ef02c3d1-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "4 to 8 times longer life than steel"
+          }
+        },
+        "63fbbe43-2176-4541-a52a-a37150976580": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Hybrid ball bearings are proven to last 4 to 8 times longer than steel bearings – in some cases even longer. For your customers, this eliminates frequent replacements, production stops or unforeseen breakdowns due to bearing failure. Hybrid bearings also give your customer a number of distinct advantages, not least a massive reduction in MRO spending.<\/p>",
+            "text_align": "center"
+          }
+        },
+        "bc4089b3-adf8-4818-8283-d2a4cfade653": {
+          "type": "heading",
+          "settings": {
+            "text": "{{ article.metafields.custom.underrubrik.value }}",
+            "heading_tag": "h5",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "3610b4ac-3634-4205-97d4-1b4ad47e37c0": {
+          "type": "richtext",
+          "settings": {
+            "content": "{{ article.metafields.custom.broedtekst | metafield_tag }}",
+            "text_align": "center"
+          }
+        },
+        "63d92438-53ab-4e5a-982d-f9857e83245e": {
+          "type": "heading",
+          "settings": {
+            "text": "{{ article.metafields.custom.underrubrik1.value }}",
+            "heading_tag": "h5",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "342ea9b6-3c77-4711-8176-e14710bf9c97": {
+          "type": "richtext",
+          "settings": {
+            "content": "{{ article.metafields.custom.broedtekst_2 | metafield_tag }}",
+            "text_align": "center"
+          }
+        },
+        "f78ab3f2-0bfc-4ec9-90b9-2600fe6a8fc2": {
+          "type": "heading",
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h5",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "e20a2d12-3902-4b74-afce-d196c3a63734": {
+          "type": "richtext",
+          "settings": {
+            "content": "{{ article.metafields.custom.broedtekst_3 | metafield_tag }}",
+            "text_align": "center"
+          }
+        },
+        "9eefc1ca-f0fd-4b8f-9f95-edeb969d65a3": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "{{ article.metafields.custom.knap_tekst | metafield_text }}",
+            "url": "{{ article.metafields.custom.knaplink.value }}",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18733505282352__9ae619e5-14e5-420b-a037-318a460f076b-1681383620ef02c3d1-1",
+        "bdaba691-0ec8-4c02-9d05-1cb7060c8313",
+        "template--18733505282352__9ae619e5-14e5-420b-a037-318a460f076b-1681383620ef02c3d1-0",
+        "63fbbe43-2176-4541-a52a-a37150976580",
+        "bc4089b3-adf8-4818-8283-d2a4cfade653",
+        "3610b4ac-3634-4205-97d4-1b4ad47e37c0",
+        "63d92438-53ab-4e5a-982d-f9857e83245e",
+        "342ea9b6-3c77-4711-8176-e14710bf9c97",
+        "f78ab3f2-0bfc-4ec9-90b9-2600fe6a8fc2",
+        "e20a2d12-3902-4b74-afce-d196c3a63734",
+        "9eefc1ca-f0fd-4b8f-9f95-edeb969d65a3"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "content_width": "medium",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "e65cfb7b-4e35-4f5a-8add-534b407d9944": {
+      "type": "multi-column",
+      "blocks": {
+        "template--18733505282352__e65cfb7b-4e35-4f5a-8add-534b407d9944-16813839451d95fa14-1": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h3",
+            "content": "{{ article.metafields.custom.punkter_til_faktaboks | metafield_tag }}",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "26a659e1-02af-484e-b7de-a7cf6283ddc5": {
+          "type": "item",
+          "settings": {
+            "image": "{{ article.metafields.custom.billede_til_faktaboks.value }}",
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "{{ article.metafields.custom.punkter_til_faktaboks_hoejre_side | metafield_tag }}",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "07ab62c3-589e-4b9e-997e-4aa177805480": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Monosnap_case_insulate_electric-motor_dairy_en.pdf_2023-04-13_13-09-19.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "https:\/\/www.ceramicspeed.com\/media\/xswajs0l\/case_insulate_electric-motor_dairy_en.pdf",
+            "link_text": "",
+            "link_style": "button"
+          }
+        }
+      },
+      "block_order": [
+        "template--18733505282352__e65cfb7b-4e35-4f5a-8add-534b407d9944-16813839451d95fa14-1",
+        "26a659e1-02af-484e-b7de-a7cf6283ddc5",
+        "07ab62c3-589e-4b9e-997e-4aa177805480"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "{{ article.metafields.custom.faktaboks_overskrift.value }}",
+        "content": "",
+        "background": "#2b2b2b",
+        "background_gradient": "",
+        "text_color": "#fafafa"
+      }
+    },
+    "20adbcda-16e8-4307-ae0d-994fa70f5a36": {
+      "type": "blog-posts",
+      "blocks": {
+        "template--18733505282352__20adbcda-16e8-4307-ae0d-994fa70f5a36-168145500942078b87-0": {
+          "type": "blog",
+          "settings": {
+            "blog": "news",
+            "posts_count": 2,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18733505282352__20adbcda-16e8-4307-ae0d-994fa70f5a36-168145500942078b87-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "show_excerpt": false,
+        "show_date": false,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "Catalogs",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "ebe176fd-3621-47d8-a282-141e1b6016fc": {
+      "type": "blog-posts",
+      "blocks": {
+        "a2824080-8062-4aa3-b7dc-cdb6dc5ddac4": {
+          "type": "blog",
+          "settings": {
+            "blog": "case-stories",
+            "posts_count": 2,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "a2824080-8062-4aa3-b7dc-cdb6dc5ddac4"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "show_excerpt": false,
+        "show_date": false,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "Catalogs",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "50b873dc-22d1-406d-a8de-c9f575ff88a8": {
+      "type": "blog-posts",
+      "blocks": {
+        "201d6fd7-8f40-4ee3-ba3d-ba35fd001183": {
+          "type": "blog",
+          "settings": {
+            "blog": "product-overview",
+            "posts_count": 2,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "201d6fd7-8f40-4ee3-ba3d-ba35fd001183"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "show_excerpt": false,
+        "show_date": false,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "Catalogs",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "52b96ecd-6bda-4831-8cd1-5f84dd22e331": {
+      "type": "blog-posts",
+      "blocks": {
+        "ec776cdc-517c-44c0-a082-aeb26b7ee53e": {
+          "type": "blog",
+          "settings": {
+            "blog": "one-pagers",
+            "posts_count": 2,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "ec776cdc-517c-44c0-a082-aeb26b7ee53e"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "show_excerpt": false,
+        "show_date": false,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "Catalogs",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "multi_column_GH7jXe": {
+      "type": "multi-column",
+      "blocks": {
+        "spacer_bn6yVx": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
+        "item_nzVEFV": {
+          "type": "item",
+          "settings": {
+            "column_size": "1.5",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<h1>CeramicSpeed and University of Colorado Forge New Frontier in Renewable Energy Innovation<\/h1><p>We're thrilled to announce our new partnership with University of Colorado. In a decisive move towards a sustainable future, CeramicSpeed has proudly united with University of Colorado as sponsors for their ambitious project - the construction of a miniature offshore wind turbine. This collaborative venture aligns perfectly with the upcoming DOE’s Collegiate Wind Competition and Cleanpower conference, where CU Wind will showcase their ingenuity, powered by none other than CeramicSpeed bearings.<\/p><p>Our commitment to this transformative project goes beyond financial support. CeramicSpeed is supplying CU Wind with cutting-edge Low Friction Hybrid Bearings, a pivotal component propelling their groundbreaking initiative. In addition to material contributions, we are excited about sharing knowledge and fostering innovation to contribute to a more efficient and sustainable future.<\/p><p>A special acknowledgment goes to CU Wind for their unwavering dedication to advancing renewable energy. We are truly honored to be part of this journey, supporting the next generation of engineers and innovators who are reshaping the landscape of clean and sustainable power.<\/p><p>Stay tuned for more updates and insights into this remarkable partnership that is set to make waves in the world of clean energy.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "spacer_bn6yVx",
+        "item_nzVEFV"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "slideshow_qa8chh": {
+      "type": "slideshow",
+      "blocks": {
+        "image_jKgzGJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/C.U.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "image_gx76EF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/C.U.2.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Tell your story",
+            "title": "Slide 2",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_jKgzGJ",
+        "image_gx76EF"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "media_grid_QiXB3U": {
+      "type": "media-grid",
+      "blocks": {
+        "image_RXUCHV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/C.U.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_VRkagk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/C.U.2.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_8KBE4c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CU_Wind_team.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 4,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_RXUCHV",
+        "image_VRkagk",
+        "image_8KBE4c"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "d1558fe2_1702295386",
+    "main",
+    "0659fb2d-39b4-41bf-8b91-a71609396e4e",
+    "9ae619e5-14e5-420b-a037-318a460f076b",
+    "e65cfb7b-4e35-4f5a-8add-534b407d9944",
+    "20adbcda-16e8-4307-ae0d-994fa70f5a36",
+    "ebe176fd-3621-47d8-a282-141e1b6016fc",
+    "50b873dc-22d1-406d-a8de-c9f575ff88a8",
+    "52b96ecd-6bda-4831-8cd1-5f84dd22e331",
+    "multi_column_GH7jXe",
+    "slideshow_qa8chh",
+    "media_grid_QiXB3U"
+  ]
+}
