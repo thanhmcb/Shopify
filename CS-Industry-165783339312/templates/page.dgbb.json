@@ -1,0 +1,450 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "3e7dc412-585b-499a-9f9f-d213ad19b2ae": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18735408939312__3e7dc412-585b-499a-9f9f-d213ad19b2ae-168138351266b6bd17-0": {
+          "type": "image",
+          "settings": {
+            "image": "{{ page.metafields.custom.top_billede.value }}",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center-start text-start",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "Deep Groove Ball Bearing",
+            "title": "{{ page.metafields.custom.sidetitel.value }}",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18735408939312__3e7dc412-585b-499a-9f9f-d213ad19b2ae-168138351266b6bd17-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "md",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "17022860612594abe0": {
+      "type": "apps",
+      "blocks": {
+        "e937e67f-debf-4644-9d54-dd689e46755b": {
+          "type": "shopify:\/\/apps\/ez-add-breadcrumbs\/blocks\/app-block\/457dc635-4337-4779-8f31-361dd27778c8",
+          "settings": {
+            "show_breadcrumbs": true,
+            "color": "#000000",
+            "horizontal_alignment": "left",
+            "fontsize": 15,
+            "breadcrumb_font": "din_next_n4",
+            "marginleft": 0,
+            "margintop": 0,
+            "marginright": 0,
+            "marginbottom": 0,
+            "show_home_link": false,
+            "home_page": "Home",
+            "home_url": "\/",
+            "all_uppercase": false,
+            "use_slider": false,
+            "article_use_tag": true,
+            "separator": "<span> › <\/span>",
+            "css_tablet": "\/* font-family: Helvetica; *\/",
+            "css_mobile": "\/* font-family: Helvetica; *\/",
+            "custom_css": "\/* font-family: Helvetica; *\/",
+            "css_last_crumb": "\/* font-weight: medium; *\/",
+            "css_hover": "\/* text-decoration-line: underline; *\/",
+            "menus": "*"
+          }
+        }
+      },
+      "block_order": [
+        "e937e67f-debf-4644-9d54-dd689e46755b"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "5f80f12e-daff-445d-a95e-f23ddd77a712": {
+      "type": "multi-column",
+      "blocks": {
+        "38754184-5b6e-496c-8da5-2ce4f0be3c52": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "4"
+          }
+        },
+        "template--19281752129840__5f80f12e-daff-445d-a95e-f23ddd77a712-1685008256f737c794-1": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "{{ page.metafields.custom.broedtekst | metafield_tag }}",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "9d8278c3-6e1b-47b8-a63c-eea52481a378": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "4"
+          }
+        }
+      },
+      "block_order": [
+        "38754184-5b6e-496c-8da5-2ce4f0be3c52",
+        "template--19281752129840__5f80f12e-daff-445d-a95e-f23ddd77a712-1685008256f737c794-1",
+        "9d8278c3-6e1b-47b8-a63c-eea52481a378"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "#fafafa",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    },
+    "f6d5ecc1-c241-4511-af75-6fe0b7fcbcfd": {
+      "type": "multi-column",
+      "blocks": {
+        "template--19282442551600__f6d5ecc1-c241-4511-af75-6fe0b7fcbcfd-1685012812e5d82383-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/prtQ6Wfw.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<h3>CeramicSpeed Insulate<\/h3><h6>Our Insulate products are designed for maximum durability in electrical machines<\/h6><ul><li>Ceramic balls create an insulation distance off the full ball diameter - your guarantee against current erosion<\/li><li>C3 clearance (C4 on request) allows for the normal thermal expansion of motor- \/ generator shafts<\/li><li>Non-friction rubber seals (Type RZ) protect against outside contamination without compromising low-friction running<\/li><li>Well proven wide temperature greases ensure long grease life and silent running<\/li><\/ul>",
+            "link_url": "shopify:\/\/blogs\/news\/ceramicspeed-insulate",
+            "link_text": "Read more",
+            "link_style": "button"
+          }
+        },
+        "template--19282442551600__f6d5ecc1-c241-4511-af75-6fe0b7fcbcfd-1685012812e5d82383-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fUsZ6ajD.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<h3>CeramicSpeed Corrotec<\/h3><h6>Our xtreme serie is designed for maximum reliability in wet and otherwise challenging conditions in the food, pharma, and beverage industries.<\/h6><ul><li>Ceramic balls allow for long service life even when lubrication is challenged by water and other contaminants<\/li><li>Stainless steel rings allow survival in moist conditions<\/li><li>High-quality friction seals offer maximum protection against particle ingress<\/li><li>Material and lubricant combinations all live up to FDA \/ EN 1935 regulations for incidental food contact<\/li><\/ul>",
+            "link_url": "shopify:\/\/pages\/ceramicspeed-corrotec",
+            "link_text": "Read more",
+            "link_style": "button"
+          }
+        },
+        "template--19282442551600__f6d5ecc1-c241-4511-af75-6fe0b7fcbcfd-1685012812e5d82383-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/nrH82E-Z.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<h3>CeramicSpeed Xtreme <\/h3><h6>Our xtreme series is are not optimized against one specific industry but offer an overall more robust solution to several industries. The benefits of combining high-quality steel rings with ceramic balls allow for:<\/h6><ul><li>Higher rotational speeds<\/li><li>Reduced lubrication or even dry running<\/li><li>Longer service life in oscillating or start-stop applications<\/li><li>Longer service life in contaminated environments<\/li><li>Longer service life under extreme temperatures<br\/><\/li><\/ul><p><\/p><p><\/p><p><\/p>",
+            "link_url": "shopify:\/\/blogs\/news\/ceramicspeed-xtreme",
+            "link_text": "Read more",
+            "link_style": "button"
+          }
+        }
+      },
+      "block_order": [
+        "template--19282442551600__f6d5ecc1-c241-4511-af75-6fe0b7fcbcfd-1685012812e5d82383-0",
+        "template--19282442551600__f6d5ecc1-c241-4511-af75-6fe0b7fcbcfd-1685012812e5d82383-1",
+        "template--19282442551600__f6d5ecc1-c241-4511-af75-6fe0b7fcbcfd-1685012812e5d82383-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "46d23284-7b78-4410-9e31-06d3a2f50d71": {
+      "type": "multi-column",
+      "blocks": {
+        "11153fb2-91c2-46cd-a224-0f399e641830": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9abd72e2f48cada80ee1e7c5dce5b3353b5aca0a.webp",
+            "column_size": "3",
+            "title": "4-8 times longer lifetime",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "11e3faf9-afd3-4de4-809d-9fd610f012b2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0d0ac81c7179ab25905cea0a0b507d9f6bf454c5.webp",
+            "column_size": "3",
+            "title": "Higher Speed Capability",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "11153fb2-91c2-46cd-a224-0f399e641830",
+        "11e3faf9-afd3-4de4-809d-9fd610f012b2"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "7647fb8a-7d5c-4149-8a81-524827856e62": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "template--18735408939312__7647fb8a-7d5c-4149-8a81-524827856e62-1681386433e228e7ce-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Premier_is_freezing_tunnel.png",
+            "image_rotation_degrees": -5,
+            "subheading": "",
+            "title": "",
+            "content": "<p>The lifetime of a CeramicSpeed Bearing is 4-8 times longer than a traditional bearing. One of our customers “Premier Is” has achieved an increase of more than 4 times in bearing life, while also reducing downtime and operational costs just by a simple switch to CeramicSpeed Hybrid Bearings. By replacing standard bearings with CeramicSpeed Hybrid Bearings the company also decreased their unplanned production shutdowns remarkably. Read the entire customer case <a href=\"https:\/\/www.ceramicspeed.com\/media\/5651\/case_xterme_premier-is_en.pdf\" target=\"_blank\" title=\"Case Xterme Premier Is EN\">here. <\/a><\/p><p>Labor and other costs associated with replacing worn-out bearings often exceed the price of the actual bearing several times over. Multiply these costs 4-8 times, and you can calculate the potential for reducing costs by replacing traditional bearings with CeramicSpeed Bearings. <\/p><p>Are you curious about how much you can save on your maintenance cost by replacing standard bearings? Contact us <a href=\"https:\/\/www.ceramicspeed.com\/en\/industry\/contact-industry\/\" target=\"_blank\" title=\"Contact Industry\">here<\/a> and let us help you.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18735408939312__7647fb8a-7d5c-4149-8a81-524827856e62-1681386433e228e7ce-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "b23db604-f929-4041-966d-d569efc59318": {
+      "type": "multi-column",
+      "blocks": {
+        "template--18735408939312__b23db604-f929-4041-966d-d569efc59318-16813839451d95fa14-0": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p>The lifetime of a CeramicSpeed Bearing is 4-8 times longer than a traditional bearing. One of our customers “Premier Is” has achieved an increase of more than 4 times in bearing life, while also reducing downtime and operational costs just by a simple switch to CeramicSpeed Hybrid Bearings. By replacing standard bearings with CeramicSpeed Hybrid Bearings the company also decreased their unplanned production shutdowns remarkably. Read the entire customer case <a href=\"https:\/\/www.ceramicspeed.com\/media\/5651\/case_xterme_premier-is_en.pdf\" target=\"_blank\" title=\"Case Xterme Premier Is EN\">here. <\/a><\/p><p>Labor and other costs associated with replacing worn-out bearings often exceed the price of the actual bearing several times over. Multiply these costs 4-8 times, and you can calculate the potential for reducing costs by replacing traditional bearings with CeramicSpeed Bearings. <\/p><p>Are you curious about how much you can save on your maintenance cost by replacing standard bearings? Contact us <a href=\"https:\/\/www.ceramicspeed.com\/en\/industry\/contact-industry\/\" target=\"_blank\" title=\"Contact Industry\">here<\/a> and let us help you.<\/p>",
+            "link_url": "https:\/\/www.ceramicspeed.com\/media\/5651\/case_xterme_premier-is_en.pdf",
+            "link_text": "",
+            "link_style": "button"
+          }
+        },
+        "7ef3cbbf-1464-4170-bc78-15bb818f8d26": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
+        "template--18735408939312__b23db604-f929-4041-966d-d569efc59318-16813839451d95fa14-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Premier_is_freezing_tunnel.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0744\/8671\/0576\/files\/case_xterme_premier-is_en.pdf?v=1684911217",
+            "link_text": "Download PDF",
+            "link_style": "button"
+          }
+        }
+      },
+      "block_order": [
+        "template--18735408939312__b23db604-f929-4041-966d-d569efc59318-16813839451d95fa14-0",
+        "7ef3cbbf-1464-4170-bc78-15bb818f8d26",
+        "template--18735408939312__b23db604-f929-4041-966d-d569efc59318-16813839451d95fa14-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "9fd8edc8-cb3e-4881-995c-f3ac97d7615d": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "template--19282442551600__9fd8edc8-cb3e-4881-995c-f3ac97d7615d-1688727241e4c9bdec-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/prtQ6Wfw.png",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "CeramicSpeed Insulate",
+            "content": "<h4>Our Insulate products are designed for maximum durability in electrical machines<\/h4><ul><li>Ceramic balls create an insulation distance off the full ball diameter - your guarantee against current erosion<\/li><li>C3 clearance (C4 on request) allows for the normal thermal expansion of motor- \/ generator shafts<\/li><li>Non-friction rubber seals (Type RZ) protect against outside contamination without compromising low-friction running<\/li><li>Well proven wide temperature greases ensure long grease life and silent running<\/li><\/ul><p><\/p><p><\/p>",
+            "button_url": "shopify:\/\/pages\/ceramic-speed-insulate",
+            "button_text": "Learn More"
+          }
+        },
+        "template--19282442551600__9fd8edc8-cb3e-4881-995c-f3ac97d7615d-1688727241e4c9bdec-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fUsZ6ajD.png",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "CeramicSpeed Corrotec",
+            "content": "<h4>The Corrotec product group is designed for maximum reliability in wet and otherwise challenging conditions in the food, pharma, and beverage industries.<\/h4><ul><li>Ceramic balls allow for long service life even when lubrication is challenged by water and other contaminants<\/li><li>Stainless steel rings allow survival in moist conditions<\/li><li>High-quality friction seals offer maximum protection against particle ingress<\/li><li>Material and lubricant combinations all live up to FDA \/ EN 1935 regulations for incidental food contact<\/li><\/ul>",
+            "button_url": "shopify:\/\/pages\/ceramicspeed-corrotec-1",
+            "button_text": "Learn More"
+          }
+        },
+        "8bfff8f6-a3a3-4771-8e98-3ad14a39cd0a": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/nrH82E-Z.png",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "CeramicSpeed Xtreme",
+            "content": "<h4>CeramicSpeed Xtreme bearings are not optimized against one specific industry but offer an overall more robust solution to several industries. The benefits of combining high-quality steel rings with ceramic balls allow for:<\/h4><ul><li>Higher rotational speeds<\/li><li>Reduced lubrication or even dry running<\/li><li>Longer service life in oscillating or start-stop applications<\/li><li>Longer service life in contaminated environments<\/li><li>Longer service life under extreme temperatures<\/li><\/ul>",
+            "button_url": "shopify:\/\/pages\/xtreme",
+            "button_text": "Learn More"
+          }
+        }
+      },
+      "block_order": [
+        "template--19282442551600__9fd8edc8-cb3e-4881-995c-f3ac97d7615d-1688727241e4c9bdec-0",
+        "template--19282442551600__9fd8edc8-cb3e-4881-995c-f3ac97d7615d-1688727241e4c9bdec-1",
+        "8bfff8f6-a3a3-4771-8e98-3ad14a39cd0a"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "#fafafa",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "fc75068b-79d7-4fab-9009-200d6d1d7e00": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--19282442551600__fc75068b-79d7-4fab-9009-200d6d1d7e00-16887287431cba6ebd-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--19282442551600__fc75068b-79d7-4fab-9009-200d6d1d7e00-16887287431cba6ebd-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Did you know...",
+            "heading_tag": "h1"
+          }
+        },
+        "template--19282442551600__fc75068b-79d7-4fab-9009-200d6d1d7e00-16887287431cba6ebd-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>That labor and other costs associated with replacing worn-out bearings often exceed the price of the actual bearing several times over. Multiply these costs 4-8 times, and you can calculate the potential for reducing costs by replacing traditional bearings with CeramicSpeed Bearings.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19282442551600__fc75068b-79d7-4fab-9009-200d6d1d7e00-16887287431cba6ebd-0",
+        "template--19282442551600__fc75068b-79d7-4fab-9009-200d6d1d7e00-16887287431cba6ebd-1",
+        "template--19282442551600__fc75068b-79d7-4fab-9009-200d6d1d7e00-16887287431cba6ebd-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "lg",
+        "image": "shopify:\/\/shop_images\/JG_201214_CeramicSpeed_Industri_00102.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3e7dc412-585b-499a-9f9f-d213ad19b2ae",
+    "17022860612594abe0",
+    "5f80f12e-daff-445d-a95e-f23ddd77a712",
+    "f6d5ecc1-c241-4511-af75-6fe0b7fcbcfd",
+    "46d23284-7b78-4410-9e31-06d3a2f50d71",
+    "7647fb8a-7d5c-4149-8a81-524827856e62",
+    "b23db604-f929-4041-966d-d569efc59318",
+    "9fd8edc8-cb3e-4881-995c-f3ac97d7615d",
+    "fc75068b-79d7-4fab-9009-200d6d1d7e00"
+  ]
+}

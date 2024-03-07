@@ -1,0 +1,248 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "1d1f3478-5c89-4979-befa-46f52c780910": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18836617462064__1d1f3478-5c89-4979-befa-46f52c780910-1689152071b6f7ff78-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PEM_kontakt.png",
+            "mobile_image": "shopify:\/\/shop_images\/PEM_Sleeknote.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "Quick Response Within 48 hours",
+            "title": "Reach out to us here",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 25,
+            "background": "#f3f5f6",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18836617462064__1d1f3478-5c89-4979-befa-46f52c780910-1689152071b6f7ff78-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "md",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "17022857592f159848": {
+      "type": "apps",
+      "blocks": {
+        "464da353-d9fa-4217-90af-44d2bff7cad4": {
+          "type": "shopify:\/\/apps\/ez-add-breadcrumbs\/blocks\/app-block\/457dc635-4337-4779-8f31-361dd27778c8",
+          "settings": {
+            "show_breadcrumbs": true,
+            "color": "#000000",
+            "horizontal_alignment": "left",
+            "fontsize": 15,
+            "breadcrumb_font": "helvetica_n4",
+            "marginleft": 0,
+            "margintop": 0,
+            "marginright": 0,
+            "marginbottom": 0,
+            "show_home_link": false,
+            "home_page": "Home",
+            "home_url": "\/",
+            "all_uppercase": false,
+            "use_slider": false,
+            "article_use_tag": true,
+            "separator": "<span> › <\/span>",
+            "css_tablet": "\/* font-family: Helvetica; *\/",
+            "css_mobile": "\/* font-family: Helvetica; *\/",
+            "custom_css": "\/* font-family: Helvetica; *\/",
+            "css_last_crumb": "\/* font-weight: medium; *\/",
+            "css_hover": "\/* text-decoration-line: underline; *\/",
+            "menus": "*"
+          }
+        }
+      },
+      "block_order": [
+        "464da353-d9fa-4217-90af-44d2bff7cad4"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "dfe6e523-381d-449b-9b14-6fe7936ab147": {
+      "type": "contact",
+      "blocks": {
+        "c2910aee-0651-4808-973c-58b91df4cd30": {
+          "type": "text",
+          "settings": {
+            "title": "Company",
+            "use_long_text": false
+          }
+        }
+      },
+      "block_order": [
+        "c2910aee-0651-4808-973c-58b91df4cd30"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Unleash the Potential: Reach Out and Transform Your Business with CeramicSpeed",
+        "content": "<p>We're delighted to have you here and appreciate your interest in our company. Effective communication is at the heart of strong business relationships, and at CeramicSpeed, we're dedicated to providing exceptional support.<\/p><p>Our team takes pride in being a reliable and trustworthy partner for your business. If you're eager to explore how CeramicSpeed Hybrid Bearings can benefit your business, or if you simply want to get in touch, feel free to reach out. Expect a response from us within 48 hours.<\/p>",
+        "text_position": "end",
+        "contact_form_size": "small",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "text_with_icons_fFXjqp": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_pCk34k": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-phone",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Customer support",
+            "content": "<p>Call us directly +45 22 17 04 21<\/p>"
+          }
+        },
+        "item_PCK7HF": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-send",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Quick respond",
+            "content": "<p>Expect a respond for us within 48 hours.<\/p>"
+          }
+        },
+        "item_XgTrUT": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-mailbox",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Send us an e-mail",
+            "content": "<p>Write to us at industry@ceramicspeed.com<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_pCk34k",
+        "item_PCK7HF",
+        "item_XgTrUT"
+      ],
+      "settings": {
+        "full_width": true,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "small",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_wtMjfN": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_BjqBwi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JG_210323_CeramicSpeed_0223_R.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Looking for a job at CeramicSpeed?",
+            "content": "<p>Since the very beginning, our mission to change the world of competitive racing hasn't changed, so we hire talented people from all around the world to help us achieve it. With our growth into Industrial bearings and our ever-expanding range of cycling products, we have opportunities in all departments from marketing to R&D.<\/p>",
+            "link_text": "Current Vacancies",
+            "link_url": "https:\/\/ceramicspeed.com\/en-eu\/pages\/careers",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_BjqBwi"
+      ],
+      "settings": {
+        "full_width": true,
+        "enable_parallax": true,
+        "spacing": "large"
+      }
+    },
+    "revealed_image_on_scroll_ibTnWN": {
+      "type": "revealed-image-on-scroll",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/box-ceramic-balls_b852e026-ef23-48ca-9314-2e77488b1f12.jpg",
+        "subheading": "",
+        "title": "",
+        "background": "",
+        "text_color_inside": "#ffffff",
+        "text_color_outside": "#000000"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1d1f3478-5c89-4979-befa-46f52c780910",
+    "17022857592f159848",
+    "dfe6e523-381d-449b-9b14-6fe7936ab147",
+    "text_with_icons_fFXjqp",
+    "media_with_text_wtMjfN",
+    "revealed_image_on_scroll_ibTnWN"
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "3e7dc412-585b-499a-9f9f-d213ad19b2ae": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18735408939312__3e7dc412-585b-499a-9f9f-d213ad19b2ae-168138351266b6bd17-0": {
+          "type": "image",
+          "settings": {
+            "image": "{{ page.metafields.custom.top_billede.value }}",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center-start text-start",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "",
+            "title": "{{ page.title }}",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18735408939312__3e7dc412-585b-499a-9f9f-d213ad19b2ae-168138351266b6bd17-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "md",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "1702288136bd4b9769": {
+      "type": "apps",
+      "blocks": {
+        "2aeb8604-77f6-4cef-ad90-435f4cc487b1": {
+          "type": "shopify:\/\/apps\/ez-add-breadcrumbs\/blocks\/app-block\/457dc635-4337-4779-8f31-361dd27778c8",
+          "settings": {
+            "show_breadcrumbs": true,
+            "color": "#000000",
+            "horizontal_alignment": "left",
+            "fontsize": 15,
+            "breadcrumb_font": "din_next_n4",
+            "marginleft": 0,
+            "margintop": 0,
+            "marginright": 0,
+            "marginbottom": 0,
+            "show_home_link": false,
+            "home_page": "Home",
+            "home_url": "\/",
+            "all_uppercase": false,
+            "use_slider": false,
+            "article_use_tag": true,
+            "separator": "<span> › <\/span>",
+            "css_tablet": "\/* font-family: Helvetica; *\/",
+            "css_mobile": "\/* font-family: Helvetica; *\/",
+            "custom_css": "\/* font-family: Helvetica; *\/",
+            "css_last_crumb": "\/* font-weight: medium; *\/",
+            "css_hover": "\/* text-decoration-line: underline; *\/",
+            "menus": "*"
+          }
+        }
+      },
+      "block_order": [
+        "2aeb8604-77f6-4cef-ad90-435f4cc487b1"
+      ],
+      "custom_css": [],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "fac42282-a3cf-40f1-bdbb-bb3c8928f362": {
+      "type": "multi-column",
+      "blocks": {
+        "94043c81-2015-49ce-9bdb-5bd28ef8ce34": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
+        "template--19264951517488__fac42282-a3cf-40f1-bdbb-bb3c8928f362-168491219134c9bdc6-1": {
+          "type": "item",
+          "settings": {
+            "column_size": "1.5",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p><\/p>{{ page.metafields.custom.broedtekst | metafield_tag }}",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "53b0abb5-5993-4854-8c84-53da50abd7e5": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        }
+      },
+      "block_order": [
+        "94043c81-2015-49ce-9bdb-5bd28ef8ce34",
+        "template--19264951517488__fac42282-a3cf-40f1-bdbb-bb3c8928f362-168491219134c9bdc6-1",
+        "53b0abb5-5993-4854-8c84-53da50abd7e5"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "f8e637d8-53ed-44b6-9178-69e1bd53fe9d": {
+      "type": "impact-text",
+      "blocks": {
+        "262e6d4a-9d89-4939-8275-fc40ae450919": {
+          "type": "item",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "content": "<h1>Did you know that the balls we use for our bearings take more than<\/h1>",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "262e6d4a-9d89-4939-8275-fc40ae450919"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "square",
+        "impact_text_size_ratio": 0.8,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "fe8835eb-e667-42a1-9b7b-2d2df2967615": {
+      "type": "impact-text",
+      "blocks": {
+        "template--19264951517488__fe8835eb-e667-42a1-9b7b-2d2df2967615-1689246269a82b5456-0": {
+          "type": "item",
+          "settings": {
+            "title": "99%",
+            "subheading": "",
+            "content": "<h1>higher load than other ceramic balls typically seen in the market?<\/h1>",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "template--19264951517488__fe8835eb-e667-42a1-9b7b-2d2df2967615-1689246269a82b5456-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "851d804e-9107-437e-ba8c-ffbbb8f6b80d": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--19264951517488__851d804e-9107-437e-ba8c-ffbbb8f6b80d-16892490750dbd2454-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3a14a58c774fda38a01cbae5ddda58be79d9a7ab.png",
+            "media_width": 35,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 64,
+            "subheading": "",
+            "title": "Do you want to know the facts behind ceramic hybrid bearings?",
+            "content": "<p>Read this article written by our Managing director Anders Thormann, who has been within bearing business for more than 22 years.<\/p>",
+            "link_text": "Read the article here",
+            "link_url": "https:\/\/www.linkedin.com\/pulse\/facts-behind-ceramic-hybrid-bearings-electrical-motors-thormann\/?trackingId=vNcLphfMTKq4Ro22dvBLfg%3D%3D",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19264951517488__851d804e-9107-437e-ba8c-ffbbb8f6b80d-16892490750dbd2454-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "051de1f0-78a6-4a45-946a-52bf9a5a16c9": {
+      "type": "video",
+      "blocks": {
+        "template--19264951517488__051de1f0-78a6-4a45-946a-52bf9a5a16c9-1684913568843dfeaf-0": {
+          "type": "play",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "template--19264951517488__051de1f0-78a6-4a45-946a-52bf9a5a16c9-1684913568843dfeaf-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/CeramicSpeed_Electrical equipment.mp4",
+        "external_video_url": "",
+        "poster": "shopify:\/\/shop_images\/Skaermbillede_2023-05-24_kl._09.34.03.png",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "46d23284-7b78-4410-9e31-06d3a2f50d71": {
+      "type": "multi-column",
+      "blocks": {
+        "11153fb2-91c2-46cd-a224-0f399e641830": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9abd72e2f48cada80ee1e7c5dce5b3353b5aca0a.webp",
+            "column_size": "3",
+            "title": "4-8 times longer lifetime",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "11e3faf9-afd3-4de4-809d-9fd610f012b2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0d0ac81c7179ab25905cea0a0b507d9f6bf454c5.webp",
+            "column_size": "3",
+            "title": "Higher Speed Capability",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "11153fb2-91c2-46cd-a224-0f399e641830",
+        "11e3faf9-afd3-4de4-809d-9fd610f012b2"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3e7dc412-585b-499a-9f9f-d213ad19b2ae",
+    "1702288136bd4b9769",
+    "fac42282-a3cf-40f1-bdbb-bb3c8928f362",
+    "f8e637d8-53ed-44b6-9178-69e1bd53fe9d",
+    "fe8835eb-e667-42a1-9b7b-2d2df2967615",
+    "851d804e-9107-437e-ba8c-ffbbb8f6b80d",
+    "051de1f0-78a6-4a45-946a-52bf9a5a16c9",
+    "46d23284-7b78-4410-9e31-06d3a2f50d71"
+  ]
+}

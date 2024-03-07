@@ -1,0 +1,299 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "3e7dc412-585b-499a-9f9f-d213ad19b2ae": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18735408939312__3e7dc412-585b-499a-9f9f-d213ad19b2ae-168138351266b6bd17-0": {
+          "type": "image",
+          "settings": {
+            "image": "{{ page.metafields.custom.top_billede.value }}",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center-start text-start",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "",
+            "title": "{{ page.metafields.custom.sidetitel.value }}",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#fafafa",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18735408939312__3e7dc412-585b-499a-9f9f-d213ad19b2ae-168138351266b6bd17-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "lg",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "17022852079f804f90": {
+      "type": "apps",
+      "blocks": {
+        "3cbfcbae-9e73-47a9-a470-3d516f54c80c": {
+          "type": "shopify:\/\/apps\/ez-add-breadcrumbs\/blocks\/app-block\/457dc635-4337-4779-8f31-361dd27778c8",
+          "settings": {
+            "show_breadcrumbs": true,
+            "color": "#000000",
+            "horizontal_alignment": "left",
+            "fontsize": 15,
+            "breadcrumb_font": "din_next_n4",
+            "marginleft": 0,
+            "margintop": 0,
+            "marginright": 0,
+            "marginbottom": 0,
+            "show_home_link": false,
+            "home_page": "Home",
+            "home_url": "\/",
+            "all_uppercase": false,
+            "use_slider": false,
+            "article_use_tag": true,
+            "separator": "<span> › <\/span>",
+            "css_tablet": "\/* font-family: Helvetica; *\/",
+            "css_mobile": "\/* font-family: Helvetica; *\/",
+            "custom_css": "\/* font-family: Helvetica; *\/",
+            "css_last_crumb": "\/* font-weight: medium; *\/",
+            "css_hover": "\/* text-decoration-line: underline; *\/",
+            "menus": "*"
+          }
+        }
+      },
+      "block_order": [
+        "3cbfcbae-9e73-47a9-a470-3d516f54c80c"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "2411d344-c299-4a72-b10e-c244bb673217": {
+      "type": "multi-column",
+      "blocks": {
+        "template--19264571113776__2411d344-c299-4a72-b10e-c244bb673217-168490937767ec2ca1-0": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "{{ page.metafields.custom.broedtekst | metafield_tag }}",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--19264571113776__2411d344-c299-4a72-b10e-c244bb673217-168490937767ec2ca1-1": {
+          "type": "item",
+          "settings": {
+            "image": "{{ page.metafields.custom.pdf_1.value }}",
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--19264571113776__2411d344-c299-4a72-b10e-c244bb673217-168490937767ec2ca1-0",
+        "template--19264571113776__2411d344-c299-4a72-b10e-c244bb673217-168490937767ec2ca1-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "small",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "265c539d-ac53-4507-a81b-6017c4dc5258": {
+      "type": "multi-column",
+      "blocks": {
+        "template--19264571113776__265c539d-ac53-4507-a81b-6017c4dc5258-168491219134c9bdc6-2": {
+          "type": "item",
+          "settings": {
+            "image": "{{ page.metafields.custom.pdf_2.value }}",
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--19264571113776__265c539d-ac53-4507-a81b-6017c4dc5258-168491219134c9bdc6-1": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h2",
+            "content": "{{ page.metafields.custom.afsluttende_tekst | metafield_tag }}",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--19264571113776__265c539d-ac53-4507-a81b-6017c4dc5258-168491219134c9bdc6-2",
+        "template--19264571113776__265c539d-ac53-4507-a81b-6017c4dc5258-168491219134c9bdc6-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "7fab005b-9715-47f2-93b0-02991e5574b5": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--19264571113776__7fab005b-9715-47f2-93b0-02991e5574b5-1687938976b999043f-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--19264571113776__7fab005b-9715-47f2-93b0-02991e5574b5-1687938976b999043f-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "template--19264571113776__7fab005b-9715-47f2-93b0-02991e5574b5-1687938976b999043f-2": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19264571113776__7fab005b-9715-47f2-93b0-02991e5574b5-1687938976b999043f-0",
+        "template--19264571113776__7fab005b-9715-47f2-93b0-02991e5574b5-1687938976b999043f-1",
+        "template--19264571113776__7fab005b-9715-47f2-93b0-02991e5574b5-1687938976b999043f-2"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/n8G4_ERz.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "25021be0-b5f2-4a9a-bdc0-f7e3867e262f": {
+      "type": "multi-column",
+      "blocks": {
+        "0feb7c61-6852-44a6-9545-4e8827743182": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
+        "template--19264571113776__25021be0-b5f2-4a9a-bdc0-f7e3867e262f-168491219134c9bdc6-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/de019d7ccec13e937d09f35917b1634a6c089d51.webp",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "shopify:\/\/blogs\/case-stories\/premier-is-freezing-tunnel",
+            "link_text": "Read our customer case with freezing tunnels from Premier Is here",
+            "link_style": "button"
+          }
+        },
+        "template--19264571113776__25021be0-b5f2-4a9a-bdc0-f7e3867e262f-168491219134c9bdc6-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1f1eebfba3a7b11ba4b8d6a04740cb37e5085ccb.webp",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "shopify:\/\/blogs\/case-stories\/bag-welding-machine",
+            "link_text": "Read our customer case with an increase of bearing life of 44 times ",
+            "link_style": "button"
+          }
+        }
+      },
+      "block_order": [
+        "0feb7c61-6852-44a6-9545-4e8827743182",
+        "template--19264571113776__25021be0-b5f2-4a9a-bdc0-f7e3867e262f-168491219134c9bdc6-0",
+        "template--19264571113776__25021be0-b5f2-4a9a-bdc0-f7e3867e262f-168491219134c9bdc6-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3e7dc412-585b-499a-9f9f-d213ad19b2ae",
+    "17022852079f804f90",
+    "2411d344-c299-4a72-b10e-c244bb673217",
+    "265c539d-ac53-4507-a81b-6017c4dc5258",
+    "7fab005b-9715-47f2-93b0-02991e5574b5",
+    "25021be0-b5f2-4a9a-bdc0-f7e3867e262f"
+  ]
+}

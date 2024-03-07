@@ -1,0 +1,77 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "17022863996eba9f62": {
+      "type": "apps",
+      "blocks": {
+        "e57c218c-4ba8-4cab-b2d6-86620c321562": {
+          "type": "shopify:\/\/apps\/ez-add-breadcrumbs\/blocks\/app-block\/457dc635-4337-4779-8f31-361dd27778c8",
+          "settings": {
+            "show_breadcrumbs": true,
+            "color": "#000000",
+            "horizontal_alignment": "left",
+            "fontsize": 15,
+            "breadcrumb_font": "din_next_n4",
+            "marginleft": 0,
+            "margintop": 0,
+            "marginright": 0,
+            "marginbottom": 0,
+            "show_home_link": false,
+            "home_page": "Home",
+            "home_url": "\/",
+            "all_uppercase": false,
+            "use_slider": false,
+            "article_use_tag": true,
+            "separator": "<span> › <\/span>",
+            "css_tablet": "\/* font-family: Helvetica; *\/",
+            "css_mobile": "\/* font-family: Helvetica; *\/",
+            "custom_css": "\/* font-family: Helvetica; *\/",
+            "css_last_crumb": "\/* font-weight: medium; *\/",
+            "css_hover": "\/* text-decoration-line: underline; *\/",
+            "menus": "*"
+          }
+        }
+      },
+      "block_order": [
+        "e57c218c-4ba8-4cab-b2d6-86620c321562"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "136d2c6d-7597-4117-a945-0e493bcffc3f": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": true,
+        "liquid": "<!-- Start Stockist.co widget -->\n<div data-stockist-widget-tag=\"u15665\"><\/div>\n<script>\n  (function(s,t,o,c,k){c=s.createElement(t);c.src=o;c.async=1;\n  k=s.getElementsByTagName(t)[0];k.parentNode.insertBefore(c,k);\n  })(document,'script','\/\/stockist.co\/embed\/v1\/widget.min.js');\n<\/script>\n<!-- End Stockist.co widget -->",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "17022863996eba9f62",
+    "136d2c6d-7597-4117-a945-0e493bcffc3f"
+  ]
+}

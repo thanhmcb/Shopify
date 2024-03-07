@@ -1,0 +1,436 @@
+{
+  "sections": {
+    "b184a406-5dc8-43c1-8532-fd9453492c03": {
+      "type": "video",
+      "blocks": {
+        "template--18836617494832__b184a406-5dc8-43c1-8532-fd9453492c03-16892303880e1e1d3c-0": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--18836617494832__b184a406-5dc8-43c1-8532-fd9453492c03-16892303880e1e1d3c-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Why Hybrid Bearings?",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--18836617494832__b184a406-5dc8-43c1-8532-fd9453492c03-16892303880e1e1d3c-0",
+        "template--18836617494832__b184a406-5dc8-43c1-8532-fd9453492c03-16892303880e1e1d3c-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "lg",
+        "video": "shopify:\/\/files\/videos\/gravering_1.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "3e7dc412-585b-499a-9f9f-d213ad19b2ae": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18735408939312__3e7dc412-585b-499a-9f9f-d213ad19b2ae-168138351266b6bd17-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1f034c190d67a1950b724fe2e2f7db1223dd4954.webp",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center-start text-start",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "",
+            "title": "Why hybrid Bearings?",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18735408939312__3e7dc412-585b-499a-9f9f-d213ad19b2ae-168138351266b6bd17-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "md",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "e2fa2fc7-7b31-4d1a-9d9f-7b8e23ef3819": {
+      "type": "multi-column",
+      "blocks": {
+        "fb4fe049-d8e7-47f9-864e-d0f8ee9cd791": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
+        "template--18836617494832__e2fa2fc7-7b31-4d1a-9d9f-7b8e23ef3819-1689163092c9b9bc29-0": {
+          "type": "item",
+          "settings": {
+            "column_size": "1.5",
+            "title": "",
+            "heading_tag": "h1",
+            "content": "<h1>Premium Hybrid Bearings: Enhancing Performance and Reliability<\/h1><h2>What is a Hybrid Bearing?<\/h2><p>Hybrid bearings, also known as ceramic hybrid bearings, bring together stainless steel rings with rolling elements, typically made of ceramics like silicon nitride or Zirconia. This combination results in superior performance compared to traditional steel ball bearings or full ceramic bearings. A hybrid bearing is a superior quality component that can work wonders on your uptime in production.<br\/><\/p><p>The steel rings in our CeramicSpeed bearings are crafted from high carbon chromium steel 100Cr6\/ASTM52100 with Ovako steel purity Q or better, making them the optimal choice for a broad range of applications requiring top performance. And we pair the quality steel with the highest quality ceramics available to give you the most reliable bearings for maintenance of your production lines.<\/p><p>Watch the video below for an insight into how we manufacture our hybrid bearings.<\/p><p><\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--18836617494832__e2fa2fc7-7b31-4d1a-9d9f-7b8e23ef3819-1689163092c9b9bc29-2": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/Corrotec_Spin.mp4",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "fb4fe049-d8e7-47f9-864e-d0f8ee9cd791",
+        "template--18836617494832__e2fa2fc7-7b31-4d1a-9d9f-7b8e23ef3819-1689163092c9b9bc29-0",
+        "template--18836617494832__e2fa2fc7-7b31-4d1a-9d9f-7b8e23ef3819-1689163092c9b9bc29-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "f21b3b2f-59b7-4ed2-8b36-237e201cba70": {
+      "type": "video",
+      "blocks": {
+        "template--18836617494832__f21b3b2f-59b7-4ed2-8b36-237e201cba70-play-1": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--18836617494832__f21b3b2f-59b7-4ed2-8b36-237e201cba70-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--18836617494832__f21b3b2f-59b7-4ed2-8b36-237e201cba70-play-1",
+        "template--18836617494832__f21b3b2f-59b7-4ed2-8b36-237e201cba70-heading-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/CeramicSpeed_how it's made_0716de4e-d65e-4f31-a0d8-a21aaa1303b1.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "3cb1347f-e110-499e-a41b-fbc3317413f7": {
+      "type": "multi-column",
+      "blocks": {
+        "template--18836617494832__3cb1347f-e110-499e-a41b-fbc3317413f7-item-1": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h2",
+            "content": "<h2>Ceramic Balls<\/h2><p>Ceramic balls can be found in a variety of different types of ceramic materials, but the ones used for our ceramic balls are made of silicon nitride. Silicon nitride balls outperform other ceramic balls and standard steel balls, combining with high-quality bearing rings for a myriad of benefits over conventional steel bearings. <\/p>",
+            "link_url": "shopify:\/\/pages\/ceramic-balls",
+            "link_text": "Learn more",
+            "link_style": "button"
+          }
+        },
+        "8eae3059-40f6-41c5-9a5d-e4acf1f79d69": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
+        "template--18836617494832__3cb1347f-e110-499e-a41b-fbc3317413f7-item-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CeramicSpeed_Products_1630_70682aba-80db-49f2-a4c6-799bac94385c.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--18836617494832__3cb1347f-e110-499e-a41b-fbc3317413f7-item-1",
+        "8eae3059-40f6-41c5-9a5d-e4acf1f79d69",
+        "template--18836617494832__3cb1347f-e110-499e-a41b-fbc3317413f7-item-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "#000000",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "b54e210e-4265-4d9b-999d-00e1a51a8038": {
+      "type": "faq",
+      "blocks": {
+        "template--18836617494832__b54e210e-4265-4d9b-999d-00e1a51a8038-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "Reduced Friction",
+            "content": "<p>Ceramic balls are harder and smoother than steel, lowering friction between rolling elements and raceways. This reduces heat and energy loss, enhancing efficiency and influencing lubricant life positively.<\/p>"
+          }
+        },
+        "template--18836617494832__b54e210e-4265-4d9b-999d-00e1a51a8038-item-2": {
+          "type": "item",
+          "settings": {
+            "title": "Higher Speed Capability",
+            "content": "<p>Lower mass and reduced friction allow a ceramic hybrid bearing to operate at high speeds, making them ideal for applications requiring high rotational speeds, like electric motors and spindles.<\/p>"
+          }
+        },
+        "template--18836617494832__b54e210e-4265-4d9b-999d-00e1a51a8038-item-3": {
+          "type": "item",
+          "settings": {
+            "title": "Insulating Properties",
+            "content": "<p>Ceramics excel as electrical insulators, crucial in applications requiring insulation, such as electric motors and generators, preventing electrical arcing and bearing current.<\/p><p><\/p>"
+          }
+        },
+        "2e112469-4cbb-45f7-8b6b-e6c9d1befb49": {
+          "type": "item",
+          "settings": {
+            "title": "Extreme Temperature Tolerance",
+            "content": "<p>Withstanding higher temperatures, ceramic hybrid bearings find applications in environments like industrial furnaces and aerospace<\/p>"
+          }
+        },
+        "75eb0688-5496-4d6e-83c1-4602360aa7ce": {
+          "type": "item",
+          "settings": {
+            "title": "Longer Service Life and Durability",
+            "content": "<p>Hard and wear-resistant ceramic materials result in extended service life, reducing wear, pitting, and fatigue, leading to reduced maintenance.<\/p>"
+          }
+        },
+        "67fe995b-bc73-4cee-8828-16a67dcafdf3": {
+          "type": "item",
+          "settings": {
+            "title": "Reduced Lubrication Requirements",
+            "content": "<p>Lower friction and heat generation reduce the need for frequent lubrication or allow dry running in specific applications, simplifying maintenance and reducing contamination risks.<\/p>"
+          }
+        },
+        "54314a56-d25d-49ab-8ad6-f659d947d5ca": {
+          "type": "item",
+          "settings": {
+            "title": "Lightweight",
+            "content": "<p>Ceramic balls being lighter than steel contribute to an overall weight reduction in the bearing assembly, advantageous in weight-sensitive applications like aerospace.<\/p>"
+          }
+        },
+        "83053bd8-ab8b-469f-ab3b-b9586cfe794f": {
+          "type": "item",
+          "settings": {
+            "title": "Low Thermal Expansion",
+            "content": "<p>Low coefficient of thermal expansion in ceramics ensures consistency in performance across varying temperature conditions.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18836617494832__b54e210e-4265-4d9b-999d-00e1a51a8038-item-1",
+        "template--18836617494832__b54e210e-4265-4d9b-999d-00e1a51a8038-item-2",
+        "template--18836617494832__b54e210e-4265-4d9b-999d-00e1a51a8038-item-3",
+        "2e112469-4cbb-45f7-8b6b-e6c9d1befb49",
+        "75eb0688-5496-4d6e-83c1-4602360aa7ce",
+        "67fe995b-bc73-4cee-8828-16a67dcafdf3",
+        "54314a56-d25d-49ab-8ad6-f659d947d5ca",
+        "83053bd8-ab8b-469f-ab3b-b9586cfe794f"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "",
+        "content": "<h1>Ceramic Hybrid Bearings vs Steel Ball Bearings<\/h1><p>A ceramic hybrid bearing boast numerous key features compared to a conventional steel bearing:<\/p>",
+        "team_avatar_width": 180,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "5a9f442e-e930-4400-9e08-5a86ee7d50f1": {
+      "type": "multi-column",
+      "blocks": {
+        "7a4bfb52-1218-4e0c-bcc8-932c06071de7": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
+        "template--18836617494832__5a9f442e-e930-4400-9e08-5a86ee7d50f1-item-1": {
+          "type": "item",
+          "settings": {
+            "column_size": "1.5",
+            "title": "",
+            "heading_tag": "h2",
+            "content": "<h2>Advanced Hybrid Bearings for Industrial Use<\/h2><p>Ceramic hybrid ball bearings, a well-kept secret in machinery, revolutionize machine efficiency and reliability. Combining stainless steel rings with ceramic rolling elements, they offer lower friction, higher speeds, electrical insulation, and resilience in high-temperature environments, unlocking exceptional machine performance.<\/p><p>Whether in industrial settings, aerospace, or precision machinery, the undeniable benefits of ceramic hybrid ball bearings, including reduced maintenance, extended service life, and wear resistance, make them indispensable for optimal machinery performance.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--18836617494832__5a9f442e-e930-4400-9e08-5a86ee7d50f1-item-3": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "7a4bfb52-1218-4e0c-bcc8-932c06071de7",
+        "template--18836617494832__5a9f442e-e930-4400-9e08-5a86ee7d50f1-item-1",
+        "template--18836617494832__5a9f442e-e930-4400-9e08-5a86ee7d50f1-item-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "46d23284-7b78-4410-9e31-06d3a2f50d71": {
+      "type": "multi-column",
+      "blocks": {
+        "11153fb2-91c2-46cd-a224-0f399e641830": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9abd72e2f48cada80ee1e7c5dce5b3353b5aca0a.webp",
+            "column_size": "3",
+            "title": "4-8 times longer lifetime",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "11e3faf9-afd3-4de4-809d-9fd610f012b2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0d0ac81c7179ab25905cea0a0b507d9f6bf454c5.webp",
+            "column_size": "3",
+            "title": "Higher Speed Capability",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "11153fb2-91c2-46cd-a224-0f399e641830",
+        "11e3faf9-afd3-4de4-809d-9fd610f012b2"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "94a7ddcf-5343-499e-ac23-314aab79c077": {
+      "type": "revealed-image-on-scroll",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/box-ceramic-balls.jpg",
+        "subheading": "",
+        "title": "",
+        "background": "",
+        "text_color_inside": "#ffffff",
+        "text_color_outside": "#000000"
+      }
+    }
+  },
+  "order": [
+    "b184a406-5dc8-43c1-8532-fd9453492c03",
+    "main",
+    "3e7dc412-585b-499a-9f9f-d213ad19b2ae",
+    "e2fa2fc7-7b31-4d1a-9d9f-7b8e23ef3819",
+    "f21b3b2f-59b7-4ed2-8b36-237e201cba70",
+    "3cb1347f-e110-499e-a41b-fbc3317413f7",
+    "b54e210e-4265-4d9b-999d-00e1a51a8038",
+    "5a9f442e-e930-4400-9e08-5a86ee7d50f1",
+    "46d23284-7b78-4410-9e31-06d3a2f50d71",
+    "94a7ddcf-5343-499e-ac23-314aab79c077"
+  ]
+}

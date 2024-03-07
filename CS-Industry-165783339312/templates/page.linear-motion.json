@@ -1,0 +1,408 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "3e7dc412-585b-499a-9f9f-d213ad19b2ae": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18735408939312__3e7dc412-585b-499a-9f9f-d213ad19b2ae-168138351266b6bd17-0": {
+          "type": "image",
+          "settings": {
+            "image": "{{ page.metafields.custom.top_billede.value }}",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center-start text-start",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "",
+            "title": "{{ page.metafields.custom.sidetitel.value }}",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#000000",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "#dddddd",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18735408939312__3e7dc412-585b-499a-9f9f-d213ad19b2ae-168138351266b6bd17-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "image_size": "md",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "1702286739fca28525": {
+      "type": "apps",
+      "blocks": {
+        "d3e5c582-0c70-4ac9-8ef3-23710be7d7f0": {
+          "type": "shopify:\/\/apps\/ez-add-breadcrumbs\/blocks\/app-block\/457dc635-4337-4779-8f31-361dd27778c8",
+          "settings": {
+            "show_breadcrumbs": true,
+            "color": "#000000",
+            "horizontal_alignment": "left",
+            "fontsize": 15,
+            "breadcrumb_font": "din_next_n4",
+            "marginleft": 0,
+            "margintop": 0,
+            "marginright": 0,
+            "marginbottom": 0,
+            "show_home_link": false,
+            "show_last_crumb": true,
+            "home_page": "Home",
+            "home_url": "\/",
+            "all_uppercase": false,
+            "use_slider": false,
+            "article_use_tag": true,
+            "separator": "<span> › <\/span>",
+            "css_tablet": "\/* font-family: Helvetica; *\/",
+            "css_mobile": "\/* font-family: Helvetica; *\/",
+            "custom_css": "\/* font-family: Helvetica; *\/",
+            "css_last_crumb": "\/* font-weight: medium; *\/",
+            "css_hover": "\/* text-decoration-line: underline; *\/",
+            "menus": "*"
+          }
+        }
+      },
+      "block_order": [
+        "d3e5c582-0c70-4ac9-8ef3-23710be7d7f0"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "5f80f12e-daff-445d-a95e-f23ddd77a712": {
+      "type": "multi-column",
+      "blocks": {
+        "spacer_VReYfk": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
+        "template--19281752129840__5f80f12e-daff-445d-a95e-f23ddd77a712-1685008256f737c794-1": {
+          "type": "item",
+          "settings": {
+            "column_size": "1.5",
+            "title": "Elevating Operational Reliability: CeramicSpeed's Advanced Solutions for Prolonged Bearing Life in Linear Motion Systems",
+            "heading_tag": "h1",
+            "content": "<p>Linear motion components play a pivotal role in the seamless functioning of automated processes across diverse industries. Comprising elements like rails, carriages, ball screws, and ball bushings, these components form the backbone of precision-driven machinery. The significance of these components is underscored by the fact that any maintenance or repair not only halts the affected component but often necessitates a complete shutdown of the entire process, emphasizing the critical role they play in operational continuity.<\/p><p>Recognizing the paramount importance of these components, CeramicSpeed offers an advanced solution to elevate their performance and bearing life. Through the incorporation of the same cutting-edge coatings and high-quality ceramic balls utilized in our hybrid ball bearings, these upgrades are tailored to enhance the reliability and efficiency of linear motion systems. The advantages of such enhancements extend beyond mere component durability; they contribute to a more robust and resilient overall system.<\/p><p>One notable benefit of these upgrades is the potential for a significantly longer bearing life. By leveraging the durability and wear-resistant properties of ceramic materials, the linear motion components can withstand the rigors of continuous operation, minimizing the frequency of maintenance shutdowns. This not only improves the overall efficiency of the machinery but also reduces downtime and associated costs.<\/p><p>Moreover, the introduction of CeramicSpeed's coatings and ceramic balls imparts enhanced resistance against corrosion. In environments where exposure to moisture is inevitable, the upgraded components prove resilient, ensuring sustained performance even in challenging conditions. This resistance to corrosion is a critical factor in industries where environmental factors can pose a threat to the bearing life of conventional linear motion components.<\/p><p>Additionally, the upgrades contribute to prolonged service life in contaminated environments. The incorporation of ceramic materials minimizes the impact of particles and contaminants, offering a solution for industries where dust, dirt, or other pollutants are prevalent. This increased resilience translates to a more reliable and consistent performance, reducing the need for frequent replacements or repairs.<\/p><p>In essence, CeramicSpeed's offering not only provides a solution to the common challenges associated with linear motion components but also presents a customizable approach. Tailored to individual conditions, these upgrades ensure that industries can benefit from prolonged bearing life, heightened resistance to corrosion, and sustained efficiency, even in demanding and contaminant-laden environments.<\/p>",
+            "link_url": "{{ page.url }}",
+            "link_text": "",
+            "link_style": "button"
+          }
+        },
+        "02e36f4d-5de8-4a7f-9dc9-964f3881cf21": {
+          "type": "item",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/Opgradering_liniar.mp4",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "spacer_VReYfk",
+        "template--19281752129840__5f80f12e-daff-445d-a95e-f23ddd77a712-1685008256f737c794-1",
+        "02e36f4d-5de8-4a7f-9dc9-964f3881cf21"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "31699319-219c-401e-bc9c-ad6e9b7807a9": {
+      "type": "multi-column",
+      "blocks": {
+        "b5c9e87a-5f6a-4639-a749-d7352a35d1d2": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "{{ page.metafields.custom.accordion_broedtekst_2 | metafield_tag }}",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "8561a7da-c861-4a5a-8bef-fa8cdc449758": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "{{ page.metafields.custom.afsluttende_tekst | metafield_tag }}",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "b5c9e87a-5f6a-4639-a749-d7352a35d1d2",
+        "8561a7da-c861-4a5a-8bef-fa8cdc449758"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "46d23284-7b78-4410-9e31-06d3a2f50d71": {
+      "type": "multi-column",
+      "blocks": {
+        "11153fb2-91c2-46cd-a224-0f399e641830": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9abd72e2f48cada80ee1e7c5dce5b3353b5aca0a.webp",
+            "column_size": "3",
+            "title": "4-8 times longer lifetime",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "11e3faf9-afd3-4de4-809d-9fd610f012b2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0d0ac81c7179ab25905cea0a0b507d9f6bf454c5.webp",
+            "column_size": "3",
+            "title": "Higher Speed Capability",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "ee7b8634-6244-4f32-9386-6a3aedd74e07": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "11153fb2-91c2-46cd-a224-0f399e641830",
+        "11e3faf9-afd3-4de4-809d-9fd610f012b2",
+        "ee7b8634-6244-4f32-9386-6a3aedd74e07"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "7647fb8a-7d5c-4149-8a81-524827856e62": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "template--18735408939312__7647fb8a-7d5c-4149-8a81-524827856e62-1681386433e228e7ce-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Premier_is_freezing_tunnel.png",
+            "image_rotation_degrees": -5,
+            "subheading": "",
+            "title": "",
+            "content": "<p>The lifetime of a CeramicSpeed Bearing is 4-8 times longer than a traditional bearing. One of our customers “Premier Is” has achieved an increase of more than 4 times in bearing life, while also reducing downtime and operational costs just by a simple switch to CeramicSpeed Hybrid Bearings. By replacing standard bearings with CeramicSpeed Hybrid Bearings the company also decreased their unplanned production shutdowns remarkably. Read the entire customer case <a href=\"https:\/\/www.ceramicspeed.com\/media\/5651\/case_xterme_premier-is_en.pdf\" target=\"_blank\" title=\"Case Xterme Premier Is EN\">here. <\/a><\/p><p>Labor and other costs associated with replacing worn-out bearings often exceed the price of the actual bearing several times over. Multiply these costs 4-8 times, and you can calculate the potential for reducing costs by replacing traditional bearings with CeramicSpeed Bearings. <\/p><p>Are you curious about how much you can save on your maintenance cost by replacing standard bearings? Contact us <a href=\"https:\/\/www.ceramicspeed.com\/en\/industry\/contact-industry\/\" target=\"_blank\" title=\"Contact Industry\">here<\/a> and let us help you.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18735408939312__7647fb8a-7d5c-4149-8a81-524827856e62-1681386433e228e7ce-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "57fab6c5-0c8a-45de-88ab-6467fc2b0b90": {
+      "type": "media-grid",
+      "blocks": {
+        "template--19294462214448__57fab6c5-0c8a-45de-88ab-6467fc2b0b90-1685082828275319b9-0": {
+          "type": "image",
+          "settings": {
+            "image": "{{ page.metafields.custom.pdf_1.value }}",
+            "title": "Linear Carriages",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 16
+          }
+        },
+        "2e3b52e7-0301-48c3-849f-50ae080e212a": {
+          "type": "image",
+          "settings": {
+            "image": "{{ page.metafields.custom.pdf_2.value }}",
+            "title": "Linear Rails",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 16
+          }
+        },
+        "03e406de-622d-497a-a3e3-3341ed8aeb19": {
+          "type": "image",
+          "settings": {
+            "image": "{{ page.metafields.custom.pdf_3.value }}",
+            "title": "Ball Screws",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 16
+          }
+        },
+        "0aca14e3-02af-4c41-aa5b-8fb089898acc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5d49fbcb1ea64e590e17193df57c848e8eddaac2.png",
+            "title": "Linear Bearings",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 16
+          }
+        }
+      },
+      "block_order": [
+        "template--19294462214448__57fab6c5-0c8a-45de-88ab-6467fc2b0b90-1685082828275319b9-0",
+        "2e3b52e7-0301-48c3-849f-50ae080e212a",
+        "03e406de-622d-497a-a3e3-3341ed8aeb19",
+        "0aca14e3-02af-4c41-aa5b-8fb089898acc"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3e7dc412-585b-499a-9f9f-d213ad19b2ae",
+    "1702286739fca28525",
+    "5f80f12e-daff-445d-a95e-f23ddd77a712",
+    "31699319-219c-401e-bc9c-ad6e9b7807a9",
+    "46d23284-7b78-4410-9e31-06d3a2f50d71",
+    "7647fb8a-7d5c-4149-8a81-524827856e62",
+    "57fab6c5-0c8a-45de-88ab-6467fc2b0b90"
+  ]
+}

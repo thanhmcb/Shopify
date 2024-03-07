@@ -1,0 +1,172 @@
+
+<product-contact-drawer
+  {% if request.design_mode %}handle-section-events{% endif %}
+  class="drawer custom-drawer"
+  id="product-contact-drawer">
+  <div class="custom-drawer__top">
+    <div class="h5">{{ section.settings.drawer-heading }}</div>
+    <button
+      type="button"
+      is="close-button"
+      class="drawer__close-icon">
+      {%- render 'icon' with 'close' -%}
+    </button>
+
+  </div>
+
+  <div class="custom-drawer__content">
+    <div {% render 'surface',  class: 'contact-form' %}>
+    {%- capture contact_form_id -%}contact-form-{{ section.id }}{%- endcapture -%}
+      {%- assign field_product = 'contact.form.product' | t -%}
+    {%- form 'contact', id: contact_form_id, class: 'form' -%}
+          <div class="fieldset">
+            {%- if form.posted_successfully? -%}
+              {%- capture content -%}{{- 'contact.form.success_message' | t -}}{%- endcapture -%}
+              {%- render 'banner', status: 'success', content: content -%}
+            {%- endif -%}
+
+            {%- if form.errors -%}
+              {%- capture content -%}{{ form.errors.translated_fields[form.errors.first] | capitalize }} {{ form.errors.messages[form.errors.first] }}{%- endcapture -%}
+              {%- render 'banner', status: 'error', content: content -%}
+            {%- endif -%}
+
+            
+
+            {%- for block in section.blocks -%}
+              {%- assign field_title = block.settings.title -%}
+
+              {%- if field_title == blank -%}
+                {%- capture field_title -%}Custom field {% increment custom_field %}{%- endcapture -%}
+              {%- endif -%}
+
+              {%- capture name -%}contact[{{ field_title | escape }}]{%- endcapture -%}
+
+              {%- if block.type == 'text' -%}
+                {%- if block.settings.use_long_text -%}
+                  {%- render 'input', name: name, label: block.settings.title, required: block.settings.required, multiline: 4, block: block -%}
+                {%- else -%}
+                  {%- render 'input', type: 'text', name: name, label: block.settings.title, required: block.settings.required, block: block -%}
+                {%- endif -%}
+              {%- elsif block.type == 'dropdown' and block.settings.values != blank -%}
+                {%- assign values = block.settings.values | split: ',' -%}
+
+                {%- capture options -%}
+                  <option value="" disabled selected></option>
+                  {%- for value in values -%}
+                    <option value="{{ value | strip | escape }}">{{ value | strip | escape }}</option>
+                  {%- endfor -%}
+                {%- endcapture -%}
+
+                {%- render 'select', options: options, name: name, label: block.settings.title, required: true, block: block -%}
+                  {%- elsif block.type == 'name-email' -%}
+                <div class="input-row">
+                    {%- capture label -%}{{ 'contact.form.name' | t }}{%- endcapture -%}
+                    {%- render 'input', type: 'text', name: 'contact[name]', label: label, value: customer.name, required: true, autocomplete: 'name' -%}
+      
+                    {%- capture label -%}{{ 'contact.form.email' | t }}{%- endcapture -%}
+                    {%- render 'input', type: 'email', name: 'contact[email]', label: label, value: customer.email, required: true, autocomplete: 'email' -%}
+                  </div>
+                {%- elsif block.type == 'box-with-link' -%}
+                 {{ block.settings.upload_title }}
+                
+             {%- capture label -%}{{ 'contact.form.file_upload' | t }}{%- endcapture -%}                
+          {%- render 'input', type: 'url', name: 'contact[file_upload]', label: label, value: customer.file_upload,  autocomplete: 'link' -%}
+                
+                {%- elsif block.type == 'message' -%}
+                  {%- capture label -%}{{ 'contact.form.message' | t }}{%- endcapture -%}
+            {%- render 'input', name: 'contact[body]', label: label, multiline: 4, required: true -%}
+              {%- endif -%}
+            {%- endfor -%}
+
+           
+          
+          
+ <div class="custom-form__block" style="display: none;">
+          <label for="ContactFormProduct" class="visually-hidden">{{ field_product }}</label>
+          <div class="product-url" >{{ shop.secure_url }}{{ product.url }}</div>
+           <input type="text" class="ContactFormProduct field" name="contact[product]" placeholder="{{ field_product }}" autocapitalize="words" value="{{ shop.secure_url }}{{ product.url }}">
+        </div>
+            
+          </div>
+      
+
+          <div>
+            {%- capture button_content -%}{{ 'contact.form.submit' | t }}{%- endcapture -%}
+            {%- render 'button', content: button_content, type: 'submit', size: 'xl', background: section.settings.button_background, text_color: section.settings.button_text_color -%}
+          </div>
+        {%- endform -%}
+  </div>
+
+  
+  </div>
+</product-contact-drawer>
+
+{% schema %}
+{
+  "name": "Product contact drawer",
+  
+
+  "blocks": [
+    {
+      "type": "text",
+      "name": "Text field",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Name",
+          "default": "Custom field"
+        },
+        {
+          "type": "checkbox",
+          "id": "use_long_text",
+          "label": "Use long text",
+          "default": false
+        }
+      ]
+    },
+    {
+        "type": "name-email",
+        "name": "Name and email",
+        "limit": 1
+      },
+    {
+        "type": "box-with-link",
+        "name": "Box with link",
+        "limit": 1,
+      "settings": [
+        {
+          "type": "liquid",
+          "id": "upload_title",
+          "label": "Location to up link"
+        }
+      ]
+      },
+     {
+        "type": "message",
+        "name": "Message",
+        "limit": 1
+      },
+    {
+      "type": "dropdown",
+      "name": "Dropdown",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Name",
+          "default": "Custom field"
+        },
+        {
+          "type": "text",
+          "id": "values",
+          "label": "Values",
+          "info": "Separate each value by a comma.",
+          "default": "value 1, value 2, value 3"
+        }
+      ]
+    }
+  ]
+  
+}
+{% endschema %}

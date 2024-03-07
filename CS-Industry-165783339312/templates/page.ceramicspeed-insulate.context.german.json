@@ -1,0 +1,7 @@
+{
+  "parent": "page.ceramicspeed-insulate.json",
+  "context": {
+    "market": "german"
+  },
+  "sections": {}
+}

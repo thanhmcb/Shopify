@@ -1,0 +1,385 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "3e7dc412-585b-499a-9f9f-d213ad19b2ae": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18735408939312__3e7dc412-585b-499a-9f9f-d213ad19b2ae-168138351266b6bd17-0": {
+          "type": "image",
+          "settings": {
+            "image": "{{ page.metafields.custom.top_billede.value }}",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center-start text-start",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "",
+            "title": "Stainless steel bearing rings",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#fafafa",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 25,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18735408939312__3e7dc412-585b-499a-9f9f-d213ad19b2ae-168138351266b6bd17-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "lg",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "17022853957154cf5f": {
+      "type": "apps",
+      "blocks": {
+        "b48e8d29-4f6b-4ee8-84dc-4059c2ae531d": {
+          "type": "shopify:\/\/apps\/ez-add-breadcrumbs\/blocks\/app-block\/457dc635-4337-4779-8f31-361dd27778c8",
+          "settings": {
+            "show_breadcrumbs": true,
+            "color": "#000000",
+            "horizontal_alignment": "left",
+            "fontsize": 15,
+            "breadcrumb_font": "din_next_n4",
+            "marginleft": 0,
+            "margintop": 0,
+            "marginright": 0,
+            "marginbottom": 0,
+            "show_home_link": false,
+            "home_page": "Home",
+            "home_url": "\/",
+            "all_uppercase": false,
+            "use_slider": false,
+            "article_use_tag": true,
+            "separator": "<span> › <\/span>",
+            "css_tablet": "\/* font-family: Helvetica; *\/",
+            "css_mobile": "\/* font-family: Helvetica; *\/",
+            "custom_css": "\/* font-family: Helvetica; *\/",
+            "css_last_crumb": "\/* font-weight: medium; *\/",
+            "css_hover": "\/* text-decoration-line: underline; *\/",
+            "menus": "*"
+          }
+        }
+      },
+      "block_order": [
+        "b48e8d29-4f6b-4ee8-84dc-4059c2ae531d"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "2411d344-c299-4a72-b10e-c244bb673217": {
+      "type": "multi-column",
+      "blocks": {
+        "1d21aba8-8af4-46ed-b4f2-11dd342228ea": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
+        "template--19264571113776__2411d344-c299-4a72-b10e-c244bb673217-168490937767ec2ca1-0": {
+          "type": "item",
+          "settings": {
+            "column_size": "1.5",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "{{ page.metafields.custom.broedtekst | metafield_tag }}",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "b13ef2e8-eccd-454b-bff7-681932e20bf0": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        }
+      },
+      "block_order": [
+        "1d21aba8-8af4-46ed-b4f2-11dd342228ea",
+        "template--19264571113776__2411d344-c299-4a72-b10e-c244bb673217-168490937767ec2ca1-0",
+        "b13ef2e8-eccd-454b-bff7-681932e20bf0"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "small",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "25021be0-b5f2-4a9a-bdc0-f7e3867e262f": {
+      "type": "multi-column",
+      "blocks": {
+        "0feb7c61-6852-44a6-9545-4e8827743182": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
+        "template--19264571113776__25021be0-b5f2-4a9a-bdc0-f7e3867e262f-168491219134c9bdc6-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/de019d7ccec13e937d09f35917b1634a6c089d51.webp",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0744\/8671\/0576\/files\/case_xterme_premier-is_en.pdf?v=1684911217",
+            "link_text": "Read our customer case from Premier Is here",
+            "link_style": "button"
+          }
+        },
+        "template--19264571113776__25021be0-b5f2-4a9a-bdc0-f7e3867e262f-168491219134c9bdc6-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1f1eebfba3a7b11ba4b8d6a04740cb37e5085ccb.webp",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0744\/8671\/0576\/files\/case_xtreme_bag-welder_en.pdf?v=1684912959",
+            "link_text": "Read our customer case with an increase of bearing life of 44 times ",
+            "link_style": "button"
+          }
+        }
+      },
+      "block_order": [
+        "0feb7c61-6852-44a6-9545-4e8827743182",
+        "template--19264571113776__25021be0-b5f2-4a9a-bdc0-f7e3867e262f-168491219134c9bdc6-0",
+        "template--19264571113776__25021be0-b5f2-4a9a-bdc0-f7e3867e262f-168491219134c9bdc6-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_GzTGCB": {
+      "type": "multi-column",
+      "blocks": {
+        "spacer_KALr3V": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
+        "item_LehYp9": {
+          "type": "item",
+          "settings": {
+            "column_size": "1.5",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<h2>Elevating Performance with CeramicSpeed's Stainless Steel Bearings<\/h2><p>At CeramicSpeed, we take pride in pushing the boundaries of innovation to deliver high-performance solutions, and at the core of our cutting-edge ceramic hybrid bearings lie the crucial components—our rust-resistant stainless steel rings. These stainless steel bearings play a pivotal role in defining the unrivaled performance and extended lifespan of CeramicSpeed's bearings.<\/p><h3>Material Excellence:<\/h3><p>Our standard steel rings are meticulously crafted from high carbon chromium steel, specifically 100Cr6\/ASTM52100 with Ovako steel purity Q or better. This globally recognized standard for bearing steel ensures that our hybrid ball bearings strike the perfect balance between surface hardness and core toughness. The 100Cr6 steel, when appropriately hardened, guarantees optimal bearing performance, providing higher resistance while maintaining a smooth and efficient operation.<\/p><h3>Xtreme and Insulate Bearings:<\/h3><p>The steel rings utilized in our <a href=\"https:\/\/industry.ceramicspeed.com\/pages\/xtreme\" target=\"_blank\">Xtreme<\/a> and <a href=\"https:\/\/industry.ceramicspeed.com\/pages\/ceramic-speed-insulate\" target=\"_blank\">Insulate<\/a> bearings are exclusively made from 100Cr6 (Nr. 1.3505). This alloy stands as the universally accepted standard bearing steel, celebrated for its exceptional properties when properly hardened. The optimal combination of surface hardness and core toughness, coupled with superior machinability, allows us to create raceways with super smooth surfaces, contributing to the quiet and enduring operation of CeramicSpeed's stainless steel ball bearings.<\/p><h2>Corrosion-Resistant and Heat-Stable Series:<\/h2><p>To address the challenges posed by corrosive environments and high temperatures, CeramicSpeed proudly presents a specialized series of hybrid ball bearings crafted from AISI 440C or AISI420 stainless steels. These materials surpass the 100Cr6 in corrosion resistance, offering a valuable compromise between wear resistance and survival in wet or chemically contaminated surroundings.<\/p><ol><li><strong>AISI 440C Stainless Steel Ball Bearings:<\/strong>Our use of AISI 440C stainless steel in certain bearing series ensures exceptional corrosion resistance. This material excels at withstanding chemical challenges, making it the ideal choice for applications where stainless steel ball bearings may come into contact with corrosive substances. This series is engineered to deliver enduring performance in demanding environments where bearing longevity is paramount.<\/li><li><strong>AISI420 Stainless Steel Ball Bearings:<\/strong>The inclusion of AISI420 stainless steel in our bearing repertoire underscores our commitment to versatility. This material strikes the perfect balance between wear resistance and suitability for use in environments with food contact approval. Our AISI420 stainless steel ball bearings are engineered to provide reliable performance in challenging conditions while adhering to stringent safety standards.<\/li><\/ol><p><\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "spacer_KALr3V",
+        "item_LehYp9"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "9f5bb9eb-a879-48ef-ad9d-8d3a6c2e0397": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--19265765441840__9f5bb9eb-a879-48ef-ad9d-8d3a6c2e0397-1687940134b60da42e-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--19265765441840__9f5bb9eb-a879-48ef-ad9d-8d3a6c2e0397-1687940134b60da42e-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "template--19265765441840__9f5bb9eb-a879-48ef-ad9d-8d3a6c2e0397-1687940134b60da42e-2": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19265765441840__9f5bb9eb-a879-48ef-ad9d-8d3a6c2e0397-1687940134b60da42e-0",
+        "template--19265765441840__9f5bb9eb-a879-48ef-ad9d-8d3a6c2e0397-1687940134b60da42e-1",
+        "template--19265765441840__9f5bb9eb-a879-48ef-ad9d-8d3a6c2e0397-1687940134b60da42e-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "{{ page.metafields.custom.pdf_1.value }}",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "cc4686ae-fa65-4585-879f-687bd89bd6f8": {
+      "type": "custom-html",
+      "custom_css": [
+        "table td {border: 1px solid rgb(var(--border-color)); padding: 20px 10px; padding-left: 20px;"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<table class=\"ccpops-table\" style=\"border-collapse: collapse; width: 100.096%; height: 436.348px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 25.0391px;\">\n<td style=\"height: 25.0391px; text-align: center; width: 100.551%; background-color: #000000; border-color: #ffffff;\" colspan=\"6\"><span style=\"color: #ffffff;\"><span style=\"font-size: 18px;\"><strong><span style=\"font-family: arial, helvetica, sans-serif;\">Bearing Group<\/span><\/strong><\/span><span style=\"font-size: 18px;\"><strong><span style=\"font-family: arial, helvetica, sans-serif;\"><br><\/span><\/strong><\/span><\/span><\/td>\n<\/tr>\n<tr style=\"height: 50.0781px;\">\n<td style=\"width: 16.7584%; height: 50.0781px; background-color: #000000; border-color: #ffffff;\"><span style=\"color: #ffffff;\"><strong><span style=\"font-family: arial, helvetica, sans-serif; font-size: 18px;\">Steel<\/span><\/strong><\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 50.0781px; background-color: #000000; border-color: #ffffff;\"><span style=\"font-size: 16px; color: #ffffff;\"><strong><span style=\"font-family: arial, helvetica, sans-serif;\">Unit<\/span><\/strong><\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 50.0781px; background-color: #000000; border-color: #ffffff;\">\n<span style=\"font-size: 16px; color: #ffffff;\"><strong><span style=\"font-family: arial, helvetica, sans-serif;\">Insulate<\/span><\/strong><\/span><br><span style=\"font-size: 16px; color: #ffffff;\"><strong><span style=\"font-family: arial, helvetica, sans-serif;\">Xtreme<\/span><\/strong><\/span>\n<\/td>\n<td style=\"text-align: center; height: 50.0781px; width: 50.2753%; background-color: #000000; border-color: #ffffff;\" colspan=\"3\"><span style=\"font-size: 16px; color: #ffffff;\"><strong><span style=\"font-family: arial, helvetica, sans-serif;\">Corrotec<\/span><\/strong><\/span><\/td>\n<\/tr>\n<tr style=\"height: 47.5781px;\">\n<td style=\"width: 16.7584%; height: 47.5781px; border-color: #000000;\"><span style=\"font-family: arial, helvetica, sans-serif;\">SAE\/AISI<\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 47.5781px; border-color: #000000;\"> <\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 47.5781px; border-color: #000000;\">52100<\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 47.5781px; border-color: #000000;\">420<\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 47.5781px; border-color: #000000;\">440C<\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 47.5781px; border-color: #000000;\">(AMS) 5898<\/td>\n<\/tr>\n<tr style=\"height: 71.3672px;\">\n<td style=\"width: 16.7584%; height: 71.3672px; border-color: #000000;\"><span style=\"font-family: arial, helvetica, sans-serif;\">DIN<\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 71.3672px; border-color: #000000;\"> <\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 71.3672px; border-color: #000000;\">1.3505<\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 71.3672px; border-color: #000000;\">1.4021<\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 71.3672px; border-color: #000000;\">1.4125<\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 71.3672px; border-color: #000000;\">X1 02CrMo17<br>1.4125<\/td>\n<\/tr>\n<tr style=\"height: 25.0391px;\">\n<td style=\"height: 25.0391px; width: 100.551%; border-color: #000000; background-color: #000000; text-align: center;\" colspan=\"6\">\n<span style=\"font-size: 18px; color: #ffffff;\"><strong><span style=\"font-family: arial, helvetica, sans-serif;\">Properties<\/span><\/strong><\/span><span style=\"font-size: 18px;\"><strong><span style=\"font-family: arial, helvetica, sans-serif; color: #00d2e6;\"><br><\/span><\/strong><\/span>\n<\/td>\n<\/tr>\n<tr style=\"height: 36.8945px;\">\n<td style=\"width: 16.7584%; height: 36.8945px; border-color: #000000;\"><span style=\"font-family: arial, helvetica, sans-serif;\">Density<\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 36.8945px; border-color: #000000;\">[g\/cm3]<\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 36.8945px; border-color: #000000;\">7.81<\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 36.8945px; border-color: #000000;\">7.7<\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 36.8945px; border-color: #000000;\">7.7<\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 36.8945px; border-color: #000000;\"> <\/td>\n<\/tr>\n<tr style=\"height: 61.4062px;\">\n<td style=\"width: 16.7584%; height: 61.4062px; border-color: #000000;\"><span style=\"font-family: arial, helvetica, sans-serif;\">Hardness<\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 61.4062px; border-color: #000000;\">[HRC]<\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 61.4062px; border-color: #000000;\">&gt;60<\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 61.4062px; border-color: #000000;\">&gt;55<\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 61.4062px; border-color: #000000;\">&gt;58<\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 61.4062px; border-color: #000000;\">&gt;58<\/td>\n<\/tr>\n<tr style=\"height: 23.7891px;\">\n<td style=\"width: 16.7584%; height: 23.7891px; border-color: #000000;\"><span style=\"font-family: arial, helvetica, sans-serif;\">E-modulus<\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 23.7891px; border-color: #000000;\">[GPa]<\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 23.7891px; border-color: #000000;\">212<\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 23.7891px; border-color: #000000;\">190<\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 23.7891px; border-color: #000000;\">200<\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 23.7891px; border-color: #000000;\">223<\/td>\n<\/tr>\n<tr style=\"height: 47.5781px;\">\n<td style=\"width: 16.7584%; height: 47.5781px; border-color: #000000;\"><span style=\"font-family: arial, helvetica, sans-serif;\">Expansion Coefficient<\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 47.5781px; border-color: #000000;\">[x 10-6 \/K]<\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 47.5781px; border-color: #000000;\">11<\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 47.5781px; border-color: #000000;\">10.3<\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 47.5781px; border-color: #000000;\">10.2<\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 47.5781px; border-color: #000000;\">10.4<\/td>\n<\/tr>\n<tr style=\"height: 47.5781px;\">\n<td style=\"width: 16.7584%; height: 47.5781px; border-color: #000000;\"><span style=\"font-family: arial, helvetica, sans-serif;\">Corrosion resistance<\/span><\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 47.5781px; border-color: #000000;\">[-]<\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 47.5781px; border-color: #000000;\">Limites<\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 47.5781px; border-color: #000000;\">Good<\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 47.5781px; border-color: #000000;\">Good<\/td>\n<td style=\"width: 16.7584%; text-align: center; height: 47.5781px; border-color: #000000;\">Very Good<\/td>\n<\/tr>\n<\/tbody>\n<\/table>\n<p> <\/p>",
+        "background": "#fafafa",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    },
+    "accordion_content_riznLa": {
+      "type": "accordion-content",
+      "blocks": {
+        "item_MiJrtp": {
+          "type": "item",
+          "settings": {
+            "title": "Chemical Resistance",
+            "content": "<p>Our stainless steel bearings offer superior corrosion resistance compared to traditional 100Cr6 steel. This property ensures that our bearings can thrive in harsh, corrosive environments without compromising performance or longevity.<\/p>"
+          }
+        },
+        "item_MfU7D3": {
+          "type": "item",
+          "settings": {
+            "title": "Environmental Adaptability",
+            "content": "<p>Stainless steel's resistance to corrosion and heat stability makes it the perfect choice for applications where our bearings are exposed to extreme conditions. Whether it's higher temperatures, wet environments, or chemically contaminated settings, CeramicSpeed's stainless steel bearings excel in adapting to diverse operating conditions.<\/p>"
+          }
+        },
+        "item_fadBdb": {
+          "type": "item",
+          "settings": {
+            "title": "Food Contact Approval",
+            "content": "<p>The use of AISI420 stainless steel in certain bearings aligns with the strict requirements for food contact approval. This makes our stainless steel ball bearings suitable for applications where hygiene and safety are paramount, such as in the food and beverage industry<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_MiJrtp",
+        "item_MfU7D3",
+        "item_fadBdb"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Benefits of Stainless Steel Rings",
+        "content": "<p>CeramicSpeed's stainless steel bearings are manufactured to the highest standards, ensuring maximum performance and customer satisfaction. Our bearings are widely used in various industrial equipment, offering superior performance in metric sizes. Each bearing is filled with high-quality lubricant, and our bearings are supplied with or without grease, depending on customer requirements. The industrial-grade stainless steel housing further enhances the bearings' life and reliability. Additionally, our stainless steel ball bearings are suitable for high-speed applications, providing efficient performance even at elevated speeds. Please note that proper maintenance and lubrication are required to achieve optimal performance and extend the life of the bearings. For specific applications, please consult our customer service for expert advice.<\/p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "video_agCGAA": {
+      "type": "video",
+      "blocks": {
+        "play_8tce76": {
+          "type": "play",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "play_8tce76"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/CeramicSpeed_how it's made.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3e7dc412-585b-499a-9f9f-d213ad19b2ae",
+    "17022853957154cf5f",
+    "2411d344-c299-4a72-b10e-c244bb673217",
+    "25021be0-b5f2-4a9a-bdc0-f7e3867e262f",
+    "multi_column_GzTGCB",
+    "9f5bb9eb-a879-48ef-ad9d-8d3a6c2e0397",
+    "cc4686ae-fa65-4585-879f-687bd89bd6f8",
+    "accordion_content_riznLa",
+    "video_agCGAA"
+  ]
+}

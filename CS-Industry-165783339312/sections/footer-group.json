@@ -1,0 +1,251 @@
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "514fc11e-e725-4c05-ac30-7aa204a22057": {
+      "type": "rich-text",
+      "blocks": {
+        "sections--18836617265456__514fc11e-e725-4c05-ac30-7aa204a22057-16871590796cf07d26-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Why Hybrid Bearings?",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "sections--18836617265456__514fc11e-e725-4c05-ac30-7aa204a22057-16871590796cf07d26-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "2872755d-498a-4b2d-a060-9dd358d62c9c": {
+      "type": "media-grid",
+      "blocks": {
+        "sections--18836617265456__2872755d-498a-4b2d-a060-9dd358d62c9c-16854373858a74acce-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9abd72e2f48cada80ee1e7c5dce5b3353b5aca0a.webp",
+            "title": "4-8 times longer lifetime",
+            "heading_tag": "h5",
+            "link_url": "shopify:\/\/pages\/4-8-times-longer-bearing-life",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "6c31db7a-3d97-42bc-bbb0-8d9450abc069": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0d0ac81c7179ab25905cea0a0b507d9f6bf454c5.webp",
+            "title": "Zero Current Erosion",
+            "heading_tag": "h5",
+            "link_url": "shopify:\/\/pages\/zero-current-erosion",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "345f01f3-b217-4a3d-b6b8-c8fdcdeab6b5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/e0bbf62a2a8f14ddb90d2cd7d486876a5d6e9d0f.webp",
+            "title": "Higher Speed Capability",
+            "heading_tag": "h5",
+            "link_url": "shopify:\/\/pages\/higher-speed-capability",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "20a6f623-cd73-4504-b3af-5defaabb3484": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/e09c2766041b0728c62ea4aa335ea33f52a42bbe.webp",
+            "title": "Lightning-fast ROI",
+            "heading_tag": "h5",
+            "link_url": "shopify:\/\/pages\/lightning-fast-roi",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "sections--18836617265456__2872755d-498a-4b2d-a060-9dd358d62c9c-16854373858a74acce-0",
+        "6c31db7a-3d97-42bc-bbb0-8d9450abc069",
+        "345f01f3-b217-4a3d-b6b8-c8fdcdeab6b5",
+        "20a6f623-cd73-4504-b3af-5defaabb3484"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 270,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "text-with-icons": {
+      "type": "text-with-icons",
+      "blocks": {
+        "free-shipping": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-pin",
+            "mobile_icon_width": 24,
+            "icon_width": 24,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Free shipping",
+            "content": "<p>Tell your customers about your shipping offer.<\/p>"
+          }
+        },
+        "customer-support": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-customer-support",
+            "mobile_icon_width": 24,
+            "icon_width": 24,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Customer service",
+            "content": "<p>Tell your customers how they can reach you.<\/p>"
+          }
+        },
+        "discount": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 24,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Refer a friend",
+            "content": "<p>Tell your customers about your promotional offers.<\/p>"
+          }
+        },
+        "payment": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "mobile_icon_width": 24,
+            "icon_width": 24,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Secure payment",
+            "content": "<p>Tel your customers about your payment methods.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "free-shipping",
+        "customer-support",
+        "discount",
+        "payment"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "title": "",
+        "heading_tag": "h6",
+        "text_alignment": "center",
+        "icon_spacing": "small",
+        "background": "#2b2b2b",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "links": {
+          "type": "links",
+          "settings": {
+            "menu": "footer",
+            "show_menu_title": true
+          }
+        },
+        "a5a9d967-03e4-44a3-a180-d044fec1494f": {
+          "type": "links",
+          "settings": {
+            "menu": "industry",
+            "show_menu_title": true
+          }
+        }
+      },
+      "block_order": [
+        "links",
+        "a5a9d967-03e4-44a3-a180-d044fec1494f"
+      ],
+      "settings": {
+        "show_social_media": true,
+        "show_payment_icons": true,
+        "show_country_selector": false,
+        "show_country_flag": false,
+        "show_country_name": false,
+        "show_locale_selector": true,
+        "show_language_flag": true
+      }
+    }
+  },
+  "order": [
+    "514fc11e-e725-4c05-ac30-7aa204a22057",
+    "2872755d-498a-4b2d-a060-9dd358d62c9c",
+    "text-with-icons",
+    "footer"
+  ]
+}

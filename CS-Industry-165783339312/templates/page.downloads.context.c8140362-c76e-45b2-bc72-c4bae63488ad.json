@@ -1,0 +1,13 @@
+{
+  "parent": "page.downloads.json",
+  "context": {
+    "market": "45717ae2-9e6c-47ea-ad0f-d3c32c6001ee"
+  },
+  "sections": {
+    "5be18546-902a-4ea6-92bc-457f42ff8d45": {
+      "disabled": false,
+      "settings": {},
+      "blocks": {}
+    }
+  }
+}

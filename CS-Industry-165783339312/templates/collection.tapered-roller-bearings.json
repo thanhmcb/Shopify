@@ -1,0 +1,264 @@
+{
+  "sections": {
+    "d1558fe2_1702295386": {
+      "type": "powr-popup",
+      "settings": {}
+    },
+    "banner": {
+      "type": "collection-banner",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": true,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "collection_title_size": "h0",
+        "image_size": "md",
+        "mobile_text_position": "place-self-center-start text-start",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "sub_image_background": "#000000",
+        "sub_image_width": 330,
+        "featured_product": "",
+        "featured_product_heading": "Featured product",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 100
+      }
+    },
+    "sub_collections_mcb_fXjWwN": {
+      "type": "sub-collections-mcb",
+      "blocks": {
+        "item_QLeCiR": {
+          "type": "item",
+          "repeater": "{{ collection.metafields.custom.subcollections.value }}",
+          "settings": {
+            "image": "{{ block.repeater.image.value }}",
+            "stretch_image": true,
+            "link_text": "{{ block.repeater.link_text.value }}",
+            "link_url_collection": "{{ block.repeater.collection.value }}",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_QLeCiR"
+      ],
+      "settings": {
+        "full_width": false,
+        "stack_image": false,
+        "grid-gap": 20,
+        "block_size": "medium",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "rich_text_jpUkDT": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_KWVtPt": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><br\/>d = Inner ring dimension<br\/>D = Outer ring dimension<br\/>B= Bearing width<\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_KWVtPt"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "blocks": {
+        "item_nqe3pP": {
+          "type": "item",
+          "settings": {
+            "title": "d",
+            "liquid": "",
+            "option_value_metafield": "custom_erp.bore_diameter"
+          }
+        },
+        "item_3aftB4": {
+          "type": "item",
+          "settings": {
+            "title": "D [mm]",
+            "liquid": "",
+            "option_value_metafield": "custom_erp.outside_diameter"
+          }
+        },
+        "item_LbBL4q": {
+          "type": "item",
+          "settings": {
+            "title": "B",
+            "liquid": "",
+            "option_value_metafield": "custom_erp.width"
+          }
+        },
+        "item_rikNKG": {
+          "type": "item",
+          "settings": {
+            "title": "C [kN]",
+            "liquid": "",
+            "option_value_metafield": "custom_erp.load_rating_dynamic"
+          }
+        },
+        "item_xUxYgj": {
+          "type": "item",
+          "settings": {
+            "title": "(C0)",
+            "liquid": "(C<span class=\"small\">0<\/span>)",
+            "option_value_metafield": "custom_erp.load_rating_static"
+          }
+        }
+      },
+      "block_order": [
+        "item_nqe3pP",
+        "item_3aftB4",
+        "item_LbBL4q",
+        "item_rikNKG",
+        "item_xUxYgj"
+      ],
+      "settings": {
+        "hide_sold_out_variants": true,
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "filter_layout": "horizontal",
+        "show_sort_by": false,
+        "show_filters": true,
+        "show_filter_group_name": false,
+        "show_color_swatch": true,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": true,
+        "open_first_filter_group": false
+      }
+    },
+    "rich_text_QBdpUW": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_wjfrjV": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_deqDkC": {
+          "type": "heading",
+          "settings": {
+            "text": "Tapered Roller Bearings with Ceramic Balls: Unleashing Enhanced Precision and Durability",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_pYVpRC": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Cylindrical roller bearings are equipped with cylindrical-shaped rollers that are not only efficient in load distribution but can also boast exceptional durability, particularly when featuring ceramic rolling elements. The use of ceramic materials, such as silicon nitride, in these bearings enhances their robustness and resistance to wear and corrosion. This makes cylindrical roller bearings with ceramic rollers well-suited for demanding applications where extreme conditions, high temperatures, or aggressive environments are prevalent.<\/p><p>The incorporation of ceramic rolling elements not only contributes to the overall durability of the bearings but also allows for smoother operation and reduced friction. As a result, these bearings often exhibit lower maintenance requirements and longer service life compared to their counterparts with conventional rolling elements.<\/p><p>In this introduction, we will delve into the unique characteristics and advantages of cylindrical roller bearings with ceramic rollers, shedding light on how their robust design elevates performance and reliability in critical applications across various industries.<\/p>",
+            "text_align": "left"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_wjfrjV",
+        "heading_deqDkC",
+        "richtext_pYVpRC"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multiple_images_with_text_x3G4W8": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_XdyFiz": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Why2.png",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "Insulate",
+            "content": "<h4>Our Insulate products are designed for maximum durability in electrical machines<\/h4><ul><li>Ceramic balls create an insulation distance off the full ball diameter - your guarantee against current erosion<\/li><li>C3 clearance (C4 on request) allows for the normal thermal expansion of motor- \/ generator shafts<\/li><li>Non-friction rubber seals (Type RZ) protect against outside contamination without compromising low-friction running<\/li><li>Well proven wide temperature greases ensure long grease life and silent running<\/li><\/ul>",
+            "button_url": "shopify:\/\/pages\/ceramic-speed-insulate",
+            "button_text": "Learn more about our Insulate products"
+          }
+        },
+        "item_8PLxkr": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DGBB_insulate_corrotec_xtreme2RR.png",
+            "image_rotation_degrees": 1.5,
+            "subheading": "",
+            "title": "Corrotec",
+            "content": "<h4>The Corrotec product group is designed for maximum reliability in wet and otherwise challenging conditions in the food, pharma, and beverage industries.<\/h4><ul><li>Ceramic balls allow for long service life even when lubrication is challenged by water and other contaminants<\/li><li>Stainless steel rings allow survival in moist conditions<\/li><li>High-quality friction seals offer maximum protection against particle ingress<\/li><li>Material and lubricant combinations all live up to FDA \/ EN 1935 regulations for incidental food contact<\/li><\/ul>",
+            "button_url": "shopify:\/\/pages\/ceramicspeed-corrotec-1",
+            "button_text": "Learn more about our Corrotec products"
+          }
+        },
+        "item_dE9rYr": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DGBB_insulate_corrotec_xtreme3_RR.png",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Xtreme",
+            "content": "<h4>CeramicSpeed Xtreme bearings are not optimized against one specific industry but offer an overall more robust solution to several industries. The benefits of combining high-quality steel rings with ceramic balls allow for:<\/h4><ul><li>Higher rotational speeds<\/li><li>Reduced lubrication or even dry running<\/li><li>Longer service life in oscillating or start-stop applications<\/li><li>Longer service life in contaminated environments<\/li><li>Longer service life under extreme temperatures<\/li><\/ul>",
+            "button_url": "shopify:\/\/pages\/xtreme",
+            "button_text": "Learn more about our Xtreme products"
+          }
+        }
+      },
+      "block_order": [
+        "item_XdyFiz",
+        "item_8PLxkr",
+        "item_dE9rYr"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "d1558fe2_1702295386",
+    "banner",
+    "sub_collections_mcb_fXjWwN",
+    "rich_text_jpUkDT",
+    "main",
+    "rich_text_QBdpUW",
+    "multiple_images_with_text_x3G4W8"
+  ]
+}

@@ -1,0 +1,399 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "3e7dc412-585b-499a-9f9f-d213ad19b2ae": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18735408939312__3e7dc412-585b-499a-9f9f-d213ad19b2ae-168138351266b6bd17-0": {
+          "type": "image",
+          "settings": {
+            "image": "{{ page.metafields.custom.top_billede.value }}",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center-start text-start",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "",
+            "title": "{{ page.metafields.custom.sidetitel.value }}",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#fafafa",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 27,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18735408939312__3e7dc412-585b-499a-9f9f-d213ad19b2ae-168138351266b6bd17-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "lg",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "17022874870bde808a": {
+      "type": "apps",
+      "blocks": {
+        "df7b8b70-c68b-4563-aec3-b1329e7bedda": {
+          "type": "shopify:\/\/apps\/ez-add-breadcrumbs\/blocks\/app-block\/457dc635-4337-4779-8f31-361dd27778c8",
+          "settings": {
+            "show_breadcrumbs": true,
+            "color": "#000000",
+            "horizontal_alignment": "left",
+            "fontsize": 15,
+            "breadcrumb_font": "din_next_n4",
+            "marginleft": 0,
+            "margintop": 0,
+            "marginright": 0,
+            "marginbottom": 0,
+            "show_home_link": false,
+            "home_page": "Home",
+            "home_url": "\/",
+            "all_uppercase": false,
+            "use_slider": false,
+            "article_use_tag": true,
+            "separator": "<span> › <\/span>",
+            "css_tablet": "\/* font-family: Helvetica; *\/",
+            "css_mobile": "\/* font-family: Helvetica; *\/",
+            "custom_css": "\/* font-family: Helvetica; *\/",
+            "css_last_crumb": "\/* font-weight: medium; *\/",
+            "css_hover": "\/* text-decoration-line: underline; *\/",
+            "menus": "*"
+          }
+        }
+      },
+      "block_order": [
+        "df7b8b70-c68b-4563-aec3-b1329e7bedda"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "2411d344-c299-4a72-b10e-c244bb673217": {
+      "type": "multi-column",
+      "blocks": {
+        "template--19264571113776__2411d344-c299-4a72-b10e-c244bb673217-168490937767ec2ca1-0": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "{{ page.metafields.custom.broedtekst | metafield_tag }}",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--19264571113776__2411d344-c299-4a72-b10e-c244bb673217-168490937767ec2ca1-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/e7f10ba75be694854ffc2b634e5ad28379be5b83.webp",
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "198285cf-c648-4572-813a-df10d388268d": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "column_size": "12"
+          }
+        }
+      },
+      "block_order": [
+        "template--19264571113776__2411d344-c299-4a72-b10e-c244bb673217-168490937767ec2ca1-0",
+        "template--19264571113776__2411d344-c299-4a72-b10e-c244bb673217-168490937767ec2ca1-1",
+        "198285cf-c648-4572-813a-df10d388268d"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "small",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "25021be0-b5f2-4a9a-bdc0-f7e3867e262f": {
+      "type": "multi-column",
+      "blocks": {
+        "0feb7c61-6852-44a6-9545-4e8827743182": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
+        "template--19264571113776__25021be0-b5f2-4a9a-bdc0-f7e3867e262f-168491219134c9bdc6-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/de019d7ccec13e937d09f35917b1634a6c089d51.webp",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0744\/8671\/0576\/files\/case_xterme_premier-is_en.pdf?v=1684911217",
+            "link_text": "Read our customer case from Premier Is here",
+            "link_style": "button"
+          }
+        },
+        "template--19264571113776__25021be0-b5f2-4a9a-bdc0-f7e3867e262f-168491219134c9bdc6-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1f1eebfba3a7b11ba4b8d6a04740cb37e5085ccb.webp",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0744\/8671\/0576\/files\/case_xtreme_bag-welder_en.pdf?v=1684912959",
+            "link_text": "Read our customer case with an increase of bearing life of 44 times ",
+            "link_style": "button"
+          }
+        }
+      },
+      "block_order": [
+        "0feb7c61-6852-44a6-9545-4e8827743182",
+        "template--19264571113776__25021be0-b5f2-4a9a-bdc0-f7e3867e262f-168491219134c9bdc6-0",
+        "template--19264571113776__25021be0-b5f2-4a9a-bdc0-f7e3867e262f-168491219134c9bdc6-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "e5dc3ba0-56ee-4b20-8a5f-b607a273ec75": {
+      "type": "multi-column",
+      "blocks": {
+        "36a55df7-b396-42c4-8304-dcb40998d9af": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "column_size": "12"
+          }
+        },
+        "edf16418-0db4-4cd4-a79b-fe48ff781281": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/248c80a0fc1c15a077360b71cd3012d62cfb912f.webp",
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "7ec4619c-0b70-4820-9a47-e61eb8f87323": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "{{ page.metafields.custom.accordion_broedtekst | metafield_tag }}",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "66539244-891e-43da-852f-dcf13bf69471": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "column_size": "6"
+          }
+        }
+      },
+      "block_order": [
+        "36a55df7-b396-42c4-8304-dcb40998d9af",
+        "edf16418-0db4-4cd4-a79b-fe48ff781281",
+        "7ec4619c-0b70-4820-9a47-e61eb8f87323",
+        "66539244-891e-43da-852f-dcf13bf69471"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "#fafafa",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "5df67bf0-44b8-4a91-95fc-e19b31be5032": {
+      "type": "multi-column",
+      "blocks": {
+        "template--19265850835248__5df67bf0-44b8-4a91-95fc-e19b31be5032-1684918020f05b1b5d-1": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "{{ page.metafields.custom.afsluttende_tekst | metafield_tag }}",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--19265850835248__5df67bf0-44b8-4a91-95fc-e19b31be5032-1684918020f05b1b5d-2": {
+          "type": "item",
+          "settings": {
+            "image": "{{ page.metafields.custom.pdf_1.value }}",
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--19265850835248__5df67bf0-44b8-4a91-95fc-e19b31be5032-1684918020f05b1b5d-1",
+        "template--19265850835248__5df67bf0-44b8-4a91-95fc-e19b31be5032-1684918020f05b1b5d-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "small",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "57da878d-f63d-427d-9cd2-537374ffd54e": {
+      "type": "video",
+      "blocks": {
+        "template--19267186032944__57da878d-f63d-427d-9cd2-537374ffd54e-1687783800d091424c-0": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--19267186032944__57da878d-f63d-427d-9cd2-537374ffd54e-1687783800d091424c-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--19267186032944__57da878d-f63d-427d-9cd2-537374ffd54e-1687783800d091424c-0",
+        "template--19267186032944__57da878d-f63d-427d-9cd2-537374ffd54e-1687783800d091424c-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/CeramicSpeed_how it's made.mp4",
+        "external_video_url": "",
+        "poster": "shopify:\/\/shop_images\/how_its_made.png",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "ef5e723f-a681-4301-8061-1629d4d9daa3": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--19267186032944__ef5e723f-a681-4301-8061-1629d4d9daa3-168492612263060087-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Certificates",
+            "heading_tag": "h1"
+          }
+        },
+        "d1ac196a-8ee3-4d17-9c50-534aeca5167b": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "See all our certificates here",
+            "url": "shopify:\/\/pages\/certificates",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19267186032944__ef5e723f-a681-4301-8061-1629d4d9daa3-168492612263060087-1",
+        "d1ac196a-8ee3-4d17-9c50-534aeca5167b"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/f991638abdce0c4565190a7b08f62365f12c3c45_33cc6e7a-d04c-454c-99ae-134bc33b9230.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3e7dc412-585b-499a-9f9f-d213ad19b2ae",
+    "17022874870bde808a",
+    "2411d344-c299-4a72-b10e-c244bb673217",
+    "25021be0-b5f2-4a9a-bdc0-f7e3867e262f",
+    "e5dc3ba0-56ee-4b20-8a5f-b607a273ec75",
+    "5df67bf0-44b8-4a91-95fc-e19b31be5032",
+    "57da878d-f63d-427d-9cd2-537374ffd54e",
+    "ef5e723f-a681-4301-8061-1629d4d9daa3"
+  ]
+}

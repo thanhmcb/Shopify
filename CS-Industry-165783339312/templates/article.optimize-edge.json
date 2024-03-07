@@ -1,0 +1,151 @@
+{
+  "sections": {
+    "d1558fe2_1702295386": {
+      "type": "powr-popup",
+      "settings": {}
+    },
+    "main": {
+      "type": "main-article",
+      "disabled": true,
+      "settings": {
+        "allow_transparent_header": false,
+        "layout": "content_first",
+        "show_author": false,
+        "show_date": true,
+        "show_comments_count": false,
+        "show_share_buttons": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px"
+      }
+    },
+    "0659fb2d-39b4-41bf-8b91-a71609396e4e": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18733505282352__0659fb2d-39b4-41bf-8b91-a71609396e4e-168138351266b6bd17-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shutterstock_2263545623_R.jpg",
+            "content_max_width": 720,
+            "mobile_text_position": "place-self-center-start text-start",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "",
+            "title": "CeramicSpeed Celebrates Milestone",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 29,
+            "background": "#000000",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18733505282352__0659fb2d-39b4-41bf-8b91-a71609396e4e-168138351266b6bd17-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "lg",
+        "controls_type": "none",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "6432ef71-8d0c-467a-8f21-4d2c8eba0a21": {
+      "type": "multi-column",
+      "blocks": {
+        "spacer_pqrrWQ": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
+        "template--18881402798384__6432ef71-8d0c-467a-8f21-4d2c8eba0a21-1686118806445f08d5-2": {
+          "type": "item",
+          "settings": {
+            "column_size": "1.5",
+            "title": "",
+            "heading_tag": "h3",
+            "content": "<h2>CeramicSpeed Celebrates Milestone: Successfully Concludes Bearing Brain Project with Arla Foods and University of Aarhus<\/h2><p>Yesterday marked a significant milestone as we joyously celebrated the official completion of the Bearing Brain project alongside our esteemed project partners from Arla Foods and the University of Aarhus. Over the course of more than three years, our dedicated team has delved into the realm of AI within machine monitoring, diligently researching and documenting opportunities in both hardware and software forms.<\/p><p>The journey has been nothing short of exhilarating, collaborating with the brightest minds from the University and the most skilled operators from Arla Foods. At CeramicSpeed, we are now poised to take immense pride in harnessing this newly acquired knowledge and transforming it into a groundbreaking commercial product. Our goal is not only to benefit our esteemed project partners but also to make a positive impact on the global industry as a whole.<\/p><p>We extend our heartfelt gratitude to our partners and express our appreciation to Innovation Fund Denmark for entrusting us with this transformative project. This achievement is a testament to the collaborative spirit and dedication of everyone involved, and we look forward to the future innovations and advancements that will undoubtedly stem from the Bearing Brain project<\/p><h5><\/h5>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "button"
+          }
+        }
+      },
+      "block_order": [
+        "spacer_pqrrWQ",
+        "template--18881402798384__6432ef71-8d0c-467a-8f21-4d2c8eba0a21-1686118806445f08d5-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_WicKfT": {
+      "type": "multi-column",
+      "blocks": {
+        "spacer_PKigw3": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
+        "item_cMYGTX": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Optimize_Edge_page_R.png",
+            "column_size": "1.5",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "spacer_PKigw3",
+        "item_cMYGTX"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "#fafafa",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "d1558fe2_1702295386",
+    "main",
+    "0659fb2d-39b4-41bf-8b91-a71609396e4e",
+    "6432ef71-8d0c-467a-8f21-4d2c8eba0a21",
+    "multi_column_WicKfT"
+  ]
+}

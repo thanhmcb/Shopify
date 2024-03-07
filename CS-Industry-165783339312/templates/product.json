@@ -1,0 +1,196 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "item_PRnmzX": {
+          "type": "item",
+          "settings": {
+            "title": "Width Outer Ring",
+            "pim_value": "{{ product.metafields.custom_erp.width_outer_ring.value }}"
+          }
+        },
+        "item_DAqaEp": {
+          "type": "item",
+          "settings": {
+            "title": "Width Inner Ring",
+            "pim_value": "{{ product.metafields.custom_erp.width_inner_ring.value }}"
+          }
+        },
+        "item_7CGJwh": {
+          "type": "item",
+          "settings": {
+            "title": "Retaining Feature",
+            "pim_value": "{{ product.metafields.custom_erp.retaining_feature.value }}"
+          }
+        },
+        "item_4wrJU8": {
+          "type": "item",
+          "settings": {
+            "title": "Contact Angle",
+            "pim_value": "{{ product.metafields.custom_erp.contact_angle.value }}"
+          }
+        },
+        "item_aF6A68": {
+          "type": "item",
+          "settings": {
+            "title": "External Id",
+            "pim_value": "{{ product.metafields.custom_erp.externalid.value }}"
+          }
+        },
+        "item_TGfR3B": {
+          "type": "item",
+          "settings": {
+            "title": "Bore Diameter",
+            "pim_value": "{{ product.metafields.custom_erp.bore_diameter.value }}"
+          }
+        },
+        "item_RBgnQD": {
+          "type": "item",
+          "settings": {
+            "title": "Material",
+            "pim_value": "{{ product.metafields.custom_erp.ring_material | metafield_text }}"
+          }
+        },
+        "item_Mi3Tik": {
+          "type": "item",
+          "settings": {
+            "title": "Ring Material",
+            "pim_value": "{{ product.metafields.custom_erp.ring_material | metafield_text }}"
+          }
+        },
+        "item_Dd4CXk": {
+          "type": "item",
+          "settings": {
+            "title": "Cage Type",
+            "pim_value": "{{ product.metafields.custom_erp.cage_type | metafield_text }}"
+          }
+        },
+        "item_4Ycpwg": {
+          "type": "item",
+          "settings": {
+            "title": "Radial Clearance",
+            "pim_value": "{{ product.metafields.custom_erp.radial_clearance | metafield_text }}"
+          }
+        },
+        "item_qnyj7q": {
+          "type": "item",
+          "settings": {
+            "title": "Sealing",
+            "pim_value": "{{ product.metafields.custom_erp.sealing | metafield_text }}"
+          }
+        },
+        "item_e6FAV8": {
+          "type": "item",
+          "settings": {
+            "title": "Limiting Speed",
+            "pim_value": "{{ product.metafields.custom_erp.limiting_speed.value }}"
+          }
+        },
+        "item_3eifHa": {
+          "type": "item",
+          "settings": {
+            "title": "Load Rating Static (C0)",
+            "pim_value": "{{ product.metafields.custom_erp.load_rating_static.value }}"
+          }
+        },
+        "item_xKME6C": {
+          "type": "item",
+          "settings": {
+            "title": "Load Rating Dynamic (C)",
+            "pim_value": "{{ product.metafields.custom_erp.load_rating_dynamic.value }}"
+          }
+        },
+        "item_wJKpha": {
+          "type": "item",
+          "settings": {
+            "title": "Net weight",
+            "pim_value": "{{ product.metafields.custom_erp.netweight.value }}"
+          }
+        },
+        "item_MzTW7Y": {
+          "type": "item",
+          "settings": {
+            "title": "Width",
+            "pim_value": "{{ product.metafields.custom_erp.width.value }}"
+          }
+        },
+        "item_Lh7pRw": {
+          "type": "item",
+          "settings": {
+            "title": "Outside Diameter",
+            "pim_value": "{{ product.metafields.custom_erp.outside_diameter.value }}"
+          }
+        },
+        "item_dtwLHz": {
+          "type": "item",
+          "settings": {
+            "title": "Inside Diameter",
+            "pim_value": "{{ product.metafields.custom_erp.inside_diameter.value }}"
+          }
+        },
+        "item_m7nafm": {
+          "type": "item",
+          "settings": {
+            "title": "Grease Type",
+            "pim_value": "{{ product.metafields.custom_erp.grease_type | metafield_text }}"
+          }
+        },
+        "item_DkgEeJ": {
+          "type": "item",
+          "settings": {
+            "title": "Ball Diameter",
+            "pim_value": "{{ product.metafields.custom_erp.ball_diameter.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "item_PRnmzX",
+        "item_DAqaEp",
+        "item_7CGJwh",
+        "item_4wrJU8",
+        "item_aF6A68",
+        "item_TGfR3B",
+        "item_RBgnQD",
+        "item_Mi3Tik",
+        "item_Dd4CXk",
+        "item_4Ycpwg",
+        "item_qnyj7q",
+        "item_e6FAV8",
+        "item_3eifHa",
+        "item_xKME6C",
+        "item_wJKpha",
+        "item_MzTW7Y",
+        "item_Lh7pRw",
+        "item_dtwLHz",
+        "item_m7nafm",
+        "item_DkgEeJ"
+      ],
+      "settings": {
+        "full_width": false,
+        "heading_tag": "h3",
+        "desktop_media_width": 50,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": "",
+        "max_rows": 5,
+        "view_all_text": "View all",
+        "view_less_text": "View less",
+        "button_text": "Contact",
+        "button_link": "shopify:\/\/pages\/contact"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

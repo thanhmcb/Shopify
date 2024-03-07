@@ -1,0 +1,7 @@
+{
+  "parent": "blog.json",
+  "context": {
+    "market": "german"
+  },
+  "sections": {}
+}

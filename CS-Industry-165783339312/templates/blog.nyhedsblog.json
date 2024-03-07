@@ -1,0 +1,47 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-blog",
+      "blocks": {
+        "newsletter_rMmTxm": {
+          "type": "newsletter",
+          "disabled": true,
+          "settings": {
+            "title": "Newsletter",
+            "content": "<p>Write something about what your customers will receive by subscribing to your newsletter.<\/p>",
+            "button_text": "Subscribe",
+            "subtext": "",
+            "position": 5,
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "newsletter_rMmTxm"
+      ],
+      "settings": {
+        "allow_transparent_header": false,
+        "content": "<p>Get access to our latest news by signing up for our newsletter.<\/p>",
+        "show_newsletter_form": true,
+        "show_tags": true,
+        "banner_background": "#000000",
+        "banner_text_color": "#ffffff",
+        "button_background": "",
+        "button_text_color": "",
+        "articles_per_page": 6,
+        "feature_first_article": true,
+        "feature_article_background": "",
+        "feature_article_text_color": "",
+        "show_excerpt": false,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

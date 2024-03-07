@@ -1,0 +1,247 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "3e7dc412-585b-499a-9f9f-d213ad19b2ae": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18735408939312__3e7dc412-585b-499a-9f9f-d213ad19b2ae-168138351266b6bd17-0": {
+          "type": "image",
+          "settings": {
+            "image": "{{ page.metafields.custom.top_billede.value }}",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center-start text-start",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "",
+            "title": "{{ page.metafields.custom.sidetitel.value }}",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18735408939312__3e7dc412-585b-499a-9f9f-d213ad19b2ae-168138351266b6bd17-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "md",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "170228549049eb65f1": {
+      "type": "apps",
+      "blocks": {
+        "51e89f25-ffb1-40c1-9068-602b0c18bcda": {
+          "type": "shopify:\/\/apps\/ez-add-breadcrumbs\/blocks\/app-block\/457dc635-4337-4779-8f31-361dd27778c8",
+          "settings": {
+            "show_breadcrumbs": true,
+            "color": "#000000",
+            "horizontal_alignment": "left",
+            "fontsize": 15,
+            "breadcrumb_font": "din_next_n4",
+            "marginleft": 0,
+            "margintop": 0,
+            "marginright": 0,
+            "marginbottom": 0,
+            "show_home_link": false,
+            "show_last_crumb": true,
+            "home_page": "Home",
+            "home_url": "\/",
+            "all_uppercase": false,
+            "use_slider": false,
+            "article_use_tag": true,
+            "separator": "<span> › <\/span>",
+            "css_tablet": "\/* font-family: Helvetica; *\/",
+            "css_mobile": "\/* font-family: Helvetica; *\/",
+            "custom_css": "\/* font-family: Helvetica; *\/",
+            "css_last_crumb": "\/* font-weight: medium; *\/",
+            "css_hover": "\/* text-decoration-line: underline; *\/",
+            "menus": "*"
+          }
+        }
+      },
+      "block_order": [
+        "51e89f25-ffb1-40c1-9068-602b0c18bcda"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "multi_column_pVAC9d": {
+      "type": "multi-column",
+      "blocks": {
+        "spacer_gff7aN": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
+        "item_VabwqG": {
+          "type": "item",
+          "settings": {
+            "column_size": "1.5",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<h1>FDA-approved bearings for the food industry<\/h1><p>In the food and beverage industry, uptime and reliability are everything. Production equipment requires food-grade certification, and any breakdown will cause costly production stops. The bearings used must be of the highest possible quality and must be able to withstand high-temperature fluctuations and humid and contaminated working conditions with the longest bearing life possible.<\/p><p>CeramicSpeed Corrotec ball bearings are FDA approved and suitable for use in the food industry. The bearings are manufactured using stainless steel rings with ceramic balls and lubricants approved for use in the food industry.<\/p><p><\/p><h2>Longer-lasting Components<\/h2><p>Labor and other costs associated with replacing worn-out bearings often exceed the price of the actual bearing several times over. Especially when considering the lost production due to the service or repair stop. Multiply these costs 4-8 times, and you can calculate the potential for optimizing your production by replacing traditional bearings with CeramicSpeed Hybrid Bearings.<\/p><p>The actual cost is a fraction of the gains that come from increasing service intervals.<\/p><p>Disassembly and reassembly of machines, run-in, recalibrations, and startup procedures are a part of every service stop and since the bearings sit at the center of motion in machines, they become the target of these stops. So, you have to imagine the possibilities for increasing the output of the systems by adding longer-lasting components at the key points of motion inside your machine.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "spacer_gff7aN",
+        "item_VabwqG"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_XPecEG": {
+      "type": "multi-column",
+      "blocks": {
+        "item_GH9ji6": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "FDA and EN1935-approved bearings",
+            "heading_tag": "h2",
+            "content": "<p>CeramicSpeed Corrotec ball bearings are FDA and EN1935-approved and therefore suitable for use in the food industry. Our Corrotec line is specifically set up for the challenges in the food and beverage industry. Bearings are manufactured using stainless steel rings with silicon nitride (Si3N4) balls and lubricants all approved for use in the food industry.<\/p><p>The CeramicSpeed hybrid bearings do bring some unique benefits to these challenging and demanding environments. The bearings are greased for life and do not need to be relubricated and as the ceramic balls have a four times lower surface roughness the bearing will be running up to 17°C cooler compared to all-steel bearings and that can extend the lifetime of the lubricant significantly and increase the lifetime of your machine and reduce maintenance.<\/p><p>The two times harder balls will also show a much higher resistance to contamination\/particles as those will be crushed. The combination of steel and ceramic brings the unique advantage of avoiding the risk of smearing. For a dry contact situation, the friction coefficient between steel and silicon nitride (Si3N4) is lower than for steel to steel and micro-welding does not occur. Therefore hybrid bearings generate much lower friction even with a very thin film of <a href=\"\/pages\/lubrication\" title=\"Lubrication\">lubrication<\/a>.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "button"
+          }
+        },
+        "item_gygahT": {
+          "type": "item",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/GIF_mælkeproduktion.mp4",
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "shopify:\/\/pages\/food-beverage",
+            "link_text": "Learn more",
+            "link_style": "button"
+          }
+        }
+      },
+      "block_order": [
+        "item_GH9ji6",
+        "item_gygahT"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "#292929",
+        "background_gradient": "",
+        "text_color": "#fafafa"
+      }
+    },
+    "c640a64e-7093-458d-8036-cc65eda3f045": {
+      "type": "multi-column",
+      "blocks": {
+        "46f5f6ec-9cec-4c2c-8ce8-f72e0bc93440": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "4"
+          }
+        },
+        "template--19282748539184__c640a64e-7093-458d-8036-cc65eda3f045-168906753758022f7e-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Forside_leje_uden_baggrund.png",
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "46f5f6ec-9cec-4c2c-8ce8-f72e0bc93440",
+        "template--19282748539184__c640a64e-7093-458d-8036-cc65eda3f045-168906753758022f7e-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "#fafafa",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "revealed_image_on_scroll_7YwFP9": {
+      "type": "revealed-image-on-scroll",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DGBB_insulate_corrotec_xtreme2RR.png",
+        "subheading": "",
+        "title": "",
+        "background": "",
+        "text_color_inside": "#ffffff",
+        "text_color_outside": "#000000"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3e7dc412-585b-499a-9f9f-d213ad19b2ae",
+    "170228549049eb65f1",
+    "multi_column_pVAC9d",
+    "multi_column_XPecEG",
+    "c640a64e-7093-458d-8036-cc65eda3f045",
+    "revealed_image_on_scroll_7YwFP9"
+  ]
+}

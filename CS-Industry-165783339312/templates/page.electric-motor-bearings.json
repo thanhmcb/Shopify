@@ -1,0 +1,406 @@
+{
+  "sections": {
+    "0b4056f9-ff3e-4072-b483-40e39e5c4f39": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18836617953584__0b4056f9-ff3e-4072-b483-40e39e5c4f39-1685093767b3e2e52c-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JG_201214_CeramicSpeed_Industri_00115_RR.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "",
+            "title": "Electric Motor Bearings",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18836617953584__0b4056f9-ff3e-4072-b483-40e39e5c4f39-1685093767b3e2e52c-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "md",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#000000",
+        "background_gradient": ""
+      }
+    },
+    "170228237242cc9b22": {
+      "type": "apps",
+      "blocks": {
+        "f4fb6974-2d04-4435-a3b4-1ca295c1a0a1": {
+          "type": "shopify:\/\/apps\/ez-add-breadcrumbs\/blocks\/app-block\/457dc635-4337-4779-8f31-361dd27778c8",
+          "settings": {
+            "show_breadcrumbs": true,
+            "color": "#000000",
+            "horizontal_alignment": "left",
+            "fontsize": 14,
+            "breadcrumb_font": "din_next_n4",
+            "marginleft": 0,
+            "margintop": 0,
+            "marginright": 0,
+            "marginbottom": 0,
+            "show_home_link": false,
+            "home_page": "Home",
+            "home_url": "\/",
+            "all_uppercase": false,
+            "use_slider": true,
+            "article_use_tag": true,
+            "separator": "<span> › <\/span>",
+            "css_tablet": "\/* font-family: DIN Next; *\/",
+            "css_mobile": "\/* font-family: DIN Next; *\/",
+            "custom_css": "\/* font-family: DIN Next; *\/",
+            "css_last_crumb": "\/* font-family: DIN Next; *\/",
+            "css_hover": "\/* text-decoration-line: underline; *\/",
+            "menus": "*"
+          }
+        }
+      },
+      "block_order": [
+        "f4fb6974-2d04-4435-a3b4-1ca295c1a0a1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "bfba36d6-3e7d-4ffe-9a6c-5f8f8ac3fef5": {
+      "type": "multi-column",
+      "blocks": {
+        "5c55eb37-f3d2-4c85-9a96-79a1ec4576b9": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
+        "template--21824422969648__bfba36d6-3e7d-4ffe-9a6c-5f8f8ac3fef5-item-1": {
+          "type": "item",
+          "settings": {
+            "column_size": "1.5",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p>The requirements for electric motor bearings are diverse and demanding, especially in the context of<a href=\"\/pages\/dgbb\" title=\"DGGB\"> deep groove ball bearings<\/a>. Whether it's a standard electric motor or specialized electric motors such as those used in wind turbines, the choice of the correct bearing is crucial for overall performance.<\/p><p>CeramicSpeed's electric motor bearings, particularly our hybrid deep groove ball bearings and cylindrical roller bearings, offer solutions that cater to the unique demands of electric motors. These bearings are designed to handle both axial and radial loads efficiently, making them suitable for a wide range of applications in various industries.<\/p><p>In high-speed operations, where electric motors are subjected to both moderate axial and radial loads, the choice of the correct bearing becomes even more critical. Our electric motor bearings are eg. deep groove ball bearings or cylindrical roller bearings engineered to perform exceptionally well under these conditions, providing reliable operation even in environments with high axial loads.<\/p><p><\/p><h2>Quality Electric Motor Bearings - Superior Performance<\/h2><p>The rolling elements in our electric motor bearings, including ceramic silicon nitride (Si3N4) balls, contribute to the overall quality and efficiency of the bearing. These rolling elements, when pre-lubricated or re-lubricated as needed, ensure smooth and quiet operation, reducing vibration and noise during motor operation.<\/p><p>For installations demanding high speeds, particularly in wind turbines or other applications with medium and high speeds, CeramicSpeed electric motor bearings are an optimal choice. Their ability to handle high axial loads, combined with the use of shields for protection, makes them suitable for various industries and applications.<\/p><p>CeramicSpeed, as one of the leading bearing manufacturers, understands the importance of delivering high-quality bearings that meet the specific needs of electric motors. Our bearings are pre-lubricated to withstand the challenges posed by high speeds, moderate axial loads, and diverse temperatures.<\/p><p>In summary, whether you're dealing with standard electric motors or specialized applications like wind turbines, the choice of the correct bearing from reputable bearing manufacturers is crucial. CeramicSpeed's electric motor bearings excel in providing the right balance of performance, durability, and reliability, contributing to the efficient operation of electric motors across different industries. <a href=\"\/pages\/products\" title=\"Products\">Explore our range of electric motor bearings, shielded bearings, sealed bearings, cylindrical roller bearings etc. here<\/a>, designed for superior performance and bearing life. Ideal for all types of electric motors.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "5c55eb37-f3d2-4c85-9a96-79a1ec4576b9",
+        "template--21824422969648__bfba36d6-3e7d-4ffe-9a6c-5f8f8ac3fef5-item-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "806e7253-296d-4ed1-80f8-261671db89cc": {
+      "type": "faq",
+      "blocks": {
+        "template--21824422969648__806e7253-296d-4ed1-80f8-261671db89cc-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "What are electric motor bearings?",
+            "content": "<p>Electric motor bearings are hybrid bearings used in electric motors to support and reduce friction. Electric motor bearings from CeramicSpeed are fitted with<a href=\"\/pages\/ceramic-balls\" title=\"Ceramic Balls\"> silicon nitride balls<\/a> which insulate against stray currents. The balls themselves form <a href=\"\/pages\/zero-current-erosion\" title=\"Zero Current Erosion\">no conductive bridge <\/a>between the stator and rotor of the motor.  They are designed to withstand high speeds and varying loads.<\/p>"
+          }
+        },
+        "template--21824422969648__806e7253-296d-4ed1-80f8-261671db89cc-item-2": {
+          "type": "item",
+          "settings": {
+            "title": "What types of bearings are used in electric motors?",
+            "content": ""
+          }
+        },
+        "template--21824422969648__806e7253-296d-4ed1-80f8-261671db89cc-item-3": {
+          "type": "item",
+          "settings": {
+            "title": "What types of bearings are used in electric motors?",
+            "content": "<p>The most common types of bearings used in electric motors are ball bearings and roller<br\/>bearings. Ball bearings are suitable for light to moderate loads, while roller bearings are used for heavier loads.<\/p>"
+          }
+        },
+        "f5ed55ae-3cc6-43ae-b677-4e2484e55e97": {
+          "type": "item",
+          "settings": {
+            "title": "How does bearing size impact electric motor performance?",
+            "content": "<p>The size of the bearing must be properly matched to the motor’s load and speed requirements. Incorrect sizing can lead to premature failure, reduced efficiency, and increased<br\/>maintenance needs.<\/p>"
+          }
+        },
+        "480a9f38-ab88-460a-8ab7-cf0e5f6a9f6b": {
+          "type": "item",
+          "settings": {
+            "title": "How can I extend the life of my electric motor bearings?",
+            "content": "<p>Regular maintenance, proper installation, ensuring correct alignment, using the right type of lubrication, and operating within the recommended load and speed limits can significantly extend bearing life. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21824422969648__806e7253-296d-4ed1-80f8-261671db89cc-item-1",
+        "template--21824422969648__806e7253-296d-4ed1-80f8-261671db89cc-item-2",
+        "template--21824422969648__806e7253-296d-4ed1-80f8-261671db89cc-item-3",
+        "f5ed55ae-3cc6-43ae-b677-4e2484e55e97",
+        "480a9f38-ab88-460a-8ab7-cf0e5f6a9f6b"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "40126f35-f088-4c4a-8e3d-5c442d44ad86": {
+      "type": "slideshow",
+      "blocks": {
+        "template--21824422969648__40126f35-f088-4c4a-8e3d-5c442d44ad86-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PEM_Mellem.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Got any questions?",
+            "heading_tag": "h1",
+            "button_text": "Contact us here",
+            "button_link": "shopify:\/\/pages\/contact",
+            "text_color": "#000000",
+            "button_background": "#b2c9c9",
+            "button_text_color": "#000000",
+            "overlay_color": "#ffffff",
+            "overlay_opacity": 0,
+            "background": "#f3f5f6",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21824422969648__40126f35-f088-4c4a-8e3d-5c442d44ad86-image-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "sm",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "33ec333a-42b2-45e7-88e3-17b19605356f": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--21824422969648__33ec333a-42b2-45e7-88e3-17b19605356f-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Electrical_motor_side_billede.png",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h2>Exploring New Horizons with CeramicSpeed's Future-Forward Bearings<\/h2><p>As the landscape of technology evolves, CeramicSpeed remains at the forefront of innovation, constantly pushing the boundaries of what electric motor bearings can achieve. Our dedication to providing cutting-edge solutions goes hand in hand with our commitment to meeting the evolving needs of the industry.<\/p><p>In anticipation of the challenges posed by emerging technologies, CeramicSpeed invests heavily in research and development. Our goal is to pioneer advancements that will redefine the benchmarks for electric motor bearing performance. Through continuous refinement and innovation, we strive to offer bearings that not only meet current demands but also anticipate and adapt to the dynamic requirements of the future.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#5e5e5e",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21824422969648__33ec333a-42b2-45e7-88e3-17b19605356f-image-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "739bbf65-124e-4ea8-b778-d60b49ec571b": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--21824422969648__739bbf65-124e-4ea8-b778-d60b49ec571b-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Stor_motor_RR.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 68,
+            "subheading": "",
+            "title": "",
+            "content": "<h2>Embracing Sustainability in Motion<\/h2><p>Beyond performance and innovation, CeramicSpeed places a high value on sustainability. We recognize the importance of environmentally conscious practices in today's world. Our bearings are crafted with durability in mind, contributing to extended service life and reduced waste. Additionally, our manufacturing processes prioritize efficiency and eco-friendly materials, aligning with our commitment to a greener and more sustainable future.<\/p><p>As we navigate the ever-changing landscape of technology and industry, CeramicSpeed stands as your steadfast partner, providing reliable, efficient, and future-ready electric motor bearings. Join us in exploring the possibilities of tomorrow with bearings that not only meet the challenges of today but also pave the way for a sustainable and technologically advanced future.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#5e5e5e",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21824422969648__739bbf65-124e-4ea8-b778-d60b49ec571b-image-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "f4a0cdca-01e1-49e1-878a-7f53ce145c6e": {
+      "type": "multi-column",
+      "blocks": {
+        "1c1ecafb-1609-40ae-aaa3-a47c381c49e3": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
+        "template--21824422969648__f4a0cdca-01e1-49e1-878a-7f53ce145c6e-item-1": {
+          "type": "item",
+          "settings": {
+            "column_size": "1.5",
+            "title": "",
+            "heading_tag": "h2",
+            "content": "<h2>Elevating Electric Motor Bearings into Tomorrow's Technological Frontiers<\/h2><p>CeramicSpeed is dedicated to advancing electric motor bearings for a sustainable and efficient future. We lead the way in innovation, investing significantly in research and development to redefine performance benchmarks. Our bearings are not just for today's needs but are pioneering solutions for future challenges.<\/p><p>We are at the forefront of bearing technology, embracing emerging technologies and adapting to industry changes. As a trusted partner, we provide cutting-edge solutions that propel electric motor technology into new realms of efficiency.<\/p><p>Beyond technological advancement, CeramicSpeed prioritizes sustainability. Our environmentally conscious manufacturing processes focus on durability, contributing to extended service life and reduced waste. We prioritize efficiency and eco-friendly materials for a greener future.<\/p><p>In the intersection of technology and environmental responsibility, CeramicSpeed stands out for reliability, efficiency, and forward-thinking. Join us in exploring the possibilities of tomorrow, where our bearings pave the way for a more sustainable, technologically advanced, and environmentally friendly future<\/p><h2><\/h2><h2><\/h2><h2><\/h2>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "e9a291ec-f392-4a15-8e92-c8adcb3e04c5": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "12"
+          }
+        }
+      },
+      "block_order": [
+        "1c1ecafb-1609-40ae-aaa3-a47c381c49e3",
+        "template--21824422969648__f4a0cdca-01e1-49e1-878a-7f53ce145c6e-item-1",
+        "e9a291ec-f392-4a15-8e92-c8adcb3e04c5"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "10ff080b-9342-4707-85e4-ab27b7929fbd": {
+      "type": "video",
+      "blocks": {
+        "template--21824422969648__10ff080b-9342-4707-85e4-ab27b7929fbd-play-1": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--21824422969648__10ff080b-9342-4707-85e4-ab27b7929fbd-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--21824422969648__10ff080b-9342-4707-85e4-ab27b7929fbd-play-1",
+        "template--21824422969648__10ff080b-9342-4707-85e4-ab27b7929fbd-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/CeramicSpeed_how it's made.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    }
+  },
+  "order": [
+    "0b4056f9-ff3e-4072-b483-40e39e5c4f39",
+    "170228237242cc9b22",
+    "main",
+    "bfba36d6-3e7d-4ffe-9a6c-5f8f8ac3fef5",
+    "806e7253-296d-4ed1-80f8-261671db89cc",
+    "40126f35-f088-4c4a-8e3d-5c442d44ad86",
+    "33ec333a-42b2-45e7-88e3-17b19605356f",
+    "739bbf65-124e-4ea8-b778-d60b49ec571b",
+    "f4a0cdca-01e1-49e1-878a-7f53ce145c6e",
+    "10ff080b-9342-4707-85e4-ab27b7929fbd"
+  ]
+}

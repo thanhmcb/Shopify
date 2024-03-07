@@ -1,0 +1,7 @@
+{
+  "parent": "article.understanding-bearing-lub.json",
+  "context": {
+    "market": "german"
+  },
+  "sections": {}
+}

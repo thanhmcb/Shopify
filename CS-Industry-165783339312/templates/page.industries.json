@@ -1,0 +1,162 @@
+{
+  "sections": {
+    "9cfd4589-7c3d-4923-8fcf-1e833ba07b7a": {
+      "type": "slideshow",
+      "blocks": {
+        "template--19294731469104__9cfd4589-7c3d-4923-8fcf-1e833ba07b7a-16850843093cedfdb3-0": {
+          "type": "image",
+          "settings": {
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "{{ page.metafields.custom.sidetitel.value }}",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 100,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19294731469104__9cfd4589-7c3d-4923-8fcf-1e833ba07b7a-16850843093cedfdb3-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "760d92b4-8a46-4dc0-b8b4-b35395de1ae2": {
+      "type": "media-grid",
+      "blocks": {
+        "template--19294731469104__760d92b4-8a46-4dc0-b8b4-b35395de1ae2-1685084384a4929b11-0": {
+          "type": "image",
+          "settings": {
+            "image": "{{ page.metafields.custom.pdf_1.value }}",
+            "title": "Food & Beverage",
+            "heading_tag": "h3",
+            "link_url": "shopify:\/\/pages\/food-beverage",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 21
+          }
+        },
+        "08ed2c21-5d2f-4b08-beb2-37f44f91b22f": {
+          "type": "image",
+          "settings": {
+            "image": "{{ page.metafields.custom.pdf_2.value }}",
+            "title": "Electrical Motors",
+            "heading_tag": "h3",
+            "link_url": "shopify:\/\/pages\/electrical-motors",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 21
+          }
+        },
+        "00ae2d9f-aad6-4d65-aac1-57759dbfedf5": {
+          "type": "image",
+          "settings": {
+            "image": "{{ page.metafields.custom.pdf_3.value }}",
+            "title": "Pharma and Chemical",
+            "heading_tag": "h3",
+            "link_url": "shopify:\/\/pages\/pharma-and-chemical",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20
+          }
+        },
+        "c4127ed6-78e0-4675-836a-670b1eaff765": {
+          "type": "image",
+          "settings": {
+            "image": "{{ page.metafields.custom.pdf_4.value }}",
+            "title": "Science",
+            "heading_tag": "h3",
+            "link_url": "shopify:\/\/pages\/science",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 19
+          }
+        }
+      },
+      "block_order": [
+        "template--19294731469104__760d92b4-8a46-4dc0-b8b4-b35395de1ae2-1685084384a4929b11-0",
+        "08ed2c21-5d2f-4b08-beb2-37f44f91b22f",
+        "00ae2d9f-aad6-4d65-aac1-57759dbfedf5",
+        "c4127ed6-78e0-4675-836a-670b1eaff765"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "9cfd4589-7c3d-4923-8fcf-1e833ba07b7a",
+    "main",
+    "760d92b4-8a46-4dc0-b8b4-b35395de1ae2"
+  ]
+}

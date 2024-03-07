@@ -1,0 +1,448 @@
+{
+  "sections": {
+    "d1558fe2_1702295386": {
+      "type": "powr-popup",
+      "settings": {}
+    },
+    "main": {
+      "type": "main-article",
+      "disabled": true,
+      "settings": {
+        "allow_transparent_header": false,
+        "layout": "content_first",
+        "show_author": false,
+        "show_date": true,
+        "show_comments_count": false,
+        "show_share_buttons": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px"
+      }
+    },
+    "0659fb2d-39b4-41bf-8b91-a71609396e4e": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18733505282352__0659fb2d-39b4-41bf-8b91-a71609396e4e-168138351266b6bd17-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Full_Ceramic_RR.png",
+            "content_max_width": 720,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Exciting News -  CeramicSpeed Full Ceramic Bearings",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#fafafa",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18733505282352__0659fb2d-39b4-41bf-8b91-a71609396e4e-168138351266b6bd17-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "lg",
+        "controls_type": "none",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "1702283004224aa14b": {
+      "type": "apps",
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "e65cfb7b-4e35-4f5a-8add-534b407d9944": {
+      "type": "multi-column",
+      "blocks": {
+        "template--18733505282352__e65cfb7b-4e35-4f5a-8add-534b407d9944-16813839451d95fa14-1": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h3",
+            "content": "{{ article.metafields.custom.punkter_til_faktaboks | metafield_tag }}",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "26a659e1-02af-484e-b7de-a7cf6283ddc5": {
+          "type": "item",
+          "settings": {
+            "image": "{{ article.metafields.custom.billede_til_faktaboks.value }}",
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "{{ article.metafields.custom.punkter_til_faktaboks_hoejre_side | metafield_tag }}",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "07ab62c3-589e-4b9e-997e-4aa177805480": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Monosnap_case_insulate_electric-motor_dairy_en.pdf_2023-04-13_13-09-19.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "https:\/\/www.ceramicspeed.com\/media\/xswajs0l\/case_insulate_electric-motor_dairy_en.pdf",
+            "link_text": "",
+            "link_style": "button"
+          }
+        }
+      },
+      "block_order": [
+        "template--18733505282352__e65cfb7b-4e35-4f5a-8add-534b407d9944-16813839451d95fa14-1",
+        "26a659e1-02af-484e-b7de-a7cf6283ddc5",
+        "07ab62c3-589e-4b9e-997e-4aa177805480"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "{{ article.metafields.custom.faktaboks_overskrift.value }}",
+        "content": "",
+        "background": "#2b2b2b",
+        "background_gradient": "",
+        "text_color": "#fafafa"
+      }
+    },
+    "multi_column_CJD8CY": {
+      "type": "multi-column",
+      "blocks": {
+        "spacer_MVwF3V": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
+        "item_QaUbFP": {
+          "type": "item",
+          "settings": {
+            "column_size": "1.5",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<h1>CeramicSpeed Full Ceramic Hybrid Bearings -  The latest addition to our product lineup<\/h1><p>We are thrilled to introduce the latest addition to our product lineup – CeramicSpeed Full Ceramic Bearings. The decision to incorporate these high quality ceramic bearings into our range stems from a combination of increased demands and a growing realization that these bearings represent the best and most obvious choice for applications in some extremely demanding environments.<br\/><\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "spacer_MVwF3V",
+        "item_QaUbFP"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_JczenW": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_MreX7f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Full_ceramic_fritlagt_lille.png",
+            "media_width": 40,
+            "media_position": "end",
+            "text_position": "place-self-center-end text-end",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Technical Highlights",
+            "content": "<p><br\/><strong>Inner & Outer Rings<\/strong>: Zirconium Oxide (ZrO2)<br\/><strong>Balls:<\/strong> Si3N4 Ceramic Silicon <strong><br\/>Cage:<\/strong> PTFE (PEEK on request)<br\/><strong>Clearance:<\/strong> CN, (C3, C4 on request)<br\/><strong>Seals:<\/strong> None, (PEEK\/PTFE shields on request)<\/p>",
+            "link_text": "Download our technical datasheet here",
+            "link_url": "https:\/\/industry.ceramicspeed.com\/blogs\/product-overview\/full-ceramic-bearings",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_MreX7f"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "multi_column_RTL7Yd": {
+      "type": "multi-column",
+      "blocks": {
+        "spacer_qRP7nq": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
+        "item_8KV497": {
+          "type": "item",
+          "settings": {
+            "column_size": "1.5",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_CRcyjC": {
+          "type": "item",
+          "settings": {
+            "column_size": "1.5",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<h2>Why CeramicSpeed Full Ceramic Bearings?<\/h2><p>In response to increased demand and after careful consideration, we've witnessed several cases where Full Ceramic Bearings have proven to be the superior choice in the most challenging conditions. This acknowledgement, coupled with our customers growing interest, has led us to expand our product offerings with these exceptional bearings.<\/p><h3>Key Features:<\/h3><p>CeramicSpeed Full Hybrid Ceramic Bearings are high quality ceramic bearings – featuring Zirconium Dioxide (ZrO2) Bearing Rings for simplified design and ceramic balls made of Silicium Nitride for low friction and remarkable resistance.<\/p><p>Zirconium Dioxide (ZrO2) Bearing Rings: CeramicSpeed Full Hybrid Ceramic Bearings consist of Zirconium dioxide (ZrO2) bearing rings, which are an extremely tough ceramic material with heat expansion properties close to those of steel, simplifying the design of shaft- and housing fits.<\/p><p>Silicon Nitride Balls: our full hybrid ceramic hybrid bearings are fitted with superior Silicon Nitride balls, and boast the highest achievable surface finish and roundness. This combination of Zirconium rings and silicon nitride balls in ceramic bearings results in a bearing solution with a low friction coefficient, reduced mass, and remarkable resistance to water, chemicals, and other aggressive media. Moreover, the use of ceramic balls, such as Silicon Nitride, provides distinct advantages over traditional steel balls. Ceramic balls offer enhanced durability, corrosion resistance, and a lighter weight, contributing to overall improved performance and service life of the bearing system.<\/p><p><\/p><h2>Advantages of Full Ceramic Bearings:<\/h2><p>CeramicSpeed Full Ceramic Hybrid Bearings exhibit a range of exceptional qualities that make them highly suitable for a variety of demanding applications compaired to steel bearings. With a non-corrosive nature, these bearings can endure submersion in water or exposure to other aggressive media, ensuring their resilience in challenging conditions. Their heat-resistant property allows them to operate efficiently even in temperatures that surpass the limits of traditional steel bearings, guaranteeing optimal functionality in extreme environments.<\/p><p>Moreover, these bearings boast low friction characteristics, enabling them to function reliably with minimal or no lubrication. This quality not only contributes to their efficiency but also establishes them as a dependable solution in applications where traditional bearings might face challenges.<\/p><p>In addition to their mechanical attributes, these ceramic bearings with cermic balls are non-conductive and non-magnetic. This feature ensures that they do not interfere with electrical sensors or circuits, expanding their applicability across a wide range of industries and technological environments. Overall, the ceramic bearings provide a comprehensive solution, combining durability, resistance, efficiency, and versatility to meet the demands of diverse and rigorous operational settings<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "spacer_qRP7nq",
+        "item_8KV497",
+        "item_CRcyjC"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "faq_FzK8kE": {
+      "type": "faq",
+      "blocks": {
+        "item_tw7yUX": {
+          "type": "item",
+          "settings": {
+            "title": "What are the advantages of full ceramic bearings compared to traditional steel bearings?",
+            "content": "<p>Full Ceramic bearings offer several advantages, including much higher temperature resistance, reduced friction, and greater corrosion resistance. They also have a longer lifespan and require less maintenance, making them ideal for demanding industrial applications<\/p>"
+          }
+        },
+        "item_EGfit3": {
+          "type": "item",
+          "settings": {
+            "title": "How do full ceramic bearings affect the energy efficiency of machinery?",
+            "content": "<p>Full ceramic bearings contribute to improved energy efficiency in machinery by reducing friction and heat generation. This leads to lower energy consumption and extends the lifespan of both the bearings and the machinery.<\/p>"
+          }
+        },
+        "item_iBLAtj": {
+          "type": "item",
+          "settings": {
+            "title": "Are full ceramic bearings suitable for use in aggressive environments?",
+            "content": "<p>Absolutely. Full ceramic bearings are ideal for use in aggressive environments due to their<br\/>excellent corrosion resistance. They can withstand harmful chemicals, saltwater, and extreme temperatures, making them perfect for demanding industries.<\/p>"
+          }
+        },
+        "item_Fwa6hB": {
+          "type": "item",
+          "settings": {
+            "title": "What is the lifespan of ceramic bearings compared to steel bearings?",
+            "content": "<p>Full ceramic bearings typically have a longer lifespan than traditional steel bearings. They are less prone to corrosion, and their ability to withstand high temperatures without deformation significantly extends their service life.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_tw7yUX",
+        "item_EGfit3",
+        "item_iBLAtj",
+        "item_Fwa6hB"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "team_avatar_width": 350,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "#fafafa",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "#b2c9c9",
+        "accordion_text_color": ""
+      }
+    },
+    "multi_column_3L3wnJ": {
+      "type": "multi-column",
+      "blocks": {
+        "spacer_HtRLzn": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
+        "item_xk4DVT": {
+          "type": "item",
+          "settings": {
+            "column_size": "1.5",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<h2>Premium Ceramic Bearings for Industrial Use<\/h2><p>Whether utilized in maritime, aerospace, or high-temperature environments, CeramicSpeed’s Full Ceramic Bearings stand out as reliable, efficient, and long-lasting components. Their endurance and performance make them the preferred choice for industries where optimal functionality in demanding applications is non-negotiable.<\/p><p>CeramicSpeed Full Ceramic Hybrid Bearings are a cutting-edge bearing solution that surpasses traditional steel bearings in extreme conditions. With advantages such as reduced rolling resistance, excellent corrosion resistance, and superior performance, our bearings offer several benefits, ensuring longer life, enhanced reliability, and overall improved efficiency.<\/p><p>Furthermore, the exceptional properties of CeramicSpeed Full Ceramic Bearings make them well-suited for a wide range of applications across various industries. In the maritime sector, where exposure to corrosive saltwater and challenging operating conditions is commonplace, these bearings excel due to their remarkable corrosion resistance. <\/p><p>In high-temperature environments, CeramicSpeed Full Ceramic Bearings demonstrate resilience and stability, outperforming traditional steel bearings that may experience degradation under extreme heat. This makes them ideal for applications such as industrial machinery, automotive components, and other settings where elevated temperatures pose a challenge.<\/p><p>Moreover, the reduced rolling resistance of our Full Ceramic Hybrid Bearings translates into energy savings and improved performance. The combination of reduced friction and enhanced durability ensures that these bearings maintain their effectiveness over extended periods, minimizing maintenance requirements and downtime.<\/p><p>In summary, CeramicSpeed's Full Ceramic Bearings are not only reliable and efficient but also adaptable to diverse and demanding environments. Their versatility, combined with a focus on reduced rolling resistance, corrosion resistance, and overall enhanced performance, positions them as a top choice for industries where reliability and efficiency are critical factors.<\/p><p><\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "spacer_HtRLzn",
+        "item_xk4DVT"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "revealed_image_on_scroll_gXJCB6": {
+      "type": "revealed-image-on-scroll",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/box-ceramic-balls.jpg",
+        "subheading": "",
+        "title": "",
+        "background": "",
+        "text_color_inside": "#ffffff",
+        "text_color_outside": "#000000"
+      }
+    },
+    "multi_column_krPHwE": {
+      "type": "multi-column",
+      "blocks": {
+        "spacer_BPb4Lg": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
+        "item_wNmMgr": {
+          "type": "item",
+          "settings": {
+            "column_size": "1.5",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<h2>Further Explorations into Ceramic Bearings:<\/h2><p>Ceramic ball bearings have gained significant attention in various industries due to their exceptional properties. The incorporation of ceramic materials, particularly Zirconium Dioxide and Silicon Nitride, brings about notable advantages that extend beyond the features mentioned earlier.<\/p><p><\/p><ol><li><strong>Reduced Weight and Lower Rolling Resistance:<\/strong> Ceramic material is known for their lightweight properties and reduces the overall weight of the ceramic bearings. This not only benefits applications where weight is a critical factor but also contributes to lower rolling resistance, enhancing the efficiency of rotational motion.<\/li><li><strong>Advanced Thermal Properties:<\/strong> Ceramic materials exhibit, whether it is ceramic balls or ceramic rings excellent thermal properties, allowing ceramic bearings to perform exceptionally well under high-temperature conditions. This makes them suitable for applications where heat generation is a concern.<\/li><li><strong>Peek Cages for Enhanced Performance:<\/strong> Some CeramicSpeed Full Ceramic Bearings feature Peek cages, adding another layer of performance enhancement. Peek, a high-performance polymer, contributes to the overall reliability and durability of the bearings, especially in demanding and corrosive environments.<\/li><li><strong>Superior Performance in Challenging Environments:<\/strong> The combination of all these features makes CeramicSpeed Full Ceramic Bearings excel in challenging environments where traditional steel bearings might fall short. Industries where extreme conditions are commonplace, benefit significantly from the enhanced reliability and performance of these advanced bearings.<\/li><li><strong>Extensive Range of Applications<\/strong>: In environmentally challenging scenarios, the versatility of CeramicSpeed Ceramic Bearings makes them suitable for a broad range of applications. The consistent performance across different industries underscores their adaptability and reliability<\/li><\/ol><p>The introduction of CeramicSpeed Ceramic Bearings represents a paradigm shift in the world of bearings. The careful selection of materials, innovative design features, and the incorporation of advanced technologies result in bearings that offer not just a solution but a superior experience and better performance.<\/p><p>With a focus on high hardness, increased durability, reduced weight, and lower friction, CeramicSpeed Ceramic Bearings redefine the expectations for bearings in demanding applications. As industries continue to evolve, these bearings stand as a testament to the commitment to providing cutting-edge solutions that elevate performance, reliability, and efficiency.<\/p><p>Make the choice for excellence. Choose CeramicSpeed Full Ceramic Bearings for a future where precision meets durability, and performance goes beyond expectations<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "spacer_BPb4Lg",
+        "item_wNmMgr"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_DnEVQt": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/Full_Ceramic_RR.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    }
+  },
+  "order": [
+    "d1558fe2_1702295386",
+    "main",
+    "0659fb2d-39b4-41bf-8b91-a71609396e4e",
+    "1702283004224aa14b",
+    "e65cfb7b-4e35-4f5a-8add-534b407d9944",
+    "multi_column_CJD8CY",
+    "media_with_text_JczenW",
+    "multi_column_RTL7Yd",
+    "faq_FzK8kE",
+    "multi_column_3L3wnJ",
+    "revealed_image_on_scroll_gXJCB6",
+    "multi_column_krPHwE",
+    "image_with_text_overlay_DnEVQt"
+  ]
+}

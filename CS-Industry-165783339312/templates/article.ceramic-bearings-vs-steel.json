@@ -1,0 +1,375 @@
+{
+  "sections": {
+    "image_with_text_overlay_7Er7mb": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_tGKMcq": {
+          "type": "heading",
+          "settings": {
+            "text": "Ceramic Hybrid Bearings vs Steel Ball Bearings",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_tGKMcq"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "lg",
+        "image": "shopify:\/\/shop_images\/hammer-test-results.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "multi_column_aUzUQn": {
+      "type": "multi-column",
+      "blocks": {
+        "spacer_EPwfCQ": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
+        "item_4UKGzF": {
+          "type": "item",
+          "settings": {
+            "column_size": "1.5",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<h2>Unleashing the Power of Hybrid Bearings: <br\/>A Comprehensive Look at the Advantages of Ceramic Balls vs Steel Balls<\/h2><p>The realm of bearing technology has witnessed a paradigm shift with the emergence of ceramic hybrid bearings, a sophisticated amalgamation of ceramic balls and traditional steel races. This innovative integration stands in stark contrast to conventional all-steel bearings, offering a distinctive set of advantages that redefine performance benchmarks and extend the operational lifespan of these pivotal components. In this comparison, we delve into the nuanced differences between ceramic hybrid bearings and their conventional all-steel counterparts.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "spacer_EPwfCQ",
+        "item_4UKGzF"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "d1558fe2_1702295386": {
+      "type": "powr-popup",
+      "settings": {}
+    },
+    "main": {
+      "type": "main-article",
+      "disabled": true,
+      "settings": {
+        "allow_transparent_header": false,
+        "layout": "content_first",
+        "show_author": false,
+        "show_date": true,
+        "show_comments_count": false,
+        "show_share_buttons": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px"
+      }
+    },
+    "1702283004224aa14b": {
+      "type": "apps",
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "slideshow_Kf9NQh": {
+      "type": "slideshow",
+      "blocks": {
+        "image_b3rwXQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Products.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_b3rwXQ"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "sm",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "9ae619e5-14e5-420b-a037-318a460f076b": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18733505282352__9ae619e5-14e5-420b-a037-318a460f076b-1681383620ef02c3d1-1": {
+          "type": "heading",
+          "settings": {
+            "text": "{{ article.metafields.custom.overskrift_til_artikel.value }}",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "bdaba691-0ec8-4c02-9d05-1cb7060c8313": {
+          "type": "richtext",
+          "settings": {
+            "content": "{{ article.metafields.custom.indledningstekst | metafield_tag }}",
+            "text_align": "center"
+          }
+        },
+        "template--18733505282352__9ae619e5-14e5-420b-a037-318a460f076b-1681383620ef02c3d1-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "4 to 8 times longer life than steel"
+          }
+        },
+        "63fbbe43-2176-4541-a52a-a37150976580": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Hybrid ball bearings are proven to last 4 to 8 times longer than steel bearings – in some cases even longer. For your customers, this eliminates frequent replacements, production stops or unforeseen breakdowns due to bearing failure. Hybrid bearings also give your customer a number of distinct advantages, not least a massive reduction in MRO spending.<\/p>",
+            "text_align": "center"
+          }
+        },
+        "bc4089b3-adf8-4818-8283-d2a4cfade653": {
+          "type": "heading",
+          "settings": {
+            "text": "{{ article.metafields.custom.underrubrik.value }}",
+            "heading_tag": "h5",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "3610b4ac-3634-4205-97d4-1b4ad47e37c0": {
+          "type": "richtext",
+          "settings": {
+            "content": "{{ article.metafields.custom.broedtekst | metafield_tag }}",
+            "text_align": "center"
+          }
+        },
+        "63d92438-53ab-4e5a-982d-f9857e83245e": {
+          "type": "heading",
+          "settings": {
+            "text": "{{ article.metafields.custom.underrubrik1.value }}",
+            "heading_tag": "h5",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "342ea9b6-3c77-4711-8176-e14710bf9c97": {
+          "type": "richtext",
+          "settings": {
+            "content": "{{ article.metafields.custom.broedtekst_2 | metafield_tag }}",
+            "text_align": "center"
+          }
+        },
+        "f78ab3f2-0bfc-4ec9-90b9-2600fe6a8fc2": {
+          "type": "heading",
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h5",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "e20a2d12-3902-4b74-afce-d196c3a63734": {
+          "type": "richtext",
+          "settings": {
+            "content": "{{ article.metafields.custom.broedtekst_3 | metafield_tag }}",
+            "text_align": "center"
+          }
+        },
+        "9eefc1ca-f0fd-4b8f-9f95-edeb969d65a3": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "{{ article.metafields.custom.knap_tekst | metafield_text }}",
+            "url": "{{ article.metafields.custom.knaplink.value }}",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18733505282352__9ae619e5-14e5-420b-a037-318a460f076b-1681383620ef02c3d1-1",
+        "bdaba691-0ec8-4c02-9d05-1cb7060c8313",
+        "template--18733505282352__9ae619e5-14e5-420b-a037-318a460f076b-1681383620ef02c3d1-0",
+        "63fbbe43-2176-4541-a52a-a37150976580",
+        "bc4089b3-adf8-4818-8283-d2a4cfade653",
+        "3610b4ac-3634-4205-97d4-1b4ad47e37c0",
+        "63d92438-53ab-4e5a-982d-f9857e83245e",
+        "342ea9b6-3c77-4711-8176-e14710bf9c97",
+        "f78ab3f2-0bfc-4ec9-90b9-2600fe6a8fc2",
+        "e20a2d12-3902-4b74-afce-d196c3a63734",
+        "9eefc1ca-f0fd-4b8f-9f95-edeb969d65a3"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "content_width": "medium",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_6gGTKD": {
+      "type": "multi-column",
+      "blocks": {
+        "spacer_zU9YzR": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
+        "item_JBk7TX": {
+          "type": "item",
+          "settings": {
+            "column_size": "1.5",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<h3>Advantages of Ceramic Hybrid Bearings:<br\/><\/h3><ol><li><strong>Reduced Friction and Heat Generation:<\/strong><br\/>Ceramic Hybrid: Ceramic balls' smoother surface finish reduces friction between the balls and races, leading to lower heat generation during operation.<br\/>Conventional Steel: Steel bearings exhibit higher friction, resulting in increased heat generation and potential wear and tear.<br\/><br\/><\/li><li><strong>Enhanced Durability:<\/strong><br\/>Ceramic Hybrid: Inherent hardness of ceramic materials enhances resistance to wear and deformation, providing a longer lifespan.<br\/>Conventional Steel: Prone to wear and deformation, steel bearings may have a comparatively shorter operational lifespan, especially in high-speed applications.<br\/><br\/><\/li><li><strong>Lightweight Design:<\/strong><br\/>Ceramic Hybrid:<strong> <\/strong>Ceramic materials are significantly lighter than steel, contributing to an overall reduction in weight for enhanced efficiency.<br\/>Conventional Steel: Conventional bearings may be heavier due to the weight of steel components, impacting applications where weight is a critical factor.<br\/><br\/><\/li><li><strong>Corrosion Resistance:<\/strong><br\/>Ceramic Hybrid: Ceramics' high resistance to corrosion makes hybrid bearings less susceptible to rust and degradation.<br\/>Conventional Steel: Steel bearings are prone to rust, making them less suitable for applications in harsh environments or those involving exposure to moisture.<br\/><br\/><\/li><li><strong>Lower Frictional Torque:<\/strong><br\/>Ceramic Hybrid: Reduced friction results in lower frictional torque during rotation, crucial for precision applications.<br\/>Conventional Steel: Higher frictional torque in steel bearings may hinder precise and smooth movement, particularly in applications requiring precision.<br\/><br\/><\/li><li><strong>Higher Operating Speeds:<\/strong><br\/>Ceramic Hybrid: The combination of reduced friction, lower heat generation, and enhanced durability allows for higher operating speeds.<br\/>Conventional Steel: Steel bearings may have limitations in high-speed performance due to increased friction and heat.<br\/><br\/><\/li><li><strong>Insulating Properties:<\/strong><br\/>Ceramic Hybrid: Ceramic materials provide electrical insulation, safeguarding against potential damage from electrical currents.<br\/>Conventional Steel: Lack of insulating properties in steel bearings may make them susceptible to damage in electrical machinery.<br\/><br\/><\/li><li><strong>Temperature Stability:<\/strong><br\/>Ceramic Hybrid: Exhibits better stability across a range of temperatures, making them suitable for extreme conditions.<br\/>Conventional Steel: Steel bearings may experience challenges in temperature variations, limiting their effectiveness in extreme environments.<br\/><br\/>In conclusion, the comparison between ceramic hybrid bearings and conventional all-steel bearings reveals a host of advantages for the former, including reduced friction, enhanced durability, lightweight design, corrosion resistance, lower frictional torque, higher operating speeds, electrical insulation, and temperature stability. These distinctions position ceramic hybrid bearings as a superior choice, particularly in applications demanding advanced performance and an extended operational life for rotating machinery.<br\/><\/li><\/ol>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "spacer_zU9YzR",
+        "item_JBk7TX"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_eqXR9c": {
+      "type": "video",
+      "blocks": {
+        "play_FYKVcE": {
+          "type": "play",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "play_FYKVcE"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/CeramicSpeed Hammer test.mp4",
+        "external_video_url": "",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "media_with_text_7aFfGD": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_ePMfC6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CeramicSpeed_Products_1630_def6eb94-6f34-40d2-9442-2a639586b120.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h1>Premium Silicon Nitride Balls: Elevating Bearing Performance<\/h1><p><br\/>All CeramicSpeed Balls are of the highest quality Silicon Nitride, featuring the highest achievable surface finish and roundness. The quality of the balls is what determines the performance and lifetime of a bearing. The CeramicSpeed Balls feature unparalleled impact strength, smoothness, roundness, and brittleness, proven to be superior to both to other ceramic balls and standard steel balls.<\/p>",
+            "link_text": "Learn more",
+            "link_url": "shopify:\/\/pages\/ceramic-balls",
+            "background": "#fafafa",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_ePMfC6"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "none"
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_7Er7mb",
+    "multi_column_aUzUQn",
+    "d1558fe2_1702295386",
+    "main",
+    "1702283004224aa14b",
+    "slideshow_Kf9NQh",
+    "9ae619e5-14e5-420b-a037-318a460f076b",
+    "multi_column_6gGTKD",
+    "video_eqXR9c",
+    "media_with_text_7aFfGD"
+  ]
+}

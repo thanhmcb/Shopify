@@ -1,0 +1,215 @@
+{
+  "sections": {
+    "00f73259-ec92-48e6-93cb-c766bda750c4": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18733505282352__00f73259-ec92-48e6-93cb-c766bda750c4-16818900351aba34e3-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/f991638abdce0c4565190a7b08f62365f12c3c45_33cc6e7a-d04c-454c-99ae-134bc33b9230.webp",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center-start text-start",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "",
+            "title": "Certificates",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18733505282352__00f73259-ec92-48e6-93cb-c766bda750c4-16818900351aba34e3-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "md",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "main": {
+      "type": "main-blog",
+      "disabled": true,
+      "settings": {
+        "allow_transparent_header": false,
+        "content": "<p>Get access to our latest news by signing up for our newsletter.<\/p>",
+        "show_newsletter_form": true,
+        "show_tags": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "button_background": "",
+        "button_text_color": "",
+        "articles_per_page": 6,
+        "feature_first_article": true,
+        "feature_article_background": "",
+        "feature_article_text_color": "",
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true
+      }
+    },
+    "20adbcda-16e8-4307-ae0d-994fa70f5a36": {
+      "type": "blog-posts",
+      "disabled": true,
+      "blocks": {
+        "template--18733505282352__20adbcda-16e8-4307-ae0d-994fa70f5a36-168145500942078b87-0": {
+          "type": "blog",
+          "settings": {
+            "blog": "news",
+            "posts_count": 2,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18733505282352__20adbcda-16e8-4307-ae0d-994fa70f5a36-168145500942078b87-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_excerpt": false,
+        "show_date": false,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "Catalogs",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "ebe176fd-3621-47d8-a282-141e1b6016fc": {
+      "type": "blog-posts",
+      "disabled": true,
+      "blocks": {
+        "a2824080-8062-4aa3-b7dc-cdb6dc5ddac4": {
+          "type": "blog",
+          "settings": {
+            "blog": "case-stories",
+            "posts_count": 2,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "a2824080-8062-4aa3-b7dc-cdb6dc5ddac4"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_excerpt": false,
+        "show_date": false,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "Catalogs",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "50b873dc-22d1-406d-a8de-c9f575ff88a8": {
+      "type": "blog-posts",
+      "disabled": true,
+      "blocks": {
+        "201d6fd7-8f40-4ee3-ba3d-ba35fd001183": {
+          "type": "blog",
+          "settings": {
+            "blog": "product-overview",
+            "posts_count": 2,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "201d6fd7-8f40-4ee3-ba3d-ba35fd001183"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_excerpt": false,
+        "show_date": false,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "Catalogs",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "52b96ecd-6bda-4831-8cd1-5f84dd22e331": {
+      "type": "blog-posts",
+      "disabled": true,
+      "blocks": {
+        "ec776cdc-517c-44c0-a082-aeb26b7ee53e": {
+          "type": "blog",
+          "settings": {
+            "blog": "one-pagers",
+            "posts_count": 2,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "ec776cdc-517c-44c0-a082-aeb26b7ee53e"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_excerpt": false,
+        "show_date": false,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "Catalogs",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "00f73259-ec92-48e6-93cb-c766bda750c4",
+    "main",
+    "20adbcda-16e8-4307-ae0d-994fa70f5a36",
+    "ebe176fd-3621-47d8-a282-141e1b6016fc",
+    "50b873dc-22d1-406d-a8de-c9f575ff88a8",
+    "52b96ecd-6bda-4831-8cd1-5f84dd22e331"
+  ]
+}

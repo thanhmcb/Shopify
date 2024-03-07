@@ -1,0 +1,722 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "3e7dc412-585b-499a-9f9f-d213ad19b2ae": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18735408939312__3e7dc412-585b-499a-9f9f-d213ad19b2ae-168138351266b6bd17-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ceramic_Balls.jpg",
+            "content_max_width": 400,
+            "mobile_text_position": "place-self-center-start text-start",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "",
+            "title": "Ceramic Balls",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18735408939312__3e7dc412-585b-499a-9f9f-d213ad19b2ae-168138351266b6bd17-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "md",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "1702285444be74adcf": {
+      "type": "apps",
+      "blocks": {
+        "c25fc978-0865-418b-897b-ee49e1b00779": {
+          "type": "shopify:\/\/apps\/ez-add-breadcrumbs\/blocks\/app-block\/457dc635-4337-4779-8f31-361dd27778c8",
+          "settings": {
+            "show_breadcrumbs": true,
+            "color": "#000000",
+            "horizontal_alignment": "left",
+            "fontsize": 15,
+            "breadcrumb_font": "din_next_n4",
+            "marginleft": 0,
+            "margintop": 0,
+            "marginright": 0,
+            "marginbottom": 0,
+            "show_home_link": true,
+            "home_page": "Home",
+            "home_url": "\/",
+            "all_uppercase": false,
+            "use_slider": false,
+            "article_use_tag": true,
+            "separator": "<span> › <\/span>",
+            "css_tablet": "\/* font-family: Helvetica; *\/",
+            "css_mobile": "\/* font-family: Helvetica; *\/",
+            "custom_css": "\/* font-family: Helvetica; *\/",
+            "css_last_crumb": "\/* font-weight: medium; *\/",
+            "css_hover": "\/* text-decoration-line: underline; *\/",
+            "menus": "*"
+          }
+        }
+      },
+      "block_order": [
+        "c25fc978-0865-418b-897b-ee49e1b00779"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "3c871ad7-a3c3-4ecd-a069-b8f188b0c658": {
+      "type": "multi-column",
+      "blocks": {
+        "cb94d05c-29e2-4b6f-8278-9c930fc07188": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
+        "template--19282231427376__3c871ad7-a3c3-4ecd-a069-b8f188b0c658-1688633319f4e5d186-0": {
+          "type": "item",
+          "settings": {
+            "column_size": "1.5",
+            "title": "Tougher Than the Rest",
+            "heading_tag": "h2",
+            "content": "<p>All CeramicSpeed Balls are of the highest quality Silicon Nitride, featuring the highest achievable surface finish and roundness. The quality of the balls is what determines the performance and lifetime of a bearing. The CeramicSpeed Balls feature unparalleled impact strength, smoothness, roundness, and brittleness, proven to be superior to both to other ceramic balls and standard steel balls. <\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--19282231427376__3c871ad7-a3c3-4ecd-a069-b8f188b0c658-1688633319f4e5d186-1": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "column_size": "3",
+            "title": "Tougher Than the Rest",
+            "heading_tag": "h2",
+            "content": "<p>All CeramicSpeed Balls are of the highest quality Grade 3 Silicon Nitride, featuring the highest achievable surface finish and roundness. The quality of the balls is what determines the performance and lifetime of a bearing. The CeramicSpeed Balls feature unparalleled impact strength, smoothness, roundness, and brittleness, proven to be superior to both ceramic and standard steel balls. The hammer test below speaks for itself.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--19282231427376__3c871ad7-a3c3-4ecd-a069-b8f188b0c658-1688633319f4e5d186-2": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "cb94d05c-29e2-4b6f-8278-9c930fc07188",
+        "template--19282231427376__3c871ad7-a3c3-4ecd-a069-b8f188b0c658-1688633319f4e5d186-0",
+        "template--19282231427376__3c871ad7-a3c3-4ecd-a069-b8f188b0c658-1688633319f4e5d186-1",
+        "template--19282231427376__3c871ad7-a3c3-4ecd-a069-b8f188b0c658-1688633319f4e5d186-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "7a7b3a1b-2109-49a3-bdd6-a39169c57352": {
+      "type": "hot-spots",
+      "blocks": {
+        "template--19282231427376__7a7b3a1b-2109-49a3-bdd6-a39169c57352-1687936605f0357bdb-0": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 49,
+            "vertical_position": 83,
+            "horizontal_position_mobile": 37,
+            "vertical_position_mobile": 70,
+            "icon_width": 28,
+            "title": "Significantly lighter",
+            "content": "<p>Ceramic balls are significantly lighter than steel balls which reduces the centrifugal load on the raceway as the bearing spins.<\/p>"
+          }
+        },
+        "template--19282231427376__7a7b3a1b-2109-49a3-bdd6-a39169c57352-1687936605f0357bdb-1": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 49,
+            "vertical_position": 12,
+            "horizontal_position_mobile": 62,
+            "vertical_position_mobile": 14,
+            "icon_width": 32,
+            "title": "Highest Quality",
+            "content": "<p>Our ceramic balls are made of silicon nitride, featuring the highest achievable surface finish and roundness.<\/p>"
+          }
+        },
+        "template--19282231427376__7a7b3a1b-2109-49a3-bdd6-a39169c57352-1687936605f0357bdb-2": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 68,
+            "vertical_position": 47,
+            "horizontal_position_mobile": 83,
+            "vertical_position_mobile": 75,
+            "icon_width": 40,
+            "title": "100% Smoother",
+            "content": "<p>More than 100% smoother than other ceramic balls typically seen in the market.<\/p>"
+          }
+        },
+        "2dc1c999-df72-4ecf-bf7b-012538fdd1ed": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 29,
+            "vertical_position": 47,
+            "horizontal_position_mobile": 6,
+            "vertical_position_mobile": 38,
+            "icon_width": 32,
+            "title": "Unmatched Strength",
+            "content": "<p>15% harder and take 99% higher loads.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19282231427376__7a7b3a1b-2109-49a3-bdd6-a39169c57352-1687936605f0357bdb-0",
+        "template--19282231427376__7a7b3a1b-2109-49a3-bdd6-a39169c57352-1687936605f0357bdb-1",
+        "template--19282231427376__7a7b3a1b-2109-49a3-bdd6-a39169c57352-1687936605f0357bdb-2",
+        "2dc1c999-df72-4ecf-bf7b-012538fdd1ed"
+      ],
+      "settings": {
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/Silicon_nitride_ball.png",
+        "img_width": 55,
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "desktop_text_position": "place-self-center-end text-end",
+        "image_background": "#fafafa",
+        "image_background_gradient": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "overlay_text_color": "#ffffff",
+        "overlay_button_background": "",
+        "overlay_button_text_color": "",
+        "hot_spot_dot_background": "#ffffff",
+        "hot_spot_dot_text_color": "#000000",
+        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_text_color": "#000000",
+        "hot_spot_content_opacity": 90,
+        "hot_spot_content_blur_radius": 3
+      }
+    },
+    "eaef8f1f-83c9-4c07-9337-5f94645de7b2": {
+      "type": "custom-html",
+      "custom_css": [
+        "table td {border: 1px solid rgb(var(--border-color)); padding: 20px 10px; padding-left: 20px;"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<table class=\"ccpops-table\" style=\"border-collapse: collapse; width: 100.059%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 28.4749%;\"> <\/td>\n<td style=\"width: 21.5652%; text-align: center;\">Steel Balls<\/td>\n<td style=\"width: 25.02%; text-align: center;\">CeramicSpeed Silicon Nitride Balls<\/td>\n<td style=\"width: 25.02%; text-align: center;\">Difference<\/td>\n<\/tr>\n<tr>\n<td style=\"width: 28.4749%;\">Density [g\/cm^3]<\/td>\n<td style=\"width: 21.5652%; text-align: center;\">7.6<\/td>\n<td style=\"width: 25.02%; text-align: center;\">3.2<\/td>\n<td style=\"width: 25.02%; text-align: center;\">58% lighter<\/td>\n<\/tr>\n<tr>\n<td style=\"width: 28.4749%;\">Hardness (Vickers)<\/td>\n<td style=\"width: 21.5652%; text-align: center;\">700<\/td>\n<td style=\"width: 25.02%; text-align: center;\">1600<\/td>\n<td style=\"width: 25.02%; text-align: center;\">128% harder<\/td>\n<\/tr>\n<tr>\n<td style=\"width: 28.4749%;\">Elastic modulus [GPa)<\/td>\n<td style=\"width: 21.5652%; text-align: center;\">190<\/td>\n<td style=\"width: 25.02%; text-align: center;\">310<\/td>\n<td style=\"width: 25.02%; text-align: center;\">63% stiffer<\/td>\n<\/tr>\n<tr>\n<td style=\"width: 28.4749%;\">Thermal expansion coefficient [µm]<\/td>\n<td style=\"width: 21.5652%; text-align: center;\">12.3<\/td>\n<td style=\"width: 25.02%; text-align: center;\">3.7<\/td>\n<td style=\"width: 25.02%; text-align: center;\">-70%<\/td>\n<\/tr>\n<tr>\n<td style=\"width: 28.4749%;\">Max usage temperature [ºC]<\/td>\n<td style=\"width: 21.5652%; text-align: center;\">320<\/td>\n<td style=\"width: 25.02%; text-align: center;\">1000<\/td>\n<td style=\"width: 25.02%; text-align: center;\">+680<\/td>\n<\/tr>\n<tr>\n<td style=\"width: 28.4749%;\">Surface finish grade [micron]<\/td>\n<td style=\"width: 21.5652%; text-align: center;\">0.02<\/td>\n<td style=\"width: 25.02%; text-align: center;\">0.005<\/td>\n<td style=\"width: 25.02%; text-align: center;\">400% smoother<\/td>\n<\/tr>\n<tr>\n<td style=\"width: 28.4749%;\">Life wear resistance<\/td>\n<td style=\"width: 21.5652%; text-align: center;\">-<\/td>\n<td style=\"width: 25.02%; text-align: center;\">&lt;10x<\/td>\n<td style=\"width: 25.02%; text-align: center;\">&lt;10x<\/td>\n<\/tr>\n<tr>\n<td style=\"width: 28.4749%;\">Electrical resistivity [Ohm\/cm]<\/td>\n<td style=\"width: 21.5652%; text-align: center;\">10^-9<\/td>\n<td style=\"width: 25.02%; text-align: center;\">10^14<\/td>\n<td style=\"width: 25.02%; text-align: center;\">10^16=insulator<br>0=superconductor<\/td>\n<\/tr>\n<\/tbody>\n<\/table>\n<p> <\/p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "835d620c-058b-4311-99f2-cdbb7f6353b2": {
+      "type": "multi-column",
+      "blocks": {
+        "49601309-4545-4972-b18c-efe396e113ba": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
+        "129ef92b-9328-4ca0-9d0f-881dc244116a": {
+          "type": "item",
+          "settings": {
+            "column_size": "1.5",
+            "title": "Superior to Steel",
+            "heading_tag": "h2",
+            "content": "<p>The CeramicSpeed Balls are 15% harder, take 99% higher loads, and are more than 100% smoother than other ceramic balls typically seen in the market. Ceramic balls can be found in a variety of materials. The best material available - and the one used for our bearings - is silicon nitride (Si3N4).<\/p><p>Ceramic balls are superior to steel balls in all physical measurable properties. This ensures many benefits in the bearing: The increased hardness of the ball means that the contact area between the ball and the track is reduced leading to lower friction, higher potential speeds, and less energy waste. The hardness and the extremely smooth surface also mean that the balls are far more durable than steel balls. Ceramic balls are also significantly lighter than steel balls which reduces the centrifugal load on the raceway as the bearing spins, and wear and tear are significantly reduced, keeping the bearing in top condition for longer. As an added benefit the bearing can operate at much higher RPMs - up to 50 % higher - giving the possibility of using long-life bearings in demanding high-speed applications, such as machine tool spindles and turbomachinery.<\/p><p>One of the main advantages of ceramic balls over steel ones is their low friction coefficient - this reduces the need for lubrication quite significantly.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "20d88818-181b-4482-aabd-3693bd2bac02": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
+        "132c83e0-4c66-478d-b480-811322786b63": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "4"
+          }
+        },
+        "af10cba3-2b23-4c0a-82ff-73e22e3587ef": {
+          "type": "item",
+          "settings": {
+            "video": "{{ page.metafields.custom.video.value }}",
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "49601309-4545-4972-b18c-efe396e113ba",
+        "129ef92b-9328-4ca0-9d0f-881dc244116a",
+        "20d88818-181b-4482-aabd-3693bd2bac02",
+        "132c83e0-4c66-478d-b480-811322786b63",
+        "af10cba3-2b23-4c0a-82ff-73e22e3587ef"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "#000000",
+        "background_gradient": "",
+        "text_color": "#fafafa"
+      }
+    },
+    "31699319-219c-401e-bc9c-ad6e9b7807a9": {
+      "type": "multi-column",
+      "blocks": {
+        "b5c9e87a-5f6a-4639-a749-d7352a35d1d2": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "8561a7da-c861-4a5a-8bef-fa8cdc449758": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "b5c9e87a-5f6a-4639-a749-d7352a35d1d2",
+        "8561a7da-c861-4a5a-8bef-fa8cdc449758"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "03f50450-44f6-4a20-9ce2-cefab2ba3a12": {
+      "type": "multi-column",
+      "blocks": {
+        "f6de567f-c58f-4267-b483-30e434b1ddbe": {
+          "type": "item",
+          "settings": {
+            "column_size": "1.5",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<h2>Unique Properties<\/h2><p>The smoothness and hardness of the CeramicSpeed Balls are unique. After 600 hours of testing, the CeramicSpeed Ball is still in perfect condition whereas the surface of the other ceramic balls is rough and bumpy after only 10 hours of testing. A rough ball creates increased friction in the bearing and quickly wears down the steel races.<\/p><p>The picture below shows two ¼” (6.35 mm) balls. The one to the left is a CeramicSpeed Ball and the one to the right is a standard steel ball. We applied the same pressure to both balls and the result is clear; the steel ball simply cracked under the load, while the CeramicSpeed Ball is 100% intact and perfectly usable.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "03ccd9c1-3f2b-4c7f-83d7-9e00243951fd": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hammer-test-results_ub.png",
+            "column_size": "4",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "f6de567f-c58f-4267-b483-30e434b1ddbe",
+        "03ccd9c1-3f2b-4c7f-83d7-9e00243951fd"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "a9fcf6c5-d491-4095-aa0b-34ce014ddbeb": {
+      "type": "multi-column",
+      "blocks": {
+        "0e54fe57-8f17-4bd0-9c3e-b87b820e8344": {
+          "type": "item",
+          "settings": {
+            "column_size": "1.5",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<h2>Less Lubrication<\/h2><p>Without lubrication, any bearing will break down quickly. Direct contact between the steel ball and the steel raceway will lead the bearing to fail rapidly. Steel against steel has a friction coefficient of 0.8, whereas steel against ceramic has a coefficient of 0.2 - or even lower if the races are coated. As a result, ceramic balls eliminate the problem of two identical materials breaking each other down.<\/p><p>The hardness and finish quality of the ceramic balls also serves to polish out any damage to the races, whereas this would lead to further breakdown and failure in steel bearings.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "2b00ca4e-debe-4005-8f5a-c4e536672511": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/e424cc6c991c3905351f913b1084bb89b4679938_8cbbad76-6d44-40bd-8b9f-20a703240e54.webp",
+            "column_size": "4",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "0e54fe57-8f17-4bd0-9c3e-b87b820e8344",
+        "2b00ca4e-debe-4005-8f5a-c4e536672511"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "f7c2f44e-0b98-411e-b7c3-ba48c907b181": {
+      "type": "multi-column",
+      "blocks": {
+        "5e7fef5a-e417-4f19-b989-a3a81f28620a": {
+          "type": "item",
+          "settings": {
+            "column_size": "1.5",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<h2>Material Lab<\/h2><p>To ensure the highest quality level possible we have our own material lab with the latest state-of-the-art tools to analyze both steel and ceramic material down to the smallest detail.<\/p><p>In our material lab, we are able to quickly sample extremely hard ceramic materials and test critical specifications like hardness and toughness in a matter of minutes as well as identify and quantify subsurface material defects on a microscopic level - making it possible for us always to staying at the forefront of both quality and cost -  all to the benefit of our customers.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "59503611-ffa2-4e8f-bc4a-768f289682b0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/94898386f0a2c69a108bd252c707b72ad6824a25.webp",
+            "column_size": "4",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "5e7fef5a-e417-4f19-b989-a3a81f28620a",
+        "59503611-ffa2-4e8f-bc4a-768f289682b0"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "46d23284-7b78-4410-9e31-06d3a2f50d71": {
+      "type": "multi-column",
+      "blocks": {
+        "11153fb2-91c2-46cd-a224-0f399e641830": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9abd72e2f48cada80ee1e7c5dce5b3353b5aca0a.webp",
+            "column_size": "3",
+            "title": "4-8 times longer lifetime",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "11e3faf9-afd3-4de4-809d-9fd610f012b2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0d0ac81c7179ab25905cea0a0b507d9f6bf454c5.webp",
+            "column_size": "3",
+            "title": "Higher Speed Capability",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "11153fb2-91c2-46cd-a224-0f399e641830",
+        "11e3faf9-afd3-4de4-809d-9fd610f012b2"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "7647fb8a-7d5c-4149-8a81-524827856e62": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "template--18735408939312__7647fb8a-7d5c-4149-8a81-524827856e62-1681386433e228e7ce-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Premier_is_freezing_tunnel.png",
+            "image_rotation_degrees": -5,
+            "subheading": "",
+            "title": "",
+            "content": "<p>The lifetime of a CeramicSpeed Bearing is 4-8 times longer than a traditional bearing. One of our customers “Premier Is” has achieved an increase of more than 4 times in bearing life, while also reducing downtime and operational costs just by a simple switch to CeramicSpeed Hybrid Bearings. By replacing standard bearings with CeramicSpeed Hybrid Bearings the company also decreased their unplanned production shutdowns remarkably. Read the entire customer case <a href=\"https:\/\/www.ceramicspeed.com\/media\/5651\/case_xterme_premier-is_en.pdf\" target=\"_blank\" title=\"Case Xterme Premier Is EN\">here. <\/a><\/p><p>Labor and other costs associated with replacing worn-out bearings often exceed the price of the actual bearing several times over. Multiply these costs 4-8 times, and you can calculate the potential for reducing costs by replacing traditional bearings with CeramicSpeed Bearings. <\/p><p>Are you curious about how much you can save on your maintenance cost by replacing standard bearings? Contact us <a href=\"https:\/\/www.ceramicspeed.com\/en\/industry\/contact-industry\/\" target=\"_blank\" title=\"Contact Industry\">here<\/a> and let us help you.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18735408939312__7647fb8a-7d5c-4149-8a81-524827856e62-1681386433e228e7ce-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "c276015b-9d49-4d60-a9d9-552c709015de": {
+      "type": "hot-spots-custom",
+      "blocks": {
+        "e5e0b466-97b9-49a8-a6ae-0fcb8aeaf0a9": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": "100",
+            "vertical_position": "10",
+            "horizontal_position_mobile": "30",
+            "vertical_position_mobile": "30",
+            "icon_width": 84,
+            "title": "Feature name",
+            "content": "<p>Share useful information about your product features.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "e5e0b466-97b9-49a8-a6ae-0fcb8aeaf0a9"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "image": "shopify:\/\/shop_images\/Wgoce36N.png",
+        "img_width": 30,
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "desktop_text_position": "place-self-start text-start",
+        "image_background": "",
+        "image_background_gradient": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "overlay_text_color": "#ffffff",
+        "overlay_button_background": "",
+        "overlay_button_text_color": "",
+        "hot_spot_dot_background": "#ffffff",
+        "hot_spot_dot_text_color": "#000000",
+        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_text_color": "#000000",
+        "hot_spot_content_opacity": 90,
+        "hot_spot_content_blur_radius": 3
+      }
+    },
+    "9181fe91-e494-4106-9ffb-70dbff8695aa": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "template--19282231427376__9181fe91-e494-4106-9ffb-70dbff8695aa-168872534448a659d6-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hammer-test-results_ub.png",
+            "icon": "none",
+            "icon_width": 44,
+            "title": "Unique Properties",
+            "content": "<p>The smoothness and hardness of the CeramicSpeed Balls are unique. After 600 hours of testing, the CeramicSpeed Ball is still in perfect condition whereas the surface of the other ceramic balls is rough and bumpy after only 10 hours of testing. A rough ball creates increased friction in the bearing and quickly wears down the steel races.<\/p><p>The picture to the right shows two ¼” (6.35 mm) balls. The one to the left is a CeramicSpeed Ball and the one to the right is a standard steel ball. We applied the same pressure to both balls and the result is clear; the steel ball simply cracked under the load, while the CeramicSpeed Ball is 100% intact and perfectly usable.<\/p>"
+          }
+        },
+        "template--19282231427376__9181fe91-e494-4106-9ffb-70dbff8695aa-168872534448a659d6-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CeramicSpeed_Products_1389.jpg",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Less Lubrication",
+            "content": "<p>Without lubrication, any bearing will break down quickly. Direct contact between the steel ball and the steel raceway will lead the bearing to fail rapidly. Steel against steel has a friction coefficient of 0.8, whereas steel against ceramic has a coefficient of 0.2 - or even lower if the races are coated. As a result, ceramic balls eliminate the problem of two identical materials breaking each other down.<\/p><p>The hardness and finish quality of the ceramic balls also serves to polish out any damage to the races, whereas this would lead to further breakdown and failure in steel bearings.<\/p>"
+          }
+        },
+        "a32279dc-d8c6-412d-80ea-905c28f8b379": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Lina_Vaca_41496f0b-3bb4-4908-9c46-6ea6ff29a41a.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Material Lab",
+            "content": "<p>To ensure the highest quality level possible we have our own material lab with the latest state-of-the-art tools to analyze both steel and ceramic material down to the smallest detail.<\/p><p>In our material lab, we are able to quickly sample extremely hard ceramic materials and test critical specifications like hardness and toughness in a matter of minutes as well as identify and quantify subsurface material defects on a microscopic level - making it possible for us always to staying at the forefront of both quality and cost -  all to the benefit of our customers.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19282231427376__9181fe91-e494-4106-9ffb-70dbff8695aa-168872534448a659d6-0",
+        "template--19282231427376__9181fe91-e494-4106-9ffb-70dbff8695aa-168872534448a659d6-1",
+        "a32279dc-d8c6-412d-80ea-905c28f8b379"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "4b1e34fd-01fa-4840-9073-5bfe2ec88f13": {
+      "type": "revealed-image-on-scroll",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/box-ceramic-balls.jpg",
+        "subheading": "",
+        "title": "Tougher Than the Rest",
+        "background": "",
+        "text_color_inside": "#ffffff",
+        "text_color_outside": "#000000"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3e7dc412-585b-499a-9f9f-d213ad19b2ae",
+    "1702285444be74adcf",
+    "3c871ad7-a3c3-4ecd-a069-b8f188b0c658",
+    "7a7b3a1b-2109-49a3-bdd6-a39169c57352",
+    "eaef8f1f-83c9-4c07-9337-5f94645de7b2",
+    "835d620c-058b-4311-99f2-cdbb7f6353b2",
+    "31699319-219c-401e-bc9c-ad6e9b7807a9",
+    "03f50450-44f6-4a20-9ce2-cefab2ba3a12",
+    "a9fcf6c5-d491-4095-aa0b-34ce014ddbeb",
+    "f7c2f44e-0b98-411e-b7c3-ba48c907b181",
+    "46d23284-7b78-4410-9e31-06d3a2f50d71",
+    "7647fb8a-7d5c-4149-8a81-524827856e62",
+    "c276015b-9d49-4d60-a9d9-552c709015de",
+    "9181fe91-e494-4106-9ffb-70dbff8695aa",
+    "4b1e34fd-01fa-4840-9073-5bfe2ec88f13"
+  ]
+}

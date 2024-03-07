@@ -1,0 +1,55 @@
+<!-- /sections/collections.liquid -->
+<free-shipping-drawer
+  {% if request.design_mode %}handle-section-events{% endif %}
+  class="drawer custom-drawer"
+  id="free-shipping-drawer">
+  <div class="custom-drawer__top">
+    <div class="h5">{{ section.settings.drawer-heading }}</div>
+    <button
+      type="button"
+      is="close-button"
+      class="drawer__close-icon">
+      {%- render 'icon' with 'close' -%}
+    </button>
+
+  </div>
+
+  <div class="custom-drawer__content">
+    {{ section.settings.drawer-content }}
+
+    <button
+      type="button"
+      is="close-button"
+      class="button button--lg button-full">
+      {{ section.settings.drawer-button }}
+    </button>
+  </div>
+</free-shipping-drawer>
+
+
+{% schema %}
+  {
+
+    "name": "Free shipping drawer",
+    "settings": [
+
+      {
+        "type": "text",
+        "id": "drawer-heading",
+        "label": "Drawer heading",
+        "default": "FREE SHIPPING"
+      }, {
+        "type": "richtext",
+        "id": "drawer-content",
+        "label": "Drawer text",
+        "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis lectus quis sem lacinia nonummy. Proin mollis lorem non dolor. In hac habitasse platea dictumst. Nulla ultrices odio. Donec augue. Phasellus dui. Maecenas facilisis nisl vitae nibh. Proin vel seo est vitae eros pretium dignissim. Aliquam aliquam sodales orci..</p>"
+      }, {
+        "type": "text",
+        "id": "drawer-button",
+        "label": "Drawer button",
+        "default": "Find by me"
+      }
+    ]
+
+  }
+{% endschema %}
