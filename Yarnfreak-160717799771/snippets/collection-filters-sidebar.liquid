@@ -100,7 +100,7 @@
       </div>
     {%- endif -%}
     {%- if section.settings.submenu != blank and section.settings.submenu != collection.handle-%}
-      <div
+       <div
         class="filter-group"
         data-animation="{{ animation_name }}"
         data-animation-delay="{{ animation_delay }}"
@@ -116,7 +116,7 @@
           </summary>
 
           <div class="filter-group__body" data-collapsible-body style="height: auto;">
-            <ul class="filter-group__content collection-nav" data-collapsible-content>
+            <ul class="filter-group__content collection-nav " data-collapsible-content>
               {%- for link in linklists[section.settings.submenu].links -%}
                 {%- if link.links == blank -%}
                   <li
@@ -144,6 +144,7 @@
       </div>
     {%- endif -%}
     {%- unless linklists[collection.handle].links == blank -%}
+      {%- if section.settings.submenu != blank -%} 
       <div
         class="filter-group"
         data-animation="{{ animation_name }}"
@@ -177,7 +178,7 @@
           </div>
         </details>
 
-        {{  }}
+       
         {%- if linklists[collection.handle].links.size > 10  or linklists[section.settings.submenu].links.size > 10-%}
           <div class="collection__sidebar__actions">
             <a href="#" data-show-more class="collection__sidebar__link">
@@ -187,6 +188,7 @@
           </div>
         {%- endif -%}
       </div>
+    {%- endif -%}
     {%- endunless -%}
    
 
