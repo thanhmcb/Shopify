@@ -18478,7 +18478,7 @@ body.has-line-design .article__text-wrapper {
 }
 
 .collection__title--no-image {
-  padding: var(--gutter) var(--outer);
+  padding: 15px 0 0 0;
   background: var(--bg);
 }
 
