@@ -131,55 +131,13 @@
                 </div>
 
                 <reveal-items selector=".product-list > *">
-                  <product-list
-                  class="section-stack__main"
-                  role="region"
-                  aria-live="polite">
-                  <div class="product-list_table"> 
-                    {%- assign product_results = search.results | where: 'object_type', 'product' -%}            
-                      <div class="product-titles">
-                        <div class="product-spec__heading product-title">{{'product.general.spec_label' | t }}</div>
-                        {%- for product in product_results -%}                
-                          <div class="product-title">
-                            <a href="{{ product.url }}" class="bold justify-self-start">{{ product.title }}</a>
-                          </div>
-                        {% endfor %} 
-                      </div>
-                    
-                      {%- for block in section.blocks -%}
-                        <div class="product-specs">
-                          <div class="product-spec__heading spec-item"> 
-                           {%- if block.settings.liquid == blank -%}
-                             {{ block.settings.title }}
-                           {%-  elsif block.settings.title != blank and block.settings.liquid != blank%}
-                             <span class="label-to-hide">{{ block.settings.title }}</span>{{ block.settings.liquid }}
-                           {%- endif -%}
-                          </div>
-                          {%- for product in product_results -%}                                                          
-                            {%- assign metafield_parts = block.settings.option_value_metafield | split: '.' -%}
-                            {%- assign metafield_namespace = metafield_parts | first -%}
-                            {%- assign metafield_key = metafield_parts | last -%}
-                            {%- assign product_metafield = product.metafields[metafield_namespace][metafield_key].value -%}
-                            {% if product_metafield != blank %}                                
-                              <div class="spec-item">  
-                                {{ product_metafield }}
-                              </div>
-                            {%- endif -%}
-                          
-                          {%- endfor -%}                     
-                          </div>
-                      {%- endfor -%}
-                      <div class="product-readmore">
-                        <div class="product-spec__heading product-title product-readmore__heading">{{'product.general.spec_label' | t }}</div>
-                        {%- for product in product_results -%}                       
-                          <div class="product-read-more">
-                            <a href="{{ product.url }}" class="button">{{'product.general.read_more' | t }}</a>
-                          </div>                  
-                        {% endfor %} 
-                      </div> 
-                                 
-                  </div>                 
-                </product-list>
+                  <product-list class="product-list" role="region" aria-live="polite">
+                    {%- assign product_results = search.results | where: 'object_type', 'product' -%}
+
+                    {%- for product in product_results -%}
+                      {%- render 'product-card', product: product, stacked: true, show_badges: true -%}
+                    {%- endfor -%}
+                  </product-list>
                 </reveal-items>
               </div>
             {%- endif -%}
@@ -209,35 +167,6 @@
   "name": "Search",
   "class": "shopify-section--main-search",
   "tag": "section",
-  "max_blocks": 5,
-    "blocks": [
-      {
-      "type": "item",
-      "name": "Metafield block",
-      "settings": [
-        
-        {
-          "type": "text",
-          "id": "title",
-          "label": "Metafield label"
-        },
-        {
-          "type": "liquid",
-          "id": "liquid",
-          "label": "Metafield label",
-          "info" :"Only use when custom style needed "
-        },
-        {
-          "type": "text",
-          "id": "option_value_metafield",
-          "label": "Metafield block"
-
-        }
-      ]
-    }
-     
-      
-    ],
   "settings": [
       {
       "type": "range",
