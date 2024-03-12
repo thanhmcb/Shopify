@@ -5132,6 +5132,7 @@ split-lines {
 .facet-dialog[open] {
   visibility: visible;
   opacity: 1;
+  left: unset;
 }
 
 .facet-dialog-option {
