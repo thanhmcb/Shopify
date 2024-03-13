@@ -159,6 +159,33 @@
               <div class="acc-usps__text">{{ block.settings.variant-usp-text-4 }}</div>
             </div>
           {%- endif -%}
+          {%- if block.settings.variant-usp-text-5 != blank -%}
+            <div class="acc-usps__item">
+              <div class="acc-usps__icon">
+                {%- render 'icon' with block.settings.icon-5, width: block.settings.mobile_icon_width, height: block.settings.mobile_icon_width, class: 'sm:hidden' -%}
+                {%- render 'icon' with block.settings.icon-5, width: block.settings.icon_width, height: block.settings.icon_width, class: 'hidden sm:block' -%}
+              </div>
+              <div class="acc-usps__text">{{ block.settings.variant-usp-text-5 }}</div>
+            </div>
+          {%- endif -%}
+          {%- if block.settings.variant-usp-text-6 != blank -%}
+            <div class="acc-usps__item">
+              <div class="acc-usps__icon">
+                {%- render 'icon' with block.settings.icon-6, width: block.settings.mobile_icon_width, height: block.settings.mobile_icon_width, class: 'sm:hidden' -%}
+                {%- render 'icon' with block.settings.icon-6, width: block.settings.icon_width, height: block.settings.icon_width, class: 'hidden sm:block' -%}
+              </div>
+              <div class="acc-usps__text">{{ block.settings.variant-usp-text-6 }}</div>
+            </div>
+          {%- endif -%}
+          {%- if block.settings.variant-usp-text-7 != blank -%}
+            <div class="acc-usps__item">
+              <div class="acc-usps__icon">
+                {%- render 'icon' with block.settings.icon-7, width: block.settings.mobile_icon_width, height: block.settings.mobile_icon_width, class: 'sm:hidden' -%}
+                {%- render 'icon' with block.settings.icon-7, width: block.settings.icon_width, height: block.settings.icon_width, class: 'hidden sm:block' -%}
+              </div>
+              <div class="acc-usps__text">{{ block.settings.variant-usp-text-7 }}</div>
+            </div>
+          {%- endif -%}
         </div>
         {%- if block.settings.variant-block-readmore-text != blank -%}
           <div class="moretext">{{ block.settings.variant-block-readmore-text }}</div>

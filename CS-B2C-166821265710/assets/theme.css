@@ -11216,3 +11216,9 @@ flex-direction: column;
 .section-stack__intro .prose * + .button{
   margin-block-start: 0.8rem !important;
 }
+
+@media screen and (min-width: 700px){
+  .acc-usps__text{
+    font-size: 15px;
+  }
+}
