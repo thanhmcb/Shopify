@@ -1,7 +1,0 @@
-{
-  "parent": "overlay-group.json",
-  "context": {
-    "b2b": true
-  },
-  "sections": {}
-}
