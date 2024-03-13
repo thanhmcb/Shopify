@@ -1,0 +1,293 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "disabled": true,
+      "settings": {
+        "allow_transparent_header": false,
+        "layout": "content_first",
+        "show_author": true,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px"
+      }
+    },
+    "e650360f-893a-4a54-833b-e1518be4892e": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18123979915566__e650360f-893a-4a54-833b-e1518be4892e-1678193963a0b029a4-1": {
+          "type": "heading",
+          "settings": {
+            "text": "The Fastest Wheels Are The Sum Of The Fastest Components",
+            "heading_tag": "h1"
+          }
+        },
+        "c8f12148-dbda-4419-a42e-1981df150415": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Learn how we make the world's fastest wheels faster<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18123979915566__e650360f-893a-4a54-833b-e1518be4892e-1678193963a0b029a4-1",
+        "c8f12148-dbda-4419-a42e-1981df150415"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/49298414812_5b548c1ed6_o-large.jpg",
+        "mobile_image": "{{ article.metafields.custom.top_grafik_mobil.value }}",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "2f53b1e8-d38f-4945-a6b7-0be67279972a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18123979915566__2f53b1e8-d38f-4945-a6b7-0be67279972a-167819433943960406-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--18123979915566__2f53b1e8-d38f-4945-a6b7-0be67279972a-167819433943960406-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--18123979915566__2f53b1e8-d38f-4945-a6b7-0be67279972a-167819433943960406-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2><strong>A Truly Custom Fit<\/strong><\/h2><h5><strong>At CeramicSpeed, we pride ourselves on having the drive to continuously challenge the status quo in our search for riding excellence. It is what has seen us revolutionize drivetrain efficiency – but the drivetrain isn’t the only moving part we’re looking to put our mark on. Read on to learn how we make the world’s fastest wheelsets even faster.<\/strong><\/h5><p>It is almost a truism within the world of cycling that a high-quality wheelset is the most noticeable upgrade you can make to the actual ride experience and feel of your bike. While we obviously would argue that a fully optimized drivetrain, based upon the lowest friction possible and thereby ensuring the utmost efficiency, would put that belief to a stern test – we simply will not try to undermine the benefits of good quality wheels. As riders, we’ve experienced firsthand the true joy of having a set of well-made and fast spinning hoops rolling along underneath us.<\/p><p>Our love of wheels has set us on a mission to do our part in an effort to create the best wheelsets in the world. And this hasn’t been a solitary undertaking for us as we’ve been chosen to partner with some of the world’s most renowned wheel brands along the way, such as BlackInc., Enve, Lightweight and Hunt, to name but a few. These cutting-edge companies have all sought out our free-thinking spirit and professional expertise in an attempt to reap the unique benefits of our CeramicSpeed Bearings. And for good reason, too.<\/p><p> <\/p>",
+            "text_align": "center"
+          }
+        },
+        "683d9588-8ffe-4401-b800-3b497c24522f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jg_201019_ceramicspeed_0023.jpg",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "9201e34f-468e-46d1-a56c-aa99f8395ec5": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>The same exceptional properties that riders have come to expect from our bearings in drivetrain components; like unrivalled low friction and maximized longevity, are of course just as vital when we’re talking about wheel bearings. Think about it this way: the wheels are the only part of a bike that are in constant motion. At least when it’s not standing still. So, if you’re demanding the optimal performance from your wheels, you have to make sure they’re fitted with the fastest rolling bearings. And this is where we come into the equation.<\/p>",
+            "text_align": "center"
+          }
+        },
+        "00e4c73a-8208-4c1a-b435-3a2c5f84777d": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5><strong>The Build Process<\/strong><\/h5><p>But just how do we do it then, you might wonder. Well, it all starts with a good amount of engineering thoroughness and our willingness to go the extra mile. When we’re entering a partnership with a wheel brand we always start from scratch and work our way to a unique, customized solution – there is no such word as standard in our vocabulary.<\/p><p>And like with most things in life, not all wheels are created equal. So, therefore we always make sure to closely examine the wheels which we’ve been asked to build bearings for. Our R&D team starts the process by disassembling each hub in order to take the measurements of both the inner body and the axle. The multiple measurements will determine not just the right size of the bearings for these particular wheels, but also examine the capabilities and strengths of the hubs. This is crucial input for choosing the optimal bearing build for the wheels at hand.<\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--18123979915566__2f53b1e8-d38f-4945-a6b7-0be67279972a-167819433943960406-0",
+        "template--18123979915566__2f53b1e8-d38f-4945-a6b7-0be67279972a-167819433943960406-1",
+        "template--18123979915566__2f53b1e8-d38f-4945-a6b7-0be67279972a-167819433943960406-2",
+        "683d9588-8ffe-4401-b800-3b497c24522f",
+        "9201e34f-468e-46d1-a56c-aa99f8395ec5",
+        "00e4c73a-8208-4c1a-b435-3a2c5f84777d"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "866a6d97-8457-4285-a5b4-aebe30cb4428": {
+      "type": "rich-text",
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "40453fe5-98ff-42e2-96d4-f53cc4647988": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18272983843118__40453fe5-98ff-42e2-96d4-f53cc4647988-1680247564a5ac5646-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>Going The Extra Mile<\/h5>",
+            "text_align": "center"
+          }
+        },
+        "6d015828-9824-4b63-8353-16eb5beeb626": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JG_210323_CeramicSpeed_0310-large.jpg",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "template--18272983843118__40453fe5-98ff-42e2-96d4-f53cc4647988-1680247564a5ac5646-2",
+        "6d015828-9824-4b63-8353-16eb5beeb626"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "b4303a10-2d8c-4d3d-acd1-766192760a35": {
+      "type": "rich-text",
+      "blocks": {
+        "6e1ea6ea-0d2e-4fa7-b656-118524fdd5ed": {
+          "type": "richtext",
+          "settings": {
+            "content": "",
+            "text_align": "center"
+          }
+        },
+        "5c2ba23f-bff8-4976-b1f7-31a0da58fc8e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3bdc5496952916ff870ee132e3225b036c702e7a.jpg",
+            "width_mode": "custom",
+            "max_width": 1000,
+            "mobile_max_width": 400
+          }
+        },
+        "09e4d8dc-550a-45dc-9ca1-0bf43be0b31a": {
+          "type": "richtext",
+          "settings": {
+            "content": "",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "6e1ea6ea-0d2e-4fa7-b656-118524fdd5ed",
+        "5c2ba23f-bff8-4976-b1f7-31a0da58fc8e",
+        "09e4d8dc-550a-45dc-9ca1-0bf43be0b31a"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "a9a35687-0370-4cf8-9768-ce9a8f3a4feb": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21191742456110__a9a35687-0370-4cf8-9768-ce9a8f3a4feb-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--21191742456110__a9a35687-0370-4cf8-9768-ce9a8f3a4feb-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--21191742456110__a9a35687-0370-4cf8-9768-ce9a8f3a4feb-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>With these measurements fresh in memory our R&D team turn to the performance lab tests. And this is where the magic happens, so to say. By working with the highest quality ceramic balls in the world, we have the unique opportunity to draw advantage of their unmatched roundness and uniformity. Hence the toolbox of our R&D experts is equipped with an arsenal of bearings fitted with CeramicSpeed balls differing in sizes of just 2.5 micron; a micron is 1\/1000 of a millimeter in layman’s terms. This might sound like a minor size variation, but we can assure you that the effect it has on performance is anything but insignificant. <\/p>",
+            "text_align": "center"
+          }
+        },
+        "712cd220-e594-416e-9ae8-1be058649ec2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/custom_resized_f67b2d76-72ad-4039-bc19-e942dd1729da.jpg",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "d97b50bd-17cc-404f-b60c-4159a244a140": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>It’s deeply embedded in our DNA that we want to create the world’s fastest bicycle components. So, when we’re building wheel bearings, we naturally look to push the boundaries of just how fast we can make the wheels without jeopardizing important safety aspects. This is done by experimenting with multiple bearings loaded with differing sizes of CeramicSpeed Balls.<\/p><p>In this process our R&D team is on the hunt for the lowest amount of friction achievable for the specific wheels under test before axial play (lateral movement) occurs. It’s a delicate balancing act where the optimal radial clearance, which in turn delivers the optimal spinning qualities, is achieved by fitting the bearings with the size of CeramicSpeed Balls just below the ones where the wheels show lateral movement. Figuratively, it’s like we’re hitting a sharp corner and leaning as far as humanly possible into it without ending our ride on the tarmac.<\/p><p>After meticulous testing on the road our R&D team will have worked out their precise recommendations for the wheelset’s unique radial clearance. In other words, the process starts with objective methods and measurements and ends up with a subjective recommendation based upon years and years of experience and findings. From here, their notes are turned into a building plan in our product department. Bearing races, CeramicSpeed Balls, seals and grease, are all carefully selected and controlled, before being assembled into fully customized bearings.<\/p><p>Customers who own wheels which we haven’t previously built bearings for will also benefit from this unique process. It’s a trickle-down effect, where our many years of collaborating with the most renowned wheel brands in the business has made it possible for us to develop our own blueprint of how to achieve the appropriate radial clearance in most instances. In this way our team of specialists will be able to build a wheel kit for your specific setting, using our <a href=\"\/en\/cycling\/shop\/single-bearings\">CeramicSpeed Single Bearings<\/a> and <a href=\"\/en\/cycling\/shop\/ceramicspeed-balls\">Balls<\/a>, and make sure you get the same optimized solution as our partners.<\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--21191742456110__a9a35687-0370-4cf8-9768-ce9a8f3a4feb-subheading-1",
+        "template--21191742456110__a9a35687-0370-4cf8-9768-ce9a8f3a4feb-heading-1",
+        "template--21191742456110__a9a35687-0370-4cf8-9768-ce9a8f3a4feb-richtext-1",
+        "712cd220-e594-416e-9ae8-1be058649ec2",
+        "d97b50bd-17cc-404f-b60c-4159a244a140"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "e650360f-893a-4a54-833b-e1518be4892e",
+    "2f53b1e8-d38f-4945-a6b7-0be67279972a",
+    "866a6d97-8457-4285-a5b4-aebe30cb4428",
+    "40453fe5-98ff-42e2-96d4-f53cc4647988",
+    "b4303a10-2d8c-4d3d-acd1-766192760a35",
+    "a9a35687-0370-4cf8-9768-ce9a8f3a4feb"
+  ]
+}

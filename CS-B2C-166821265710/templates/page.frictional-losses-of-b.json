@@ -1,0 +1,308 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "3db86d21-e949-4476-90e5-64fecffed43e": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Frictional Losses of Bearing Lubricants and Bearing Seals",
+            "heading_tag": "h1"
+          }
+        },
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-2": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-0",
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-1",
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/Design_uden_navn_2.png",
+        "mobile_image": "shopify:\/\/shop_images\/Design_uden_navn_2.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "aca770b3-d895-4430-aa05-0990de07e08a": {
+      "type": "rich-text",
+      "blocks": {
+        "3e3fb28b-c92d-4cd9-965c-c4193fb676ed": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon": "picto-timer",
+            "icon_width": 32,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": ""
+          }
+        },
+        "d1fdfc50-8096-4401-9f4f-9b3c3f9e37ac": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--18216822309166__aca770b3-d895-4430-aa05-0990de07e08a-16777526798b832ccb-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Summary<\/strong><\/p><p><em>S<\/em>even lubricants of various viscosities were tested at low and high fill levels on three pairs of BB30 bottom bracket bearings to measure the frictional losses of each combination. In another series of experiments, bearing seals were removed from the BB30 bottom bracket bearings to measure the effects of bearing seals on frictional losses. A total of 45 different lube, bearing, fill, and seal combinations were tested.  Data presented is per pair (set) of bearings.<\/p>"
+          }
+        },
+        "f807d8f8-2553-4216-9f6b-7ec31f78f3c6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3.png",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "ec2e6564-e46e-4923-a6c5-610b9ff19507": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4.png",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "3e3fb28b-c92d-4cd9-965c-c4193fb676ed",
+        "d1fdfc50-8096-4401-9f4f-9b3c3f9e37ac",
+        "template--18216822309166__aca770b3-d895-4430-aa05-0990de07e08a-16777526798b832ccb-2",
+        "f807d8f8-2553-4216-9f6b-7ec31f78f3c6",
+        "ec2e6564-e46e-4923-a6c5-610b9ff19507"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "262e3d79-a23e-4ebf-a069-f8f5108a40d9": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<google-sheets-html-origin>\n<style type=\"text\/css\"><!--\ntd {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}\n--><\/style>\n<table xmlns=\"http:\/\/www.w3.org\/1999\/xhtml\" cellspacing=\"0\" cellpadding=\"0\" dir=\"ltr\" border=\"1\"><colgroup><col width=\"180\" \/><col width=\"100\" \/><col width=\"100\" \/><col width=\"100\" \/><col width=\"100\" \/><col width=\"100\" \/><col width=\"100\" \/><col width=\"100\" \/><col width=\"100\" \/><\/colgroup>\n<tbody>\n<tr>\n<td><\/td>\n<td><\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;CS TT&quot;}\"><strong>CS TT<\/strong><\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Slip&quot;}\"><strong>Slip<\/strong><\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Finish Line&quot;}\"><strong>Finish Line<\/strong><\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;3-in-1&quot;}\"><strong>3-in-1<\/strong><\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Shimano&quot;}\"><strong>Shimano<\/strong><\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Tenacious&quot;}\"><strong>Tenacious<\/strong><\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;MoS2&quot;}\"><strong>MoS2<\/strong><\/td>\n<\/tr>\n<tr>\n<td rowspan=\"2\" colspan=\"1\" data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;CeramicSpeed BB30 Bearings&quot;}\">\n<div><strong>CeramicSpeed BB30 Bearings<\/strong><\/div>\n<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Low Fill&quot;}\">Low Fill<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.14}\">0.14<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.15}\">0.15<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.2}\">0.2<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.24}\">0.24<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.46}\">0.46<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.48}\">0.48<\/td>\n<td rowspan=\"2\" colspan=\"1\" data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.65}\">\n<div>0.65<\/div>\n<\/td>\n<\/tr>\n<tr>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;High Fill&quot;}\">High Fill<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.21}\">0.21<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.13}\">0.13<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.24}\">0.24<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.39}\">0.39<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.5}\">0.5<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.87}\">0.87<\/td>\n<\/tr>\n<tr>\n<td rowspan=\"2\" colspan=\"1\" data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Enduro Zero BB30 Bearings&quot;}\">\n<div><strong>Enduro Zero BB30 Bearings<\/strong><\/div>\n<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Low Fill&quot;}\">Low Fill<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.14}\">0.14<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.19}\">0.19<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.21}\">0.21<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.18}\">0.18<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.38}\">0.38<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.19}\">0.19<\/td>\n<td rowspan=\"2\" colspan=\"1\" data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.63}\">\n<div>0.63<\/div>\n<\/td>\n<\/tr>\n<tr>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;High Fill&quot;}\">High Fill<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.23}\">0.23<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.17}\">0.17<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.34}\">0.34<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.36}\">0.36<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.41}\">0.41<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.61}\">0.61<\/td>\n<\/tr>\n<tr>\n<td rowspan=\"2\" colspan=\"1\" data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Gold Race BB30 Bearings&quot;}\">\n<div><strong>Gold Race BB30 Bearings<\/strong><\/div>\n<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Low Fill&quot;}\">Low Fill<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.12}\">0.12<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.15}\">0.15<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.21}\">0.21<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.27}\">0.27<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.32}\">0.32<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.73}\">0.73<\/td>\n<td rowspan=\"2\" colspan=\"1\" data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.45}\">\n<div>0.45<\/div>\n<\/td>\n<\/tr>\n<tr>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;High Fill&quot;}\">High Fill<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.31}\">0.31<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.14}\">0.14<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.29}\">0.29<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.35}\">0.35<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.46}\">0.46<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.9}\">0.9<\/td>\n<\/tr>\n<\/tbody>\n<\/table>\n<\/google-sheets-html-origin>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "416fba75-4f40-4235-9ae8-ff3ffbcca619": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19644707307822__416fba75-4f40-4235-9ae8-ff3ffbcca619-16872498692d7dae65-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--19644707307822__416fba75-4f40-4235-9ae8-ff3ffbcca619-16872498692d7dae65-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--19644707307822__416fba75-4f40-4235-9ae8-ff3ffbcca619-16872498692d7dae65-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Frictional losses (watts) of lubricants, bearings, and fill levels.Seals installed.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19644707307822__416fba75-4f40-4235-9ae8-ff3ffbcca619-16872498692d7dae65-0",
+        "template--19644707307822__416fba75-4f40-4235-9ae8-ff3ffbcca619-16872498692d7dae65-1",
+        "template--19644707307822__416fba75-4f40-4235-9ae8-ff3ffbcca619-16872498692d7dae65-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "d59c4077-c0ec-4740-b080-01bb540be59d": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<google-sheets-html-origin>\n<style type=\"text\/css\"><!--\ntd {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}\n--><\/style>\n<table xmlns=\"http:\/\/www.w3.org\/1999\/xhtml\" cellspacing=\"0\" cellpadding=\"0\" dir=\"ltr\" border=\"1\"><colgroup><col width=\"180\" \/><col width=\"100\" \/><col width=\"100\" \/><col width=\"100\" \/><\/colgroup>\n<tbody>\n<tr style=\"height: 45px;\">\n<td style=\"height: 45px;\"><\/td>\n<td style=\"height: 45px;\"><\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Slip Low Fil&quot;}\" style=\"height: 45px;\"><strong>Slip Low Fil<\/strong><\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Shimano High Fil&quot;}\" style=\"height: 45px;\">\n<div>\n<div><strong>Shimano High Fil<\/strong><\/div>\n<\/div>\n<\/td>\n<\/tr>\n<tr style=\"height: 22px;\">\n<td rowspan=\"2\" colspan=\"1\" data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;CeramicSpeed BB30 Bearings&quot;}\" style=\"height: 44px;\">\n<div><strong>CeramicSpeed BB30 Bearings<\/strong><\/div>\n<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;No Seals&quot;}\" style=\"height: 22px;\">No Seals<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.12}\" style=\"height: 22px;\">0.12<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.35}\" style=\"height: 22px;\">0.35<\/td>\n<\/tr>\n<tr style=\"height: 22px;\">\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Seals&quot;}\" style=\"height: 22px;\">Seals<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.15}\" style=\"height: 22px;\">0.15<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.5}\" style=\"height: 22px;\">0.5<\/td>\n<\/tr>\n<tr style=\"height: 22px;\">\n<td rowspan=\"2\" colspan=\"1\" data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Enduro Zero BB30 Bearings&quot;}\" style=\"height: 44px;\">\n<div><strong>Enduro Zero BB30 Bearings<\/strong><\/div>\n<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;No Seals&quot;}\" style=\"height: 22px;\">No Seals<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.14}\" style=\"height: 22px;\">0.14<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.28}\" style=\"height: 22px;\">0.28<\/td>\n<\/tr>\n<tr style=\"height: 22px;\">\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Seals&quot;}\" style=\"height: 22px;\">Seals<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.19}\" style=\"height: 22px;\">0.19<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.41}\" style=\"height: 22px;\">0.41<\/td>\n<\/tr>\n<tr>\n<td rowspan=\"2\" colspan=\"1\" data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Gold Race BB30 Bearings&quot;}\">\n<div><strong>Gold Race BB30 Bearings<\/strong><\/div>\n<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;No Seals&quot;}\">No Seals<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.15}\">0.15<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.42}\">0.42<\/td>\n<\/tr>\n<tr style=\"height: 22px;\">\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Seals&quot;}\" style=\"height: 22px;\">Seals<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.15}\" style=\"height: 22px;\">0.15<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:3,&quot;3&quot;:0.46}\" style=\"height: 22px;\">0.46<\/td>\n<\/tr>\n<\/tbody>\n<\/table>\n<\/google-sheets-html-origin><br \/><google-sheets-html-origin> <\/google-sheets-html-origin>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "c953e472-eea1-4968-9c71-cffca0393482": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19644707307822__c953e472-eea1-4968-9c71-cffca0393482-16872498692d7dae65-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--19644707307822__c953e472-eea1-4968-9c71-cffca0393482-16872498692d7dae65-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--19644707307822__c953e472-eea1-4968-9c71-cffca0393482-16872498692d7dae65-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><em>Frictional losses (watts), at two fill levels, of seals vs no seals.<\/em><\/p>"
+          }
+        },
+        "869afc3b-6438-4bcc-83cb-44402f67ae0f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5.png",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "8fcbe0bb-0b8d-4752-8ace-47ee012ee2f6": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><em><strong>Average Frictional Losses (watts) by lubricant and corresponding fill level per pair.  Seals installed.  Lower is better.<\/strong><\/em><\/p><ul><li>The <em><strong>most efficient <\/strong><\/em>lubricants, with the lowest average frictional losses are:<\/li><\/ul><ol><li><strong>Ceramic Speed Time Trial Grease  Fill Level – Low (25%)                        0.13 watts\/pair<\/strong><\/li><li><strong>Avid Slip R\/C Bearing Racing Oil  Fill Level – High (5 drops)      0.15 watts\/pair<\/strong><\/li><li><strong>Avid Slip R\/C Bearing Racing Oil  Fill Level – Low (1 drops)       0.16 watts\/pair<\/strong><\/li><\/ol><p> <\/p><ul><li>The <em><strong>least efficient<\/strong><\/em>lubricants, with the highest averagefrictional losses are:<\/li><\/ul><ol><li><strong>Phil Wood Tenacious Oil  Fill Level – High (5 drops)      0.79 watts\/pair<\/strong><\/li><li><strong>Powdered MoS2  Fill Level – Light Dusting        0.58 watts\/pair<\/strong><\/li><li><strong>Phil Wood Tenacious Oil  Fill Level – Low (1 drop)         0.47 watts\/pair<\/strong><\/li><\/ol><ul><li>The difference in frictional losses between the most efficient lubricant and least efficient lubricant is 0.66 watts\/pair.<\/li><\/ul>"
+          }
+        },
+        "35b41ece-9995-481f-819e-50438a7ca236": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6.png",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "02ddb776-8216-48a6-b86e-49d74be064b8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7.png",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "628cfd33-afec-4548-aef8-7ce3b9099ba9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8.png",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "ee46bdc3-51d0-4ed3-8e6c-4927df74f4e9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9.png",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "e906b78e-134e-4e01-be17-c93b1a51dca7": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><em>ALL DATA - Frictional Losses of each bearing, lubricant, seal, and fill combination.Standard deviation between bearings for each lubricant\/fill combination was added (green bar).<\/em><\/p>"
+          }
+        },
+        "dfad69de-ffa4-41ae-8366-ab81d47daf20": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Download Full Report",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/7542\/6606\/files\/bearing-lube-seals-full-report.pdf?v=1687259108",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19644707307822__c953e472-eea1-4968-9c71-cffca0393482-16872498692d7dae65-0",
+        "template--19644707307822__c953e472-eea1-4968-9c71-cffca0393482-16872498692d7dae65-1",
+        "template--19644707307822__c953e472-eea1-4968-9c71-cffca0393482-16872498692d7dae65-2",
+        "869afc3b-6438-4bcc-83cb-44402f67ae0f",
+        "8fcbe0bb-0b8d-4752-8ace-47ee012ee2f6",
+        "35b41ece-9995-481f-819e-50438a7ca236",
+        "02ddb776-8216-48a6-b86e-49d74be064b8",
+        "628cfd33-afec-4548-aef8-7ce3b9099ba9",
+        "ee46bdc3-51d0-4ed3-8e6c-4927df74f4e9",
+        "e906b78e-134e-4e01-be17-c93b1a51dca7",
+        "dfad69de-ffa4-41ae-8366-ab81d47daf20"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3db86d21-e949-4476-90e5-64fecffed43e",
+    "aca770b3-d895-4430-aa05-0990de07e08a",
+    "262e3d79-a23e-4ebf-a069-f8f5108a40d9",
+    "416fba75-4f40-4235-9ae8-ff3ffbcca619",
+    "d59c4077-c0ec-4740-b080-01bb540be59d",
+    "c953e472-eea1-4968-9c71-cffca0393482"
+  ]
+}

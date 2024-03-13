@@ -1,0 +1,427 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "ea28194d-87df-43b5-9cf1-f7ee6ad973e8": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18272984432942__ea28194d-87df-43b5-9cf1-f7ee6ad973e8-168508213351e0db4a-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--18272984432942__ea28194d-87df-43b5-9cf1-f7ee6ad973e8-168508213351e0db4a-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18272984432942__ea28194d-87df-43b5-9cf1-f7ee6ad973e8-168508213351e0db4a-0",
+        "template--18272984432942__ea28194d-87df-43b5-9cf1-f7ee6ad973e8-168508213351e0db4a-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "43bfff3b-5dcf-455c-8fdd-6a345964b445": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18272984432942__43bfff3b-5dcf-455c-8fdd-6a345964b445-1685438180f63b8d6f-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--18272984432942__43bfff3b-5dcf-455c-8fdd-6a345964b445-1685438180f63b8d6f-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Bearing School",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--18272984432942__43bfff3b-5dcf-455c-8fdd-6a345964b445-1685438180f63b8d6f-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--18272984432942__43bfff3b-5dcf-455c-8fdd-6a345964b445-1685438180f63b8d6f-0",
+        "template--18272984432942__43bfff3b-5dcf-455c-8fdd-6a345964b445-1685438180f63b8d6f-1",
+        "template--18272984432942__43bfff3b-5dcf-455c-8fdd-6a345964b445-1685438180f63b8d6f-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "5cee8ee3-3587-461d-af44-5ba415782a4e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19658897981742__5cee8ee3-3587-461d-af44-5ba415782a4e-168733075403ce12c3-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--19658897981742__5cee8ee3-3587-461d-af44-5ba415782a4e-168733075403ce12c3-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--19658897981742__5cee8ee3-3587-461d-af44-5ba415782a4e-168733075403ce12c3-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>CeramicSpeed vs. Stock Steel<\/h5>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--19658897981742__5cee8ee3-3587-461d-af44-5ba415782a4e-168733075403ce12c3-0",
+        "template--19658897981742__5cee8ee3-3587-461d-af44-5ba415782a4e-168733075403ce12c3-1",
+        "template--19658897981742__5cee8ee3-3587-461d-af44-5ba415782a4e-168733075403ce12c3-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "53406996-8123-48fb-9869-a3dbf6c243ae": {
+      "type": "video",
+      "blocks": {
+        "template--19729539596590__53406996-8123-48fb-9869-a3dbf6c243ae-play-1": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--19729539596590__53406996-8123-48fb-9869-a3dbf6c243ae-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--19729539596590__53406996-8123-48fb-9869-a3dbf6c243ae-play-1",
+        "template--19729539596590__53406996-8123-48fb-9869-a3dbf6c243ae-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/CeramicSpeed vs. Stock Steel.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "1efa1fef-fa14-44b7-a76c-3e5ac0c9b3dc": {
+      "type": "rich-text",
+      "blocks": {
+        "94cb703c-f2c8-4226-aec9-5917b15eff47": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "54523a49-4ba9-43c5-9dab-8931ce81b303": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "820a1823-aaf9-446f-afff-7a7f87f5659f": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>CeramicSpeed vs. Other Ceramics<\/h5>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "94cb703c-f2c8-4226-aec9-5917b15eff47",
+        "54523a49-4ba9-43c5-9dab-8931ce81b303",
+        "820a1823-aaf9-446f-afff-7a7f87f5659f"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "fc7da994-4d3f-43fd-9cfa-cd14b2118003": {
+      "type": "video",
+      "blocks": {
+        "template--19729539596590__fc7da994-4d3f-43fd-9cfa-cd14b2118003-play-1": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--19729539596590__fc7da994-4d3f-43fd-9cfa-cd14b2118003-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--19729539596590__fc7da994-4d3f-43fd-9cfa-cd14b2118003-play-1",
+        "template--19729539596590__fc7da994-4d3f-43fd-9cfa-cd14b2118003-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/CeramicSpeed vs Other Ceramics.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "46e21786-73e3-4803-b8f0-2b7ec8d6fb20": {
+      "type": "rich-text",
+      "blocks": {
+        "d9a52126-f75e-4183-bfb2-81bf69e4ae9b": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "daa3376c-eb9e-4814-9a2b-3fe7c2e4040a": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "98c148b0-b514-4f99-8f32-54c60468a634": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>Handbuilt Bearings<\/h5>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "d9a52126-f75e-4183-bfb2-81bf69e4ae9b",
+        "daa3376c-eb9e-4814-9a2b-3fe7c2e4040a",
+        "98c148b0-b514-4f99-8f32-54c60468a634"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "691f4ec9-b01d-4dc1-bf43-e60569227a1f": {
+      "type": "video",
+      "blocks": {
+        "template--19729539596590__691f4ec9-b01d-4dc1-bf43-e60569227a1f-play-1": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--19729539596590__691f4ec9-b01d-4dc1-bf43-e60569227a1f-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--19729539596590__691f4ec9-b01d-4dc1-bf43-e60569227a1f-play-1",
+        "template--19729539596590__691f4ec9-b01d-4dc1-bf43-e60569227a1f-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/Handbuilt Bearings (1).mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "9fd44b67-903c-45d2-b88f-821aa1f01702": {
+      "type": "rich-text",
+      "blocks": {
+        "ecfac56c-b8d6-4f24-9a4d-f47965f5a285": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "a677a2e6-3602-4f3b-9982-bb19fdd20f03": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "234cd35f-df12-4471-b80c-58c3ba4488ff": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>The Coated Advantage<\/h5>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "ecfac56c-b8d6-4f24-9a4d-f47965f5a285",
+        "a677a2e6-3602-4f3b-9982-bb19fdd20f03",
+        "234cd35f-df12-4471-b80c-58c3ba4488ff"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "d8155b14-9d08-407c-a388-a85f6e484ef5": {
+      "type": "video",
+      "blocks": {
+        "template--19729539596590__d8155b14-9d08-407c-a388-a85f6e484ef5-play-1": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--19729539596590__d8155b14-9d08-407c-a388-a85f6e484ef5-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--19729539596590__d8155b14-9d08-407c-a388-a85f6e484ef5-play-1",
+        "template--19729539596590__d8155b14-9d08-407c-a388-a85f6e484ef5-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/The Coated Advantage.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "6e10843e-20c1-419f-a0bb-87b45312bed5": {
+      "type": "rich-text",
+      "blocks": {
+        "a376f712-7242-44e9-8e34-1718a32394ea": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "1981037e-45fc-44c8-bad9-1f518286ba7e": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "ff253ae2-7921-4986-87d3-b2b04179dc84": {
+          "type": "richtext",
+          "settings": {
+            "content": "",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "a376f712-7242-44e9-8e34-1718a32394ea",
+        "1981037e-45fc-44c8-bad9-1f518286ba7e",
+        "ff253ae2-7921-4986-87d3-b2b04179dc84"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ea28194d-87df-43b5-9cf1-f7ee6ad973e8",
+    "43bfff3b-5dcf-455c-8fdd-6a345964b445",
+    "5cee8ee3-3587-461d-af44-5ba415782a4e",
+    "53406996-8123-48fb-9869-a3dbf6c243ae",
+    "1efa1fef-fa14-44b7-a76c-3e5ac0c9b3dc",
+    "fc7da994-4d3f-43fd-9cfa-cd14b2118003",
+    "46e21786-73e3-4803-b8f0-2b7ec8d6fb20",
+    "691f4ec9-b01d-4dc1-bf43-e60569227a1f",
+    "9fd44b67-903c-45d2-b88f-821aa1f01702",
+    "d8155b14-9d08-407c-a388-a85f6e484ef5",
+    "6e10843e-20c1-419f-a0bb-87b45312bed5"
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "72861c07-d2c5-43e7-a3b5-34466fa0db0e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19590221070638__72861c07-d2c5-43e7-a3b5-34466fa0db0e-16869064022b829cbf-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--19590221070638__72861c07-d2c5-43e7-a3b5-34466fa0db0e-16869064022b829cbf-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Reseller Marketing Policy",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--19590221070638__72861c07-d2c5-43e7-a3b5-34466fa0db0e-16869064022b829cbf-2": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19590221070638__72861c07-d2c5-43e7-a3b5-34466fa0db0e-16869064022b829cbf-0",
+        "template--19590221070638__72861c07-d2c5-43e7-a3b5-34466fa0db0e-16869064022b829cbf-1",
+        "template--19590221070638__72861c07-d2c5-43e7-a3b5-34466fa0db0e-16869064022b829cbf-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "7cefffa6-1394-49c6-8a48-3d47563e36c6": {
+      "type": "rich-text",
+      "blocks": {
+        "4429b84d-5552-4988-ab93-bf5cbdda9af2": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "18496d66-ca2d-4694-9c04-395e01133615": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "ee46b74e-12d2-45df-94b9-479df1d00df7": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>The CeramicSpeed Reseller Marketing Policy has been created to act as official company guidelines on how to effectively represent the CeramicSpeed brand and product range as a recognised reseller.<\/p>"
+          }
+        },
+        "7b000e09-207b-4cbd-afc0-f45483772969": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Download Policy",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/7542\/6606\/files\/reseller-marketing-policy.pdf?v=1686906312",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "4821dbb1-79c7-47ba-8258-fe5af5bed6c6": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>MAP Policy<\/h5><p><strong>(Revised April 11th 2016, applicable only to United States and Canada)<\/strong><\/p><p>As one of the world's leading ceramic bearing manufacturers, CeramicSpeed specialises in the manufacturing and production of world-class Pulley Wheels, Bottom Brackets, Wheel Kits and Single Bearing components. Professional athletes, teams and individual riders globally are using CeramicSpeed components to better their bicycle's performance and deliver an all-round improved ride experience.<\/p><p>We recognise that our high-quality dealers invest time and resources to deliver an extraordinary customer experience through knowledgeable staff and compelling vendor presentation. To support our resellers’ efforts, CeramicSpeed wishes to establish policies that allow resellers to earn the profits necessary to maintain the high level of customer excellence people have come to expect from CeramicSpeed dealers.<\/p><p>To protect the investment of our high-quality dealers and CeramicSpeed’s brand reputation within the Americas region, we have unilaterally adopted a MINIMUM ADVERTISED PRICE POLICY (“MAP Policy”). CeramicSpeed established this MAP Policy to ensure brand consistency and due to the fact that reseller advertising and sales practices, that promote CeramicSpeed products primarily on the basis of price, are to be streamlined across the entire region of the United States and Canada.<\/p><p>Any or such resellers operating away from the CeramicSpeed MAP Policy could be detrimental to resellers’ service and support efforts and CeramicSpeed’s competitive position. Such activities can be harmful to CeramicSpeed’s brand, reputation and competitiveness, and allow some resellers to take advantage of the service and support efforts of others. CeramicSpeed believes that these practices are unfair and thus discourages such efforts.<\/p><p>CeramicSpeed, in its unilateral discretion, will not do business with any reseller, as to the products covered by this MAP Policy, if that reseller intentionally advertises any MAP Product below its MAP price. CeramicSpeed is confident that this program will strengthen its competitiveness and benefit all of its resellers.<\/p><h5>Official Policy and Guidelines<\/h5><p>Additional guidelines related to the US MAP Policy are as follows. CeramicSpeed reserves the right, in its unilateral discretion, to take other action with respect to any reseller that violates this MAP Policy.<\/p><p>1. The MAP Policy will be enforced by CeramicSpeed in its sole discretion.<\/p><p>2. CeramicSpeed recognizes that any authorized CeramicSpeed account can make its own decisions to advertise and sell any CeramicSpeed product at any price it chooses without consulting or advising CeramicSpeed. CeramicSpeed similarly has the right to make its own independent decision regarding product allocations and reseller participation as a member of the CeramicSpeed Authorized Reseller Program – at any time.<\/p><p>3. CeramicSpeed will maintain an updated “MAP Products” list of those products that will fall under this MAP Policy. CeramicSpeed reserves the right to update or modify this list at any time.<\/p><p>4. All Products listed will have a MAP retail price. Listing a price other than the MAP retail price next to the featured MAP Product in any advertising will be viewed as a violation of this MAP Policy. This MAP Policy applies to all advertisement of MAP Products in any and all media, including, without limitation, flyers, posters, coupons, mailers, inserts, newspapers, magazines catalogs, mail order catalogs, internet or similar electronic media including websites, forums, email newsletters, email solicitations, television, radio, and public signage. Such website features as “Click for price”, automated “bounce – back” pricing e-mails, pre-formatted e-mail responses, forms, automatic price display for any items prior to being placed in a customer’s shopping cart, and other similar features are considered to be communications initiated by the reseller (rather than by the customer) and this constitutes “advertising” under this MAP Policy. This MAP Policy also applies to any activity which CeramicSpeed determines, in its sole discretion, is designed or intended to circumvent the intent of this MAP Policy, such as solicitations for ‘group purchases’ and the like.<\/p><p>5. It shall not be a violation of this MAP Policy to advertise in general that the reseller has “the lowest prices” or will match or beat its competitors’ prices, or to use similar phrases; so long as the reseller does not include any advertised price below MAP and otherwise complies with this MAP Policy.<\/p><p>6. From time to time, CeramicSpeed may permit resellers to advertise MAP Products at prices lower than the MAP retail price. In such events, CeramicSpeed reserves the right to modify or suspend the MAP retail price with respect to the affected products for a specified period of time by providing advance notice to all resellers of such changes.<\/p><p>7. From time to time CeramicSpeed may offer a direct manufacturer’s rebate to customers. In such events, it shall not be a violation of this MAP Policy to advertise the availability of the manufacturer’s rebate, provided that (a) the advertisement include a MAP-compliant price, the rebate amount, and the net price after manufacturer’s rebate in the same type size and style; (b) an asterisk is placed next to the net price after manufacturer’s rebate; and (c) the “*After manufacturer’s rebate” appears in the same area of the advertisement as the advertised product.<\/p><p>8. Where CeramicSpeed products are bundled with or sold as part of a package that includes other products (whether or not manufactured by CeramicSpeed), it shall be a violation of this MAP Policy to sell or advertise the bundle (or package) at a price that: (a) is lower than the total Minimum Advertised Price of the CeramicSpeed product or (b) violates the letter or spirit of the MAP Policy. It shall be a violation of this MAP Policy if products are bundled with or sold as part of a package that includes products not pre-approved by CeramicSpeed. Pre-approved products have been tested and approved by CeramicSpeed engineers to ensure the product is up to CeramicSpeed standards. Ask your CeramicSpeed sales representative for a list of approved products.<\/p><p>9. It shall be a violation of this MAP Policy to include in any advertising for CeramicSpeed Products any additional discount, coupon, gift card, or incentive (whether in the form of a special event, promotion, term of doing business or otherwise) that translates into an immediate price reduction, where the cumulative effect would be to reduce the advertised price of any MAP Product below MAP. Advertising that includes an additional discount, coupon, gift card, points, or any other incentive for future purchases requires official approval from CeramicSpeed. Under no circumstances can additional discount, coupon, gift card, point, or any other incentive be applied to influence the sale of CeramicSpeed products unless authorised by CeramicSpeed. CeramicSpeed may, under its own discretion apply additional discount, coupon, gift card, promo code or any other incentive only as an activation of athlete and team sponsorships. For example, a promotional code redeemable on a future purchase would only be deemed acceptable if distributed by CeramicSpeed, as the original manufacturer only, and acting as a promotion of their sponsored team, athletes and\/or riders use of CeramicSpeed products in the broadest sense. This Section 10 shall not apply to any manufacturer’s rebate from CeramicSpeed on CeramicSpeed Products or its partners’ products.<\/p><p>10. It shall not be a violation of this MAP Policy to advertise that a customer may ”call for price” or “email for price”, or to use similar language, specifically with respect to CeramicSpeed Products, so long as no price is listed.<\/p><p>11. If a reseller with multiple store locations violates this MAP Policy at any particular store location, then CeramicSpeed will consider this to be a violation by all of the reseller’s locations.<\/p><p>12. Although resellers remain free to establish their own resale prices, CeramicSpeed reserves the right to cancel all orders and indefinitely refuse to accept any new orders from any resellers following CeramicSpeed’s verification that such reseller has advertised any MAP Products at a net retail sales price less than the then-current MAP retail price established by CeramicSpeed, or if reseller has violated this policy in any other way.<\/p><p>13. CeramicSpeed’s sales representatives are NOT permitted to discuss this Policy or make any agreements or assurances with respect to CeramicSpeed’s Policy regarding reseller advertising or pricing. This also includes any consumer program or promotion that affects the below-listed MAP Products.<\/p><p>14. Reseller agrees not to sell or offer for sale any current CeramicSpeed product over the Internet or any interactive electronic network without prior written approval from CeramicSpeed. CeramicSpeed reserves the right in CeramicSpeed’s sole discretion to approve or disapprove of the sale or offering for sale by any Reseller of CeramicSpeed products over the Internet or any interactive electronic network. Reseller faces possible cancellation of account if violating this policy.<\/p><p>15. Reseller agrees not to sell or offer for sale any current CeramicSpeed product (excluding newly overhauled or used products) via any Internet auction website. Reseller agrees not to sell or offer for sale any CeramicSpeed product on any third-party website, without prior written approval from CeramicSpeed. Current CeramicSpeed products are defined as those which appeal listed as having a MAP price (see page 5 for MAP policies). Any newly overhauled or used products sold via Internet auction must be identified as such in the auction item description. Reseller faces possible cancellation of account if violating this policy. Products purchased through online auctions are not eligible for warranty coverage.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "4429b84d-5552-4988-ab93-bf5cbdda9af2",
+        "18496d66-ca2d-4694-9c04-395e01133615",
+        "ee46b74e-12d2-45df-94b9-479df1d00df7",
+        "7b000e09-207b-4cbd-afc0-f45483772969",
+        "4821dbb1-79c7-47ba-8258-fe5af5bed6c6"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "72861c07-d2c5-43e7-a3b5-34466fa0db0e",
+    "7cefffa6-1394-49c6-8a48-3d47563e36c6"
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "ea28194d-87df-43b5-9cf1-f7ee6ad973e8": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18272984432942__ea28194d-87df-43b5-9cf1-f7ee6ad973e8-168508213351e0db4a-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--18272984432942__ea28194d-87df-43b5-9cf1-f7ee6ad973e8-168508213351e0db4a-1": {
+          "type": "heading",
+          "settings": {
+            "text": "What can we help you with?",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18272984432942__ea28194d-87df-43b5-9cf1-f7ee6ad973e8-168508213351e0db4a-0",
+        "template--18272984432942__ea28194d-87df-43b5-9cf1-f7ee6ad973e8-168508213351e0db4a-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "4bad9451-ed1d-4ca9-bfbb-3dbb8099f892": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "template--19557001822510__4bad9451-ed1d-4ca9-bfbb-3dbb8099f892-16867251737b354ff4-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/c3933b63163b581b0b2608c24a48bd1ab2ed07d5.png",
+            "stretch_image": true,
+            "link_text": "Products",
+            "link_url": "shopify:\/\/pages\/product-support",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 33
+          }
+        },
+        "template--19557001822510__4bad9451-ed1d-4ca9-bfbb-3dbb8099f892-16867251737b354ff4-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/58e3c905aa499ebf75fa8ff0f8448269c18aa10d.png",
+            "stretch_image": true,
+            "link_text": "Warranty Program",
+            "link_url": "shopify:\/\/pages\/warranty-program",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--19557001822510__4bad9451-ed1d-4ca9-bfbb-3dbb8099f892-16867251737b354ff4-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/73bf44284826202c970cd272341cb66237339a84.png",
+            "stretch_image": true,
+            "link_text": "Wheel Kit Compatibility",
+            "link_url": "shopify:\/\/pages\/wheel-kit-compatibility",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--19557001822510__4bad9451-ed1d-4ca9-bfbb-3dbb8099f892-16867251737b354ff4-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ce6415e2e28b4aba398a5e24c7ce94234a116265.png",
+            "stretch_image": true,
+            "link_text": "Technical Training",
+            "link_url": "shopify:\/\/pages\/support-for-pulley-wheels",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "eabbf263-f858-4690-9d4a-2122a985ff6f": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1c696392d48b06dda74ef948c454440ed3cdbf1c.png",
+            "stretch_image": true,
+            "link_text": "CeramicSpeed Headset SHIS",
+            "link_url": "shopify:\/\/pages\/support-for-chains-coatings",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 35
+          }
+        },
+        "d0677e05-912c-420a-b349-2008c5db6126": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/f0374ffe38a4b795f948910fdf2d9325764c5891-_1.png",
+            "stretch_image": true,
+            "link_text": "Contact Us",
+            "link_url": "shopify:\/\/pages\/contact",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 24
+          }
+        }
+      },
+      "block_order": [
+        "template--19557001822510__4bad9451-ed1d-4ca9-bfbb-3dbb8099f892-16867251737b354ff4-0",
+        "template--19557001822510__4bad9451-ed1d-4ca9-bfbb-3dbb8099f892-16867251737b354ff4-1",
+        "template--19557001822510__4bad9451-ed1d-4ca9-bfbb-3dbb8099f892-16867251737b354ff4-2",
+        "template--19557001822510__4bad9451-ed1d-4ca9-bfbb-3dbb8099f892-16867251737b354ff4-3",
+        "eabbf263-f858-4690-9d4a-2122a985ff6f",
+        "d0677e05-912c-420a-b349-2008c5db6126"
+      ],
+      "settings": {
+        "full_width": false,
+        "stack_image": false,
+        "grid-gap": 20,
+        "block_size": "medium",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "e600a136-50cf-425b-947a-447c0452f9db": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--19589162434862__e600a136-50cf-425b-947a-447c0452f9db-168690006315a46c23-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/994aed5378b8a93b2db072f62a0fdee869c47fc2.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Bearing Cleaning & Maintenance",
+            "content": "<p>A guide to cleaning and maintenance of your CeramicSpeed Bearings<\/p>",
+            "link_text": "Bearing Cleaning & Maintenance",
+            "link_url": "shopify:\/\/pages\/bearing-cleaning-maintenance",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19589162434862__e600a136-50cf-425b-947a-447c0452f9db-168690006315a46c23-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "b55ee10b-d4e2-4e68-9ff2-4bc2108d8163": {
+      "type": "newsletter",
+      "settings": {
+        "full_width": true,
+        "show_icon": true,
+        "title": "Keep up! Get the newsletter",
+        "content": "<p>A guide to cleaning and maintenance of your CeramicSpeed Bearings<\/p>",
+        "button_text": "Click to subscribe",
+        "subtext": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "008a8857-44ee-4358-95e0-a462beb398ed": {
+      "type": "newsletter",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "show_icon": true,
+        "title": "Newsletter",
+        "content": "<p>Write something about what your customers will receive by subscribing to your newsletter.<\/p>",
+        "button_text": "Subscribe",
+        "subtext": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ea28194d-87df-43b5-9cf1-f7ee6ad973e8",
+    "4bad9451-ed1d-4ca9-bfbb-3dbb8099f892",
+    "e600a136-50cf-425b-947a-447c0452f9db",
+    "b55ee10b-d4e2-4e68-9ff2-4bc2108d8163",
+    "008a8857-44ee-4358-95e0-a462beb398ed"
+  ]
+}

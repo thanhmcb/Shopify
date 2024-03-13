@@ -1,0 +1,228 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "3db86d21-e949-4476-90e5-64fecffed43e": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        },
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-2": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-0",
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-1",
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/Design_uden_navn_4.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "aca770b3-d895-4430-aa05-0990de07e08a": {
+      "type": "rich-text",
+      "blocks": {
+        "3e3fb28b-c92d-4cd9-965c-c4193fb676ed": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon": "picto-timer",
+            "icon_width": 32,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": ""
+          }
+        },
+        "d1fdfc50-8096-4401-9f4f-9b3c3f9e37ac": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--18216822309166__aca770b3-d895-4430-aa05-0990de07e08a-16777526798b832ccb-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>Tried, tested and approved<\/h5><p>The results show impressive efficiency benefits. Our new UFO Drip formula beats all competing formulas, including our original UFO Drip Formula by an impressive 15% on a 5-hour drivetrain test at 250 watts.<\/p><p>With our UFO Drip Chain Coating exhibiting minimal losses that range between 2.75 and 3.25 watts, we help ensure that more of those hard-earned watts get transferred directly to the road.With easy application, longterm protection, and increased efficiencies, the new and improved formula found in our UFO Drip Chain Coating takes drivetrain efficiency to the next level.<\/p>"
+          }
+        },
+        "e72d1cd8-01bb-4b44-86c4-caf5072f8fe8": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Dry Test<\/strong><\/p>"
+          }
+        },
+        "e38bbb13-d6f1-44ed-ae8b-314e05288d67": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/drytest_graph-with-names.png",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "33b09d54-20a6-46f2-bf43-1a43ec063fbc": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>This test focuses on the pure efficiency of a given lubricant on a pristine lab use only bicycle chain. Each lubricant is applied per manufactures stated method to a fully cleaned and dry chain. Each chain is ran for 5 hours, subject to a constant 250 watt load at 95 RPM’s through a traditional drivetrain crank and derailleur arrangement.<\/p><p>After 20 minutes, and then on each hour mark, the chains are precisely tested on a Chain Efficiency Tester in a single speed arrangement to isolate the frictional losses specific to the chain and its lubricant. These losses are measured in watts as a rider would experience in the real world riding at 95 RPM’s and 250 watts of output. Through the duration of this test, it is visible to see how different lubricants change, either wearing down becoming less efficient, or as in the case with UFO Drip, the waxes become optimized to the motions of the chain, becoming a more effective and stable lubricant.<\/p>"
+          }
+        },
+        "15aa13d7-ca49-4af1-82e8-2b08207ff51c": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Grit Test<\/strong><\/p>"
+          }
+        },
+        "79017303-ddc3-4df4-851d-16d64fe58642": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/grit-test-graph-with-names_2.png",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "23a89ca6-de9a-49a3-8443-65411aaea05a": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>To replicate the effects of outdoor contamination on a drivetrain, we developed a repeatable lab contamination test protocol. Taking place on a traditional drivetrain, powered by 250 watts at 95 RPM, 1\/3 gram of contamination was applied directly over the top of the chain at 10 minute intervals.  After 30, 60, and 90 minutes, the chains were transferred to the precise Chain Efficiency Tester to isolate the current fiction levels of the chain and its lubricant. These measurements are represented in watts of energy change due to the presence of contamination. The unique dry surface finish of the UFO Drip New Formula allows for no effect from the contamination, again become more efficient over time as the waxes optimize within the chain.<\/p>"
+          }
+        },
+        "880dcb76-f75a-420b-9981-81837e1782e4": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>FAQ - UFO Drip Chain Coating<\/h5><p>Can I fly with the new and improved UFO Drip? How long does each application last? Can I apply it to my UFO Chain? And other frequently asked questions are being answered in this video. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "3e3fb28b-c92d-4cd9-965c-c4193fb676ed",
+        "d1fdfc50-8096-4401-9f4f-9b3c3f9e37ac",
+        "template--18216822309166__aca770b3-d895-4430-aa05-0990de07e08a-16777526798b832ccb-2",
+        "e72d1cd8-01bb-4b44-86c4-caf5072f8fe8",
+        "e38bbb13-d6f1-44ed-ae8b-314e05288d67",
+        "33b09d54-20a6-46f2-bf43-1a43ec063fbc",
+        "15aa13d7-ca49-4af1-82e8-2b08207ff51c",
+        "79017303-ddc3-4df4-851d-16d64fe58642",
+        "23a89ca6-de9a-49a3-8443-65411aaea05a",
+        "880dcb76-f75a-420b-9981-81837e1782e4"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "0fc07394-0d8a-46e3-8790-10498cf9f779": {
+      "type": "video",
+      "blocks": {
+        "template--19645702308142__0fc07394-0d8a-46e3-8790-10498cf9f779-1687259606be875bf7-0": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--19645702308142__0fc07394-0d8a-46e3-8790-10498cf9f779-1687259606be875bf7-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Video",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--19645702308142__0fc07394-0d8a-46e3-8790-10498cf9f779-1687259606be875bf7-0",
+        "template--19645702308142__0fc07394-0d8a-46e3-8790-10498cf9f779-1687259606be875bf7-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/UFO Drip Chain Coating - FAQ.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "1eeccd19-aafa-4be4-aba5-3d841db15ea7": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19645702308142__1eeccd19-aafa-4be4-aba5-3d841db15ea7-16872498692d7dae65-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--19645702308142__1eeccd19-aafa-4be4-aba5-3d841db15ea7-16872498692d7dae65-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--19645702308142__1eeccd19-aafa-4be4-aba5-3d841db15ea7-16872498692d7dae65-2": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19645702308142__1eeccd19-aafa-4be4-aba5-3d841db15ea7-16872498692d7dae65-0",
+        "template--19645702308142__1eeccd19-aafa-4be4-aba5-3d841db15ea7-16872498692d7dae65-1",
+        "template--19645702308142__1eeccd19-aafa-4be4-aba5-3d841db15ea7-16872498692d7dae65-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3db86d21-e949-4476-90e5-64fecffed43e",
+    "aca770b3-d895-4430-aa05-0990de07e08a",
+    "0fc07394-0d8a-46e3-8790-10498cf9f779",
+    "1eeccd19-aafa-4be4-aba5-3d841db15ea7"
+  ]
+}

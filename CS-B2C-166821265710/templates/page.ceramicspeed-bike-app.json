@@ -1,0 +1,364 @@
+{
+  "wrapper": "section#wishlist.wishlist",
+  "sections": {
+    "022ad238-0ebd-47d3-a268-c59a70e5b8af": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18835670729006__022ad238-0ebd-47d3-a268-c59a70e5b8af-1684847937e979a243-1": {
+          "type": "heading",
+          "settings": {
+            "text": "CeramicSpeed Bike App",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "5e56c3a6-727b-4de8-9a5f-2d13521e51b7": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Sign up in the CeramicSpeed Bike App and get a free UFO Drip Wet Conditions.<br\/><br\/><\/strong>Your discount code will be sent to your mail upon succesfully integrating with Strava and consenting to marketing about our product range.<\/p>",
+            "text_align": "center"
+          }
+        },
+        "096358ec-8b41-4b54-906c-a3763fcf2e3a": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>                            <\/p><p><\/p><p><\/p><p><\/p>",
+            "text_align": "center"
+          }
+        },
+        "fc000181-b0f2-4877-9200-0bee8730094a": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>The CeramicSpeed Bike App will help riders get the most out of their time on the bike by offering intelligent maintenance tracking and an intuitive toolbox!<\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--18835670729006__022ad238-0ebd-47d3-a268-c59a70e5b8af-1684847937e979a243-1",
+        "5e56c3a6-727b-4de8-9a5f-2d13521e51b7",
+        "096358ec-8b41-4b54-906c-a3763fcf2e3a",
+        "fc000181-b0f2-4877-9200-0bee8730094a"
+      ],
+      "custom_css": [
+        "div {padding-bottom: 0px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "82503f45-ad98-4029-9883-0b4a04204170": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19674892534062__82503f45-ad98-4029-9883-0b4a04204170-16875151073b469bf9-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--19674892534062__82503f45-ad98-4029-9883-0b4a04204170-16875151073b469bf9-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--19674892534062__82503f45-ad98-4029-9883-0b4a04204170-16875151073b469bf9-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--19674892534062__82503f45-ad98-4029-9883-0b4a04204170-16875151073b469bf9-0",
+        "template--19674892534062__82503f45-ad98-4029-9883-0b4a04204170-16875151073b469bf9-1",
+        "template--19674892534062__82503f45-ad98-4029-9883-0b4a04204170-16875151073b469bf9-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "8b90ae71-8f64-49fc-be2c-b9bad1e38d9e": {
+      "type": "video",
+      "blocks": {
+        "template--19674892534062__8b90ae71-8f64-49fc-be2c-b9bad1e38d9e-168776818414e45a40-0": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--19674892534062__8b90ae71-8f64-49fc-be2c-b9bad1e38d9e-168776818414e45a40-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--19674892534062__8b90ae71-8f64-49fc-be2c-b9bad1e38d9e-168776818414e45a40-0",
+        "template--19674892534062__8b90ae71-8f64-49fc-be2c-b9bad1e38d9e-168776818414e45a40-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/Ceramic_Speed_02_07_Horizontal.mp4",
+        "external_video_url": "",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 31
+      }
+    },
+    "main": {
+      "type": "wishlist-template",
+      "disabled": true,
+      "settings": {
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "aria_controls": true,
+        "size": "xl",
+        "style": "fill",
+        "stretch": false,
+        "background": "#000000",
+        "text_color": "#fafafa"
+      }
+    },
+    "10ef40c1-bd47-4691-b3ed-d45e85129e9f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19674892534062__10ef40c1-bd47-4691-b3ed-d45e85129e9f-168750588044a0fe99-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "CeramicSpeed Bike App"
+          }
+        },
+        "template--19674892534062__10ef40c1-bd47-4691-b3ed-d45e85129e9f-168750588044a0fe99-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Intelligent Maintenance Tracking",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--19674892534062__10ef40c1-bd47-4691-b3ed-d45e85129e9f-168750588044a0fe99-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Our new intuitive Bike App provides riders with the easiest way to always stay on top of their bikes' maintenance needs. <\/p><p><\/p><p> The intelligent maintenance tracker will monitor the usage of riders' bikes\/components and present them with best-practice maintenance guidance - maximizing the lifetime of components and saving them money at the same time. <\/p>",
+            "text_align": "center"
+          }
+        },
+        "8632703a-2b9b-49e2-914f-8f78b2810ea6": {
+          "type": "heading",
+          "settings": {
+            "text": "Strava Synchronization",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "41e860e0-bce2-4401-ae4b-296b081266f8": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>All maintenance tracking happens through hassle-free synchronization with Strava. The Bike App can be used by everybody - also riders who currently don't ride with CeramicSpeed components.<\/p>",
+            "text_align": "center"
+          }
+        },
+        "6a69c759-26ef-462b-829c-79fc1122335c": {
+          "type": "heading",
+          "settings": {
+            "text": "An Intuitive Toolbox",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "e609da93-b737-43d2-9917-e643e1bc49dd": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Achieving an optimal setup and fit of one's bike is just as crucial for the ride experience as the state of the bike's components. With our easy-to-use Handlebar Aligner tool, our App removes the guesswork out of the hood and handlebar setup. <\/p>",
+            "text_align": "center"
+          }
+        },
+        "48ee5a5b-7daa-4237-b959-5a621a46a41c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JG_230606_CeramicSpeed_Testing_And_SLT_2347_c22296bb-f3f6-4288-9f93-28678af21008.jpg",
+            "width_mode": "custom",
+            "max_width": 700,
+            "mobile_max_width": 390
+          }
+        }
+      },
+      "block_order": [
+        "template--19674892534062__10ef40c1-bd47-4691-b3ed-d45e85129e9f-168750588044a0fe99-0",
+        "template--19674892534062__10ef40c1-bd47-4691-b3ed-d45e85129e9f-168750588044a0fe99-1",
+        "template--19674892534062__10ef40c1-bd47-4691-b3ed-d45e85129e9f-168750588044a0fe99-2",
+        "8632703a-2b9b-49e2-914f-8f78b2810ea6",
+        "41e860e0-bce2-4401-ae4b-296b081266f8",
+        "6a69c759-26ef-462b-829c-79fc1122335c",
+        "e609da93-b737-43d2-9917-e643e1bc49dd",
+        "48ee5a5b-7daa-4237-b959-5a621a46a41c"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "750625a5-7550-4913-aef1-f2db8283eef1": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19674892534062__750625a5-7550-4913-aef1-f2db8283eef1-168750588044a0fe99-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "CeramicSpeed BikeApp"
+          }
+        },
+        "template--19674892534062__750625a5-7550-4913-aef1-f2db8283eef1-168750588044a0fe99-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Technical Benefits",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--19674892534062__750625a5-7550-4913-aef1-f2db8283eef1-168750588044a0fe99-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h6>CeramicSpeed product registration and obtainment of product warranty<\/h6><h6>Free Toolbox suite for bikes<\/h6><h6>Handlebar alignment tool<\/h6><h6>Live chat<\/h6><h6>Maintenance tracker<\/h6><h6>Synchronization with Strava<\/h6>",
+            "text_align": "center"
+          }
+        },
+        "a2d5f86c-67a2-4713-8406-f05605eed7f1": {
+          "type": "image",
+          "settings": {
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "template--19674892534062__750625a5-7550-4913-aef1-f2db8283eef1-168750588044a0fe99-0",
+        "template--19674892534062__750625a5-7550-4913-aef1-f2db8283eef1-168750588044a0fe99-1",
+        "template--19674892534062__750625a5-7550-4913-aef1-f2db8283eef1-168750588044a0fe99-2",
+        "a2d5f86c-67a2-4713-8406-f05605eed7f1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "136cb921-289f-472e-91d7-325e8842c2ab": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19674892534062__136cb921-289f-472e-91d7-325e8842c2ab-1687768591b7f2f3b2-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "Download"
+          }
+        },
+        "template--19674892534062__136cb921-289f-472e-91d7-325e8842c2ab-1687768591b7f2f3b2-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Get it now!",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "1fb64e60-85c7-49d8-b206-defb421bb0f9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0d7700a4-b090-41c2-90e4-6e426a0a258f-small_a050ba9a-4fc6-43e2-aafc-28ede3a4a655.png",
+            "width_mode": "custom",
+            "max_width": 590,
+            "mobile_max_width": 400
+          }
+        },
+        "370a61fd-e955-4cd4-93cc-69a76eedaaa1": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "sm",
+            "text": "Download on App Store",
+            "url": "https:\/\/apps.apple.com\/app\/ceramicspeed-bike-app\/id1635549762",
+            "background": "#000000",
+            "text_color": "#ffffff"
+          }
+        },
+        "2415e010-a908-4bd4-ad6c-4fdedb5ea97c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8256bee9-bb52-441f-a1c9-2c5369e7c70c-small_9deac1c5-0638-47b7-b13e-cee16bd699d5.png",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "fe585cae-8f36-4fe2-8609-a8ff28e8f1d6": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "sm",
+            "text": "Download on Google Play",
+            "url": "https:\/\/play.google.com\/store\/apps\/details?id=com.ceramicspeed.bikeapp&pli=1",
+            "background": "#000000",
+            "text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "template--19674892534062__136cb921-289f-472e-91d7-325e8842c2ab-1687768591b7f2f3b2-0",
+        "template--19674892534062__136cb921-289f-472e-91d7-325e8842c2ab-1687768591b7f2f3b2-1",
+        "1fb64e60-85c7-49d8-b206-defb421bb0f9",
+        "370a61fd-e955-4cd4-93cc-69a76eedaaa1",
+        "2415e010-a908-4bd4-ad6c-4fdedb5ea97c",
+        "fe585cae-8f36-4fe2-8609-a8ff28e8f1d6"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "022ad238-0ebd-47d3-a268-c59a70e5b8af",
+    "82503f45-ad98-4029-9883-0b4a04204170",
+    "8b90ae71-8f64-49fc-be2c-b9bad1e38d9e",
+    "main",
+    "10ef40c1-bd47-4691-b3ed-d45e85129e9f",
+    "750625a5-7550-4913-aef1-f2db8283eef1",
+    "136cb921-289f-472e-91d7-325e8842c2ab"
+  ]
+}

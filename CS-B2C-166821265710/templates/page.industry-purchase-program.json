@@ -1,0 +1,178 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "57d75d66-a660-443b-8c52-cce474540f62": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--19527283704110__57d75d66-a660-443b-8c52-cce474540f62-1686574312b405413a-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--19527283704110__57d75d66-a660-443b-8c52-cce474540f62-1686574312b405413a-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Industry Purchase Program",
+            "heading_tag": "h1"
+          }
+        },
+        "template--19527283704110__57d75d66-a660-443b-8c52-cce474540f62-1686574312b405413a-2": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19527283704110__57d75d66-a660-443b-8c52-cce474540f62-1686574312b405413a-0",
+        "template--19527283704110__57d75d66-a660-443b-8c52-cce474540f62-1686574312b405413a-1",
+        "template--19527283704110__57d75d66-a660-443b-8c52-cce474540f62-1686574312b405413a-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "sm",
+        "image": "shopify:\/\/shop_images\/narrow_wide.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/narrow_wide.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "19ee4b23-a539-494b-939e-68feba8a63e1": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19527283704110__19ee4b23-a539-494b-939e-68feba8a63e1-1686574640029ee26a-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--19527283704110__19ee4b23-a539-494b-939e-68feba8a63e1-1686574640029ee26a-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--19527283704110__19ee4b23-a539-494b-939e-68feba8a63e1-1686574640029ee26a-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>At CeramicSpeed we have four different Industry Purchase Programs. Find the one that fits you and apply for the program by submitting the form. A CeramicSpeed employee will reach out to you within 30 days after receiving your request. <\/p><p><\/p>",
+            "text_align": "center"
+          }
+        },
+        "99b3959f-0280-4324-9d11-7b6aa51882ad": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Industry Purchase Program (IPP)<\/strong>: Is for people working within the cycling industry. Reach out to us and we'll get back to you.<\/p>",
+            "text_align": "center"
+          }
+        },
+        "2dc959de-75ed-405c-9dc9-11f62f45007e": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Apply for IPP",
+            "url": "shopify:\/\/pages\/ipp",
+            "background": "#b2c9c9",
+            "text_color": ""
+          }
+        },
+        "64b9a317-d5d3-43ad-874a-b1651dab8dfc": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Employee Industry Program (EPP):<\/strong> Is for employees working at CeramicSpeed retail stores, who want to upgrade their personal bikes with CeramicSpeed. <\/p>",
+            "text_align": "center"
+          }
+        },
+        "01a8a34b-2ac4-4e91-ad9e-d7cde8bee8d0": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Apply for EPP",
+            "url": "shopify:\/\/pages\/epp",
+            "background": "#b2c9c9",
+            "text_color": ""
+          }
+        },
+        "fed15a24-0b89-49e0-bcf5-b876f9a24163": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Retail Purchase Program (RPP):<\/strong> This program is for retailers that are not carrying CeramicSpeed as part of their product range, but are considering to do so. The program offers you a discount on products - for you to experience CeramicSpeed on your own, before you make a decision if this is a brand you want to carry in your store. <\/p>",
+            "text_align": "center"
+          }
+        },
+        "55dd718d-4b56-48e0-8b51-81bcfb8c5e25": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Apply for RPP",
+            "url": "shopify:\/\/pages\/rpp",
+            "background": "#b2c9c9",
+            "text_color": ""
+          }
+        },
+        "5f799322-28af-495e-892f-6f362ec83bab": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Athlete Purchase Program (APP):<\/strong> This program is for athletes that are not covered by any of our sponsorships. Please fill out the form and we will get back to you.<\/p>",
+            "text_align": "center"
+          }
+        },
+        "97470ccd-a7b7-4016-b9ad-42bfabc31928": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Apply for APP",
+            "url": "shopify:\/\/pages\/app",
+            "background": "#b2c9c9",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19527283704110__19ee4b23-a539-494b-939e-68feba8a63e1-1686574640029ee26a-0",
+        "template--19527283704110__19ee4b23-a539-494b-939e-68feba8a63e1-1686574640029ee26a-1",
+        "template--19527283704110__19ee4b23-a539-494b-939e-68feba8a63e1-1686574640029ee26a-2",
+        "99b3959f-0280-4324-9d11-7b6aa51882ad",
+        "2dc959de-75ed-405c-9dc9-11f62f45007e",
+        "64b9a317-d5d3-43ad-874a-b1651dab8dfc",
+        "01a8a34b-2ac4-4e91-ad9e-d7cde8bee8d0",
+        "fed15a24-0b89-49e0-bcf5-b876f9a24163",
+        "55dd718d-4b56-48e0-8b51-81bcfb8c5e25",
+        "5f799322-28af-495e-892f-6f362ec83bab",
+        "97470ccd-a7b7-4016-b9ad-42bfabc31928"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "57d75d66-a660-443b-8c52-cce474540f62",
+    "19ee4b23-a539-494b-939e-68feba8a63e1"
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "3db86d21-e949-4476-90e5-64fecffed43e": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Bliv indkøbsassistent hos CeramicSpeed",
+            "heading_tag": "h1"
+          }
+        },
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-2": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-0",
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-1",
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/0321de914d8b04c3c4766077eed3b3fe5601fce6.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "aca770b3-d895-4430-aa05-0990de07e08a": {
+      "type": "rich-text",
+      "blocks": {
+        "3e3fb28b-c92d-4cd9-965c-c4193fb676ed": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon": "picto-timer",
+            "icon_width": 32,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": ""
+          }
+        },
+        "d1fdfc50-8096-4401-9f4f-9b3c3f9e37ac": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--18216822309166__aca770b3-d895-4430-aa05-0990de07e08a-16777526798b832ccb-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>CeramicSpeed er en sund virksomhed med entreprenørånd. Vi er i vækst og tæller nu 100 ansatte fordelt på lokationer i Europa, USA og Asien. Vi har et unikt brand med høje ambitioner og lige nu mangler vi den helt rigtige indkøbsassistent til vores hovedkontor i Holstebro.<br\/><br\/>I vores indkøbsafdeling, vil du sammen men vores anden indkøbsassistent, elev og daglige leder, indgå i et team på 4 personer, som til dagligt arbejder rigtig tæt sammen. I afdelingen er vi sociale, og går ind for en god og humoristisk omgangstone.<br\/><br\/>Vi søger dig, som er klar til at kommunikere direkte med vores leverandører og samarbejdspartnere, og som samtidig har en frisk og struktureret tilgang til de daglige opgaver. De fleste opgaver foregår bag en skærm, men det er vigtigt at man har lyst til at komme rundt i hele virksomheden, for at få et indblik i hvordan de enkelte afdelinger arbejder, samt hvordan Indkøb bedst kan hjælpe med at vi opnår vores fælles mål.<br\/><br\/>Vi forventer at du har solid erfaring med Microsoft Office pakken (fokus på Outlook og Excel) samt gerne erfaring med et ERP-system. Vi har indenfor de seneste år implementeret Dynamics D365FO, og bruger det som vores vigtigste redskab i løbet af dagen.<br\/><br\/>Opgaver som vil fylde din hverdag vil typisk være:<br\/><br\/>• Indkøb ved leverandører fra hele verden<br\/>• Opfølgning på indkøbsordrer<br\/>• Indhentning og vurdering tilbud<br\/>• Vedligehold af statistikker <br\/>• Stamdataopdateringer <br\/>• Servicering af vores produktions- og salgsafdelinger<br\/><br\/>Som person skal du trives med at have mange bolde i luften og kunne håndtere, at skrivebordet ikke altid når at være tømt når dagen slutter.<br\/><br\/>Det er vigtigt du er: <br\/><br\/>• Fleksibel og har lyst til forskellige typer af opgaver <br\/>• Arbejder struktureret <br\/>• Interesseret i at arbejde med tekniske produkter <br\/>• Holdspiller og imødekommende <br\/>• Selvstændig og tager ansvar<br\/><br\/>Præcis hvilken baggrund du har er ikke så vigtig, da vi nok skal lærer dig godt op i vores systemer og processer. Men erfaring med tekniske artikler indenfor f.eks. industri vil være en fordel. Gode evner indenfor engelsk i både skrift og tale, er et krav. Vi glæder os til at læse din ansøgning, hvor du beskriver dig selv og hvordan du kan understøtte vores forretning.<br\/><br\/>Tiltrædelse efter aftale. Vi holder samtaler løbende, og stillingen vil blive besat, når vi har fundet den rette. Ansøgning med CV sendes pr. mail til <a href=\"mailto:job@ceramicspeed.com\" target=\"_blank\" title=\"mailto:job@ceramicspeed.com\">job@ceramicspeed.com<\/a>. Har du spørgsmål til stillingen, er du velkommen til at kontakte Thomas Toft Lynderup på <a href=\"mailto:ttl@ceramicspeed.com\" target=\"_blank\" title=\"mailto:ttl@ceramicspeed.com\">ttl@ceramicspeed.com<\/a>.<br\/><br\/><strong>Du tilbydes<\/strong><br\/>En spændende stilling i en privat virksomhed med et unikt brand og høje ambitioner. Du kommer til at arbejde med kompetente og engagerede kolleger i en uformel og flad organisation. Arbejdspladsen er 100% røgfri. Vi er en lokal virksomhed, men en stor spiller på det globale marked. Lønpakken inkluderer pension, motion i arbejdstiden, sundhedsordning, frokostordning og en række andre lækre personalegoder.<br\/><br\/><strong>CeramicSpeed<\/strong><br\/>CeramicSpeed blev etableret i 2004 i Holstebro og er i dag en af verdens førende producenter af keramiske lejer til cykelbranchen. Vi har mere end 15 års erfaring med udvikling af lejer, som har ekstrem lav friktion og lang levetid. Alle lejer bliver håndlavet i Danmark.<br\/><br\/>CeramicSpeed er underleverandør til nogle af verdens største og mest prominente high-end cykelproducenter. Produkterne bliver desuden distribueret i mere end 50 lande, og vi er det eneste lejebrand som sponsorerer 5 World Tour Teams samt en lang række af verdens bedste triatleter.<br\/><br\/>I 2008 tilføjedes det selvstændige selskab CeramicSpeed Industry med fokus på kunder i industrien. Kerneområdet er keramiske kuglelejer med unikke egenskaber på levetid, friktion mv. Det giver kunderne store økonomiske fordele i forhold til traditionelle lejer. Samlet ændrer dette måden at tænke vedligeholdelsesplanlægning på. Vi er førende indenfor vores felt og har en forretningsmodel, som gør både produktsortiment, kvalitet og kundeservice unikt på markedet.<\/p>",
+            "text_align": "left"
+          }
+        }
+      },
+      "block_order": [
+        "3e3fb28b-c92d-4cd9-965c-c4193fb676ed",
+        "d1fdfc50-8096-4401-9f4f-9b3c3f9e37ac",
+        "template--18216822309166__aca770b3-d895-4430-aa05-0990de07e08a-16777526798b832ccb-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3db86d21-e949-4476-90e5-64fecffed43e",
+    "aca770b3-d895-4430-aa05-0990de07e08a"
+  ]
+}
