@@ -1,0 +1,303 @@
+{
+  "sections": {
+    "6842990f-3a7c-4367-95ec-dd7136948a10": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19574239625518__6842990f-3a7c-4367-95ec-dd7136948a10-1687160523ef747426-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--19574239625518__6842990f-3a7c-4367-95ec-dd7136948a10-1687160523ef747426-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Maintenance Guide",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--19574239625518__6842990f-3a7c-4367-95ec-dd7136948a10-1687160523ef747426-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>How to maintain your CeramicSpeed Bottom Bracket and Wheel Bearings<\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--19574239625518__6842990f-3a7c-4367-95ec-dd7136948a10-1687160523ef747426-0",
+        "template--19574239625518__6842990f-3a7c-4367-95ec-dd7136948a10-1687160523ef747426-1",
+        "template--19574239625518__6842990f-3a7c-4367-95ec-dd7136948a10-1687160523ef747426-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "83941099-fa9c-4c55-a5fd-406c82af69a2": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18866855739694__83941099-fa9c-4c55-a5fd-406c82af69a2-168232890080e9589b-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Maintenance Guide",
+            "heading_tag": "h1"
+          }
+        },
+        "ac6cef17-0d33-46bf-a31e-531321d42b0b": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>How to maintain your CeramicSpeed Bottom Bracket and Wheel Bearings<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18866855739694__83941099-fa9c-4c55-a5fd-406c82af69a2-168232890080e9589b-1",
+        "ac6cef17-0d33-46bf-a31e-531321d42b0b"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "12a3b7bd-599a-4c50-80ae-3f57e702bdd0": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18866855739694__12a3b7bd-599a-4c50-80ae-3f57e702bdd0-1682329065c28de8b7-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--18866855739694__12a3b7bd-599a-4c50-80ae-3f57e702bdd0-1682329065c28de8b7-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>General Maintenance for CeramicSpeed Bottom Bracket and Wheel Bearings<\/h5><p>Overview for how to clean and maintain CeramicSpeed Bearings used in Bottom Brackets and Wheel Hubs.<\/p><p>It is always important to follow these instructions and apply the proper maintenance to your CeramicSpeed Bottom Brackets and Bearings in order to achieve the lowest friction and the best longevity.<\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--18866855739694__12a3b7bd-599a-4c50-80ae-3f57e702bdd0-1682329065c28de8b7-0",
+        "template--18866855739694__12a3b7bd-599a-4c50-80ae-3f57e702bdd0-1682329065c28de8b7-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "6e711e4a-b3f6-4e41-b74d-3333a56564bf": {
+      "type": "rich-text",
+      "blocks": {
+        "ed696e7f-2ba7-4128-b586-c8a99ffcc9a6": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--18866855739694__6e711e4a-b3f6-4e41-b74d-3333a56564bf-1682579954eaecbed2-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "",
+            "text_align": "center"
+          }
+        },
+        "76bf1a7c-3b3f-48ef-9e18-4efb7c95848f": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "CeramicSpeed Bearing Maintenance Overview",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/7542\/6606\/files\/Maintenance_quick_reference_v4.pdf?v=1693906688",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "ed696e7f-2ba7-4128-b586-c8a99ffcc9a6",
+        "template--18866855739694__6e711e4a-b3f6-4e41-b74d-3333a56564bf-1682579954eaecbed2-2",
+        "76bf1a7c-3b3f-48ef-9e18-4efb7c95848f"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "6ba5be66-405b-457a-ae08-6280b5c77fb7": {
+      "type": "video",
+      "blocks": {
+        "template--19557548753198__6ba5be66-405b-457a-ae08-6280b5c77fb7-168672916478d00da8-0": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--19557548753198__6ba5be66-405b-457a-ae08-6280b5c77fb7-168672916478d00da8-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--19557548753198__6ba5be66-405b-457a-ae08-6280b5c77fb7-168672916478d00da8-0",
+        "template--19557548753198__6ba5be66-405b-457a-ae08-6280b5c77fb7-168672916478d00da8-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/General Maintenance for CeramicSpeed Bottom Bracket and Wheel Bearings.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "poster": "shopify:\/\/shop_images\/maintenance-bb_1_de9792f8-4563-4880-b274-ffd80c140b38.jpg",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "12910049-34df-45ac-aaba-98211a89d059": {
+      "type": "rich-text",
+      "blocks": {
+        "82232dcc-5cef-4bf1-868f-6102eb027b49": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "1570998f-9319-475e-b898-597cc5b328db": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>CeramicSpeed Grease Types<\/h5><p>Learn more about the difference between the three CeramicSpeed Grease types and find out which one to use for maintenance of your CeramicSpeed Bearings. <\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "82232dcc-5cef-4bf1-868f-6102eb027b49",
+        "1570998f-9319-475e-b898-597cc5b328db"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "38ae8a55-6228-4c35-8576-b9580e34f760": {
+      "type": "video",
+      "blocks": {
+        "528aa0bf-456b-47ac-af32-136a540b6e40": {
+          "type": "play",
+          "settings": {}
+        },
+        "f91c09a9-5e72-45ea-b67b-043438c9cddc": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "528aa0bf-456b-47ac-af32-136a540b6e40",
+        "f91c09a9-5e72-45ea-b67b-043438c9cddc"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/CeramicSpeed UFO Grease.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "06662c01-757f-46a3-a98f-42a66fe521f9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19573655503150__06662c01-757f-46a3-a98f-42a66fe521f9-16868149851885dc1f-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--19573655503150__06662c01-757f-46a3-a98f-42a66fe521f9-16868149851885dc1f-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--19573655503150__06662c01-757f-46a3-a98f-42a66fe521f9-16868149851885dc1f-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--19573655503150__06662c01-757f-46a3-a98f-42a66fe521f9-16868149851885dc1f-0",
+        "template--19573655503150__06662c01-757f-46a3-a98f-42a66fe521f9-16868149851885dc1f-1",
+        "template--19573655503150__06662c01-757f-46a3-a98f-42a66fe521f9-16868149851885dc1f-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "6842990f-3a7c-4367-95ec-dd7136948a10",
+    "main",
+    "83941099-fa9c-4c55-a5fd-406c82af69a2",
+    "12a3b7bd-599a-4c50-80ae-3f57e702bdd0",
+    "6e711e4a-b3f6-4e41-b74d-3333a56564bf",
+    "6ba5be66-405b-457a-ae08-6280b5c77fb7",
+    "12910049-34df-45ac-aaba-98211a89d059",
+    "38ae8a55-6228-4c35-8576-b9580e34f760",
+    "06662c01-757f-46a3-a98f-42a66fe521f9"
+  ]
+}

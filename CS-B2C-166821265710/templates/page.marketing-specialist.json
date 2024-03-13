@@ -1,0 +1,154 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "3db86d21-e949-4476-90e5-64fecffed43e": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Marketing Specialist, Retail",
+            "heading_tag": "h1"
+          }
+        },
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-2": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-0",
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-1",
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/1d7c4b9a0bc74f9e73720806d6cad404f16a2d11.png",
+        "mobile_text_position": "place-self-end-start text-start",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "aca770b3-d895-4430-aa05-0990de07e08a": {
+      "type": "rich-text",
+      "blocks": {
+        "3e3fb28b-c92d-4cd9-965c-c4193fb676ed": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon": "picto-timer",
+            "icon_width": 32,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": ""
+          }
+        },
+        "d1fdfc50-8096-4401-9f4f-9b3c3f9e37ac": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--18216822309166__aca770b3-d895-4430-aa05-0990de07e08a-16777526798b832ccb-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>CeramicSpeed is a global leader in the cycling industry, renowned for its innovative and high-performance products. Headquartered in Holstebro, Denmark, CeramicSpeed is expanding its presence worldwide, and we are seeking a dynamic and experienced individual to join our team as a Retail Marketing Specialist. <\/p><p><strong>Responsibilities:<\/strong> <\/p><ul><li>Develop and implement a comprehensive Retail Asset Program to enhance brand awareness at retailers globally.<\/li><li>Manage retail assets in conjunction with product launches, ensuring seamless coordination with sales teams in Asia, Europe, and the US.<\/li><li>Act as the primary contact for sales teams in the development of new retail assets.<\/li><li>Oversee the end-to-end process of retail asset creation, from ideation and planning to production and distribution, collaborating closely with internal stakeholders, graphic designers, and production companies.<\/li><li>Ensure a continuous supply of relevant retail assets for our expanding network of global retailers.<\/li><\/ul><p><strong>Professional competencies:<\/strong><\/p><ul><li>Proven experience in developing and implementing marketing retail strategies.<\/li><li>Relevant background in marketing and communication.<\/li><li>Demonstrated experience working with retail across diverse regions and cultures.<\/li><li>Strong analytical and planning skills.<\/li><li>Highly structured with proficient Excel skills.<\/li><li>Fluent English language proficiency.<\/li><\/ul><p><strong>Location:<\/strong><\/p><ul><li>The position is based at our new HQ in Holstebro, Denmark.<\/li><li>Hybrid working model possible, with an expectation of regular presence at HQ.<\/li><li>Anticipate 25-30 days of international travel annually.<\/li><\/ul><p>We are a Danish company working globally. The corporate language in CeramicSpeed is English and you will be working closely with colleagues from our offices in Boulder, USA and Taichung, Taiwan.  <br\/><br\/><strong>Our offer:<\/strong>  <br\/>An exciting position in a company with a unique brand and high ambitions. You will work with competent and committed colleagues in an informal and flat organisation. The workplace is 100% smoke-free.<br\/>We are a local company but a major player in the global market.<br\/>The salary package includes pension, exercise during working hours, health scheme and several other staff benefits.<br\/> <br\/>Please submit your CV and cover letter to job@ceramicspeed.com with the subject line \"Marketing Retail Specialist.\"<br\/>For inquiries about the position, contact Rasmus Bækvad, Marketing Director, at +45 4018 5484 or <a href=\"mailto:rb@ceramicspeed.com\" title=\"mailto:rb@ceramicspeed.com\">rb@ceramicspeed.com<\/a>.<br\/>To apply, please submit your CV and cover letter to <a href=\"mailto:job@ceramicspeed.com\" title=\"mailto:job@ceramicspeed.com\">job@ceramicspeed.com<\/a> with the subject line \"Marketing Retail Specialist.\"<br\/>We will be conducting interviews over the next month, so early submissions are encouraged.<br\/><br\/><strong>CeramicSpeed:<\/strong> <br\/>CeramicSpeed was established in 2004 and is today one of the world's leading manufacturers of ceramic bearing products and optimised drive chains for the cycling industry. We have more than 20 years of experience in developing bearings with extremely low friction and unrivalled durability. All our products are handmade in Denmark. <br\/>CeramicSpeed is a subcontractor to some of the world's largest and most prominent high-end bicycle manufacturers. The products are also distributed in more than 50 countries, and we are the only rental brand to sponsor 4 World Tour Teams, as well as many of the world's best triathletes.    <br\/>In 2008, the independent industrial company CeramicSpeed Bearings was added, focusing on customers in the industry. The core area is ceramic ball bearings with unique properties in terms of service life, friction, etc. This gives customers major financial advantages compared to traditional bearings. Overall, this changes the way we think about maintenance planning. We are a leader in our field and have a business model that makes our product range, quality and customer service unique in the market.   <br\/>While the company continues to grow in all parts of the world, our culture and values remain deeply rooted in our history. Every year, we find time to be together the Danish way. We cycle together, we laugh and we tell stories from the road.<br\/><br\/>Thank you for your interest in joining the CeramicSpeed team!<\/p>",
+            "text_align": "left"
+          }
+        }
+      },
+      "block_order": [
+        "3e3fb28b-c92d-4cd9-965c-c4193fb676ed",
+        "d1fdfc50-8096-4401-9f4f-9b3c3f9e37ac",
+        "template--18216822309166__aca770b3-d895-4430-aa05-0990de07e08a-16777526798b832ccb-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_n8k7yD": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_4izNBk": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_iMhtWL": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_7Xdh4N": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>CeramicSpeed is a global leader in the cycling industry, renowned for its innovative and high-performance products. Headquartered in Holstebro, Denmark, CeramicSpeed is expanding its presence worldwide, and we are seeking a dynamic and experienced individual to join our team as a Retail Marketing Specialist.<\/p>",
+            "text_align": "left"
+          }
+        },
+        "richtext_CPNAch": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Responsibilities: <\/strong><\/p><ul><li>Develop and implement a comprehensive Retail Asset Program to enhance brand awareness at retailers globally.Manage retail assets in conjunction with product launches, ensuring seamless coordination with sales teams in Asia, Europe, and the US.Act as the primary contact for sales teams in the development of new retail assets.Oversee the end-to-end process of retail asset creation, from ideation and planning to production and distribution, collaborating closely with internal stakeholders, graphic designers, and production companies.Ensure a continuous supply of relevant retail assets for our expanding network of global retailers.<\/li><\/ul>",
+            "text_align": "left"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_4izNBk",
+        "heading_iMhtWL",
+        "richtext_7Xdh4N",
+        "richtext_CPNAch"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3db86d21-e949-4476-90e5-64fecffed43e",
+    "aca770b3-d895-4430-aa05-0990de07e08a",
+    "rich_text_n8k7yD"
+  ]
+}

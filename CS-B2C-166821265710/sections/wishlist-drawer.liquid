@@ -1,0 +1,93 @@
+<!-- /sections/collections.liquid -->
+<wishlist-drawer
+  {% if request.design_mode %}handle-section-events{% endif %}
+  class="drawer drawer--half-full-width"
+  id="wishlist-drawer">
+  <div class="wishlist-drawer__top">
+    <div class="h-stack items-center justify-between">
+      <div class="h-stack gap-2 sm:gap-2.5">
+        <p class="h5">{{ 'general.wishlist.drawer_header' | t }}</p>
+      </div>
+
+      <button
+        type="button"
+        is="close-button"
+        class="drawer__close-icon">
+        {%- render 'icon' with 'close' -%}
+      </button>
+    </div>
+  </div>
+
+  <div class="v-stack gap-6 sm:gap-8 map-body wishlist-share-info-placement">
+    <p>{{ 'general.wishlist.drawer_content' | t }}</p>
+        <div class="input-row">
+          <div class="input">
+            <input id="wishlist-link" type="text" class="input__field input__field--text" name="address[last_name]" value="">
+          </div>
+          <button id="btnCopyToClipboard" onclick="copyToClipboard()" class="button button-open-wishlist" data-clipboard-action="copy" data-clipboard-target="#wishlist-link">{{ 'general.wishlist.drawer_copy_button' | t }}</button>
+        </div>
+  </div>
+</wishlist-drawer>
+
+
+{% schema %}
+  {
+
+    "name": "Wishlist drawer",
+    "settings": [
+
+      {
+        "type": "select",
+        "id": "size",
+        "label": "Size",
+        "options": [
+          {
+            "value": "sm",
+            "label": "Small"
+          }, {
+            "value": "base",
+            "label": "Medium"
+          }, {
+            "value": "lg",
+            "label": "Large"
+          }, {
+            "value": "xl",
+            "label": "X-Large"
+          }
+        ],
+        "default": "xl"
+      },
+      {
+        "type": "select",
+        "id": "style",
+        "label": "Style",
+        "options": [
+          {
+            "value": "outline",
+            "label": "Outline"
+          }, {
+            "value": "fill",
+            "label": "Fill"
+          }
+        ],
+        "default": "fill"
+      },
+      {
+        "type": "checkbox",
+        "id": "stretch",
+        "label": "Stretch",
+        "default": true
+      },
+      {
+        "type": "color",
+        "id": "background",
+        "label": "Background"
+      }, {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text"
+      }
+    ]
+
+  }
+{% endschema %}

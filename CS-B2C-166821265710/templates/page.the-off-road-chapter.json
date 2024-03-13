@@ -1,0 +1,575 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "ea28194d-87df-43b5-9cf1-f7ee6ad973e8": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18272984432942__ea28194d-87df-43b5-9cf1-f7ee6ad973e8-168508213351e0db4a-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--18272984432942__ea28194d-87df-43b5-9cf1-f7ee6ad973e8-168508213351e0db4a-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18272984432942__ea28194d-87df-43b5-9cf1-f7ee6ad973e8-168508213351e0db4a-0",
+        "template--18272984432942__ea28194d-87df-43b5-9cf1-f7ee6ad973e8-168508213351e0db4a-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "43bfff3b-5dcf-455c-8fdd-6a345964b445": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18272984432942__43bfff3b-5dcf-455c-8fdd-6a345964b445-1685438180f63b8d6f-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--18272984432942__43bfff3b-5dcf-455c-8fdd-6a345964b445-1685438180f63b8d6f-1": {
+          "type": "heading",
+          "settings": {
+            "text": "The Off-road Chapter",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--18272984432942__43bfff3b-5dcf-455c-8fdd-6a345964b445-1685438180f63b8d6f-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--18272984432942__43bfff3b-5dcf-455c-8fdd-6a345964b445-1685438180f63b8d6f-0",
+        "template--18272984432942__43bfff3b-5dcf-455c-8fdd-6a345964b445-1685438180f63b8d6f-1",
+        "template--18272984432942__43bfff3b-5dcf-455c-8fdd-6a345964b445-1685438180f63b8d6f-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "5cee8ee3-3587-461d-af44-5ba415782a4e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19658897981742__5cee8ee3-3587-461d-af44-5ba415782a4e-168733075403ce12c3-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--19658897981742__5cee8ee3-3587-461d-af44-5ba415782a4e-168733075403ce12c3-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--19658897981742__5cee8ee3-3587-461d-af44-5ba415782a4e-168733075403ce12c3-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>The Coated Advantage<\/h5>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--19658897981742__5cee8ee3-3587-461d-af44-5ba415782a4e-168733075403ce12c3-0",
+        "template--19658897981742__5cee8ee3-3587-461d-af44-5ba415782a4e-168733075403ce12c3-1",
+        "template--19658897981742__5cee8ee3-3587-461d-af44-5ba415782a4e-168733075403ce12c3-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "817d4887-f63e-42b0-bfdb-77c3ddd11303": {
+      "type": "video",
+      "blocks": {
+        "template--20659437699374__817d4887-f63e-42b0-bfdb-77c3ddd11303-play-1": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--20659437699374__817d4887-f63e-42b0-bfdb-77c3ddd11303-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--20659437699374__817d4887-f63e-42b0-bfdb-77c3ddd11303-play-1",
+        "template--20659437699374__817d4887-f63e-42b0-bfdb-77c3ddd11303-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/The Coated Advantage.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "2b295e4f-a47c-4d20-a397-252e9612b075": {
+      "type": "rich-text",
+      "blocks": {
+        "d85aec80-0081-4ff0-b52a-e54b83d6eeb1": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "358ceaa0-83e9-4c24-ae97-b0c746341edb": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "57b4e852-43d7-4390-9bf7-92d7f112285e": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>Types of Grease<\/h5>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "d85aec80-0081-4ff0-b52a-e54b83d6eeb1",
+        "358ceaa0-83e9-4c24-ae97-b0c746341edb",
+        "57b4e852-43d7-4390-9bf7-92d7f112285e"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "e202b32d-ec74-4647-935d-53c3d77eb614": {
+      "type": "video",
+      "blocks": {
+        "template--20659437699374__e202b32d-ec74-4647-935d-53c3d77eb614-play-1": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--20659437699374__e202b32d-ec74-4647-935d-53c3d77eb614-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--20659437699374__e202b32d-ec74-4647-935d-53c3d77eb614-play-1",
+        "template--20659437699374__e202b32d-ec74-4647-935d-53c3d77eb614-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/Types of Grease (1).mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "7681a262-a846-459a-8373-bcd75e048b25": {
+      "type": "rich-text",
+      "blocks": {
+        "a0d09018-9020-4a1f-8aa7-bf1b38a353db": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "8d68ced1-59d8-4b84-8c9c-1764ab7a5f64": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "0878b912-b1d3-4a61-acb4-0e3ca15fd1d2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>OSPW X for SRAM Eagle<\/h5>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "a0d09018-9020-4a1f-8aa7-bf1b38a353db",
+        "8d68ced1-59d8-4b84-8c9c-1764ab7a5f64",
+        "0878b912-b1d3-4a61-acb4-0e3ca15fd1d2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "f4fb9a8f-5229-47b4-8e76-acf4a8bcdca9": {
+      "type": "video",
+      "blocks": {
+        "template--20659437699374__f4fb9a8f-5229-47b4-8e76-acf4a8bcdca9-play-1": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--20659437699374__f4fb9a8f-5229-47b4-8e76-acf4a8bcdca9-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--20659437699374__f4fb9a8f-5229-47b4-8e76-acf4a8bcdca9-play-1",
+        "template--20659437699374__f4fb9a8f-5229-47b4-8e76-acf4a8bcdca9-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/OSPW X for SRAM Eagle_f0dff9d6-3c16-4f68-9458-55a905546ef3.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "14a1e4d9-257d-4da6-958e-35264afb621b": {
+      "type": "rich-text",
+      "blocks": {
+        "34b9992f-222b-4d74-887d-21a35b42e200": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "9a8d77cd-42dd-41d4-9f39-46d3698b79b4": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "b219381e-f231-4d95-98d4-94275f178937": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>OSPW X for SRAM Force & Rival 1<\/h5>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "34b9992f-222b-4d74-887d-21a35b42e200",
+        "9a8d77cd-42dd-41d4-9f39-46d3698b79b4",
+        "b219381e-f231-4d95-98d4-94275f178937"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "0b5bc32d-5baf-460f-a06b-8efa441c9411": {
+      "type": "video",
+      "blocks": {
+        "template--20659437699374__0b5bc32d-5baf-460f-a06b-8efa441c9411-play-1": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--20659437699374__0b5bc32d-5baf-460f-a06b-8efa441c9411-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--20659437699374__0b5bc32d-5baf-460f-a06b-8efa441c9411-play-1",
+        "template--20659437699374__0b5bc32d-5baf-460f-a06b-8efa441c9411-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/How to Mount Your OSPW X for SRAM Rival & Force 1 Type 3.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "6df19374-35b0-470a-897c-e67c81da44d9": {
+      "type": "rich-text",
+      "blocks": {
+        "d08bfd49-24e2-4789-ab59-43c664a38ae0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "c56fa180-ff33-4c48-8db1-a9b6a067e8c2": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "75448a91-49a2-4aac-b366-26990df5b0f5": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>OSPW X for Shimano RX 800\/805<\/h5>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "d08bfd49-24e2-4789-ab59-43c664a38ae0",
+        "c56fa180-ff33-4c48-8db1-a9b6a067e8c2",
+        "75448a91-49a2-4aac-b366-26990df5b0f5"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "3241a911-2ea4-4796-87d1-44e731aba335": {
+      "type": "video",
+      "blocks": {
+        "f7d71e9c-b630-4e65-b491-a8b541ae0972": {
+          "type": "play",
+          "settings": {}
+        },
+        "5200171c-db96-4479-bf3e-a773c608f64d": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "f7d71e9c-b630-4e65-b491-a8b541ae0972",
+        "5200171c-db96-4479-bf3e-a773c608f64d"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/OSPW X for Shimano RX 800_805.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "e3639256-4b92-4a75-a5fe-acc55d2f9e69": {
+      "type": "rich-text",
+      "blocks": {
+        "4f16fc41-0bf6-41c3-be8e-24b97c114a67": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "87675209-fe1f-403b-b8df-85b4973a85f0": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "6c767081-fe2e-4055-b65b-8fc1d22920a2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>UFO Clean for Drivetrain<\/h5>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "4f16fc41-0bf6-41c3-be8e-24b97c114a67",
+        "87675209-fe1f-403b-b8df-85b4973a85f0",
+        "6c767081-fe2e-4055-b65b-8fc1d22920a2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "ddd09354-be93-4a51-9624-54178dba7c20": {
+      "type": "video",
+      "blocks": {
+        "template--20659437699374__ddd09354-be93-4a51-9624-54178dba7c20-play-1": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--20659437699374__ddd09354-be93-4a51-9624-54178dba7c20-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--20659437699374__ddd09354-be93-4a51-9624-54178dba7c20-play-1",
+        "template--20659437699374__ddd09354-be93-4a51-9624-54178dba7c20-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/UFO Clean for Drivetrain.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "4ee3058e-adc1-4ae2-8ce6-ab78f9a12641": {
+      "type": "rich-text",
+      "blocks": {
+        "dd93389c-2e81-4ca9-8d88-c6ec09825a96": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "7c2a59dc-1d52-4db1-a361-38aa4b254937": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "f1983ba5-fa2e-4e3d-a154-e25fcfdf0e1e": {
+          "type": "richtext",
+          "settings": {
+            "content": "",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "dd93389c-2e81-4ca9-8d88-c6ec09825a96",
+        "7c2a59dc-1d52-4db1-a361-38aa4b254937",
+        "f1983ba5-fa2e-4e3d-a154-e25fcfdf0e1e"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ea28194d-87df-43b5-9cf1-f7ee6ad973e8",
+    "43bfff3b-5dcf-455c-8fdd-6a345964b445",
+    "5cee8ee3-3587-461d-af44-5ba415782a4e",
+    "817d4887-f63e-42b0-bfdb-77c3ddd11303",
+    "2b295e4f-a47c-4d20-a397-252e9612b075",
+    "e202b32d-ec74-4647-935d-53c3d77eb614",
+    "7681a262-a846-459a-8373-bcd75e048b25",
+    "f4fb9a8f-5229-47b4-8e76-acf4a8bcdca9",
+    "14a1e4d9-257d-4da6-958e-35264afb621b",
+    "0b5bc32d-5baf-460f-a06b-8efa441c9411",
+    "6df19374-35b0-470a-897c-e67c81da44d9",
+    "3241a911-2ea4-4796-87d1-44e731aba335",
+    "e3639256-4b92-4a75-a5fe-acc55d2f9e69",
+    "ddd09354-be93-4a51-9624-54178dba7c20",
+    "4ee3058e-adc1-4ae2-8ce6-ab78f9a12641"
+  ]
+}

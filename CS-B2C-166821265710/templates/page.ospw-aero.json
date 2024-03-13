@@ -1,0 +1,488 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "3db86d21-e949-4476-90e5-64fecffed43e": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        },
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-2": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-0",
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-1",
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/53703679f728431a7e7ad063a726d78fa8518e1c.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "aca770b3-d895-4430-aa05-0990de07e08a": {
+      "type": "rich-text",
+      "blocks": {
+        "3e3fb28b-c92d-4cd9-965c-c4193fb676ed": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon": "picto-timer",
+            "icon_width": 32,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": ""
+          }
+        },
+        "d1fdfc50-8096-4401-9f4f-9b3c3f9e37ac": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--18216822309166__aca770b3-d895-4430-aa05-0990de07e08a-16777526798b832ccb-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>CeramicSpeed OSPW Aero<\/h5><p>The world's fastest pulley wheel system just got faster...<\/p><p>Our winning mentality and innovative DNA make us constantly strive to further develop and perfect our products. It's this relentless approach that has seen the new CeramicSpeed OSPW Aero come to fruition.<\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "3e3fb28b-c92d-4cd9-965c-c4193fb676ed",
+        "d1fdfc50-8096-4401-9f4f-9b3c3f9e37ac",
+        "template--18216822309166__aca770b3-d895-4430-aa05-0990de07e08a-16777526798b832ccb-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "5b97beaa-4a2f-4ef5-88c0-cbe6cfcbdbad": {
+      "type": "collection-list",
+      "blocks": {
+        "template--19642837565742__5b97beaa-4a2f-4ef5-88c0-cbe6cfcbdbad-16872433927f1ea547-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/110909.png",
+            "subheading": "",
+            "title": "OSPW Aero for Shimano 9250 and 8150",
+            "url": "shopify:\/\/products\/ceramicspeed-ospw-aero-shimano-9250-8150-blk-coated",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--19642837565742__5b97beaa-4a2f-4ef5-88c0-cbe6cfcbdbad-16872433927f1ea547-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/110908.png",
+            "subheading": "",
+            "title": "OSPW Aero for Shimano 9100 and 8000",
+            "url": "shopify:\/\/products\/ceramicspeed-ospw-aero-shimano-da9100-ult8000-blk-coated",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--19642837565742__5b97beaa-4a2f-4ef5-88c0-cbe6cfcbdbad-16872433927f1ea547-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/110910.png",
+            "subheading": "",
+            "title": "OSPW Aero for SRAM Red\/Force AXS",
+            "url": "shopify:\/\/products\/ceramicspeed-ospw-aero-sram-red-force-axs-alt-blk-coated",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--19642837565742__5b97beaa-4a2f-4ef5-88c0-cbe6cfcbdbad-16872433927f1ea547-0",
+        "template--19642837565742__5b97beaa-4a2f-4ef5-88c0-cbe6cfcbdbad-16872433927f1ea547-1",
+        "template--19642837565742__5b97beaa-4a2f-4ef5-88c0-cbe6cfcbdbad-16872433927f1ea547-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_collections": true,
+        "collections_per_row": 3,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "8f2e2bee-94a0-46c1-a12d-546e7c728531": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19642837565742__8f2e2bee-94a0-46c1-a12d-546e7c728531-1687243530530e6550-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--19642837565742__8f2e2bee-94a0-46c1-a12d-546e7c728531-1687243530530e6550-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--19642837565742__8f2e2bee-94a0-46c1-a12d-546e7c728531-1687243530530e6550-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>The OSPW Aero has been developed in close collaboration with one of the world's leading aerodynamicists; Simon Smart, founder of Drag2Zero, who has a significant background in Formula One before he turned his attention to cycling in 2007.<\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--19642837565742__8f2e2bee-94a0-46c1-a12d-546e7c728531-1687243530530e6550-0",
+        "template--19642837565742__8f2e2bee-94a0-46c1-a12d-546e7c728531-1687243530530e6550-1",
+        "template--19642837565742__8f2e2bee-94a0-46c1-a12d-546e7c728531-1687243530530e6550-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "1828d297-9a68-4585-a456-2e69559a0e3e": {
+      "type": "video",
+      "blocks": {
+        "template--19642837565742__1828d297-9a68-4585-a456-2e69559a0e3e-16872435840debb64a-0": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--19642837565742__1828d297-9a68-4585-a456-2e69559a0e3e-16872435840debb64a-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--19642837565742__1828d297-9a68-4585-a456-2e69559a0e3e-16872435840debb64a-0",
+        "template--19642837565742__1828d297-9a68-4585-a456-2e69559a0e3e-16872435840debb64a-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/CeramicSpeed OSPW Aero - The World's Fastest Pulley Wheel System Just Got Faster....mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "6a06d6f0-7d0b-45bf-81fe-754b7f5e7eab": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--19642837565742__6a06d6f0-7d0b-45bf-81fe-754b7f5e7eab-168724374253c3aa71-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9109948342a283b87c9c70ebefecb6b8c443d24a.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<p>The development process behind the OSPW Aero has been a continuous dialogue with Simon Smart spanning over two years, where extensive wind tunnel testing has influenced multiple design iterations. The end result is an entirely new cage structure wrapped around our existing mechanically optimized design. <\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "8ed72e28-502b-4d6f-ad45-bb4f87c4427b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/258e5725df29225d0aaca6c3216ea6734eb24615.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19642837565742__6a06d6f0-7d0b-45bf-81fe-754b7f5e7eab-168724374253c3aa71-0",
+        "8ed72e28-502b-4d6f-ad45-bb4f87c4427b"
+      ],
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "ad08cf04-8c9f-4a18-911e-99a4f598c224": {
+      "type": "media-with-text",
+      "blocks": {
+        "bc994588-d9ab-4d7a-b09e-51f8f4158cca": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7004bc28297d8cd1ba07dc5f2693d3518de4665f.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h5>An aero-informed design<\/h5><p>The design of the OSPW Aero refines aerodynamics by focusing on frontal area impact, as well as smoothing and controlling the trailing wind.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "9150c4f4-9bed-429c-bbb8-7796d8f2f1ad": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0b8637d2a3448361fd69c0d0730f3cf356232937.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<p>\"The CeramicSpeed OSPW has class leading aerodynamics for its size. Given that this only represents about 1% of the total system drag, we knew that we had a challenge on our hands particularly as the rear derailleur cage sits on the most complicated area of flow on the bike, and also given the position and angle changes. This is one of the most complex areas of the bike to develop\" - Simon Smart, founder of Drag2Zero<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "bc994588-d9ab-4d7a-b09e-51f8f4158cca",
+        "9150c4f4-9bed-429c-bbb8-7796d8f2f1ad"
+      ],
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "c37e2b4d-4c0d-4ea3-a8fb-ffd9f0fc1d26": {
+      "type": "media-with-text",
+      "blocks": {
+        "5708ea4e-6435-4d00-92b7-48341192775a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9a4de727a1296eb154fa0dfdcdd87f4302e75306.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h5>White paper <\/h5><p>Wind tunnel testing shows that the OSPW Aero locally reduces drag by 40 % on average and at some points up to 60 % compared to a stock derailleur. For all the science, data, and info about testing, read the full white paper here.<\/p>",
+            "link_text": "White paper ",
+            "link_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/7542\/6606\/files\/whitepaper_ospw_aero.pdf?v=1687244212",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "ef899fa5-1d33-49b1-905f-5a1e1affc921": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6ab428883a95e2d0f7bcbef5523f407118d9fefc.webp",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "5708ea4e-6435-4d00-92b7-48341192775a",
+        "ef899fa5-1d33-49b1-905f-5a1e1affc921"
+      ],
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "b0a73bcd-95d1-49e5-9e23-5a9b35984054": {
+      "type": "media-with-text",
+      "blocks": {
+        "8aadaa48-4d78-4c67-9288-c3ee03fbac2c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/94e1d2426d8afa38b9ea1209427028bfd3881784.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h5>World-class Speed <\/h5><p>With podiums during Giro d'Italia stages and the Men's and Women's IM World Championships in St. George to its name already, the OSPW Aero has only just begun to show its impact at the highest level of racing. <\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "8b7c6f35-365e-4f10-acf5-43a8a38f0801": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/046593893b7d006cbae87e846a05d5a4743be7f8.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "8aadaa48-4d78-4c67-9288-c3ee03fbac2c",
+        "8b7c6f35-365e-4f10-acf5-43a8a38f0801"
+      ],
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3db86d21-e949-4476-90e5-64fecffed43e",
+    "aca770b3-d895-4430-aa05-0990de07e08a",
+    "5b97beaa-4a2f-4ef5-88c0-cbe6cfcbdbad",
+    "8f2e2bee-94a0-46c1-a12d-546e7c728531",
+    "1828d297-9a68-4585-a456-2e69559a0e3e",
+    "6a06d6f0-7d0b-45bf-81fe-754b7f5e7eab",
+    "ad08cf04-8c9f-4a18-911e-99a4f598c224",
+    "c37e2b4d-4c0d-4ea3-a8fb-ffd9f0fc1d26",
+    "b0a73bcd-95d1-49e5-9e23-5a9b35984054"
+  ]
+}
