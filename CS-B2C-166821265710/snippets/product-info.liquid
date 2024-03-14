@@ -186,6 +186,15 @@
               <div class="acc-usps__text">{{ block.settings.variant-usp-text-7 }}</div>
             </div>
           {%- endif -%}
+          {%- if block.settings.variant-usp-text-8 != blank -%}
+            <div class="acc-usps__item">
+              <div class="acc-usps__icon">
+                {%- render 'icon' with block.settings.icon-8, width: block.settings.mobile_icon_width, height: block.settings.mobile_icon_width, class: 'sm:hidden' -%}
+                {%- render 'icon' with block.settings.icon-8, width: block.settings.icon_width, height: block.settings.icon_width, class: 'hidden sm:block' -%}
+              </div>
+              <div class="acc-usps__text">{{ block.settings.variant-usp-text-8 }}</div>
+            </div>
+          {%- endif -%}
         </div>
         {%- if block.settings.variant-block-readmore-text != blank -%}
           <div class="moretext">{{ block.settings.variant-block-readmore-text }}</div>
