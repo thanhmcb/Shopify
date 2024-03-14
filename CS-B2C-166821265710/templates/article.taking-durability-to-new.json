@@ -1,0 +1,329 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "disabled": true,
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "settings": {
+        "allow_transparent_header": false,
+        "layout": "content_first",
+        "show_author": true,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px"
+      }
+    },
+    "e650360f-893a-4a54-833b-e1518be4892e": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18123979915566__e650360f-893a-4a54-833b-e1518be4892e-1678193963a0b029a4-1": {
+          "type": "heading",
+          "settings": {
+            "text": "TakingDurability to New Heights",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--18123979915566__e650360f-893a-4a54-833b-e1518be4892e-1678193963a0b029a4-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/23db17a09257fb95f7e632cc9c2e36a10663ad2e.jpg",
+        "mobile_image": "{{ article.metafields.custom.top_grafik_mobil.value }}",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "2f53b1e8-d38f-4945-a6b7-0be67279972a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18123979915566__2f53b1e8-d38f-4945-a6b7-0be67279972a-167819433943960406-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--18123979915566__2f53b1e8-d38f-4945-a6b7-0be67279972a-167819433943960406-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--18123979915566__2f53b1e8-d38f-4945-a6b7-0be67279972a-167819433943960406-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>At first the promise of self-lubricating, corrosion-resistant, and maintenance-free bearings might sound too good to be true, but we assure you there’s no witchcraft involved here. Our SLT (Solid Lubrication Technology) Bearings are based on a proven technology, but even though it’s well-proven, it’s getting it right that’s the tricky part.<\/h5><p>Let’s start by getting something out of the way. There are no two ways about it: the technology behind our new SLT Bearings is truly innovative. Bearings that are made self-lubricating and maintenance-free by utilizing an oil-encapsulated solid polymer are a game-changer. But here we probably should say <em>were<\/em> a game-changer.<\/p><p>The process of encapsulating an oil inside a plastic and placing it in a bearing isn’t an entirely new invention. This technology originates from the food manufacturing industry where it can be traced back to the 1970s. Here, it has gained widespread recognition for being able to survive and thrive in the most demanding conditions. Picture machines running non-stop and being exposed to daily jet washing, and even the most durable bearings are destined to fail. Except for solid lubed ones, that is.<\/p><p>But why then, if this technology has solved the puzzle of keeping bearings performing in even the harshest of conditions, haven’t we seen it successfully introduced to the world of cycling? If we think about the kind of punishment, we put our bikes through when we embark on off-road riding, then solid lubed bearings should seem like a natural fit on any mountain, cross, or gravel bike.  <\/p><p>The quick answer: it’s a surprisingly tricky technology to incorporate into bearings for bikes. Firstly, there’s the challenge of meeting the requirements of a seemingly endless amount of bearing sizes for differing bike models, which will put stress on any production and supply line. But more essentially, it’s the challenge of nailing down the technology itself that’s the hard part.    <\/p><h5><strong>Success through persistent repetition<\/strong><\/h5><p>Put simply solid lubed bearings rely on only a couple of different elements to work: lubrication oil and some different polyethylenes. For any of you who didn’t spend your high school years memorizing the periodic table: polyethylenes are a type of polymer, which makes up a class of substances with varying properties. Plastic materials, like the ones we’re using in our SLT Bearings, are polymers.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18123979915566__2f53b1e8-d38f-4945-a6b7-0be67279972a-167819433943960406-0",
+        "template--18123979915566__2f53b1e8-d38f-4945-a6b7-0be67279972a-167819433943960406-1",
+        "template--18123979915566__2f53b1e8-d38f-4945-a6b7-0be67279972a-167819433943960406-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "866a6d97-8457-4285-a5b4-aebe30cb4428": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18123979915566__866a6d97-8457-4285-a5b4-aebe30cb4428-167819433943960406-2": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18123979915566__866a6d97-8457-4285-a5b4-aebe30cb4428-167819433943960406-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "40453fe5-98ff-42e2-96d4-f53cc4647988": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18272983843118__40453fe5-98ff-42e2-96d4-f53cc4647988-1680247564a5ac5646-2": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        },
+        "6d015828-9824-4b63-8353-16eb5beeb626": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/d0c2545efa4ee0fa5b4e8b457a36f6786d1455e5.jpg",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "template--18272983843118__40453fe5-98ff-42e2-96d4-f53cc4647988-1680247564a5ac5646-2",
+        "6d015828-9824-4b63-8353-16eb5beeb626"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "b4303a10-2d8c-4d3d-acd1-766192760a35": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18272983843118__b4303a10-2d8c-4d3d-acd1-766192760a35-1680247564a5ac5646-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>No matter if that has meant bringing home a CX World Cup win in <a href=\"https:\/\/www.youtube.com\/watch?v=3jzKfn42RoM\">extremely muddy conditions in Fayetteville<\/a>, bagging double <a href=\"https:\/\/www.instagram.com\/p\/CVAntTiIrOC\/\">Elite XCM World Championships<\/a> on the Isle of Elba, or securing podium glory at <a href=\"\/blogs\/journal\/an-epic-recap\" title=\"An Epic Recap\">Cape Epic<\/a>. To name but a few.<\/p><p>It's all these unique attributes and elite-level verification that have convinced Factor to feature our Coated Bottom Brackets on their newly released Lando XC and Lando HT Mountain Bikes. Coupled with our <a href=\"\/pages\/slt\" title=\"SLT\">SLT (Solid Lubrication Technology) Headsets<\/a>, riders choosing one of the new Landos will have the ultimate level of reliability and can rest assured that they can keep riding, no matter the terrain and conditions. <\/p>"
+          }
+        },
+        "fc769068-c122-41f7-851c-042064f970da": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/929cb11dd5a79caf5820b56452f08a965e99a09d.jpg",
+            "width_mode": "custom",
+            "max_width": 1000,
+            "mobile_max_width": 400
+          }
+        },
+        "6e1ea6ea-0d2e-4fa7-b656-118524fdd5ed": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>The Factor Lando XC will have the chance to prove its mettle when <a href=\"https:\/\/www.instagram.com\/p\/CbxNPaQOJ2M\/\">Dylan Johnson<\/a> and <a href=\"https:\/\/www.instagram.com\/p\/Cb8QfI-vjnF\/\">Rob Britton<\/a> toe the line for the first leg of the exciting LifeTime Grand Prix series during Sea Otter Classic this coming weekend. We've done our part to ensure the Lando XC will be firing on all cylinders.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18272983843118__b4303a10-2d8c-4d3d-acd1-766192760a35-1680247564a5ac5646-2",
+        "fc769068-c122-41f7-851c-042064f970da",
+        "6e1ea6ea-0d2e-4fa7-b656-118524fdd5ed"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "c5aa841c-eff2-4039-a88b-7a357a029373": {
+      "type": "media-grid",
+      "blocks": {
+        "template--19690135552302__c5aa841c-eff2-4039-a88b-7a357a029373-168751089455794ca8-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/custom_resized_cbc323a5-118d-4306-97cf-38686b527bb6.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 3,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--19690135552302__c5aa841c-eff2-4039-a88b-7a357a029373-168751089455794ca8-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0d0ac8bff226649cff61828f43cc08dee2b8bf50.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--19690135552302__c5aa841c-eff2-4039-a88b-7a357a029373-168751089455794ca8-0",
+        "template--19690135552302__c5aa841c-eff2-4039-a88b-7a357a029373-168751089455794ca8-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "#000000",
+        "background_gradient": ""
+      }
+    },
+    "9fb101d5-ca8f-4d66-8f33-27ec306c5a76": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19690135552302__9fb101d5-ca8f-4d66-8f33-27ec306c5a76-16875145223809ffc8-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--19690135552302__9fb101d5-ca8f-4d66-8f33-27ec306c5a76-16875145223809ffc8-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--19690135552302__9fb101d5-ca8f-4d66-8f33-27ec306c5a76-16875145223809ffc8-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Before it turns solid, the oil-encapsulated polymer inside our SLT Bearings starts as a viscous liquid resembling a thick paint. This liquid is injected into the bearing where it fills all the surrounding space around the bearing balls. During the manufacturing process, when this liquid gets heated, the lubrication oil and polyethylenes will start to mix and create the micropores in the final, otherwise solid, polymer. And these micropores are the secret behind the bearing’s self-lubricating capability.<\/p><p>Once the polymer begins to cool off, it then hardens; now acting both as a gatekeeper by preventing moisture and dirt from being able to enter the bearing, while also holding the bearing balls in place - making a bearing cage superfluous.<\/p><p>Well then, if this technology is so well-proven and just relies on two components to function, what seems to be the hassle? Think of it as the same challenge as when you’re trying to emulate your grandmother’s famous stew: you might have looked her over the shoulder during cooking and have been able to source similar ingredients – but the taste will never be <em>just<\/em> right.<\/p><p>The seemingly Gordian Knot of the technology is figuring out the exact ratios that’ll lead to the micropores of the polymer being fully functional. These micropores work in much the same way as the pores of our skin, which distributes oil to keep our skin healthy and sweat to help us maintain a normal body temperature. If these pores get blocked it’ll lead to the development of acne or heat rash. And who wants to deal with that, right?<\/p><p>Coincidentally, for this analogy to work, the micropores of the solid polymer work in a very similar manner. They have the crucial task of evenly distributing the encapsulated oil inside the bearing, so it’ll be well-lubricated and running maintenance-free for its entire lifespan. If the micropores are too big they’ll spill out the oil and in turn, if they’re too small they’ll keep the oil fully contained without lubing the bearing – which in both instances will lead to bearing failure.<\/p><p>After countless hours of experimenting with mixing ratios and different combinations of oil types and polyethylenes, we feel supremely confident that we’ve been able to crack the code. And this isn’t just something we’re basing on a gut feeling; we have the evidence to back it up.<\/p><h5>Tested to the limit (and beyond)<\/h5><p>At CeramicSpeed our internal testing plays a crucial part in our manufacturing process. We know that our products' exceptional performance and durability come down to us having thoroughly tested them time and time again. With this in mind, our SLT Bearings are no exception. <\/p><p>When we set out to test our SLT Bearings in the lab, our first area of interest was their ability to perform under load without being fully rotated. Almost all bearings on a bike rotate 360 degrees which helps build up an oil film between the balls inside the bearing, which will keep them running and protected. Except for headset and rear suspension pivot bearings, that is.    <\/p><p>So, we put our OPD (Optimized Pivot Design) SLT Bearings under the gun in one of our test machines that imitate the bearing movement inside a full suspension MTB. In this case, it was 15 degrees of rotation instead of 360. And to get the full picture we included what is widely recognized as the market leader of pivot bearings as a means of comparison.  <\/p><p>After 200.000 cycles the market-leading bearing began showing visible signs of deterioration, and after 600.000 cycles the bearing was clearly worn-out. Actually a respectable performance, but in comparison, our OPD SLT Bearing ran well over 1.800.000 cycles without failure or any critical visible wear...<\/p><p>Our internal lab testing is without a doubt an important ingredient for quality control, but we're bike riders first and foremost. So, we take pride in pushing our products to their limits out on the roads and trails. One rider who has done this with our SLT Bearings is our Director of OEM Partnerships, Jonathan Small.<\/p>"
+          }
+        },
+        "0b91c7fa-8b60-4c37-9ab4-28e9bc44f9b2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/custom_resized_d5c77ab7-f0c9-4fef-81ba-0a2f6f2ac3cb.png",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "45413d71-4018-4fe2-bc2e-eecfd26410e6": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Jonathan has played an integral part in the development of our SLT Bearings by bringing onboard heavyweight partners like Canyon, Colnago, and Factor. But beyond this Jonathan is also an avid road and gravel rider who clocks up around 15.000 k a year. The perfect combination for our first test rider.<\/p><p>Born and raised in Leicestershire, UK but having made Denmark his adopted home for the past 21 years, Jonathan isn't a stranger to riding in foul weather conditions. An explicit \"Non-Zwifter\", Jonathan is a firm believer of riding outside year 'round - come rain or come shine. This approach undoubtedly builds morale, but it also puts your equipment under immense stress. <\/p><p>\"In the fall and winter months, I put in a lot of miles on my gravel bike. Living in Denmark this means plenty of mud, rain, moisture, and road salt. Riding in these conditions takes it toll, and I especially experienced returning issues with my headset that would spill out brownish gunk after just a couple of 100 miles of riding. I would usually have to change my headset bearings every two to three months. Now, I've been riding our SLT Bearings for the past 2.5 years, and every time we've taken them out and checked them they've shown no sign of slowing down or wearing out\", Jonathan explains.      <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19690135552302__9fb101d5-ca8f-4d66-8f33-27ec306c5a76-16875145223809ffc8-0",
+        "template--19690135552302__9fb101d5-ca8f-4d66-8f33-27ec306c5a76-16875145223809ffc8-1",
+        "template--19690135552302__9fb101d5-ca8f-4d66-8f33-27ec306c5a76-16875145223809ffc8-2",
+        "0b91c7fa-8b60-4c37-9ab4-28e9bc44f9b2",
+        "45413d71-4018-4fe2-bc2e-eecfd26410e6"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "e650360f-893a-4a54-833b-e1518be4892e",
+    "2f53b1e8-d38f-4945-a6b7-0be67279972a",
+    "866a6d97-8457-4285-a5b4-aebe30cb4428",
+    "40453fe5-98ff-42e2-96d4-f53cc4647988",
+    "b4303a10-2d8c-4d3d-acd1-766192760a35",
+    "c5aa841c-eff2-4039-a88b-7a357a029373",
+    "9fb101d5-ca8f-4d66-8f33-27ec306c5a76"
+  ]
+}

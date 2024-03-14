@@ -1,0 +1,501 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "ea28194d-87df-43b5-9cf1-f7ee6ad973e8": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18272984432942__ea28194d-87df-43b5-9cf1-f7ee6ad973e8-168508213351e0db4a-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--18272984432942__ea28194d-87df-43b5-9cf1-f7ee6ad973e8-168508213351e0db4a-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18272984432942__ea28194d-87df-43b5-9cf1-f7ee6ad973e8-168508213351e0db4a-0",
+        "template--18272984432942__ea28194d-87df-43b5-9cf1-f7ee6ad973e8-168508213351e0db4a-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "43bfff3b-5dcf-455c-8fdd-6a345964b445": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18272984432942__43bfff3b-5dcf-455c-8fdd-6a345964b445-1685438180f63b8d6f-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--18272984432942__43bfff3b-5dcf-455c-8fdd-6a345964b445-1685438180f63b8d6f-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Product School",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--18272984432942__43bfff3b-5dcf-455c-8fdd-6a345964b445-1685438180f63b8d6f-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h3>UFO Products<\/h3>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--18272984432942__43bfff3b-5dcf-455c-8fdd-6a345964b445-1685438180f63b8d6f-0",
+        "template--18272984432942__43bfff3b-5dcf-455c-8fdd-6a345964b445-1685438180f63b8d6f-1",
+        "template--18272984432942__43bfff3b-5dcf-455c-8fdd-6a345964b445-1685438180f63b8d6f-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "4bbf6155-5e7b-42c5-a946-cc52668dfa86": {
+      "type": "rich-text",
+      "blocks": {
+        "a1174466-2aad-4e79-909c-7c55b298c4d4": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "1ca9cb62-2360-4376-ba49-2594d81f0d9b": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "e542bc4f-eecb-40f4-81c1-04e7b55d63fa": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>Introduction to UFO Drip<\/h5>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "a1174466-2aad-4e79-909c-7c55b298c4d4",
+        "1ca9cb62-2360-4376-ba49-2594d81f0d9b",
+        "e542bc4f-eecb-40f4-81c1-04e7b55d63fa"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "2877a92c-d723-42ab-bc2b-b11e87ee746e": {
+      "type": "video",
+      "blocks": {
+        "template--19658897981742__2877a92c-d723-42ab-bc2b-b11e87ee746e-168733078817a48f8e-0": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--19658897981742__2877a92c-d723-42ab-bc2b-b11e87ee746e-168733078817a48f8e-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--19658897981742__2877a92c-d723-42ab-bc2b-b11e87ee746e-168733078817a48f8e-0",
+        "template--19658897981742__2877a92c-d723-42ab-bc2b-b11e87ee746e-168733078817a48f8e-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/UFO Drip Chain Coating - FAQ (1).mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "a159c13d-a1e7-45c8-b0f3-d450e51db634": {
+      "type": "rich-text",
+      "blocks": {
+        "4a587232-345f-4ff8-894e-4c5932c6aeb1": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "e0ed938d-60bf-41cc-a2d6-754bc61d2afe": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "7c68ec96-bf5b-4889-8d39-31623a18369f": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>Introduction to UFO Racing Chains<\/h5>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "4a587232-345f-4ff8-894e-4c5932c6aeb1",
+        "e0ed938d-60bf-41cc-a2d6-754bc61d2afe",
+        "7c68ec96-bf5b-4889-8d39-31623a18369f"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "618ba2ba-b2a3-463e-b90b-7185f5708145": {
+      "type": "video",
+      "blocks": {
+        "template--19658897981742__618ba2ba-b2a3-463e-b90b-7185f5708145-168733078817a48f8e-0": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--19658897981742__618ba2ba-b2a3-463e-b90b-7185f5708145-168733078817a48f8e-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--19658897981742__618ba2ba-b2a3-463e-b90b-7185f5708145-168733078817a48f8e-0",
+        "template--19658897981742__618ba2ba-b2a3-463e-b90b-7185f5708145-168733078817a48f8e-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/Introduction to UFO Chains.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "d0c29531-59b8-4139-895b-3b437a66aaae": {
+      "type": "rich-text",
+      "blocks": {
+        "4b3df67c-1d5a-416a-8957-ae74d404fc61": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "dbe0c23e-048c-4d33-9401-96b87621ff66": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "68d693e7-934a-4ca4-954f-2c28132bbf43": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>The Importance of Choosing a Quality Chain Wax Formula<\/h5>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "4b3df67c-1d5a-416a-8957-ae74d404fc61",
+        "dbe0c23e-048c-4d33-9401-96b87621ff66",
+        "68d693e7-934a-4ca4-954f-2c28132bbf43"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "1d78b549-2c04-4c6f-9fd0-3c5bf8059dcc": {
+      "type": "video",
+      "blocks": {
+        "template--19658897981742__1d78b549-2c04-4c6f-9fd0-3c5bf8059dcc-168733078817a48f8e-0": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--19658897981742__1d78b549-2c04-4c6f-9fd0-3c5bf8059dcc-168733078817a48f8e-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--19658897981742__1d78b549-2c04-4c6f-9fd0-3c5bf8059dcc-168733078817a48f8e-0",
+        "template--19658897981742__1d78b549-2c04-4c6f-9fd0-3c5bf8059dcc-168733078817a48f8e-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/The importance og Choosing a Quality Chain Wax Formula.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "336b26fd-c569-4176-9c97-86abfd71eaaa": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20678430458158__336b26fd-c569-4176-9c97-86abfd71eaaa-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--20678430458158__336b26fd-c569-4176-9c97-86abfd71eaaa-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--20678430458158__336b26fd-c569-4176-9c97-86abfd71eaaa-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>UFO Clean for Drivetrain<\/h5>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--20678430458158__336b26fd-c569-4176-9c97-86abfd71eaaa-subheading-1",
+        "template--20678430458158__336b26fd-c569-4176-9c97-86abfd71eaaa-heading-1",
+        "template--20678430458158__336b26fd-c569-4176-9c97-86abfd71eaaa-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "47694689-496f-4701-9fc1-dc4a6d3f3079": {
+      "type": "video",
+      "blocks": {
+        "template--20678430458158__47694689-496f-4701-9fc1-dc4a6d3f3079-play-1": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--20678430458158__47694689-496f-4701-9fc1-dc4a6d3f3079-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--20678430458158__47694689-496f-4701-9fc1-dc4a6d3f3079-play-1",
+        "template--20678430458158__47694689-496f-4701-9fc1-dc4a6d3f3079-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/UFO Clean for Drivetrain.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "57d787d7-6875-4933-9f7a-6c54f8f4ebf2": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20678430458158__57d787d7-6875-4933-9f7a-6c54f8f4ebf2-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--20678430458158__57d787d7-6875-4933-9f7a-6c54f8f4ebf2-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--20678430458158__57d787d7-6875-4933-9f7a-6c54f8f4ebf2-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>Types of Grease<\/h5>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--20678430458158__57d787d7-6875-4933-9f7a-6c54f8f4ebf2-subheading-1",
+        "template--20678430458158__57d787d7-6875-4933-9f7a-6c54f8f4ebf2-heading-1",
+        "template--20678430458158__57d787d7-6875-4933-9f7a-6c54f8f4ebf2-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "f2280bc2-012c-45c7-9f7e-f66659942144": {
+      "type": "video",
+      "blocks": {
+        "template--20678430458158__f2280bc2-012c-45c7-9f7e-f66659942144-play-1": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--20678430458158__f2280bc2-012c-45c7-9f7e-f66659942144-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Video",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--20678430458158__f2280bc2-012c-45c7-9f7e-f66659942144-play-1",
+        "template--20678430458158__f2280bc2-012c-45c7-9f7e-f66659942144-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/Types of Grease.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "662b79d9-6b3d-402e-9a3c-cc801be5cb9c": {
+      "type": "rich-text",
+      "blocks": {
+        "880fd659-5dc6-4a84-b305-b5b51c8d97cd": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "d0a30e38-fe0a-4849-b507-7eb3407d998d": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "1e3a86f7-428f-4b9d-a895-5865b70cb765": {
+          "type": "richtext",
+          "settings": {
+            "content": "",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "880fd659-5dc6-4a84-b305-b5b51c8d97cd",
+        "d0a30e38-fe0a-4849-b507-7eb3407d998d",
+        "1e3a86f7-428f-4b9d-a895-5865b70cb765"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ea28194d-87df-43b5-9cf1-f7ee6ad973e8",
+    "43bfff3b-5dcf-455c-8fdd-6a345964b445",
+    "4bbf6155-5e7b-42c5-a946-cc52668dfa86",
+    "2877a92c-d723-42ab-bc2b-b11e87ee746e",
+    "a159c13d-a1e7-45c8-b0f3-d450e51db634",
+    "618ba2ba-b2a3-463e-b90b-7185f5708145",
+    "d0c29531-59b8-4139-895b-3b437a66aaae",
+    "1d78b549-2c04-4c6f-9fd0-3c5bf8059dcc",
+    "336b26fd-c569-4176-9c97-86abfd71eaaa",
+    "47694689-496f-4701-9fc1-dc4a6d3f3079",
+    "57d787d7-6875-4933-9f7a-6c54f8f4ebf2",
+    "f2280bc2-012c-45c7-9f7e-f66659942144",
+    "662b79d9-6b3d-402e-9a3c-cc801be5cb9c"
+  ]
+}

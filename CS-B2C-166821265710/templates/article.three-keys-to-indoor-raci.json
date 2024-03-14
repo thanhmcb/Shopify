@@ -1,0 +1,196 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "disabled": true,
+      "settings": {
+        "allow_transparent_header": false,
+        "layout": "content_first",
+        "show_author": true,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px"
+      }
+    },
+    "e650360f-893a-4a54-833b-e1518be4892e": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18123979915566__e650360f-893a-4a54-833b-e1518be4892e-1678193963a0b029a4-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        },
+        "c8f12148-dbda-4419-a42e-1981df150415": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18123979915566__e650360f-893a-4a54-833b-e1518be4892e-1678193963a0b029a4-1",
+        "c8f12148-dbda-4419-a42e-1981df150415"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/43a0676c6cae49c1b0ad103f6ef4f91a085e71fd.jpg",
+        "mobile_image": "{{ article.metafields.custom.top_grafik_mobil.value }}",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "2f53b1e8-d38f-4945-a6b7-0be67279972a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18123979915566__2f53b1e8-d38f-4945-a6b7-0be67279972a-167819433943960406-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--18123979915566__2f53b1e8-d38f-4945-a6b7-0be67279972a-167819433943960406-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--18123979915566__2f53b1e8-d38f-4945-a6b7-0be67279972a-167819433943960406-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5><strong>Three Keys to Indoor Racing Success<\/strong><\/h5><h6><strong>Some would argue that indoor racing purely comes down to the amount of power you’re able to produce. But there’s more to it than meets the eye. So, in our search for indoor racing glory we’ve put one of the world's best eRacers on the spot to learn the secrets of the trade.  <\/strong><\/h6><p>As the interest for indoor racing continues to be on an upward trajectory, the fascination with the riders who’re able to excel in and handle the grueling demands of eRacing follows along. One of the riders who has caught the eye of many of the die-hard fans of indoor racing is 19 year old Anders Foldager. The young Dane rides for P.O. Auto-CeramicSpeed, who just finished in third place in the second season of Zwift’s premier racing league, and in December of last year <a href=\"https:\/\/youtu.be\/wYNmq9cIRyA?t=4327\" title=\"Zwift WC\">Anders came within seconds of being named the new World Champion of eRacing<\/a> but ultimately had to settle for second place. In other words, his pedigree and flair for riding fast indoors cannot be denied.<\/p><p>But outside the realm of indoor racing, the curly-haired blonde’s daily life almost couldn’t be further removed from the growing fame he experiences online. Anders is a senior in high school and lives in a small one-room student apartment. Whenever he isn’t attending class, he’s racing for a small Danish amateur team on the road. And what about those highly successful rides in the premier division on Zwift, you might wonder? Well, Anders takes care of those from the basement under his high school. There’s nothing glamorous about that he assures us.<\/p><p>So, like with most teenagers there’s something truly relatable about him. Most of the time he’s just a guy trying to find the right balance between obligations and passions, like the rest of us. But connect him to a smart trainer and the relatability vanishes as fast as tears in the rain.<\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--18123979915566__2f53b1e8-d38f-4945-a6b7-0be67279972a-167819433943960406-0",
+        "template--18123979915566__2f53b1e8-d38f-4945-a6b7-0be67279972a-167819433943960406-1",
+        "template--18123979915566__2f53b1e8-d38f-4945-a6b7-0be67279972a-167819433943960406-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "277c5075-f101-4e53-ae4f-5b865565fed8": {
+      "type": "rich-text",
+      "blocks": {
+        "53d3b540-237d-4b34-9f27-108d06c95612": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/34e0bf22921d735a59a14773b1bac762b73d08e9.jpg",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "6ffcdea1-3a1e-4f2f-ab4c-62452e7f60ec": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/f92accbea23d235411b394242c9a7ffd941e517b.jpg",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "template--21210405896494__277c5075-f101-4e53-ae4f-5b865565fed8-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Photos: Jonas Bo Madsen<\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "53d3b540-237d-4b34-9f27-108d06c95612",
+        "6ffcdea1-3a1e-4f2f-ab4c-62452e7f60ec",
+        "template--21210405896494__277c5075-f101-4e53-ae4f-5b865565fed8-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "03295673-d593-4c27-ba40-271ddec8ad5b": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21210405896494__03295673-d593-4c27-ba40-271ddec8ad5b-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Now, as we’re moving on from our CeramicSpeed group rides and <a href=\"\/en\/cycling\/ceramicspeed-race-series\/\" title=\"Race Series\">onto our Race Series on Zwift<\/a>, it seemed fitting for us to pick Anders’ brain about what he sees as the fundamental keys to indoor racing success.<\/p><h5><strong>1. Indoor racing is a discipline in itself<\/strong><\/h5><p>You might see yourself as the local king of the hill because you’re used to beating your training buddies up all your neighborhood climbs. But that doesn’t necessarily mean that you’ll be as dominant when racing indoors. As Anders Foldager points out: success on the road doesn’t always translate into success in the virtual world of cycling.<\/p><p>“I’ve seen a lot of people being really surprised that they couldn’t keep up with the pace online, when they’re used to competing at a high level on the road. So, I would say that comparing road racing and indoor racing is almost the same as trying to compare road and mountain bike racing. It’s two completely different disciplines. My best advice, then, is to tackle indoor racing with the mindset of it being something unique”.<\/p><p>And what does that entail then? “Well, you have to study the routes of the specific races, so you don’t find yourself out of position in crucial moments. The same goes for understanding if there’s going to be powerups and <a href=\"https:\/\/zwiftinsider.com\/zwift-drafting\/\" title=\"Zwift draft\">which type of draft will be used.<\/a> It all comes with experience”. So, Anders would advise racers trying to succeed in indoor racing to get stuck in and race as much as possible online.<\/p><h5><strong>2. You need to be ready from the get-go <\/strong><\/h5><p>A pretty unique aspect of indoor racing is the possibility of ramping up the watts even before the starting line. This often results in indoor races getting underway at a furious pace. So, you must make sure, you’re ready to handle the required effort.<\/p><p>“A thorough warm up is really important to get the body activated and the heart rate up. I usually plan my warm up as I would before a time trial on the road. I ride between 25 to 35 minutes to get the legs spinning, and that will include around 8 minutes of progression spanning from easy riding to somewhere around my FTP. And then I’ll throw in a couple of sprints as well”. Anders points out that being mentally prepared to ride à bloc right from the start is just as important as the physical warm up.<\/p><h5><strong>3. Get your gear straight! <\/strong><\/h5><p>If there’s something bike riders truly care about it’s their gear. Trust us, we know that to be a fact. The same attention to detail you’ll also have to bring to indoor racing if you want to succeed:<\/p><p>“Racing indoors is a bit like gaming, so you need to get set up correctly. That means; make sure your connection is powerful, remember a fan so you don’t overheat, don’t forget to get your bidons filled etc. Just like on the road where you can prevent punctures by picking the right tire, you can prevent drop-outs by paying attention to your technical setup”. So, if you choose to spend a fortune on your bike, then at least make sure you have the connection to match it.<\/p><p>Well, there you have it, folks. The words of wisdom from one of the best in the business. We hope to see a lot of you out there <a href=\"https:\/\/www.zwift.com\/events\/series\/ceramicspeed-race-series\">during our Race Series<\/a> putting Anders Foldager’s advice to good use. We know that we’ll do our very best to duplicate his tried and tested approach.     <\/p>",
+            "text_align": "center"
+          }
+        },
+        "1a63cf47-a505-439a-8d7b-ff8f008655fe": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5><strong>Anders Foldager and the rest of the P.O. Auto-CeramicSpeed team use the following products to make sure they're racing as fast and efficient as possible: <\/strong><a href=\"\/en\/cycling\/shop\/oversized-pulley-wheel-systems\/ospw-system-for-shimano-9100-series\/\" title=\"OSPW\"><strong>CeramicSpeed OSPW for Shimano<\/strong><\/a><strong>, <\/strong><a href=\"\/en\/cycling\/shop\/bottom-brackets\/pf4130\/\" title=\"BB\"><strong>PF4130 Bottom Brackets<\/strong><\/a><strong> and the entire <\/strong><a href=\"\/en\/cycling\/shop\/ufo-products\/\" title=\"UFO\"><strong>UFO Product Group<\/strong><\/a><strong>. <\/strong><\/h5><h5>Curious to know what makes our products stand out when it comes to indoor riding? <a href=\"\/en\/cycling\/journal\/the-sweatproof-bottom-bracket\/\" title=\"Sweat proof\">Then read on<\/a> to learn about how our Coated Bearings are the perfect antidote to those pools of sweat you're producing while riding indoors. <\/h5>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--21210405896494__03295673-d593-4c27-ba40-271ddec8ad5b-richtext-1",
+        "1a63cf47-a505-439a-8d7b-ff8f008655fe"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "e650360f-893a-4a54-833b-e1518be4892e",
+    "2f53b1e8-d38f-4945-a6b7-0be67279972a",
+    "277c5075-f101-4e53-ae4f-5b865565fed8",
+    "03295673-d593-4c27-ba40-271ddec8ad5b"
+  ]
+}

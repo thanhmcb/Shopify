@@ -1,0 +1,184 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "3db86d21-e949-4476-90e5-64fecffed43e": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Bottom Bracket Tool Kit",
+            "heading_tag": "h1"
+          }
+        },
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-2": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-0",
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-1",
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/be65f06051d5129261e94441c4c401ec08e4ef8d_1.png",
+        "mobile_image": "shopify:\/\/shop_images\/be65f06051d5129261e94441c4c401ec08e4ef8d_1.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "d2fcbbb5-7f3b-4a7c-8e22-f4f5ad8a1f55": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19576491704622__d2fcbbb5-7f3b-4a7c-8e22-f4f5ad8a1f55-16868258995f6d968b-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--19576491704622__d2fcbbb5-7f3b-4a7c-8e22-f4f5ad8a1f55-16868258995f6d968b-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--19576491704622__d2fcbbb5-7f3b-4a7c-8e22-f4f5ad8a1f55-16868258995f6d968b-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--19576491704622__d2fcbbb5-7f3b-4a7c-8e22-f4f5ad8a1f55-16868258995f6d968b-0",
+        "template--19576491704622__d2fcbbb5-7f3b-4a7c-8e22-f4f5ad8a1f55-16868258995f6d968b-1",
+        "template--19576491704622__d2fcbbb5-7f3b-4a7c-8e22-f4f5ad8a1f55-16868258995f6d968b-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "3424e1fc-de12-411f-ab5a-753cf26b684f": {
+      "type": "video",
+      "blocks": {
+        "template--19576491704622__3424e1fc-de12-411f-ab5a-753cf26b684f-1686826785c15c3cc8-0": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--19576491704622__3424e1fc-de12-411f-ab5a-753cf26b684f-1686826785c15c3cc8-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--19576491704622__3424e1fc-de12-411f-ab5a-753cf26b684f-1686826785c15c3cc8-0",
+        "template--19576491704622__3424e1fc-de12-411f-ab5a-753cf26b684f-1686826785c15c3cc8-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_q6MksOV198",
+        "poster": "shopify:\/\/shop_images\/tools.jpg",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "cfbec68c-88b6-4f25-8f31-feae54bf82d5": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19576491704622__cfbec68c-88b6-4f25-8f31-feae54bf82d5-16868258995f6d968b-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--19576491704622__cfbec68c-88b6-4f25-8f31-feae54bf82d5-16868258995f6d968b-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--19576491704622__cfbec68c-88b6-4f25-8f31-feae54bf82d5-16868258995f6d968b-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "",
+            "text_align": "center"
+          }
+        },
+        "81f4dd69-225d-48b2-8bd5-5c8b3a73d149": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Download Manual",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/7542\/6606\/files\/bb-installation-and-extraction-tool.pdf?v=1686828715",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19576491704622__cfbec68c-88b6-4f25-8f31-feae54bf82d5-16868258995f6d968b-0",
+        "template--19576491704622__cfbec68c-88b6-4f25-8f31-feae54bf82d5-16868258995f6d968b-1",
+        "template--19576491704622__cfbec68c-88b6-4f25-8f31-feae54bf82d5-16868258995f6d968b-2",
+        "81f4dd69-225d-48b2-8bd5-5c8b3a73d149"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3db86d21-e949-4476-90e5-64fecffed43e",
+    "d2fcbbb5-7f3b-4a7c-8e22-f4f5ad8a1f55",
+    "3424e1fc-de12-411f-ab5a-753cf26b684f",
+    "cfbec68c-88b6-4f25-8f31-feae54bf82d5"
+  ]
+}

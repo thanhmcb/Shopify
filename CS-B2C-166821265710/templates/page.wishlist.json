@@ -1,0 +1,59 @@
+{
+  "wrapper": "section#wishlist.wishlist",
+  "sections": {
+    "022ad238-0ebd-47d3-a268-c59a70e5b8af": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18835670729006__022ad238-0ebd-47d3-a268-c59a70e5b8af-1684847937e979a243-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Wishlist",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "5e56c3a6-727b-4de8-9a5f-2d13521e51b7": {
+          "type": "richtext",
+          "settings": {
+            "content": "",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--18835670729006__022ad238-0ebd-47d3-a268-c59a70e5b8af-1684847937e979a243-1",
+        "5e56c3a6-727b-4de8-9a5f-2d13521e51b7"
+      ],
+      "custom_css": [
+        "div {padding-bottom: 0px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "main": {
+      "type": "wishlist-template",
+      "settings": {
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "aria_controls": true,
+        "size": "xl",
+        "style": "fill",
+        "stretch": false,
+        "background": "#000000",
+        "text_color": "#fafafa"
+      }
+    }
+  },
+  "order": [
+    "022ad238-0ebd-47d3-a268-c59a70e5b8af",
+    "main"
+  ]
+}
