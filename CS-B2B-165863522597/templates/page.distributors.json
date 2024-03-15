@@ -1,0 +1,97 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "3db86d21-e949-4476-90e5-64fecffed43e": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Distributors",
+            "heading_tag": "h1"
+          }
+        },
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Find your nearest distributor of CeramicSpeed products<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-0",
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-1",
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/709e2dd65bec0fa02cb82417caa6dbba0f5137f3.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "7cefffa6-1394-49c6-8a48-3d47563e36c6": {
+      "type": "rich-text",
+      "blocks": {
+        "4429b84d-5552-4988-ab93-bf5cbdda9af2": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "18496d66-ca2d-4694-9c04-395e01133615": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "ee46b74e-12d2-45df-94b9-479df1d00df7": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>Argentina<\/h5><p>Ride a bike SRL<br\/><a href=\"http:\/\/www.thebikecompany.com.ar\">www.thebikecompany.com.ar<\/a><br\/><a href=\"mailto:pablo@rideabike.com.ar\">pablo@rideabike.com.ar<\/a><br\/>+54 11 48892562<\/p><p> <\/p><h5>Australia<\/h5><p>FRF Sports<br\/>+02 9182 8808<br\/><a href=\"https:\/\/www.frfsports.com\/\">www.frfsports.com<\/a>  <br\/><a href=\"mailto:info@frfsports.com\">info@frfsports.com<\/a><\/p><p> <\/p><h5>Bahrain<\/h5><p>WBS Sport Equipment Trading LLC<br\/>+971 4 321 4451<br\/><a href=\"mailto:distribution@wbs.ae\">distribution@wbs.ae<br\/><\/a><a href=\"http:\/\/www.wbssporttrading.com\/\">www.wbssporttrading.com<\/a><\/p><h5><br\/>Benelux<\/h5><p>Codagex<br\/>+32 (0)1434 7474<br\/><a href=\"https:\/\/www.codagex.be\/\" target=\"_blank\">www.codagex.com<br\/><\/a><a href=\"mailto:v.cambre@codagex.be\">v.cambre@codagex.be<\/a><\/p><h5> <\/h5><h5>Bolivia <\/h5><p>Ciclomundo <br\/>+591 3 3416677<br\/><a href=\"mailto:info@ciclomundo.com.bo\">info@ciclomundo.com.bo<\/a><\/p><p> <\/p><h5>Brazil <\/h5><p>ProParts<br\/>+55 (11) 5180-4830<br\/><a href=\"https:\/\/www.proparts.esp.br\/\">www.proparts.ceramicspeed.com.br<\/a><br\/><a href=\"mailto:contato@proparts.esp.br\">contato@proparts.esp.br<\/a><\/p><h5><\/h5><h5><br\/>Brunei <\/h5><p>Brunei Sport Group<br\/>+65 65439488<a href=\"https:\/\/codagex.be\/Websolutions\/\" target=\"_blank\"><br\/><\/a><a href=\"mailto:bruneisportgroup@gmail.com\">bruneisportgroup@gmail.com<\/a><\/p><h5><\/h5><h5><br\/>Cambodia<\/h5><p>Flying Bikes2 <br\/>No. 131 BEO, Pasteur (St51)<br\/>12210 Phnom Penh<br\/><a href=\"https:\/\/flyingbikes2.com\/?url=https%3A%2F%2Fflyingbikes2.com%2F&data=05%7C01%7Cifc%40ceramicspeed.com%7C9c9d422ffcc9447f013e08db083f1e67%7Caa67571818814f218cea547a7a77ba9a%7C0%7C0%7C638112839402222004%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=6LGgM0H%2FdtPi7EVUcKjtgbQx442gtwfwXzh1TbtjolI%3D&reserved=0\">www.flyingbikes2.com<\/a><\/p><h5><\/h5><h5><br\/>Canada <\/h5><p>ARG-SPORTS INC<br\/>(514) 625-4765<br\/><a href=\"https:\/\/www.arg-sports.com\" target=\"_blank\">www.arg-sports.com<\/a> <br\/><a href=\"https:\/\/codagex.be\/Websolutions\/\" target=\"_blank\">info@arg-sports.com<\/a><\/p><p> <\/p><h5>Czech Republic<\/h5><p>Future Cycling<br\/>+420 603 553 520<br\/><a href=\"https:\/\/www.futurecycling.cz\/\" target=\"_blank\">www.futurecycling.cz<\/a><br\/><a href=\"mailto:%20info@futurecycling.cz\">info@futurecycling.cz<\/a> <\/p><p> <\/p><h5>Chile <\/h5><p>Austral Sports SPA<br\/>+56 9 34208782<br\/><a href=\"http:\/\/www.australsports.cl\">www.australsports.cl<\/a> <\/p><p> <\/p><h5>China<\/h5><p>Wun Pang Bicycle Company Limited<br\/>+852 24764542<br\/><a href=\"mailto:raymond@wunpangbicycle.com\">raymond@wunpangbicycle.com <\/a><br\/><a href=\"https:\/\/www.wunpangbicycle.com\">www.wunpangbicycle.com<\/a><\/p><p> <\/p><p>CeramicSpeed Sport Asia Ltd.<br\/>+66 970 409 626<br\/><a href=\"mailto:rb@ceramicspeed.com\">rb@ceramicspeed.com<br\/><\/a><a href=\"\/\">www.ceramicspeed.com <\/a><\/p><p> <\/p><h5>Colombia<\/h5><p>Propartes SAS<br\/>+57 1 8966363<br\/><a href=\"https:\/\/www.propartes.com\/\" target=\"_blank\">www.propartes.com<\/a><br\/><a href=\"mailto:servicio.cliente@propartes.com\">servicio.cliente@propartes.com<\/a><\/p><p> <\/p><h5>Costa Rica<\/h5><p>Inversiones Deportivas<br\/>San Jose, Barrio Amón, Oficentro comercial San Luis<br\/>(506) 8814 3802<br\/><a href=\"mailto:rramirez@inversioneshcs.com\">rramirez@inversioneshcs.com<\/a><a href=\"http:\/\/www.grupogl.co.cr\/\" target=\"_blank\"><br\/><\/a><\/p><p> <\/p><h5>Denmark<\/h5><p>CeramicSpeed Sport A\/S<br\/> +45 9740 2544<br\/><a href=\"\/sport\/\" target=\"_blank\" title=\"Sport\">www.ceramicspeed.com\/cycling<\/a><br\/><a href=\"\/sport\/\">cycling@ceramicspeed.com<\/a><\/p><p> <\/p><h5>Dominican Republic<\/h5><p>Adesa SRL<br\/>+1-809-688-7732<br\/><a href=\"https:\/\/www.adesa.com.do\/\" target=\"_blank\">www.adesa.com.do<br\/><\/a><\/p><p> <\/p><h5>Ecuador<\/h5><p>CyclingPeaks<br\/>+593 99 640 4858<br\/><a href=\"mailto:info@cylingpeaks.com.ec\" target=\"_blank\">info@cylingpeaks.com.ec<\/a><br\/><a href=\"http:\/\/www.cyclingpeaks.com.ec\" target=\"_blank\">www.cyclingpeaks.com.ec<\/a><\/p><p> <\/p><h5>Finland<\/h5><p>CeramicSpeed Sport A\/S<br\/> +45 9740 2544<br\/><a href=\"\/sport\/\" target=\"_blank\" title=\"Sport\">www.ceramicspeed.com\/cycling<\/a><br\/><a href=\"\/sport\/\">cycling@ceramicspeed.com<\/a><\/p><p> <\/p><h5>France<\/h5><p>SportPulsion<br\/>+33 4 50 46 50 50<br\/><a href=\"https:\/\/sportpulsion.com\/\">sportpulsion.com<\/a><\/p><p> <\/p><h5>Honduras<\/h5><p>Bike Mart Honduras<br\/>504-22212073 <br\/><a href=\"http:\/\/www.bikemarthn.com\/\" target=\"_blank\">www.bikemarthn.com<\/a><br\/><a href=\"mailto:info@bikemarthn.com\">info@bikemarthn.com<\/a><\/p><p> <\/p><h5>Hongkong<\/h5><p>Wun Pang Bicycle Company Limited<br\/>+852 24764542<br\/><a href=\"mailto:raymond@wunpangbicycle.com\">raymond@wunpangbicycle.com <\/a><br\/><a href=\"https:\/\/www.wunpangbicycle.com\">www.wunpangbicycle.com<\/a><\/p><p> <\/p><h5>Iceland<\/h5><p>CeramicSpeed Sport A\/S<br\/> +45 9740 2544<br\/><a href=\"\/sport\/\" target=\"_blank\" title=\"Sport\">www.ceramicspeed.com\/cycling<\/a><br\/><a href=\"http:\/\/www.ceramicspeed.com\/sport\/\">cycling@ceramicspeed.com<\/a><\/p><p> <\/p><h5>India<\/h5><p>Ensign Sports <br\/>Pvt Ltd Hill Glade, Pali Road, Bandra, <br\/>Maharashtra 400050 Mumbai, India<br\/><a href=\"https:\/\/ensignsports.com\/?url=https%3A%2F%2Fensignsports.com%2F&data=05%7C01%7Cifc%40ceramicspeed.com%7C2d42e172e34c43699da608db04e87de4%7Caa67571818814f218cea547a7a77ba9a%7C0%7C0%7C638109168817277908%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=LmX6Q897k3miK2LJqleuq%2F3jDWGtJTh5QDbUnHKCtOU%3D&reserved=0\">www.ensignsports.com<\/a><\/p><p> <\/p><h5>Indonesia <\/h5><p>PT. Beranjadi Cyclindo Internasional<br\/>+62 21 5314 0825<br\/><a href=\"https:\/\/eur03.safelinks.protection.outlook.com\/?url=http%3A%2F%2Fwww.beranjadi.com%2F&data=04%7C01%7C%7Cf94e41766831468fec7308d99e7c6531%7Caa67571818814f218cea547a7a77ba9a%7C0%7C0%7C637715079380509918%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=evIKchU6tWeU1k843xgg14uT%2BOCPV2b83ac0ZyR4IY0%3D&reserved=0\">www.beranjadi.com<\/a><br\/><a href=\"mailto:sales@creativemill.net\">beranjadi@gmail.com<\/a><\/p><p> <\/p><h5>Italy<\/h5><p>Beltrami TSA<br\/>+39 0522 300523<br\/><a href=\"https:\/\/www.beltramitsa.it\/\" target=\"_blank\">www.beltramitsa.it<\/a><br\/><a href=\"mailto:info@beltramitsa.it\">info@beltramitsa.it<\/a><\/p><p> <\/p><h5>Japan<\/h5><p>Diatecltd<br\/>10-19 Kamigamo Asatsuyugahara-cho Kita-Ku Kyoto, <br\/>6038035 Japan   <br\/><a href=\"https:\/\/www.diatechproducts.com\/\">www.diatechproducts.com<\/a><\/p><p> <\/p><h5>Korea<\/h5><p>Wixx International Co., Ltd<br\/>+82 32 328 3805  <br\/><a href=\"http:\/\/www.wixx-intl.com\/shop\/index.php\" target=\"_blank\">www.wixx-intl.com<\/a><br\/><a href=\"mailto:info@wixx-intl.com\">info@wixx-intl.com<\/a><\/p><p> <\/p><h5>Kuwait<\/h5><p>WBS Sport Equipment Trading LLC<br\/>+971 4 321 4451<br\/><a href=\"mailto:distribution@wbs.ae\">distribution@wbs.ae<br\/><\/a><a href=\"http:\/\/www.wbssporttrading.com\/\">www.wbssporttrading.com<\/a><\/p><p> <\/p><h5>Laos<\/h5><p>CeramicSpeed Sport Asia Ltd.<br\/>+66 970 409 626<br\/><a href=\"mailto:rb@ceramicspeed.com\">rb@ceramicspeed.com<br\/><\/a><a href=\"\/\">www.ceramicspeed.com <\/a><\/p><p> <\/p><h5>Malaysia<\/h5><p>Ngee Cycle Trading Sdn Bhd <br\/>+603 6141 2564\/ 2119<br\/><a href=\"mailto:info@ngeecycle.com\">info@ngeecycle.com<br\/><\/a><a href=\"https:\/\/www.ngeecycle.com\/\">www.ngeecycle.com<\/a><\/p><p><br\/><\/p><h5>Mexico<\/h5><p>BG Partners SA de CV<br\/>+52 667 313 9769<br\/><a href=\"https:\/\/bgpartners.com.mx\">www.bgpartners.com.mx<\/a><br\/><a href=\"mailto:ventas@bgpartners.com.mx\">ventas@bgpartners.com.mx<\/a><\/p><p> <\/p><h5>New Zealand<\/h5><p>Wide Open<br\/>+64 7 345 3280<br\/><a href=\"http:\/\/www.wideopen.co.nz\">www.wideopen.co.nz<\/a> <br\/><a href=\"mailto:sales@wideopen.co.nz\">sales@wideopen.co.nz<\/a> <\/p><p> <\/p><h5>Norway<\/h5><p>CeramicSpeed Sport A\/S<br\/>+45 9740 2544<br\/><a href=\"\/sport\/\" target=\"_blank\" title=\"Sport\">www.ceramicspeed.com\/cycling<\/a><br\/><a href=\"mailto:sport@ceramicspeed.com\">cycling@ceramicspeed.com<\/a><\/p><p> <\/p><h5>Oman<\/h5><p>WBS Sport Equipment Trading LLC<br\/>+971 4 321 4451<br\/><a href=\"mailto:distribution@wbs.ae\">distribution@wbs.ae<br\/><\/a><a href=\"http:\/\/www.wbssporttrading.com\/\">www.wbssporttrading.com<\/a><\/p><p> <\/p><h5>Panama<\/h5><p>Comercial Rali<br\/>+507 223 8054<br\/><a href=\"mailto:info@ralistoreonline.com\">info@ralistoreonline.com<\/a><br\/><a href=\"https:\/\/www.ralistoreonline.com\">www.ralistoreonline.com<\/a><br\/><br\/><\/p><p> <\/p><h5>Peru<\/h5><p>Walter Takano<br\/>+51 997 555 441<br\/><a href=\"https:\/\/www.takanostore.com\/\">www.takanostore.com<\/a><\/p><p> <\/p><h5>Philippines<\/h5><p>CeramicSpeed Sport Asia Ltd.<br\/>+66 970 409 626<br\/><a href=\"mailto:rb@ceramicspeed.com\">rb@ceramicspeed.com<br\/><\/a><a href=\"\/\">www.ceramicspeed.com <\/a><\/p><p> <\/p><h5>Poland<\/h5><p>PRO BIKES<br\/>+48 12 357 12 07<br\/><a href=\"mailto:info@probikes.com.pl\">info@probikes.com.pl<\/a><br\/><a href=\"https:\/\/probikes.com.pl\/\">www.probikes.com.pl<\/a><\/p><p> <\/p><h5>Portugal<\/h5><p>Kustom Cycle<br\/>Av. Dos moinhos n.16A<br\/>2610-120 Amadora <br\/>+351 919 005 383<br\/><a href=\"https:\/\/kustomcycle.com\/\">www.kustomcycle.com<\/a><br\/><a href=\"mailto:info@kustomcycle.com\">info@kustomcycle.com<br\/><br\/><\/a><\/p><h5><br\/>Qatar <\/h5><p>WBS Sport Equipment Trading LLC<br\/>+971 4 321 4451<br\/><a href=\"mailto:distribution@wbs.ae\">distribution@wbs.ae<br\/><\/a><a href=\"http:\/\/www.wbssporttrading.com\/\">www.wbssporttrading.com<\/a><\/p><p><br\/><\/p><p><\/p><h5>Saudi Arabia<\/h5><p>WBS Sport Equipment Trading LLC<br\/>+971 4 321 4451<br\/><a href=\"mailto:distribution@wbs.ae\">distribution@wbs.ae<br\/><\/a><a href=\"http:\/\/www.wbssporttrading.com\/\">www.wbssporttrading.com<\/a><\/p><h5><br\/>Singapore<\/h5><p>CeramicSpeed Sport Asia Ltd.<br\/>+66 970 409 626<br\/><a href=\"mailto:rb@ceramicspeed.com\">rb@ceramicspeed.com<br\/><\/a><a href=\"\/\">www.ceramicspeed.com <\/a><\/p><p> <\/p><h5>Slovenia<\/h5><p>Cycling United Ljubljana<br\/>+386 41 616 615<br\/><a href=\"https:\/\/cu-ljubljana.com\/\" target=\"_blank\">www.cu-ljubljana.com<br\/><\/a><a href=\"mailto:ridley-slovenija@siol.com\" target=\"_blank\">ridley-slovenija@siol.com<\/a><\/p><p><a href=\"mailto:ridley-slovenija@siol.com\" target=\"_blank\"> <\/a><\/p><h5>South Africa<\/h5><p>Freewheel Cycology<br\/>+27 21 762 4472<br\/><a href=\"http:\/\/www.freewheel.co.za\/collections\/ceramicspeed\" target=\"_blank\">www.freewheel.co.za<\/a><br\/><a href=\"mailto:info@freewheel.co.za\">info@freewheel.co.za<\/a><\/p><p> <\/p><h5>Spain<\/h5><p>Myrco Sport <br\/>+34 93 411 94 58<br\/><a href=\"http:\/\/www.myrcosport.com\/\" target=\"_blank\">www.myrcosport.com<br\/><\/a><a href=\"mailto:info@myrcosport.com\" target=\"_blank\">info@myrcosport.com<\/a><\/p><p> <\/p><h5>Sweden<\/h5><p>CeramicSpeed Sport A\/S<br\/>+45 9740 2544      <br\/><a href=\"\/sport\/\">www.ceramicspeed.com\/cycling<\/a><br\/><a href=\"mailto:sport@ceramicspeed.com\">cycling@ceramicspeed.com<\/a><\/p><p> <\/p><h5>Switzerland<\/h5><p>TST-GPR AG<br\/>+41 44 944 93 93     <br\/><a href=\"http:\/\/www.tst-gpr.ch\">www.tst-gpr.ch<\/a><br\/><a href=\"mailto:info@tst-gpr.ch\">info@tst-gpr.ch<\/a><\/p><p> <\/p><h5>Taiwan<\/h5><p>Salloy<br\/>+886 4 2463 9891     <br\/><a href=\"https:\/\/www.salloy.com.tw\/\" target=\"_blank\">www.salloy.com.tw<\/a><br\/><a href=\"mailto:salloy@ms72.hinet.net\">salloy@ms72.hinet.net<\/a><\/p><p> <\/p><h5>Thailand<\/h5><p>Pro Cycle<br\/>+02 683 1778    <br\/><a href=\"http:\/\/www.procycle.co.th\/\">www.procycle.co.th<br\/><\/a><a href=\"mailto:info@procycle.co.th\">info@procycle.co.th<\/a><\/p><p> <\/p><h5>Turkey<\/h5><p>Performance Bikes<br\/>+90 850 200 8070<br\/><a href=\"https:\/\/www.performansbisiklet.com.tr\/\">www.performansbisiklet.com.tr<br\/><\/a><a href=\"mailto:info@performansbisiklet.com.tr\">info@performansbisiklet.com.tr<\/a><\/p><p> <\/p><h5>United Arab Emirates<\/h5><p>WBS Sport Equipment Trading LLC<br\/>+971(0)4 321 4451<br\/><a href=\"mailto:distribution@wbs.ae\">distribution@wbs.ae<br\/><\/a><a href=\"http:\/\/www.wbssporttrading.com\/\">www.wbssporttrading.com<\/a><\/p><p> <\/p><h5>United Kingdom<\/h5><p>Windwave<br\/>+44 (0)2392 521 912<br\/><a href=\"http:\/\/www.windwave.co.uk\">www.windwave.co.uk<\/a><br\/><a href=\"mailto:sales@windwave.co.uk\">sales@windwave.co.uk<\/a><\/p><p> <\/p><h5>Uruguay<\/h5><p>Epic Bike Store<br\/>+598 26286001<br\/><a href=\"http:\/\/www.epicbike.uy\" title=\"www.epicbike.uy\">www.epicbike.uy<\/a><br\/><a href=\"mailto:hola@epicbike.uy\">hola@epicbike.uy<\/a><\/p><p> <\/p><h5>USA<\/h5><p>Bicycle Technologies International Ltd<br\/>+1 800-558-8324  <br\/><a href=\"http:\/\/www.bti-usa.com\/\">www.bti-usa.com<\/a><br\/><a href=\"mailto:info@bti-usa.com\">info@bti-usa.com<\/a><br\/><br\/><\/p><h5>QBP<\/h5><p><br\/>+1 800-346-0004  <br\/><a href=\"https:\/\/www.qbp.com\/\" target=\"_blank\">www.qbp.com<\/a><br\/><a href=\"mailto:%20customerservice@qbp.com\">customerservice@qbp.com<\/a><\/p><p> <\/p><h5>Vietnam<\/h5><p>CeramicSpeed Sport Asia Ltd.<br\/>+66 970 409 626<br\/><a href=\"mailto:rb@ceramicspeed.com\">rb@ceramicspeed.com<br\/><\/a><a href=\"\/\">www.ceramicspeed.com <\/a><\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "4429b84d-5552-4988-ab93-bf5cbdda9af2",
+        "18496d66-ca2d-4694-9c04-395e01133615",
+        "ee46b74e-12d2-45df-94b9-479df1d00df7"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3db86d21-e949-4476-90e5-64fecffed43e",
+    "7cefffa6-1394-49c6-8a48-3d47563e36c6"
+  ]
+}

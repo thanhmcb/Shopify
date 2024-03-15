@@ -1,0 +1,619 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "3db86d21-e949-4476-90e5-64fecffed43e": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-1": {
+          "type": "heading",
+          "settings": {
+            "text": "UFO Drip - Application and FAQ",
+            "heading_tag": "h1"
+          }
+        },
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-2": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-0",
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-1",
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/custom_resized_cfea32aa-bd33-49de-9343-5a250d9f12c3.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/custom_resized_cfea32aa-bd33-49de-9343-5a250d9f12c3.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "aca770b3-d895-4430-aa05-0990de07e08a": {
+      "type": "rich-text",
+      "blocks": {
+        "3e3fb28b-c92d-4cd9-965c-c4193fb676ed": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon": "picto-timer",
+            "icon_width": 32,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": ""
+          }
+        },
+        "2de75ae8-dc55-48cd-8601-2cfb5a65bbfb": {
+          "type": "subheading",
+          "settings": {
+            "text": "INTRO "
+          }
+        },
+        "template--18216822309166__aca770b3-d895-4430-aa05-0990de07e08a-16777526798b832ccb-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Congratulations with your new UFO Product!<\/p><p><\/p><p>To make sure that you will use the product accordingly, please see below for a full and indepth application guide of each UFO product.<\/p><p>Further below, you will find all the answers you need on general questions around the full UFO line-up. <\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "3e3fb28b-c92d-4cd9-965c-c4193fb676ed",
+        "2de75ae8-dc55-48cd-8601-2cfb5a65bbfb",
+        "template--18216822309166__aca770b3-d895-4430-aa05-0990de07e08a-16777526798b832ccb-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "b108f261-b756-4f66-a2d8-a1989c13e71e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18272984301870__b108f261-b756-4f66-a2d8-a1989c13e71e-1686646528203d9147-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "APPLICATION "
+          }
+        },
+        "template--18272984301870__b108f261-b756-4f66-a2d8-a1989c13e71e-1686646528203d9147-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--18272984301870__b108f261-b756-4f66-a2d8-a1989c13e71e-1686646528203d9147-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5><strong>UFO Drip All Conditions<\/strong><\/h5><p>How to apply UFO Drip All Conditions:<\/p><p>Thoroughly shake bottle before use.<\/p><p>For new chains or the first application, start with a fully clean and dry chain. Apply UFO Drip All Conditions wax coating directly to the chain rollers over the cassette while rotating the chain slowly to coat the entire length of the chain twice. Next, apply UFO coating to the inside of the chain, along the rollers on the bottom span over the chain and coat the entire length of the chain twice. A complete coating will use about 8ml, or an 8-gram difference by weight. For best penetration, continue rotating the cranks for 30 to 60 seconds to ensure the wax can get down between the chain rollers and links. For best durability and clean performance, let the UFO Drip chain coating dry overnight. It is not suggested to wipe off the wax from the surface of the chain. A proper application will last 300km \/ 180 miles in generally dry and clean conditions.<\/p><p>For standard reapplication, wipe off any surface dust with a clean towel and apply UFO coating to the chain links above the cassette along the length of the chain twice.<\/p><p>If the drivetrain has been contaminated, the bike has been washed, or ridden in wet conditions we suggest a full clean and reapplication following the first application guidelines. If you ride in the wet often, we recommend the UFO Drip Wet Conditions.<\/p><p>Keep it out of direct sunlight and in a temperature range of 5-30 degrees Celsius (30-85 Fahrenheit). – do not freeze.<\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--18272984301870__b108f261-b756-4f66-a2d8-a1989c13e71e-1686646528203d9147-0",
+        "template--18272984301870__b108f261-b756-4f66-a2d8-a1989c13e71e-1686646528203d9147-1",
+        "template--18272984301870__b108f261-b756-4f66-a2d8-a1989c13e71e-1686646528203d9147-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "6e7ce165-3898-4ecd-b2b1-8a48cfa0073c": {
+      "type": "video",
+      "blocks": {
+        "template--20198821134629__6e7ce165-3898-4ecd-b2b1-8a48cfa0073c-play-1": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--20198821134629__6e7ce165-3898-4ecd-b2b1-8a48cfa0073c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--20198821134629__6e7ce165-3898-4ecd-b2b1-8a48cfa0073c-play-1",
+        "template--20198821134629__6e7ce165-3898-4ecd-b2b1-8a48cfa0073c-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/CeramicSpeed UFO Drip All Conditions.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "7691cb98-3acd-44db-b028-70234249040d": {
+      "type": "rich-text",
+      "blocks": {
+        "f7487a3e-404c-450a-aecb-0e40420fc966": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "97684326-b940-407b-a31b-ce919590b8d5": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "614ddeb5-46ea-4d0b-94e1-026d3b251182": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5><strong>UFO Drip Wet<\/strong><\/h5><p>How to apply UFO Drip Wet:<\/p><p>Thoroughly shake bottle before use.<\/p><p>For new chains or the first application, start with a fully clean and dry chain. Apply UFO Drip Wet Conditions chain coating directly to the chain rollers over the cassette while rotating the chain slowly to coat the entire length of the chain twice. Next, apply UFO coating to the inside of the chain, along the rollers on the bottom span over the chain and coat the entire length of the chain twice. A complete coating will use about 8ml, or an 8-gram difference by weight. For best penetration, continue rotating the cranks for 30 to 60 seconds to ensure the wax can get down between the chain rollers and links. For best durability and clean performance, let the UFO chain coating dry overnight. It is not suggested to wipe off the wax from the surface of the chain.<\/p><p>It is always suggested after wet riding conditions to clean the chain and reapply a fresh UFO chain coating. If it has been a dry ride, wipe off any surface dust with a clean towel and apply UFO coating to the chain links above the cassette along the length of the chain twice.<\/p><p>Keep it out of direct sunlight and in a temperature range of 5-30 degrees Celsius (30-85 Fahrenheit). – do not freeze<\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "f7487a3e-404c-450a-aecb-0e40420fc966",
+        "97684326-b940-407b-a31b-ce919590b8d5",
+        "614ddeb5-46ea-4d0b-94e1-026d3b251182"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "d1a16507-451a-42f9-96b8-a9ea8bb03772": {
+      "type": "video",
+      "blocks": {
+        "0db57299-2886-4798-b23b-e95231d45e6e": {
+          "type": "play",
+          "settings": {}
+        },
+        "7ee98c46-d5cc-4428-9cad-9e0514e36ba8": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "0db57299-2886-4798-b23b-e95231d45e6e",
+        "7ee98c46-d5cc-4428-9cad-9e0514e36ba8"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/CeramicSpeed UFO Drip Wet Conditions.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "ba68cb42-a73a-40f9-8a52-28a880967992": {
+      "type": "rich-text",
+      "blocks": {
+        "6cced6d9-1750-4c79-a14c-8992af0f0087": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "03dfe942-ceef-4136-8b6b-6143ffc4f02e": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "9216903c-9443-4c1e-9bdb-e8701ebfb358": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5><strong>UFO Drip Indoor<\/strong><\/h5><p>How to apply UFO Drip Indoor<\/p><p>Thoroughly shake bottle before use.<\/p><p>For new chains or the first application, start with a fully clean and dry chain. Apply UFO Indoor chain coating directly to the chain rollers, with at least one large drop per roller. You can also apply the same as the other UFO Drip products, directly to the chain rollers over the cassette while rotating the chain slowly to coat the entire length of the chain twice. For best penetration, continue rotating the cranks for 30 to 60 seconds to ensure the wax can get down between the chain rollers and links. A normal application will last 5-8 hours of indoor riding time. Directly reapply when the noise levels begin to increase.<\/p><p>When transitioning to outdoor use, use UFO Drivetrain Cleaner sprayed onto a towel and wipe the chain links and rollers to remove the tacky surface finish and apply UFO Drip All Conditions or UFO Drip Wet Conditions as normal.<\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "6cced6d9-1750-4c79-a14c-8992af0f0087",
+        "03dfe942-ceef-4136-8b6b-6143ffc4f02e",
+        "9216903c-9443-4c1e-9bdb-e8701ebfb358"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "b6ed7c03-b0b4-4115-b7d6-969b415f0dca": {
+      "type": "video",
+      "blocks": {
+        "a1bde107-0672-4b0e-b66d-9f4836041065": {
+          "type": "play",
+          "settings": {}
+        },
+        "ba4da62d-0d9b-4c11-af5f-ab22f851d6bc": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "a1bde107-0672-4b0e-b66d-9f4836041065",
+        "ba4da62d-0d9b-4c11-af5f-ab22f851d6bc"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/CeramicSpeed UFO Drip Indoor.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "7c82eeb4-fd0b-41fb-bb1f-61b12fc2bb05": {
+      "type": "rich-text",
+      "blocks": {
+        "f605d3d2-df4e-4cdb-b84a-5d971df03c4e": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "0c5187cb-2d88-425d-a6f0-657a6ce3ce50": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "98a35e1f-cba4-4a58-b24c-d6b6656006c8": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5><strong>UFO Drivetrain Cleaner<\/strong><\/h5><p>Shake well before use and keep out of direct sunlight. DO NOT APPLY TO DISC BRAKE PADS.<\/p><p>Use by spraying UFO Drivetrain Cleaner to your chain, cassette, and chainrings and scrub with a brush to break down surface contaminants, waxes, or grease. Let sit for 3-5 minutes for the best results. Rinse thoroughly with water. UFO Drivetrain cleaner is activated with water and will turn milky white first and then when the chain is clean, the water will be clear again.<\/p><p>It is important to fully rinse all the UFO Drivetrain Cleaner off and allow the chain to completely dry before adding a UFO Drip chain coating.<\/p><p>Store out of direct sunlight<\/p><p>UFO Drivetrain Cleaner is safe to use in an ultrasonic cleaner from 40-60 degrees Celsius.<\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "f605d3d2-df4e-4cdb-b84a-5d971df03c4e",
+        "0c5187cb-2d88-425d-a6f0-657a6ce3ce50",
+        "98a35e1f-cba4-4a58-b24c-d6b6656006c8"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "d9120d25-8e25-46db-863c-7569f6c1e97e": {
+      "type": "video",
+      "blocks": {
+        "27791c94-0c09-4456-8b9f-e5f11559fe4f": {
+          "type": "play",
+          "settings": {}
+        },
+        "5d7bf517-4bf7-4714-9a84-2c9c0cb85125": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "27791c94-0c09-4456-8b9f-e5f11559fe4f",
+        "5d7bf517-4bf7-4714-9a84-2c9c0cb85125"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/CeramicSpeed UFO Drivetrain Cleaner.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "42cb6863-00c3-4165-a2b9-c42ec7d7b42a": {
+      "type": "rich-text",
+      "blocks": {
+        "3f940eec-0826-45e3-be4d-76adf57926ff": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "14a24245-149d-4c8a-8e79-ab9f7698b654": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "4199fba2-e312-4332-a1d1-e51bf9098f71": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5><strong>UFO Bearing Cleaner<\/strong><\/h5><p>For cleaning bearings, it is not generally recommended to remove the bearing from its placement. Start by removing any dust shields in front of the bearing and carefully removing the visible seal by inserting a knife blade between the inner race of the bearing and the seal. Apply a couple of drops of UFO Bearing Cleaner directly to the exposed face of the bearing. Rotate the inner race in both directions to agitate the cleaner inside the bearing and break down contaminated grease. Let sit for 2-5 minutes for best results. Use compressed air and a cloth (wear eye protection) to flush out the old grease and cleaner, repeat the process if needed 1-2 times.<\/p><p>Once clean and dry, apply one of the three UFO Bearing Grease options based on riding type and conditions, or UFO Bearing Pulley Oil for pulley bearings, and reinstall the seal and dust shields.<\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "3f940eec-0826-45e3-be4d-76adf57926ff",
+        "14a24245-149d-4c8a-8e79-ab9f7698b654",
+        "4199fba2-e312-4332-a1d1-e51bf9098f71"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "81866d5a-cbd5-4e6e-b2a1-258a96c8f4d3": {
+      "type": "video",
+      "blocks": {
+        "e0bf4195-daca-40a7-8e61-673f55e277bb": {
+          "type": "play",
+          "settings": {}
+        },
+        "476677c5-7544-4207-aa76-f167ef22861e": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "e0bf4195-daca-40a7-8e61-673f55e277bb",
+        "476677c5-7544-4207-aa76-f167ef22861e"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/CeramicSpeed UFO Bearing Cleaner.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "aefe9a63-ac76-4fe0-a51a-4aee44ec2800": {
+      "type": "rich-text",
+      "blocks": {
+        "8e8b3503-b135-4734-9827-e54252e61961": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "b7e60e3a-6dfc-434b-bc3a-0a9cb0d515e5": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "88d7a1cd-aa1f-467d-b15d-c09fb0f73c60": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5><strong>UFO Bike Wash<\/strong><\/h5><p>Begin by rinsing the bike with water to soften any dried mud and debris.<\/p><p>Thoroughly shake the bottle before use.<\/p><p>Spray a brush or sponge 3-4 times with the foaming UFO Bike Wash and gently scrub the bike, starting with painted surfaces, metal surfaces, and finally the wheels and tires. Repeat until the whole bike is covered in soapy foam. You will have up to 30 washes in one bottle using this method.<\/p><p>When the bike is soapy let it sit for 3-5 minutes to break down dirt and grease. Avoid contact with disc brake rotors.<\/p><p>Rinse the bike thoroughly with water and dry it with a clean towel.<\/p><p>UFO Bike Wash is available in a 100ml concentrate. Pour the entire concentrate into the 500ml trigger bottle, and add 200ml of water (or 2x the concentrate bottle) to create full strength bike wash.<\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "8e8b3503-b135-4734-9827-e54252e61961",
+        "b7e60e3a-6dfc-434b-bc3a-0a9cb0d515e5",
+        "88d7a1cd-aa1f-467d-b15d-c09fb0f73c60"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "7df5ba1d-7e4b-4494-ac60-26a31ab22474": {
+      "type": "video",
+      "blocks": {
+        "e8f745e0-dcf5-4ef2-885a-94398131bf9c": {
+          "type": "play",
+          "settings": {}
+        },
+        "b932abf2-d066-4088-8237-f5d1ee41fd1f": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "e8f745e0-dcf5-4ef2-885a-94398131bf9c",
+        "b932abf2-d066-4088-8237-f5d1ee41fd1f"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/CeramicSpeed UFO Bike Wash.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "89d07479-4307-4c4f-a929-802a829869f1": {
+      "type": "faq",
+      "blocks": {
+        "35cedb87-7a38-47e8-bfd9-39e2e0574b87": {
+          "type": "item",
+          "repeater": "{{ page.metafields.custom.faq.value }}",
+          "settings": {
+            "title": "{{ block.repeater.question.value }}",
+            "content": "{{ block.repeater.answer | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "35cedb87-7a38-47e8-bfd9-39e2e0574b87"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "5477262f-c9c0-4962-9afb-9f792761fbe2": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--20198821134629__5477262f-c9c0-4962-9afb-9f792761fbe2-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/custom_resized_6f24ea29-2cc2-415f-9e07-6c1173d9b04d.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Lab test of our UFO Drip Wet Conditions",
+            "content": "<p>Learn more about how we've tested our UFO Drip Wet Conditions and how it performs against competing wet lubricants<\/p>",
+            "link_text": "Get all the details",
+            "link_url": "shopify:\/\/pages\/ufo-drip-wet-conditions-test",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20198821134629__5477262f-c9c0-4962-9afb-9f792761fbe2-image-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3db86d21-e949-4476-90e5-64fecffed43e",
+    "aca770b3-d895-4430-aa05-0990de07e08a",
+    "b108f261-b756-4f66-a2d8-a1989c13e71e",
+    "6e7ce165-3898-4ecd-b2b1-8a48cfa0073c",
+    "7691cb98-3acd-44db-b028-70234249040d",
+    "d1a16507-451a-42f9-96b8-a9ea8bb03772",
+    "ba68cb42-a73a-40f9-8a52-28a880967992",
+    "b6ed7c03-b0b4-4115-b7d6-969b415f0dca",
+    "7c82eeb4-fd0b-41fb-bb1f-61b12fc2bb05",
+    "d9120d25-8e25-46db-863c-7569f6c1e97e",
+    "42cb6863-00c3-4165-a2b9-c42ec7d7b42a",
+    "81866d5a-cbd5-4e6e-b2a1-258a96c8f4d3",
+    "aefe9a63-ac76-4fe0-a51a-4aee44ec2800",
+    "7df5ba1d-7e4b-4494-ac60-26a31ab22474",
+    "89d07479-4307-4c4f-a929-802a829869f1",
+    "5477262f-c9c0-4962-9afb-9f792761fbe2"
+  ]
+}

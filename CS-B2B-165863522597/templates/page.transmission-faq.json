@@ -1,0 +1,154 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "27ccb6d7-b50b-454c-8aea-76fa83346691": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--19665220043045__27ccb6d7-b50b-454c-8aea-76fa83346691-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "OSPW X for SRAM Eagle Transmission FAQ",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--19665220043045__27ccb6d7-b50b-454c-8aea-76fa83346691-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/JG_231030_CeramicSpeed_OSPW_X_Sram_Eagle_Transmission_0039-medium.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_6e9rRi": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_8BGgwg": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_rD4cTD": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_GVGTcm": {
+          "type": "richtext",
+          "settings": {
+            "content": "",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_8BGgwg",
+        "heading_rD4cTD",
+        "richtext_GVGTcm"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_qzE3Lm": {
+      "type": "video",
+      "blocks": {
+        "play_dWrtGT": {
+          "type": "play",
+          "settings": {}
+        },
+        "heading_LBnd3R": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "play_dWrtGT",
+        "heading_LBnd3R"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/OSPW_SRAM_EAGLE_FINAL.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "faq_VzqPBJ": {
+      "type": "faq",
+      "blocks": {
+        "item_TCakYq": {
+          "type": "item",
+          "repeater": "{{ page.metafields.custom.faq.value }}",
+          "settings": {
+            "title": "{{ block.repeater.question.value }}",
+            "content": "{{ block.repeater.answer | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "item_TCakYq"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "27ccb6d7-b50b-454c-8aea-76fa83346691",
+    "rich_text_6e9rRi",
+    "video_qzE3Lm",
+    "faq_VzqPBJ"
+  ]
+}

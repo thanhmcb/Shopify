@@ -1,0 +1,210 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "3db86d21-e949-4476-90e5-64fecffed43e": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Triathlon Sponsorships",
+            "heading_tag": "h1"
+          }
+        },
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-2": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Find your nearest distributor of CeramicSpeed products<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-0",
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-1",
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/585dfbfc257545145cacbb8f9abab8cdec9466aa.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "29453e63-b23b-441c-a1d7-b2c2373123e8": {
+      "type": "media-with-text",
+      "blocks": {
+        "6defd0bb-1efe-4b5b-83cc-2c0885fd9e5e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/custom_resized_ee7ee8e4-006c-45a6-92a2-080ec5e68ad1.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h5>Sam Laidlow<\/h5><p>Easily one of the most exciting names of the Triathlon scene, Sam Laidlow catapulted himself to the top of everybody's \"ones to watch\" list when he finished second at the IM World Championships in Kona last year. Our relationship with Sam started last season, and we can't wait to see him challenge for the top steps this year.<\/p><p><a href=\"https:\/\/www.instagram.com\/samlaidlow\/\">Follow Sam<\/a><\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "6defd0bb-1efe-4b5b-83cc-2c0885fd9e5e"
+      ],
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "1c7963cf-fcf4-4f27-aeaa-a35afe5f8620": {
+      "type": "media-with-text",
+      "blocks": {
+        "2b880bd3-ce1a-48ab-986e-3b9c746772c4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/custom_resized_6183c23d-b4b2-46b0-9e4d-f023a64052b9.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h5>Laura Philipp<\/h5><p>Laura Philipp is quite simply one of the biggest names in Triathlon. Laura is a supremely decorated athlete with 4 Ironman and 17 Ironman 70.3 wins to her name. For the 2023 season, we'll make sure that Laura will be as fast as ever.<\/p><p><a href=\"https:\/\/www.lauraphilipp.de\/en\/laura-philipp-english\/\" title=\"Learn more about Laura\">Learn more about Laura<\/a><\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "2b880bd3-ce1a-48ab-986e-3b9c746772c4"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "8e2a74f0-30c6-4e1a-a7ef-75e4c6302825": {
+      "type": "media-with-text",
+      "blocks": {
+        "62b59514-d6dc-4d80-b356-a6203ba2868b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/custom_resized_da74c1a1-eb96-4251-b9cb-ae88ce111f17.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h5>Magnus Ditlev<\/h5><p>Magnus is one of the most promising athletes competing at the Elite Level. Our history with Magnus goes back some time, and we're excited to continue our journey together for the 2023 season.<\/p><p><a href=\"https:\/\/www.instagram.com\/magnuselbaekditlev\/\">Follow Magnus<\/a><\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "62b59514-d6dc-4d80-b356-a6203ba2868b"
+      ],
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "1a06cb45-a676-4990-88e8-cc5cbdd3d33d": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19665220632869__1a06cb45-a676-4990-88e8-cc5cbdd3d33d-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--19665220632869__1a06cb45-a676-4990-88e8-cc5cbdd3d33d-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--19665220632869__1a06cb45-a676-4990-88e8-cc5cbdd3d33d-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h4>Other Athletes:<\/h4><h5>Katrine<br\/>Græsbøll Christensen<\/h5><p>Information coming soon...<\/p>",
+            "text_align": "left"
+          }
+        }
+      },
+      "block_order": [
+        "template--19665220632869__1a06cb45-a676-4990-88e8-cc5cbdd3d33d-subheading-1",
+        "template--19665220632869__1a06cb45-a676-4990-88e8-cc5cbdd3d33d-heading-1",
+        "template--19665220632869__1a06cb45-a676-4990-88e8-cc5cbdd3d33d-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3db86d21-e949-4476-90e5-64fecffed43e",
+    "29453e63-b23b-441c-a1d7-b2c2373123e8",
+    "1c7963cf-fcf4-4f27-aeaa-a35afe5f8620",
+    "8e2a74f0-30c6-4e1a-a7ef-75e4c6302825",
+    "1a06cb45-a676-4990-88e8-cc5cbdd3d33d"
+  ]
+}

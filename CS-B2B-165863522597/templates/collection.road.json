@@ -1,0 +1,595 @@
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "enable_parallax": true,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "collection_title_size": "h2",
+        "image_size": "sm",
+        "image": "shopify:\/\/shop_images\/custom_resized_5f8258a1-4418-4b11-a747-7823e0026faa.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/custom_resized_5f8258a1-4418-4b11-a747-7823e0026faa.jpg",
+        "mobile_text_position": "place-self-end-start text-start",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "featured_product": "{{ collection.metafields.custom.featured_product.value }}",
+        "featured_product_heading": "Bestseller",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "eef752d5-6f9f-4683-a98b-e262a9bedfba": {
+      "type": "subcategories-mcb",
+      "blocks": {
+        "f690a11d-cc3c-4f1f-b62a-52755933345d": {
+          "type": "item",
+          "repeater": "{{ collection.metafields.custom.subcollections.value }}",
+          "settings": {
+            "image": "{{ block.repeater.image.value }}",
+            "stretch_image": true,
+            "link_text": "{{ block.repeater.link_text.value }}",
+            "link_url_collection": "{{ block.repeater.collection.value }}",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "f690a11d-cc3c-4f1f-b62a-52755933345d"
+      ],
+      "settings": {
+        "full_width": false,
+        "stack_image": false,
+        "grid-gap": 20,
+        "block_size": "medium",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "blocks": {
+        "6a8fecfa-a8fe-4e37-9cf8-5fda9b55acc8": {
+          "type": "promotion_video",
+          "settings": {
+            "position": 2,
+            "column_span": "2",
+            "video": "{{ collection.metafields.custom.promo_media.value }}",
+            "external_video_url": "",
+            "title": "",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "heading_tag": "h4",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "6a8fecfa-a8fe-4e37-9cf8-5fda9b55acc8"
+      ],
+      "disabled": true,
+      "settings": {
+        "hide_sold_out_variants": true,
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "filter_layout": "horizontal",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_filter_group_name": true,
+        "show_color_swatch": true,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": true,
+        "open_first_filter_group": false,
+        "show_list_view": false,
+        "show_list_view_as_default": false
+      }
+    },
+    "e35e02cf-25e3-4570-83c5-52e7bdac53a7": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18272984170798__e35e02cf-25e3-4570-83c5-52e7bdac53a7-16814732615eda79ed-1": {
+          "type": "heading",
+          "settings": {
+            "text": "{{ collection.metafields.custom.seo_bottom_heading.value }}",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--18272984170798__e35e02cf-25e3-4570-83c5-52e7bdac53a7-16814732615eda79ed-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--18272984170798__e35e02cf-25e3-4570-83c5-52e7bdac53a7-16814732615eda79ed-1",
+        "template--18272984170798__e35e02cf-25e3-4570-83c5-52e7bdac53a7-16814732615eda79ed-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "4ca5583a-3755-4b14-bce7-9e634dd3a6df": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20178477187365__4ca5583a-3755-4b14-bce7-9e634dd3a6df-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--20178477187365__4ca5583a-3755-4b14-bce7-9e634dd3a6df-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--20178477187365__4ca5583a-3755-4b14-bce7-9e634dd3a6df-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>In the realm of speed<\/h5><p>Our products exist to make riders faster. It's as simple as that. They're all about instilling the confidence in you to break free from the pack, carve a descent at speeds you didn't think were possible, or hammer up your local climb and leave you gasping for air.<\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--20178477187365__4ca5583a-3755-4b14-bce7-9e634dd3a6df-subheading-1",
+        "template--20178477187365__4ca5583a-3755-4b14-bce7-9e634dd3a6df-heading-1",
+        "template--20178477187365__4ca5583a-3755-4b14-bce7-9e634dd3a6df-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "07b1b5db-4899-4fd0-a83d-dd9e3a63685c": {
+      "type": "collection-list",
+      "blocks": {
+        "template--20178477187365__07b1b5db-4899-4fd0-a83d-dd9e3a63685c-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-oversized-pulley-wheel-systems",
+            "image": "shopify:\/\/shop_images\/OSPW_8b0eff71-736b-41ad-96dc-a5be3cb53e00.jpg",
+            "subheading": "",
+            "title": "OSPW's",
+            "url": "shopify:\/\/collections\/all-oversized-pulley-wheel-systems",
+            "heading_tag": "h4",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "25173d5c-c9c5-45ac-993b-0e77f0fb1f25": {
+          "type": "collection",
+          "settings": {
+            "collection": "bottom-brackets-gravel-1",
+            "image": "shopify:\/\/shop_images\/bottom_bracket.jpg",
+            "subheading": "",
+            "title": "Bottom Brackets",
+            "url": "shopify:\/\/collections\/bottom-brackets-road",
+            "heading_tag": "h4",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "34c21494-0667-4fc6-8971-a88d83bcc2ba": {
+          "type": "collection",
+          "settings": {
+            "collection": "wheel-kits-1",
+            "image": "shopify:\/\/shop_images\/wheel_kits_3bdba232-79ac-49b8-8f6e-0720a47e37b9.jpg",
+            "subheading": "",
+            "title": "Wheel Kits",
+            "url": "shopify:\/\/collections\/wheel-kits-1",
+            "heading_tag": "h4",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "3bcef693-de09-4cf1-90cb-c28a17fc5781": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-headsets",
+            "image": "shopify:\/\/shop_images\/headset.jpg",
+            "subheading": "",
+            "title": "Headsets",
+            "url": "shopify:\/\/collections\/all-headsets",
+            "heading_tag": "h4",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--20178477187365__07b1b5db-4899-4fd0-a83d-dd9e3a63685c-collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-ufo-products",
+            "image": "shopify:\/\/shop_images\/UFO_family.jpg",
+            "subheading": "",
+            "title": "UFO Products",
+            "url": "shopify:\/\/collections\/all-ufo-products",
+            "heading_tag": "h4",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--20178477187365__07b1b5db-4899-4fd0-a83d-dd9e3a63685c-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-pulley-wheels",
+            "image": "shopify:\/\/shop_images\/pulley_wheels.jpg",
+            "subheading": "",
+            "title": "Pulley Wheels",
+            "url": "shopify:\/\/collections\/all-pulley-wheels",
+            "heading_tag": "h4",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--20178477187365__07b1b5db-4899-4fd0-a83d-dd9e3a63685c-collection-1",
+        "25173d5c-c9c5-45ac-993b-0e77f0fb1f25",
+        "34c21494-0667-4fc6-8971-a88d83bcc2ba",
+        "3bcef693-de09-4cf1-90cb-c28a17fc5781",
+        "template--20178477187365__07b1b5db-4899-4fd0-a83d-dd9e3a63685c-collection-3",
+        "template--20178477187365__07b1b5db-4899-4fd0-a83d-dd9e3a63685c-collection-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_collections": true,
+        "collections_per_row": 5,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "a9ff58e7-f2b7-4db1-9d27-35132a06b047": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20178477187365__a9ff58e7-f2b7-4db1-9d27-35132a06b047-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--20178477187365__a9ff58e7-f2b7-4db1-9d27-35132a06b047-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--20178477187365__a9ff58e7-f2b7-4db1-9d27-35132a06b047-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>CeramicSpeed components are designed with, yes you guessed it, speed in mind and built to move you faster and further than you ever imagined. So go ahead, tuck those elbows in, and grip the bars until your knuckles turn white. We've got your back.<\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--20178477187365__a9ff58e7-f2b7-4db1-9d27-35132a06b047-subheading-1",
+        "template--20178477187365__a9ff58e7-f2b7-4db1-9d27-35132a06b047-heading-1",
+        "template--20178477187365__a9ff58e7-f2b7-4db1-9d27-35132a06b047-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "cc5f8dd3-d341-442e-b616-7eab9266102b": {
+      "type": "video",
+      "blocks": {
+        "template--20178477187365__cc5f8dd3-d341-442e-b616-7eab9266102b-play-1": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--20178477187365__cc5f8dd3-d341-442e-b616-7eab9266102b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--20178477187365__cc5f8dd3-d341-442e-b616-7eab9266102b-play-1",
+        "template--20178477187365__cc5f8dd3-d341-442e-b616-7eab9266102b-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/CeramicSpeed - Road.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "2db1b636-0d44-4d69-9c0a-b209a014aba0": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--20178477187365__2db1b636-0d44-4d69-9c0a-b209a014aba0-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/51720408112_43f939248c_k.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h5>When every second counts <\/h5><p><\/p><p>Friction is pure kryptonite for any rider looking to make speed. Luckily, our products have consistently been proven to be the best at reducing just this. And eliminating friction translates into more speed, with less effort.<\/p><p>We produce the fastest and most capable bearings available. Period. If you don't take our word for it, then just ask Julian Alaphillipe or Tadej Pogačar.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20178477187365__2db1b636-0d44-4d69-9c0a-b209a014aba0-image-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "922d7394-8e02-4adc-bf1d-3515ec996ca0": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20178477187365__922d7394-8e02-4adc-bf1d-3515ec996ca0-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--20178477187365__922d7394-8e02-4adc-bf1d-3515ec996ca0-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--20178477187365__922d7394-8e02-4adc-bf1d-3515ec996ca0-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h1>Less<br\/>friction, <br\/>more <br\/>speed<\/h1>",
+            "text_align": "center"
+          }
+        },
+        "4854e579-40b5-406b-9d12-f9bf84b3d666": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/b3bb7c9b0e736dccb88569e707129cfad60ee98c.png",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "template--20178477187365__922d7394-8e02-4adc-bf1d-3515ec996ca0-subheading-1",
+        "template--20178477187365__922d7394-8e02-4adc-bf1d-3515ec996ca0-heading-1",
+        "template--20178477187365__922d7394-8e02-4adc-bf1d-3515ec996ca0-richtext-1",
+        "4854e579-40b5-406b-9d12-f9bf84b3d666"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "11864416-42f8-44a4-9f86-480a4a1cfb00": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--20178477187365__11864416-42f8-44a4-9f86-480a4a1cfb00-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/custom_resized_3f82c7b2-c794-438e-b430-fa16d0599d51.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h5>Drift into the flow<\/h5><p><\/p><p>Speed and watt-savings are easily measurable. It's basic physics at the end of the day. But speed is more than objective facts. It's an emotional state as well. Our products will not only <em>make <\/em>you faster, but they will just as importantly make you <em>feel <\/em>faster. Enhancing your ride experience one smooth pedal stroke at a time.<\/p>",
+            "link_text": "",
+            "link_url": "shopify:\/\/pages\/lifetime-warrany",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20178477187365__11864416-42f8-44a4-9f86-480a4a1cfb00-image-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "d5fb6e2e-3b9f-49fb-b174-1c5c03211dd5": {
+      "type": "rich-text",
+      "blocks": {
+        "9fd4eccc-83bc-4377-bd25-b2779964fcbc": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "0d3a7729-395e-4b76-bb7b-1a63674add21": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "85286f9f-11ee-44ff-beaa-f733c02c9d90": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/457e7c46115ac3372cd78084ec4bebfa85af9140.png",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "dd05f4b4-8b3f-4a1e-9995-c2aacee74501": {
+          "type": "richtext",
+          "settings": {
+            "content": "",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "9fd4eccc-83bc-4377-bd25-b2779964fcbc",
+        "0d3a7729-395e-4b76-bb7b-1a63674add21",
+        "85286f9f-11ee-44ff-beaa-f733c02c9d90",
+        "dd05f4b4-8b3f-4a1e-9995-c2aacee74501"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "ce359378-5e08-45ad-895e-22366497c19f": {
+      "type": "media-with-text",
+      "blocks": {
+        "857bc272-6777-47c9-bff8-2ca97ba39e3f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sprintcyclingagency_0568795_1_2000px.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h5>Proven to last<\/h5><p>For nearly two decades, our products have been tested to their limits by the fastest riders in the world. Season after season and in the most challenging terrains - from cobbles to HC Climbs. We demand perfection from our products, and we know that WorldTour riders do the same.<\/p><p>If they're good enough for them, rest assured they'll make you enjoy your time on the bike like never before.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "857bc272-6777-47c9-bff8-2ca97ba39e3f"
+      ],
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "eef752d5-6f9f-4683-a98b-e262a9bedfba",
+    "main",
+    "e35e02cf-25e3-4570-83c5-52e7bdac53a7",
+    "4ca5583a-3755-4b14-bce7-9e634dd3a6df",
+    "07b1b5db-4899-4fd0-a83d-dd9e3a63685c",
+    "a9ff58e7-f2b7-4db1-9d27-35132a06b047",
+    "cc5f8dd3-d341-442e-b616-7eab9266102b",
+    "2db1b636-0d44-4d69-9c0a-b209a014aba0",
+    "922d7394-8e02-4adc-bf1d-3515ec996ca0",
+    "11864416-42f8-44a4-9f86-480a4a1cfb00",
+    "d5fb6e2e-3b9f-49fb-b174-1c5c03211dd5",
+    "ce359378-5e08-45ad-895e-22366497c19f"
+  ]
+}

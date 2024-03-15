@@ -1,0 +1,330 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "c61a29ec-3e8c-42a5-bfdd-d5564d42794c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20587677417765__c61a29ec-3e8c-42a5-bfdd-d5564d42794c-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--20587677417765__c61a29ec-3e8c-42a5-bfdd-d5564d42794c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Size guide for CeramicSpeed Merchandise",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--20587677417765__c61a29ec-3e8c-42a5-bfdd-d5564d42794c-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--20587677417765__c61a29ec-3e8c-42a5-bfdd-d5564d42794c-subheading-1",
+        "template--20587677417765__c61a29ec-3e8c-42a5-bfdd-d5564d42794c-heading-1",
+        "template--20587677417765__c61a29ec-3e8c-42a5-bfdd-d5564d42794c-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "a437c046-adbb-4362-9e41-505a20f5e6a6": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20587677417765__a437c046-adbb-4362-9e41-505a20f5e6a6-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--20587677417765__a437c046-adbb-4362-9e41-505a20f5e6a6-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--20587677417765__a437c046-adbb-4362-9e41-505a20f5e6a6-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this size guide to help you find the right size. This guide is based on standard measurements so keep in mind that there might be minor differences.<\/p><p>Measurements are in centimetres.<\/p>",
+            "text_align": "center"
+          }
+        },
+        "a4ef9019-7459-420f-a535-84f682bf37f7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/size-chart-figure.png",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "f80560d3-af0f-453e-a9bd-d558b40f08b3": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2><strong>Female<\/strong><\/h2><p><strong>A<\/strong> Bust<br\/><em>Measure across the fullest part<\/em><\/p><p><strong>B<\/strong> Waist<br\/><em>Measure across the narrowest part<\/em><\/p><p><strong>C<\/strong> Hips<br\/><em>Measure across the fullest part<\/em><\/p><p><strong>D<\/strong> Height<\/p><h2><strong>Male<\/strong><\/h2><p><strong>A<\/strong> Chest<br\/><em>Measure across the fullest part<\/em><\/p><p><strong>B<\/strong> Waist<br\/><em>Measure at the waistband<\/em><\/p><p><strong>D<\/strong> Height<\/p>",
+            "text_align": "left"
+          }
+        }
+      },
+      "block_order": [
+        "template--20587677417765__a437c046-adbb-4362-9e41-505a20f5e6a6-subheading-1",
+        "template--20587677417765__a437c046-adbb-4362-9e41-505a20f5e6a6-heading-1",
+        "template--20587677417765__a437c046-adbb-4362-9e41-505a20f5e6a6-richtext-1",
+        "a4ef9019-7459-420f-a535-84f682bf37f7",
+        "f80560d3-af0f-453e-a9bd-d558b40f08b3"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "23581c7b-732f-484d-a0e4-fdc82050da45": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20587677417765__23581c7b-732f-484d-a0e4-fdc82050da45-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--20587677417765__23581c7b-732f-484d-a0e4-fdc82050da45-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Female sizes",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--20587677417765__23581c7b-732f-484d-a0e4-fdc82050da45-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "",
+            "text_align": "left"
+          }
+        }
+      },
+      "block_order": [
+        "template--20587677417765__23581c7b-732f-484d-a0e4-fdc82050da45-subheading-1",
+        "template--20587677417765__23581c7b-732f-484d-a0e4-fdc82050da45-heading-1",
+        "template--20587677417765__23581c7b-732f-484d-a0e4-fdc82050da45-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "e1347b90-4992-459b-a370-6d9486177bb6": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<table width=\"384\" data-mce-fragment=\"1\">\n<tbody data-mce-fragment=\"1\">\n<tr data-mce-fragment=\"1\">\n<td width=\"64\" data-mce-fragment=\"1\">&nbsp;<\/td>\n<td width=\"64\" data-mce-fragment=\"1\"><strong>&nbsp;Standard<\/strong><\/td>\n<td width=\"64\" data-mce-fragment=\"1\"><strong>S<\/strong><\/td>\n<td width=\"64\" data-mce-fragment=\"1\"><strong>M<\/strong><\/td>\n<td width=\"64\" data-mce-fragment=\"1\"><strong>L<\/strong><\/td>\n<td width=\"64\" data-mce-fragment=\"1\"><strong>XL<\/strong><\/td>\n<\/tr>\n<tr data-mce-fragment=\"1\">\n<td data-mce-fragment=\"1\">A<\/td>\n<td data-mce-fragment=\"1\">Chest<\/td>\n<td data-mce-fragment=\"1\">86<\/td>\n<td data-mce-fragment=\"1\">92<\/td>\n<td data-mce-fragment=\"1\">100<\/td>\n<td data-mce-fragment=\"1\">108<\/td>\n<\/tr>\n<tr data-mce-fragment=\"1\">\n<td data-mce-fragment=\"1\">B<\/td>\n<td data-mce-fragment=\"1\">Waist<\/td>\n<td data-mce-fragment=\"1\">69<\/td>\n<td data-mce-fragment=\"1\">74<\/td>\n<td data-mce-fragment=\"1\">80<\/td>\n<td data-mce-fragment=\"1\">86<\/td>\n<\/tr>\n<tr data-mce-fragment=\"1\">\n<td data-mce-fragment=\"1\">C<\/td>\n<td data-mce-fragment=\"1\">Hips<\/td>\n<td data-mce-fragment=\"1\">95<\/td>\n<td data-mce-fragment=\"1\">100<\/td>\n<td data-mce-fragment=\"1\">106<\/td>\n<td data-mce-fragment=\"1\">112<\/td>\n<\/tr>\n<tr data-mce-fragment=\"1\">\n<td data-mce-fragment=\"1\">D<\/td>\n<td data-mce-fragment=\"1\">Height<\/td>\n<td data-mce-fragment=\"1\">167<\/td>\n<td data-mce-fragment=\"1\">168<\/td>\n<td data-mce-fragment=\"1\">169<\/td>\n<td data-mce-fragment=\"1\">170<\/td>\n<\/tr>\n<\/tbody>\n<\/table>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "d5bb3e5c-a94a-4d48-92c1-583e40577710": {
+      "type": "rich-text",
+      "blocks": {
+        "ace0445f-be77-42fe-a9af-529a07f17ac4": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "c7c04c6e-afa9-45e2-ba53-5fff9d23e0b3": {
+          "type": "heading",
+          "settings": {
+            "text": "Male sizes",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "d9578398-910e-404f-ba66-13df7087aaa0": {
+          "type": "richtext",
+          "settings": {
+            "content": "",
+            "text_align": "left"
+          }
+        }
+      },
+      "block_order": [
+        "ace0445f-be77-42fe-a9af-529a07f17ac4",
+        "c7c04c6e-afa9-45e2-ba53-5fff9d23e0b3",
+        "d9578398-910e-404f-ba66-13df7087aaa0"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "685f180c-2d30-4f1e-9695-b2d93bec55cd": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<table width=\"401\" data-mce-fragment=\"1\">\n<tbody data-mce-fragment=\"1\">\n<tr data-mce-fragment=\"1\">\n<td width=\"64\" data-mce-fragment=\"1\">&nbsp;<\/td>\n<td width=\"81\" data-mce-fragment=\"1\"><strong>Standard<\/strong><\/td>\n<td width=\"64\" data-mce-fragment=\"1\"><strong>S<\/strong><\/td>\n<td width=\"64\" data-mce-fragment=\"1\"><strong>M<\/strong><\/td>\n<td width=\"64\" data-mce-fragment=\"1\"><strong>L<\/strong><\/td>\n<td width=\"64\" data-mce-fragment=\"1\"><strong>XL<\/strong><\/td>\n<\/tr>\n<tr data-mce-fragment=\"1\">\n<td width=\"64\" data-mce-fragment=\"1\">&nbsp;<\/td>\n<td width=\"81\" data-mce-fragment=\"1\">Shirt Size<\/td>\n<td width=\"64\" data-mce-fragment=\"1\">37 - 38<\/td>\n<td width=\"64\" data-mce-fragment=\"1\">39 - 40<\/td>\n<td width=\"64\" data-mce-fragment=\"1\">41 - 42<\/td>\n<td width=\"64\" data-mce-fragment=\"1\">43 - 44<\/td>\n<\/tr>\n<tr data-mce-fragment=\"1\">\n<td width=\"64\" data-mce-fragment=\"1\">A<\/td>\n<td width=\"81\" data-mce-fragment=\"1\">Chest<\/td>\n<td width=\"64\" data-mce-fragment=\"1\">90<\/td>\n<td width=\"64\" data-mce-fragment=\"1\">96<\/td>\n<td width=\"64\" data-mce-fragment=\"1\">104<\/td>\n<td width=\"64\" data-mce-fragment=\"1\">112<\/td>\n<\/tr>\n<tr data-mce-fragment=\"1\">\n<td width=\"64\" data-mce-fragment=\"1\">B<\/td>\n<td width=\"81\" data-mce-fragment=\"1\">Waist<\/td>\n<td width=\"64\" data-mce-fragment=\"1\">80<\/td>\n<td width=\"64\" data-mce-fragment=\"1\">85<\/td>\n<td width=\"64\" data-mce-fragment=\"1\">91<\/td>\n<td width=\"64\" data-mce-fragment=\"1\">97<\/td>\n<\/tr>\n<tr data-mce-fragment=\"1\">\n<td width=\"64\" data-mce-fragment=\"1\">D<\/td>\n<td width=\"81\" data-mce-fragment=\"1\">Height<\/td>\n<td width=\"64\" data-mce-fragment=\"1\">179<\/td>\n<td width=\"64\" data-mce-fragment=\"1\">180<\/td>\n<td width=\"64\" data-mce-fragment=\"1\">181<\/td>\n<td width=\"64\" data-mce-fragment=\"1\">182<\/td>\n<\/tr>\n<\/tbody>\n<\/table>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "b3180e70-e259-491a-8eee-8a18d4cc0575": {
+      "type": "rich-text",
+      "blocks": {
+        "5cffb49b-46de-46ad-8a50-2472c217ffda": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "d5612081-1f6a-47b8-b5c3-d958b30adb5f": {
+          "type": "heading",
+          "settings": {
+            "text": "Sock sizes",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "b7737a9b-b345-4643-8896-898530af707a": {
+          "type": "richtext",
+          "settings": {
+            "content": "",
+            "text_align": "left"
+          }
+        }
+      },
+      "block_order": [
+        "5cffb49b-46de-46ad-8a50-2472c217ffda",
+        "d5612081-1f6a-47b8-b5c3-d958b30adb5f",
+        "b7737a9b-b345-4643-8896-898530af707a"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "a641e476-0ce3-429b-ae42-62185e5eeb5d": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<table width=\"231\" data-mce-fragment=\"1\">\n<tbody data-mce-fragment=\"1\">\n<tr data-mce-fragment=\"1\">\n<td width=\"64\" data-mce-fragment=\"1\"><strong>Sizes<\/strong><\/td>\n<td width=\"61\" data-mce-fragment=\"1\"><strong>S<\/strong><\/td>\n<td width=\"61\" data-mce-fragment=\"1\"><strong>M<\/strong><\/td>\n<td width=\"45\" data-mce-fragment=\"1\"><strong>L<\/strong><\/td>\n<\/tr>\n<tr data-mce-fragment=\"1\">\n<td width=\"64\" data-mce-fragment=\"1\">Euro&nbsp;<\/td>\n<td width=\"61\" data-mce-fragment=\"1\">36 - 39<\/td>\n<td width=\"61\" data-mce-fragment=\"1\">40 - 43<\/td>\n<td width=\"45\" data-mce-fragment=\"1\">44 - 47<\/td>\n<\/tr>\n<tr data-mce-fragment=\"1\">\n<td width=\"64\" data-mce-fragment=\"1\">UK Female<\/td>\n<td data-mce-fragment=\"1\">3.5 - 5<\/td>\n<td width=\"61\" data-mce-fragment=\"1\">5.5 - 8<\/td>\n<td width=\"45\" data-mce-fragment=\"1\">8.5+<\/td>\n<\/tr>\n<tr data-mce-fragment=\"1\">\n<td width=\"64\" data-mce-fragment=\"1\">UK Male<\/td>\n<td data-mce-fragment=\"1\">3 - 5<\/td>\n<td width=\"61\" data-mce-fragment=\"1\">5.5 - 8<\/td>\n<td width=\"45\" data-mce-fragment=\"1\">8.5 - 10<\/td>\n<\/tr>\n<tr data-mce-fragment=\"1\">\n<td width=\"64\" data-mce-fragment=\"1\">US Female<\/td>\n<td width=\"61\" data-mce-fragment=\"1\">4 - 7<\/td>\n<td width=\"61\" data-mce-fragment=\"1\">7.5 - 9<\/td>\n<td width=\"45\" data-mce-fragment=\"1\">9.5 +<\/td>\n<\/tr>\n<tr data-mce-fragment=\"1\">\n<td width=\"64\" data-mce-fragment=\"1\">US Male<\/td>\n<td width=\"61\" data-mce-fragment=\"1\">4 - 5<\/td>\n<td width=\"61\" data-mce-fragment=\"1\">5.5 - 9<\/td>\n<td width=\"45\" data-mce-fragment=\"1\">9.5 - 12<\/td>\n<\/tr>\n<tr data-mce-fragment=\"1\">\n<td width=\"64\" data-mce-fragment=\"1\">Centimeter<\/td>\n<td width=\"61\" data-mce-fragment=\"1\">22.7 - 24.7<\/td>\n<td width=\"61\" data-mce-fragment=\"1\">25.3 - 27.3&nbsp;<\/td>\n<td width=\"45\" data-mce-fragment=\"1\">28 - 30<\/td>\n<\/tr>\n<\/tbody>\n<\/table>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "31a509b4-5f45-4172-b668-84b524a5ab31": {
+      "type": "rich-text",
+      "blocks": {
+        "00dd1cca-9b8a-44c9-aebb-1cf9966ec469": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "8d987179-cf3b-4cb9-bc10-fbddfcd84ad5": {
+          "type": "heading",
+          "settings": {
+            "text": "Cap sizes",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "52f80627-bb13-48dd-bbdf-794baf3dad97": {
+          "type": "richtext",
+          "settings": {
+            "content": "",
+            "text_align": "left"
+          }
+        }
+      },
+      "block_order": [
+        "00dd1cca-9b8a-44c9-aebb-1cf9966ec469",
+        "8d987179-cf3b-4cb9-bc10-fbddfcd84ad5",
+        "52f80627-bb13-48dd-bbdf-794baf3dad97"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "c4a53e75-d3db-4e0f-b3ab-7450d420d003": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<table width=\"227\" data-mce-fragment=\"1\">\n<tbody data-mce-fragment=\"1\">\n<tr data-mce-fragment=\"1\">\n<td width=\"99\" data-mce-fragment=\"1\">\n<p data-mce-fragment=\"1\">&nbsp;<\/p>\n<\/td>\n<td width=\"64\" data-mce-fragment=\"1\"><strong>S\/M<\/strong><\/td>\n<td width=\"64\" data-mce-fragment=\"1\"><strong>L\/XL<\/strong><\/td>\n<\/tr>\n<tr data-mce-fragment=\"1\">\n<td width=\"99\" data-mce-fragment=\"1\">Centimetre<\/td>\n<td width=\"64\" data-mce-fragment=\"1\">37\/38<\/td>\n<td width=\"64\" data-mce-fragment=\"1\">41\/42<\/td>\n<\/tr>\n<tr data-mce-fragment=\"1\">\n<td width=\"99\" data-mce-fragment=\"1\">Inches<\/td>\n<td width=\"64\" data-mce-fragment=\"1\">90<\/td>\n<td width=\"64\" data-mce-fragment=\"1\">104<\/td>\n<\/tr>\n<\/tbody>\n<\/table>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c61a29ec-3e8c-42a5-bfdd-d5564d42794c",
+    "a437c046-adbb-4362-9e41-505a20f5e6a6",
+    "23581c7b-732f-484d-a0e4-fdc82050da45",
+    "e1347b90-4992-459b-a370-6d9486177bb6",
+    "d5bb3e5c-a94a-4d48-92c1-583e40577710",
+    "685f180c-2d30-4f1e-9695-b2d93bec55cd",
+    "b3180e70-e259-491a-8eee-8a18d4cc0575",
+    "a641e476-0ce3-429b-ae42-62185e5eeb5d",
+    "31a509b4-5f45-4172-b668-84b524a5ab31",
+    "c4a53e75-d3db-4e0f-b3ab-7450d420d003"
+  ]
+}

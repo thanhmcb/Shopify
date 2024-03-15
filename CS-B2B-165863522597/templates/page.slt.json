@@ -1,0 +1,380 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "e206cb58-05cf-4062-a365-18426f576847": {
+      "type": "video",
+      "blocks": {
+        "template--19665220043045__e206cb58-05cf-4062-a365-18426f576847-play-1": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--19665220043045__e206cb58-05cf-4062-a365-18426f576847-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Ride Beyond Limits",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--19665220043045__e206cb58-05cf-4062-a365-18426f576847-play-1",
+        "template--19665220043045__e206cb58-05cf-4062-a365-18426f576847-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/ceramicspeed-ian-hero-2.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "b643dd84-f702-4663-8af3-96156c3d7e07": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20768673595685__b643dd84-f702-4663-8af3-96156c3d7e07-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--20768673595685__b643dd84-f702-4663-8af3-96156c3d7e07-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--20768673595685__b643dd84-f702-4663-8af3-96156c3d7e07-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Introducing SLT: the secret ingredient behind our toughest bearings to date. Featuring an oil-encapsulated solid plastic polymer and stainless-steel materials these bearings are self-lubricating, corrosion-resistant, and maintenance-free – making them more resilient than ever.<\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--20768673595685__b643dd84-f702-4663-8af3-96156c3d7e07-subheading-1",
+        "template--20768673595685__b643dd84-f702-4663-8af3-96156c3d7e07-heading-1",
+        "template--20768673595685__b643dd84-f702-4663-8af3-96156c3d7e07-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "961db187-9511-433f-a0b3-30fd0ecf69c6": {
+      "type": "slideshow",
+      "blocks": {
+        "template--20768673595685__961db187-9511-433f-a0b3-30fd0ecf69c6-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/45847e5a96f8b2886d0332762231e59e8e957d9a_49012613-243d-494d-8c2e-788a6db5f576.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20768673595685__961db187-9511-433f-a0b3-30fd0ecf69c6-image-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "md",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "6dd92f12-e6a0-4121-8bf4-1d617e96ebb7": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20768673595685__6dd92f12-e6a0-4121-8bf4-1d617e96ebb7-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--20768673595685__6dd92f12-e6a0-4121-8bf4-1d617e96ebb7-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Guaranteed to last",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--20768673595685__6dd92f12-e6a0-4121-8bf4-1d617e96ebb7-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Our SLT (Solid Lubrication Technology) Bearings for Headsets and Rear Suspension Pivots are designed to be ridden in the most grueling conditions. In the lab and out on the trails we’ve done our very best to push these bearings to failure, but our efforts have ultimately been unsuccessful. This gives us the confidence to back all our SLT Bearings with a <a href=\"https:\/\/www.ceramicspeed.com\/en\/cycling\/support\/warranty-program\/lifetime-warranty\"><strong>lifetime warranty<\/strong><\/a><strong>.<\/strong><\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--20768673595685__6dd92f12-e6a0-4121-8bf4-1d617e96ebb7-subheading-1",
+        "template--20768673595685__6dd92f12-e6a0-4121-8bf4-1d617e96ebb7-heading-1",
+        "template--20768673595685__6dd92f12-e6a0-4121-8bf4-1d617e96ebb7-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "7cb798ae-a625-4959-a123-4cb6b15b962e": {
+      "type": "multi-column",
+      "blocks": {
+        "template--20768673595685__7cb798ae-a625-4959-a123-4cb6b15b962e-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/d0d9adb2af57e6e9484d47bb4860b3cc619c4f11.png",
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "37011057-6bc2-40ea-9988-f2a153b272b2": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "Maintenance-free Durability",
+            "heading_tag": "h4",
+            "content": "<p>The unique solid polymer of our SLT Bearings remedies two of the most common causes behind bearing failure: the absence of lubrication and grease contamination through dirt ingress. The micropores in the otherwise solid polymer evenly distribute just enough oil to keep the bearing well-lubricated, while also containing sufficient oil for it to be self-lubricating over the lifespan of the bearing – even when ridden in the harshest of conditions.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--20768673595685__7cb798ae-a625-4959-a123-4cb6b15b962e-item-1",
+        "37011057-6bc2-40ea-9988-f2a153b272b2"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "29e60464-c273-4a21-8128-fbcf9f2b1389": {
+      "type": "multi-column",
+      "blocks": {
+        "ed12812b-2b84-4b00-a36c-190e3ddf8f8e": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4c76a09033ab274e1cb719da4f2c906508cca506_c5ce573b-970f-4fbf-bbae-e6a1f66e7af6.png",
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "8682dd4a-7914-47a4-be69-ad2747bb57eb": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "Keeping Corrosion at Bay",
+            "heading_tag": "h4",
+            "content": "<p>Even though an iconic Canadian folk singer once claimed that “Rust Never Sleeps”, we feel confident that we’ve put it down for the count. The combination of an outer seal and the solid polymer makes it almost impossible for water and contaminants to penetrate our SLT Bearings. If moisture should get inside, the stainless steel material of the bearing races and balls turns worries about corrosion into yesterday’s fears<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "ed12812b-2b84-4b00-a36c-190e3ddf8f8e",
+        "8682dd4a-7914-47a4-be69-ad2747bb57eb"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "b14bb7bb-2bd2-4364-9807-6332af6f8b87": {
+      "type": "multi-column",
+      "blocks": {
+        "0716873a-f2be-46ac-9870-634acd726996": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7256f85dd4a8fd0be544eab945977f427aa6b5ea_e8a41894-4aa9-4969-8bb2-6d3ec1b448b7.jpg",
+            "column_size": "1.5",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "66b6aa52-59e6-4822-8140-31a92393cab8": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Taking Durability to New Heights",
+            "heading_tag": "h4",
+            "content": "<p>At first the promise of self-lubricating, corrosion-resistant, and maintenance-free bearings might sound too good to be true, but we assure you there’s no witchcraft involved here. <\/p><p>Our SLT Bearings are based on a proven technology, but even though it’s well-proven, it’s getting it right that’s the tricky part.<\/p>",
+            "link_url": "shopify:\/\/pages\/technology",
+            "link_text": "Learn more about the technology here",
+            "link_style": "button"
+          }
+        }
+      },
+      "block_order": [
+        "0716873a-f2be-46ac-9870-634acd726996",
+        "66b6aa52-59e6-4822-8140-31a92393cab8"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "#000000",
+        "background_gradient": "",
+        "text_color": "#fafafa"
+      }
+    },
+    "8323f672-1786-4547-bad1-ff125ddc1302": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--20768673595685__8323f672-1786-4547-bad1-ff125ddc1302-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--20768673595685__8323f672-1786-4547-bad1-ff125ddc1302-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Keep Your Head(set)",
+            "heading_tag": "h1"
+          }
+        },
+        "template--20768673595685__8323f672-1786-4547-bad1-ff125ddc1302-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Headset bearings are burdened with the unforgiving task of sitting in one of the most exposed areas on a bike, making them especially vulnerable to external contaminants that’ll eventually wear them out. To add to the hardship, the trend of modern-day bike design to feature fully integrated cockpits has turned a once-simple maintenance job into a tricky and laborious task.<\/p><p>Our OHD (Optimized Headset Design) SLT Bearings will not only protect and prolong the lifespan of your bearings, but they’ll also make sure you don’t break the bank with workshop bills.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20768673595685__8323f672-1786-4547-bad1-ff125ddc1302-subheading-1",
+        "template--20768673595685__8323f672-1786-4547-bad1-ff125ddc1302-heading-1",
+        "template--20768673595685__8323f672-1786-4547-bad1-ff125ddc1302-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/c4a1711033672e0c1782c3b3028e1da8efa97680.jpg",
+        "mobile_text_position": "place-self-center-start text-start",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "21ef7bd1-b07f-411a-b20d-ea758f45939e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20768673595685__21ef7bd1-b07f-411a-b20d-ea758f45939e-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><em>\"With the advent of internal cable routing on road bikes, the demands on the longevity of headsets have become critical. After thoroughly testing CeramicSpeed SLT Headsets under the most demanding of conditions, and validating at the World Tour, we were convinced that these headsets should be included on Factor bikes\"<\/em> <br\/>- Rob Gitelis, Owner Factor Bikes<\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--20768673595685__21ef7bd1-b07f-411a-b20d-ea758f45939e-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "e206cb58-05cf-4062-a365-18426f576847",
+    "b643dd84-f702-4663-8af3-96156c3d7e07",
+    "961db187-9511-433f-a0b3-30fd0ecf69c6",
+    "6dd92f12-e6a0-4121-8bf4-1d617e96ebb7",
+    "7cb798ae-a625-4959-a123-4cb6b15b962e",
+    "29e60464-c273-4a21-8128-fbcf9f2b1389",
+    "b14bb7bb-2bd2-4364-9807-6332af6f8b87",
+    "8323f672-1786-4547-bad1-ff125ddc1302",
+    "21ef7bd1-b07f-411a-b20d-ea758f45939e"
+  ]
+}

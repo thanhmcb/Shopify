@@ -1,0 +1,618 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "3db86d21-e949-4476-90e5-64fecffed43e": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Gravel",
+            "heading_tag": "h1"
+          }
+        },
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-2": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-0",
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-1",
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "aca770b3-d895-4430-aa05-0990de07e08a": {
+      "type": "rich-text",
+      "blocks": {
+        "3e3fb28b-c92d-4cd9-965c-c4193fb676ed": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon": "picto-timer",
+            "icon_width": 32,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": ""
+          }
+        },
+        "d1fdfc50-8096-4401-9f4f-9b3c3f9e37ac": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--18216822309166__aca770b3-d895-4430-aa05-0990de07e08a-16777526798b832ccb-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>The world is yours to explore. Don't let your bike hold you back. <\/h5><p>All-out racing on hard-packed dirt. All-road riding that links stretches of tarmac with farm tracks and forest trails. Continent crossing adventures onboard loaded down bikes, etc., etc. The concept of \"Gravel\" is as varied as the shapes and sizes of the rocks underneath our tires.<\/p><p>But no matter if racing or roaming is your preferred modus of travel when you point your drop bar bike beyond the pavement, you need gear that's ready to handle anything you embark on.<\/p>",
+            "text_align": "center"
+          }
+        },
+        "8e8c345b-ac5c-4caf-8600-1fe492030a16": {
+          "type": "image",
+          "settings": {
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "cb140b7d-e97e-41bb-a846-72cf1ea036a0": {
+          "type": "richtext",
+          "settings": {
+            "content": "",
+            "text_align": "center"
+          }
+        },
+        "fca99aa2-fed3-4ebb-9e44-30d838af338d": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "110b1b72-f952-4176-8829-37d90717c1f8": {
+          "type": "richtext",
+          "settings": {
+            "content": "",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "3e3fb28b-c92d-4cd9-965c-c4193fb676ed",
+        "d1fdfc50-8096-4401-9f4f-9b3c3f9e37ac",
+        "template--18216822309166__aca770b3-d895-4430-aa05-0990de07e08a-16777526798b832ccb-2",
+        "8e8c345b-ac5c-4caf-8600-1fe492030a16",
+        "cb140b7d-e97e-41bb-a846-72cf1ea036a0",
+        "fca99aa2-fed3-4ebb-9e44-30d838af338d",
+        "110b1b72-f952-4176-8829-37d90717c1f8"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "bf40c094-0c44-4462-b565-b7cf7ada5229": {
+      "type": "collection-list",
+      "blocks": {
+        "template--20175180923173__bf40c094-0c44-4462-b565-b7cf7ada5229-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-oversized-pulley-wheel-systems",
+            "image": "shopify:\/\/shop_images\/OSPW_8b0eff71-736b-41ad-96dc-a5be3cb53e00.jpg",
+            "subheading": "",
+            "title": "OSPW's",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--20175180923173__bf40c094-0c44-4462-b565-b7cf7ada5229-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-pulley-wheels",
+            "image": "shopify:\/\/shop_images\/pulley_wheels.jpg",
+            "subheading": "",
+            "title": "Pulley Wheels",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--20175180923173__bf40c094-0c44-4462-b565-b7cf7ada5229-collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-ufo-products",
+            "image": "shopify:\/\/shop_images\/UFO_family.jpg",
+            "subheading": "",
+            "title": "UFO Products",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "60774040-b53d-4485-af40-0f700c377fa3": {
+          "type": "collection",
+          "settings": {
+            "collection": "bottom-brackets-gravel-1",
+            "image": "shopify:\/\/shop_images\/bottom_bracket.jpg",
+            "subheading": "",
+            "title": "Bottom Brackets",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "0ba4198b-40b0-498e-be81-055569eafa42": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-headsets",
+            "image": "shopify:\/\/shop_images\/headset.jpg",
+            "subheading": "",
+            "title": "Headsets",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "3e12c61f-3342-486d-b26a-56425755c94d": {
+          "type": "collection",
+          "settings": {
+            "collection": "wheel-kits-1",
+            "image": "shopify:\/\/shop_images\/wheel_kits_3bdba232-79ac-49b8-8f6e-0720a47e37b9.jpg",
+            "subheading": "",
+            "title": "Wheel Kits",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--20175180923173__bf40c094-0c44-4462-b565-b7cf7ada5229-collection-1",
+        "template--20175180923173__bf40c094-0c44-4462-b565-b7cf7ada5229-collection-2",
+        "template--20175180923173__bf40c094-0c44-4462-b565-b7cf7ada5229-collection-3",
+        "60774040-b53d-4485-af40-0f700c377fa3",
+        "0ba4198b-40b0-498e-be81-055569eafa42",
+        "3e12c61f-3342-486d-b26a-56425755c94d"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_collections": true,
+        "collections_per_row": 5,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "e0fb46b6-6afc-47eb-bef1-50041a761d0c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20175180923173__e0fb46b6-6afc-47eb-bef1-50041a761d0c-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--20175180923173__e0fb46b6-6afc-47eb-bef1-50041a761d0c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--20175180923173__e0fb46b6-6afc-47eb-bef1-50041a761d0c-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>CeramicSpeed components are designed for performance and built to endure the demands of riding in the most challenging conditions. They're as durable as they're fast, meaning the only limits you have to worry about are those presented by your legs and mind.<\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--20175180923173__e0fb46b6-6afc-47eb-bef1-50041a761d0c-subheading-1",
+        "template--20175180923173__e0fb46b6-6afc-47eb-bef1-50041a761d0c-heading-1",
+        "template--20175180923173__e0fb46b6-6afc-47eb-bef1-50041a761d0c-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "7a4d7b90-99ca-4236-9e12-439fcf991f33": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--20175180923173__7a4d7b90-99ca-4236-9e12-439fcf991f33-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dsc01410-min.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h5>Go everywhere, fast <\/h5><p><\/p><p>Just because your curiosity tells you to discover what's at the end of that dirt road on your right, shouldn't mean you should lose your momentum. Our components' prowess for speed transitions as smoothly from pavement to dirt as the dynamics in a Pixies song. <\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#fafafa",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20175180923173__7a4d7b90-99ca-4236-9e12-439fcf991f33-image-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "79e3f7f9-e4a1-4d57-a615-c3ff15d4b4b8": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20175180923173__79e3f7f9-e4a1-4d57-a615-c3ff15d4b4b8-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--20175180923173__79e3f7f9-e4a1-4d57-a615-c3ff15d4b4b8-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--20175180923173__79e3f7f9-e4a1-4d57-a615-c3ff15d4b4b8-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h1>Explore <\/h1><h1>Enjoy<\/h1><h1>Empower<\/h1><h1>(Repeat)<\/h1>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--20175180923173__79e3f7f9-e4a1-4d57-a615-c3ff15d4b4b8-subheading-1",
+        "template--20175180923173__79e3f7f9-e4a1-4d57-a615-c3ff15d4b4b8-heading-1",
+        "template--20175180923173__79e3f7f9-e4a1-4d57-a615-c3ff15d4b4b8-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "e8e2bdf5-361b-4432-b43f-b1dffcf700a9": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--20175180923173__e8e2bdf5-361b-4432-b43f-b1dffcf700a9-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/custom_resized_251983f7-dd1c-4460-a365-020c9c1433af.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h5>Do-it-all Durability <\/h5><p>There's more to our name than speed. Our products are purpose-built to endure the rigors of mixed-surface, all-conditions riding. Whether you have your sight set on the endless road or racing 10+ hours around Emporia, we'll keep you riding.<\/p>",
+            "link_text": "Lifetime Warranty on Coated Products",
+            "link_url": "shopify:\/\/pages\/lifetime-warrany",
+            "background": "#fafafa",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20175180923173__e8e2bdf5-361b-4432-b43f-b1dffcf700a9-image-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "4c6d2b69-de5b-48a4-953e-4b3bb2db931f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20175180923173__4c6d2b69-de5b-48a4-953e-4b3bb2db931f-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--20175180923173__4c6d2b69-de5b-48a4-953e-4b3bb2db931f-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "9ab0e6ea-1f7a-48b6-9c31-b0b461977067": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gravel_01.gif",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "template--20175180923173__4c6d2b69-de5b-48a4-953e-4b3bb2db931f-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>The Road to Tavertet<\/p><p>Journey along as Jonas Strømberg and Mattia Paganotti reconnect during an overnight adventure, riding on some of the most scenic roads in Catalonia after more than 1.5 years apart due to the pandemic.<\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--20175180923173__4c6d2b69-de5b-48a4-953e-4b3bb2db931f-subheading-1",
+        "template--20175180923173__4c6d2b69-de5b-48a4-953e-4b3bb2db931f-heading-1",
+        "9ab0e6ea-1f7a-48b6-9c31-b0b461977067",
+        "template--20175180923173__4c6d2b69-de5b-48a4-953e-4b3bb2db931f-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "bdd17084-9d9e-4ea1-a3af-1aff69907985": {
+      "type": "video",
+      "blocks": {
+        "template--20175180923173__bdd17084-9d9e-4ea1-a3af-1aff69907985-play-1": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--20175180923173__bdd17084-9d9e-4ea1-a3af-1aff69907985-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--20175180923173__bdd17084-9d9e-4ea1-a3af-1aff69907985-play-1",
+        "template--20175180923173__bdd17084-9d9e-4ea1-a3af-1aff69907985-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/The Road to Tavertet - A CeramicSpeed Gravel Adventure(720p).mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "1be38823-b9ca-46c6-9d3f-6d9ef9717656": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--20175180923173__1be38823-b9ca-46c6-9d3f-6d9ef9717656-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/custom_resized_96c3d04c-222e-44a2-9de4-dd01197df25b.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h5>Comfortably Compatible<\/h5><p><\/p><p>No matter if your all-road bike is specced with deep-section wheels and a traditional road groupset or if your exploration rig is fitted with 650b rims and a mullet group, we offer gravel components that cover most riders' needs.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#fafafa",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20175180923173__1be38823-b9ca-46c6-9d3f-6d9ef9717656-image-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "cb80321b-fd89-4f78-b6a6-86d186a47d80": {
+      "type": "media-with-text",
+      "blocks": {
+        "27181e89-e647-4707-8890-45778c71a883": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/52660966033_7890fc7257_o.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h5>At The Front of The Pack<\/h5><p><\/p><p>Gravel racing is the fastest growing and arguably the most exciting racing scene to follow these years. It's a discipline that demands gear that can handle to be ridden hard and ridden fast. In other words, our natural habitat.<\/p><p><a href=\"https:\/\/www.instagram.com\/p\/CbNOs97gEAj\/\">Cole Paton's<\/a> race-winning ride at MidSouth and <a href=\"https:\/\/www.instagram.com\/p\/CS64WuLKFJ0\/\">Brennan Wertz's<\/a> top-10s in iconic races like Unbound and SBT GRVL are a testament to our components' dirt racing pedigree.<\/p>",
+            "link_text": "Brennan's Hunt for Gravel Glory",
+            "link_url": "shopify:\/\/blogs\/journal\/brennans-hunt-for-gravel-glory-in-2022",
+            "background": "#fafafa",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "27181e89-e647-4707-8890-45778c71a883"
+      ],
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "e947f0d8-3212-499f-943d-08c4c29695e9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20175180923173__e947f0d8-3212-499f-943d-08c4c29695e9-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--20175180923173__e947f0d8-3212-499f-943d-08c4c29695e9-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--20175180923173__e947f0d8-3212-499f-943d-08c4c29695e9-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "",
+            "text_align": "center"
+          }
+        },
+        "dae8ab72-c388-475e-9e92-cd336fa6742c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/36a26544c948d06fa497c4f66342403066c366c7.png",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "template--20175180923173__e947f0d8-3212-499f-943d-08c4c29695e9-subheading-1",
+        "template--20175180923173__e947f0d8-3212-499f-943d-08c4c29695e9-heading-1",
+        "template--20175180923173__e947f0d8-3212-499f-943d-08c4c29695e9-richtext-1",
+        "dae8ab72-c388-475e-9e92-cd336fa6742c"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3db86d21-e949-4476-90e5-64fecffed43e",
+    "aca770b3-d895-4430-aa05-0990de07e08a",
+    "bf40c094-0c44-4462-b565-b7cf7ada5229",
+    "e0fb46b6-6afc-47eb-bef1-50041a761d0c",
+    "7a4d7b90-99ca-4236-9e12-439fcf991f33",
+    "79e3f7f9-e4a1-4d57-a615-c3ff15d4b4b8",
+    "e8e2bdf5-361b-4432-b43f-b1dffcf700a9",
+    "4c6d2b69-de5b-48a4-953e-4b3bb2db931f",
+    "bdd17084-9d9e-4ea1-a3af-1aff69907985",
+    "1be38823-b9ca-46c6-9d3f-6d9ef9717656",
+    "cb80321b-fd89-4f78-b6a6-86d186a47d80",
+    "e947f0d8-3212-499f-943d-08c4c29695e9"
+  ]
+}

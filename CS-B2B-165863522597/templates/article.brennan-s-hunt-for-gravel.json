@@ -1,0 +1,231 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "disabled": true,
+      "settings": {
+        "allow_transparent_header": false,
+        "layout": "content_first",
+        "show_author": true,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px"
+      }
+    },
+    "e650360f-893a-4a54-833b-e1518be4892e": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18123979915566__e650360f-893a-4a54-833b-e1518be4892e-1678193963a0b029a4-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Brennan's Hunt for Gravel Glory in 2022",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--18123979915566__e650360f-893a-4a54-833b-e1518be4892e-1678193963a0b029a4-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/f855f935bb4668cc9f6186dc43f71c760001e86f.jpg",
+        "mobile_image": "{{ article.metafields.custom.top_grafik_mobil.value }}",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "2f53b1e8-d38f-4945-a6b7-0be67279972a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18123979915566__2f53b1e8-d38f-4945-a6b7-0be67279972a-167819433943960406-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--18123979915566__2f53b1e8-d38f-4945-a6b7-0be67279972a-167819433943960406-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--18123979915566__2f53b1e8-d38f-4945-a6b7-0be67279972a-167819433943960406-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>After a stellar maiden season on the US Pro Gravel Race Circuit, Brennan Wertz is back with a vengeance and ready to take on the biggest names in gravel racing. <\/h5><p><em>Photos: Derek Yarra \/\/ Above Category<\/em><\/p><p> <\/p><p>In 2021 Brennan Wertz was one of the breakthrough stars on the US Gravel Racing scene. A latecomer to cycling, Brennan had dedicated most of his time up until that to becoming a world-class rower but found no trouble in transitioning his athletic potential and impressive engine over to two wheels.<\/p><p>Racing under the banner of our friends from Above Category, Brennan was able to bring home some great results in his inaugural season racing the big dogs on gravel, which included top-10s at premier races like Unbound & SBT GRVL and a podium spot at the North Carolina Belgian Waffle Ride. Brennan's weapon of choice for 2021 was <a href=\"https:\/\/www.instagram.com\/p\/CPsmxlJL89Y\/\">a beautiful tri-fade titanium dream bike from Mosaic<\/a>, which featured our Coated Bearings throughout the build.<\/p>"
+          }
+        },
+        "5c32f967-bee2-418f-b007-2f65dfe0d974": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/456a8136.jpg",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "e0732283-ef64-49e2-967c-54921f1cce0c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/456a8284.jpg",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "template--18123979915566__2f53b1e8-d38f-4945-a6b7-0be67279972a-167819433943960406-0",
+        "template--18123979915566__2f53b1e8-d38f-4945-a6b7-0be67279972a-167819433943960406-1",
+        "template--18123979915566__2f53b1e8-d38f-4945-a6b7-0be67279972a-167819433943960406-2",
+        "5c32f967-bee2-418f-b007-2f65dfe0d974",
+        "e0732283-ef64-49e2-967c-54921f1cce0c"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "866a6d97-8457-4285-a5b4-aebe30cb4428": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18123979915566__866a6d97-8457-4285-a5b4-aebe30cb4428-167819433943960406-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Now, Brennan is switching from titanium to carbon as he has joined the Scuderia squad of Pinarello, but he'll still be relying on our full range of Coated offerings, which we're extremely pleased with!<\/p><p>Some words from the man himself: \"<em>I have been riding the CeramicSpeed products for many years, with last season being my first season racing their products on the gravel circuit. Now that I have transitioned to focusing exclusively on gravel, I couldn't be more thrilled to have the support of CeramicSpeed for my 2022 gravel racing campaign.<\/em><\/p><p><em>I love the efficiency and watt savings that their diverse range of products offers, but beyond that, I am a huge fan of their durability. When training or racing, I often encounter extremely harsh conditions. Even with all the exposure to these conditions, my bearings and drivetrain remain smooth and efficient all season long thanks to the durability of the CeramicSpeed products.<\/em>\"<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18123979915566__866a6d97-8457-4285-a5b4-aebe30cb4428-167819433943960406-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "40453fe5-98ff-42e2-96d4-f53cc4647988": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18272983843118__40453fe5-98ff-42e2-96d4-f53cc4647988-1680247564a5ac5646-2": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        },
+        "6d015828-9824-4b63-8353-16eb5beeb626": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/456a8150.jpg",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "ed899dc9-9b30-4f82-87a9-f29963efdf75": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/456a8208.jpg",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "6f372721-7ac1-4b46-a514-c59954f4a187": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/456a8312.jpg",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "template--18272983843118__40453fe5-98ff-42e2-96d4-f53cc4647988-1680247564a5ac5646-2",
+        "6d015828-9824-4b63-8353-16eb5beeb626",
+        "ed899dc9-9b30-4f82-87a9-f29963efdf75",
+        "6f372721-7ac1-4b46-a514-c59954f4a187"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "b4303a10-2d8c-4d3d-acd1-766192760a35": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18272983843118__b4303a10-2d8c-4d3d-acd1-766192760a35-1680247564a5ac5646-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>With early-season race wins at Gravel Miami 2022, Huffmaster Hopper (Grasshopper Adventure Series), and Shasta Gravel Hugger to his name already, we can't wait to follow Brennan as he tackles the biggest gravel races this year!<\/p><p>Follow Brennan's Gravel journey <a href=\"https:\/\/www.instagram.com\/brennan.wertz\/\">here<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18272983843118__b4303a10-2d8c-4d3d-acd1-766192760a35-1680247564a5ac5646-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "e650360f-893a-4a54-833b-e1518be4892e",
+    "2f53b1e8-d38f-4945-a6b7-0be67279972a",
+    "866a6d97-8457-4285-a5b4-aebe30cb4428",
+    "40453fe5-98ff-42e2-96d4-f53cc4647988",
+    "b4303a10-2d8c-4d3d-acd1-766192760a35"
+  ]
+}

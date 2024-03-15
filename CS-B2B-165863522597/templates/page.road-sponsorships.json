@@ -1,0 +1,290 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "3db86d21-e949-4476-90e5-64fecffed43e": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Road Sponsorships",
+            "heading_tag": "h1"
+          }
+        },
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-2": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Find your nearest distributor of CeramicSpeed products<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-0",
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-1",
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/c5bc09e14f09c69aee41e206dce21b694fe87a62.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "1c7963cf-fcf4-4f27-aeaa-a35afe5f8620": {
+      "type": "media-with-text",
+      "blocks": {
+        "2b880bd3-ce1a-48ab-986e-3b9c746772c4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Womens_Camp_2024_Day_2_Low-03899_2.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h5>Uno-X Mobility<\/h5><p>Information coming soon...<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "2b880bd3-ce1a-48ab-986e-3b9c746772c4"
+      ],
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "9ca69751-b6c0-4b98-b466-646d88c8c98f": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--19634502697262__9ca69751-b6c0-4b98-b466-646d88c8c98f-1687202135d53ea819-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1-jpg-1703423168_kopier.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h5>Soudal Quick-Step<\/h5><p><br\/>Few teams have made winning as integrated a part of their DNA as Soudal Quick-Step. The Belgian squad boasts a roster with proven winners like two-time world champion Julian Alaphilippe, Tour de France stage winner Kasper Asgreen, and current ITT World Champion Remco Evenepoel (just to<br\/>name just a few) who makes sure The Wolfpack is always represented in the front of the races. We've been supporting the team for a decade and are happy to confirm that they'll be riding our BB's for the 2024 season as well.<\/p><p>© Soudal Quick-Step \/ Getty Images<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19634502697262__9ca69751-b6c0-4b98-b466-646d88c8c98f-1687202135d53ea819-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "media_with_text_rf4D7N": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_f7a7Yx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/large-trainingAGladies-8320.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h5>AG Insurance – Soudal <\/h5><p><\/p><p>Information coming soon...<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#fafafa",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_f7a7Yx"
+      ],
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "29453e63-b23b-441c-a1d7-b2c2373123e8": {
+      "type": "media-with-text",
+      "blocks": {
+        "6defd0bb-1efe-4b5b-83cc-2c0885fd9e5e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/custom_resized_400a819e-4aab-4d5f-9179-8d33cc55d50b.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h5>Intermarché-Circus-Wanty<\/h5><p>Intermarché-Circus-Wanty was founded in 1974 in Belgium. Coming from the amateur ranks, the team climbed its way to the World Tour and now competes in the most prestigious races. We joined the team for the 2022 season, where the Belgian squad where one of the standout teams of the year with 24 victories, which included Grand Tour stages and Biniam Girmay's impressive win at Gent-Wevelgem. The team's Cube bikes will for the 2023 season once again feature our OSPW's, BB's, and Wheel Bearings.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "6defd0bb-1efe-4b5b-83cc-2c0885fd9e5e"
+      ],
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "8e2a74f0-30c6-4e1a-a7ef-75e4c6302825": {
+      "type": "media-with-text",
+      "blocks": {
+        "62b59514-d6dc-4d80-b356-a6203ba2868b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Design_uden_navn_20.png",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h5>Israel - Premier Tech<\/h5><p>Israel – Premier Tech is Israel’s first UCI WorldTour cycling team. The 2023 rider roster features a starstudded lineup including four-time Tour de France winner Chris Froome, two-time Monument winner Jakob Fuglsang, and Grand Tour stage winners like Simon Clarke, Giacomo Nizzolo, and Mike Woods. For the '23 season the team's Factor bikes will once again be equipped with our OSPW's, BB's, and their Black Inc. wheels will be fitted with our Wheel Kits.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "62b59514-d6dc-4d80-b356-a6203ba2868b"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "cb53e414-b2f8-40a5-9e8c-9d0fa339abed": {
+      "type": "media-with-text",
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "media_with_text_dJxxNK": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_dVbJib": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/noA_IPT__CampMarbella_Day4_2024_223.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-start-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h5>Israel - Premier Tech<\/h5><p><\/p><p>Information coming soon...<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#fafafa",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_dVbJib"
+      ],
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3db86d21-e949-4476-90e5-64fecffed43e",
+    "1c7963cf-fcf4-4f27-aeaa-a35afe5f8620",
+    "9ca69751-b6c0-4b98-b466-646d88c8c98f",
+    "media_with_text_rf4D7N",
+    "29453e63-b23b-441c-a1d7-b2c2373123e8",
+    "8e2a74f0-30c6-4e1a-a7ef-75e4c6302825",
+    "cb53e414-b2f8-40a5-9e8c-9d0fa339abed",
+    "media_with_text_dJxxNK"
+  ]
+}

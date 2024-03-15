@@ -1,0 +1,280 @@
+{%- comment -%}
+----------------------------------------------------------------------------------------------------------------------
+LINE ITEM
+----------------------------------------------------------------------------------------------------------------------
+
+This component renders a single line item product information, and is used on order and cart page.
+
+********************************************
+Supported variables
+********************************************
+
+* line_item: the line item to render (required)
+* show_desktop_quantity: if set to true (for instance on cart drawer), the quantity is also shown on the line
+{%- endcomment -%}
+
+{%- if line_item.variant.inventory_management != blank and line_item.variant.inventory_policy == 'deny' -%}
+  {%- assign line_max_quantity = line_item.variant.inventory_quantity -%}
+{%- endif -%}
+
+<line-item class="line-item">
+  {%- if line_item.image != blank -%}
+    <div class="line-item__media-wrapper">
+      {{- line_item.image | image_url: width: line_item.image.width | image_tag: loading: 'lazy', sizes: '(max-width: 740px) 80px, 96px', widths: '80,96,160,192', class: 'line-item__media rounded-xs' -}}
+
+      <pill-loader class="pill-loader"></pill-loader>
+    </div>
+  {%- endif -%}
+
+  <div class="line-item__info">
+    <div class="v-stack gap-0.5">
+      {%- if line_item.url != blank -%}
+        <a href="{{ line_item.url }}" class="bold">
+          <span class="reversed-link hover:show">{{ line_item.product.title | default: line_item.title }}</span>
+        </a>
+      {%- else -%}
+        <p class="bold">{{ line_item.product.title | default: line_item.title }}</p>
+      {%- endif -%}
+
+      {%- render 'price-list', line_item: line_item -%}
+      {%- if line_item.product.quantity_price_breaks_configured? -%}
+     
+          <div class="volume-pricing-note text-xs text-subdued">
+            <svg
+              width="15"
+              height="14"
+              viewBox="0 0 15 14"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M14.5 7C14.5 10.866 11.366 14 7.5 14C3.63401 14 0.5 10.866 0.5 7C0.5 3.13401 3.63401 0 7.5 0C11.366 0 14.5 3.13401 14.5 7ZM7.5 13.1737C10.9096 13.1737 13.6737 10.4096 13.6737 7C13.6737 3.59035 10.9096 0.826284 7.5 0.826284C4.09035 0.826284 1.32628 3.59035 1.32628 7C1.32628 10.4096 4.09035 13.1737 7.5 13.1737Z"
+                fill="currentColor"
+                fill-opacity="0.75" />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M8.19189 3.55353C8.19189 3.16326 7.91572 2.82899 7.50163 2.82899C7.09256 2.82899 6.80626 3.15786 6.80626 3.55353C6.80626 3.94642 7.09511 4.27259 7.50163 4.27259C7.9132 4.27259 8.19189 3.94104 8.19189 3.55353Z"
+                fill="currentColor"
+                fill-opacity="0.75" />
+              <path
+                d="M6.97141 5.72371C6.97141 5.54117 7.11938 5.3932 7.30192 5.3932H7.69854C7.88107 5.3932 8.02905 5.54117 8.02905 5.72371V10.8467C8.02905 11.0292 7.88107 11.1772 7.69854 11.1772H7.30192C7.11938 11.1772 6.97141 11.0292 6.97141 10.8467V5.72371Z"
+                fill="currentColor"
+                fill-opacity="0.75" />
+            </svg>
+            <span>{{ 'product.volume_pricing.note' | t }}</span>
+          </div>
+          <div class="pop-up-show">
+            <div class="quantity__rules text-xs text-subdued caption no-js-hidden">
+              <span class="button-close">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                  focusable="false"
+                  class="icon icon-close"
+                  fill="none"
+                  viewBox="0 0 18 17">
+                  <path d="M.865 15.978a.5.5 0 00.707.707l7.433-7.431 7.579 7.282a.501.501 0 00.846-.37.5.5 0 00-.153-.351L9.712 8.546l7.417-7.416a.5.5 0 10-.707-.708L8.991 7.853 1.413.573a.5.5 0 10-.693.72l7.563 7.268-7.418 7.417z" fill="currentColor">
+                </svg>
+              </span>
+              {%- if line_item.product.selected_or_first_available_variant.quantity_rule.increment > 1 -%}
+                <span class="divider">
+                  {{-
+                      'product.quantity.multiples_of'
+                    | t: quantity: line_item.product.selected_or_first_available_variant.quantity_rule.increment -}}
+                </span>
+              {%- endif -%}
+              {%- if product.selected_or_first_available_variant.quantity_rule.min > 1 -%}
+                <span class="divider">
+                  {{-
+                      'product.quantity.minimum_of'
+                    | t: quantity: line_item.product.selected_or_first_available_variant.quantity_rule.min -}}
+                </span>
+              {%- endif -%}
+              {%- if product.selected_or_first_available_variant.quantity_rule.max != null -%}
+                <span class="divider">
+                  {{-
+                      'product.quantity.maximum_of'
+                    | t: quantity: line_item.product.selected_or_first_available_variant.quantity_rule.max -}}
+                </span>
+              {%- endif -%}
+            </div>
+            <volume-pricing class="parent-display no-js-hidden volume-pricing" id="Volume-{{ section.id }}">
+              {%- if line_item.product.selected_or_first_available_variant.quantity_price_breaks.size > 0 -%}
+                <ul class="text-xs text-subdued list-unstyled no-js-hidden">
+                  <li>
+                    <span>{{ line_item.product.selected_or_first_available_variant.quantity_rule.min }}+</span>
+                    {%- assign price = line_item.product.selected_or_first_available_variant.price | money_with_currency -%}
+                    <span data-text="{{ 'product.volume_pricing.price_at_each' | t: price: variant_price }}">{{ 'product.quick_order_list.each' | t: money: price }}</span>
+                  </li>
+                  {%- for price_break in line_item.product.selected_or_first_available_variant.quantity_price_breaks -%}
+                    {%- assign price_break_price = price_break.price | money_with_currency -%}
+                    <li class="{%- if forloop.index >= 3 -%}show-more-item hidden{%- endif -%}">
+                      <span>{{ price_break.minimum_quantity }}<span aria-hidden="true">+</span>
+                      </span>
+                      <span data-text="{{ 'product.volume_pricing.price_at_each' | t: price: price_break_price }}">{{ 'product.quick_order_list.each' | t: money: price_break_price }}</span>
+                    </li>
+                  {%- endfor -%}
+                </ul>
+
+              {%- endif -%}
+            </volume-pricing>
+          </div>
+        
+      {%- endif -%}
+    </div>
+
+    {%- unless line_item.product.has_only_default_variant or line_item.gift_card -%}
+      <p class="text-sm text-subdued">{{ line_item.variant.title }}
+        {% if line_item.variant.title contains "Yes" %}
+          <a
+            class="engraving-link tap-area sm:hidden"
+            aria-controls="personalization-drawer"
+            aria-expanded="false">
+            <span>{{ 'product.general.engraving_link_text' | t }}</span>
+            {%- render 'icon' with 'info' -%}</a>
+        {%- endif -%}
+      </p>
+
+    {%- endunless -%}
+
+    {%- if line_item.selling_plan_allocation -%}
+      <p class="text-sm text-subdued">{{ line_item.selling_plan_allocation.selling_plan.name }}</p>
+    {%- endif -%}
+
+    {%- unless line_item.properties == blank -%}
+      <ul class="list-disc">
+        {%- for property in line_item.properties -%}
+          {%- assign first_character_in_key = property.first | truncate: 1, '' -%}
+
+          {%- if property.last == blank or first_character_in_key == '_' -%}
+            {%- continue -%}
+          {%- endif -%}
+          {% if line_item.variant.title contains "Yes" %}
+            <li class="text-sm text-subdued">
+              {%- if property.last contains '/uploads/' -%}
+                <a href="{{ property.last }}" class="link">{{ property.last | split: '/' | last }}</a>
+              {%- else -%}
+                {{ property.first }}: {{ property.last }}
+              {%- endif -%}
+            </li>
+          {%- endif -%}
+        {%- endfor -%}
+      </ul>
+    {%- endunless -%}
+
+    <div class="text-sm text-subdued sm:hidden">
+      {%- if line_item.url_to_remove -%}
+        <line-item-quantity class="th h-stack justify-center gap-3">
+          <input
+            class="quantity-input"
+            type="text"
+            is="quantity-input"
+            inputmode="numeric"
+            step="{{ line_item.product.selected_or_first_available_variant.quantity_rule.increment }}"
+            {% if line_max_quantity %}max="{{ line_max_quantity }}"{% endif %}
+            data-line-key="{{ line_item.key }}"
+            aria-label="{{ 'cart.order.change_quantity' | t | escape }}"
+            value="{{ line_item.quantity }}">
+
+          <span class="text-xs">
+            <a href="{{ line_item.url_to_remove }}" class="link">{{ 'cart.order.remove' | t }}</a>
+          </span>
+        </line-item-quantity>
+      {%- else -%}
+        {{- 'customer.order.quantity' | t }}: {{ line_item.quantity -}}
+      {%- endif -%}
+    </div>
+
+    {%- if line_item.line_level_discount_allocations != blank -%}
+      <ul class="contents" role="list">
+        {%- for discount_allocation in line_item.line_level_discount_allocations -%}
+          <li class="badge">
+            {%- render 'icon' with 'discount' -%} {{ discount_allocation.discount_application.title }} (-{{ discount_allocation.amount | money }})
+          </li>
+        {%- endfor -%}
+      </ul>
+    {%- endif -%}
+  </div>
+
+  {%- if show_desktop_quantity -%}
+    <div class="line-item__actions text-subdued hidden sm:block">
+      <line-item-quantity class="v-stack gap-2">
+        <input
+          class="quantity-input {% if line_item.product.quantity_price_breaks_configured? %}cart-quantity-input{%- else -%} cart-quantity-input-b2c {% endif %}"
+          type="text"
+          is="quantity-input"
+          inputmode="numeric"
+          data-min="{{ line_item.product.selected_or_first_available_variant.quantity_rule.min }}"
+          {% if line_item.product.selected_or_first_available_variant.quantity_rule.max != null %}
+          data-max="{{ line_item.product.selected_or_first_available_variant.quantity_rule.max }}"
+          max="{{ line_item.product.selected_or_first_available_variant.quantity_rule.max }}"
+          step="{{ line_item.product.selected_or_first_available_variant.quantity_rule.increment }}"
+          {% endif %}
+          {% if line_max_quantity %}max="{{ line_max_quantity }}"{% endif %}
+          data-line-key="{{ line_item.key }}"
+          aria-label="{{ 'cart.order.change_quantity' | t | escape }}"
+          value="{{ line_item.quantity }}">
+
+        <span class="text-xs text-center">
+          <a href="{{ line_item.url_to_remove }}" class="link">{{ 'cart.order.remove' | t }}</a>
+        </span>
+        {% if line_item.product.quantity_price_breaks_configured? %}
+          <div
+            class="cart__error text-xs text-subdued"
+            id="Line-item-error-{{ item.index | plus: 1 }}"
+            role="alert">
+            <svg
+              aria-hidden="true"
+              focusable="false"
+              class="icon icon-error"
+              viewBox="0 0 13 13">
+              <circle
+                cx="6.5"
+                cy="6.50049"
+                r="5.5"
+                stroke="white"
+                stroke-width="2" />
+              <circle
+                cx="6.5"
+                cy="6.5"
+                r="5.5"
+                fill="#EB001B"
+                stroke="#EB001B"
+                stroke-width="0.7" />
+              <path d="M5.87413 3.52832L5.97439 7.57216H7.02713L7.12739 3.52832H5.87413ZM6.50076 9.66091C6.88091 9.66091 7.18169 9.37267 7.18169 9.00504C7.18169 8.63742 6.88091 8.34917 6.50076 8.34917C6.12061 8.34917 5.81982 8.63742 5.81982 9.00504C5.81982 9.37267 6.12061 9.66091 6.50076 9.66091Z" fill="white" />
+              <path
+                d="M5.87413 3.17832H5.51535L5.52424 3.537L5.6245 7.58083L5.63296 7.92216H5.97439H7.02713H7.36856L7.37702 7.58083L7.47728 3.537L7.48617 3.17832H7.12739H5.87413ZM6.50076 10.0109C7.06121 10.0109 7.5317 9.57872 7.5317 9.00504C7.5317 8.43137 7.06121 7.99918 6.50076 7.99918C5.94031 7.99918 5.46982 8.43137 5.46982 9.00504C5.46982 9.57872 5.94031 10.0109 6.50076 10.0109Z"
+                fill="white"
+                stroke="#EB001B"
+                stroke-width="0.7">
+            </svg>
+    
+            <small class="cart-item__error-text">
+              {{- 'cart.general.cart_error_text' | t: minimum_quantity: line_item.product.selected_or_first_available_variant.quantity_rule.increment -}}</small>
+          </div>
+        {%- endif -%}
+      </line-item-quantity>
+    </div>
+    
+  {%- endif -%}
+</line-item>
+<script>
+
+
+  document.querySelectorAll(".volume-pricing-note").forEach(el => {
+        el.addEventListener('click',function (e) {
+          el.nextElementSibling.style.display = 'block';
+        });
+    });
+document.querySelectorAll(".button-close").forEach(el => {
+        el.addEventListener('click',function (e) {
+          var a = el.parentElement;
+          a.parentElement.style.display = 'none';
+        });
+    });
+
+ 
+</script>
+
