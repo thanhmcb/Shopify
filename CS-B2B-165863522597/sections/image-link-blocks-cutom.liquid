@@ -1,0 +1,315 @@
+{%- if section.blocks.size > 0 -%}
+  {%- render 'section-spacing-collapsing' -%}
+
+  {%- comment -%}
+    ------------------------------------------------------------------------------------------------------------------------
+    CSS
+    ------------------------------------------------------------------------------------------------------------------------
+  {%- endcomment -%}
+  <style>
+    {%- assign block_size = section.settings.block_size -%}
+
+    #shopify-section-{{ section.id }} .section {
+      --calculated-section-spacing-block-start: min(30px, var(--section-spacing-block-start, var(--section-spacing-block, var(--context-section-spacing-block-start))));
+      --calculated-section-spacing-block-end: min(30px, var(--section-spacing-block-end, var(--section-spacing-block, var(--context-section-spacing-block-end))));
+      --calculated-section-spacing-inline: min(30px, var(--section-spacing-inline, var(--context-section-spacing-inline)));
+    }
+
+    #shopify-section-{{ section.id }} .image-link-blocks {
+      --image-link-blocks-item-width: 50vw;
+      --image-link-blocks-grid: auto / auto-flow var(--image-link-blocks-item-width);
+      --content-over-media-gap: var(--grid-gutter);
+        gap: 0;
+    }
+
+    #shopify-section-{{ section.id }} .floating-controls-container {
+      display: flex;
+    }
+
+    #shopify-section-{{ section.id }} .image-link-blocks__item {
+      display: flex;
+      justify-content: center;
+    }
+
+    #shopify-section-{{ section.id }} .section-title {
+      color: #FFF;
+      font-size: 18px;
+      text-transform: uppercase;
+      width: 150px;
+      margin-right: 50px;
+      line-height: 24px;
+      padding-top: 2px;
+      padding-left: 0;
+      display: block;
+    }
+
+    #shopify-section-{{ section.id }} button[is="prev-button"] {
+        left: 150px;
+    }
+
+    #shopify-section-{{ section.id }} .arrow-icon-wrapper {
+      display: inline-flex;
+      align-items: flex-start;
+      width: 50px;
+      min-width: 50px;
+      justify-content: end;
+    }
+
+    #shopify-section-{{ section.id }} .arrow-icon {
+        display: flex;
+        height: 24px;
+        align-items: center;
+    }
+
+    #shopify-section-{{ section.id }} .image-link-blocks__image {
+      height: auto;
+    }
+    #shopify-section-{{ section.id }} .image-link-blocks__inner {
+      display: inline-block;
+      padding: 0 10px 0 var(--spacing-1);
+    }
+
+    @media screen and (min-width: 700px) {
+      #shopify-section-{{ section.id }} .image-link-blocks {
+          --image-link-blocks-item-width: 40vw;
+        --image-link-blocks-items-per-row: {% if section.blocks.size >= 4 %}3{% elsif section.blocks.size == 3 %}2{% else %}2{% endif %};
+      }
+    }
+
+    @media screen and (min-width: 1000px) {
+        #shopify-section-{{ section.id }} .section-title {
+            margin-right: 50px;
+            padding-left: 20px;
+        }
+        #shopify-section-{{ section.id }} .image-link-blocks {
+            --image-link-blocks-items-per-row: {% if section.blocks.size >= 4 %}4{% elsif section.blocks.size == 3 %}3.5{% else %}2{% endif %};
+            --image-link-blocks-item-width: 50vw;
+        }
+      #shopify-section-{{ section.id }} .section-title {
+        display: block;
+      }
+      #shopify-section-{{ section.id }} .image-link-blocks {
+        --image-link-blocks-items-per-row: {% if section.blocks.size >= 4 %}4{% elsif section.blocks.size == 3 %}3{% else %}2{% endif %};
+        --image-link-blocks-grid: auto / auto-flow calc(var(--container-inner-width) / var(--image-link-blocks-items-per-row) - (var(--grid-gutter) / var(--image-link-blocks-items-per-row) * (var(--image-link-blocks-items-per-row) - 1)));
+      }
+    }
+
+    @media screen and (min-width: 1400px) {
+      #shopify-section-{{ section.id }} .image-link-blocks {
+        --image-link-blocks-items-per-row: {% if section.blocks.size >= 4 %}4{% elsif section.blocks.size == 3 %}4{% else %}3{% endif %};
+      }
+    }
+  </style>
+
+  {%- comment -%}
+    ------------------------------------------------------------------------------------------------------------------------
+    LIQUID
+    ------------------------------------------------------------------------------------------------------------------------
+  {%- endcomment -%}
+
+  <div {% render 'section-properties' %}>
+    <div class="section-stack">
+      <div class="floating-controls-container">
+        {%- assign scroll_area_id = 'scroll-area-' | append: section.id -%}
+
+        <h2 class="section-title">{{ section.settings.title }}</h2>
+
+        <image-link-blocks id="{{ scroll_area_id }}" class="image-link-blocks scroll-area bleed md:unbleed">
+          {%- for block in section.blocks -%}
+            <div
+              {% render 'surface',
+                class: 'image-link-blocks__item group rounded',
+                text_color: block.settings.text_color
+              %}
+              {{ block.shopify_attributes }}
+            >
+              {%- if block.settings.arrow_icon != blank -%}
+                <div class="arrow-icon-wrapper">
+                  <div class="arrow-icon">
+                    {{-
+                      block.settings.arrow_icon
+                      | image_url: height: 16
+                      | image_tag: class: 'image-link-blocks__image'
+                    -}}
+                  </div>
+                </div>
+              {%- endif -%}
+              <a
+                {% if block.settings.link_url != blank %}
+                  href="{{ block.settings.link_url }}"
+                {% endif %}
+                class="image-link-blocks__inner"
+              >
+                {%- if block.settings.link_text != blank -%}
+                  <p class="{% if block.settings.link_url != blank %}image-link-blocks__title--animate{% endif %} bold">
+                    {{- block.settings.link_text -}}
+                  </p>
+                {%- endif -%}
+              </a>
+            </div>
+          {%- endfor -%}
+        </image-link-blocks>
+
+        <button
+          is="prev-button"
+          class="circle-button circle-button--fill border group"
+          aria-controls="{{ scroll_area_id }}"
+          disabled
+        >
+          <span class="sr-only">{{ 'general.accessibility.previous' | t }}</span>
+          <span class="animated-arrow animated-arrow--reverse"></span>
+        </button>
+
+        <button
+          is="next-button"
+          class="circle-button circle-button--fill border group"
+          aria-controls="{{ scroll_area_id }}"
+        >
+          <span class="sr-only">{{ 'general.accessibility.next' | t }}</span>
+          <span class="animated-arrow"></span>
+        </button>
+      </div>
+    </div>
+  </div>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "USPs - MCB",
+  "class": "shopify-section--usp",
+  "tag": "section",
+  "disabled_on": {
+    "templates": ["password"],
+    "groups": ["header", "custom.overlay"]
+  },
+  "blocks": [
+    {
+      "type": "item",
+      "name": "Link block",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "arrow_icon",
+          "label": "Arrow Icon",
+          "info": "arrow icon"
+        },
+        {
+          "type": "text",
+          "id": "link_text",
+          "label": "Link text"
+        },
+        {
+          "type": "url",
+          "id": "link_url",
+          "label": "Link URL"
+        },
+        {
+          "type": "header",
+          "content": "Colors",
+          "info": "Overlay is ignored when \"Stretch to fill\" is disabled."
+        },
+        {
+          "type": "color",
+          "id": "background",
+          "label": "Background"
+        },
+        {
+          "type": "color",
+          "id": "text_color",
+          "label": "Text",
+          "default": "#ffffff"
+        },
+        {
+          "type": "color",
+          "id": "overlay_color",
+          "label": "Overlay",
+          "default": "#000000"
+        },
+        {
+          "type": "range",
+          "id": "overlay_opacity",
+          "label": "Overlay opacity",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "%",
+          "default": 0
+        }
+      ]
+    }
+  ],
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full width",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "block_size",
+      "label": "Block size",
+      "options": [
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "medium",
+          "label": "Medium"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        }
+      ],
+      "default": "medium"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading"
+    },
+    {
+      "type": "header",
+      "content": "Colors",
+      "info": "Gradient replaces solid colors when set."
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background"
+    },
+    {
+      "type": "color_background",
+      "id": "background_gradient",
+      "label": "Background gradient"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color"
+    },
+    {
+      "type": "color_background",
+      "id": "heading_gradient",
+      "label": "Heading gradient"
+    }
+  ],
+  "presets": [
+    {
+      "name": "USPs - MCB",
+      "blocks": [
+        {
+          "type": "item"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,102 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "3db86d21-e949-4476-90e5-64fecffed43e": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Køkken- og rengøringsassistent",
+            "heading_tag": "h1"
+          }
+        },
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-2": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-0",
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-1",
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/0321de914d8b04c3c4766077eed3b3fe5601fce6.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "aca770b3-d895-4430-aa05-0990de07e08a": {
+      "type": "rich-text",
+      "blocks": {
+        "3e3fb28b-c92d-4cd9-965c-c4193fb676ed": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon": "picto-timer",
+            "icon_width": 32,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": ""
+          }
+        },
+        "d1fdfc50-8096-4401-9f4f-9b3c3f9e37ac": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--18216822309166__aca770b3-d895-4430-aa05-0990de07e08a-16777526798b832ccb-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Er du nysgerrig, sætter en ære i dit arbejde og typen der ser de små ting, og får det fikset? Så er det måske dig, vi har brug for i vores køkken\/rengøringsteam. <\/p><p><br\/>Dine vigtigste opgaver er, at assisterer i køkkenet med klargøring og afrydning af frokostordning, samt at sikre at vores produktioner, kontorer, mødelokaler, kantine og øvrige arealer skinner og er indbydende.<\/p><p> <br\/><strong>Dine opgaver vil blandt andet omfatte:<\/strong><br\/>•\tAssistance med klargøring til frokostordning en dag i ugen <br\/>•\tHjælpe til med opvask og rengøring i køkkenet<br\/>•\tDaglig rengøring <br\/>•\tOrdne vasketøj<br\/>•\tOpfyldning af sæbe, sprit, papir mv.<br\/><\/p><p>Det er en nyoprettet stilling, og du vil referere til vores CFO. <br\/>Arbejdsstedet er Holstebro.<\/p><p><br\/><strong>Vi forventer, at du:  <\/strong><br\/>•\tHar flair for og lyst til, at arbejde i et køkken<br\/>•\tGerne har erfaring med rengøring og kan sikre, at rengøringen er knivskarp<br\/>•\tEr serviceminded, imødekommende og smilende<br\/>•\tHar blik for de små detaljer, som giver de gode oplevelser<br\/>•\tEr selvstændig og kan drive dine egne opgaver<br\/>•\tEr en teamplayer, der har ja-hatten på, når du er på arbejde<br\/>•\tEr en god kollega med fokus på et godt fællesskab<br\/>•\tHar du hygiejnekursus er det en fordel, men ikke et krav<\/p><p><br\/><strong>Du tilbydes:<\/strong><br\/>•\tStillingen er fuld tid 37 t\/uge. Vi har fleksibel arbejdstid, i tidsrummet 06.00-18.00 og fredag 06.00-14.00<br\/>•\tEn arbejdsplads med fokus på medarbejdertrivsel og godt sammenhold<br\/>•\tSøde kollegaer der værdsætter dit arbejde<\/p><p><br\/>En stilling i en virksomhed med et unikt brand og høje ambitioner. Du kommer til at arbejde med kompetente og engagerede kolleger i en uformel og flad organisation. Arbejdspladsen er 100% røgfri.   <br\/>Vi er en lokal virksomhed, men en stor spiller på det globale marked.<\/p><p>   <br\/>Lønpakken inkluderer pension, motion i arbejdstiden, sundhedsordning og en række andre lækre personalegoder. <\/p><p>  <br\/>Tiltrædelse efter aftale. Vi holder samtaler løbende og stillingen vil blive besat, når vi har fundet den rette.<br\/>Ved spørgsmål til stillingen, kontakt CFO Heidi Fly <a href=\"mailto:HFC@ceramicspeed.com\" title=\"mailto:HFC@ceramicspeed.com\">HFC@ceramicspeed.com<\/a><br\/>Ansøgning med CV sendes pr. mail til <a href=\"mailto:job@ceramicspeed.com\" title=\"mailto:job@ceramicspeed.com\">job@ceramicspeed.com<\/a><br\/><br\/><strong>CeramicSpeed  <\/strong><br\/>CeramicSpeed blev etableret i 2004 og er i dag en af verdens førende producenter af keramiske lejer til cykelbranchen. Vi har mere end 15 års erfaring med udvikling af lejer, som har ekstrem lav friktion og lang levetid. Alle lejer bliver håndlavet i Danmark.  <\/p><p><br\/>CeramicSpeed er underleverandør til nogle af verdens største og mest prominente high-end cykelproducenter. Produkterne bliver desuden distribueret i mere end 50 lande, og vi er det eneste lejebrand som sponsorerer 5 World Tour Teams samt en lang række af verdens bedste triatleter.  <\/p><p> <br\/>I 2008 tilføjedes det selvstændige industriselskab CeramicSpeed Bearings, med fokus på kunder i industrien. Kerneområdet er keramiske kuglelejer med unikke egenskaber på levetid, friktion mv. Det giver kunderne store økonomiske fordele i forhold til traditionelle lejer. Samlet ændrer dette måden at tænke vedligeholdelsesplanlægning på. Vi er førende indenfor vores felt og har en forretningsmodel, som gør både produktsortiment, kvalitet og kundeservice unikt på markedet.  <br\/><br\/><br\/><br\/><br\/><\/p>",
+            "text_align": "left"
+          }
+        }
+      },
+      "block_order": [
+        "3e3fb28b-c92d-4cd9-965c-c4193fb676ed",
+        "d1fdfc50-8096-4401-9f4f-9b3c3f9e37ac",
+        "template--18216822309166__aca770b3-d895-4430-aa05-0990de07e08a-16777526798b832ccb-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3db86d21-e949-4476-90e5-64fecffed43e",
+    "aca770b3-d895-4430-aa05-0990de07e08a"
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-not-found",
+      "disabled": true,
+      "settings": {}
+    },
+    "6f0824d7-3fd7-4ce7-80ea-d674452a7d22": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19665222336805__6f0824d7-3fd7-4ce7-80ea-d674452a7d22-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--19665222336805__6f0824d7-3fd7-4ce7-80ea-d674452a7d22-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "We're sorry - we can't find the page you're looking for",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--19665222336805__6f0824d7-3fd7-4ce7-80ea-d674452a7d22-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Hopefully one of the links below can get you in the right direction<\/p>",
+            "text_align": "center"
+          }
+        },
+        "6f3d6b37-3661-4664-822c-e9dce7b47c67": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Take me home",
+            "url": "http:\/\/b2b.ceramicspeed.com\/",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19665222336805__6f0824d7-3fd7-4ce7-80ea-d674452a7d22-subheading-1",
+        "template--19665222336805__6f0824d7-3fd7-4ce7-80ea-d674452a7d22-heading-1",
+        "template--19665222336805__6f0824d7-3fd7-4ce7-80ea-d674452a7d22-richtext-1",
+        "6f3d6b37-3661-4664-822c-e9dce7b47c67"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "0b3b5d6c-880e-462a-a3cf-24f7d33aa08c": {
+      "type": "collection-list",
+      "blocks": {
+        "template--19665222336805__0b3b5d6c-880e-462a-a3cf-24f7d33aa08c-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/bottom_bracket.jpg",
+            "subheading": "",
+            "title": "Bottom Brackets",
+            "url": "shopify:\/\/collections\/all-bottom-brackets-1",
+            "heading_tag": "h3",
+            "text_position": "place-self-end-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--19665222336805__0b3b5d6c-880e-462a-a3cf-24f7d33aa08c-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/OSPW_8b0eff71-736b-41ad-96dc-a5be3cb53e00.jpg",
+            "subheading": "",
+            "title": "OSPW's",
+            "url": "shopify:\/\/collections\/all-oversized-pulley-wheel-systems",
+            "heading_tag": "h3",
+            "text_position": "place-self-end-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--19665222336805__0b3b5d6c-880e-462a-a3cf-24f7d33aa08c-collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/pulley_wheels.jpg",
+            "subheading": "",
+            "title": "Pulley Wheels",
+            "url": "shopify:\/\/collections\/all-pulley-wheels",
+            "heading_tag": "h3",
+            "text_position": "place-self-end-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "9e31536a-ac52-427c-8934-1184f0b5856a": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/UFO_family.jpg",
+            "subheading": "",
+            "title": "UFO Products",
+            "url": "shopify:\/\/collections\/all-ufo-products",
+            "heading_tag": "h3",
+            "text_position": "place-self-end-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "3d53b9bd-2783-45f2-8a40-ba0ca9ba908e": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/headset.jpg",
+            "subheading": "",
+            "title": "Headsets",
+            "url": "shopify:\/\/collections\/all-headsets",
+            "heading_tag": "h3",
+            "text_position": "place-self-end-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "781e6381-ae6c-4d39-8b12-9f42351c30c5": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/wheel_kits.jpg",
+            "subheading": "",
+            "title": "Wheel Kits",
+            "url": "shopify:\/\/collections\/wheel-kits-1",
+            "heading_tag": "h3",
+            "text_position": "place-self-end-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--19665222336805__0b3b5d6c-880e-462a-a3cf-24f7d33aa08c-collection-1",
+        "template--19665222336805__0b3b5d6c-880e-462a-a3cf-24f7d33aa08c-collection-2",
+        "template--19665222336805__0b3b5d6c-880e-462a-a3cf-24f7d33aa08c-collection-3",
+        "9e31536a-ac52-427c-8934-1184f0b5856a",
+        "3d53b9bd-2783-45f2-8a40-ba0ca9ba908e",
+        "781e6381-ae6c-4d39-8b12-9f42351c30c5"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_collections": true,
+        "collections_per_row": 5,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "6f0824d7-3fd7-4ce7-80ea-d674452a7d22",
+    "0b3b5d6c-880e-462a-a3cf-24f7d33aa08c"
+  ]
+}

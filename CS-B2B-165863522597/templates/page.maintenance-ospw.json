@@ -1,0 +1,244 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "ea28194d-87df-43b5-9cf1-f7ee6ad973e8": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18272984432942__ea28194d-87df-43b5-9cf1-f7ee6ad973e8-168508213351e0db4a-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--18272984432942__ea28194d-87df-43b5-9cf1-f7ee6ad973e8-168508213351e0db4a-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18272984432942__ea28194d-87df-43b5-9cf1-f7ee6ad973e8-168508213351e0db4a-0",
+        "template--18272984432942__ea28194d-87df-43b5-9cf1-f7ee6ad973e8-168508213351e0db4a-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "43bfff3b-5dcf-455c-8fdd-6a345964b445": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18272984432942__43bfff3b-5dcf-455c-8fdd-6a345964b445-1685438180f63b8d6f-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Maintenance",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--18272984432942__43bfff3b-5dcf-455c-8fdd-6a345964b445-1685438180f63b8d6f-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "Advice for maintaining your CeramicSpeed Oversized Pulley Wheel Systems"
+          }
+        },
+        "template--18272984432942__43bfff3b-5dcf-455c-8fdd-6a345964b445-1685438180f63b8d6f-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>No set rules can be made for how often your Oversized Pulley Wheel System should be maintained. Maintenance frequency depends on the weather conditions that you are riding in. See below the maintenance advice for the Oversized Pulley Wheel Systems for SRAM, also useful in the case of Shimano.<\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--18272984432942__43bfff3b-5dcf-455c-8fdd-6a345964b445-1685438180f63b8d6f-1",
+        "template--18272984432942__43bfff3b-5dcf-455c-8fdd-6a345964b445-1685438180f63b8d6f-0",
+        "template--18272984432942__43bfff3b-5dcf-455c-8fdd-6a345964b445-1685438180f63b8d6f-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "5ad496f8-3e37-41d3-9c1c-d47bdfc7ca4a": {
+      "type": "video",
+      "blocks": {
+        "template--21637289214245__5ad496f8-3e37-41d3-9c1c-d47bdfc7ca4a-play-1": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--21637289214245__5ad496f8-3e37-41d3-9c1c-d47bdfc7ca4a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--21637289214245__5ad496f8-3e37-41d3-9c1c-d47bdfc7ca4a-play-1",
+        "template--21637289214245__5ad496f8-3e37-41d3-9c1c-d47bdfc7ca4a-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/How to maintain the OSPW Systems.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "poster": "shopify:\/\/shop_images\/missing-thumbnail-1.jpg",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "a31a679b-9e6e-46c5-a426-645f3740f427": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21637289214245__a31a679b-9e6e-46c5-a426-645f3740f427-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--21637289214245__a31a679b-9e6e-46c5-a426-645f3740f427-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--21637289214245__a31a679b-9e6e-46c5-a426-645f3740f427-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>General Information<\/h5><p>A worn chain will increase the wear on the pulley wheels significantly, so make sure that you change your chain before it is completely worn out. Under normal conditions, we recommend that you maintain the Oversized Pulley Wheels when you have ridden under wet conditions, washed your bike or each time you lubricate the chain.<\/p><p>For normal maintenance, add a drop of oil into the lubrication points (9) for optimal performance. You will find the lubrication points on the back cage plate (3). Make sure to position the OSPW System horizontally to ensure that the oil reaches the Oversized Pulley Wheel Bearings. We recommend the use of CeramicSpeed Oil on the OSPW System. This can be purchased from the CeramicSpeed dealers worldwide or from our webshop. (Note that a bottle of CeramicSped Oil is provided in the product package when you purchase the OSPW System).<\/p><p>When travelling, your OSPW System will not fit in the bike travelling bag. We recommend that you dismount the whole rear derailleur and pack it aside.<\/p><h5>Extended Maintenance<\/h5><p>Approximately once every half a year we recommend that you provide an extended maintenance. In this case, you should dismount the Oversized Pulley Wheels from the cage, remove the seals from both sides and clean all parts in a shaker with degreaser. After cleaning, dry the components off, put two drops of oil onto the CeramicSpeed Balls, place the seals back on and remount the Oversized Pulley Wheels. When dismounting the cage plates, you will need a 2.5 mm Allen Key for the pulley wheel bolts (1) and a 2 mm Allen key for the tower bolts (2). To remount the screws, tighten the pulley wheel screws up to a max torque of 1 Nm and the tower bolts up to 0.3 Nm. For this, a torque tool is recommended. If you're riding in wet and muddy conditions, we recommend you to provide an extended maintenance more frequently and replace oil with All Round Grease for a better protection.<\/p><p>Check out the <a href=\"https:\/\/www.ceramicspeed.com\/en\/cycling\/support\/products\/oversized-pulley-wheel-systems\/faq\/\" title=\"FAQ\">FAQ page<\/a> for more details about the OSPW System.<\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--21637289214245__a31a679b-9e6e-46c5-a426-645f3740f427-subheading-1",
+        "template--21637289214245__a31a679b-9e6e-46c5-a426-645f3740f427-heading-1",
+        "template--21637289214245__a31a679b-9e6e-46c5-a426-645f3740f427-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "98783399-69ba-46fd-93b1-38055fc8848e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21637289214245__98783399-69ba-46fd-93b1-38055fc8848e-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--21637289214245__98783399-69ba-46fd-93b1-38055fc8848e-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--21637289214245__98783399-69ba-46fd-93b1-38055fc8848e-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>Servicing your OSPW X for SRAM Rival & Force 1 Type 3<\/h5>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--21637289214245__98783399-69ba-46fd-93b1-38055fc8848e-subheading-1",
+        "template--21637289214245__98783399-69ba-46fd-93b1-38055fc8848e-heading-1",
+        "template--21637289214245__98783399-69ba-46fd-93b1-38055fc8848e-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "d3c0f52a-bf5e-43fb-b6a5-3cc13607fb72": {
+      "type": "video",
+      "blocks": {
+        "template--21637289214245__d3c0f52a-bf5e-43fb-b6a5-3cc13607fb72-play-1": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--21637289214245__d3c0f52a-bf5e-43fb-b6a5-3cc13607fb72-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--21637289214245__d3c0f52a-bf5e-43fb-b6a5-3cc13607fb72-play-1",
+        "template--21637289214245__d3c0f52a-bf5e-43fb-b6a5-3cc13607fb72-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/How to Service Your OSPW X for Rival & Force 1 Type 3.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "poster": "shopify:\/\/shop_images\/maintenance-OSPW-2.jpg",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ea28194d-87df-43b5-9cf1-f7ee6ad973e8",
+    "43bfff3b-5dcf-455c-8fdd-6a345964b445",
+    "5ad496f8-3e37-41d3-9c1c-d47bdfc7ca4a",
+    "a31a679b-9e6e-46c5-a426-645f3740f427",
+    "98783399-69ba-46fd-93b1-38055fc8848e",
+    "d3c0f52a-bf5e-43fb-b6a5-3cc13607fb72"
+  ]
+}

@@ -1,0 +1,316 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "83941099-fa9c-4c55-a5fd-406c82af69a2": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18866855739694__83941099-fa9c-4c55-a5fd-406c82af69a2-168232890080e9589b-1": {
+          "type": "heading",
+          "settings": {
+            "text": "CeramicSpeed Bearing Cleaning & Maintenance",
+            "heading_tag": "h1"
+          }
+        },
+        "826afefd-9d78-44de-9360-2d27051623fc": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>A guide to cleaning, maintenance and grease application<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18866855739694__83941099-fa9c-4c55-a5fd-406c82af69a2-168232890080e9589b-1",
+        "826afefd-9d78-44de-9360-2d27051623fc"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/6501673420b4f255cf0686be8b4bc1b5081d28e0.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/6501673420b4f255cf0686be8b4bc1b5081d28e0.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "6e711e4a-b3f6-4e41-b74d-3333a56564bf": {
+      "type": "rich-text",
+      "blocks": {
+        "ed696e7f-2ba7-4128-b586-c8a99ffcc9a6": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--18866855739694__6e711e4a-b3f6-4e41-b74d-3333a56564bf-1682579954eaecbed2-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>Cleaning and Maintenance of your CeramicSpeed Bearings<\/h5>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "ed696e7f-2ba7-4128-b586-c8a99ffcc9a6",
+        "template--18866855739694__6e711e4a-b3f6-4e41-b74d-3333a56564bf-1682579954eaecbed2-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "6ba5be66-405b-457a-ae08-6280b5c77fb7": {
+      "type": "video",
+      "blocks": {
+        "template--19557548753198__6ba5be66-405b-457a-ae08-6280b5c77fb7-168672916478d00da8-0": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--19557548753198__6ba5be66-405b-457a-ae08-6280b5c77fb7-168672916478d00da8-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--19557548753198__6ba5be66-405b-457a-ae08-6280b5c77fb7-168672916478d00da8-0",
+        "template--19557548753198__6ba5be66-405b-457a-ae08-6280b5c77fb7-168672916478d00da8-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/CeramicSpeed UFO Clean Bearings.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "12910049-34df-45ac-aaba-98211a89d059": {
+      "type": "rich-text",
+      "blocks": {
+        "82232dcc-5cef-4bf1-868f-6102eb027b49": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "1570998f-9319-475e-b898-597cc5b328db": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>Introduction<\/h5><p>To preserve the highest levels of efficiency and prolong the life of your CeramicSpeed bearings, preventative maintenance is required.<\/p><p>Depending on climate and normal riding conditions*, you may need to maintain your CeramicSpeed Bearings more often or select a different grease. The below recommendations are based on using CeramicSpeed All Round blue grease.<\/p><p>CeramicSpeed Bottom Brackets and Wheel Bearings should<br\/>be maintained every 5,000-8,000 km or 3,000-5,000 miles or yearly and generally<br\/>last 5 times longer compared to what you would experience with a standard<br\/>bearing. CeramicSpeed headset bearings can be maintained once per year for most<br\/>riders.<\/p><p>*Hot regions (average at or above 35*C\/95*F), high humidity climates, riding in extremely sandy\/desert like conditions or riding in constant rainy\/wet conditions will result in more frequent maintenance needs. CeramicSpeed Long Life grease will also hold up for longer intervals in any of these conditions.<\/p><h5>Preparation<\/h5><p>When possible, standard maintenance can and should be done without removing the bearings from their cup, frame bore, or hub shell. This will limit potential stress or impact damage from knocking out the bearings and reinstalling.<\/p><p>For cranks, remove the cranks, any spacers, and dust covers.<br\/>For hubs, follow the hub\/wheel manufactures instructions for removing axel end caps and\/or dust covers to access the face of the bearings.<\/p><p>With the face of the bearing visible, use a knife edge or flat pick to lift off the bearing seal starting on the inner lip (at the inner race) and carefully lifting up. Small, smooth movements will help prevent damaging the seal during removal. Once the seal is removed, wipe both sides clean, ensure it is completely flat, and set aside. You should now have access to the individual balls inside of the bearing. Using a cloth or shop rag, wipe away grease on the face of the bearing, revealing the balls. If you see a solid ring, you are looking at the back of the bearing. There is no direction to the performance of the bearing, but cleaning and maintenance are easier and more efficient when performed from the face\/front of the bearing. You may choose to turn the bearing around at this time to allow adequate cleaning and ease of future maintenance.<\/p><h5>Normal cleaning<\/h5><p>To flush and clean CeramicSpeed bearings. <a href=\"https:\/\/www.ceramicspeed.com\/en\/cycling\/shop\/ufo-products\/ufo-clean-bearings\" target=\"_blank\">UFO Clean Bearings<\/a> was developed as a non-toxic easy to use bearing cleaner. Use the pipette to add a few drops of cleaner into each bearing (Approx. 0,5 – 2,0mL dependent on the bearing size). Rotate the bearing to cause an ‘agitation’ effect inside the bearing.<\/p><p>After soaking for 3-5 minutes, use compressed air to flush out the grease and contamination. Repeat this process a second time if needed to fully clean the bearing. Once the bearing is visually cleaned out and rotates smoothly, allow the bearing to air dry prior to applying fresh grease. Follow grease selection and application guide at the bottom of this document for best performance and longevity. Once grease is applied, reinstall the face seal by laying it on the bearing (the all-rubber side should face out) and evenly pressing it into the groove on the outer race. The seal should sit flat and even on the bearing. Be sure to take careful note of the direction on any dust covers when reassembling the parts.<\/p><h5>Deep Cleaning<\/h5><p>In the event that normal cleaning is not providing an adequate cleaning level, or if the bearings have been neglected well outside of the suggested service intervals, you may need to perform a deeper cleaning process to achieve a smooth functioning bearing again. Carefully remove the bottom bracket cups from the frame or remove the bearings from the hubs or from the frame if there are no cups, and remove all accessible seals. Place the bearings into a suitable container and submerge in UFO Clean Bearings. Agitate the bearings a few times or use a container with a lid and shake to flush the solvent throughout the bearing, letting sit for 3-5 minutes. It is suggested to use protective gloves and eyewear, as well as working in a ventilated area. Remove the bearings from the container and dry with compressed air. If fully cleaned and not permanently damaged the bearings should spin freely and smoothly now. Apply the rear seal and follow the below grease selection and application charts based on your intended use.<\/p><p>Using the correct bearing press & drifts, carefully reinstall the bearings into your frame or hubs, or install the cups into the frame and reassemble the remaining parts per original manufactures specifications.<\/p><p><em>Scroll right to see full table<\/em><\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "82232dcc-5cef-4bf1-868f-6102eb027b49",
+        "1570998f-9319-475e-b898-597cc5b328db"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "7093195e-91bd-4841-963c-1e70e5fbac80": {
+      "type": "rich-text",
+      "blocks": {
+        "983dfe51-58e8-44f6-8857-06b54eec77a7": {
+          "type": "divider",
+          "settings": {}
+        },
+        "template--19575071342894__7093195e-91bd-4841-963c-1e70e5fbac80-16868258995f6d968b-2": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "",
+            "text_align": "center"
+          }
+        },
+        "45f4d86a-0dac-403d-8f21-c946441ad3b4": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<google-sheets-html-origin>\n<style type=\"text\/css\"><!--\ntd {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}\n--><\/style>\n<table xmlns=\"http:\/\/www.w3.org\/1999\/xhtml\" cellspacing=\"0\" cellpadding=\"0\" dir=\"ltr\" border=\"1\"><colgroup><col width=\"83\" \/><col width=\"247\" \/><col width=\"244\" \/><col width=\"230\" \/><\/colgroup>\n<tbody>\n<tr>\n<td rowspan=\"1\" colspan=\"2\" data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Application and product&quot;}\"><strong>Application and product<\/strong><\/td>\n<td rowspan=\"1\" colspan=\"2\" data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Riding conditions&quot;}\"><strong>Riding conditions<\/strong><\/td>\n<\/tr>\n<tr>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Discipline&quot;}\" style=\"text-align: right;\"><strong>Discipline<\/strong><\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;CeramicSpeed Components&quot;}\"><strong>CeramicSpeed Components<\/strong><\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Dry and sunny conditions&quot;}\"><strong>Dry and sunny conditions<\/strong><\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Wet and harsh conditions&quot;}\"><strong>Wet and harsh conditions<\/strong><\/td>\n<\/tr>\n<tr>\n<td rowspan=\"3\" colspan=\"1\" data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Road&quot;}\">\n<div>Road<\/div>\n<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Bottom Brackets\\n&amp;\\nWheel Kits&quot;}\">Bottom Brackets<br \/>&amp;<br \/>Wheel Kits<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;All Round Grease&quot;}\">All Round Grease<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;All Round Grease\\n\/\\nLong Life Grease&quot;}\" style=\"text-align: center;\">All Round Grease<br \/>\/<br \/>Long Life Grease<\/td>\n<\/tr>\n<tr>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Pulley Wheels\\n&amp;\\nOSPW Systems&quot;}\">Pulley Wheels<br \/>&amp;<br \/>OSPW Systems<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;CeramicSpeed Oil&quot;}\">CeramicSpeed Oil<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;All Round Grease\\n\/ \\nCeramicSpeed Oil&quot;}\">All Round Grease<br \/>\/ <br \/>CeramicSpeed Oil<\/td>\n<\/tr>\n<tr>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Headsets&quot;}\">Headsets<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Long Life Grease&quot;}\">Long Life Grease<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Long Life Grease&quot;}\">Long Life Grease<\/td>\n<\/tr>\n<tr>\n<td rowspan=\"2\" colspan=\"1\" data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Off-road&quot;}\">\n<div>Off-road<\/div>\n<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Bottom Brackets,\\nWheel Kits\\n&amp;\\nHeadsets&quot;}\">Bottom Brackets,<br \/>Wheel Kits<br \/>&amp;<br \/>Headsets<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;All Round Grease\\n\/\\nLong Life Grease&quot;}\">All Round Grease<br \/>\/<br \/>Long Life Grease<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Long Life Grease&quot;}\">Long Life Grease<\/td>\n<\/tr>\n<tr>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Pulley Wheels\\n&amp;\\nOSPW Systems&quot;}\">Pulley Wheels<br \/>&amp;<br \/>OSPW Systems<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;All Round Grease \\n\/\\nCeramicSpeed Oil&quot;}\">All Round Grease <br \/>\/<br \/>CeramicSpeed Oil<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;All Round Grease&quot;}\">All Round Grease<\/td>\n<\/tr>\n<tr>\n<td rowspan=\"3\" colspan=\"1\" data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;TT\/Track&quot;}\">\n<div>TT\/Track<\/div>\n<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Bottom Brackets\\n&amp; Wheel Kits&quot;}\">Bottom Brackets<br \/>&amp; Wheel Kits<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Race Day Grease&quot;}\">Race Day Grease<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;All Round Grease\\n\/ \\nRace Day Grease&quot;}\">All Round Grease<br \/>\/ <br \/>Race Day Grease<\/td>\n<\/tr>\n<tr>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Pulley Wheels\\n&amp;\\nOSPW Systems&quot;}\">Pulley Wheels<br \/>&amp;<br \/>OSPW Systems<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;CeramicSpeed Oil&quot;}\">CeramicSpeed Oil<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;All Round Grease \\n\/\\nCeramicSpeed Oil&quot;}\">All Round Grease <br \/>\/<br \/>CeramicSpeed Oil<\/td>\n<\/tr>\n<tr>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Headsets&quot;}\">Headsets<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Long Life Grease&quot;}\">Long Life Grease<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Long Life Grease&quot;}\">Long Life Grease<\/td>\n<\/tr>\n<\/tbody>\n<\/table>\n<\/google-sheets-html-origin>"
+          }
+        }
+      },
+      "block_order": [
+        "983dfe51-58e8-44f6-8857-06b54eec77a7",
+        "template--19575071342894__7093195e-91bd-4841-963c-1e70e5fbac80-16868258995f6d968b-2",
+        "45f4d86a-0dac-403d-8f21-c946441ad3b4"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "3dce51e2-1324-41a9-9bc5-a72d0326cfb5": {
+      "type": "rich-text",
+      "blocks": {
+        "b6a4b151-02c3-43a8-949c-9d1c87a5cec5": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Download Bearing Cleaning & Maintenance PDF",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/7542\/6606\/files\/ceramicspeed-bearing-cleaning-maintenance_v2.pdf?v=1686826688",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "template--19575071342894__3dce51e2-1324-41a9-9bc5-a72d0326cfb5-16868258995f6d968b-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--19575071342894__3dce51e2-1324-41a9-9bc5-a72d0326cfb5-16868258995f6d968b-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--19575071342894__3dce51e2-1324-41a9-9bc5-a72d0326cfb5-16868258995f6d968b-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>CeramicSpeed Grease Types<\/h5><p>Chose the right CeramicSpeed Grease for your bearings and learn more about the different benefits of CeramicSpeed Long Life, All Round and Race Day Grease. <\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "b6a4b151-02c3-43a8-949c-9d1c87a5cec5",
+        "template--19575071342894__3dce51e2-1324-41a9-9bc5-a72d0326cfb5-16868258995f6d968b-0",
+        "template--19575071342894__3dce51e2-1324-41a9-9bc5-a72d0326cfb5-16868258995f6d968b-1",
+        "template--19575071342894__3dce51e2-1324-41a9-9bc5-a72d0326cfb5-16868258995f6d968b-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "432aca84-3f1f-4d37-8949-970e669e70d9": {
+      "type": "video",
+      "blocks": {
+        "template--19575071342894__432aca84-3f1f-4d37-8949-970e669e70d9-1686826785c15c3cc8-0": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--19575071342894__432aca84-3f1f-4d37-8949-970e669e70d9-1686826785c15c3cc8-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--19575071342894__432aca84-3f1f-4d37-8949-970e669e70d9-1686826785c15c3cc8-0",
+        "template--19575071342894__432aca84-3f1f-4d37-8949-970e669e70d9-1686826785c15c3cc8-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/CeramicSpeed UFO Grease (1).mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "2bebd44a-8690-4cbc-9922-beefa56f5561": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19575071342894__2bebd44a-8690-4cbc-9922-beefa56f5561-16868258995f6d968b-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--19575071342894__2bebd44a-8690-4cbc-9922-beefa56f5561-16868258995f6d968b-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--19575071342894__2bebd44a-8690-4cbc-9922-beefa56f5561-16868258995f6d968b-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>CeramicSpeed Greases Application<\/h5><p><em>Scroll right to see full table<\/em><\/p>",
+            "text_align": "center"
+          }
+        },
+        "37750205-d473-4cb7-af93-e081a7ab011f": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<google-sheets-html-origin>\n<style type=\"text\/css\"><!--\ntd {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}\n--><\/style>\n<table xmlns=\"http:\/\/www.w3.org\/1999\/xhtml\" cellspacing=\"0\" cellpadding=\"0\" dir=\"ltr\" border=\"1\" style=\"width: 831px;\"><colgroup><col width=\"244\" \/><col width=\"244\" \/><col width=\"240\" \/><\/colgroup>\n<tbody>\n<tr style=\"height: 65px;\">\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;CeramicSpeed All Round Grease&quot;}\" style=\"height: 65px; width: 277.292px;\"><strong>CeramicSpeed All Round Grease<\/strong><\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;CeramicSpeed Race Day Grease&quot;}\" style=\"height: 65px; width: 268.708px;\"><strong>CeramicSpeed Race Day Grease<\/strong><\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;CeramicSpeed Long Life Grease&quot;}\" style=\"height: 65px; width: 275px;\"><strong>CeramicSpeed Long Life Grease<\/strong><\/td>\n<\/tr>\n<tr style=\"height: 235px;\">\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Race conditions: all-round Low friction&quot;}\" style=\"height: 235px; width: 277.292px;\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/7542\/6606\/files\/2261038cc5d9519f1837a68d9fe72ba8518a877a_480x480.png?v=1687164147\" alt=\"\" \/><\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Dry race condition (only short distances!) TT grease – extremely low friction&quot;}\" style=\"height: 235px; width: 268.708px;\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/7542\/6606\/files\/bc0aa2af54590262ea48738f52c3d2cf150995b7_480x480.png?v=1687164116\" alt=\"\" \/><\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;All training conditions&quot;}\" style=\"height: 235px; width: 275px;\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/7542\/6606\/files\/203b81b4f043d22295b3ada74ee1f9b85909035b_480x480.png?v=1687164126\" alt=\"\" \/><\/td>\n<\/tr>\n<tr style=\"height: 45px;\">\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Race conditions: all-round Low friction&quot;}\" style=\"height: 45px; width: 277.292px; text-align: center;\">Race conditions: all-round Low friction<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Dry race condition (only short distances!) TT grease – extremely low friction&quot;}\" style=\"height: 45px; width: 268.708px; text-align: center;\">Dry race condition (only short distances!) <br \/>TT grease – extremely low friction<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;All training conditions&quot;}\" style=\"height: 45px; width: 275px; text-align: center;\">All training conditions<\/td>\n<\/tr>\n<tr style=\"height: 45px;\">\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Standard, all conditions grease for any\/ all CeramicSpeed bearings&quot;}\" style=\"height: 45px; width: 277.292px; text-align: center;\">Standard, all conditions grease for any <br \/>\/ <br \/>all CeramicSpeed bearings<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Short service interval (re-lubrication) Always lubricate before \/ after use&quot;}\" style=\"height: 45px; width: 268.708px;\">Short service interval (re-lubrication) <br \/>Always lubricate before <br \/>\/ <br \/>after use<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Long service interval High protection of the bearings&quot;}\" style=\"height: 45px; width: 275px; text-align: left;\">Long service interval High protection of the bearings<\/td>\n<\/tr>\n<tr style=\"height: 210px;\">\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Recommended 60-80% filling rate&quot;}\" style=\"height: 210px; width: 277.292px;\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/7542\/6606\/files\/35ac8363a9fd7054faca56dce662f864b9d8b466_480x480.jpg?v=1687164006\" alt=\"\" \/><\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Recommended 30-50% filling rate&quot;}\" style=\"height: 210px; width: 268.708px;\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/7542\/6606\/files\/4a1a75e693a83b71cbad2f91064e4cff612edc04_480x480.jpg?v=1687164032\" alt=\"\" \/><\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Recommended 70-100% filling rate&quot;}\" style=\"height: 210px; width: 275px;\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/7542\/6606\/files\/d9608e82c0a317bd986d4f10b502dea9c89cb74a_480x480.jpg?v=1687164065\" alt=\"\" \/><\/td>\n<\/tr>\n<tr style=\"height: 22px;\">\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Recommended 60-80% filling rate&quot;}\" style=\"height: 22px; width: 277.292px; text-align: center;\">Recommended 60-80% filling rate<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Recommended 30-50% filling rate&quot;}\" style=\"height: 22px; width: 268.708px; text-align: center;\">Recommended 30-50% filling rate<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Recommended 70-100% filling rate&quot;}\" style=\"height: 22px; width: 275px; text-align: center;\">Recommended 70-100% filling rate<\/td>\n<\/tr>\n<tr style=\"height: 187px;\">\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;5.000-10.000 km or 3.000-5.000 mile average lifespan in clean conditions\\n 1.000-3.000 km. or 600-1.800 mile average lifespan in wet and harsh conditions\\n Or yearly&quot;}\" style=\"height: 187px; width: 277.292px;\">\n<ul>\n<li>5.000-10.000 km or 3.000-5.000 mile average lifespan in clean conditions<\/li>\n<li>1.000-3.000 km. or 600-1.800 mile average lifespan in wet and harsh conditions<\/li>\n<li>Or yearly<\/li>\n<\/ul>\n<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;1.000-2.000 km or 600-1.200 miles optimal efficiency Clean conditions only Or Yearly&quot;}\" style=\"height: 187px; width: 268.708px;\">\n<ul>\n<li>1.000-2.000 km or 600-1.200 miles optimal efficiency<\/li>\n<li>Clean conditions only<\/li>\n<li>Or Yearly<\/li>\n<\/ul>\n<\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;8.000-13.000 km or 5.000-8.000 mile average lifespan in clean conditions 3.000-8.000 km or 1.800-5.000 mile average lifespan in wet and harsh conditions Or yearly&quot;}\" style=\"height: 187px; width: 275px;\">\n<ul>\n<li>8.000-13.000 km or 5.000-8.000 mile average lifespan in clean conditions<\/li>\n<li>3.000-8.000 km or 1.800-5.000 mile average lifespan in wet and harsh conditions<\/li>\n<li>Or yearly<\/li>\n<\/ul>\n<\/td>\n<\/tr>\n<\/tbody>\n<\/table>\n<\/google-sheets-html-origin>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19575071342894__2bebd44a-8690-4cbc-9922-beefa56f5561-16868258995f6d968b-0",
+        "template--19575071342894__2bebd44a-8690-4cbc-9922-beefa56f5561-16868258995f6d968b-1",
+        "template--19575071342894__2bebd44a-8690-4cbc-9922-beefa56f5561-16868258995f6d968b-2",
+        "37750205-d473-4cb7-af93-e081a7ab011f"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "83941099-fa9c-4c55-a5fd-406c82af69a2",
+    "6e711e4a-b3f6-4e41-b74d-3333a56564bf",
+    "6ba5be66-405b-457a-ae08-6280b5c77fb7",
+    "12910049-34df-45ac-aaba-98211a89d059",
+    "7093195e-91bd-4841-963c-1e70e5fbac80",
+    "3dce51e2-1324-41a9-9bc5-a72d0326cfb5",
+    "432aca84-3f1f-4d37-8949-970e669e70d9",
+    "2bebd44a-8690-4cbc-9922-beefa56f5561"
+  ]
+}

@@ -1,0 +1,423 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "83941099-fa9c-4c55-a5fd-406c82af69a2": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18866855739694__83941099-fa9c-4c55-a5fd-406c82af69a2-168232890080e9589b-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--18866855739694__83941099-fa9c-4c55-a5fd-406c82af69a2-168232890080e9589b-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/custom_resized_cfea32aa-bd33-49de-9343-5a250d9f12c3.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "12910049-34df-45ac-aaba-98211a89d059": {
+      "type": "rich-text",
+      "blocks": {
+        "82232dcc-5cef-4bf1-868f-6102eb027b49": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": ""
+          }
+        },
+        "1570998f-9319-475e-b898-597cc5b328db": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>Introducing the New and Optimized UFO Product Family<\/h5><p>What started with a single Wax Chain Coating seven years ago, has since turned into a fully-fledged product family of cutting-edge maintenance and care offerings.<\/p><p>Now, we're introducing a whole new UFO product family with a face-lifted design, updated smaller bottle sizes, three new product additions, and new pricing, all for the sake of making the entire UFO lineup able to be enjoyed by as many riders as possible. <\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "82232dcc-5cef-4bf1-868f-6102eb027b49",
+        "1570998f-9319-475e-b898-597cc5b328db"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "3746a28b-639d-4e39-8e1c-0957531c00c7": {
+      "type": "media-with-text",
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "e1f5c2fc-a8b3-4f81-bced-e884cd26b478": {
+      "type": "collection-list",
+      "blocks": {
+        "template--19628827246894__e1f5c2fc-a8b3-4f81-bced-e884cd26b478-168717663007a9c621-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/112160_A_b5a8d058-f32d-4b1b-874b-5fc4edff179e.png",
+            "subheading": "",
+            "title": "UFO for Drivetrains",
+            "url": "shopify:\/\/collections\/ufo-drivetrain",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--19628827246894__e1f5c2fc-a8b3-4f81-bced-e884cd26b478-168717663007a9c621-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/112163_A_bd04dc7e-01e4-4284-8fed-3552108a55ad.png",
+            "subheading": "",
+            "title": "UFO for Bearings",
+            "url": "shopify:\/\/collections\/ufo-bearing",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--19628827246894__e1f5c2fc-a8b3-4f81-bced-e884cd26b478-168717663007a9c621-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/112169_A_3afc1206-919e-41ce-9a6c-ace464b56e8a.png",
+            "subheading": "",
+            "title": "UFO for Bikes",
+            "url": "shopify:\/\/collections\/ufo-bike-wash",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--19628827246894__e1f5c2fc-a8b3-4f81-bced-e884cd26b478-168717663007a9c621-0",
+        "template--19628827246894__e1f5c2fc-a8b3-4f81-bced-e884cd26b478-168717663007a9c621-1",
+        "template--19628827246894__e1f5c2fc-a8b3-4f81-bced-e884cd26b478-168717663007a9c621-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_collections": true,
+        "collections_per_row": 3,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "df1071ed-1133-4b5f-9136-bf3b2b2601a2": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--19628827246894__df1071ed-1133-4b5f-9136-bf3b2b2601a2-1687176839e7470c0b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ufo_dashboard_01_1.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h5>Show your bike how much you care<\/h5><p>What does 'show your bike how much you care' really mean? Well, for us it's quite simple. For close to two decades, we have been obsessed with pushing the performance of bikes to the very limit by developing innovative ceramic bearings and drivetrain components.<\/p><p>But, even the best products in the world will only stay that way if they're properly maintained and looked after. This is the logic behind our UFO product family. These products justification is to be the best possible option for adequately optimizing, protecting, and caring for your bike and components over time. At the end of the day, a well-maintained component is a well-functioning component.<\/p><p>This is how you show your bike how much you care!<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19628827246894__df1071ed-1133-4b5f-9136-bf3b2b2601a2-1687176839e7470c0b-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "2c256677-7b13-4b68-a2ef-1ff2b7d8ad6d": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--19628827246894__2c256677-7b13-4b68-a2ef-1ff2b7d8ad6d-1687176839e7470c0b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2023-04-27-ceramicspeed-ufo_-32.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h5>UFO for Drivetrains <\/h5><p>The newly expanded range of UFO Drivetrain products consists of an eco-friendly drivetrain cleaner, and three bottled wax chain lubricants that are purposely designed to offer the perfect blend of optimization and protection - in any condition riders might encounter. This is how you show your Drivetrain (and the environment) you care. <\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19628827246894__2c256677-7b13-4b68-a2ef-1ff2b7d8ad6d-1687176839e7470c0b-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "f3459d3e-2bd6-4ae3-8d55-676dc1377008": {
+      "type": "media-with-text",
+      "blocks": {
+        "5e1ed5cf-784a-4541-9702-900a0adeba09": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jg_230327_ceramicspeed_ufo_0070.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h5>UFO for Bearings<\/h5><p>Bearings are the original and core offering of CeramicSpeed. Optimal lubricants and safe-to-use cleaning products show your bike you care by extending the life and efficiency of your bike. To ensure the best lifetime and performance, our UFO for Bearings products offers the ideal cleaning and lubricating options.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "5e1ed5cf-784a-4541-9702-900a0adeba09"
+      ],
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "0c1d520a-6afe-4ba1-826d-7b5b3c0f3ef4": {
+      "type": "media-with-text",
+      "blocks": {
+        "57b4f1ad-62a0-4d1d-819d-a7b8dd61c3f7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC09645-large.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h5>UFO for Bikes<\/h5><p>Our Bike Wash products are the latest addition to our UFO product family. Just like a pair of fresh white socks will make most riders feel faster on race day – a sparkling, clean bike will provide the same mental assurance. And with the added bonus of keeping the bike in its optimal condition at all times.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "57b4f1ad-62a0-4d1d-819d-a7b8dd61c3f7"
+      ],
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "1ad9bc7b-7f45-436e-938e-63bd7316afad": {
+      "type": "media-with-text",
+      "blocks": {
+        "20a15a8a-be00-44ef-a8ef-049850f36831": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JG_230327_CeramicSpeed_UFO_0361-large.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h5>Application Guides & FAQ for the UFO Product Family<\/h5><p>We've compiled all imaginable information and our best-practice application guides for our UFO Products to make sure you have the best chance to show your bike how much you care!<br\/><br\/><\/p>",
+            "link_text": "Learn more",
+            "link_url": "shopify:\/\/pages\/ufo-drip-application-and-faq",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "20a15a8a-be00-44ef-a8ef-049850f36831"
+      ],
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "cb6e4c82-3add-41c7-9fd5-5f94b2ba4b1e": {
+      "type": "media-with-text",
+      "blocks": {
+        "9c671461-9c77-4a0e-9ddf-44a2e7fc2105": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JG_230327_CeramicSpeed_UFO_0488-medium.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h5>Lab test of our UFO Drip Wet Conditions<\/h5><p>Learn more about how we've tested our UFO Drip Wet Conditions and how it performs against competing wet lubricants<br\/><br\/><br\/><br\/><\/p>",
+            "link_text": "See test data here",
+            "link_url": "shopify:\/\/pages\/ufo-drip-wet-conditions-test",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "9c671461-9c77-4a0e-9ddf-44a2e7fc2105"
+      ],
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "a190f6a7-3b74-459e-a2a2-59055fc5781e": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--19628827246894__a190f6a7-3b74-459e-a2a2-59055fc5781e-1687178217b80c5784-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--19628827246894__a190f6a7-3b74-459e-a2a2-59055fc5781e-1687178217b80c5784-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "template--19628827246894__a190f6a7-3b74-459e-a2a2-59055fc5781e-1687178217b80c5784-2": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19628827246894__a190f6a7-3b74-459e-a2a2-59055fc5781e-1687178217b80c5784-0",
+        "template--19628827246894__a190f6a7-3b74-459e-a2a2-59055fc5781e-1687178217b80c5784-1",
+        "template--19628827246894__a190f6a7-3b74-459e-a2a2-59055fc5781e-1687178217b80c5784-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/cyclingmedia_agency_-_Ceramicspeed_Products-2-large_1.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    }
+  },
+  "order": [
+    "main",
+    "83941099-fa9c-4c55-a5fd-406c82af69a2",
+    "12910049-34df-45ac-aaba-98211a89d059",
+    "3746a28b-639d-4e39-8e1c-0957531c00c7",
+    "e1f5c2fc-a8b3-4f81-bced-e884cd26b478",
+    "df1071ed-1133-4b5f-9136-bf3b2b2601a2",
+    "2c256677-7b13-4b68-a2ef-1ff2b7d8ad6d",
+    "f3459d3e-2bd6-4ae3-8d55-676dc1377008",
+    "0c1d520a-6afe-4ba1-826d-7b5b3c0f3ef4",
+    "1ad9bc7b-7f45-436e-938e-63bd7316afad",
+    "cb6e4c82-3add-41c7-9fd5-5f94b2ba4b1e",
+    "a190f6a7-3b74-459e-a2a2-59055fc5781e"
+  ]
+}

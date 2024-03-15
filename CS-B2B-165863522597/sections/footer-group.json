@@ -1,0 +1,105 @@
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "text-with-icons": {
+      "type": "text-with-icons",
+      "blocks": {
+        "discount": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-validation",
+            "mobile_icon_width": 24,
+            "icon_width": 24,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Warranty: 4 years (standard) - Lifetime (coated)",
+            "content": ""
+          }
+        },
+        "payment": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "icon": "picto-lock",
+            "mobile_icon_width": 24,
+            "icon_width": 24,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Secure payment",
+            "content": "<p>Tel your customers about your payment methods.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "discount",
+        "payment"
+      ],
+      "settings": {
+        "full_width": true,
+        "title": "",
+        "heading_tag": "h6",
+        "text_alignment": "center",
+        "icon_spacing": "small",
+        "background": "#2b2b2b",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {
+            "image_width": 150,
+            "heading_size": "h3",
+            "title": "Keep up! Get the newsletter",
+            "content": ""
+          }
+        },
+        "links": {
+          "type": "links",
+          "settings": {
+            "menu": "company",
+            "show_menu_title": true
+          }
+        },
+        "35baec26-e96b-403a-8c72-9d6033ecdaad": {
+          "type": "links",
+          "settings": {
+            "menu": "cycling",
+            "show_menu_title": true
+          }
+        },
+        "819be733-9f80-4be5-88af-a47daa8f1920": {
+          "type": "links",
+          "settings": {
+            "menu": "shopping",
+            "show_menu_title": true
+          }
+        }
+      },
+      "block_order": [
+        "newsletter",
+        "links",
+        "35baec26-e96b-403a-8c72-9d6033ecdaad",
+        "819be733-9f80-4be5-88af-a47daa8f1920"
+      ],
+      "settings": {
+        "show_social_media": true,
+        "show_payment_icons": true,
+        "show_country_selector": false,
+        "show_country_flag": true,
+        "show_country_name": true,
+        "show_locale_selector": true
+      }
+    }
+  },
+  "order": [
+    "text-with-icons",
+    "footer"
+  ]
+}

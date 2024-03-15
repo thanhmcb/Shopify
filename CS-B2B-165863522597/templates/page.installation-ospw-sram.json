@@ -1,0 +1,952 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "83941099-fa9c-4c55-a5fd-406c82af69a2": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18866855739694__83941099-fa9c-4c55-a5fd-406c82af69a2-168232890080e9589b-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Installation of OSPW for SRAM",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--18866855739694__83941099-fa9c-4c55-a5fd-406c82af69a2-168232890080e9589b-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/7c51b3cba0f93c8fc0806bf0ca05ebb01b825dba.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "12a3b7bd-599a-4c50-80ae-3f57e702bdd0": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18866855739694__12a3b7bd-599a-4c50-80ae-3f57e702bdd0-1682329065c28de8b7-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--18866855739694__12a3b7bd-599a-4c50-80ae-3f57e702bdd0-1682329065c28de8b7-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>Installation of OSPW for SRAM<\/h5><p>For installation of your Oversized Pulley Wheel System find your model below for tutorials and documentation.<\/p><p><strong>The exact mounting process and tools you will need differ from bike to bike.<\/strong><\/p><p>To ensure your Oversized Pulley Wheel System performs to its full potential it is essential that it is mounted correctly. If you do not have experience with installation, we recommend you seek professional help by reaching out to our <a href=\"\/pages\/retailers\" title=\"Find a retailer\">recommended bike shops<\/a>.<\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--18866855739694__12a3b7bd-599a-4c50-80ae-3f57e702bdd0-1682329065c28de8b7-0",
+        "template--18866855739694__12a3b7bd-599a-4c50-80ae-3f57e702bdd0-1682329065c28de8b7-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "12910049-34df-45ac-aaba-98211a89d059": {
+      "type": "rich-text",
+      "blocks": {
+        "82232dcc-5cef-4bf1-868f-6102eb027b49": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "1570998f-9319-475e-b898-597cc5b328db": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>OSPW X for SRAM Eagle AXS Transmission<\/h5>",
+            "text_align": "center"
+          }
+        },
+        "9e694fda-f789-488e-901f-4bd654aa67f4": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Download the Manual",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0723\/1540\/4581\/files\/Mounting_instructions_OSPW_X_SRAM_NEW_4.pdf?v=1701940295",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "82232dcc-5cef-4bf1-868f-6102eb027b49",
+        "1570998f-9319-475e-b898-597cc5b328db",
+        "9e694fda-f789-488e-901f-4bd654aa67f4"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "6ba5be66-405b-457a-ae08-6280b5c77fb7": {
+      "type": "video",
+      "blocks": {
+        "template--19557548753198__6ba5be66-405b-457a-ae08-6280b5c77fb7-168672916478d00da8-0": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--19557548753198__6ba5be66-405b-457a-ae08-6280b5c77fb7-168672916478d00da8-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--19557548753198__6ba5be66-405b-457a-ae08-6280b5c77fb7-168672916478d00da8-0",
+        "template--19557548753198__6ba5be66-405b-457a-ae08-6280b5c77fb7-168672916478d00da8-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/OSPW_SRAM_EAGLE_FINAL.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "poster": "shopify:\/\/shop_images\/Installation-of-OSPW-X-SRAM-EAGLE-AXS-Transmission_1.jpg",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "4ce78367-5d7e-40a0-bf52-2d4b4870f88e": {
+      "type": "rich-text",
+      "blocks": {
+        "77a51924-15d5-4eee-b587-d862598605c7": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "b0b8f6af-281a-47ce-b002-a685b2ea45ea": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>OSPW X for SRAM Red, Force,<br\/>and Rival XPLR<\/h5><p>Compatible with:<\/p><ul><li>SRAM Rival eTap AXS XPLR<\/li><li>SRAM Red eTap AXS<br\/>     XPLR <\/li><li>SRAM Force eTap AXS XPLR<\/li><li>SRAM Rival eTap AXS XPLR<\/li><\/ul>",
+            "text_align": "center"
+          }
+        },
+        "9cf1d561-9028-486d-a25e-e1cbc3fea966": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Download the Manual",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/7542\/6606\/files\/ospw-x-xplr-mounting-and-maintenance.pdf?v=1686742500",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "77a51924-15d5-4eee-b587-d862598605c7",
+        "b0b8f6af-281a-47ce-b002-a685b2ea45ea",
+        "9cf1d561-9028-486d-a25e-e1cbc3fea966"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "72db0950-f42b-44ad-9e7d-c740bd948ad0": {
+      "type": "video",
+      "blocks": {
+        "7d94e36e-f31a-4a45-8864-0a8535fad419": {
+          "type": "play",
+          "settings": {}
+        },
+        "711879c6-6531-43fa-8f66-c26c16497dd6": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "7d94e36e-f31a-4a45-8864-0a8535fad419",
+        "711879c6-6531-43fa-8f66-c26c16497dd6"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/CeramicSpeed OSPW X SRAM Red Force AXS XPLR Installation.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "poster": "shopify:\/\/shop_images\/installation_OSPW-for-SRAM_1_59a82ff5-d88f-4d3a-a022-286df74fba21.jpg",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "06260904-d70c-4a6c-b61a-b1d6f127ba9a": {
+      "type": "rich-text",
+      "blocks": {
+        "6d95d224-da56-4830-ac3e-654b1e19e889": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "81e179f6-6b61-42e1-abf1-4d13ce925a75": {
+          "type": "richtext",
+          "settings": {
+            "content": "",
+            "text_align": "center"
+          }
+        },
+        "e2fa2494-dfe4-439a-9011-62533e8a6dad": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "6d95d224-da56-4830-ac3e-654b1e19e889",
+        "81e179f6-6b61-42e1-abf1-4d13ce925a75",
+        "e2fa2494-dfe4-439a-9011-62533e8a6dad"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "38ae8a55-6228-4c35-8576-b9580e34f760": {
+      "type": "video",
+      "blocks": {
+        "528aa0bf-456b-47ac-af32-136a540b6e40": {
+          "type": "play",
+          "settings": {}
+        },
+        "f91c09a9-5e72-45ea-b67b-043438c9cddc": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "528aa0bf-456b-47ac-af32-136a540b6e40",
+        "f91c09a9-5e72-45ea-b67b-043438c9cddc"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/CeramicSpeed OSPW X SRAM Rival XPLR Installation.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "poster": "shopify:\/\/shop_images\/installation_OSPW-for-SRAM_2_0421a82e-9b96-4962-8855-685a422ea6f1.jpg",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "d08ab429-3d6d-40cf-ae13-f99feed2c495": {
+      "type": "rich-text",
+      "blocks": {
+        "3b0f9232-ee03-47e9-9792-4f49c887269e": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "b87fbf7e-4ea3-436b-853f-ddcfaa553960": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>OSPW Aero for SRAM Red\/Force AXS<\/h5><p>Compatible with:<\/p><ul><li>SRAM Red AXS<\/li><li>SRAM Force AXS<\/li><\/ul>",
+            "text_align": "center"
+          }
+        },
+        "07a1097b-9566-4e8d-82d2-02ae7824b869": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Download the Manual",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0723\/1540\/4581\/files\/ospw-aero-sram-red-force-axs_mounting-and-maintenance_v2.pdf?v=1697523285",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "3b0f9232-ee03-47e9-9792-4f49c887269e",
+        "b87fbf7e-4ea3-436b-853f-ddcfaa553960",
+        "07a1097b-9566-4e8d-82d2-02ae7824b869"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "1efd4a10-98be-4eb4-ae87-2092604d6508": {
+      "type": "video",
+      "blocks": {
+        "template--19557548753198__1efd4a10-98be-4eb4-ae87-2092604d6508-168672916478d00da8-0": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--19557548753198__1efd4a10-98be-4eb4-ae87-2092604d6508-168672916478d00da8-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--19557548753198__1efd4a10-98be-4eb4-ae87-2092604d6508-168672916478d00da8-0",
+        "template--19557548753198__1efd4a10-98be-4eb4-ae87-2092604d6508-168672916478d00da8-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=kX1o4BrFCDs",
+        "poster": "shopify:\/\/shop_images\/installation_OSPW-for-SRAM_3.jpg",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "a40498cc-9097-42ed-bdeb-5be38bb67840": {
+      "type": "rich-text",
+      "blocks": {
+        "73bfff7c-dbc0-42fe-879f-7b7682a7256b": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "df52d8ce-1246-4fdd-99d9-d36692075ce0": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>OSPW for SRAM Red\/Force AXS<\/h5><p>Compatibel with:<\/p><ul><li>SRAM Red AXS<\/li><li>SRAM Force AXS<\/li><\/ul>",
+            "text_align": "center"
+          }
+        },
+        "48dd375e-ea0a-40c0-86d2-621eecfe6fad": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Download the Manual",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/7542\/6606\/files\/ospw-for-sram-axs_installation-and-maintenance.pdf?v=1686743869",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "73bfff7c-dbc0-42fe-879f-7b7682a7256b",
+        "df52d8ce-1246-4fdd-99d9-d36692075ce0",
+        "48dd375e-ea0a-40c0-86d2-621eecfe6fad"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "e6e34b6d-b982-4218-99a5-13a6571372ce": {
+      "type": "video",
+      "blocks": {
+        "template--19557548753198__e6e34b6d-b982-4218-99a5-13a6571372ce-168672916478d00da8-0": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--19557548753198__e6e34b6d-b982-4218-99a5-13a6571372ce-168672916478d00da8-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--19557548753198__e6e34b6d-b982-4218-99a5-13a6571372ce-168672916478d00da8-0",
+        "template--19557548753198__e6e34b6d-b982-4218-99a5-13a6571372ce-168672916478d00da8-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/How to Install Your CeramicSpeed OSPW System for SRAM Red_Force AXS.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "poster": "shopify:\/\/shop_images\/installation_OSPW-for-SRAM_1_32e681df-ca0a-4844-a4d2-1f1788b7ba68.jpg",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "324066a3-bc1c-4c12-aa6e-6c1da8ab4fa2": {
+      "type": "rich-text",
+      "blocks": {
+        "83addb20-e49f-4538-8cdb-b6673b0015a8": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "d547b4b8-a566-4b9c-9e96-12e6454569d9": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>OSPW for SRAM Rival AXS<\/h5><p>Compatible with:<\/p><ul><li>SRAM Rival AXS<\/li><\/ul>",
+            "text_align": "center"
+          }
+        },
+        "8ad38145-0858-47e5-9b80-e0ca134825f6": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Download the Manual",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/7542\/6606\/files\/ospw-sram-rival-axs-mounting-and-maintenance.pdf?v=1686744127",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "83addb20-e49f-4538-8cdb-b6673b0015a8",
+        "d547b4b8-a566-4b9c-9e96-12e6454569d9",
+        "8ad38145-0858-47e5-9b80-e0ca134825f6"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "5b8e9002-dc99-413a-98b3-533d27668a50": {
+      "type": "video",
+      "blocks": {
+        "template--19557548753198__5b8e9002-dc99-413a-98b3-533d27668a50-168672916478d00da8-0": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--19557548753198__5b8e9002-dc99-413a-98b3-533d27668a50-168672916478d00da8-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--19557548753198__5b8e9002-dc99-413a-98b3-533d27668a50-168672916478d00da8-0",
+        "template--19557548753198__5b8e9002-dc99-413a-98b3-533d27668a50-168672916478d00da8-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/CeramicSpeed Rival AXS OSPW installation.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "poster": "shopify:\/\/shop_images\/installation_OSPW-for-SRAM_5_fac053cb-3f3f-46b3-9460-c4930976f70f.jpg",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "71bcb8d2-86c1-49e8-9866-84030a1b147b": {
+      "type": "rich-text",
+      "blocks": {
+        "a46e75e1-9031-4a5f-9be6-ff91c9017222": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "a5b0a19f-544c-4158-b6ba-495b5a400358": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>OSPW X for SRAM Eagle<\/h5><p>Compatible with: <\/p><ul><li>SRAM Eagle XX1, X01, NX Mechanical<\/li><li>SRAM Eagle AXS (electronic)<\/li><\/ul>",
+            "text_align": "center"
+          }
+        },
+        "cc574cf6-a049-471a-9875-a1f6e888a8a7": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Download the Manual",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/7542\/6606\/files\/ospw-x-for-sram-eagle-mech-and-axs_installation-and-maintenance_v3_2021_2.pdf?v=1686744392",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "a46e75e1-9031-4a5f-9be6-ff91c9017222",
+        "a5b0a19f-544c-4158-b6ba-495b5a400358",
+        "cc574cf6-a049-471a-9875-a1f6e888a8a7"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "97460146-8d07-4226-9ccc-49cb60fa6bdb": {
+      "type": "rich-text",
+      "blocks": {
+        "85b5c08b-900e-45ed-817e-0e716bb978b5": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "5b85b793-4c49-4ce3-90b9-51cff2ec9458": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>OSPW X for SRAM Eagle<\/h5><p>Compatible with: <\/p><ul><li>SRAM Eagle XX1, X01, GX, NX Mechanical<\/li><li>SRAM Eagle AXS (electronic)<\/li><\/ul>",
+            "text_align": "center"
+          }
+        },
+        "16d149a4-c3e3-4c12-8236-4a1639b22e3b": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Download the Manual",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/7542\/6606\/files\/ospw-x-for-sram-eagle-mech-and-axs_installation-and-maintenance_v3_2021_2.pdf?v=1686744392",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "85b5c08b-900e-45ed-817e-0e716bb978b5",
+        "5b85b793-4c49-4ce3-90b9-51cff2ec9458",
+        "16d149a4-c3e3-4c12-8236-4a1639b22e3b"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "eff3b681-2d11-43e6-afae-ca3d3462e069": {
+      "type": "video",
+      "blocks": {
+        "template--19557548753198__eff3b681-2d11-43e6-afae-ca3d3462e069-168672916478d00da8-0": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--19557548753198__eff3b681-2d11-43e6-afae-ca3d3462e069-168672916478d00da8-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--19557548753198__eff3b681-2d11-43e6-afae-ca3d3462e069-168672916478d00da8-0",
+        "template--19557548753198__eff3b681-2d11-43e6-afae-ca3d3462e069-168672916478d00da8-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/How to Install Your OSPW X System for Eagle AXS and Mechanical.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "poster": "shopify:\/\/shop_images\/installation_OSPW-for-SRAM_6_f03d0496-c899-4eee-89fe-b440f15fdf01.jpg",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "0ecccebf-bdbf-4482-a347-6997e26c1238": {
+      "type": "rich-text",
+      "blocks": {
+        "eefc86f3-18f9-4e8a-b2a1-8d53abe6001a": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "b71a8e60-1ec5-42b1-bf21-39a027840a69": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>SRAM eTap<\/h5>",
+            "text_align": "center"
+          }
+        },
+        "ad55e330-5b49-4f74-bc85-a3e541788534": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Download the Manual",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/7542\/6606\/files\/ospw-sram-etap-installation-manual_1.pdf?v=1687937311",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "eefc86f3-18f9-4e8a-b2a1-8d53abe6001a",
+        "b71a8e60-1ec5-42b1-bf21-39a027840a69",
+        "ad55e330-5b49-4f74-bc85-a3e541788534"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "9a5d573c-df34-4fe6-bf2f-c07de4b4e927": {
+      "type": "video",
+      "blocks": {
+        "template--19558976160046__9a5d573c-df34-4fe6-bf2f-c07de4b4e927-16867417466714a08c-0": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--19558976160046__9a5d573c-df34-4fe6-bf2f-c07de4b4e927-16867417466714a08c-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--19558976160046__9a5d573c-df34-4fe6-bf2f-c07de4b4e927-16867417466714a08c-0",
+        "template--19558976160046__9a5d573c-df34-4fe6-bf2f-c07de4b4e927-16867417466714a08c-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/How to install your CeramicSpeed OSPW System for SRAM eTap.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "poster": "shopify:\/\/shop_images\/installation_OSPW-for-SRAM_7_28c5d74a-0c84-4b91-8339-20a22483e467.jpg",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "fe728347-7fb3-405a-a810-e8ac3f23a04b": {
+      "type": "rich-text",
+      "blocks": {
+        "22399d7f-1dfd-4a90-8b86-47bcee46bbfd": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "5871e713-4a0a-4264-bdaa-9e5a4cf5db76": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>OSPW X for SRAM Rival & Force 1 Type 3<\/h5><p>Compatible with:<\/p><p>• SRAM Force 1X 11 speed with Type 3 clutch and cage lock position 8 o’clock*<br\/>• SRAM Rival 1X 11 speed with Type 3 clutch and cage lock position 8 o’clock*<\/p><p>NOT compatible with:           <\/p><ul><li>Apex 1 due to difference in cage lock design<\/li><li>Type 2.1 clutch<\/li><\/ul><p>*Only install this product on derailleurs with an 8 o’clock cage lock position (see ref. 1). It will not fit derailleurs with a 5 o’clock cage lock position (see ref. 2).<\/p>",
+            "text_align": "center"
+          }
+        },
+        "cbb1ac04-1650-43ec-8319-e34bfed5dbe2": {
+          "type": "divider",
+          "disabled": true,
+          "settings": {}
+        },
+        "725b0fe4-d616-4cfb-ab21-08650c6a3abe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ospw-x-clock.png",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "cc3775d2-4454-4804-9169-3e20ba8f7cb0": {
+          "type": "image",
+          "settings": {
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "8680d030-5515-46a4-babf-94d8da896ad2": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Download the Manual",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/7542\/6606\/files\/ospw-x-for-sram-rival-force-1-type-3.pdf?v=1686744723",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "22399d7f-1dfd-4a90-8b86-47bcee46bbfd",
+        "5871e713-4a0a-4264-bdaa-9e5a4cf5db76",
+        "cbb1ac04-1650-43ec-8319-e34bfed5dbe2",
+        "725b0fe4-d616-4cfb-ab21-08650c6a3abe",
+        "cc3775d2-4454-4804-9169-3e20ba8f7cb0",
+        "8680d030-5515-46a4-babf-94d8da896ad2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "2ff888ea-2ab0-4f89-8f73-47f83c10a570": {
+      "type": "video",
+      "blocks": {
+        "template--19558976160046__2ff888ea-2ab0-4f89-8f73-47f83c10a570-16867417466714a08c-0": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--19558976160046__2ff888ea-2ab0-4f89-8f73-47f83c10a570-16867417466714a08c-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--19558976160046__2ff888ea-2ab0-4f89-8f73-47f83c10a570-16867417466714a08c-0",
+        "template--19558976160046__2ff888ea-2ab0-4f89-8f73-47f83c10a570-16867417466714a08c-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/How to Mount Your OSPW X for SRAM Rival & Force 1 Type 3.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "poster": "shopify:\/\/shop_images\/maintenance-OSPW-2.jpg",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "6e711e4a-b3f6-4e41-b74d-3333a56564bf": {
+      "type": "rich-text",
+      "blocks": {
+        "ed696e7f-2ba7-4128-b586-c8a99ffcc9a6": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--18866855739694__6e711e4a-b3f6-4e41-b74d-3333a56564bf-1682579954eaecbed2-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>SRAM Mechanical<\/h5><p>Compatible with<\/p><ul><li>SRAM Red Mechanical<\/li><li>SRAM Force Mechanical<\/li><\/ul>",
+            "text_align": "center"
+          }
+        },
+        "90cddade-4618-45cd-8db2-351029c1e53c": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Download the Manual",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/7542\/6606\/files\/ospw-sram-mechanical-installation-manual.pdf?v=1686745039",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "ed696e7f-2ba7-4128-b586-c8a99ffcc9a6",
+        "template--18866855739694__6e711e4a-b3f6-4e41-b74d-3333a56564bf-1682579954eaecbed2-2",
+        "90cddade-4618-45cd-8db2-351029c1e53c"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "1b8e831c-6729-4d64-8d4c-ebc60e6f051e": {
+      "type": "video",
+      "blocks": {
+        "template--19560030011694__1b8e831c-6729-4d64-8d4c-ebc60e6f051e-16867417466714a08c-0": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--19560030011694__1b8e831c-6729-4d64-8d4c-ebc60e6f051e-16867417466714a08c-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--19560030011694__1b8e831c-6729-4d64-8d4c-ebc60e6f051e-16867417466714a08c-0",
+        "template--19560030011694__1b8e831c-6729-4d64-8d4c-ebc60e6f051e-16867417466714a08c-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/How to install your OSPW System for SRAM (mechanical).mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "poster": "shopify:\/\/shop_images\/installation_OSPW-for-SRAM_9_c6e68e7e-5749-419d-a934-abfa7a2f437a.jpg",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "f10aa78b-dc55-4524-90ff-82f5d6341e21": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19560030011694__f10aa78b-dc55-4524-90ff-82f5d6341e21-16869028031a9a2adc-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--19560030011694__f10aa78b-dc55-4524-90ff-82f5d6341e21-16869028031a9a2adc-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--19560030011694__f10aa78b-dc55-4524-90ff-82f5d6341e21-16869028031a9a2adc-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--19560030011694__f10aa78b-dc55-4524-90ff-82f5d6341e21-16869028031a9a2adc-0",
+        "template--19560030011694__f10aa78b-dc55-4524-90ff-82f5d6341e21-16869028031a9a2adc-1",
+        "template--19560030011694__f10aa78b-dc55-4524-90ff-82f5d6341e21-16869028031a9a2adc-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "83941099-fa9c-4c55-a5fd-406c82af69a2",
+    "12a3b7bd-599a-4c50-80ae-3f57e702bdd0",
+    "12910049-34df-45ac-aaba-98211a89d059",
+    "6ba5be66-405b-457a-ae08-6280b5c77fb7",
+    "4ce78367-5d7e-40a0-bf52-2d4b4870f88e",
+    "72db0950-f42b-44ad-9e7d-c740bd948ad0",
+    "06260904-d70c-4a6c-b61a-b1d6f127ba9a",
+    "38ae8a55-6228-4c35-8576-b9580e34f760",
+    "d08ab429-3d6d-40cf-ae13-f99feed2c495",
+    "1efd4a10-98be-4eb4-ae87-2092604d6508",
+    "a40498cc-9097-42ed-bdeb-5be38bb67840",
+    "e6e34b6d-b982-4218-99a5-13a6571372ce",
+    "324066a3-bc1c-4c12-aa6e-6c1da8ab4fa2",
+    "5b8e9002-dc99-413a-98b3-533d27668a50",
+    "71bcb8d2-86c1-49e8-9866-84030a1b147b",
+    "97460146-8d07-4226-9ccc-49cb60fa6bdb",
+    "eff3b681-2d11-43e6-afae-ca3d3462e069",
+    "0ecccebf-bdbf-4482-a347-6997e26c1238",
+    "9a5d573c-df34-4fe6-bf2f-c07de4b4e927",
+    "fe728347-7fb3-405a-a810-e8ac3f23a04b",
+    "2ff888ea-2ab0-4f89-8f73-47f83c10a570",
+    "6e711e4a-b3f6-4e41-b74d-3333a56564bf",
+    "1b8e831c-6729-4d64-8d4c-ebc60e6f051e",
+    "f10aa78b-dc55-4524-90ff-82f5d6341e21"
+  ]
+}

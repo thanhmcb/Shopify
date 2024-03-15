@@ -1,0 +1,210 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "e68550fe-439e-40c5-af27-402035ee820c": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18984988410158__e68550fe-439e-40c5-af27-402035ee820c-1683119050447ea663-0": {
+          "type": "image",
+          "settings": {
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Support for Pulley Wheels",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 100,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18984988410158__e68550fe-439e-40c5-af27-402035ee820c-1683119050447ea663-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "md",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "84d9d033-dba5-45ec-bcc6-9c3f44412e13": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18984988410158__84d9d033-dba5-45ec-bcc6-9c3f44412e13-1683118972ff985f5d-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h5",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--18984988410158__84d9d033-dba5-45ec-bcc6-9c3f44412e13-1683118972ff985f5d-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>To get the best out of your CeramicSpeed Pulley Wheels it's important they are installed correctly and maintained well.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18984988410158__84d9d033-dba5-45ec-bcc6-9c3f44412e13-1683118972ff985f5d-1",
+        "template--18984988410158__84d9d033-dba5-45ec-bcc6-9c3f44412e13-1683118972ff985f5d-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "0a868e70-b2db-489f-8df3-17ce96705a0f": {
+      "type": "image-link-blocks",
+      "disabled": true,
+      "blocks": {
+        "template--18984988410158__0a868e70-b2db-489f-8df3-17ce96705a0f-16831192321dd603c8-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/b8d7ddbcfaf312c180657f9dbe47e0f7a2389657.webp",
+            "stretch_image": true,
+            "link_text": "Installation of Bottom Brackets",
+            "link_url": "",
+            "background": "",
+            "text_color": "#fafafa",
+            "overlay_color": "#000000",
+            "overlay_opacity": 25
+          }
+        },
+        "template--18984988410158__0a868e70-b2db-489f-8df3-17ce96705a0f-16831192321dd603c8-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1c708a067b7d5f29aa3995f0b1495f5a3cc48d14.webp",
+            "stretch_image": true,
+            "link_text": "Installation of cranks",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 25
+          }
+        },
+        "template--18984988410158__0a868e70-b2db-489f-8df3-17ce96705a0f-16831192321dd603c8-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/97dcf12e06e9fb2902166e7b00271187df8b140e.webp",
+            "stretch_image": true,
+            "link_text": "Maintenance",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 25
+          }
+        }
+      },
+      "block_order": [
+        "template--18984988410158__0a868e70-b2db-489f-8df3-17ce96705a0f-16831192321dd603c8-0",
+        "template--18984988410158__0a868e70-b2db-489f-8df3-17ce96705a0f-16831192321dd603c8-1",
+        "template--18984988410158__0a868e70-b2db-489f-8df3-17ce96705a0f-16831192321dd603c8-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_image": false,
+        "grid-gap": 20,
+        "block_size": "large",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "0ea022a5-bcd7-4baf-a2a8-5643a047c62a": {
+      "type": "collection-list",
+      "blocks": {
+        "template--18984988410158__0ea022a5-bcd7-4baf-a2a8-5643a047c62a-1686813318fc48b82a-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/installation-icon.jpg",
+            "subheading": "",
+            "title": "Installation",
+            "url": "shopify:\/\/pages\/installation-pulley-wheels",
+            "heading_tag": "h3",
+            "text_position": "place-self-end-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--18984988410158__0ea022a5-bcd7-4baf-a2a8-5643a047c62a-1686813318fc48b82a-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/e13af2d37731094f29ae693cf049c302aa8b7cc2.jpg",
+            "subheading": "",
+            "title": "Maintenance",
+            "url": "shopify:\/\/pages\/maintenance-pulley-wheels",
+            "heading_tag": "h3",
+            "text_position": "place-self-end-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--18984988410158__0ea022a5-bcd7-4baf-a2a8-5643a047c62a-1686813318fc48b82a-0",
+        "template--18984988410158__0ea022a5-bcd7-4baf-a2a8-5643a047c62a-1686813318fc48b82a-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_collections": true,
+        "collections_per_row": 2,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "e68550fe-439e-40c5-af27-402035ee820c",
+    "84d9d033-dba5-45ec-bcc6-9c3f44412e13",
+    "0a868e70-b2db-489f-8df3-17ce96705a0f",
+    "0ea022a5-bcd7-4baf-a2a8-5643a047c62a"
+  ]
+}

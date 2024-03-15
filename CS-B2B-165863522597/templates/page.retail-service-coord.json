@@ -1,0 +1,101 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "3db86d21-e949-4476-90e5-64fecffed43e": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Retail Service Coordinator",
+            "heading_tag": "h1"
+          }
+        },
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-2": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-0",
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-1",
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/1d7c4b9a0bc74f9e73720806d6cad404f16a2d11.png",
+        "mobile_text_position": "place-self-end-start text-start",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "aca770b3-d895-4430-aa05-0990de07e08a": {
+      "type": "rich-text",
+      "blocks": {
+        "3e3fb28b-c92d-4cd9-965c-c4193fb676ed": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon": "picto-timer",
+            "icon_width": 32,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": ""
+          }
+        },
+        "d1fdfc50-8096-4401-9f4f-9b3c3f9e37ac": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--18216822309166__aca770b3-d895-4430-aa05-0990de07e08a-16777526798b832ccb-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>CeramicSpeed is a leading high-end brand in the cycling industry. We have a strong brand and are continuously working to improve and strengthen our presence among cycling enthusiasts all over the world. Due to exceptional growth globally, we are now looking for a Retail Service Coordinator to provide first-class support from our Americas division in the Boulder, Colorado office. <\/p><p><strong>The position<\/strong><\/p><ul><li>As a Retail Service Coordinator, we expect you to work independently within a team-based, diverse, fast-paced changing environment. You need to be customer focused and empathetic with the desire to help people and solve problems. <\/li><\/ul><p>Your responsibilities will include:<\/p><ul><li>Entry level customer support via live chat, telephone and email from bike shops and direct consumers including compatibility, warranties, discounts and how to become a new dealer.<\/li><li>Warranty, sales and return order processing and support.<\/li><li>Keeping inventory of event supplies and coordinating event logistics.<\/li><li>Coordinating and executing monthly email to independent bike shops.<\/li><\/ul><p>The Americas office is an autonomous team that works collaboratively with our parent company in Denmark; consistantly coordinating and aligning with each other as well as our Danish colleagues to make sure no synergies are lost. To be successful in this position, it is important that you enjoy and manage work independently within a collaborative framework. It is important that you pay good attention to details and are open-minded and curious to seek out and collaborate to find solutions.<\/p><p><strong>Your background<\/strong><\/p><p>We expect that you have the following experience and\/or skills:<\/p><ul><li>Customer service experience and skills<\/li><li>Excellent written and verbal communication skills.<\/li><li>Able to work efficiently and independently.<\/li><li>Microsoft Dynamics 365 or other ERP experience a plus.<\/li><\/ul><p><strong>We offer <\/strong><\/p><p>An exciting position in a company with a high growth rate and ambitions. You will be working together with competent and passionate colleagues, in an informal organization. The workplace is 100% smoke free.<\/p><p>Salary range for the position: $35,000 - $45,000\/year. Benefits include medical, dental and vision insurance, 5 weeks PTO plus 10 paid holidays, profit sharing and a 5% 401(k) match as well as a Danish lunch and fruit scheme. We are a rapidly growing company with huge potential for personal development.<\/p><p>Job starts after agreement. Interviews are held continuously. The position is filled when the right profile is found. Applications, including CV or resume, should be sent via email to <a href=\"mailto:job@ceramicspeed.com\">job@ceramicspeed.com<\/a>. If you have any questions regarding the position, you are welcome to contact Shauna Sadow at <a href=\"mailto:srs@ceramicspeed.com\">srs@ceramicspeed.com<\/a>.<\/p><p><strong>About CeramicSpeed <\/strong><\/p><p>CeramicSpeed was established in 2004 and is today one of the world's leading manufacturers of ceramic bearing products and optimised racing chains for the cycling industry. We have more than 20 years of experience in development of bearings which feature extremely low friction and an unmatched lifetime. All our products are handmade in Denmark.   <\/p><p>CeramicSpeed is a supplier to some of the world’s largest and most prominent high-end bicycle manufacturers. Our products are distributed in more than 50 countries, and we are the only bearing manufacturer that sponsors 5 World Tour Teams as well as many of the world’s best triathletes.<\/p><p>The company also includes a branch that manufactures and sells bearings for industrial applications. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "3e3fb28b-c92d-4cd9-965c-c4193fb676ed",
+        "d1fdfc50-8096-4401-9f4f-9b3c3f9e37ac",
+        "template--18216822309166__aca770b3-d895-4430-aa05-0990de07e08a-16777526798b832ccb-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3db86d21-e949-4476-90e5-64fecffed43e",
+    "aca770b3-d895-4430-aa05-0990de07e08a"
+  ]
+}

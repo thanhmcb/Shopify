@@ -1,0 +1,879 @@
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "enable_parallax": true,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "collection_title_size": "h2",
+        "image_size": "sm",
+        "image": "shopify:\/\/shop_images\/5ddc1cdc6aa81119b322bbe1d5c8fc0adab57f9c_54c88c2c-7ed6-4835-b5d6-b4604c892569.jpg",
+        "mobile_text_position": "place-self-end-start text-start",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "featured_product": "{{ collection.metafields.custom.featured_product.value }}",
+        "featured_product_heading": "Bestseller",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "eef752d5-6f9f-4683-a98b-e262a9bedfba": {
+      "type": "subcategories-mcb",
+      "blocks": {
+        "f690a11d-cc3c-4f1f-b62a-52755933345d": {
+          "type": "item",
+          "repeater": "{{ collection.metafields.custom.subcollections.value }}",
+          "settings": {
+            "image": "{{ block.repeater.image.value }}",
+            "stretch_image": true,
+            "link_text": "{{ block.repeater.link_text.value }}",
+            "link_url_collection": "{{ block.repeater.collection.value }}",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "f690a11d-cc3c-4f1f-b62a-52755933345d"
+      ],
+      "settings": {
+        "full_width": false,
+        "stack_image": false,
+        "grid-gap": 20,
+        "block_size": "medium",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "56104697-95a7-4de4-875d-dbd557b43f98": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "template--18123980112174__56104697-95a7-4de4-875d-dbd557b43f98-1677748250e63bc06a-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gravel_1800x1200_f5b6e035-e464-4264-a48d-821ee89b2824.jpg",
+            "stretch_image": true,
+            "link_text": "Gravel",
+            "link_url": "https:\/\/ceramicspeed.myshopify.com\/collections\/bottom-brackets?filter.v.option.discipline=Gravel",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--18123980112174__56104697-95a7-4de4-875d-dbd557b43f98-1677748250e63bc06a-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CeramicSpeed-Bottom-Brackets_1800x1200_50e42b8e-f3ee-4ba2-b9ab-10a89c3adc15.jpg",
+            "stretch_image": true,
+            "link_text": "Road",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--18123980112174__56104697-95a7-4de4-875d-dbd557b43f98-1677748250e63bc06a-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mountain_1800x1200_6a0dea7f-d846-4173-ab9d-de85c247304b.jpg",
+            "stretch_image": true,
+            "link_text": "Mountain",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--18123980112174__56104697-95a7-4de4-875d-dbd557b43f98-1677748250e63bc06a-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Track_1800x1200_62527fcc-2adb-4936-931f-b3ad3dba1c21.jpg",
+            "stretch_image": true,
+            "link_text": "Track",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "96eb0962-5bc9-4367-820a-9b7be834057b": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Tri_1800x1200_a39ad1b8-a8d3-4d14-ad12-54400fba48c5.jpg",
+            "stretch_image": true,
+            "link_text": "Tri",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--18123980112174__56104697-95a7-4de4-875d-dbd557b43f98-1677748250e63bc06a-0",
+        "template--18123980112174__56104697-95a7-4de4-875d-dbd557b43f98-1677748250e63bc06a-1",
+        "template--18123980112174__56104697-95a7-4de4-875d-dbd557b43f98-1677748250e63bc06a-2",
+        "template--18123980112174__56104697-95a7-4de4-875d-dbd557b43f98-1677748250e63bc06a-3",
+        "96eb0962-5bc9-4367-820a-9b7be834057b"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_image": false,
+        "grid-gap": 20,
+        "block_size": "medium",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "blocks": {
+        "6a8fecfa-a8fe-4e37-9cf8-5fda9b55acc8": {
+          "type": "promotion_video",
+          "settings": {
+            "position": 2,
+            "column_span": "2",
+            "video": "{{ collection.metafields.custom.promo_media.value }}",
+            "external_video_url": "",
+            "title": "",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "heading_tag": "h4",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "6a8fecfa-a8fe-4e37-9cf8-5fda9b55acc8"
+      ],
+      "disabled": true,
+      "settings": {
+        "hide_sold_out_variants": true,
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "filter_layout": "horizontal",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_filter_group_name": true,
+        "show_color_swatch": true,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": true,
+        "open_first_filter_group": false,
+        "show_list_view": false,
+        "show_list_view_as_default": false
+      }
+    },
+    "e6e99b14-c77b-45e9-90a4-ebb385bf75e6": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--18123980112174__e6e99b14-c77b-45e9-90a4-ebb385bf75e6-16777524124b3d06ef-0": {
+          "type": "image",
+          "repeater": "{{ collection.metafields.custom.media_with_text_promos.value }}",
+          "settings": {
+            "image": "{{ block.repeater.image.value }}",
+            "media_width": 50,
+            "media_position": "alternating",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "{{ block.repeater.heading.value }}",
+            "content": "{{ block.repeater.content | metafield_tag }}",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18123980112174__e6e99b14-c77b-45e9-90a4-ebb385bf75e6-16777524124b3d06ef-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "medium"
+      }
+    },
+    "e35e02cf-25e3-4570-83c5-52e7bdac53a7": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18272984170798__e35e02cf-25e3-4570-83c5-52e7bdac53a7-16814732615eda79ed-1": {
+          "type": "heading",
+          "settings": {
+            "text": "{{ collection.metafields.custom.seo_bottom_heading.value }}",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--18272984170798__e35e02cf-25e3-4570-83c5-52e7bdac53a7-16814732615eda79ed-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--18272984170798__e35e02cf-25e3-4570-83c5-52e7bdac53a7-16814732615eda79ed-1",
+        "template--18272984170798__e35e02cf-25e3-4570-83c5-52e7bdac53a7-16814732615eda79ed-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "bcbe1f8e-2b1b-4e5b-a758-7fc4306e66de": {
+      "type": "faq",
+      "blocks": {
+        "template--18272984170798__bcbe1f8e-2b1b-4e5b-a758-7fc4306e66de-1688453441151bec3c-0": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "title": "Do you ship overseas?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+          }
+        },
+        "template--18272984170798__bcbe1f8e-2b1b-4e5b-a758-7fc4306e66de-1688453441151bec3c-1": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "template--18272984170798__bcbe1f8e-2b1b-4e5b-a758-7fc4306e66de-1688453441151bec3c-2": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18272984170798__bcbe1f8e-2b1b-4e5b-a758-7fc4306e66de-1688453441151bec3c-0",
+        "template--18272984170798__bcbe1f8e-2b1b-4e5b-a758-7fc4306e66de-1688453441151bec3c-1",
+        "template--18272984170798__bcbe1f8e-2b1b-4e5b-a758-7fc4306e66de-1688453441151bec3c-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "4ca5583a-3755-4b14-bce7-9e634dd3a6df": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20178477187365__4ca5583a-3755-4b14-bce7-9e634dd3a6df-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--20178477187365__4ca5583a-3755-4b14-bce7-9e634dd3a6df-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--20178477187365__4ca5583a-3755-4b14-bce7-9e634dd3a6df-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>The world is yours to explore. Don't let your bike hold you back. <\/h5><p>All-out racing on hard-packed dirt. All-road riding that links stretches of tarmac with farm tracks and forest trails. Continent crossing adventures onboard loaded down bikes, etc., etc. The concept of \"Gravel\" is as varied as the shapes and sizes of the rocks underneath our tires.<\/p><p>But no matter if racing or roaming is your preferred modus of travel when you point your drop bar bike beyond the pavement, you need gear that's ready to handle anything you embark on.<\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--20178477187365__4ca5583a-3755-4b14-bce7-9e634dd3a6df-subheading-1",
+        "template--20178477187365__4ca5583a-3755-4b14-bce7-9e634dd3a6df-heading-1",
+        "template--20178477187365__4ca5583a-3755-4b14-bce7-9e634dd3a6df-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "07b1b5db-4899-4fd0-a83d-dd9e3a63685c": {
+      "type": "collection-list",
+      "blocks": {
+        "template--20178477187365__07b1b5db-4899-4fd0-a83d-dd9e3a63685c-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-oversized-pulley-wheel-systems",
+            "image": "shopify:\/\/shop_images\/OSPW_8b0eff71-736b-41ad-96dc-a5be3cb53e00.jpg",
+            "subheading": "",
+            "title": "OSPW's",
+            "url": "shopify:\/\/collections\/all-oversized-pulley-wheel-systems",
+            "heading_tag": "h4",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--20178477187365__07b1b5db-4899-4fd0-a83d-dd9e3a63685c-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-pulley-wheels",
+            "image": "shopify:\/\/shop_images\/pulley_wheels.jpg",
+            "subheading": "",
+            "title": "Pulley Wheels",
+            "url": "shopify:\/\/collections\/all-pulley-wheels",
+            "heading_tag": "h4",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--20178477187365__07b1b5db-4899-4fd0-a83d-dd9e3a63685c-collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-ufo-products",
+            "image": "shopify:\/\/shop_images\/UFO_family.jpg",
+            "subheading": "",
+            "title": "UFO Products",
+            "url": "shopify:\/\/collections\/all-ufo-products",
+            "heading_tag": "h4",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "25173d5c-c9c5-45ac-993b-0e77f0fb1f25": {
+          "type": "collection",
+          "settings": {
+            "collection": "bottom-brackets-gravel-1",
+            "image": "shopify:\/\/shop_images\/bottom_bracket.jpg",
+            "subheading": "",
+            "title": "Bottom Brackets",
+            "url": "shopify:\/\/collections\/bottom-brackets-gravel-1",
+            "heading_tag": "h4",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "3bcef693-de09-4cf1-90cb-c28a17fc5781": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-headsets",
+            "image": "shopify:\/\/shop_images\/headset.jpg",
+            "subheading": "",
+            "title": "Headsets",
+            "url": "shopify:\/\/collections\/headsets-gravel",
+            "heading_tag": "h4",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_xGdB78": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "34c21494-0667-4fc6-8971-a88d83bcc2ba": {
+          "type": "collection",
+          "settings": {
+            "collection": "wheel-kits-1",
+            "image": "shopify:\/\/shop_images\/wheel_kits_3bdba232-79ac-49b8-8f6e-0720a47e37b9.jpg",
+            "subheading": "",
+            "title": "Wheel Kits",
+            "url": "shopify:\/\/collections\/wheel-kits-1",
+            "heading_tag": "h4",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--20178477187365__07b1b5db-4899-4fd0-a83d-dd9e3a63685c-collection-1",
+        "template--20178477187365__07b1b5db-4899-4fd0-a83d-dd9e3a63685c-collection-2",
+        "template--20178477187365__07b1b5db-4899-4fd0-a83d-dd9e3a63685c-collection-3",
+        "25173d5c-c9c5-45ac-993b-0e77f0fb1f25",
+        "3bcef693-de09-4cf1-90cb-c28a17fc5781",
+        "collection_xGdB78",
+        "34c21494-0667-4fc6-8971-a88d83bcc2ba"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_collections": true,
+        "collections_per_row": 5,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "a9ff58e7-f2b7-4db1-9d27-35132a06b047": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20178477187365__a9ff58e7-f2b7-4db1-9d27-35132a06b047-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--20178477187365__a9ff58e7-f2b7-4db1-9d27-35132a06b047-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--20178477187365__a9ff58e7-f2b7-4db1-9d27-35132a06b047-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>CeramicSpeed components are designed for performance and built to endure the demands of riding in the most challenging conditions. They're as durable as they're fast, meaning the only limits you have to worry about are those presented by your legs and mind.<\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--20178477187365__a9ff58e7-f2b7-4db1-9d27-35132a06b047-subheading-1",
+        "template--20178477187365__a9ff58e7-f2b7-4db1-9d27-35132a06b047-heading-1",
+        "template--20178477187365__a9ff58e7-f2b7-4db1-9d27-35132a06b047-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "2db1b636-0d44-4d69-9c0a-b209a014aba0": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--20178477187365__2db1b636-0d44-4d69-9c0a-b209a014aba0-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dsc01410-min.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h5>Go everywhere, fast <\/h5><p><\/p><p>Just because your curiosity tells you to discover what's at the end of that dirt road on your right, shouldn't mean you should lose your momentum. Our components' prowess for speed transitions as smoothly from pavement to dirt as the dynamics in a Pixies song. <\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20178477187365__2db1b636-0d44-4d69-9c0a-b209a014aba0-image-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "922d7394-8e02-4adc-bf1d-3515ec996ca0": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20178477187365__922d7394-8e02-4adc-bf1d-3515ec996ca0-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--20178477187365__922d7394-8e02-4adc-bf1d-3515ec996ca0-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--20178477187365__922d7394-8e02-4adc-bf1d-3515ec996ca0-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h1>Explore <\/h1><h1>Enjoy<\/h1><h1>Empower<\/h1><h1>(Repeat)<\/h1>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--20178477187365__922d7394-8e02-4adc-bf1d-3515ec996ca0-subheading-1",
+        "template--20178477187365__922d7394-8e02-4adc-bf1d-3515ec996ca0-heading-1",
+        "template--20178477187365__922d7394-8e02-4adc-bf1d-3515ec996ca0-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "11864416-42f8-44a4-9f86-480a4a1cfb00": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--20178477187365__11864416-42f8-44a4-9f86-480a4a1cfb00-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/custom_resized_251983f7-dd1c-4460-a365-020c9c1433af.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h5>Do-it-all Durability <\/h5><p>There's more to our name than speed. Our products are purpose-built to endure the rigors of mixed-surface, all-conditions riding. Whether you have your sight set on the endless road or racing 10+ hours around Emporia, we'll keep you riding.<\/p>",
+            "link_text": "Lifetime Warranty on Coated Products",
+            "link_url": "shopify:\/\/pages\/lifetime-warrany",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20178477187365__11864416-42f8-44a4-9f86-480a4a1cfb00-image-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "d5fb6e2e-3b9f-49fb-b174-1c5c03211dd5": {
+      "type": "rich-text",
+      "blocks": {
+        "9fd4eccc-83bc-4377-bd25-b2779964fcbc": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "0d3a7729-395e-4b76-bb7b-1a63674add21": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "85286f9f-11ee-44ff-beaa-f733c02c9d90": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gravel_01.gif",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "dd05f4b4-8b3f-4a1e-9995-c2aacee74501": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>The Road to Tavertet<\/p><p>Journey along as Jonas Strømberg and Mattia Paganotti reconnect during an overnight adventure, riding on some of the most scenic roads in Catalonia after more than 1.5 years apart due to the pandemic.<\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "9fd4eccc-83bc-4377-bd25-b2779964fcbc",
+        "0d3a7729-395e-4b76-bb7b-1a63674add21",
+        "85286f9f-11ee-44ff-beaa-f733c02c9d90",
+        "dd05f4b4-8b3f-4a1e-9995-c2aacee74501"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "cc5f8dd3-d341-442e-b616-7eab9266102b": {
+      "type": "video",
+      "blocks": {
+        "template--20178477187365__cc5f8dd3-d341-442e-b616-7eab9266102b-play-1": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--20178477187365__cc5f8dd3-d341-442e-b616-7eab9266102b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--20178477187365__cc5f8dd3-d341-442e-b616-7eab9266102b-play-1",
+        "template--20178477187365__cc5f8dd3-d341-442e-b616-7eab9266102b-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/The Road to Tavertet - A CeramicSpeed Gravel Adventure(720p).mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "ce359378-5e08-45ad-895e-22366497c19f": {
+      "type": "media-with-text",
+      "blocks": {
+        "857bc272-6777-47c9-bff8-2ca97ba39e3f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/custom_resized_96c3d04c-222e-44a2-9de4-dd01197df25b.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h5>Comfortably Compatible<\/h5><p><\/p><p>No matter if your all-road bike is specced with deep-section wheels and a traditional road groupset or if your exploration rig is fitted with 650b rims and a mullet group, we offer gravel components that cover most riders' needs.<\/p>",
+            "link_text": "Our range of Gravel Products",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "857bc272-6777-47c9-bff8-2ca97ba39e3f"
+      ],
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "8d8a7d67-b325-43b2-8dfa-7b1d1a13006c": {
+      "type": "media-with-text",
+      "blocks": {
+        "2be959dc-1a16-4836-8184-a03f41cac938": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/52660966033_7890fc7257_o.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h5>At The Front of The Pack<\/h5><p><\/p><p>Gravel racing is the fastest growing and arguably the most exciting racing scene to follow these years. It's a discipline that demands gear that can handle to be ridden hard and ridden fast. In other words, our natural habitat.<\/p><p><a href=\"https:\/\/www.instagram.com\/p\/CbNOs97gEAj\/\">Cole Paton's<\/a> race-winning ride at MidSouth and <a href=\"https:\/\/www.instagram.com\/p\/CS64WuLKFJ0\/\">Brennan Wertz's<\/a> top-10s in iconic races like Unbound and SBT GRVL are a testament to our components' dirt racing pedigree.<\/p>",
+            "link_text": "Brennan's Hunt for Gravel Glory",
+            "link_url": "shopify:\/\/blogs\/journal\/brennans-hunt-for-gravel-glory-in-2022",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "2be959dc-1a16-4836-8184-a03f41cac938"
+      ],
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "85a3f26a-fb52-40c8-a024-84757de410be": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20178477187365__85a3f26a-fb52-40c8-a024-84757de410be-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--20178477187365__85a3f26a-fb52-40c8-a024-84757de410be-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--20178477187365__85a3f26a-fb52-40c8-a024-84757de410be-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "",
+            "text_align": "center"
+          }
+        },
+        "b7a02eb9-aa35-45ef-b4e1-88e21da2286e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/36a26544c948d06fa497c4f66342403066c366c7.png",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "template--20178477187365__85a3f26a-fb52-40c8-a024-84757de410be-subheading-1",
+        "template--20178477187365__85a3f26a-fb52-40c8-a024-84757de410be-heading-1",
+        "template--20178477187365__85a3f26a-fb52-40c8-a024-84757de410be-richtext-1",
+        "b7a02eb9-aa35-45ef-b4e1-88e21da2286e"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "eef752d5-6f9f-4683-a98b-e262a9bedfba",
+    "56104697-95a7-4de4-875d-dbd557b43f98",
+    "main",
+    "e6e99b14-c77b-45e9-90a4-ebb385bf75e6",
+    "e35e02cf-25e3-4570-83c5-52e7bdac53a7",
+    "bcbe1f8e-2b1b-4e5b-a758-7fc4306e66de",
+    "4ca5583a-3755-4b14-bce7-9e634dd3a6df",
+    "07b1b5db-4899-4fd0-a83d-dd9e3a63685c",
+    "a9ff58e7-f2b7-4db1-9d27-35132a06b047",
+    "2db1b636-0d44-4d69-9c0a-b209a014aba0",
+    "922d7394-8e02-4adc-bf1d-3515ec996ca0",
+    "11864416-42f8-44a4-9f86-480a4a1cfb00",
+    "d5fb6e2e-3b9f-49fb-b174-1c5c03211dd5",
+    "cc5f8dd3-d341-442e-b616-7eab9266102b",
+    "ce359378-5e08-45ad-895e-22366497c19f",
+    "8d8a7d67-b325-43b2-8dfa-7b1d1a13006c",
+    "85a3f26a-fb52-40c8-a024-84757de410be"
+  ]
+}

@@ -1,0 +1,471 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "aca770b3-d895-4430-aa05-0990de07e08a": {
+      "type": "rich-text",
+      "blocks": {
+        "3e3fb28b-c92d-4cd9-965c-c4193fb676ed": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon": "picto-timer",
+            "icon_width": 32,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": ""
+          }
+        },
+        "d1fdfc50-8096-4401-9f4f-9b3c3f9e37ac": {
+          "type": "heading",
+          "settings": {
+            "text": "Tech School",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--18216822309166__aca770b3-d895-4430-aa05-0990de07e08a-16777526798b832ccb-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "3e3fb28b-c92d-4cd9-965c-c4193fb676ed",
+        "d1fdfc50-8096-4401-9f4f-9b3c3f9e37ac",
+        "template--18216822309166__aca770b3-d895-4430-aa05-0990de07e08a-16777526798b832ccb-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "0e3250bf-4d98-4058-90b8-d987282adb45": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20486813450533__0e3250bf-4d98-4058-90b8-d987282adb45-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--20486813450533__0e3250bf-4d98-4058-90b8-d987282adb45-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--20486813450533__0e3250bf-4d98-4058-90b8-d987282adb45-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>Effective Chain Cleaning<\/h5>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--20486813450533__0e3250bf-4d98-4058-90b8-d987282adb45-subheading-1",
+        "template--20486813450533__0e3250bf-4d98-4058-90b8-d987282adb45-heading-1",
+        "template--20486813450533__0e3250bf-4d98-4058-90b8-d987282adb45-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "897b9065-369f-4c88-9698-9a914532e466": {
+      "type": "video",
+      "blocks": {
+        "template--20486813450533__897b9065-369f-4c88-9698-9a914532e466-play-1": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--20486813450533__897b9065-369f-4c88-9698-9a914532e466-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--20486813450533__897b9065-369f-4c88-9698-9a914532e466-play-1",
+        "template--20486813450533__897b9065-369f-4c88-9698-9a914532e466-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/CeramicSpeed UFO Bike Wash_65c607f3-6300-4ae0-a88e-eb0be9c3cdee.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "bf055459-10ec-465d-ad5f-722a4939670b": {
+      "type": "rich-text",
+      "blocks": {
+        "aa13f908-3b4e-4937-87de-0c25f079c8f6": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "9f507967-3f2e-43ee-affc-497790e5771a": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "8f0cb62c-7c3d-4472-86a6-48624c2337b2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>How To Install CeramicSpeed Pulley Wheel for Shimano & Campagnolo<\/h5>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "aa13f908-3b4e-4937-87de-0c25f079c8f6",
+        "9f507967-3f2e-43ee-affc-497790e5771a",
+        "8f0cb62c-7c3d-4472-86a6-48624c2337b2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "e8b5a16e-a665-4d40-9371-94ae69df29c4": {
+      "type": "video",
+      "blocks": {
+        "30d2d807-af6d-4276-b872-093fefa15596": {
+          "type": "play",
+          "settings": {}
+        },
+        "ea1fb4b6-3101-4236-a0bc-7ff90f7a435d": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "30d2d807-af6d-4276-b872-093fefa15596",
+        "ea1fb4b6-3101-4236-a0bc-7ff90f7a435d"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/How to Install Your Ceramicspeed Standard Pulleys for Shimano and Campagnolo.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "e46544e4-94c1-4734-b39e-fb56ecc4a496": {
+      "type": "rich-text",
+      "blocks": {
+        "caa55ea8-f457-476d-8955-abd63ec447f9": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "58a3ee3d-9d26-41c7-8450-4ad7a9c8de01": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "00f69894-253b-4cee-b621-78d88df4cdd0": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>How to Install CeramicSpeed Pulley Wheels for SRAM<\/h5>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "caa55ea8-f457-476d-8955-abd63ec447f9",
+        "58a3ee3d-9d26-41c7-8450-4ad7a9c8de01",
+        "00f69894-253b-4cee-b621-78d88df4cdd0"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "a7594f78-8784-4f6b-b95f-06cd678c9fe1": {
+      "type": "video",
+      "blocks": {
+        "69db39f8-2735-49cf-859e-1911e3a79805": {
+          "type": "play",
+          "settings": {}
+        },
+        "549725a9-d821-446b-8920-34d17369b754": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "69db39f8-2735-49cf-859e-1911e3a79805",
+        "549725a9-d821-446b-8920-34d17369b754"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/How to Install Your CeramicSpeed Standard Pulleys for SRAM_.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "5d9a5596-c235-4599-8848-62306f7b5530": {
+      "type": "rich-text",
+      "blocks": {
+        "1baaac74-df20-4ab4-96de-fc6e0c5b09f3": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "5bac82d2-5484-4e75-a792-d219e9fbd8b3": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "c92460e9-eac2-4d1b-a3f3-53d2c8501b02": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>How to Service CeramicSpeed Standard Pulley Wheels<\/h5>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1baaac74-df20-4ab4-96de-fc6e0c5b09f3",
+        "5bac82d2-5484-4e75-a792-d219e9fbd8b3",
+        "c92460e9-eac2-4d1b-a3f3-53d2c8501b02"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "e5e715fa-79e2-42f9-8b11-39f4382ecb99": {
+      "type": "video",
+      "blocks": {
+        "3f5784a1-e514-4cf9-ba88-47a27b92577b": {
+          "type": "play",
+          "settings": {}
+        },
+        "7a191fad-7e4a-4c67-8bfb-dbdc341c9312": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "3f5784a1-e514-4cf9-ba88-47a27b92577b",
+        "7a191fad-7e4a-4c67-8bfb-dbdc341c9312"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/How to Service Your CeramicSpeed Standard Pulley Wheels.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "c2d33b15-5de9-4419-aada-49b5cb9ae2fd": {
+      "type": "rich-text",
+      "blocks": {
+        "64b785cc-894f-4b04-9b24-7065c17dbd0b": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "946afff8-35d4-439b-bf1f-5b64d9273ba7": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "d6288633-621a-42ad-bdc8-12a72349e3b5": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>The Benefits of the Narrow-wide Pulley Tooth Profile<\/h5>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "64b785cc-894f-4b04-9b24-7065c17dbd0b",
+        "946afff8-35d4-439b-bf1f-5b64d9273ba7",
+        "d6288633-621a-42ad-bdc8-12a72349e3b5"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "798ae79c-8e6a-4044-890f-c4bc38ea486b": {
+      "type": "video",
+      "blocks": {
+        "266f640b-73a6-4a42-aeab-d123ca297cdd": {
+          "type": "play",
+          "settings": {}
+        },
+        "3f9c8203-b3f4-4846-834b-4c9ed2914b92": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "266f640b-73a6-4a42-aeab-d123ca297cdd",
+        "3f9c8203-b3f4-4846-834b-4c9ed2914b92"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/The Benefits of Narrow Wide Pulley Wheel Tooth Profile.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "dc4b6fdb-04bd-4aae-bc65-aff79795138a": {
+      "type": "rich-text",
+      "blocks": {
+        "1663d6a8-8348-49af-88ff-05aa9e5370f9": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "5e8353f3-d5d4-46fb-ae52-f80d2eb860d5": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "e7d5b15c-1238-4f9b-b884-4192f3f54140": {
+          "type": "richtext",
+          "settings": {
+            "content": "",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1663d6a8-8348-49af-88ff-05aa9e5370f9",
+        "5e8353f3-d5d4-46fb-ae52-f80d2eb860d5",
+        "e7d5b15c-1238-4f9b-b884-4192f3f54140"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "aca770b3-d895-4430-aa05-0990de07e08a",
+    "0e3250bf-4d98-4058-90b8-d987282adb45",
+    "897b9065-369f-4c88-9698-9a914532e466",
+    "bf055459-10ec-465d-ad5f-722a4939670b",
+    "e8b5a16e-a665-4d40-9371-94ae69df29c4",
+    "e46544e4-94c1-4734-b39e-fb56ecc4a496",
+    "a7594f78-8784-4f6b-b95f-06cd678c9fe1",
+    "5d9a5596-c235-4599-8848-62306f7b5530",
+    "e5e715fa-79e2-42f9-8b11-39f4382ecb99",
+    "c2d33b15-5de9-4419-aada-49b5cb9ae2fd",
+    "798ae79c-8e6a-4044-890f-c4bc38ea486b",
+    "dc4b6fdb-04bd-4aae-bc65-aff79795138a"
+  ]
+}

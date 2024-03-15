@@ -1,0 +1,328 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "disabled": true,
+      "settings": {
+        "allow_transparent_header": false,
+        "layout": "content_first",
+        "show_author": true,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px"
+      }
+    },
+    "e650360f-893a-4a54-833b-e1518be4892e": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18123979915566__e650360f-893a-4a54-833b-e1518be4892e-1678193963a0b029a4-1": {
+          "type": "heading",
+          "settings": {
+            "text": "In the Wheelhouse with Hunt",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--18123979915566__e650360f-893a-4a54-833b-e1518be4892e-1678193963a0b029a4-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/roofowler_RZ91219_1.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "2f53b1e8-d38f-4945-a6b7-0be67279972a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18123979915566__2f53b1e8-d38f-4945-a6b7-0be67279972a-167819433943960406-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--18123979915566__2f53b1e8-d38f-4945-a6b7-0be67279972a-167819433943960406-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--18123979915566__2f53b1e8-d38f-4945-a6b7-0be67279972a-167819433943960406-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Over the years, we've been chosen by some of the world’s most renowned wheel brands in an attempt to make their wheels even faster and more capable. As we all know it takes two to tango, which is also the case for most of our products that are complimentary by nature. Dependent on other products to unlock their benefits, while elevating that exact product at the same time. <\/p><p>For the second installment of our short mini-series highlighting some of our key OEM-partners within the world of Wheels, we're focusing on our longstanding partner <strong>Hunt.<\/strong><\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--18123979915566__2f53b1e8-d38f-4945-a6b7-0be67279972a-167819433943960406-0",
+        "template--18123979915566__2f53b1e8-d38f-4945-a6b7-0be67279972a-167819433943960406-1",
+        "template--18123979915566__2f53b1e8-d38f-4945-a6b7-0be67279972a-167819433943960406-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_grid_qc9rFg": {
+      "type": "media-grid",
+      "blocks": {
+        "image_QBfKzW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HUNT_Wind_Tunnel_08-22-22.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_LG7XzH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HUNT_Wind_Tunnel_08-22-26.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_QBfKzW",
+        "image_LG7XzH"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": true,
+        "desktop_row_height": 170,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "866a6d97-8457-4285-a5b4-aebe30cb4428": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18123979915566__866a6d97-8457-4285-a5b4-aebe30cb4428-167819433943960406-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>HUNT is a British founded company that exists to serve riders with purpose-focused bike wheels. HUNT offers wheels within both Road, Gravel, and MTB. <\/p><p>Their development process is driven by the needs of real-world riders, then tested<br\/>and validated by their supported athletes and teams. <\/p><p>Their mission is to serve devoted riders with the highest performing products, backed by best-in-class rider support.<\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--18123979915566__866a6d97-8457-4285-a5b4-aebe30cb4428-167819433943960406-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "slideshow_PxmjhP": {
+      "type": "slideshow",
+      "blocks": {
+        "image_zrFPW3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/roofowler_RZ91217_1.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_zrFPW3"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
+      }
+    },
+    "40453fe5-98ff-42e2-96d4-f53cc4647988": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18272983843118__40453fe5-98ff-42e2-96d4-f53cc4647988-1680247564a5ac5646-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>We caught up with Hunt Development Engineer, Patrick Brown to learn more about HUNT and their process. <\/p><p><em>Starting off big here, if you had to put into words what the ethos behind Hunt as a<br\/>brand is, how would you describe that<\/em> <br\/><br\/>The primary ethos of Hunt has always been to serve the rider and provide them<br\/>with a product which will improve their performance or experience on the bike. <\/p><p><em>What is the common thread that runs through Hunt's portfolio of wheels? <\/em><\/p><p>We always aim to make wheels that would win a group test, so to be the best product on the market in a given field, considering all factors that are important to the rider. If we don’t think the product can achieve that objective, we won’t bring that product<br\/>to market.<\/p><p><\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--18272983843118__40453fe5-98ff-42e2-96d4-f53cc4647988-1680247564a5ac5646-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "slideshow_UGkhKp": {
+      "type": "slideshow",
+      "blocks": {
+        "image_cR6Ecb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Chris-Testing.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_cR6Ecb"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
+      }
+    },
+    "b4303a10-2d8c-4d3d-acd1-766192760a35": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18272983843118__b4303a10-2d8c-4d3d-acd1-766192760a35-1680247564a5ac5646-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><em>In your opinion, which characteristics are most important to create a great set of wheels?<\/em><\/p><p>Specificity, there can be no wheel for every possible use case so we come at each project with the aim to make a the best possible wheel for a given use case, for a Limitless wheel all of the design choices are made to make the most aerodynamic wheelset this would not make sense on a hill climb wheelset.<\/p><p><em>For a brand like Hunt, what is the appeal of collaborating with us at CeramicSpeed<\/em><\/p><p>CeramicSpeed make the fastest bearings on the market so for the wheels who’s purpose is based around being as fast as possible we really don’t have a choice but to spec them!<\/p><p><br\/>Learn more about HUNT and their wheels here: <a href=\"https:\/\/eu.huntbikewheels.com\" title=\"https:\/\/eu.huntbikewheels.com\">https:\/\/eu.huntbikewheels.com<\/a><\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--18272983843118__b4303a10-2d8c-4d3d-acd1-766192760a35-1680247564a5ac5646-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "e650360f-893a-4a54-833b-e1518be4892e",
+    "2f53b1e8-d38f-4945-a6b7-0be67279972a",
+    "media_grid_qc9rFg",
+    "866a6d97-8457-4285-a5b4-aebe30cb4428",
+    "slideshow_PxmjhP",
+    "40453fe5-98ff-42e2-96d4-f53cc4647988",
+    "slideshow_UGkhKp",
+    "b4303a10-2d8c-4d3d-acd1-766192760a35"
+  ]
+}

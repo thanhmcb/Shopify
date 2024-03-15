@@ -1,0 +1,407 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "9e63b292-da40-436f-84b5-905e66b26bb6": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--20768640925989__9e63b292-da40-436f-84b5-905e66b26bb6-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--20768640925989__9e63b292-da40-436f-84b5-905e66b26bb6-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "FAQ",
+            "heading_tag": "h1"
+          }
+        },
+        "template--20768640925989__9e63b292-da40-436f-84b5-905e66b26bb6-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>The most common questions we get asked about Oversized Pulley Wheel Systems<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20768640925989__9e63b292-da40-436f-84b5-905e66b26bb6-subheading-1",
+        "template--20768640925989__9e63b292-da40-436f-84b5-905e66b26bb6-heading-1",
+        "template--20768640925989__9e63b292-da40-436f-84b5-905e66b26bb6-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/368f472e86526615b9713aa625dbf10307ff100f_4a6fd297-9685-42e4-bca2-d794921fba17.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "a2e6f81a-b71e-4757-a782-80da5dde17f2": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20768640925989__a2e6f81a-b71e-4757-a782-80da5dde17f2-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--20768640925989__a2e6f81a-b71e-4757-a782-80da5dde17f2-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--20768640925989__a2e6f81a-b71e-4757-a782-80da5dde17f2-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>CeramicSpeed OSPW System FAQs<\/h5><p>Watch as we answer the most frequently asked questions about our CeramicSpeed OSPW System - or read the questions and answers below.<\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--20768640925989__a2e6f81a-b71e-4757-a782-80da5dde17f2-subheading-1",
+        "template--20768640925989__a2e6f81a-b71e-4757-a782-80da5dde17f2-heading-1",
+        "template--20768640925989__a2e6f81a-b71e-4757-a782-80da5dde17f2-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "e206cb58-05cf-4062-a365-18426f576847": {
+      "type": "video",
+      "blocks": {
+        "template--19665220043045__e206cb58-05cf-4062-a365-18426f576847-play-1": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--19665220043045__e206cb58-05cf-4062-a365-18426f576847-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--19665220043045__e206cb58-05cf-4062-a365-18426f576847-play-1",
+        "template--19665220043045__e206cb58-05cf-4062-a365-18426f576847-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/CeramicSpeed FAQs - OSPW System (Part 1).mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "poster": "shopify:\/\/shop_images\/FAQ-OSPW-1.jpg",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "a00d9d74-4781-41dc-877c-2a7614e13eeb": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20768640925989__a00d9d74-4781-41dc-877c-2a7614e13eeb-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--20768640925989__a00d9d74-4781-41dc-877c-2a7614e13eeb-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--20768640925989__a00d9d74-4781-41dc-877c-2a7614e13eeb-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--20768640925989__a00d9d74-4781-41dc-877c-2a7614e13eeb-subheading-1",
+        "template--20768640925989__a00d9d74-4781-41dc-877c-2a7614e13eeb-heading-1",
+        "template--20768640925989__a00d9d74-4781-41dc-877c-2a7614e13eeb-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "aa7fc521-ba85-45cf-900e-74f2ca85337b": {
+      "type": "video",
+      "blocks": {
+        "template--20768640925989__aa7fc521-ba85-45cf-900e-74f2ca85337b-play-1": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--20768640925989__aa7fc521-ba85-45cf-900e-74f2ca85337b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--20768640925989__aa7fc521-ba85-45cf-900e-74f2ca85337b-play-1",
+        "template--20768640925989__aa7fc521-ba85-45cf-900e-74f2ca85337b-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/CeramicSpeed FAQs - OSPW System (Part 2).mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "poster": "shopify:\/\/shop_images\/FAQ-OSPW-2.jpg",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "7d097163-0256-44be-ad92-e94ab61b4d33": {
+      "type": "rich-text",
+      "blocks": {
+        "5daac881-b60c-4bd8-b8f8-238af1c612d4": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "26c4c88f-e2ea-4415-b229-8b78382b9fe8": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "87d63f6c-c91e-42c9-96d3-36cc8f5f3ade": {
+          "type": "richtext",
+          "settings": {
+            "content": "",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "5daac881-b60c-4bd8-b8f8-238af1c612d4",
+        "26c4c88f-e2ea-4415-b229-8b78382b9fe8",
+        "87d63f6c-c91e-42c9-96d3-36cc8f5f3ade"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "ed33a764-d053-4157-a7c5-3be53470b59f": {
+      "type": "video",
+      "blocks": {
+        "template--20768640925989__ed33a764-d053-4157-a7c5-3be53470b59f-play-1": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--20768640925989__ed33a764-d053-4157-a7c5-3be53470b59f-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--20768640925989__ed33a764-d053-4157-a7c5-3be53470b59f-play-1",
+        "template--20768640925989__ed33a764-d053-4157-a7c5-3be53470b59f-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/CeramicSpeed FAQs - OSPW System (Part 3).mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "poster": "shopify:\/\/shop_images\/FAQ-OSPW-3.jpg",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "ff391559-0aff-47ab-a061-84155f149d69": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20768640925989__ff391559-0aff-47ab-a061-84155f149d69-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>The Benefits of Narrow Wide Pulley Wheel Tooth Profile<\/h5>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--20768640925989__ff391559-0aff-47ab-a061-84155f149d69-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "76112e26-d732-414c-983e-1793d1474295": {
+      "type": "video",
+      "blocks": {
+        "template--20768640925989__76112e26-d732-414c-983e-1793d1474295-play-1": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--20768640925989__76112e26-d732-414c-983e-1793d1474295-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--20768640925989__76112e26-d732-414c-983e-1793d1474295-play-1",
+        "template--20768640925989__76112e26-d732-414c-983e-1793d1474295-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/The Benefits of Narrow Wide Pulley Wheel Tooth Profile.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "poster": "shopify:\/\/shop_images\/FAQ-OSPW-4.jpg",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "56238eb5-ce98-488d-8744-7d3c1354719a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20768640925989__56238eb5-ce98-488d-8744-7d3c1354719a-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>CeramicSpeed OSPW System compatibility<\/h5><p>CeramicSpeed has developed a broad range of OSPW Systems to fit most modern road and mountain bike derailleurs from Shimano, SRAM and Campagnolo. Please see <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/7542\/6606\/files\/ospw-matrix_2022-09_1.pdf?v=1686812228\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/7542\/6606\/files\/ospw-matrix_2022-09_1.pdf?v=1686812228\">compatibility chart<\/a> for a comprehensive listing.<\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--20768640925989__56238eb5-ce98-488d-8744-7d3c1354719a-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "3698e1c1-7a04-4cbc-920b-d53f13e54e89": {
+      "type": "faq",
+      "blocks": {
+        "083ae1e8-17e3-448d-bdff-b8b4b57c219c": {
+          "type": "item",
+          "repeater": "{{ page.metafields.custom.faq.value }}",
+          "settings": {
+            "title": "{{ block.repeater.question.value }}",
+            "content": "{{ block.repeater.answer | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "083ae1e8-17e3-448d-bdff-b8b4b57c219c"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "9e63b292-da40-436f-84b5-905e66b26bb6",
+    "a2e6f81a-b71e-4757-a782-80da5dde17f2",
+    "e206cb58-05cf-4062-a365-18426f576847",
+    "a00d9d74-4781-41dc-877c-2a7614e13eeb",
+    "aa7fc521-ba85-45cf-900e-74f2ca85337b",
+    "7d097163-0256-44be-ad92-e94ab61b4d33",
+    "ed33a764-d053-4157-a7c5-3be53470b59f",
+    "ff391559-0aff-47ab-a061-84155f149d69",
+    "76112e26-d732-414c-983e-1793d1474295",
+    "56238eb5-ce98-488d-8744-7d3c1354719a",
+    "3698e1c1-7a04-4cbc-920b-d53f13e54e89"
+  ]
+}

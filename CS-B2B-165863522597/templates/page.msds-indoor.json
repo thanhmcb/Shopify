@@ -1,0 +1,521 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "ea28194d-87df-43b5-9cf1-f7ee6ad973e8": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18272984432942__ea28194d-87df-43b5-9cf1-f7ee6ad973e8-168508213351e0db4a-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--18272984432942__ea28194d-87df-43b5-9cf1-f7ee6ad973e8-168508213351e0db4a-1": {
+          "type": "heading",
+          "settings": {
+            "text": "UFO Drip Indoor MSDS Documents",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18272984432942__ea28194d-87df-43b5-9cf1-f7ee6ad973e8-168508213351e0db4a-0",
+        "template--18272984432942__ea28194d-87df-43b5-9cf1-f7ee6ad973e8-168508213351e0db4a-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "43bfff3b-5dcf-455c-8fdd-6a345964b445": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18272984432942__43bfff3b-5dcf-455c-8fdd-6a345964b445-1685438180f63b8d6f-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--18272984432942__43bfff3b-5dcf-455c-8fdd-6a345964b445-1685438180f63b8d6f-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--18272984432942__43bfff3b-5dcf-455c-8fdd-6a345964b445-1685438180f63b8d6f-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "",
+            "text_align": "center"
+          }
+        },
+        "fd06129b-405a-4bcc-b441-3d44b483fdb0": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "UFO Drip Indoor AE_en",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0723\/1540\/4581\/files\/Ceramicspeed_AS___UFO_Drip_Optimized_for_Indoor___AE___en.pdf?v=1708327395",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "button_zQDjYk": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "UFO Drip Indoor AT_de",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0723\/1540\/4581\/files\/UFO_Drip_Optimized_for_Indoor___AT___de.pdf?v=1708327340",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "ee7a7672-05f6-4943-a8ab-d90695c6f95a": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "UFO Drip Indoor BE_de",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0723\/1540\/4581\/files\/UFO_Drip_Optimized_for_Indoor___BE___de.pdf?v=1708327341",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "65ca8110-a297-42ab-bc4a-1e87c629242d": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "UFO Drip Indoor BE_fr",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0723\/1540\/4581\/files\/UFO_Drip_Optimized_for_Indoor___BE___fr.pdf?v=1708327340",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "a7dd4bd3-16f9-4ad9-ab30-1cde950127b7": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "UFO Drip Indoor BE_nl",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0723\/1540\/4581\/files\/UFO_Drip_Optimized_for_Indoor___BE___nl.pdf?v=1708327340",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "button_eaLJVg": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "UFO Drip Indoor BG_bg",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0723\/1540\/4581\/files\/Ceramicspeed_AS___UFO_Drip_Optimized_for_Indoor___BG___bg.pdf?v=1708327395",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "b8ddbd3c-c0c3-4975-a147-873189e1cb9c": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "UFO Drip Indoor CH_de",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0723\/1540\/4581\/files\/UFO_Drip_Optimized_for_Indoor___CH___de.pdf?v=1708327340",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "296fc229-5f95-4682-8b46-51202640594e": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "UFO Drip Indoor CH_fr",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0723\/1540\/4581\/files\/UFO_Drip_Optimized_for_Indoor___CH___fr.pdf?v=1708327340",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "99d597a2-c796-4405-b41c-ec1f8fb3d7fe": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "UFO Drip Indoor CH_it",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0723\/1540\/4581\/files\/UFO_Drip_Optimized_for_Indoor___CH___it.pdf?v=1708327340",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "3cc347ab-1c17-4c53-ba5b-88bfe88b9fa5": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "UFO Drip Indoor CN_zh",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0723\/1540\/4581\/files\/UFO_Drip_Optimized_for_Indoor___CH___it.pdf?v=1708327340",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "37f4589a-8a93-4747-9d9e-984658362ce9": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "UFO Drip Indoor CZ_cs",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0723\/1540\/4581\/files\/Ceramicspeed_AS___UFO_Drip_Optimized_for_Indoor___CZ___cs.pdf?v=1708327395",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "9f0fd253-1238-42fc-822d-1f530dd674b1": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "UFO Drip Indoor DE_de",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0723\/1540\/4581\/files\/UFO_Drip_Optimized_for_Indoor___DE___de.pdf?v=1708327340",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "63e79462-3778-413b-8477-caf1da9aaef3": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "UFO Drip Indoor DK_da",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0723\/1540\/4581\/files\/UFO_Drip_Optimized_for_Indoor___DK___da.pdf?v=1708327340",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "f8b40efa-076b-4b6f-aea1-8fe070006345": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "UFO Drip Indoor EE_et",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0723\/1540\/4581\/files\/UFO_Drip_Optimized_for_Indoor___EE___et.pdf?v=1708327341",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "e50e5049-3952-4160-b5a7-f04d16e93ff0": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "UFO Drip Indoor ES_es",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0723\/1540\/4581\/files\/UFO_Drip_Optimized_for_Indoor___ES___es.pdf?v=1708327340",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "388d3a7a-20f9-42f2-ab84-7b950007912b": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "UFO Drip Indoor FI_fi",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0723\/1540\/4581\/files\/UFO_Drip_Optimized_for_Indoor___FI___fi.pdf?v=1708327341",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "1ea72de7-d57d-4bad-bfc0-272de8aee641": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "UFO Drip Indoor FI_sv",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0723\/1540\/4581\/files\/UFO_Drip_Optimized_for_Indoor___FI___sv.pdf?v=1708327340",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "4a73b2b3-6e2a-4970-acdb-b18c5d15a5ae": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "UFO Drip Indoor FR_fr",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0723\/1540\/4581\/files\/UFO_Drip_Optimized_for_Indoor___FR___fr.pdf?v=1708327341",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "button_BGJYLB": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "UFO Drip Indoor GB_en",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0723\/1540\/4581\/files\/Ceramicspeed_AS___UFO_Drip_Optimized_for_Indoor___GB___en.pdf?v=1708327395",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "button_EkAGQL": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "UFO Drip Indoor HR_hr",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0723\/1540\/4581\/files\/Ceramicspeed_AS___UFO_Drip_Optimized_for_Indoor___HR___hr.pdf?v=1708327395",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "c8c12c6b-3a44-4e3c-a25b-0ae4ca2e0497": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "UFO Drip Indoor IS_is",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0723\/1540\/4581\/files\/UFO_Drip_Optimized_for_Indoor___IS___is.pdf?v=1708327340",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "b78c151b-b74d-4cc5-8872-d623aac69efd": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "UFO Drip Indoor IT_it",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0723\/1540\/4581\/files\/UFO_Drip_Optimized_for_Indoor___IT___it.pdf?v=1708327340",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "button_3U3Mfq": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "UFO Drip Indoor JP_ja",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0723\/1540\/4581\/files\/Ceramicspeed_AS___UFO_Drip_Optimized_for_Indoor___JP___ja.pdf?v=1708327395",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "63cd8876-f756-4814-bede-fc68627d53f5": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "UFO Drip Indoor LU_de",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0723\/1540\/4581\/files\/UFO_Drip_Optimized_for_Indoor___LU___de.pdf?v=1708327340",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "6769add4-4a27-4426-b63b-78d7641941be": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "UFO Drip Indoor LU_fr",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0723\/1540\/4581\/files\/UFO_Drip_Optimized_for_Indoor___LU___fr.pdf?v=1708327340",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "3bd42d6e-b288-4536-907c-4b1cdbedea21": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "UFO Drip Indoor LV_lv",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0723\/1540\/4581\/files\/UFO_Drip_Optimized_for_Indoor___LV___lv.pdf?v=1708327340",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "5e0a0b7d-9490-4e75-92d8-ff411e85d95a": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "UFO Drip Indoor NL_nl",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0723\/1540\/4581\/files\/UFO_Drip_Optimized_for_Indoor___NL___nl.pdf?v=1708327340",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "310805e0-8cbc-444c-b416-a7d9bba0b1fc": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "UFO Drip Indoor NO_nb",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0723\/1540\/4581\/files\/UFO_Drip_Optimized_for_Indoor___NO___nb.pdf?v=1708327340",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "dcabf060-11f3-41f7-b01a-3289692a324a": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "UFO Drip Indoor PL_pl",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0723\/1540\/4581\/files\/UFO_Drip_Optimized_for_Indoor___PL___pl.pdf?v=1708327340",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "5b9ab1c1-3743-4af2-8d3e-7d94e350e4c6": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "UFO Drip Indoor PT_pt",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0723\/1540\/4581\/files\/UFO_Drip_Optimized_for_Indoor___PT___pt.pdf?v=1708327340",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "button_jKKBjW": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "UFO Drip Indoor RO_ro",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0723\/1540\/4581\/files\/Ceramicspeed_AS___UFO_Drip_Optimized_for_Indoor___RO___ro.pdf?v=1708327395",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "b3fd00e1-a316-4eff-a3cd-edc92910ac16": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "UFO Drip Indoor SE_sv",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0723\/1540\/4581\/files\/UFO_Drip_Optimized_for_Indoor___SE___sv.pdf?v=1708327340",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "button_rghrbw": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "UFO Drip Indoor TR_tr",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0723\/1540\/4581\/files\/Ceramicspeed_AS___UFO_Drip_Optimized_for_Indoor___TR___tr.pdf?v=1708327395",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "button_xBcnNL": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "UFO Drip Indoor UA_uk",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0723\/1540\/4581\/files\/Ceramicspeed_AS___UFO_Drip_Optimized_for_Indoor___UA___uk.pdf?v=1708327395",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "7e6c27ee-465c-48e3-9d0c-42611a99b47c": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "UFO Drip Indoor US_en",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0723\/1540\/4581\/files\/UFO_Drip_Optimized_for_Indoor___US___en.pdf?v=1708327340",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "77a44241-85bb-4280-8aef-82eabb66fb2a": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "UFO Drip Indoor US_es",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0723\/1540\/4581\/files\/UFO_Drip_Optimized_for_Indoor___US___es.pdf?v=1708327340",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18272984432942__43bfff3b-5dcf-455c-8fdd-6a345964b445-1685438180f63b8d6f-0",
+        "template--18272984432942__43bfff3b-5dcf-455c-8fdd-6a345964b445-1685438180f63b8d6f-1",
+        "template--18272984432942__43bfff3b-5dcf-455c-8fdd-6a345964b445-1685438180f63b8d6f-2",
+        "fd06129b-405a-4bcc-b441-3d44b483fdb0",
+        "button_zQDjYk",
+        "ee7a7672-05f6-4943-a8ab-d90695c6f95a",
+        "65ca8110-a297-42ab-bc4a-1e87c629242d",
+        "a7dd4bd3-16f9-4ad9-ab30-1cde950127b7",
+        "button_eaLJVg",
+        "b8ddbd3c-c0c3-4975-a147-873189e1cb9c",
+        "296fc229-5f95-4682-8b46-51202640594e",
+        "99d597a2-c796-4405-b41c-ec1f8fb3d7fe",
+        "3cc347ab-1c17-4c53-ba5b-88bfe88b9fa5",
+        "37f4589a-8a93-4747-9d9e-984658362ce9",
+        "9f0fd253-1238-42fc-822d-1f530dd674b1",
+        "63e79462-3778-413b-8477-caf1da9aaef3",
+        "f8b40efa-076b-4b6f-aea1-8fe070006345",
+        "e50e5049-3952-4160-b5a7-f04d16e93ff0",
+        "388d3a7a-20f9-42f2-ab84-7b950007912b",
+        "1ea72de7-d57d-4bad-bfc0-272de8aee641",
+        "4a73b2b3-6e2a-4970-acdb-b18c5d15a5ae",
+        "button_BGJYLB",
+        "button_EkAGQL",
+        "c8c12c6b-3a44-4e3c-a25b-0ae4ca2e0497",
+        "b78c151b-b74d-4cc5-8872-d623aac69efd",
+        "button_3U3Mfq",
+        "63cd8876-f756-4814-bede-fc68627d53f5",
+        "6769add4-4a27-4426-b63b-78d7641941be",
+        "3bd42d6e-b288-4536-907c-4b1cdbedea21",
+        "5e0a0b7d-9490-4e75-92d8-ff411e85d95a",
+        "310805e0-8cbc-444c-b416-a7d9bba0b1fc",
+        "dcabf060-11f3-41f7-b01a-3289692a324a",
+        "5b9ab1c1-3743-4af2-8d3e-7d94e350e4c6",
+        "button_jKKBjW",
+        "b3fd00e1-a316-4eff-a3cd-edc92910ac16",
+        "button_rghrbw",
+        "button_xBcnNL",
+        "7e6c27ee-465c-48e3-9d0c-42611a99b47c",
+        "77a44241-85bb-4280-8aef-82eabb66fb2a"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ea28194d-87df-43b5-9cf1-f7ee6ad973e8",
+    "43bfff3b-5dcf-455c-8fdd-6a345964b445"
+  ]
+}

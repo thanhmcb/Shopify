@@ -1,0 +1,298 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "3db86d21-e949-4476-90e5-64fecffed43e": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Installation",
+            "heading_tag": "h1"
+          }
+        },
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>How to install your Oversized Pulley Wheel System<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-1",
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/e0ce2ad5909ecbaef2172a2e3443ada2d29f8dde.png",
+        "mobile_image": "shopify:\/\/shop_images\/8a583fe413043b7604bdc9970422c8e548a14c9e.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "aca770b3-d895-4430-aa05-0990de07e08a": {
+      "type": "rich-text",
+      "blocks": {
+        "3e3fb28b-c92d-4cd9-965c-c4193fb676ed": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon": "picto-timer",
+            "icon_width": 32,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": ""
+          }
+        },
+        "d1fdfc50-8096-4401-9f4f-9b3c3f9e37ac": {
+          "type": "heading",
+          "settings": {
+            "text": "Installation of OSPW Systems",
+            "heading_tag": "h5",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--18216822309166__aca770b3-d895-4430-aa05-0990de07e08a-16777526798b832ccb-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>For installation of your Oversized Pulley Wheel System find your model below for tutorials and documentation.<\/p><p>The exact mounting process and tools you will need differ from bike to bike.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "3e3fb28b-c92d-4cd9-965c-c4193fb676ed",
+        "d1fdfc50-8096-4401-9f4f-9b3c3f9e37ac",
+        "template--18216822309166__aca770b3-d895-4430-aa05-0990de07e08a-16777526798b832ccb-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "69dc3a18-61eb-4f0b-a1ca-e14216b71deb": {
+      "type": "image-link-blocks",
+      "disabled": true,
+      "blocks": {
+        "c7b1aabc-0bd3-4bec-8161-6332110605f3": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0
+          }
+        },
+        "template--19558816579886__69dc3a18-61eb-4f0b-a1ca-e14216b71deb-168673444626bee4d9-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8f883413847e004ff4d794182378f51b53bc21c0.png",
+            "stretch_image": true,
+            "link_text": "Installation of OSPW for Shimano",
+            "link_url": "shopify:\/\/pages\/installation-of-ospw-for-shimano",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 35
+          }
+        },
+        "template--19558816579886__69dc3a18-61eb-4f0b-a1ca-e14216b71deb-168673444626bee4d9-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/435385c7c481b9ee6f785c4ffbdadcfd21348b3e.png",
+            "stretch_image": true,
+            "link_text": "Installation of OSPW for SRAM",
+            "link_url": "shopify:\/\/pages\/installation-of-ospw-for-sram",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 34
+          }
+        },
+        "template--19558816579886__69dc3a18-61eb-4f0b-a1ca-e14216b71deb-168673444626bee4d9-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9eabc322a2bf9458947bc7b5d25a589d3724c8bb_1.png",
+            "stretch_image": true,
+            "link_text": "Installation of OSPW for Campagnolo",
+            "link_url": "shopify:\/\/pages\/installation-of-ospw-for-campagnolo",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 34
+          }
+        }
+      },
+      "block_order": [
+        "c7b1aabc-0bd3-4bec-8161-6332110605f3",
+        "template--19558816579886__69dc3a18-61eb-4f0b-a1ca-e14216b71deb-168673444626bee4d9-0",
+        "template--19558816579886__69dc3a18-61eb-4f0b-a1ca-e14216b71deb-168673444626bee4d9-1",
+        "template--19558816579886__69dc3a18-61eb-4f0b-a1ca-e14216b71deb-168673444626bee4d9-2"
+      ],
+      "settings": {
+        "full_width": false,
+        "block_size": "medium",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "e23098ff-6ac3-47f6-a4c7-d9803829dd2f": {
+      "type": "collection-list",
+      "blocks": {
+        "template--19558816579886__e23098ff-6ac3-47f6-a4c7-d9803829dd2f-1686747371cb5ea52b-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/8f883413847e004ff4d794182378f51b53bc21c0.png",
+            "subheading": "",
+            "title": "Installation of OSPW for Shimano",
+            "url": "shopify:\/\/pages\/installation-of-ospw-for-shimano",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--19558816579886__e23098ff-6ac3-47f6-a4c7-d9803829dd2f-1686747371cb5ea52b-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/435385c7c481b9ee6f785c4ffbdadcfd21348b3e.png",
+            "subheading": "",
+            "title": "Installation of OSPW for SRAM",
+            "url": "shopify:\/\/pages\/installation-of-ospw-for-sram",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--19558816579886__e23098ff-6ac3-47f6-a4c7-d9803829dd2f-1686747371cb5ea52b-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/9eabc322a2bf9458947bc7b5d25a589d3724c8bb_1.png",
+            "subheading": "",
+            "title": "Installation of OSPW for Campagnolo",
+            "url": "shopify:\/\/pages\/installation-of-ospw-for-campagnolo",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--19558816579886__e23098ff-6ac3-47f6-a4c7-d9803829dd2f-1686747371cb5ea52b-0",
+        "template--19558816579886__e23098ff-6ac3-47f6-a4c7-d9803829dd2f-1686747371cb5ea52b-1",
+        "template--19558816579886__e23098ff-6ac3-47f6-a4c7-d9803829dd2f-1686747371cb5ea52b-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_collections": true,
+        "collections_per_row": 3,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "shopify:\/\/pages\/installation-of-ospw-for-shimano",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "f38776e2-6793-49cb-9c4a-79a56c1e06de": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19558816579886__f38776e2-6793-49cb-9c4a-79a56c1e06de-16867343472e0c9039-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--19558816579886__f38776e2-6793-49cb-9c4a-79a56c1e06de-16867343472e0c9039-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--19558816579886__f38776e2-6793-49cb-9c4a-79a56c1e06de-16867343472e0c9039-2": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        },
+        "633d92a3-203c-4290-8767-9d2c139676a4": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Chain length & tension - OSPW system assembly guide",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0726\/7542\/6606\/files\/ospw-chain-length-and-spring-tension_21-11.pdf?v=1686746889",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19558816579886__f38776e2-6793-49cb-9c4a-79a56c1e06de-16867343472e0c9039-0",
+        "template--19558816579886__f38776e2-6793-49cb-9c4a-79a56c1e06de-16867343472e0c9039-1",
+        "template--19558816579886__f38776e2-6793-49cb-9c4a-79a56c1e06de-16867343472e0c9039-2",
+        "633d92a3-203c-4290-8767-9d2c139676a4"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3db86d21-e949-4476-90e5-64fecffed43e",
+    "aca770b3-d895-4430-aa05-0990de07e08a",
+    "69dc3a18-61eb-4f0b-a1ca-e14216b71deb",
+    "e23098ff-6ac3-47f6-a4c7-d9803829dd2f",
+    "f38776e2-6793-49cb-9c4a-79a56c1e06de"
+  ]
+}

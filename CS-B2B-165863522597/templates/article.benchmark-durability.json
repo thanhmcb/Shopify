@@ -1,0 +1,218 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "disabled": true,
+      "settings": {
+        "allow_transparent_header": false,
+        "layout": "content_first",
+        "show_author": true,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px"
+      }
+    },
+    "e650360f-893a-4a54-833b-e1518be4892e": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18123979915566__e650360f-893a-4a54-833b-e1518be4892e-1678193963a0b029a4-1": {
+          "type": "heading",
+          "settings": {
+            "text": "BenchmarkDurability - Making the Case for Coated",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--18123979915566__e650360f-893a-4a54-833b-e1518be4892e-1678193963a0b029a4-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/3753cc35b0b7d5cad29c5052afd4de560ae1be98.jpg",
+        "mobile_image": "{{ article.metafields.custom.top_grafik_mobil.value }}",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "2f53b1e8-d38f-4945-a6b7-0be67279972a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18123979915566__2f53b1e8-d38f-4945-a6b7-0be67279972a-167819433943960406-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--18123979915566__2f53b1e8-d38f-4945-a6b7-0be67279972a-167819433943960406-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--18123979915566__2f53b1e8-d38f-4945-a6b7-0be67279972a-167819433943960406-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>With the introduction of Factor's first flat-bar bikes: Factor Lando XC & Factor Lando HT, we dive into the details of the unique attributes and benefits that our Coated Bearings provide for these bikes and off-road riding in general. <\/h5><p>Ever since we entered the cycling industry in 2004, we've constantly tried our hardest to create products that efficiently eliminate friction. Driven by this rationale, we've carved a unique place for ourselves within the industry. And now, almost 20 years into our journey, we feel confident in claiming we have the data and real-world verification to prove we produce the fastest and most efficient bearing components on the market.<\/p><p>But, there's more to our name than speed. A highly advantageous aspect of ceramic bearings is their increased durability and longevity. It's these traits that keep crucial machinery within industrial and manufacturing industries running for longer and eliminate expensive downtime. And it's also what enables riders to keep riding in the most challenging conditions.<\/p>"
+          }
+        },
+        "5c32f967-bee2-418f-b007-2f65dfe0d974": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/a08fb3c0cdff34f8652423cbab5b97655eeb7ade.jpg",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "template--18123979915566__2f53b1e8-d38f-4945-a6b7-0be67279972a-167819433943960406-0",
+        "template--18123979915566__2f53b1e8-d38f-4945-a6b7-0be67279972a-167819433943960406-1",
+        "template--18123979915566__2f53b1e8-d38f-4945-a6b7-0be67279972a-167819433943960406-2",
+        "5c32f967-bee2-418f-b007-2f65dfe0d974"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "866a6d97-8457-4285-a5b4-aebe30cb4428": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18123979915566__866a6d97-8457-4285-a5b4-aebe30cb4428-167819433943960406-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Fueled by our innovative spirit and urge to create the best-in-class product, we developed our Coated Bearings. These bearings feature a unique coating consisting of a wafer-thin metallic layer that is 75 % harder than hardened steel races. The coating is also highly resistant to corrosion, which means even if the bearing is contaminated with degreaser, water, or mud, the risk of bearing failure due to corrosion is negligible.<\/p><p> <\/p><p><a href=\"\/pages\/the-coated-advantage\" title=\"The Coated Advantage\">What is Coated? A Technical Explanation<\/a> <\/p><p> <\/p><p>We fully believe that our Coated Bearings are the pinnacle and set the benchmark for durability and longevity. This belief is so strong that we've chosen to back our Coated Bearings with a <a href=\"\/pages\/lifetime-warrany\" title=\"Lifetime Warrany\">lifetime warranty<\/a>.   <\/p><p><\/p><h5>Coated Bearings are a key Factor <\/h5><p>But we're certainly not alone in our beliefs. Our Coated Bearings are trusted by some of the biggest brands and best athletes in the world. These bearings have proved their worth and ability to thrive in the most challenging conditions time and time again.<br\/><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18123979915566__866a6d97-8457-4285-a5b4-aebe30cb4428-167819433943960406-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "40453fe5-98ff-42e2-96d4-f53cc4647988": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18272983843118__40453fe5-98ff-42e2-96d4-f53cc4647988-1680247564a5ac5646-2": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        },
+        "6d015828-9824-4b63-8353-16eb5beeb626": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/d0c2545efa4ee0fa5b4e8b457a36f6786d1455e5.jpg",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "template--18272983843118__40453fe5-98ff-42e2-96d4-f53cc4647988-1680247564a5ac5646-2",
+        "6d015828-9824-4b63-8353-16eb5beeb626"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "b4303a10-2d8c-4d3d-acd1-766192760a35": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18272983843118__b4303a10-2d8c-4d3d-acd1-766192760a35-1680247564a5ac5646-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>No matter if that has meant bringing home a CX World Cup win in <a href=\"https:\/\/www.youtube.com\/watch?v=3jzKfn42RoM\">extremely muddy conditions in Fayetteville<\/a>, bagging double <a href=\"https:\/\/www.instagram.com\/p\/CVAntTiIrOC\/\">Elite XCM World Championships<\/a> on the Isle of Elba, or securing podium glory at <a href=\"\/blogs\/journal\/an-epic-recap\" title=\"An Epic Recap\">Cape Epic<\/a>. To name but a few.<\/p><p>It's all these unique attributes and elite-level verification that have convinced Factor to feature our Coated Bottom Brackets on their newly released Lando XC and Lando HT Mountain Bikes. Coupled with our <a href=\"\/pages\/slt\" title=\"SLT\">SLT (Solid Lubrication Technology) Headsets<\/a>, riders choosing one of the new Landos will have the ultimate level of reliability and can rest assured that they can keep riding, no matter the terrain and conditions. <\/p>"
+          }
+        },
+        "fc769068-c122-41f7-851c-042064f970da": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/929cb11dd5a79caf5820b56452f08a965e99a09d.jpg",
+            "width_mode": "custom",
+            "max_width": 1000,
+            "mobile_max_width": 400
+          }
+        },
+        "6e1ea6ea-0d2e-4fa7-b656-118524fdd5ed": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>The Factor Lando XC will have the chance to prove its mettle when <a href=\"https:\/\/www.instagram.com\/p\/CbxNPaQOJ2M\/\">Dylan Johnson<\/a> and <a href=\"https:\/\/www.instagram.com\/p\/Cb8QfI-vjnF\/\">Rob Britton<\/a> toe the line for the first leg of the exciting LifeTime Grand Prix series during Sea Otter Classic this coming weekend. We've done our part to ensure the Lando XC will be firing on all cylinders.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18272983843118__b4303a10-2d8c-4d3d-acd1-766192760a35-1680247564a5ac5646-2",
+        "fc769068-c122-41f7-851c-042064f970da",
+        "6e1ea6ea-0d2e-4fa7-b656-118524fdd5ed"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "e650360f-893a-4a54-833b-e1518be4892e",
+    "2f53b1e8-d38f-4945-a6b7-0be67279972a",
+    "866a6d97-8457-4285-a5b4-aebe30cb4428",
+    "40453fe5-98ff-42e2-96d4-f53cc4647988",
+    "b4303a10-2d8c-4d3d-acd1-766192760a35"
+  ]
+}
