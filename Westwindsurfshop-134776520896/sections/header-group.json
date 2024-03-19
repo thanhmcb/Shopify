@@ -1,0 +1,181 @@
+{
+  "type": "header",
+  "name": "Header Group",
+  "sections": {
+    "announcement": {
+      "type": "announcement",
+      "blocks": {
+        "announcement-1": {
+          "type": "announcement",
+          "settings": {
+            "text": "<p>Fri fragt over 999 kr.<\/p>"
+          }
+        },
+        "announcement-2": {
+          "type": "announcement",
+          "settings": {
+            "text": "<p>14 dages returret<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "announcement-1",
+        "announcement-2"
+      ],
+      "settings": {
+        "link1": "",
+        "link1_label": "",
+        "link2": "",
+        "link2_label": "",
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "bg_color": "#c8d9e0",
+        "text_color": "#3d5262",
+        "text_type_scale": "small",
+        "read_time": 8
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "enable_sticky": true,
+        "mobile_menu_position": "burger-left",
+        "logo_text": "",
+        "logo_type_scale": "2",
+        "logo": "shopify:\/\/shop_images\/ww_logo_long_green_cold.png",
+        "logo_width": 230,
+        "logo_h1": true,
+        "logo_center": false,
+        "enable_search": true,
+        "minimise_search_mobile": true,
+        "minimise_search_desktop": false,
+        "menu": "menu",
+        "menu_center": true,
+        "repeat_links": true,
+        "menu_featured_link": "",
+        "quicklinks_menu": "",
+        "cta_show": false,
+        "cta_icon": "phone",
+        "cta_label": "Brug for hjælp",
+        "cta_link": "tel:+4527396915",
+        "cta_border_color": "#527971",
+        "cta_bg_color": "#527971",
+        "cta_text_color": "#ffffff",
+        "bg_color": "#e9f0f3",
+        "text_color": "#2a2b2a",
+        "accent_color": "#777777"
+      }
+    },
+    "icons_with_text_n8BdJB": {
+      "type": "icons-with-text",
+      "blocks": {
+        "item_gXD8hE": {
+          "type": "item",
+          "settings": {
+            "icon": "calendar",
+            "heading": "Book kursus",
+            "text": "",
+            "link": ""
+          }
+        },
+        "item_K8RAgT": {
+          "type": "item",
+          "settings": {
+            "icon": "price_tag",
+            "heading": "Special offers",
+            "text": "<p>Regular sales and discounts<\/p>",
+            "link": ""
+          }
+        },
+        "item_CTfeXp": {
+          "type": "item",
+          "settings": {
+            "icon": "return",
+            "heading": "Easy returns",
+            "text": "<p>Hassle free returns policy<\/p>",
+            "link": ""
+          }
+        },
+        "item_DjDbp6": {
+          "type": "item",
+          "settings": {
+            "icon": "chat_bubble",
+            "heading": "Chat facility",
+            "text": "<p>Talk to a real person<\/p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_gXD8hE",
+        "item_K8RAgT",
+        "item_CTfeXp",
+        "item_DjDbp6"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_align": "text-start",
+        "icon_size": 24,
+        "title_type_scale": "small",
+        "text_type_scale": "extra_small",
+        "icon_position": "beside",
+        "mobile_stack": false,
+        "section_height": "medium",
+        "color_scheme": "1",
+        "full_width": true,
+        "dividers": "none",
+        "prevent_animation": false
+      }
+    },
+    "promo-strip": {
+      "type": "promo-strip",
+      "blocks": {
+        "heading-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Announce a promotion",
+            "heading_size": "h6",
+            "show_on_mobile": true,
+            "show_on_desktop": true
+          }
+        },
+        "text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share something special with your customers.<\/p>",
+            "enlarge_text": false,
+            "show_on_mobile": true,
+            "show_on_desktop": true
+          }
+        },
+        "discount-2": {
+          "type": "discount",
+          "settings": {
+            "discount_code": "DISCOUNTCODE"
+          }
+        }
+      },
+      "block_order": [
+        "heading-0",
+        "text-1",
+        "discount-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_height": "xsmall",
+        "color_scheme": "1",
+        "full_width": true,
+        "dividers": "border-top",
+        "prevent_animation": false
+      }
+    }
+  },
+  "order": [
+    "announcement",
+    "header",
+    "icons_with_text_n8BdJB",
+    "promo-strip"
+  ]
+}

@@ -1,0 +1,1352 @@
+{
+  "sections": {
+    "navigation_slideshow_x4mgaB": {
+      "type": "navigation-slideshow",
+      "blocks": {
+        "slide_nzRYir": {
+          "type": "slide",
+          "settings": {
+            "image_desktop": "shopify:\/\/shop_images\/filters-grayscale_false_-blur_0_-quality_80__85_1.jpg",
+            "overlay_text_align": "text-start",
+            "mob_center_text": true,
+            "subheading": "",
+            "heading": "Find alt indenfor windsurfing",
+            "heading_size": "h1",
+            "heading_h1": false,
+            "text": "<p>Derfor forhandler vi udelukkende kvalitets produkter fra anerkendte windsurf brands, som vi selv kan stå 100 procent indenfor! Så ligegyldig om du er nybegynder eller en erfaren windsurfer har vi windsurf udstyr, der kan dække dine behov.      <\/p>",
+            "enlarge_text": false,
+            "button_1_label": "Find dit udstyr",
+            "button_1_link": "shopify:\/\/collections\/wind",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary",
+            "transparent_content_color": "#ffffff"
+          }
+        },
+        "slide_ggYHPK": {
+          "type": "slide",
+          "settings": {
+            "image_desktop": "shopify:\/\/shop_images\/Surf-skole-Vorupoer-by-Jakob_Gjerluff_Ager-0071.jpg",
+            "overlay_text_align": "text-start",
+            "mob_center_text": true,
+            "subheading": "",
+            "heading": "Find dit næste kursus",
+            "heading_size": "h1",
+            "heading_h1": false,
+            "text": "<p>Vælg dit kursus og book nu. <br\/>Alle vores instruktører har mange års erfaring og er alle aktive surfere. Vores surfskoler er certificerede af VDWS og ISA.<\/p>",
+            "enlarge_text": false,
+            "button_1_label": "Læs mere",
+            "button_1_link": "#",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary",
+            "transparent_content_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "slide_nzRYir",
+        "slide_ggYHPK"
+      ],
+      "settings": {
+        "height_mode": "fixed",
+        "fixed_height_desktop": 700,
+        "fixed_height_mobile": 350,
+        "quick_nav_menu": "hurtig-menu",
+        "quick_nav_title": "Find dit produkt",
+        "quick_nav_image_ratio": "1",
+        "quick_nav_image_fit": "contain",
+        "quick_nav_use_product_image": false,
+        "quick_nav_color_scheme": "none",
+        "quick_nav_show_price": false,
+        "menu_1_text": "Vælg gruppe...",
+        "menu_1_display": "large_image_text",
+        "menu_2_text": "Vælg kategori...",
+        "menu_2_display": "large_text",
+        "menu_3_text": "",
+        "menu_3_display": "large_text",
+        "nav_style": "slideshow_nav_lines",
+        "pagination_color": "#ffffff",
+        "transition": "slide-fade",
+        "autoplay": false,
+        "slider_pause": false,
+        "autoplay_speed": 6,
+        "color_scheme": "white",
+        "full_width": true,
+        "tint_color": "#000000",
+        "tint_opacity": 25,
+        "accessibility_info": "Featured collections and new arrivals",
+        "prevent_animation": false
+      }
+    },
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-1": {
+          "type": "slide",
+          "settings": {
+            "url": "",
+            "overlay_position": "justify-center items-center",
+            "overlay_text_align": "text-center",
+            "mob_center_text": false,
+            "subheading": "Subheading",
+            "heading": "Slideshow",
+            "heading_size": "h0",
+            "heading_h1": false,
+            "text": "<p>Share announcements and information with your customers and welcome them to your store.<\/p>",
+            "enlarge_text": true,
+            "button_1_label": "Optional button",
+            "button_1_link": "\/",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "Optional button",
+            "button_2_link": "\/",
+            "button_2_style": "btn btn--primary",
+            "transparent_content_color": "#ffffff",
+            "countdown_show": false,
+            "countdown_end_date": "",
+            "countdown_end_time": "",
+            "countdown_end_text": "",
+            "enlarge_end_text": false,
+            "countdown_hide_on_end": false,
+            "use_custom_colors": false,
+            "count_color": "#ffffff",
+            "bg_color": "#070707",
+            "bg_grad": ""
+          }
+        },
+        "slide_qy9iCc": {
+          "type": "slide",
+          "settings": {
+            "image_desktop": "shopify:\/\/shop_images\/Surf-skole-Vorupoer-by-Jakob_Gjerluff_Ager-0071.jpg",
+            "url": "",
+            "overlay_position": "justify-start items-center",
+            "overlay_text_align": "text-center",
+            "mob_center_text": false,
+            "subheading": "Subheading",
+            "heading": "Find dit næste kursus",
+            "heading_size": "h0",
+            "heading_h1": true,
+            "text": "<p>Vælg dit kursus og book nu. <br\/>Alle vores instruktører har mange års erfaring og er alle aktive surfere. Vores surfskoler er certificerede af VDWS og ISA.<\/p>",
+            "enlarge_text": false,
+            "button_1_label": "Læs mere",
+            "button_1_link": "#",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary",
+            "transparent_content_color": "#ffffff",
+            "countdown_show": false,
+            "countdown_end_date": "",
+            "countdown_end_time": "",
+            "countdown_end_text": "",
+            "enlarge_end_text": false,
+            "countdown_hide_on_end": false,
+            "use_custom_colors": false,
+            "count_color": "#ffffff",
+            "bg_color": "#070707",
+            "bg_grad": ""
+          }
+        },
+        "slide-2": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "url": "",
+            "overlay_position": "justify-center items-center",
+            "overlay_text_align": "text-center",
+            "mob_center_text": false,
+            "subheading": "Subheading",
+            "heading": "Slideshow",
+            "heading_size": "h0",
+            "heading_h1": false,
+            "text": "<p>Share announcements and information with your customers and welcome them to your store.<\/p>",
+            "enlarge_text": true,
+            "button_1_label": "Optional button",
+            "button_1_link": "",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "Optional button",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary",
+            "transparent_content_color": "#ffffff",
+            "countdown_show": false,
+            "countdown_end_date": "",
+            "countdown_end_time": "",
+            "countdown_end_text": "",
+            "enlarge_end_text": false,
+            "countdown_hide_on_end": false,
+            "use_custom_colors": false,
+            "count_color": "#ffffff",
+            "bg_color": "#070707",
+            "bg_grad": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide-1",
+        "slide_qy9iCc",
+        "slide-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "height_mode": "fixed",
+        "fixed_height_desktop": 730,
+        "fixed_height_mobile": 400,
+        "mobile_stacked": false,
+        "nav_style": "slideshow_nav_lines",
+        "pagination_color": "#ffffff",
+        "nav_position": "justify-center",
+        "transition": "slide-fade",
+        "autoplay": true,
+        "slider_pause": false,
+        "autoplay_speed": 6,
+        "color_scheme": "white",
+        "full_width": true,
+        "tint_color": "#000000",
+        "tint_opacity": 20,
+        "accessibility_info": "",
+        "prevent_animation": true
+      }
+    },
+    "icons_with_text_LgtH88": {
+      "type": "icons-with-text",
+      "blocks": {
+        "item_bRGfFT": {
+          "type": "item",
+          "settings": {
+            "icon": "truck",
+            "heading": "Gratis fragt over",
+            "text": "<p>999 kr.<\/p>",
+            "link": ""
+          }
+        },
+        "item_4pFRRq": {
+          "type": "item",
+          "settings": {
+            "icon": "price_tag",
+            "heading": "Prismatch",
+            "text": "<p>Vi tilbyder prismatch<\/p>",
+            "link": ""
+          }
+        },
+        "item_MQdbiR": {
+          "type": "item",
+          "settings": {
+            "icon": "return",
+            "heading": "14 dages returret",
+            "text": "<p>Problemfri retur<\/p>",
+            "link": ""
+          }
+        },
+        "item_Djhhtb": {
+          "type": "item",
+          "settings": {
+            "icon": "chat_bubble",
+            "heading": "Brug for hjælp",
+            "text": "<p><a href=\"#\" title=\"#\">Kontakt os<\/a><\/p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_bRGfFT",
+        "item_4pFRRq",
+        "item_MQdbiR",
+        "item_Djhhtb"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_align": "text-start",
+        "icon_size": 36,
+        "title_type_scale": "medium",
+        "text_type_scale": "small",
+        "icon_position": "beside",
+        "mobile_stack": false,
+        "section_height": "medium",
+        "color_scheme": "none",
+        "full_width": true,
+        "dividers": "border-bottom",
+        "prevent_animation": false
+      }
+    },
+    "media-grid": {
+      "type": "media-grid",
+      "blocks": {
+        "media-0": {
+          "type": "media",
+          "settings": {
+            "video_shopify": "shopify:\/\/files\/videos\/Bloopers-1920(1)(1).mp4",
+            "link_url": "",
+            "columns": 2,
+            "rows": 1,
+            "subheading": "Kursus",
+            "title": "<p>Surf<\/p>",
+            "heading_size": "h3",
+            "button_label": "",
+            "button_link": "\/",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 0
+          }
+        },
+        "media-1": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/windsurf-kursus-by-Jakob_Gjerluff_Ager-0185-1x1.jpg",
+            "link_url": "",
+            "columns": 1,
+            "rows": 1,
+            "subheading": "Kursus",
+            "title": "<p>Windsurf<\/p>",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "\/",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 40
+          }
+        },
+        "media-3": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Kitekursus-by-Jakob_Gjerluff_Ager-0022-1x1.jpg",
+            "link_url": "",
+            "columns": 1,
+            "rows": 1,
+            "subheading": "Kursus",
+            "title": "<p>Kitesurfing<\/p>",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "\/",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 40
+          }
+        },
+        "media-2": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wing-_foil_by_Jakob_Gjerluff_Ager-0086_stroke_dark.jpg",
+            "link_url": "",
+            "columns": 1,
+            "rows": 1,
+            "subheading": "Kursus",
+            "title": "<p>Wingsurf<\/p>",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "\/",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 0
+          }
+        },
+        "media_RKNFV3": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SUP_2_1600x1600-p.jpg",
+            "link_url": "",
+            "columns": 1,
+            "rows": 1,
+            "subheading": "Kursus",
+            "title": "<p>SUP<\/p>",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "\/",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 40
+          }
+        },
+        "media_Kgtpxq": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WW_bork-by-Jakob_Gjerluff_Ager-0098-1x1-p.jpg",
+            "link_url": "",
+            "columns": 2,
+            "rows": 1,
+            "subheading": "Kursus",
+            "title": "<p>Kajak<\/p>",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 40
+          }
+        }
+      },
+      "block_order": [
+        "media-0",
+        "media-1",
+        "media-3",
+        "media-2",
+        "media_RKNFV3",
+        "media_Kgtpxq"
+      ],
+      "settings": {
+        "title": "Kurser vi udbyder",
+        "heading_align": "text-start",
+        "button_label": "Se alle",
+        "button_link": "\/",
+        "gallery_cols_max": 4,
+        "mobile_carousel": true,
+        "gallery_cols_min": "1",
+        "fixed_height_desktop": 160,
+        "fixed_height_mobile": 300,
+        "section_color_scheme": "none",
+        "color_scheme": "white",
+        "transparent_content_color": "#ffffff"
+      }
+    },
+    "collection-list": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_qJp3QU": {
+          "type": "collection",
+          "settings": {
+            "collection": "kitesurf"
+          }
+        },
+        "collection-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "wind"
+          }
+        },
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "surf"
+          }
+        },
+        "collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "sup"
+          }
+        },
+        "collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "foiling"
+          }
+        },
+        "collection-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "body-skimboards"
+          }
+        },
+        "collection-5": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "collection-6": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_qJp3QU",
+        "collection-0",
+        "collection-1",
+        "collection-2",
+        "collection-3",
+        "collection-4",
+        "collection-5",
+        "collection-6"
+      ],
+      "settings": {
+        "title": "Udstyr efter kollektioner",
+        "heading_align": "text-start",
+        "button_label": "Se alle",
+        "button_link": "#",
+        "layout": "carousel",
+        "card_size": "small",
+        "use_product_image": false,
+        "circle_image": true,
+        "show_border": true,
+        "color_scheme": "none",
+        "full_width": true
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Nyheder",
+        "heading_align": "text-start",
+        "show_view_all": true,
+        "collection": "sup",
+        "layout": "carousel",
+        "card_size_mobile": "small",
+        "card_size": "medium",
+        "products_to_show": 8,
+        "show_promo_info": false,
+        "image_ratio": "fill",
+        "promo_title": "A headline to grab attention",
+        "content": "<p>Use this card with an image to highlight your collections or introduce a promotion.<\/p>",
+        "link_url": "\/",
+        "button_label": "Optional Button",
+        "color_scheme": "none",
+        "button_style": "btn btn--primary"
+      }
+    },
+    "image-banner": {
+      "type": "image-banner",
+      "blocks": {
+        "banner-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Vandsportsudstyr til nedsatte priser",
+            "heading_size": "h1",
+            "heading_h1": false
+          }
+        },
+        "banner-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>WestWind Surfshop Outlet, stedet for nedsat kitesurfudstyr, windsurfudstyr, wingfoiludstyr, surfudstyr, supudstyr og neopren! Vi er stolte af at tilbyde et bredt udvalg af højkvalitets produkter til skarpe outlet priser. Uanset om du er en erfaren vandsportsentusiast eller nybegynder, har vi alt, hvad du skal bruge for at tage din vandsportsoplevelse til det næste niveau til en overkommelig pris.<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "banner-button": {
+          "type": "button",
+          "settings": {
+            "button_1_label": "Se alle tilbud her",
+            "button_1_link": "\/",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "",
+            "button_2_link": "\/",
+            "button_2_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "banner-heading",
+        "banner-text",
+        "banner-button"
+      ],
+      "settings": {
+        "image_desktop": "shopify:\/\/shop_images\/shutterstock_83402911_small_c173db3f-4d05-4fea-9e8b-190f2f4d419e.jpg",
+        "url": "",
+        "height_mode": "fixed",
+        "fixed_height_desktop": 700,
+        "fixed_height_mobile": 350,
+        "overlay_position": "justify-center items-center",
+        "overlay_text_align": "text-center",
+        "mob_center_text": false,
+        "mobile_stacked": false,
+        "color_scheme": "white",
+        "full_width": true,
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 30,
+        "prevent_animation": false
+      }
+    },
+    "promo-grid": {
+      "type": "promo-grid",
+      "blocks": {
+        "promo-media-0": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shutterstock_67757158_1_1_small_06dfe59e-e781-49d1-a31f-06cb3226a32c.jpg",
+            "link_url": "",
+            "columns": 2,
+            "rows": 2,
+            "line1_text": "Spar op til",
+            "line1_text_type_scale": "text-h6",
+            "line2_text": "50%",
+            "line2_text_type_scale": "text-h1",
+            "line3_text": "",
+            "line3_text_type_scale": "text-h6",
+            "overlay_position": "justify-start items-start",
+            "text_alignment": "text-center",
+            "promo_circle": false,
+            "background_color": "#c9444a",
+            "text_color": "#ffffff",
+            "subheading": "På masse af windsurfingudstyr",
+            "link_text": "Se alle tilbud",
+            "text_type_scale": "h6",
+            "tint_color": "#000000",
+            "tint_opacity": 10
+          }
+        },
+        "promo-media-1": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Duetone_kite_tilbud.jpg",
+            "link_url": "",
+            "columns": 2,
+            "rows": 2,
+            "line1_text": "Spar op til",
+            "line1_text_type_scale": "text-h5",
+            "line2_text": "30%",
+            "line2_text_type_scale": "text-h1",
+            "line3_text": "",
+            "line3_text_type_scale": "text-h6",
+            "overlay_position": "justify-start items-start",
+            "text_alignment": "text-center",
+            "promo_circle": false,
+            "background_color": "#c9444a",
+            "text_color": "#ffffff",
+            "subheading": "Kitesurfing boards fra Duetone",
+            "link_text": "Se alle boards her",
+            "text_type_scale": "h6",
+            "tint_color": "#000000",
+            "tint_opacity": 10
+          }
+        },
+        "promo-media-2": {
+          "type": "media",
+          "disabled": true,
+          "settings": {
+            "link_url": "",
+            "columns": 1,
+            "rows": 1,
+            "line1_text": "Now",
+            "line1_text_type_scale": "text-h6",
+            "line2_text": "$50",
+            "line2_text_type_scale": "text-h2",
+            "line3_text": "",
+            "line3_text_type_scale": "text-h6",
+            "overlay_position": "justify-start items-start",
+            "text_alignment": "text-center",
+            "promo_circle": false,
+            "background_color": "#e32b2b",
+            "text_color": "#ffffff",
+            "subheading": "Subheading",
+            "link_text": "Add link text here",
+            "text_type_scale": "h6",
+            "tint_color": "#000000",
+            "tint_opacity": 30
+          }
+        },
+        "promo-media-3": {
+          "type": "media",
+          "disabled": true,
+          "settings": {
+            "link_url": "",
+            "columns": 1,
+            "rows": 1,
+            "line1_text": "Save",
+            "line1_text_type_scale": "text-h6",
+            "line2_text": "1\/3",
+            "line2_text_type_scale": "text-h1",
+            "line3_text": "",
+            "line3_text_type_scale": "text-h6",
+            "overlay_position": "justify-start items-start",
+            "text_alignment": "text-center",
+            "promo_circle": false,
+            "background_color": "#e32b2b",
+            "text_color": "#ffffff",
+            "subheading": "Subheading with more info",
+            "link_text": "Add link text here",
+            "text_type_scale": "h6",
+            "tint_color": "#000000",
+            "tint_opacity": 30
+          }
+        },
+        "media_j97DKP": {
+          "type": "media",
+          "disabled": true,
+          "settings": {
+            "link_url": "",
+            "columns": 1,
+            "rows": 1,
+            "line1_text": "Save up to",
+            "line1_text_type_scale": "text-h6",
+            "line2_text": "50%",
+            "line2_text_type_scale": "text-h0",
+            "line3_text": "",
+            "line3_text_type_scale": "text-h6",
+            "overlay_position": "justify-start items-start",
+            "text_alignment": "text-center",
+            "promo_circle": false,
+            "background_color": "#e32b2b",
+            "text_color": "#ffffff",
+            "subheading": "Subheading",
+            "link_text": "",
+            "text_type_scale": "h6",
+            "tint_color": "#000000",
+            "tint_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "promo-media-0",
+        "promo-media-1",
+        "promo-media-2",
+        "promo-media-3",
+        "media_j97DKP"
+      ],
+      "settings": {
+        "title": "",
+        "heading_align": "text-start",
+        "button_label": "",
+        "button_link": "",
+        "gallery_cols_max": 4,
+        "mobile_carousel": true,
+        "gallery_cols_min": "1",
+        "fixed_height_desktop": 200,
+        "fixed_height_mobile": 280,
+        "text_overlay_font": "body",
+        "color_scheme": "default"
+      }
+    },
+    "logo_list_yjVrKk": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_nV3jKd": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/f-one-logo_color.png",
+            "url": "",
+            "logo_width": 210,
+            "text": ""
+          }
+        },
+        "logo_pCXp8L": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/catch-surf-logo_image_color.png",
+            "url": "",
+            "logo_width": 210,
+            "text": ""
+          }
+        },
+        "logo_CpKCyi": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/roxy_logo.jpg",
+            "url": "",
+            "logo_width": 210,
+            "text": ""
+          }
+        },
+        "logo_K8rWhT": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/norden_surfboards_logo.jpg",
+            "url": "",
+            "logo_width": 210,
+            "text": ""
+          }
+        },
+        "logo_cXxqJK": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/firewire_logo.jpg",
+            "url": "",
+            "logo_width": 200,
+            "text": ""
+          }
+        },
+        "logo_4QTage": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/axis_logo.jpg",
+            "url": "",
+            "logo_width": 200,
+            "text": ""
+          }
+        },
+        "logo_wdbVd3": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rip_Curl.jpg",
+            "url": "",
+            "logo_width": 260,
+            "text": ""
+          }
+        },
+        "logo_y4VnrH": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/armstrong_logo.jpg",
+            "url": "",
+            "logo_width": 260,
+            "text": ""
+          }
+        },
+        "logo_Xz4YCr": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jp_logo.jpg",
+            "url": "",
+            "logo_width": 260,
+            "text": ""
+          }
+        },
+        "logo_KMwPfp": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/full-cas-logo.png",
+            "url": "",
+            "logo_width": 260,
+            "text": ""
+          }
+        },
+        "logo_rfxPNN": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mystic_logo.jpg",
+            "url": "",
+            "logo_width": 260,
+            "text": ""
+          }
+        },
+        "logo_FN4WRy": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/carver_logo.jpg",
+            "url": "",
+            "logo_width": 260,
+            "text": ""
+          }
+        },
+        "logo_KANiTg": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fcs.jpg",
+            "url": "",
+            "logo_width": 260,
+            "text": ""
+          }
+        },
+        "logo_QPMndd": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fanatic_logo.jpg",
+            "url": "",
+            "logo_width": 260,
+            "text": ""
+          }
+        },
+        "logo_zxh7hJ": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/quiksilver_logo.jpg",
+            "url": "",
+            "logo_width": 260,
+            "text": ""
+          }
+        },
+        "logo_kETp7i": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/maui_ultra_fins_logo.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_editaV": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tabou_logo.jpg",
+            "url": "",
+            "logo_width": 260,
+            "text": ""
+          }
+        },
+        "logo_FiyedM": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/creatures_of_leisure_logo.jpg",
+            "url": "",
+            "logo_width": 260,
+            "text": ""
+          }
+        },
+        "logo_CrBz6K": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Duotone.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_TJj9Cd": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/solite_logo.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_6ybfHd": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/trickboard_logo.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_DLDFKB": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/volcom_logo.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_q8KKY4": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/neilpryde.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_ec3Dzy": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/prolimit_logo.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_mgz7pM": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sex_wax_logo.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_CaqccW": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/softech_logo.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_dPgJYP": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/reef_logo.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_RKarAf": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vans_logo.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_Da6iFR": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ion_logo.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_dN8Ued": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/surflogic_logo_1.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_7LFRe7": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/all_in_logo.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_RBwPCC": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/C-SKINS-C.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_mxcaYM": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/f-one_logo.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_tQjLnP": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/starboard_logo.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_r7GGjE": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ride_engine_logo.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_Qq9UjX": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/point_7_logo.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_rk9WDA": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/north_logo_1.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_8DVF4j": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GA-Sails.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_ryeiAy": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/nsp_logo.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_grxb3t": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/simmer_style_logo_1.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_ncD9zA": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hydro_flask_logo.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_EeakhA": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dryrobe_logo.jpg",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        },
+        "logo_MAgADY": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ONeill-Logo.png",
+            "url": "",
+            "logo_width": 120,
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_nV3jKd",
+        "logo_pCXp8L",
+        "logo_CpKCyi",
+        "logo_K8rWhT",
+        "logo_cXxqJK",
+        "logo_4QTage",
+        "logo_wdbVd3",
+        "logo_y4VnrH",
+        "logo_Xz4YCr",
+        "logo_KMwPfp",
+        "logo_rfxPNN",
+        "logo_FN4WRy",
+        "logo_KANiTg",
+        "logo_QPMndd",
+        "logo_zxh7hJ",
+        "logo_kETp7i",
+        "logo_editaV",
+        "logo_FiyedM",
+        "logo_CrBz6K",
+        "logo_TJj9Cd",
+        "logo_6ybfHd",
+        "logo_DLDFKB",
+        "logo_q8KKY4",
+        "logo_ec3Dzy",
+        "logo_mgz7pM",
+        "logo_CaqccW",
+        "logo_dPgJYP",
+        "logo_RKarAf",
+        "logo_Da6iFR",
+        "logo_dN8Ued",
+        "logo_7LFRe7",
+        "logo_RBwPCC",
+        "logo_mxcaYM",
+        "logo_tQjLnP",
+        "logo_r7GGjE",
+        "logo_Qq9UjX",
+        "logo_rk9WDA",
+        "logo_8DVF4j",
+        "logo_ryeiAy",
+        "logo_grxb3t",
+        "logo_ncD9zA",
+        "logo_EeakhA",
+        "logo_MAgADY"
+      ],
+      "settings": {
+        "title": "",
+        "heading_align": "text-start",
+        "button_label": "",
+        "button_link": "",
+        "layout": "carousel",
+        "spacing": 40,
+        "logo_grid_align": "justify-center",
+        "color_scheme": "none",
+        "full_width": true
+      }
+    },
+    "featured_collection_L9TD8z": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Tilbud",
+        "heading_align": "text-start",
+        "show_view_all": true,
+        "collection": "",
+        "layout": "carousel",
+        "card_size_mobile": "small",
+        "card_size": "medium",
+        "products_to_show": 8,
+        "show_promo_info": false,
+        "image_ratio": "fill",
+        "promo_title": "A headline to grab attention",
+        "content": "<p>Use this card with an image to highlight your collections or introduce a promotion.<\/p>",
+        "link_url": "",
+        "button_label": "Button",
+        "color_scheme": "2",
+        "button_style": "btn btn--primary"
+      }
+    },
+    "background_video_CzhqMN": {
+      "type": "background-video",
+      "blocks": {
+        "heading_iTmQDH": {
+          "type": "heading",
+          "settings": {
+            "heading": "Surf camps",
+            "heading_size": "h1",
+            "heading_h1": false
+          }
+        },
+        "text_WNTBGj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Se alle vores camps indenfor <a href=\"#\" title=\"#\">surf<\/a>, <a href=\"#\" title=\"#\">wingsurf <\/a>eller <a href=\"#\" title=\"#\">kitesurf<\/a> Alle vores instruktører har mange års erfaring og er alle aktive surfere. Vores surfskoler er certificerede af VDWS og ISA.<br\/>Vi skræddersyer jeres gruppearrangement til skoler, firmaer mv.<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "button_9UDTw8": {
+          "type": "button",
+          "settings": {
+            "button_label": "Se alle camps",
+            "button_link": "#",
+            "button_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_iTmQDH",
+        "text_WNTBGj",
+        "button_9UDTw8"
+      ],
+      "settings": {
+        "video_shopify": "shopify:\/\/files\/videos\/Windsurf skole_1-1920.mp4",
+        "video_external": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_description": "",
+        "video_height": "md",
+        "overlay_text_align": "text-center",
+        "overlay_position": "justify-center items-center",
+        "mob_center_text": true,
+        "color_scheme": "white",
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 25,
+        "lazyload": true,
+        "prevent_animation": false
+      }
+    },
+    "faq_7mNHxR": {
+      "type": "faq",
+      "blocks": {
+        "category_WefjXJ": {
+          "type": "category",
+          "settings": {
+            "text": "Forsendelse"
+          }
+        },
+        "question_3dTjB4": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "What countries do you ship to?",
+            "text": "<p>We currently ship to the United States, Canada, Australia and the UK. To enquire about shipping to a different destination, please contact us.<\/p>"
+          }
+        },
+        "question_HFtGxq": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "How long will it take to receive my order?",
+            "text": "<p>Standard shipping normally takes 3-5 days. Next day shipping is available on all domestic orders (for an additional charge). International shipping times depend on the products and destination (estimated at checkout).<\/p>"
+          }
+        },
+        "category_tnKeba": {
+          "type": "category",
+          "settings": {
+            "text": "Retur"
+          }
+        },
+        "question_frkzAB": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "How do I return a product?",
+            "text": "<p>Items must be returned within 30 days after receiving your order. Items must be returned in the same condition in which they were received, be unworn\/unused, have any tags still attached, and include all the original packaging.<\/p>"
+          }
+        },
+        "question_RwN3MF": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "heading": "How long will it take to receive my refund?",
+            "text": "<p>Refunds are processed within 7 days from when we receive the item(s).<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_WefjXJ",
+        "question_3dTjB4",
+        "question_HFtGxq",
+        "category_tnKeba",
+        "question_frkzAB",
+        "question_RwN3MF"
+      ],
+      "settings": {
+        "heading": "FAQ",
+        "heading_align": "text-center",
+        "color_scheme": "2",
+        "full_width": true
+      }
+    },
+    "featured_blog_46MfNW": {
+      "type": "featured-blog",
+      "settings": {
+        "title": "Blogunivers",
+        "heading_align": "text-start",
+        "show_view_all": true,
+        "blog": "guides",
+        "layout": "carousel",
+        "posts_to_show": 8,
+        "show_featured_image": true,
+        "show_tags": true,
+        "show_excerpt": true,
+        "show_author": false,
+        "show_date": false,
+        "show_button": false,
+        "color_scheme": "none",
+        "image_ratio": "tallest",
+        "button_style": "btn btn--primary"
+      }
+    },
+    "featured_collection_fhpTXB": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "heading_align": "text-start",
+        "show_view_all": true,
+        "collection": "wind",
+        "layout": "carousel",
+        "card_size_mobile": "small",
+        "card_size": "small",
+        "products_to_show": 8,
+        "show_promo_info": false,
+        "image_ratio": "fill",
+        "promo_title": "A headline to grab attention",
+        "content": "<p>Use this card with an image to highlight your collections or introduce a promotion.<\/p>",
+        "link_url": "",
+        "button_label": "Button",
+        "color_scheme": "2",
+        "button_style": "btn btn--primary"
+      }
+    }
+  },
+  "order": [
+    "navigation_slideshow_x4mgaB",
+    "slideshow",
+    "icons_with_text_LgtH88",
+    "media-grid",
+    "collection-list",
+    "featured-collection",
+    "image-banner",
+    "promo-grid",
+    "logo_list_yjVrKk",
+    "featured_collection_L9TD8z",
+    "background_video_CzhqMN",
+    "faq_7mNHxR",
+    "featured_blog_46MfNW",
+    "featured_collection_fhpTXB"
+  ]
+}
