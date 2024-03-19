@@ -1,0 +1,128 @@
+{
+  "type": "footer",
+  "name": "Footer Group",
+  "sections": {
+    "icons-with-text": {
+      "type": "icons-with-text",
+      "blocks": {
+        "icons-with-text-1": {
+          "type": "item",
+          "settings": {
+            "icon": "truck",
+            "heading": "Gratis fragt over",
+            "text": "<p>999 kr.<\/p>",
+            "link": ""
+          }
+        },
+        "icons-with-text-2": {
+          "type": "item",
+          "settings": {
+            "icon": "price_tag",
+            "heading": "Prismatch",
+            "text": "<p>Vi tilbyder prismatch<\/p>",
+            "link": ""
+          }
+        },
+        "icons-with-text-3": {
+          "type": "item",
+          "settings": {
+            "icon": "return",
+            "heading": "14 dages returret",
+            "text": "<p>Problemfri retur<\/p>",
+            "link": ""
+          }
+        },
+        "icons-with-text-4": {
+          "type": "item",
+          "settings": {
+            "icon": "chat_bubble",
+            "heading": "Brug for hjælp",
+            "text": "<p><a href=\"#\" title=\"#\">Kontakt os<\/a><\/p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icons-with-text-1",
+        "icons-with-text-2",
+        "icons-with-text-3",
+        "icons-with-text-4"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_align": "text-start",
+        "icon_size": 36,
+        "title_type_scale": "medium",
+        "text_type_scale": "medium",
+        "icon_position": "beside",
+        "mobile_stack": false,
+        "section_height": "medium",
+        "color_scheme": "none",
+        "full_width": true,
+        "dividers": "border-top",
+        "prevent_animation": false
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WestWind_free-white_sticer_footer.png",
+            "image_width": 230,
+            "heading": "",
+            "text": "<p><strong>WestWind Surfshops og Surfskoler<\/strong><br\/>Lige ved vandet og altid tæt på dig...<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enable_follow_on_shop": false,
+            "show_social": true,
+            "text_align": "text-start"
+          }
+        },
+        "link-list-1": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Kundeservice",
+            "menu": "footer"
+          }
+        },
+        "link-list-2": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Betingelser og politik",
+            "menu": "footer-menu-webshop"
+          }
+        },
+        "newsletter_gcwVMp": {
+          "type": "newsletter",
+          "settings": {
+            "heading": "Tilmeld dig WestWind Nyhedsbrevet",
+            "text": "<p>Få nyheder og tilbud fra Danmarks ældste surfshop sendt direkte til din indbakke<\/p>",
+            "collapse_mobile": true
+          }
+        }
+      },
+      "block_order": [
+        "text",
+        "link-list-1",
+        "link-list-2",
+        "newsletter_gcwVMp"
+      ],
+      "settings": {
+        "show_back_to_top": false,
+        "show_payment_icons": true,
+        "show_powered_by": false,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "secondary_menu": "",
+        "bg_color": "#527971",
+        "text_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "icons-with-text",
+    "footer"
+  ]
+}

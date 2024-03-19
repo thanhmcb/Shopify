@@ -1,0 +1,393 @@
+{
+  "sections": {
+    "collection-banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_title": true,
+        "show_product_count": true,
+        "show_collection_description": true,
+        "text_align": "text-start",
+        "collection_image": "1.77",
+        "use_product_image": false,
+        "text_width": "standard",
+        "color_scheme": "2"
+      }
+    },
+    "media_grid_z34CDP": {
+      "type": "media-grid",
+      "blocks": {
+        "media_GDPCak": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DUOTONE-Windsurf_2024_Skate_SLS_Gallery01_jpg_85.jpg",
+            "link_url": "",
+            "columns": 2,
+            "rows": 2,
+            "subheading": "",
+            "title": "<p>Windsurf Boards<\/p>",
+            "heading_size": "h3",
+            "button_label": "",
+            "button_link": "#",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 25
+          }
+        },
+        "media_83imJH": {
+          "type": "media",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DTW23_Idol_LTD_Rendering_C10_black.jpg",
+            "link_url": "",
+            "columns": 1,
+            "rows": 1,
+            "subheading": "",
+            "title": "<p>Sejl<\/p>",
+            "heading_size": "h3",
+            "button_label": "",
+            "button_link": "#",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 0
+          }
+        },
+        "media_mCnVmh": {
+          "type": "media",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DUOTONE_HARDWARE_2022_Boom_Platinum_SLS_Gallery_01_jpg.jpg",
+            "link_url": "",
+            "columns": 1,
+            "rows": 1,
+            "subheading": "",
+            "title": "<p>Bomme<\/p>",
+            "heading_size": "h3",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 25
+          }
+        },
+        "media_p8WipQ": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DUOTONE-Windsurf_2024_Idol_LTD_Gallery07_jpg_85.jpg",
+            "link_url": "",
+            "columns": 1,
+            "rows": 1,
+            "subheading": "",
+            "title": "<p>Sejl<\/p>",
+            "heading_size": "h3",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 20
+          }
+        },
+        "media_rLXMFP": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/duotone_windsurfing_boomspares.jpg",
+            "link_url": "",
+            "columns": 1,
+            "rows": 1,
+            "subheading": "",
+            "title": "<p>Bomme<\/p>",
+            "heading_size": "h3",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 25
+          }
+        },
+        "media_rLJyWN": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DUOTONE-Windsurf_2024_Jag_Gallery04_jpg_85.jpg",
+            "link_url": "",
+            "columns": 2,
+            "rows": 1,
+            "subheading": "",
+            "title": "<p>Windsurf Finner<\/p>",
+            "heading_size": "h3",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 40
+          }
+        },
+        "media_8ErDee": {
+          "type": "media",
+          "settings": {
+            "link_url": "",
+            "columns": 1,
+            "rows": 1,
+            "subheading": "",
+            "title": "<p>Windsurf Bags<\/p>",
+            "heading_size": "h3",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 40
+          }
+        },
+        "media_NNzekA": {
+          "type": "media",
+          "settings": {
+            "link_url": "",
+            "columns": 1,
+            "rows": 1,
+            "subheading": "",
+            "title": "<p>Windsurf Trapez<\/p>",
+            "heading_size": "h3",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 40
+          }
+        },
+        "media_AjEEpU": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Master.jpg",
+            "link_url": "",
+            "columns": 2,
+            "rows": 2,
+            "subheading": "",
+            "title": "<p>Master<\/p>",
+            "heading_size": "h3",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 40
+          }
+        },
+        "media_PGjC6F": {
+          "type": "media",
+          "settings": {
+            "link_url": "",
+            "columns": 1,
+            "rows": 1,
+            "subheading": "",
+            "title": "<p>Mastefod & Forlænger<\/p>",
+            "heading_size": "h3",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 40
+          }
+        },
+        "media_BgbYnG": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DUOTONE-Windsurf_2024_Jag_Gallery04_jpg_85.jpg",
+            "link_url": "",
+            "columns": 1,
+            "rows": 1,
+            "subheading": "",
+            "title": "<p>Windsurf Tilbehør<\/p>",
+            "heading_size": "h3",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 40
+          }
+        },
+        "media_DBfpq8": {
+          "type": "media",
+          "settings": {
+            "link_url": "",
+            "columns": 2,
+            "rows": 1,
+            "subheading": "",
+            "title": "<p>Windsurf Pakker<\/p>",
+            "heading_size": "h3",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 40
+          }
+        },
+        "media_TtjHXd": {
+          "type": "media",
+          "settings": {
+            "link_url": "",
+            "columns": 1,
+            "rows": 1,
+            "subheading": "",
+            "title": "<p>Veste & Impact<\/p>",
+            "heading_size": "h3",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 40
+          }
+        },
+        "media_HM8bCr": {
+          "type": "media",
+          "settings": {
+            "link_url": "",
+            "columns": 1,
+            "rows": 1,
+            "subheading": "",
+            "title": "<p>Windsurf Reservedele<\/p>",
+            "heading_size": "h3",
+            "button_label": "",
+            "button_link": "",
+            "overlay_position": "justify-start items-end",
+            "text_alignment": "text-start",
+            "button_style": "btn btn--primary",
+            "tint_color": "#000000",
+            "tint_opacity": 40
+          }
+        }
+      },
+      "block_order": [
+        "media_GDPCak",
+        "media_83imJH",
+        "media_mCnVmh",
+        "media_p8WipQ",
+        "media_rLXMFP",
+        "media_rLJyWN",
+        "media_8ErDee",
+        "media_NNzekA",
+        "media_AjEEpU",
+        "media_PGjC6F",
+        "media_BgbYnG",
+        "media_DBfpq8",
+        "media_TtjHXd",
+        "media_HM8bCr"
+      ],
+      "settings": {
+        "title": "",
+        "heading_align": "text-start",
+        "button_label": "",
+        "button_link": "",
+        "gallery_cols_max": 4,
+        "mobile_carousel": false,
+        "gallery_cols_min": "1",
+        "fixed_height_desktop": 200,
+        "fixed_height_mobile": 300,
+        "section_color_scheme": "none",
+        "color_scheme": "white",
+        "transparent_content_color": "#ffffff"
+      }
+    },
+    "collection-products": {
+      "type": "main-collection-products",
+      "blocks": {
+        "card_promotion_HaxUtU": {
+          "type": "card-promotion",
+          "settings": {
+            "position": 3,
+            "view": "grid_list",
+            "hide_on_filter": true,
+            "color_scheme": "1",
+            "image": "shopify:\/\/shop_images\/shutterstock_67757158_1_1_small_06dfe59e-e781-49d1-a31f-06cb3226a32c.jpg",
+            "image_ratio": "fill",
+            "link_url": "#",
+            "title": "Gode Råd - Windsurfing",
+            "content": "<p>Gode råd til hvordan du kommer bedst for start med windsurfing.<\/p>",
+            "button_label": "Læs mere",
+            "button_style": "btn btn--secondary",
+            "button_bottom_align": true
+          }
+        }
+      },
+      "block_order": [
+        "card_promotion_HaxUtU"
+      ],
+      "settings": {
+        "products_per_page": 30,
+        "card_size_mobile": "small",
+        "card_size": "medium",
+        "show_layout_toggle": true,
+        "enable_filtering": true,
+        "filters_open_lg": true,
+        "stick_on_scroll": true,
+        "show_filter_counts": true,
+        "expand_filters": false,
+        "show_filter_deadends": true,
+        "max_filter_options": 7,
+        "enable_sorting": true,
+        "show_feat_sort_opt": true,
+        "sort_first": true
+      }
+    },
+    "rich_text_4RJ9F9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_UdMnhX": {
+          "type": "heading",
+          "settings": {
+            "heading": "Det komplette windsurf sæt",
+            "heading_size": "h1",
+            "heading_h1": false
+          }
+        },
+        "text_LzYQWa": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Windsurfing udstyret<\/h3><p>For at komme i gang med at windsurfe, skal du have windsurfing udstyr <br\/>bestående af et windsurf board og et windsurf rig. Windsurf rig er <br\/>betegnelsen for kombinationen af: windsurf sejl, mast, bom, mastefod og <br\/>masteforlænger. Begrebet windsurf udstyr dækker dermed over en række <br\/>produkter, der samlet byder på tonsvis af sjov på vandet!<br\/>\t<\/p><h4>Windsurf boardet<\/h4><p>Et windsurfboard vil typisk være shapet\/udformet efter at kunne performe til en bestemt windsurf disciplin. Disse windsurf discipliner udgører wave, freestyle, race og freeride. Yderligere findes der også windfoiling. Windfoiling kan simpelt siges at være windsurfing hvor den normale windsurf finne er skiftet ud med en hydrofoil. Uanset windsurfing disciplin har vi hos Westwind udstyret, der passer til det respektive board samt disciplin.<br\/>\t<\/p><h4>Sejlet<\/h4><p>For at komme i gang med at windsurfe, skal du have windsurfing udstyr bestående af et windsurf board og et windsurf rig. Windsurf rig er betegnelsen for kombinationen af: windsurf sejl, mast, bom, mastefod og masteforlænger. Begrebet windsurf udstyr dækker dermed over en række produkter, der samlet byder på tonsvis af sjov på vandet!<\/p><h3>Masten<\/h3><p>Windsurf sejlet er på samme måde som windsurfboardet produceret med den respektive windsurf disciplin for øje. Derfor vil man typisk sejle med board og sejl, som er lavet med henblik på at performe bedst muligt inden for én windsurf disciplin. Windsurf sejl størrelser er altid opgivet i kvadratmeter (m2). Tjek vores store udvalg af windsurf sejl her.\tMastenWindsurf masten vil enten være en RDM mast eller SDM mast. RDM (reduced diameter mast) masten er smallere sammenlignet med SDM (standard diameter mast) masten. Typisk vil der på windsurf sejlet være angivet hvilken af de to mast typer, der er anbefalet i kombination med sejlet. Windsurf masten kan være af ren kulfiber, ren glasfiber eller en kombination af de to fibervæv. Størrelsen på master vil altid være i centimeter. På sejlet vil der også være angivet hvilken størrelse mast, der kan anvendes sammen med sejlet. Tjek vores udvalg af windsurf master her.<br\/>\t<\/p><h3>Masteforlænger og mastefod<\/h3><p>For at forbinde windsurf rigget med boardet skal man bruge to vigtige dele. Det er masteforlængeren samt mastefoden. Mastefoden skal spændes fast på boardet. Masteforlængeren bruges til at trimme windsurfsejlet, og forbindes med mastefoden efter trim.<br\/>\t<\/p><h2>Køb af windsurf udstyr hos Westwind<\/h2><p>Vi ved at det kan være besværligt at finde den perfekte kombination af windsurf udstyr. Derfor står personalet hos Westwind altid klar til at guide dig ud fra deres årelange erfaring indenfor surf & vandsport feltet. Vi anbefaler altid at tjekke lagerstatus på produktet du har kig på og møde op i en af vores butikker, som har produktet på lager. Så når du alligevel er ude ved vandet så sving et smut forbi en af butikkerne. Få en sludder med personalet, samt vejledning og svar på de spørgsmål du skulle have til det ønskede produkt. Kontakt os også gerne på webshop@westwind.dk hvis spørgsmål skulle opstå under din online shopping her på siden.<br\/><\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_UdMnhX",
+        "text_LzYQWa"
+      ],
+      "settings": {
+        "text_position": "justify-center",
+        "text_align": "text-start",
+        "mob_center_text": true,
+        "color_scheme": "none",
+        "full_width": true,
+        "prevent_animation": false
+      }
+    }
+  },
+  "order": [
+    "collection-banner",
+    "media_grid_z34CDP",
+    "collection-products",
+    "rich_text_4RJ9F9"
+  ]
+}
