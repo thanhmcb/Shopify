@@ -109,18 +109,19 @@
         <div class="variant-block-title ">{{ block.settings.title  }}</div>
         {%- for option in product.options_with_values -%}  
           {%- for value in option.values -%}              
-            {% assign values = values | append: ',' | append: value %}       
-          {%- endfor -%}
+            {% assign values = values | downcase  | remove: " " | remove: "-" | append: ',' | append: value %}   
+                  {%- endfor -%}
       {%- endfor -%}
-      {% assign variant_array = values | remove_first: "," | split: "," %} 
-      {% assign block_title = block.settings.title  %}      
-      {% for variant_item in variant_array %}  
+      {% assign variant_array = values | remove_first: "," | split: ","  %} 
+      {% assign block_title = block.settings.title | downcase | remove: " " | remove: "-" %}    
+               
+      {% for variant_item in variant_array %} 
         {% if block_title == variant_item  %} 
-       
-      <div class="acc-head {{  block.settings.title | downcase }} {%- if block.settings.show-expand -%}acc-head-custom{%- endif -%}" {{ block.shopify_attributes }}>
-        <span class="circle-chevron">{%- render 'icon' with 'chevron-bottom-small' -%}</span>
+
+      <div class="acc-head {{ block.settings.title | downcase | remove: " " | remove: "-" }} {%- if block.settings.show-expand -%}acc-head-custom{%- endif -%}" {{ block.shopify_attributes }}>
+        <span class="circle-chevron">{%- render 'icon' with 'chevron-bottom-small' -%}</span> 
       </div>
-      <div class="acc-content {{  block.settings.title | downcase }}" {{ block.shopify_attributes }} >
+      <div class="acc-content {{  block.settings.title | downcase | remove: " " | remove: "-" }}" {{ block.shopify_attributes }} >
         <div class="acc-heading">{{ block.settings.variant-block-heading }}</div>
         <div class="acc-usps">
           {%- if block.settings.variant-usp-text-1 != blank -%}

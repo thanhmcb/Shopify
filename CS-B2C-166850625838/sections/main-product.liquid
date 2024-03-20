@@ -1824,7 +1824,7 @@ quick buy information in a template, that will be extracted in JS, but ensure it
 
     
   
-    $('.variant-picker .variant-picker__option:nth-child(1) .option-value').each(function(index) {
+    $('.variant-picker .variant-picker__option:nth-child(1) .option-value .value-custom').each(function(index) {
       var wrapClass = $(this).text().toLowerCase();
       var item = $('.' + wrapClass);
       item.wrapAll('<div class="acc" />')

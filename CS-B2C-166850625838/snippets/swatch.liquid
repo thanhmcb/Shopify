@@ -144,12 +144,15 @@ Color swatch specific parameters:
  
  
   <label
-    class="select-custom {{ value | downcase }}"
+    class="select-custom {{ value | downcase | remove: " " | remove: "-"}}"
     for="{{ id | escape }}"
     data-option-value>
     <div class="label-option-value">
       <div class="label-option"></div>
-      <span class="option-value">{{ value }}</span>
+      <div class="option-value">
+        <span>{{ value }}</span>
+        <span class="value-custom">{{ value | downcase | remove: " " | remove: "-" }}</span>
+        </div>
     </div>
    <span class="text-sm extra-fee"> 
       {%- if value contains "Coated" -%}
