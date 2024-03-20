@@ -1,0 +1,829 @@
+{
+  "sections": {
+    "16359276425da8ce46": {
+      "type": "slideshow",
+      "blocks": {
+        "16359276425da8ce46-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Primadonna_header.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "Primadonna",
+            "heading_max_width": 15,
+            "title_size": 70,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "<p>Spar op til 50%<\/p>",
+            "enlarge_text": true,
+            "button_label_1": "Se alle tilbud",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center left"
+          }
+        },
+        "image_CtFXUy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/young-woman-measuring-her-breast-dark_pink_small_8475e2e7-74a3-4791-bc99-82a27169b3d9.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "Find din<br> BH størrelse",
+            "heading_max_width": 12,
+            "title_size": 70,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "<p>Vi hjælper dig med at finde den rigtige størrelse med vores store BH størrelsesguide.<\/p>",
+            "enlarge_text": false,
+            "button_label_1": "Få hjælp",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center left"
+          }
+        },
+        "16359276425da8ce46-0": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/large_JPG-102112867299_102075410004_CM_T_1-kopi.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "Marie Jo",
+            "heading_max_width": 15,
+            "title_size": 74,
+            "title_size_mobile": 40,
+            "use_h1": false,
+            "text": "<p>And optional subtext<\/p>",
+            "enlarge_text": true,
+            "button_label_1": "Shop this",
+            "button_url_1": "",
+            "button_label_2": "Shop all",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "16359276425da8ce46-1",
+        "image_CtFXUy",
+        "16359276425da8ce46-0"
+      ],
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 700,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full image-overlay--bg-shadow",
+        "transition": "zoom-fade",
+        "navigation": "dots",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "gallery_3GbJHH": {
+      "type": "gallery",
+      "blocks": {
+        "media_iT6AGf": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MJ_AVERO_CATALOG_0100416_MIA_webonly_SS24-kopi_small_2997b0bc-6b8e-44d8-a576-371e8c68fb89.jpg",
+            "video_shopify": "shopify:\/\/files\/videos\/1533074_Beautiful_Blonde_Lingerie_1280x720(1)(1).mp4",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "BH'er",
+            "button_label": "Se alle",
+            "link": "shopify:\/\/collections\/h-i",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_9QDDeQ": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Trusser1_small_f563b72e-2174-43c4-a2e1-16273ac7b15b.jpg",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "Trusser",
+            "button_label": "Se alle",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_xr3KF9": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/badetoej1_small_b789eff5-ecaf-4554-ad18-517cdd974c94.jpg",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "Badetøj",
+            "button_label": "Se alle",
+            "link": "shopify:\/\/products\/hunkemoller-cardi-bh-med-bojle-sort-2",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_MK8jDk": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/nattoej1_small_3cedb57f-6804-442d-96e9-e9d8e017ae81.jpg",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "Nattøj",
+            "button_label": "Se alle",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "media_iT6AGf",
+        "media_9QDDeQ",
+        "media_xr3KF9",
+        "media_MK8jDk"
+      ],
+      "settings": {
+        "grid_desktop": 2,
+        "grid_mobile": "1",
+        "height": "fixed",
+        "desktop_image_height": 400,
+        "mobile_image_height": 290,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": true,
+        "full_width": false,
+        "color_scheme": "default",
+        "enable_carousel": true,
+        "overlay_style": "full image-overlay--bg-shadow",
+        "button_style": "link"
+      }
+    },
+    "collection_list_NijHhm": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_aFGm7L": {
+          "type": "collection",
+          "settings": {
+            "collection": "a",
+            "subheading": "BH størrelse",
+            "button_label": ""
+          }
+        },
+        "collection_jg6hWY": {
+          "type": "collection",
+          "settings": {
+            "collection": "b",
+            "subheading": "BH størrelse",
+            "button_label": ""
+          }
+        },
+        "collection_BhVm3A": {
+          "type": "collection",
+          "settings": {
+            "collection": "c",
+            "subheading": "BH størrelse",
+            "button_label": ""
+          }
+        },
+        "collection_wzAEnY": {
+          "type": "collection",
+          "settings": {
+            "collection": "d",
+            "subheading": "BH størrelse",
+            "button_label": ""
+          }
+        },
+        "collection_QxbVat": {
+          "type": "collection",
+          "settings": {
+            "collection": "e",
+            "subheading": "BH størrelse",
+            "button_label": ""
+          }
+        },
+        "collection_zRFtrb": {
+          "type": "collection",
+          "settings": {
+            "collection": "f",
+            "subheading": "BH størrelse",
+            "button_label": ""
+          }
+        },
+        "collection_kydDXC": {
+          "type": "collection",
+          "settings": {
+            "collection": "h-i",
+            "subheading": "BH størrelse",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_aFGm7L",
+        "collection_jg6hWY",
+        "collection_BhVm3A",
+        "collection_wzAEnY",
+        "collection_QxbVat",
+        "collection_zRFtrb",
+        "collection_kydDXC"
+      ],
+      "settings": {
+        "title": "Shop efter BH-størrelse",
+        "enable_carousel": true,
+        "grid": 5,
+        "color_scheme": "default",
+        "full_width": true,
+        "coll_grid_image_shape": "square",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": true,
+        "coll_text_position": "over-full image-overlay--bg-shadow",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    },
+    "collection_list_tPFPLP": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_MbEFiR": {
+          "type": "collection",
+          "settings": {
+            "collection": "marie-jo",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_UW7WAh": {
+          "type": "collection",
+          "settings": {
+            "collection": "primadonna",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_GwTKeD": {
+          "type": "collection",
+          "settings": {
+            "collection": "triumph",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_bFVEjb": {
+          "type": "collection",
+          "settings": {
+            "collection": "sloggi",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_QdKqkP": {
+          "type": "collection",
+          "settings": {
+            "collection": "aubade",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_jKwpJa": {
+          "type": "collection",
+          "settings": {
+            "collection": "chantelle",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_dpTChp": {
+          "type": "collection",
+          "settings": {
+            "collection": "hunkemoller",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_MbEFiR",
+        "collection_UW7WAh",
+        "collection_GwTKeD",
+        "collection_bFVEjb",
+        "collection_QdKqkP",
+        "collection_jKwpJa",
+        "collection_dpTChp"
+      ],
+      "settings": {
+        "title": "Shop efter mærke",
+        "enable_carousel": true,
+        "grid": 5,
+        "color_scheme": "default",
+        "full_width": true,
+        "coll_grid_image_shape": "square",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": true,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    },
+    "16359278676808bea5": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "BH'er på Tilbud",
+        "collection": "",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "1",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "16359281184fd0d618": {
+      "type": "testimonials",
+      "blocks": {
+        "16359281184fd0d618-0": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "Havde en helt igennem god oplevelse",
+            "author": "Marianne Christensen",
+            "image_caption": "",
+            "link": ""
+          }
+        },
+        "16359281184fd0d618-1": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "Super service og hurtig levering",
+            "author": "Henrik Aagerup",
+            "image_caption": "",
+            "link": ""
+          }
+        },
+        "testimonial_gFPUNN": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 4,
+            "testimonial": "Priserne lavere end hos min lokale forhandler, hvorfor jeg fremover vil handle hos Netlingeri.",
+            "author": "Grethe",
+            "image_caption": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16359281184fd0d618-0",
+        "16359281184fd0d618-1",
+        "testimonial_gFPUNN"
+      ],
+      "settings": {
+        "title": "Udtalelser fra vores kunder",
+        "layout": "no-image",
+        "text_caps": false,
+        "quote_text_size": 40,
+        "quote_text_size_mobile": 20,
+        "image_shape": "square",
+        "color_scheme": "default",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "16359285201c71bbb1": {
+      "type": "background-video",
+      "blocks": {
+        "6491654b-0158-4d48-bd51-47f80ae61173": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Tell your story"
+          }
+        },
+        "0e02b1e1-0a34-401b-8a9f-d87b29a96271": {
+          "type": "heading",
+          "settings": {
+            "title": "Kvalitetsprodukter giver glade kunder",
+            "heading_max_width": 15,
+            "title_size": 70,
+            "title_size_mobile": 32,
+            "use_h1": false
+          }
+        },
+        "7e652131-c89a-42cd-b26d-2a7d6d2950b7": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use a video to get a customer's attention<\/p>",
+            "enlarge_text": true
+          }
+        },
+        "c9a40eba-4d41-4ab8-afa3-bebce9e038a9": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button text",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "6491654b-0158-4d48-bd51-47f80ae61173",
+        "0e02b1e1-0a34-401b-8a9f-d87b29a96271",
+        "7e652131-c89a-42cd-b26d-2a7d6d2950b7",
+        "c9a40eba-4d41-4ab8-afa3-bebce9e038a9"
+      ],
+      "settings": {
+        "video_shopify": "shopify:\/\/files\/videos\/5294373_Women_Dancing_Underwear_1280x720(1).mp4",
+        "video_external": "",
+        "video_description": "",
+        "text_alignment": "center center",
+        "height_desktop": 580,
+        "height_mobile": 480,
+        "full_width": true,
+        "overlay_style": "full image-overlay--bg-shadow"
+      }
+    },
+    "rich_text_9HQBGc": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_H4Jzt7": {
+          "type": "heading",
+          "settings": {
+            "title": "Shop lingeri og undertøj på netlingeri.dk",
+            "use_h1": false
+          }
+        },
+        "text_yQ9Yht": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hos Netlingeri byder vi på et stort og spændende udvalg af lækkert, feminint og moderne lingeri. Her finder du alle de varianter, som du kunne drømme om. Vi byder på eksklusive designs i både klassisk, trendy, sporty og feminint look.Glæd dig over flotte designs til både hverdag og fest. Vi har sørget for såvel BH som trusse og bodystocking med fokus på lækker pasform og ikke mindst bløde og behagelige materialer. Sortimentet byder på:<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_H4Jzt7",
+        "text_yQ9Yht"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "1"
+      }
+    },
+    "collection_list_iD4W8a": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_6z8YCg": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_zFXAWr": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_hNjUG8": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_EexpaV": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_RyXGRd": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_9n8D3b": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_6z8YCg",
+        "collection_zFXAWr",
+        "collection_hNjUG8",
+        "collection_EexpaV",
+        "collection_RyXGRd",
+        "collection_9n8D3b"
+      ],
+      "settings": {
+        "title": "Populære kategorier",
+        "enable_carousel": true,
+        "grid": 5,
+        "color_scheme": "1",
+        "full_width": true,
+        "coll_grid_image_shape": "square",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": true,
+        "coll_text_position": "over-full image-overlay--bg-shadow",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    },
+    "image_with_text_epiXeh": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_dn6E9c": {
+          "type": "heading",
+          "settings": {
+            "title": "Lingeri i lækker kvalitet og perfekt pasform",
+            "use_h1": false
+          }
+        },
+        "text_hmDYaE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Kvaliteten er udsøgt, når du handler såvel basis undertøj som den mere luksuriøse af slagsen med blonder m.m. Vi har sørget for professionelle mærker, der har stor fokus på de små detaljer – detaljer, der kan gøre den helt store forskel. Sortimentet byder på smukke designs med:<\/p><ol><li>Nøje udvalgte materialer i blødt design <\/li><li>Slidstærke sømme, syninger, linning og vinger (BH)<\/li><li>Stor farveægthed og farver, der holder vask efter vask<\/li><li>Lækker komfort og perfekt pasform<\/li><\/ol><p>Du kan mærke de høje kvalitet, når du iklæder dig lækkerier fra vores kvalitetsmærker. Komforten er altid en vigtig prioritet bag hvert design. En BH skal kunne støtte din barm og samtidig være behagelig at have på.Vær dog opmærksom på at komfort og rette størrelse hænger sammen – benyt dig gerne af vores mange smarte <a href=\"#\" title=\"#\">størrelsesguides <\/a>til de forskellige varemærker, som du finder rundt omkring på vores side.<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "button_GxjgF7": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button text",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dn6E9c",
+        "text_hmDYaE",
+        "button_GxjgF7"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/large_JPG-102112867299_102075410004_CM_T_1-kopi.jpg",
+        "image_width": 670,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_tWYPAR": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_6Y9YTW": {
+          "type": "heading",
+          "settings": {
+            "title": "Smukke blonder i mange varianter",
+            "use_h1": false
+          }
+        },
+        "text_9ptpW9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Smukke feminine blonder så langt øjet rækker – sådan kan det føles, når du går på opdagelse i vores brede sortiment af lingeri i mange spændende designs. <\/p><ul><li><a href=\"#\" title=\"#\">Blonder med og uden elastisk materiale<\/a><\/li><li><a href=\"#\" title=\"#\">Blonder i transparent materiale<\/a><\/li><li><a href=\"#\" title=\"#\">Blonder i flere farvevarianter<\/a><\/li><\/ul>",
+            "enlarge_text": false
+          }
+        },
+        "button_hiDbdF": {
+          "type": "button",
+          "settings": {
+            "button_label": "Vis alle med blonder",
+            "button_link": "",
+            "button_style": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6Y9YTW",
+        "text_9ptpW9",
+        "button_hiDbdF"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/202109_4_kopi_jpg_80_1.jpg",
+        "image_2": "shopify:\/\/shop_images\/160342-142_4_jpg_80.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_Y9UUGr": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_JDWdAd": {
+          "type": "heading",
+          "settings": {
+            "title": "Casual, feminin eller sexet lingeri",
+            "use_h1": false
+          }
+        },
+        "text_B86ice": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Skal det være frækt og forførende lingeri, smukt og feminint eller måske lidt råt og cool? Find din egen favorit blandt vores mange spændende designs. Måske har du din egen helt personlige stil, når du iklæder dig lingeri?<br\/><br\/>Vores store sortiment byder på lidt af hvert. Vi har helt sikkert også noget, der kan falde i din smag. Måske du er på udkig efter frækt lingeri, plus size lingeri eller måske et lingeri sæt til en helt speciel lejlighed, så glæd dig over vores store og varierede udvalg.<br\/><br\/>    Mange spændende kombinationsmuligheder af BH og trusser<br\/><br\/>Vi har gjort det let for dig at handle online og ikke mindst let for dig, der gerne selv vil sammensætte det perfekte sæt at have på inderst på kroppen. Vi giver dig nemlig mulighed for at kombinere de mange designs af toppe og underdele præcis, som du lyster. Lad din personlige stil skinne igennem helt ind til det inderste med smart og feminint undertøj.<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_JDWdAd",
+        "text_B86ice"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/26437901111_rs_jpg_80.jpg",
+        "image_2": "shopify:\/\/shop_images\/0163432_7__1___2__jpg_80.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_JjeYDM": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_zgNCEx": {
+          "type": "heading",
+          "settings": {
+            "title": "Dyk ned i vores store tilbudskategorier",
+            "use_h1": false
+          }
+        },
+        "text_fkdnn9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hos Netlingeri finder du også altid spændende lingeri tilbud. Vi har sørget for et stort udvalg af såvel trusser om toppe og BH'er, så du kan shine din garderobe op med lækkerier fra de største mærker fra ind- og udland til skønne priser, når du handler her hos os.<\/p><p>Vi kan også opfordre dig til at kigge på vores spændende tilbudsside, hvor du med jævne mellemrum kan finde mange spændende varianter af såvel undertøj, nattøj, badetøj og homewear med store besparelser. Her kan du være heldig at finde rester fra tidligere kollektioner med store rabatter eller andre helt specielle tilbud.<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "button_DgF4KN": {
+          "type": "button",
+          "settings": {
+            "button_label": "Se alle tilbud",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zgNCEx",
+        "text_fkdnn9",
+        "button_DgF4KN"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Tilbud.png",
+        "image_2": "shopify:\/\/shop_images\/2BF14_DARC_05_jpg_80.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "2"
+      }
+    },
+    "collection_list_dTzV8x": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_DEbyJU": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_LQRq67": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_nrbedG": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_zHVNbe": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_ByGiqL": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_jkLtMi": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_DEbyJU",
+        "collection_LQRq67",
+        "collection_nrbedG",
+        "collection_zHVNbe",
+        "collection_ByGiqL",
+        "collection_jkLtMi"
+      ],
+      "settings": {
+        "title": "Lingeri tilbud",
+        "enable_carousel": true,
+        "grid": 5,
+        "color_scheme": "2",
+        "full_width": true,
+        "coll_grid_image_shape": "square",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": true,
+        "coll_text_position": "over-full image-overlay--bg-shadow",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    },
+    "1635928697c562053a": {
+      "type": "map",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "color_scheme": "1",
+        "heading": "Kontakt os",
+        "address": "<p>Netlingeri <br\/>Nyholmvej 3 <br\/>7500 Holstebro <br\/>+45 41 40 75 00<br\/>info@netlingeri.dk<br\/>CVR: 31327369<\/p><p>Man - Fre kl. 9-15<\/p>",
+        "button": "Find os",
+        "show_pin": true,
+        "show_feature_image": true,
+        "feature_image": "shopify:\/\/shop_images\/160342-142_4_jpg_80.jpg",
+        "map_address": "Nyholmvej 3 7500 Holstebro",
+        "api_key": "",
+        "map_type": "embed",
+        "map_style": "silver"
+      }
+    }
+  },
+  "order": [
+    "16359276425da8ce46",
+    "gallery_3GbJHH",
+    "collection_list_NijHhm",
+    "collection_list_tPFPLP",
+    "16359278676808bea5",
+    "16359281184fd0d618",
+    "16359285201c71bbb1",
+    "rich_text_9HQBGc",
+    "collection_list_iD4W8a",
+    "image_with_text_epiXeh",
+    "image_with_text_tWYPAR",
+    "image_with_text_Y9UUGr",
+    "image_with_text_JjeYDM",
+    "collection_list_dTzV8x",
+    "1635928697c562053a"
+  ]
+}
