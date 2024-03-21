@@ -99,17 +99,17 @@
 .product-collection{
   margin-top: -30px;
 }
-.product-collection--heading{
-  text-transform: uppercase;
-}
+
 .product-collection--items {
-  margin-top: 1rem;
+ display: flex;
+ flex-wrap: wrap;
 }
 .product-collection--items a{
   border: 1px var(--input-border-color) solid;
   padding: .5rem 1rem;
   margin-right: .6rem;
   color: rgb(var(--body-text-color));
+  margin-top: .5rem;
 }
 .product-collection--items a:hover{
   border-color: var(--input-border-color-hover);
