@@ -1,0 +1,82 @@
+{
+  "type": "header",
+  "name": "Header",
+  "sections": {
+    "announcement": {
+      "type": "announcement",
+      "settings": {
+        "show_border": false,
+        "layout": "slider",
+        "slider_speed": 7,
+        "text_alignment": "center",
+        "show_arrows": false,
+        "marquee_speed": 100,
+        "message_spacing": 10,
+        "text_size": 2,
+        "bg_color": "#f7f7f7",
+        "color": "#545454"
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "toolbar": {
+          "type": "toolbar",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Toolbar<\/p>",
+            "menu": "",
+            "show_border": false,
+            "border_opacity": 50,
+            "show_social_links": true,
+            "show_gift_card": true,
+            "show_locale_selector": true,
+            "show_country_selector": true,
+            "show_country_name": false,
+            "show_country_flag": true,
+            "bg_color": "#fafafa",
+            "color": ""
+          }
+        }
+      },
+      "block_order": [
+        "toolbar"
+      ],
+      "settings": {
+        "header_sticky": false,
+        "header_style": "logo_above",
+        "show_separator_line": false,
+        "separator_opacity": 50,
+        "show_icons": true,
+        "icon_as_circle": false,
+        "cart_icon_family": "bag",
+        "logo": "{{ shop.brand.logo }}",
+        "logo_max_limit": 120,
+        "logo_max_limit_mobile": 120,
+        "main_menu_linklist": "",
+        "mobile_menu_linklist": "",
+        "enable_search": true,
+        "show_social_icons": true,
+        "show_locale_selector": true,
+        "show_country_selector": true,
+        "show_country_name": false,
+        "show_country_flag": true,
+        "highlight_item": "Sale",
+        "highlight_item_color": "#D02E2E",
+        "transparent_home": false,
+        "transparent_product_page": false,
+        "transparent_collection": false,
+        "transparent_article": false,
+        "transparent_page": false,
+        "secondary_menu_linklist": "",
+        "tertiary_menu_linklist": "",
+        "padding_top": 15,
+        "padding_bottom": 15
+      }
+    }
+  },
+  "order": [
+    "announcement",
+    "header"
+  ]
+}
