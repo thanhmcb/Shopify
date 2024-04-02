@@ -129,8 +129,8 @@
           {%- capture accordion_blocks_html -%}
             {{ accordion_blocks_html }}
 
-            <details class="accordion" data-collapsible{% if accordion_open %} open="true"{% endif %}>
-              <summary class="accordion__title" data-collapsible-trigger {{ block.shopify_attributes }}>
+            <details class="accordion{% if title == "Finansiering" %} sparxpres-row{% endif %}" data-collapsible{% if accordion_open %} open="true"{% endif %}>
+              <summary class="accordion__title fdsfsfs" data-collapsible-trigger {{ block.shopify_attributes }}>
                 {{ title }}
 
                 {%- render 'icon-plus' -%}
@@ -138,7 +138,7 @@
               </summary>
 
               <div class="accordion__body rte" data-collapsible-body{% if accordion_open %} style="height: auto;"{% endif %}>
-                <div class="accordion__content" data-collapsible-content>
+                <div class="accordion__content {% if title == "Finansiering" %} sparxpres{% endif %}" data-collapsible-content>
                   {{ content }}
                 </div>
               </div>

@@ -55,7 +55,7 @@
       {
         "type": "color",
         "id": "sale_color",
-        "label": "Sale",
+        "label": "Sale price text color",
         "default": "#d20000"
       },
       {
@@ -710,15 +710,11 @@
         "default": true
       },
       {
-        "type": "range",
+        "type": "text",
         "id": "product_grid_aspect_ratio",
-        "min": 0.5,
-        "max": 1.5,
-        "step": 0.1,
-        "unit": ":1",
         "label": "Product photo aspect ratio",
         "info": "Wide to tall",
-        "default": 1
+        "default": "0.55"
       },
       {
         "type": "header",
@@ -733,13 +729,37 @@
       {
         "type": "color",
         "id": "sale_bg_color",
-        "label": "Background",
+        "label": "Sale tag Background",
         "default": "#c84242"
       },
       {
         "type": "color",
         "id": "sale_text_color",
-        "label": "Text",
+        "label": "Sale text color",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "percentage_bg_color",
+        "label": "Background percentage label",
+        "default": "#4869D9"
+      },
+      {
+        "type": "color",
+        "id": "percentage_text_color",
+        "label": "Text percentage label",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "custom_label_bg_color",
+        "label": "Background custom label",
+        "default": "#c84242"
+      },
+      {
+        "type": "color",
+        "id": "custom_label_text_color",
+        "label": "Text custom label",
         "default": "#ffffff"
       },
       {
@@ -809,6 +829,56 @@
       }
     ]
   },
+  {
+    "name": "Find store - MCB Custom",
+    "settings": [
+      {
+        "type": "text",
+        "id": "find-store-label",
+        "label": "Find store label",
+        "default": "Find store"
+      },
+      {
+        "type": "url",
+        "id": "find-store-link",
+        "label": "Find store link"
+      },
+      {
+        "type": "checkbox",
+        "id": "open-in-tab",
+        "label": "Open in tab",
+        "default": true
+      },
+      {
+        "type": "range",
+        "id": "icon_custom_size",
+        "label": "Icon size",
+        "unit": "px",
+        "min": 20,
+        "max": 80,
+        "step": 5,
+        "default": 20
+      },
+      {
+        "type": "image_picker",
+        "id": "icon_custom",
+        "label": "Alternative icon\/image"
+      },
+      {
+        "type": "checkbox",
+        "id": "show-on-header",
+        "label": "Show on header",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "show-on-mobile-menu",
+        "label": "Show on mobile menu",
+        "default": true
+      }
+    ]
+  },
+
   {
     "name": "Product form",
     "settings": [
@@ -927,6 +997,16 @@
           }
         ],
         "default": "image"
+      },
+      {
+        "type": "range",
+        "id": "swatch_color_size",
+        "label": "Swatch size",
+        "unit": "px",
+        "min": 20,
+        "max": 50,
+        "step": 1,
+        "default": 32
       },
       {
         "type": "textarea",

@@ -213,6 +213,14 @@
 /* === Product sale color ===*/
 --COLOR-SALE: {{ settings.sale_color }};
 
+/* === MCB Product percentage color ===*/
+--color-percentage-bg: {{ settings.percentage_bg_color }};
+--color-percentage-text: {{ settings.percentage_text_color }};
+
+/* === MCB Product custom label color ===*/
+--color-custom-label-text: {{ settings.custom_label_text_color }};
+--color-custom-label-bg: {{ settings.custom_label_bg_color }};
+
 /* === Gray background on Product grid items ===*/
 {%- if settings.show_gray_bg -%}
   --filter-bg: .97;
@@ -463,6 +471,7 @@
 {% endif %}
 
 /* === Swatch Size ===*/
+--swatch-color-size :{{ settings.swatch_color_size }}px;
 --swatch-size-filters: calc({{ swatch_size_filters }}rem * var(--FONT-ADJUST-BODY));
 --swatch-size-product: calc({{ swatch_size_product }}rem * var(--FONT-ADJUST-BODY));
 }

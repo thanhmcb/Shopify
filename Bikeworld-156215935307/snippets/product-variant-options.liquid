@@ -36,9 +36,9 @@
     endif
   endif
 -%}
+                    
 
-
-                    {%- comment -%}
+         {%- comment -%}
             Determine if current option matches size handle translations
           {%- endcomment -%}
 
@@ -46,12 +46,18 @@
             assign is_size_option = false
             assign size_style = block.settings.size_chart_style
             assign specific_pages = ''
-
+        
             if block.settings.info_page != blank
               assign size_translation = 'general.size_chart.size' | t
               assign info_page = pages[block.settings.info_page]
             endif
-
+           
+            if block.settings.info_page == blank
+            assign size_translation = 'general.size_chart.size' | t
+            assign vendor_name = product.vendor | handleize
+            assign info_page = pages[vendor_name]
+            endif
+          
             if tags_string contains size_separator
               for tag in product.tags
                 if tag contains size_separator
@@ -67,7 +73,7 @@
           {%- endcomment -%}
 
           {%- if enable_size_chart -%}
-            {%- if block.settings.info_page != blank or specific_pages != '' -%}
+            
               {%- liquid
                 assign show_size_chart = true
                 assign specific_pages_arr = specific_pages | split: ','
@@ -84,31 +90,33 @@
               -%}
 
               {%- capture size_button -%}
-                {%- unless show_size_link_separated -%}
+              
                   {%- case size_style -%}
                     {%- when 'text' -%}
                       <span class="radio__legend__link__label">
                         {{- 'general.size_chart.title' | t -}}
-                      </span>
+                      </span>radio__legend__label
 
                     {%- when 'ruler' -%}
-                      <span class="btn-size-chart">
-                        {%- render 'icon-ruler' -%}
+                      <span class="size-chart-icon">
+                        {%- render 'icon-ruler' -%} 
                       </span>
-
-                    {%- when 'question' -%}
-                      <span class="btn-size-chart">?</span>
-                  {%- endcase -%}
-                {%- else -%}
-                  <span class="radio__legend__link__label">
+                      <span class="radio__legend__link__label">
                     {{- 'general.size_chart.title' | t -}}
                   </span>
-                {%- endunless -%}
+
+                    {%- when 'question' -%}
+                      <span class="size-chart-icon">?</span>
+                      <span class="radio__legend__link__label">
+                    {{- 'general.size_chart.title' | t -}}
+                  </span>
+                  {%- endcase -%}
+               
               {%- endcapture -%}
 
               {%- capture size_chart_link -%}
                 <product-modal>
-                  <a href="{{ info_page.url }}" data-popup-open class="radio__legend__link xs{% if product.has_only_default_variant %} size-popup-link{% endif %}{% if size_style == 'text' or show_size_link_separated %} text-link{% endif %}">
+                  <a href="{{ info_page.url }}" data-popup-open class="radio__legend__link xs{% if product.has_only_default_variant %} size-popup-link{% endif %} sizeguide-link">
                     {{ size_button }}
                   </a>
 
@@ -204,7 +212,7 @@
                   </dialog>
                 </product-modal>
               {%- endcapture -%}
-            {%- endif -%}
+            
           {%- endif -%}
 
           <div class="selector-wrapper{% if settings.variant_lines and is_size_option %} selector-wrapper--size{% elsif settings.variant_lines or is_swatch_option %} selector-wrapper--fullwidth{% endif %}"
@@ -213,18 +221,20 @@
               {%- assign current_value = current_variant.options[forloop.index0] -%}
               <fieldset>
                 <div class="radio__fieldset{% if is_swatch_option %} radio__fieldset--swatches{% endif %}">
-                  <legend class="radio__legend{% if is_size_option and size_chart_link and show_size_link_separated == false %} radio__legend--size{% endif %}">
+                  <legend class="radio__legend{% if is_size_option and size_chart_link and show_size_link_separated == false %} radio__legend--size{% endif %} {% if option.name == "Størrelse" %}option-size-guide{% endif %}">
                     <span class="radio__legend__label{% if size_style == 'text' %} radio__legend__label--text{% endif %}">
-                      <span class="radio__legend__option-name">{{ option.name }}</span>
-
-                      {%- if is_size_option -%}
-                        {{- size_chart_link -}}
-                      {%- endif -%}
-
+                      <span class="radio__legend__option-name">{{ option.name }}</span>                                                            
                       {%- if settings.show_labels -%}
                         <small class="radio__legend__value" data-option-value>{{ current_value }}</small>
                       {%- endif -%}
                     </span>
+                     {%- comment -%} MCB size chart - start {%- endcomment -%}  
+                     {% if option.name == "Størrelse" %}                       
+                      <div class="radio__fieldset radio__fieldset--single">
+                      {{- size_chart_link -}}
+                       </div>                     
+                     {% endif %}
+                      {%- comment -%} MCB size chart - end {%- endcomment -%}    
                   </legend>
 
                   <div class="radio__buttons">
@@ -279,9 +289,7 @@
                     <span class="radio__legend__label{% if size_style == 'text' %} radio__legend__label--text{% endif %}" id="{{ uniq_id }}-select-{{ option.name | handle }}-label">
                       <span class="radio__legend__option-name">{{ option.name }}</span>
 
-                      {%- if is_size_option -%}
-                        {{- size_chart_link -}}
-                      {%- endif -%}
+                      
 
                       {%- if settings.show_labels -%}
                         <small class="radio__legend__value" data-option-value>{{ current_value }}</small>
@@ -343,11 +351,7 @@
     {%- endunless -%}
   {%- endcapture -%}
 
-  {%- if show_size_link_separated and size_chart_link != blank -%}
-    <div class="radio__fieldset radio__fieldset--single">
-      {{- size_chart_link -}}
-    </div>
-  {%- endif -%}
+
 
   {{- form_fields -}}
 

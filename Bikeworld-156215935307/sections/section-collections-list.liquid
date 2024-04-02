@@ -13,6 +13,7 @@
   assign grid_columns = section.settings.grid
   assign limit_onboarding = grid_columns
   assign layout = section.settings.layout
+  assign full_width = section.settings.full_width
   assign layout_mobile = section.settings.layout_mobile
   capture grid_classes
     echo 'grid'
@@ -87,7 +88,7 @@
     {%- endif -%}
 
     <div class="grid__items-holder">
-      <div class="grid-outer collection-list-outer">
+      <div class="collection-list-outer{% if full_width %} grid-outer{% endif %}">
         {%- liquid
           capture collection_items
             if section.blocks.size > 0
@@ -130,6 +131,11 @@
 {
   "name": "Collection list",
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Not Full width"
+    },
     {
       "type": "text",
       "id": "title",

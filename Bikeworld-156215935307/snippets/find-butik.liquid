@@ -1,0 +1,18 @@
+<div class="find-butik">
+<a href="{{settings.find-store-link}}" {% if settings.open-in-tab %} target="_blank" {% endif %} >
+    {%- assign icon_size = settings.icon_custom_size -%}
+    <div class="icon__animated" style="width: {{ settings.icon_custom_size }}px;">
+        {%- liquid
+        if settings.icon_custom
+          assign icon_width = icon_size
+          assign icon_width_retina = icon_width | times: 2
+          assign icon_sizes = icon_width | append: 'px'
+          assign icon_widths = icon_width | append: ', ' | append: icon_width_retina
+          render 'image' image: settings.icon_custom, width: icon_width_retina, sizes: icon_sizes, widths: icon_widths, loading: loading
+        else
+          render 'icon-location'
+        endif
+      -%}
+    </div>
+    {{settings.find-store-label}}</a>
+</div>

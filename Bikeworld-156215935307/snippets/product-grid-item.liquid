@@ -258,60 +258,12 @@
 {%- endif -%}
 
 {%- capture over_image_content -%}
-  {%- liquid
-    assign product_tags = product.tags | join: ',' | append: ','
-    assign preorder = false
-    assign is_preorder_meta = false
-    assign on_sale = false
-    assign sold_out = false
-    assign badge = ''
+  {%- comment -%} MCB label - Start {%- endcomment -%}
+    {% render 'custom-label', product:product %}
+    {%- render 'button-wishlist', product:product -%}
 
-    if product.metafields.theme.badge != blank and product.metafields.theme.badge.type == 'single_line_text_field'
-      assign badge = product.metafields.theme.badge.value
-    endif
-
-    if badge == '' and product_tags contains '_badge_'
-      assign badge = product_tags | split: '_badge_'
-      assign badge = badge[1] | split: ',' | first | replace: '_', ' '
-    endif
-
-    if product.metafields.theme.preorder.type == 'boolean' and product.metafields.theme.preorder.value == true
-      assign is_preorder_meta = true
-    endif
-
-    if product_tags contains '_preorder' or is_preorder_meta
-      assign preorder = true
-    endif
-
-    if product.compare_at_price > product.price and settings.sale_tags_enable
-      assign on_sale = true
-    endif
-
-    unless product.available
-      assign sold_out = true
-    endunless
-  -%}
-
-  {%- if badge != '' -%}
-    <span class="badge-box"
-      data-aos="fade"
-      data-aos-delay="{{ aos_delay }}"
-      data-aos-duration="{{ aos_duration }}"
-      data-aos-anchor="{{ aos_anchor }}">{{ badge }}</span>
-  {%- elsif preorder and sold_out == false -%}
-    <span class="preorder-box"
-      data-aos="fade"
-      data-aos-delay="{{ aos_delay }}"
-      data-aos-duration="{{ aos_duration }}"
-      data-aos-anchor="{{ aos_anchor }}">{{ 'products.product.pre_order' | t }}</span>
-  {%- elsif on_sale and sold_out == false -%}
-    <span class="sale-box"
-      data-aos="fade"
-      data-aos-delay="{{ aos_delay }}"
-      data-aos-duration="{{ aos_duration }}"
-      data-aos-anchor="{{ aos_anchor }}">{{ 'products.product.on_sale' | t }}</span>
-  {%- endif -%}
-
+  
+ {%- comment -%} MCB label - Start {%- endcomment -%}
   {%- if settings.quickview_enable and current_variant -%}
     {%- liquid
       assign is_preorder_meta_exist = false
@@ -526,6 +478,17 @@
 
   <div class="product-information" data-product-information>
     <div class="product-item__info">
+        {%- comment -%} MCB - Show vendor - start {%- endcomment -%}
+        {%- if section.settings.show_vendor -%}
+        {%- if product.vendor -%}
+        {% capture vendor_logo %}{{ product.vendor | handleize }}.png{% endcapture %}
+            <a href="{{ product.vendor | url_for_vendor }}"><img class="product-vendor__logo" src="{{ vendor_logo | asset_url }}"
+            style="width: {{ section.settings.product_vendor_logo_width }}px;"
+            data-sizes="auto"></a>
+        {%- endif -%}
+      {%- endif -%}
+      {%- comment -%} MCB - Show vendor - end {%- endcomment -%}
+      
       <a class="product-link" href="{{ product_url }}" data-product-link="{{ product_url }}">
         {%- if settings.product_grid_show_rating and product.metafields.reviews.rating.value != blank -%}
           <div class="product-item__stars">

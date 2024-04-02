@@ -71,8 +71,9 @@
 
     {%- if settings.sale_badge -%}
       <span data-price-off class="product__price--off hidden">
-        <span data-price-off-amount></span>
         {{ 'products.product.off' | t }}
+        <span data-price-off-amount></span>
+       
       </span>
     {%- endif -%}
   </div>

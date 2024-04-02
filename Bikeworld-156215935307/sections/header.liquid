@@ -488,11 +488,28 @@
         </a>
       </div>
     {%- endif -%}
+
+   
+    {%- if section.settings.enable_wishlist -%}
+      <div class="header__mobile__button">
+        <a href="{{ section.settings.wishlist-page }}" class="wishlist--link navlink {{ navlink_cart_classes }}">
+          <div class="navlink__cart__content">
+            <span class="header__cart__status__holder">
+              <span class="wishlist--link__count header__cart__status"  data-wishlist-count="0"></span>
+              {%- render 'icon-wishlist' -%}
+            </span>
+          </div> 
+        </a>     
+      </div>
+    {%- endif -%}
+    
     <div class="header__mobile__button">
-      <a href="{{ routes.cart_url }}" class="navlink {{ navlink_cart_classes }}" {% if settings.enable_cart_dropdown and template.name != 'cart' %} data-cart-toggle {% endif %}>
-        {{ cart_status }}
-      </a>
-    </div>
+    <a href="{{ routes.cart_url }}" class="navlink {{ navlink_cart_classes }}" {% if settings.enable_cart_dropdown and template.name != 'cart' %} data-cart-toggle {% endif %}>
+      {{ cart_status }}
+    </a>
+  </div>
+
+
   </div>
 
   {%- if tertiary_menu_linklist != blank and linklists[tertiary_menu_linklist].links.size > 0 -%}
@@ -535,6 +552,7 @@
       </div>
     {%- endif -%}
 
+   
     {%- if section.settings.enable_search -%}
       <div class="header__desktop__button">
         <header-search-popdown>
@@ -552,6 +570,21 @@
         </header-search-popdown>
       </div>
     {%- endif -%}
+
+ {% comment %}MCB Shopify Wishlist - start{% endcomment %}
+    {%- if section.settings.enable_wishlist -%}
+       <div class="header__desktop__button">
+        <a href="{{ section.settings.wishlist-page }}" class="wishlist--link navlink--cart--icon">
+        <div class="navlink__cart__content">
+          <span class="header__cart__status__holder">
+            <span class="wishlist--link__count header__cart__status"  data-wishlist-count="0"></span>
+            {%- render 'icon-wishlist' -%}
+          </span>
+        </div>  
+         </a>
+       </div>
+    {%- endif -%}
+ {% comment %}MCB Shopify Wishlist - end{% endcomment %}
 
     <div class="header__desktop__button">
       <a href="{{ routes.cart_url }}" class="navlink {{ navlink_cart_classes }}" title="{{ 'cart.general.title' | t }}" {% if settings.enable_cart_dropdown and template.name != 'cart' %} data-cart-toggle{% endif %}>
@@ -667,6 +700,9 @@
                 data-animation-delay="{{ animation_delay }}"
                 data-animation-duration="{{ animation_duration }}">
                 {%- render 'social-icons' -%}
+                {% if settings.show-on-mobile-menu %}
+                  {%- render 'find-butik' -%}
+                {%- endif -%}
               </div>
             {%- endif -%}
           </div>
@@ -725,6 +761,11 @@
                 {%- if show_socials -%}
                   {%- render 'social-icons' -%}
                 {%- endif -%}
+                {%- comment -%} MCB Find Butik {%- endcomment -%}
+                {%- if settings.show-on-header -%}
+                  {%- render 'find-butik' -%}
+                {%- endif -%} 
+                
               </div>
               <div data-child-takes-space class="header__desktop__bar__c">{{ logos }}</div>
 
@@ -837,6 +878,18 @@
       "id": "show_icons",
       "label": "Show icons",
       "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_wishlist",
+      "label": "Show Wishlist link",
+      "default": true
+    },
+    {
+      "type": "url",
+      "id": "wishlist-page",
+      "label": "Wishlist page link",
+      "info":"only applied when the checbox wishlist checked"
     },
     {
       "type": "checkbox",

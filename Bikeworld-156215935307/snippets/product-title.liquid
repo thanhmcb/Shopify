@@ -13,8 +13,11 @@
   {%- case block.settings.subheading_option -%}
     {%- when 'vendor' -%}
       {%- if product.vendor -%}
+      {% capture vendor_logo %}{{ product.vendor | handleize }}.png{% endcapture %}
         <nav class="breadcrumbs breadcrumbs--no-padding product__breadcrumbs">
-          <a href="{{ product.vendor | url_for_vendor }}">{{ product.vendor }}</a>
+          <a href="{{ product.vendor | url_for_vendor }}"><img class="product-vendor__logo" src="{{ vendor_logo | asset_url }}"
+          style="width: {{ block.settings.product_vendor_logo_width }}px;"
+          data-sizes="auto"></a>
         </nav>
       {%- endif -%}
     {%- when 'collection' -%}

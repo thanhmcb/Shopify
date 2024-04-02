@@ -271,238 +271,233 @@
                   {%- when 'inventory_countdown' -%}
                     {% comment %} Product inventory {% endcomment %}
 
-{%- liquid
-  assign show_remaining_class = ''
-  assign show_notice = block.settings.show_notice
-  assign max_inventory = block.settings.max_inventory
-  assign hide_inventory_count = block.settings.hide_inventory_counter
-  assign current_inventory = 0
-  assign has_unavailable_variants = false
-  assign show_buy_buttons = false
-  assign in_stock_color = block.settings.in_stock_color
-  assign low_stock_color = block.settings.low_stock_color
-  assign out_of_stock_color = block.settings.out_of_stock_color
-  assign buy_buttons = section.blocks | where: 'type', 'buttons'
-  if buy_buttons.size > 0
-    assign show_buy_buttons = true
-  endif
+                {%- liquid
+                  assign show_remaining_class = ''
+                  assign show_notice = block.settings.show_notice
+                  assign max_inventory = block.settings.max_inventory
+                  assign hide_inventory_count = block.settings.hide_inventory_counter
+                  assign current_inventory = 0
+                  assign has_unavailable_variants = false
+                  assign show_buy_buttons = false
+                  assign in_stock_color = block.settings.in_stock_color
+                  assign low_stock_color = block.settings.low_stock_color
+                  assign out_of_stock_color = block.settings.out_of_stock_color
+                  assign buy_buttons = section.blocks | where: 'type', 'buttons'
+                  if buy_buttons.size > 0
+                    assign show_buy_buttons = true
+                  endif
 
-  comment
-    Set a limit of the max inventory quantity to prevent a real quantity exposure
-  endcomment
-  assign max_inventory_quantity = max_inventory | plus: 1
+                  comment
+                    Set a limit of the max inventory quantity to prevent a real quantity exposure
+                  endcomment
+                  assign max_inventory_quantity = max_inventory | plus: 1
 
-  if current_variant.inventory_management and current_variant.inventory_policy == 'deny'
-    if current_variant.inventory_quantity > 0 and current_variant.inventory_quantity <= max_inventory
-      assign show_remaining_class = 'count-is-low'
-      assign current_inventory = current_variant.inventory_quantity | at_most: max_inventory_quantity
-    elsif current_variant.inventory_quantity > 0 and current_variant.inventory_quantity > max_inventory and show_notice == 'always'
-      assign show_remaining_class = 'count-is-in'
-    elsif current_variant.inventory_quantity < 1 and show_notice == 'always'
-      assign show_remaining_class = 'count-is-out'
-    endif
-  endif
+                  if current_variant.inventory_management and current_variant.inventory_policy == 'deny'
+                    if current_variant.inventory_quantity > 0 and current_variant.inventory_quantity <= max_inventory
+                      assign show_remaining_class = 'count-is-low'
+                      assign current_inventory = current_variant.inventory_quantity | at_most: max_inventory_quantity
+                    elsif current_variant.inventory_quantity > 0 and current_variant.inventory_quantity > max_inventory and show_notice == 'always'
+                      assign show_remaining_class = 'count-is-in'
+                    elsif current_variant.inventory_quantity < 1 and show_notice == 'always'
+                      assign show_remaining_class = 'count-is-out'
+                    endif
+                  endif
 
-  assign quantity_tracking = false
-  assign show_inventory = false
-  assign has_low_inventory = false
-  assign has_soldout = false
-  assign variants_inventory = product.variants | map: 'inventory_quantity'
-  for inventory_quantity in variants_inventory
-    if inventory_quantity > 0 and inventory_quantity < max_inventory
-      assign has_low_inventory = true
-    endif
+                  assign quantity_tracking = false
+                  assign show_inventory = false
+                  assign has_low_inventory = false
+                  assign has_soldout = false
+                  assign variants_inventory = product.variants | map: 'inventory_quantity'
+                  for inventory_quantity in variants_inventory
+                    if inventory_quantity > 0 and inventory_quantity < max_inventory
+                      assign has_low_inventory = true
+                    endif
 
-    if inventory_quantity < 1
-      assign has_soldout = true
-    endif
-  endfor
+                    if inventory_quantity < 1
+                      assign has_soldout = true
+                    endif
+                  endfor
 
-  if has_low_inventory or has_soldout and show_notice == 'always'
-    assign show_inventory = true
-  endif
+                  if has_low_inventory or has_soldout and show_notice == 'always'
+                    assign show_inventory = true
+                  endif
 
-  assign variant_count = 1
-  for option in product.options_with_values
-    assign variant_count = variant_count | times: option.values.size
-  endfor
+                  assign variant_count = 1
+                  for option in product.options_with_values
+                    assign variant_count = variant_count | times: option.values.size
+                  endfor
 
-  if variant_count > product.variants.size
-    assign has_unavailable_variants = true
-  endif
+                  if variant_count > product.variants.size
+                    assign has_unavailable_variants = true
+                  endif
 
-  if show_buy_buttons == false and has_unavailable_variants
-    assign show_inventory = true
-  endif
+                  if show_buy_buttons == false and has_unavailable_variants
+                    assign show_inventory = true
+                  endif
 
-  assign inventory_management = product.variants | where: 'inventory_management', 'shopify'
-  if inventory_management.size > 0
-    assign quantity_tracking = true
-  endif
+                  assign inventory_management = product.variants | where: 'inventory_management', 'shopify'
+                  if inventory_management.size > 0
+                    assign quantity_tracking = true
+                  endif
 
-  capture in_stock_icon_color
-    if in_stock_color != blank and in_stock_color != 'rgba(0,0,0,0)'
-      echo ' style="--icon-color: ' | append: in_stock_color | append: '"'
-    endif
-  endcapture
+                  capture in_stock_icon_color
+                    if in_stock_color != blank and in_stock_color != 'rgba(0,0,0,0)'
+                      echo ' style="--icon-color: ' | append: in_stock_color | append: '"'
+                    endif
+                  endcapture
 
-  capture low_stock_icon_color
-    if low_stock_color != blank and low_stock_color != 'rgba(0,0,0,0)'
-      echo ' style="--icon-color: ' | append: low_stock_color | append: '"'
-    endif
-  endcapture
+                  capture low_stock_icon_color
+                    if low_stock_color != blank and low_stock_color != 'rgba(0,0,0,0)'
+                      echo ' style="--icon-color: ' | append: low_stock_color | append: '"'
+                    endif
+                  endcapture
 
-  capture out_of_stock_icon_color
-    if out_of_stock_color != blank and out_of_stock_color != 'rgba(0,0,0,0)'
-      echo ' style="--icon-color: ' | append: out_of_stock_color | append: '"'
-    endif
-  endcapture
--%}
+                  capture out_of_stock_icon_color
+                    if out_of_stock_color != blank and out_of_stock_color != 'rgba(0,0,0,0)'
+                      echo ' style="--icon-color: ' | append: out_of_stock_color | append: '"'
+                    endif
+                  endcapture
+                -%}
 
-{%- if quantity_tracking and show_inventory or quantity_tracking and show_notice == 'always' -%}
-  {%- capture inventory -%}
-    <span data-remaining-count>{{ current_inventory | default: 0 }}</span>
-  {%- endcapture -%}
+                {%- if quantity_tracking and show_inventory or quantity_tracking and show_notice == 'always' -%}
+                  {%- capture inventory -%}
+                    <span data-remaining-count>{{ current_inventory | default: 0 }}</span>
+                  {%- endcapture -%}
 
-  <div class="product__block variant__countdown {{ show_remaining_class }}"
-    data-remaining-max="{{ max_inventory }}"
-    data-remaining-show-notice="{{ show_notice }}"
-    data-remaining-wrapper
-    {{ block.shopify_attributes }}
-    {{ block_style }}>
-    <span class="variant__countdown--in"{{ in_stock_icon_color }}>
-      {% render 'icon-in-stock' %}
-      <span class="variant__countdown-text">{{ 'products.product.in_stock' | t }}</span>
-    </span>
-    {%- if hide_inventory_count -%}
-      <span class="variant__countdown--low"{{ low_stock_icon_color }}>
-        {% render 'icon-low-inventory' %}
-        <span class="variant__countdown-text">{{ 'products.product.remaining_no_count' | t }}</span>
-      </span>
-    {%- else -%}
-      <span class="variant__countdown--low"{{ low_stock_icon_color }}>
-        {% render 'icon-low-inventory' %}
-        <span class="variant__countdown-text">{{ 'products.product.remaining_html' | t: inventory: inventory }}</span>
-      </span>
-    {%- endif -%}
-
-    <span class="variant__countdown--out"{{ out_of_stock_icon_color }}>
-      {% render 'icon-out-of-stock' %}
-      <span class="variant__countdown-text">{{ 'products.product.out_of_stock' | t }}</span>
-    </span>
-    <span class="variant__countdown--unavailable"{{ out_of_stock_icon_color }}>
-      {% render 'icon-out-of-stock' %}
-      <span class="variant__countdown-text">{{ 'products.product.item_unavailable' | t }}</span>
-    </span>
-
-    <script data-product-remaining-json type="application/json">
-      {
-        {%- liquid
-          for variant in product.variants
-            assign variant_id = variant.id | json
-
-            if variant.inventory_management and variant.inventory_policy == 'deny'
-              assign quantity = variant.inventory_quantity | at_most: max_inventory_quantity
-
-              if hide_inventory_count
-                if quantity < 1
-                  assign remaining_value = 'out'
-                elsif quantity > 0 and quantity < max_inventory
-                  assign remaining_value = 'low'
-                else
-                  assign remaining_value = 'in'
-                endif
-              else
-                assign remaining_value = quantity
-              endif
-            else
-              assign remaining_value = 'unavailable'
-            endif
-
-            echo '"' | append: variant_id | append: '": "' | append: remaining_value | append: '"'
-
-            unless forloop.last
-              echo ','
-            endunless
-          endfor
-        -%}
-      }
-    </script>
-  </div>
-{%- elsif request.design_mode -%}
-  <div {{ block.shopify_attributes }}></div>
-{%- endif -%}
-
-                  {%- when 'upsell' -%}
-                    {%- assign upsell_product = product.metafields.theme.upsell.value | default: block.settings.upsell_product -%}
-                    {%- assign upsell_product_List = product.metafields.theme.upsell_list.value | default: block.settings.upsell_product_list -%}
-
-                    {%- if upsell_product != blank or upsell_product_List != blank or request.design_mode -%}
-                      <div class="product__block product__upsell" {{ block.shopify_attributes }} {{ block_style }}>
-                        {%- assign upsell_title = 'products.general.upsell_title' | t -%}
-
-                        <p class="product-upsell__holder__title">{{ upsell_title }}</p>
-
-                        {%- if upsell_product == blank and upsell_product_List == blank -%}
-                          {%- render 'upsell-product' -%}
-                        {%- else -%}
-                          {%- if upsell_product != blank -%}
-                            {%- render 'upsell-product', upsell_product: upsell_product -%}
-                          {%- endif -%}
-
-                          {%- if upsell_product_List != blank -%}
-                            {%- for upsell_product in upsell_product_List -%}
-                              {%- render 'upsell-product', upsell_product: upsell_product -%}
-                            {%- endfor -%}
-                          {%- endif -%}
-                        {%- endif -%}
-                      </div>
+                  <div class="product__block variant__countdown {{ show_remaining_class }}"
+                    data-remaining-max="{{ max_inventory }}"
+                    data-remaining-show-notice="{{ show_notice }}"
+                    data-remaining-wrapper
+                    {{ block.shopify_attributes }}
+                    {{ block_style }}>
+                    <span class="variant__countdown--in"{{ in_stock_icon_color }}>
+                      {% render 'icon-in-stock' %}
+                      <span class="variant__countdown-text">{{ 'products.product.in_stock' | t }}</span>
+                    </span>
+                    {%- if hide_inventory_count -%}
+                      <span class="variant__countdown--low"{{ low_stock_icon_color }}>
+                        {% render 'icon-low-inventory' %}
+                        <span class="variant__countdown-text">{{ 'products.product.remaining_no_count' | t }}</span>
+                      </span>
+                    {%- else -%}
+                      <span class="variant__countdown--low"{{ low_stock_icon_color }}>
+                        {% render 'icon-low-inventory' %}
+                        <span class="variant__countdown-text">{{ 'products.product.remaining_html' | t: inventory: inventory }}</span>
+                      </span>
                     {%- endif -%}
 
-                  {%- when 'pickup' -%}
-                    <pickup-availability class="product__block product__pickup" data-store-availability-container="{{ current_variant.id }}" {{ block.shopify_attributes }} {{ block_style }}></pickup-availability>
+                    <span class="variant__countdown--out"{{ out_of_stock_icon_color }}>
+                      {% render 'icon-out-of-stock' %}
+                      <span class="variant__countdown-text">{{ 'products.product.out_of_stock' | t }}</span>
+                    </span>
+                    <span class="variant__countdown--unavailable"{{ out_of_stock_icon_color }}>
+                      {% render 'icon-out-of-stock' %}
+                      <span class="variant__countdown-text">{{ 'products.product.item_unavailable' | t }}</span>
+                    </span>
 
-                  {%- when 'code' -%}
-                    <div class="product__block product__custom-code" {{ block_style }} {{ block.shopify_attributes }}>
-                      {{ block.settings.code }}
-                    </div>
+                    <script data-product-remaining-json type="application/json">
+                      {
+                        {%- liquid
+                          for variant in product.variants
+                            assign variant_id = variant.id | json
 
-                  {%- when 'siblings' -%}
-                    {%- render 'product-siblings' product: product, product_form_id: product_form_id, block: block, block_style: block_style, quick_add_product: false -%}
+                            if variant.inventory_management and variant.inventory_policy == 'deny'
+                              assign quantity = variant.inventory_quantity | at_most: max_inventory_quantity
 
-                  {%- when 'text' -%}
-                    {% comment %} Text block for product {% endcomment %}
+                              if hide_inventory_count
+                                if quantity < 1
+                                  assign remaining_value = 'out'
+                                elsif quantity > 0 and quantity < max_inventory
+                                  assign remaining_value = 'low'
+                                else
+                                  assign remaining_value = 'in'
+                                endif
+                              else
+                                assign remaining_value = quantity
+                              endif
+                            else
+                              assign remaining_value = 'unavailable'
+                            endif
 
-{%- if block.settings.title != blank or block.settings.text != blank -%}
-  <div class="product__block product__text" {{ block.shopify_attributes }} {{ block_style }}>
-    {%- if block.settings.title != blank -%}
-      <p class="product__heading strong">
-        {{- block.settings.title -}}
-      </p>
-    {%- endif -%}
+                            echo '"' | append: variant_id | append: '": "' | append: remaining_value | append: '"'
 
-    {%- if block.settings.text != blank -%}
-      <div class="product__subheading">
-        {{- block.settings.text -}}
-      </div>
-    {%- endif -%}
-  </div>
-{%- endif -%}
+                            unless forloop.last
+                              echo ','
+                            endunless
+                          endfor
+                        -%}
+                      }
+                    </script>
+                  </div>
+                {%- elsif request.design_mode -%}
+                  <div {{ block.shopify_attributes }}></div>
+                {%- endif -%}
+                {%- when 'upsell' -%} 
+                    {%- assign upsell_product = product.metafields.theme.upsell.value | default: block.settings.upsell_product -%}
+                    {%- assign upsell_product_List = product.metafields.theme.upsell_list.value | default: block.settings.upsell_product_list -%}
+                      {%- if upsell_product != blank or upsell_product_List != blank or request.design_mode -%}
+                          <div class="product__block product__upsell" {{ block.shopify_attributes }} {{ block_style }}>
+                            {%- assign upsell_title = 'products.general.upsell_title' | t -%}
+                            <p class="product-upsell__holder__title">{{ upsell_title }}</p>
+                            {%- if upsell_product == blank and upsell_product_List == blank -%}
+                              {%- render 'upsell-product' -%}
+                            {%- else -%}
+                            {%- if upsell_product != blank -%}
+                              {%- render 'upsell-product', upsell_product: upsell_product -%}
+                            {%- endif -%}                                        
+                            {%- if upsell_product_List != blank -%}                                            
+                              {%- for upsell_product in upsell_product_List -%}
+                                {%- render 'upsell-product', upsell_product: upsell_product -%}
+                              {%- endfor -%}
+                            {%- endif -%}
+                          {%- endif -%}
+                          </div>
+                       {%- endif -%}
+
+                                  {%- when 'pickup' -%}
+                                    <pickup-availability class="product__block product__pickup" data-store-availability-container="{{ current_variant.id }}" {{ block.shopify_attributes }} {{ block_style }}></pickup-availability>
+
+                                  {%- when 'code' -%}
+                                    <div class="product__block product__custom-code" {{ block_style }} {{ block.shopify_attributes }}>
+                                      {{ block.settings.code }}
+                                    </div>
+
+                                  {%- when 'siblings' -%}
+                                    {%- render 'product-siblings' product: product, product_form_id: product_form_id, block: block, block_style: block_style, quick_add_product: false -%}
+
+                                  {%- when 'text' -%}
+                                    {% comment %} Text block for product {% endcomment %}
+
+                {%- if block.settings.title != blank or block.settings.text != blank -%}
+                  <div class="product__block product__text" {{ block.shopify_attributes }} {{ block_style }}>
+                    {%- if block.settings.title != blank -%}
+                      <p class="product__heading strong">
+                        {{- block.settings.title -}}
+                      </p>
+                    {%- endif -%}
+
+                    {%- if block.settings.text != blank -%}
+                      <div class="product__subheading">
+                        {{- block.settings.text -}}
+                      </div>
+                    {%- endif -%}
+                  </div>
+                {%- endif -%}
 
                   {%- when 'icon' -%}
                     {% comment %} Icon block for Product {% endcomment %}
-{%- liquid
-  assign image = block.settings.image
-  assign prev_index = forloop.index0 | minus: 1
-  assign next_index = forloop.index0 | plus: 1
-  assign prev_block = section.blocks[prev_index]
-  assign next_block = section.blocks[next_index]
-  assign icon_color = block.settings.icon_color
-  if icon_color != blank and icon_color != 'rgba(0,0,0,0)'
-    assign block_style = ' style="--text: ' | append: icon_color | append: '"'
-  endif
-  assign width = block.settings.width
--%}
+                  {%- liquid
+                    assign image = block.settings.image
+                    assign prev_index = forloop.index0 | minus: 1
+                    assign next_index = forloop.index0 | plus: 1
+                    assign prev_block = section.blocks[prev_index]
+                    assign next_block = section.blocks[next_index]
+                    assign icon_color = block.settings.icon_color
+                    if icon_color != blank and icon_color != 'rgba(0,0,0,0)'
+                      assign block_style = ' style="--text: ' | append: icon_color | append: '"'
+                    endif
+                    assign width = block.settings.width
+                  -%}
 
 {%- if forloop.index0 == 0 or prev_block.type != 'icon' -%}
   <div class="product__block product__icon__row" style="--block-padding-bottom: {{ block.settings.padding_bottom }}px;">
@@ -659,7 +654,7 @@
   {%- endif -%}
 </div>
 
-                  {%- when 'features' -%}
+    {%- when 'features' -%}
                     {% comment %} Features block for Product {% endcomment %}
 
                     {%- liquid
@@ -1135,7 +1130,24 @@
         "unit": "px",
         "label": "Padding bottom",
         "default": 30
-      }
+      },
+      {
+        "type": "select",
+        "id": "product-image-spit",
+        "label": "Sub Product image split",
+        "info":"Custom MCB option",
+        "options": [
+          {
+          "value": "100%",
+          "label": "1 per row"
+          },
+          {
+          "value": "48%",
+          "label": "2 per row"
+          }
+        ],
+        "default": "48%"
+      }      
     ],
     "blocks": [
       {
@@ -1157,6 +1169,15 @@
               { "value": "collection", "label": "Collection" },
               { "value": "vendor", "label": "Vendor" }
             ]
+          },
+          {
+            "type": "range",
+            "id": "product_vendor_logo_width",
+            "label": "Vendor logo size",
+            "min": 5,
+            "max": 300,
+            "step": 5,
+            "default": 100
           },
           {
             "type": "range",
@@ -1240,7 +1261,8 @@
             "type": "page",
             "id": "info_page",
             "label": "Page",
-            "info": "[Learn more](https://broadcast.invisiblethemes.com/products/size-charts)"
+            "info": "[Learn more](https://broadcast.invisiblethemes.com/products/size-charts). If the size page is not selected, the vendor sizeguide will show - MCB feature"
+            
           },
           {
             "type": "select",
@@ -1298,6 +1320,13 @@
             "label": "Show dynamic checkout buttons",
             "info": "Each customer will see their preferred payment method from those available on your store, such as PayPal or Apple Pay. [Learn more](https://help.shopify.com/en/manual/online-store/os/dynamic-checkout)",
             "default": true
+          },
+          {
+            "type": "checkbox",
+            "id": "show_remaining",
+            "label": "Show inventory countdown",
+            "default": true,
+            "info": "Count down the last 10 items in stock."
           },
           {
             "type": "checkbox",
@@ -1384,56 +1413,56 @@
           {
             "type": "text",
             "id": "title_1",
-            "label": "Tab heading",
+            "label": "Tab heading 1",
             "default": "Tab"
           },
           {
             "type": "richtext",
             "id": "raw_content_1",
-            "label": "Tab text",
+            "label": "Tab text 1",
             "default": "<p>This content type will accept <strong>rich text</strong> to help with adding styles and links to additional pages or content. Use this to add supplementary information to help your buyers.</p>"
           },
           {
             "type": "text",
             "id": "title_2",
-            "label": "Tab heading",
+            "label": "Tab heading 2",
             "default": "Info"
           },
           {
             "type": "richtext",
             "id": "raw_content_2",
-            "label": "Tab text",
+            "label": "Tab text 2",
             "default": "<p>You can use product metafields to assign content to this tab that is unique to an individual product.  Use tabs to highlight unique features, sizing information, or other sales information.</p>"
           },
           {
             "type": "text",
             "id": "title_3",
-            "label": "Tab heading"
+            "label": "Tab heading 3"
           },
           {
             "type": "richtext",
             "id": "raw_content_3",
-            "label": "Tab text"
+            "label": "Tab text 3"
           },
           {
             "type": "text",
             "id": "title_4",
-            "label": "Tab heading"
+            "label": "Tab heading 4"
           },
           {
             "type": "richtext",
             "id": "raw_content_4",
-            "label": "Tab text"
+            "label": "Tab text 4"
           },
           {
             "type": "text",
             "id": "title_5",
-            "label": "Tab heading"
+            "label": "Tab heading 5"
           },
           {
-            "type": "richtext",
+            "type": "liquid",
             "id": "raw_content_5",
-            "label": "Tab text"
+            "label": "Tab text 5"
           },
           {
             "type": "header",

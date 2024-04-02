@@ -8,9 +8,9 @@
   if preorder
     assign button_text =  'products.product.pre_order' | t
   endif
-
   unless current_variant.available
     assign button_text =  'products.product.sold_out' | t
+   
   endunless
 
   if block.settings.show_gift_card_recipient and product.gift_card? and is_quickview != true
@@ -100,6 +100,8 @@
 <div class="product__block product__block--buttons"
   {{ block_style }}
   {{ block.shopify_attributes }}>
+
+  
   <product-form>
     {%- form 'product', product, id: product_form_id, class: 'product-form', data-product-form: '' -%}
       {%- if gift_card_recipient_feature_active -%}
@@ -117,23 +119,34 @@
         <div class="product__submit__buttons{% if buybutton_setting and show_quantity == false %} product__submit__buttons--inline{% endif %}">
           <div class="product__submit__item{% if show_quantity %} product__submit__item--inline{% endif %}">
             {{ quantity_selector }}
+            <div class="button__wrapper">
+              <button
+                type="submit"
+                name="add"
+                class="btn btn--primary {{ btn_atc_class }}"
+                data-add-to-cart
+                {% unless current_variant.available %}disabled="disabled"{% endunless %}>
+                <span class="btn__text" data-add-to-cart-text>{{ button_text }}</span>
+                <span class="btn__added">&nbsp;</span>
 
-            <button
-              type="submit"
-              name="add"
-              class="btn btn--primary {{ btn_atc_class }}"
-              data-add-to-cart
-              {% unless current_variant.available %}disabled="disabled"{% endunless %}>
-              <span class="btn__text" data-add-to-cart-text>{{ button_text }}</span>
-              <span class="btn__added">&nbsp;</span>
+                <span class="btn__loader">
+                  <svg height="18" width="18" class=" svg-loader">
+                    <circle r="7" cx="9" cy="9" />
+                    <circle stroke-dasharray="87.96459430051421 87.96459430051421" r="7" cx="9" cy="9" />
+                  </svg>
+                </span>
+              </button>
 
-              <span class="btn__loader">
-                <svg height="18" width="18" class=" svg-loader">
-                  <circle r="7" cx="9" cy="9" />
-                  <circle stroke-dasharray="87.96459430051421 87.96459430051421" r="7" cx="9" cy="9" />
-                </svg>
-              </span>
-            </button>
+              {% comment %}MCB Shopify Wishlist- Klaviyo - start{% endcomment %}
+
+            <a class="klaviyo-bis-trigger btn btn--primary btn--solid " href="#">
+              <span >{{'products.product.sold_out_klaviyo' | t }}</span>
+            </a>
+
+            {%- render 'button-wishlist', product: product -%}
+
+            {% comment %}MCB Shopify Wishlist- Klaviyo - end{% endcomment %}
+            </div>
           </div>
           {%- if buybutton_setting -%}
             <div class="product__submit__item">

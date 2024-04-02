@@ -352,8 +352,8 @@
 
   {%- if section.blocks.size > 0 -%}
     {%- if bar_markup != blank -%}
-      <announcement-bar class="announcement__bar-outer"
-        style="--padding-scrolling: {{ section.settings.message_spacing }}px;">
+      <announcement-bar class="announcement__bar-outer "
+        style="--padding-scrolling: {{ section.settings.message_spacing }}px; ">
         {%- if section.settings.layout == 'slider' -%}
 
           <div class="announcement__bar-holder announcement__bar-holder--slider{% if show_arrows %} announcement__bar-holder--arrows{% endif %}">

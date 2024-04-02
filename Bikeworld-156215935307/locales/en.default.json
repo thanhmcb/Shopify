@@ -19,6 +19,10 @@
       "title": "404 Page Not Found",
       "subtext_html": "The page you requested does not exist."
     },
+    "wishlist_tool_tip": {
+      "tooltip": "Klik her for at tilføje din vare til ønskeliste",
+      "tooltip_item_added": "Din varer er blevet tilføjet til ønskelisten"
+    },
     "meta": {
       "tags": "Tagged \"{{ tags }}\"",
       "page": "Page {{ page }}"
@@ -439,10 +443,12 @@
     },
     "product": {
       "regular_price": "Regular price",
-      "sold_out": "Sold Out",
+      "sold_out": "Udsolgt",
+      "sold_out_klaviyo": "Udsolgt - Giv mig besked",
       "sale_type": "Sale type",
       "pre_order": "Pre-order",
-      "on_sale": "Sale",
+      "on_sale": "Tilbuld",
+      "sale_label": "Tilbuld",
       "unavailable": "Unavailable",
       "compare_at": "Compare at",
       "unit_price_label": "Unit price",
@@ -451,7 +457,7 @@
       "off": "off",
       "one_time_purchase": "One-time purchase",
       "quantity": "Quantity",
-      "add_to_cart": "Add to cart",
+      "add_to_cart": "Læg i kurv",
       "added": "Added to your cart:",
       "vendor": "Vendor",
       "type": "Type",

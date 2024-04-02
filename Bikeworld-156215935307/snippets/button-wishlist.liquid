@@ -1,0 +1,12 @@
+{% comment %}
+  MCB Shopify Wishlist
+{% endcomment %}
+{%- if product.handle != blank -%}
+    <button type="button" aria-label="Add to wishlist" class="btn-wishlist" button-wishlist data-product-handle="{{ product.handle }}">
+    {%- render 'icon-wishlist' -%}
+    <span class="tooltiptext item-added-to-wishlist">{{ 'general.wishlist_tool_tip.tooltip_item_added' | t }}</span>
+    <span class="tooltiptext"> {{ 'general.wishlist_tool_tip.tooltip' | t }}</span>
+  </button>
+ 
+
+{%- endif -%}

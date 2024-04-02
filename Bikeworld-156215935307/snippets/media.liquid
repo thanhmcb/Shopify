@@ -62,7 +62,11 @@
   {% endif %}
   data-slide
 >
-
+{%- style -%}
+  .product__slide.media--hidden {
+    flex:0 0 {{section.settings.product-image-spit}};
+  }
+{%- endstyle -%}
   {%- if media.media_type == 'image' -%}
     <div class="product__photo"
       tabindex="0"
@@ -74,6 +78,11 @@
         data-image-height="{{ media.height }}"
       {% endif %}
     >
+     {%- comment -%} MCB label - Start {%- endcomment -%}
+      {% if featured_media == media %} 
+       {% render 'custom-label', product:product %}
+      {% endif %}
+    {%- comment -%} MCB label - Start {%- endcomment -%}
       {{ image }}
     </div>
   {%- else -%}

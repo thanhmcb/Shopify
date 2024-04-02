@@ -128,11 +128,11 @@
                   {%- endif -%}
 
                   {%- if title != blank -%}
-                    <h2 class="h5 footer__block__title">{{ title | escape }}</h2>
+                  <h2 class="h5 footer__block__title">{{ title | escape }}</h2>
                   {%- endif -%}
 
                   {%- if text != blank -%}
-                    <div class="rte">{{ text }}</div>
+                    <div class="rte{% if title contains "BUTIK" %} rte__address{% endif %}">{{ text }}</div>
                   {%- endif -%}
                 </div>
 
