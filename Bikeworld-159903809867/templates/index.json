@@ -1,0 +1,643 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "section-slideshow",
+      "blocks": {
+        "87839afc-27a1-4513-8691-aa748b0a5f2d": {
+          "type": "image",
+          "settings": {
+            "bg_position": "center-center",
+            "image": "shopify:\/\/shop_images\/SPAR_OP_TIL_150_x_90_px.svg",
+            "mobile_image": "shopify:\/\/shop_images\/SPAR_OP_TIL_150_x_90_px.svg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "description": "",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "",
+            "link": "shopify:\/\/collections\/juletilbud-pa-cykler",
+            "button_color": "btn--white",
+            "button_style": "caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "87839afc-27a1-4513-8691-aa748b0a5f2d"
+      ],
+      "settings": {
+        "height": "image-height",
+        "transition": "fade",
+        "arrows_style": true,
+        "dots_style": "line",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "icons": {
+      "type": "section-text-row",
+      "blocks": {
+        "icon-0": {
+          "type": "text-item",
+          "settings": {
+            "icon_name": "icon-award",
+            "icon_color": "#545454",
+            "title": "Bedste service",
+            "text": "Vores ry og rygte er alt for os - hos BikeWorld får du altid højeste service"
+          }
+        },
+        "icon-1": {
+          "type": "text-item",
+          "settings": {
+            "icon_name": "icon-chat",
+            "icon_color": "#545454",
+            "title": "Ekspert rådgivning",
+            "text": "Vi har været i branchen i årevis og kan rådgive om alt indenfor cykler og udstyr"
+          }
+        },
+        "icon-2": {
+          "type": "text-item",
+          "settings": {
+            "icon_name": "icon-store",
+            "icon_color": "#545454",
+            "title": "Største sortiment",
+            "text": "Kom forbi vores 1800 m2 store forretning i Silkeborg og oplev din næste cykel inden køb"
+          }
+        }
+      },
+      "block_order": [
+        "icon-0",
+        "icon-1",
+        "icon-2"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "icon_size": 20,
+        "icon_alignment": "icon--top",
+        "text_color": "text-dark",
+        "heading_size": "h6",
+        "height": "margin--small",
+        "bg_color": "#fafafa",
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
+    "1664790519fcc4468e": {
+      "type": "section-collections-list",
+      "blocks": {
+        "16647905198335bea8-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "bornecykler",
+            "title": "BØRNECYKLER"
+          }
+        },
+        "fa651b5b-0a30-465c-98ea-76ff5459d02c": {
+          "type": "collection",
+          "settings": {
+            "collection": "hverdagscykler",
+            "title": "HVERDAGSCYKLER"
+          }
+        },
+        "f77119e5-9bff-4ac2-a6f4-142ac106498b": {
+          "type": "collection",
+          "settings": {
+            "collection": "el-cykel",
+            "title": "EL-CYKLER"
+          }
+        },
+        "affcfcad-6fd4-4efe-9b30-13bdd91b7331": {
+          "type": "collection",
+          "settings": {
+            "collection": "racercykler",
+            "title": "RACERCYKLER"
+          }
+        },
+        "2f68c260-bfd8-45f7-8848-1da19424df91": {
+          "type": "collection",
+          "settings": {
+            "collection": "mountainbikes",
+            "title": "MOUNTAINBIKES"
+          }
+        },
+        "16647905198335bea8-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "cykelhjelme",
+            "title": "CYKELHJELME"
+          }
+        },
+        "16647905198335bea8-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "cykeltoj",
+            "title": "CYKELTØJ"
+          }
+        },
+        "16647905198335bea8-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "cykel-komponenter",
+            "title": "CYKEL KOMPONENTER"
+          }
+        }
+      },
+      "block_order": [
+        "16647905198335bea8-0",
+        "fa651b5b-0a30-465c-98ea-76ff5459d02c",
+        "f77119e5-9bff-4ac2-a6f4-142ac106498b",
+        "affcfcad-6fd4-4efe-9b30-13bdd91b7331",
+        "2f68c260-bfd8-45f7-8848-1da19424df91",
+        "16647905198335bea8-1",
+        "16647905198335bea8-2",
+        "16647905198335bea8-3"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "layout": "slider",
+        "aspect_ratio": 0.5,
+        "enable_slider": false
+      }
+    },
+    "tabs": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "tabs-1": {
+          "type": "collection",
+          "settings": {
+            "title": "Racercykler",
+            "featured_collection": "racercykler",
+            "show_image": true,
+            "image": "shopify:\/\/shop_images\/Headerbild.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "<p><strong>RACERCYKLER<br\/><\/strong><br\/>Klik her for at se alle vores racercykler<\/p>",
+            "text_color": "text-light",
+            "link_text": "Se alle Racercykler",
+            "link": "shopify:\/\/collections\/racercykler",
+            "button_color": "btn--primary",
+            "button_style": "hero__btn btn btn--input btn--outline caps"
+          }
+        },
+        "tabs-0": {
+          "type": "collection",
+          "settings": {
+            "title": "Mountainbikes",
+            "featured_collection": "mountainbikes",
+            "show_image": true,
+            "image": "shopify:\/\/shop_images\/Powerfly_FS_RIB_Feature.webp",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "<p><strong>MOUNTAINBIKES<br\/><\/strong><br\/>Klik her for at se alle vores mountainbikes<\/p>",
+            "text_color": "text-light",
+            "link_text": "Alle Mountainbikes",
+            "link": "shopify:\/\/collections\/mountainbikes",
+            "button_color": "btn--primary",
+            "button_style": "hero__btn btn btn--input btn--outline caps"
+          }
+        },
+        "d3e43ee5-3690-4ede-add2-813a85718514": {
+          "type": "collection",
+          "settings": {
+            "title": "El-Cykler",
+            "featured_collection": "el-cykel",
+            "show_image": true,
+            "image": "shopify:\/\/shop_images\/giant_ebike_city_banner_navi21.jpg",
+            "overlay_opacity": 20,
+            "overlay_color": "#000000",
+            "description": "<p><strong>EL-CYKLER<br\/><\/strong><br\/>Klik her for at se alle vores El-Cykler<\/p>",
+            "text_color": "text-light",
+            "link_text": "Alle El-cykler",
+            "link": "shopify:\/\/collections\/el-cykel",
+            "button_color": "btn--primary",
+            "button_style": "hero__btn btn btn--input btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "tabs-1",
+        "tabs-0",
+        "d3e43ee5-3690-4ede-add2-813a85718514"
+      ],
+      "settings": {
+        "title": "SE ET LILLE UDVALG AF VORES CYKLER HER"
+      }
+    },
+    "1658746087a74f0d0b": {
+      "type": "section-video",
+      "settings": {
+        "video_link_bg": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3ee3692abd5a4ea385f071945d431ab9.mp4",
+        "video_link": "",
+        "bg_position": "center-center",
+        "desktop_height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#2b2b2b",
+        "title": "ELCYKLER",
+        "description": "FRA MÆRKER SOM TREK, SPECIALIZED, GIANT OG MANGE FLERE",
+        "flex_align": "align--middle-center",
+        "text_color": "text-light",
+        "transparent": true,
+        "link_text": "LÆS OM VORES ELCYKLER",
+        "link": "shopify:\/\/pages\/elcykler-hos-bikeworld",
+        "button_color": "btn--primary",
+        "button_style": "hero__btn btn btn--large btn--outline caps",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "0ba98307-2d53-4b9d-ae82-c7c71b6353c5": {
+      "type": "section-video",
+      "settings": {
+        "video_link_bg": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8f1a7dbe22b6473cba03a6b79037b399.mp4",
+        "video_link": "",
+        "bg_position": "center-center",
+        "desktop_height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "title": "RACERCYKLER",
+        "description": "SKAL DU GIVE DEN GAS PÅ LANDEVEJEN? VI HAR MASSERE AT VÆLGE IMELLEM",
+        "flex_align": "align--middle-center",
+        "text_color": "text-light",
+        "transparent": true,
+        "link_text": "SE UDVALGET HER",
+        "link": "shopify:\/\/collections\/racercykler",
+        "button_color": "btn--secondary",
+        "button_style": "hero__btn btn btn--large btn--outline caps",
+        "padding_top": 26,
+        "padding_bottom": 24
+      }
+    },
+    "16528469713511fdd5": {
+      "type": "section-video",
+      "settings": {
+        "video_link_bg": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/7844ede685474197918e63070f465670.mp4",
+        "video_link": "",
+        "bg_position": "center-center",
+        "desktop_height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "title": "Besøg vores 1800 m2 i Silkeborg",
+        "description": "Danmarks største cykelforretning",
+        "flex_align": "align--middle-center",
+        "text_color": "text-light",
+        "transparent": true,
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "hero__btn btn btn--large btn--outline caps",
+        "padding_top": 26,
+        "padding_bottom": 24
+      }
+    },
+    "image-with-text": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "subheading": "Ugens kampagne cykel",
+            "title": "Cannondale Supersix Evo Carbon Black",
+            "text": "<p>En ren landevejscykel. <br\/>Let, smidig og ultrahurtig. <br\/>Evolutionen af den klassiske racermaskine.<br\/><\/p><p><strong>KUN 19.999 kr<br\/><\/strong>før 26.599 kr<\/p>",
+            "text_size": 5,
+            "text_columns": 2,
+            "align_text": "text-left",
+            "text_color": "text-dark",
+            "bg_color": "#ffffff",
+            "button_text": "SE MERE",
+            "button_url": "shopify:\/\/products\/trek-mtb",
+            "button_color": "btn--primary",
+            "button_style": "hero__btn btn btn--large caps"
+          }
+        },
+        "image": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cannondale-SuperSix-EVO-Carbon-105-01-ac70fc6.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "description": "",
+            "flex_align": "align--middle-left",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "",
+            "link": "shopify:\/\/products\/trek-mtb",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "text",
+        "image"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "image-height",
+        "padding": true,
+        "borders": true,
+        "wrapper": false,
+        "padding_top": 30,
+        "padding_bottom": 32
+      }
+    },
+    "1652848903ce1dfb7f": {
+      "type": "section-video",
+      "disabled": true,
+      "settings": {
+        "video_link_bg": "Se hele vores SPECIALIZED SORTIMENT",
+        "video_link": "",
+        "image": "shopify:\/\/shop_images\/bw-video.jpg",
+        "bg_position": "center-center",
+        "desktop_height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "title": "Danmarks største cykelforretning",
+        "description": "1800 m2",
+        "flex_align": "align--middle-center",
+        "text_color": "text-light",
+        "transparent": true,
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--secondary",
+        "button_style": "hero__btn btn btn--input caps",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "16565033344c6b93e8": {
+      "type": "apps",
+      "blocks": {
+        "854d6361-467c-4883-af94-380907da225d": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": ""
+          }
+        }
+      },
+      "block_order": [
+        "854d6361-467c-4883-af94-380907da225d"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "16587457318cecdc40": {
+      "type": "section-logo-list",
+      "blocks": {
+        "5ec010c9-a961-4ba7-a820-0e6a36051f3d": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/avenue-logo.jpg",
+            "logo_width": 100,
+            "link": "shopify:\/\/collections\/avenue"
+          }
+        },
+        "487ba840-cc62-4bcd-bec3-00a039201ddf": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/1280px-Bianchi_logo.svg_e6cbc839-30a4-4d06-8304-7df240e393fa.png",
+            "logo_width": 100,
+            "link": "shopify:\/\/collections\/bianchi"
+          }
+        },
+        "f13ba0cf-30cd-4ade-84dd-92e817598c12": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Cannondale-Bicycle-Corporation-logo.png",
+            "logo_width": 100,
+            "link": "shopify:\/\/collections\/cannondale"
+          }
+        },
+        "9752148e-5702-46b9-bb1b-581f1efd7935": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/centurion-logo.jpg",
+            "logo_width": 100,
+            "link": "shopify:\/\/collections\/centurion"
+          }
+        },
+        "7dff7d6d-11c2-4458-8d38-91d957b4f789": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/conway_logo_black-01.png",
+            "logo_width": 100,
+            "link": "shopify:\/\/collections\/conway"
+          }
+        },
+        "41d9bd73-557d-43fd-8489-f2fe08489345": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/1200px-CUBE_Logo_neu.svg_148419b3-3f14-4743-b4ac-4f183b0c42a0.png",
+            "logo_width": 100,
+            "link": "shopify:\/\/pages\/cube-landingsside"
+          }
+        },
+        "0e2e52a0-fc59-4ed9-a86c-f15108367f27": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Ebsen_Logo_Black-01.png",
+            "logo_width": 100,
+            "link": "shopify:\/\/collections\/ebsen"
+          }
+        },
+        "c58118c9-e2a8-41e4-bbcb-a0051d43bd86": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/logoelectralogo_w1200_jpg.webp",
+            "logo_width": 100,
+            "link": "shopify:\/\/collections\/electra"
+          }
+        },
+        "1658745731f665010d-0": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/giant.png",
+            "logo_width": 100,
+            "link": "shopify:\/\/pages\/giant-landingsside"
+          }
+        },
+        "2eb863ea-16de-4110-b069-4f3ff2d57d2d": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/13832-gt-bicycles-logo-2.png",
+            "logo_width": 100,
+            "link": "shopify:\/\/collections\/gt"
+          }
+        },
+        "b06a6070-460f-4a51-a6ca-76258452cf67": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/logo-kildemoes-e1580487950913.png",
+            "logo_width": 100,
+            "link": "shopify:\/\/collections\/kildemoes"
+          }
+        },
+        "6019d982-c4fb-4bda-a707-f24d22efe4b3": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/manufacturer_22_1.png",
+            "logo_width": 100,
+            "link": "shopify:\/\/collections\/mbk"
+          }
+        },
+        "2037083b-db5c-4e2e-851c-6f967e6e0c19": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/2560px-Merida__Unternehmen__logo.svg_97bdb92d-dcae-44b6-bea7-4d000ad0604d.png",
+            "logo_width": 100,
+            "link": "shopify:\/\/collections\/merida"
+          }
+        },
+        "de75fb1a-b387-4aa6-a8aa-ef8d00869522": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/48654-Sticker-Moustache-Bikes.png",
+            "logo_width": 100,
+            "link": "shopify:\/\/collections\/moustache-bikes"
+          }
+        },
+        "e10b8016-1e19-4861-be00-85ea0c11e2ea": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/logo-nishiki-e1580488371393.png",
+            "logo_width": 100,
+            "link": "shopify:\/\/collections\/nishiki"
+          }
+        },
+        "0eb0cafe-28e9-44a2-b82f-6bbe39d22c5f": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Principia-logo-1024x357.jpg",
+            "logo_width": 100,
+            "link": "shopify:\/\/collections\/principia"
+          }
+        },
+        "d522cad2-e665-4a21-9acc-c6c276c717fb": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/logo_png.webp",
+            "logo_width": 100,
+            "link": "shopify:\/\/collections\/puky"
+          }
+        },
+        "258587fa-406c-4f4a-b37d-a44b4f84e8f5": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/raleigh-bikes-logo.png",
+            "logo_width": 100,
+            "link": "shopify:\/\/collections\/raleigh"
+          }
+        },
+        "87657c43-df51-4c44-b1cf-d4d3069d72fe": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Specialized_red_S_black_logotype.png",
+            "logo_width": 100,
+            "link": "shopify:\/\/pages\/specialized-cykler"
+          }
+        },
+        "1658745731f665010d-2": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/48637-Sticker-Trek-Logo-2018_1.png",
+            "logo_width": 100,
+            "link": "shopify:\/\/pages\/giant-elcykler-landingsside"
+          }
+        },
+        "57230b8d-8d1a-4eaf-8efb-6e2176578186": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/vic_1.png",
+            "logo_width": 100,
+            "link": "shopify:\/\/collections\/victoria"
+          }
+        },
+        "1bfd5efe-0f6d-473a-90e3-281346dd452f": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Winther-logo-sort-1400x202.png",
+            "logo_width": 100,
+            "link": "shopify:\/\/collections\/winther"
+          }
+        },
+        "1658745731f665010d-1": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/assos.png",
+            "logo_width": 100,
+            "link": "shopify:\/\/pages\/assos-landingside"
+          }
+        },
+        "72464123-989b-4a63-a1b8-25b06ad4aa96": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/BT20_IDENTITY_Bontrager_wordmark_black.png",
+            "logo_width": 100,
+            "link": "shopify:\/\/collections\/bontrager"
+          }
+        },
+        "16ac5497-0e7a-4893-84b7-25dc82a89b47": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/poc.png",
+            "logo_width": 100,
+            "link": "shopify:\/\/pages\/pos-landingsside"
+          }
+        }
+      },
+      "block_order": [
+        "5ec010c9-a961-4ba7-a820-0e6a36051f3d",
+        "487ba840-cc62-4bcd-bec3-00a039201ddf",
+        "f13ba0cf-30cd-4ade-84dd-92e817598c12",
+        "9752148e-5702-46b9-bb1b-581f1efd7935",
+        "7dff7d6d-11c2-4458-8d38-91d957b4f789",
+        "41d9bd73-557d-43fd-8489-f2fe08489345",
+        "0e2e52a0-fc59-4ed9-a86c-f15108367f27",
+        "c58118c9-e2a8-41e4-bbcb-a0051d43bd86",
+        "1658745731f665010d-0",
+        "2eb863ea-16de-4110-b069-4f3ff2d57d2d",
+        "b06a6070-460f-4a51-a6ca-76258452cf67",
+        "6019d982-c4fb-4bda-a707-f24d22efe4b3",
+        "2037083b-db5c-4e2e-851c-6f967e6e0c19",
+        "de75fb1a-b387-4aa6-a8aa-ef8d00869522",
+        "e10b8016-1e19-4861-be00-85ea0c11e2ea",
+        "0eb0cafe-28e9-44a2-b82f-6bbe39d22c5f",
+        "d522cad2-e665-4a21-9acc-c6c276c717fb",
+        "258587fa-406c-4f4a-b37d-a44b4f84e8f5",
+        "87657c43-df51-4c44-b1cf-d4d3069d72fe",
+        "1658745731f665010d-2",
+        "57230b8d-8d1a-4eaf-8efb-6e2176578186",
+        "1bfd5efe-0f6d-473a-90e3-281346dd452f",
+        "1658745731f665010d-1",
+        "72464123-989b-4a63-a1b8-25b06ad4aa96",
+        "16ac5497-0e7a-4893-84b7-25dc82a89b47"
+      ],
+      "settings": {
+        "title": "HOS BIKEWORLD HAR VI CYKLER OG UDSTYR FRA MANGE FORSKELLIGE MÆRKER",
+        "text_color": "text-dark",
+        "bg_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "icons",
+    "1664790519fcc4468e",
+    "tabs",
+    "1658746087a74f0d0b",
+    "0ba98307-2d53-4b9d-ae82-c7c71b6353c5",
+    "16528469713511fdd5",
+    "image-with-text",
+    "1652848903ce1dfb7f",
+    "16565033344c6b93e8",
+    "16587457318cecdc40"
+  ]
+}
