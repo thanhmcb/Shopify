@@ -1,0 +1,85 @@
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer-0": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Vores filosofi er egentlig enkel: vi fører kun de ting, vi selv har lyst til at købe. Det skal være god kvalitet at give en god cykeloplevelse.",
+            "text": "<p>TILMELD  DIG VORES NYHEDSBREV HER:<\/p>",
+            "show_name": true,
+            "button_text": "Tilmeld",
+            "show_arrow": false,
+            "terms": true,
+            "button_type": "btn--white",
+            "button_size": "btn--small",
+            "button_style": "btn--solid",
+            "show_social_links": false,
+            "column_width": 25
+          }
+        },
+        "text_CPi3HN": {
+          "type": "text",
+          "settings": {
+            "image_width": 150,
+            "title": "FYSISK BUTIK",
+            "text": "<p>Besøg os i vores 1800 kvm store butik<\/p><p><a href=\"https:\/\/www.google.com\/maps\/place\/BikeWorld\/@56.1839068,9.5416602,17z\/data=!3m1!4b1!4m5!3m4!1s0x464b8b45564ffc7f:0xdf0b8b51a61ed627!8m2!3d56.1839223!4d9.5439281\" target=\"_blank\" title=\"https:\/\/www.google.com\/maps\/place\/BikeWorld\/@56.1839068,9.5416602,17z\/data=!3m1!4b1!4m5!3m4!1s0x464b8b45564ffc7f:0xdf0b8b51a61ed627!8m2!3d56.1839223!4d9.5439281\">Viborgvej 3, 8600 Silkeborg<\/a><\/p><p><strong>Man-Torsdag<\/strong> 10:00-17:30<\/p><p><strong>Fredag<\/strong> 10:00-18:00<\/p><p><strong>Lørdag<\/strong> 10:00 - 14:00<\/p>",
+            "column_width": 25
+          }
+        },
+        "linklist_jqCLcW": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "footer",
+            "title": "INFORMATION",
+            "column_width": 25
+          }
+        },
+        "text_MDybEb": {
+          "type": "text",
+          "settings": {
+            "image_width": 150,
+            "title": "KONTAKT OS:",
+            "text": "<p>Kontakt telefon: <strong>86 82 73 99<\/strong> <br\/><br\/>For spørgsmål:<br\/><strong>Butik@bikeworld.dk<br\/><\/strong><\/p><p><br\/>Værkstedet:<br\/><strong>Ansattes@bikeworld.dk<\/strong><\/p><p><br\/>Din ordre:<br\/><strong>Web@bikeworld.dk<\/strong><br\/><\/p><p><\/p>",
+            "column_width": 25
+          }
+        }
+      },
+      "block_order": [
+        "footer-0",
+        "text_CPi3HN",
+        "linklist_jqCLcW",
+        "text_MDybEb"
+      ],
+      "settings": {
+        "logo": "shopify:\/\/shop_images\/bw-white.png",
+        "logo_image_width": 220,
+        "overlay_opacity": 75,
+        "overlay_color": "#ffffff",
+        "border_color": "#ffffff",
+        "padding_top": 75,
+        "padding_bottom": 30
+      }
+    },
+    "supporting-menu": {
+      "type": "section-supporting-menu",
+      "settings": {
+        "linklist": "copy-right-menu",
+        "footer_payment_enable": true,
+        "show_locale_selector": true,
+        "show_country_selector": true,
+        "show_country_name": false,
+        "show_country_flag": true,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    }
+  },
+  "order": [
+    "footer",
+    "supporting-menu"
+  ]
+}

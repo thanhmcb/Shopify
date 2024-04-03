@@ -1,0 +1,118 @@
+{%- comment -%} MCB label - Start {%- endcomment -%}
+    {%- liquid
+      assign product_tags = product.tags | join: ',' | append: ','
+      assign preorder = false
+      assign is_preorder_meta = false
+      assign on_sale = false
+      assign sold_out = false
+      assign badge = ''
+  
+      if product.metafields.theme.badge != blank and product.metafields.theme.badge.type == 'single_line_text_field'
+        assign badge = product.metafields.theme.badge.value
+      endif
+  
+      if badge == '' and product_tags contains '_badge_'
+        assign badge = product_tags | split: '_badge_'
+        assign badge = badge[1] | split: ',' | first | replace: '_', ' '
+      endif
+  
+      if product.metafields.theme.preorder.type == 'boolean' and product.metafields.theme.preorder.value == true
+        assign is_preorder_meta = true
+      endif
+  
+      if product_tags contains '_preorder' or is_preorder_meta
+        assign preorder = true
+      endif
+  
+      if product.compare_at_price > product.price and settings.sale_tags_enable
+        assign on_sale = true
+      endif
+  
+      unless product.available
+        assign sold_out = true
+      endunless
+    -%}
+  
+    {%- if badge != '' -%}
+      <span class="badge-box"
+        data-aos="fade"
+        data-aos-delay="{{ aos_delay }}"
+        data-aos-duration="{{ aos_duration }}"
+        data-aos-anchor="{{ aos_anchor }}">{{ badge }}</span>
+    {%- elsif preorder and sold_out == false -%}
+      <span class="preorder-box"
+        data-aos="fade"
+        data-aos-delay="{{ aos_delay }}"
+        data-aos-duration="{{ aos_duration }}"
+        data-aos-anchor="{{ aos_anchor }}">{{ 'products.product.pre_order' | t }}</span>
+
+    {%- elsif on_sale and sold_out == false or product.metafields.my_fields.custom_label != blank-%}    
+      <div class="label-container">
+        <div class=""
+          data-aos="fade"
+          data-aos-delay="{{ aos_delay }}"
+          data-aos-duration="{{ aos_duration }}"
+          data-aos-anchor="{{ aos_anchor }}">
+          <div class="sale-label on-sale-label">
+            <span class="skew-fix">{{ 'products.product.on_sale' | t }}</span>
+          </div>
+        </div>
+          {%- assign savings = product.compare_at_price | minus: product.price | times: 100.0 | divided_by: product.compare_at_price | round | append: '%' -%}
+        <div class=""
+          data-aos="fade"
+          data-aos-delay="{{ aos_delay }}"
+          data-aos-duration="{{ aos_duration }}"
+          data-aos-anchor="{{ aos_anchor }}">
+          <div class="sale-label percentage-label">
+            <span class="skew-fix">{{ savings }}</span>
+          </div>
+        </div>
+        {%- if product.metafields.my_fields.custom_label != blank-%}
+          <div class=""
+          data-aos="fade"
+          data-aos-delay="{{ aos_delay }}"
+          data-aos-duration="{{ aos_duration }}"
+          data-aos-anchor="{{ aos_anchor }}">
+          <div class="sale-label custom-label">
+            <span class="skew-fix">{{product.metafields.my_fields.custom_label}}</span>
+          </div>
+        </div>
+        {%- endif-%}
+      </div>    
+    {%- endif -%}
+
+    {%- if settings.quickview_enable and current_variant -%}
+      {%- liquid
+        assign is_preorder_meta_exist = false
+        assign is_preorder_tag_exist = false
+        assign sibling_property_name = 'general.siblings.label' | t | strip_html | escape
+        assign sibling_property_value = ''
+  
+        if siblings_html != blank and product.variants.size == 1
+          assign title_down = product.title | downcase
+          assign sibling = product.metafields.theme.sibling_color.value | default: product.metafields.theme.sibling_colour.value | default: product.metafields.theme.siblings_color.value | default: product.metafields.theme.siblings_colour.value | default: product.metafields.theme.siblings_colors.value | default: product.metafields.theme.siblings_colours.value
+          assign sibling_down = sibling | downcase
+          unless title_down contains sibling_down
+            assign sibling_property_value = sibling | strip_html | escape
+          endunless
+        endif
+  
+        if current_variant.available and product.metafields.theme.preorder.type == 'boolean' and product.metafields.theme.preorder.value == true
+          assign is_preorder_meta_exist = true
+        endif
+  
+        if current_variant.available and product.tags contains '_preorder'
+          assign is_preorder_tag_exist = true
+        endif
+  
+        if is_preorder_meta_exist or is_preorder_tag_exist
+          assign preorder_name = 'products.product.sale_type' | t | strip_html | escape
+          assign preorder_value = 'products.product.pre_order' | t | strip_html | escape
+        endif
+  
+        assign unique = section.id | append: '-' | append: product.id
+      -%}
+  
+ 
+    {%- endif -%}
+        {%- comment -%} MCB label - Start {%- endcomment -%}

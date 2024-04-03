@@ -1,0 +1,41 @@
+{% comment %}
+    Renders order notes on Cart page and Cart drawer
+
+    Accepts:
+    - block: {Object} Block object (required)
+
+    Usage:
+    {% render 'cart-block-shipping-calculator', block: block %}
+{% endcomment %}
+
+{%- assign upsell_auto_open = block.settings.upsell_auto_open -%}
+{%- capture upsell_products -%}
+  {%- render 'cart-line-items', part: 'upsell-items' -%}
+{%- endcapture -%}
+
+<details
+  class="cart__widget cart__widget--products accordion{% if upsell_products == blank %} is-hidden{% endif %}"
+  {% if upsell_products != blank and upsell_auto_open %}
+    open="true"
+  {% endif %}
+  data-collapsible
+  data-upsell-widget
+  {% if upsell_auto_open %}
+    data-upsell-auto-open
+  {% endif %}
+>
+  <summary class="cart__widget__title" data-collapsible-trigger>
+    {{- 'cart.general.pair_products' | t -}}
+
+    {%- render 'icon-plus' -%}
+    {%- render 'icon-minus' -%}
+  </summary>
+
+  <div class="cart__widget__content"{% if upsell_products != blank %} style="height: auto;"{% endif %} data-collapsible-body>
+    <div class="cart__widget__content__inner" data-collapsible-content>
+      <div class="cart__widget__products" data-upsell-products>
+        {{ upsell_products }}
+      </div>
+    </div>
+  </div>
+</details>

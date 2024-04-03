@@ -1,0 +1,52 @@
+FIND BUTIK
+- section/header
+- snippets/find-butik
+- snippets/icon-location
+- theme settings/ Find store - MCB Custom
+- config / settings_schema
+
+WISHLIST
+- template/ page.wishlist.json
+- template/ page.card.json
+- section/ wishlist-template
+- section/ product-card-template
+- snippets/icon-wishlist
+- snippets/product-buttons
+- snippets/product-grid-item
+- assets / clipboard.js
+- assets / wishList.js
+- assets / custom.css
+
+PERCENTAGE OVERLAY
+- snippets/css-variables
+- snippets/media
+- snippets/product-grid-item
+- snippets/media
+- assets / custom.css
+- config / settings_schema
+
+PRODUCT VENDOR ON PRODUCT PAGE
+- snippets/product-title
+- section/ product
+
+PRODUCT VENDOR ON COLLECTION PAGE
+- section/ collection
+- snippets/product-grid-item
+
+SIZEGUIDE FOLLOWED BY VENDOR
+- snippets/product-variant-options
+- assets / custom.css
+
+
+SUB PRODUCT IMAGE SPLIT
+- snippets/media
+- section/ product
+
+
+SPECIFICATION - MCB
+- section/section-specification-mcb
+
+
+SPARXPRES
+- section/product
+- snippets/product-tabs
