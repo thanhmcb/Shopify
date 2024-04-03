@@ -132,7 +132,7 @@
                   {%- endif -%}
 
                   {%- if text != blank -%}
-                    <div class="rte">{{ text }}</div>
+                  <div class="rte{% if title contains "BUTIK" %} rte__address{% endif %}">{{ text }}</div>
                   {%- endif -%}
                 </div>
 
