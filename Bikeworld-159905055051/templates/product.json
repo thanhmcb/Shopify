@@ -1,0 +1,145 @@
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "subheading_option": "vendor",
+            "text_size": 6,
+            "padding_bottom": 8
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "padding_bottom": 16
+          }
+        },
+        "variants": {
+          "type": "variants",
+          "settings": {
+            "info_page": "",
+            "size_chart_style": "ruler",
+            "subscriptions_enable_selectors": false,
+            "padding_bottom": 16
+          }
+        },
+        "inventory_countdown_WhJH6m": {
+          "type": "inventory_countdown",
+          "settings": {
+            "show_notice": "always",
+            "max_inventory": 10,
+            "hide_inventory_counter": false,
+            "icon_size": 20,
+            "in_stock_color": "#56ad6a",
+            "low_stock_color": "#f79554",
+            "out_of_stock_color": "#721c24",
+            "padding_bottom": 16
+          }
+        },
+        "upsell_LpbdCG": {
+          "type": "upsell",
+          "disabled": true,
+          "settings": {
+            "upsell_product": "",
+            "upsell_product_list": [],
+            "bg_color": "",
+            "padding_bottom": 16
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+            "show_quantity": false,
+            "show_payment_button": false,
+            "show_gift_card_recipient": false,
+            "padding_bottom": 32
+          }
+        },
+        "klaviyo_email_marketing_sms_form_embed_block_6wzpYr": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": ""
+          }
+        },
+        "tabs": {
+          "type": "tab_richtext",
+          "settings": {
+            "show_read_more": true,
+            "style": "accordions",
+            "title_1": "Specifikationer",
+            "raw_content_1": "<p>{{ product.metafields.my_fields.html_specs.value }}{{ product.metafields.my_fields.main_item_no.value }}<\/p>",
+            "title_2": "Levering",
+            "raw_content_2": "<p>Normal levering er 1-3 arbejdsdage fra modtagelse af ordren. Vi bestræber os på at få sendt alle ordre samme dag, hvis afgivet inden kl. 12:00.<br\/><br\/>(Cykler dog inden 10:00)<br\/>(Bemærk at lørdage, søndage og helligdage ikke regnes som arbejdsdage.)<br\/><br\/>Vi leverer kun til Danmark (ikke Grønland og Færøerne)<\/p>",
+            "title_3": "",
+            "raw_content_3": "",
+            "title_4": "",
+            "raw_content_4": "",
+            "title_5": "Finansiering",
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "variants",
+        "inventory_countdown_WhJH6m",
+        "upsell_LpbdCG",
+        "buttons",
+        "klaviyo_email_marketing_sms_form_embed_block_6wzpYr",
+        "tabs"
+      ],
+      "settings": {
+        "product_sticky_enable": true,
+        "image_layout": "stacked",
+        "image_size": "normal",
+        "show_cart_bar": true,
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "mobile_image_style": "thumbs",
+        "padding_top": 90,
+        "padding_bottom": 30
+      }
+    },
+    "related": {
+      "type": "related",
+      "blocks": {
+        "related": {
+          "type": "related",
+          "settings": {
+            "product_recommendations_heading": "Related products",
+            "limit": 4
+          }
+        },
+        "recent": {
+          "type": "recent",
+          "settings": {
+            "product_recently_heading": "Recently viewed",
+            "product_recently_limit": 4
+          }
+        }
+      },
+      "block_order": [
+        "related",
+        "recent"
+      ],
+      "settings": {
+        "enable_tabs": true,
+        "heading_alignment": "text-center",
+        "heading_size": 4,
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related"
+  ]
+}
