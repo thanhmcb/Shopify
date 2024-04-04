@@ -336,8 +336,8 @@
             "label": "Helvetica Neue LT Std 57 Condensed"
           },
           {
-            "value": "Londrina Solid",
-            "label": "Londrina Solid"
+            "value": "Londrina Solid Black",
+            "label": "Londrina Solid Black"
           }
         ],
         "default": "Helvetica Neue LT Std 93 Black Extended"
@@ -411,8 +411,8 @@
             "label": "Helvetica Neue LT Std 57 Condensed"
           },
           {
-            "value": "Londrina Solid",
-            "label": "Londrina Solid"
+            "value": "Londrina Solid Black",
+            "label": "Londrina Solid Black"
           }          
         ],
         "default": "Helvetica Neue LT Std 93 Black Extended"
@@ -458,8 +458,8 @@
             "label": "Helvetica Neue LT Std 57 Condensed"
           },
           {
-            "value": "Londrina Solid",
-            "label": "Londrina Solid"
+            "value": "Londrina Solid Black",
+            "label": "Londrina Solid Black"
           }          
         ],
         "default": "Helvetica Neue LT Std 93 Black Extended"

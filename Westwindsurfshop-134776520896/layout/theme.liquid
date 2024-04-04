@@ -303,6 +303,8 @@
     <link rel="stylesheet" href="{{ 'animate-on-scroll.css' | asset_url }}">
   {% endif %}
   <link href="https://db.onlinewebfonts.com/c/ae2806250b3657fe9a7e18d3ea088cfc?family=Helvetica+Neue+LT+Std+93+Black+Extended" rel="stylesheet"> 
+  <link href="https://db.onlinewebfonts.com/c/5c1df21a40851df1d21f99888c7541f8?family=Londrina+Solid+Black" rel="stylesheet"> 
+  <link href="https://db.onlinewebfonts.com/c/0ae67f3df63a2e3d73117dc0a8e77484?family=Helvetica+Neue+LT+Std+57+Condensed" rel="stylesheet"> 
   <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
 
   {%- if settings.custom_html_head -%}
@@ -321,13 +323,8 @@
     url("https://db.onlinewebfonts.com/t/ae2806250b3657fe9a7e18d3ea088cfc.woff")format("woff"),
     url("https://db.onlinewebfonts.com/t/ae2806250b3657fe9a7e18d3ea088cfc.ttf")format("truetype"),
     url("https://db.onlinewebfonts.com/t/ae2806250b3657fe9a7e18d3ea088cfc.svg#Helvetica Neue LT Std 93 Black Extended")format("svg");
-}
-  @font-face {
-    font-family: "Londrina Solid , sans-serif";
-    src: 
-         url("{{ 'LondrinaSolid-Black.woff2' | asset_url }}") format("woff2"),
-         url("{{ 'LondrinaSolid-Black.woff' | asset_url }}") format("woff"),
   }
+  
   @font-face {
     font-family: "Helvetica Neue LT Std 57 Condensed";
     src: url("https://db.onlinewebfonts.com/t/0ae67f3df63a2e3d73117dc0a8e77484.eot");
@@ -336,7 +333,17 @@
     url("https://db.onlinewebfonts.com/t/0ae67f3df63a2e3d73117dc0a8e77484.woff")format("woff"),
     url("https://db.onlinewebfonts.com/t/0ae67f3df63a2e3d73117dc0a8e77484.ttf")format("truetype"),
     url("https://db.onlinewebfonts.com/t/0ae67f3df63a2e3d73117dc0a8e77484.svg#Helvetica Neue LT Std 57 Condensed")format("svg");
-}
+  }
+
+  @font-face {
+    font-family: "Londrina Solid Black";
+    src: url("https://db.onlinewebfonts.com/t/5c1df21a40851df1d21f99888c7541f8.eot");
+    src: url("https://db.onlinewebfonts.com/t/5c1df21a40851df1d21f99888c7541f8.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/5c1df21a40851df1d21f99888c7541f8.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/5c1df21a40851df1d21f99888c7541f8.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/5c1df21a40851df1d21f99888c7541f8.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/5c1df21a40851df1d21f99888c7541f8.svg#Londrina Solid Black")format("svg");
+    }
 </style>
 </head>
 
