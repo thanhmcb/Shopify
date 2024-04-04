@@ -51,7 +51,7 @@
 <store-header class="header bg-theme-bg text-theme-text{% if section.settings.enable_sticky or search_is_minimised %} has-motion{% endif %}{% if search_is_minimised %} search-is-collapsed{% endif %}"
   {%- if section.settings.enable_sticky -%} data-is-sticky="true"{%- endif -%}
   {%- if search_is_minimised -%} data-is-search-minimised="true"{%- endif -%}
-  style="--header-transition-speed: 300ms">
+  style="--header-transition-speed: 300ms"> 
   <header class="header__grid{% if section.settings.logo_center %} header__grid--centered-logo{% else %} header__grid--left-logo{% endif %} container flex flex-wrap items-center">
     <div class="header__logo logo{% if section.settings.logo_center %} text-center{% endif %} flex js-closes-menu">
       {%- if request.page_type == 'index' and section.settings.logo_h1 -%}
