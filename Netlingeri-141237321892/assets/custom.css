@@ -114,3 +114,18 @@
 .product-collection--items a:hover{
   border-color: var(--input-border-color-hover);
 }
+/* related products in quickview */
+.quickbuy-container .inner {
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+
+
+#pagefooter {
+  margin-top: 3rem;
+}
+
+.related-collection .complementary_product, .section-product-template-product-grid .complementary_product,  .section-main-collection .complementary_product{
+  display: none;
+  margin-top: -2rem;
+}
