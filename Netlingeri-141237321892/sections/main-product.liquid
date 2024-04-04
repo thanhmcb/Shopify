@@ -768,7 +768,7 @@
             {% endif %}
 
           {% when 'complementary' %}
-            <cc-fetched-content class="not-in-quickbuy" data-id="{{ block.id }}" data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&intent=complementary" contains-product-blocks {{ block.shopify_attributes }}>
+            <cc-fetched-content class="complementary_product" data-id="{{ block.id }}" data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&intent=complementary" contains-product-blocks {{ block.shopify_attributes }}>
               {%- if recommendations.performed and recommendations.products_count > 0 -%}
                 {%- liquid
                   if settings.prod_thumb_shape == 'portrait-23'
@@ -2497,6 +2497,7 @@
           "label": "Maximum products to show",
           "default": 10
         }
+      
       ]
     },
     {

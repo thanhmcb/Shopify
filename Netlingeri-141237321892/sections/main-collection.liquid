@@ -1,3 +1,10 @@
+{% style %}
+  {%- if section.settings.show_in_quickbuy %} 
+   .section-main-collection .complementary_product{
+   display: block;
+ }
+   {% endif -%}
+  {% endstyle %}
 <div data-section-id="{{ section.id }}" data-cc-animate>
 {% paginate collection.products by section.settings.coll_num_per_page_int %}
 
@@ -347,6 +354,7 @@
 {% schema %}
 {
   "name": "Collection pages",
+  "class": "section-main-collection",
   "settings": [
     {
       "type": "header",
@@ -363,6 +371,12 @@
       "id": "show_image_behind_heading",
       "label": "Show collection image behind title",
       "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_in_quickbuy",
+      "label": "Show complementary products in quick buy",
+      "default": false
     },
     {
       "type": "select",

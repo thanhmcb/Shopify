@@ -1,3 +1,10 @@
+{% style %}
+ {%- if section.settings.show_in_quickbuy %} 
+  .related-collection .complementary_product{
+  display: block;
+}
+  {% endif -%}
+ {% endstyle %}
 <div class="related-products"
     data-section-id="{{ section.id }}"
     data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&limit={{ section.settings.grid }}&product_id={{ product.id }}"
@@ -104,6 +111,12 @@ loadProductRecommendationsIntoSection();
       "max": 5,
       "step": 1,
       "default": 4
+    },
+    {
+      "type": "checkbox",
+      "id": "show_in_quickbuy",
+      "label": "Show complementary products in quick buy",
+      "default": false
     }
   ]
 }
