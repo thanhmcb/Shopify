@@ -138,9 +138,10 @@
 
               {% comment %}MCB Shopify Wishlist- Klaviyo - start{% endcomment %}
 
-            <a class="klaviyo-bis-trigger btn btn--primary btn--solid " href="#">
-              <span >{{'products.product.sold_out_klaviyo' | t }}</span>
-            </a>
+            <button class="klaviyo-bis-trigger btn btn--primary btn--solid " href="#">
+              <span class="btn__text" > {{'products.product.sold_out_klaviyo' | t }}</span>
+             
+            </button>
 
             {%- render 'button-wishlist', product: product -%}
 

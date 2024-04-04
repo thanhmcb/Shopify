@@ -438,6 +438,7 @@
     "product": {
       "regular_price": "Regular price",
       "sold_out": "Udsolgt",
+      "sold_out_klaviyo": "Udsolgt - Giv mig besked",
       "sale_type": "Sale type",
       "pre_order": "Pre-order",
       "on_sale": "Tilbuld",

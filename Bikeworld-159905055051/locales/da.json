@@ -443,7 +443,8 @@
     },
     "product": {
       "regular_price": "Almindelig pris",
-      "sold_out": "Udsolgt - Giv mig besked",
+      "sold_out": "Udsolgt",
+      "sold_out_klaviyo": "Udsolgt - Giv mig besked",
       "sale_type": "Tilbudstype",
       "pre_order": "Forudbestilt",
       "on_sale": "Tilbud",
