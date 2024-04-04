@@ -102,13 +102,23 @@
       --success-text-color: {{ settings.success_text_color.rgb }};
       --info-bg-color: {{ settings.info_bg_color.rgb }};
       --info-text-color: {{ settings.info_text_color.rgb }};
-
-      --heading-font-family: {{ settings.heading_font.family }}, {{ settings.heading_font.fallback_families }};
+      
+      {%- if settings.show_heading_custom_font -%}
+        --heading-font-family: "{{ settings.heading_custom_font }}", serif;
+      {%- else -%} 
+        --heading-font-family: {{ settings.heading_font.family }}, {{ settings.heading_font.fallback_families }};
+      {%- endif -%}
+   
       --heading-font-style: {{ settings.heading_font.style }};
       --heading-font-weight: {{ settings.heading_font.weight }};
       --heading-scale-start: {{ settings.heading_scale_start }};
 
-      --navigation-font-family: {{ settings.navigation_font.family }}, {{ settings.navigation_font.fallback_families }};
+      {%- if settings.show_navigation_custom_font -%}
+        --navigation-font-family:"{{ settings.navigation_custom_font }}", serif;
+        {%- else -%}
+        --navigation-font-family: {{ settings.navigation_font.family }}, {{ settings.navigation_font.fallback_families }};
+      {%- endif %}
+     
       --navigation-font-style: {{ settings.navigation_font.style }};
       --navigation-font-weight: {{ settings.navigation_font.weight }};
       {%- if settings.heading_uppercase %}
@@ -121,7 +131,13 @@
       {%- else -%}
       --subheading-text-transform: none;
       {%- endif %}
-      --body-font-family: {{ settings.body_font.family }}, {{ settings.body_font.fallback_families }};
+
+      {%- if settings.show_body_custom_font -%}
+        --body-font-family: "{{ settings.body_custom_font }}", serif;
+        {%- else -%} 
+        --body-font-family: {{ settings.body_font.family }}, {{ settings.body_font.fallback_families }};
+      {%- endif -%}
+
       --body-font-style: {{ settings.body_font.style }};
       --body-font-weight: {{ settings.body_font.weight }};
       --body-font-size: {{ settings.body_font_size }};
@@ -286,7 +302,7 @@
     <script src="{{ 'animate-on-scroll.js' | asset_url }}" defer="defer"></script>
     <link rel="stylesheet" href="{{ 'animate-on-scroll.css' | asset_url }}">
   {% endif %}
-
+  <link href="https://db.onlinewebfonts.com/c/ae2806250b3657fe9a7e18d3ea088cfc?family=Helvetica+Neue+LT+Std+93+Black+Extended" rel="stylesheet"> 
   <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
 
   {%- if settings.custom_html_head -%}
@@ -296,17 +312,31 @@
   {%- endif -%}
 
   <style>
-  @font-face {
-    font-family: "Helvetica Neue , sans-serif";
-    src: local("Monument Grotesk Medium Italic"),
-         url("{{ 'HELVETICANEUELTSTD-BLKEX.woff2' | asset_url }}") format("woff2"),
-         url("{{ 'HELVETICANEUELTSTD-BLKEX.woff' | asset_url }}") format("woff"),
-         font-style: normal;
-  font-weight: 600;
-  }
  
-
-
+ @font-face {
+    font-family: "Helvetica Neue LT Std 93 Black Extended";
+    src: url("https://db.onlinewebfonts.com/t/ae2806250b3657fe9a7e18d3ea088cfc.eot");
+    src: url("https://db.onlinewebfonts.com/t/ae2806250b3657fe9a7e18d3ea088cfc.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/ae2806250b3657fe9a7e18d3ea088cfc.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/ae2806250b3657fe9a7e18d3ea088cfc.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/ae2806250b3657fe9a7e18d3ea088cfc.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/ae2806250b3657fe9a7e18d3ea088cfc.svg#Helvetica Neue LT Std 93 Black Extended")format("svg");
+}
+  @font-face {
+    font-family: "Londrina Solid , sans-serif";
+    src: 
+         url("{{ 'LondrinaSolid-Black.woff2' | asset_url }}") format("woff2"),
+         url("{{ 'LondrinaSolid-Black.woff' | asset_url }}") format("woff"),
+  }
+  @font-face {
+    font-family: "Helvetica Neue LT Std 57 Condensed";
+    src: url("https://db.onlinewebfonts.com/t/0ae67f3df63a2e3d73117dc0a8e77484.eot");
+    src: url("https://db.onlinewebfonts.com/t/0ae67f3df63a2e3d73117dc0a8e77484.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/0ae67f3df63a2e3d73117dc0a8e77484.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/0ae67f3df63a2e3d73117dc0a8e77484.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/0ae67f3df63a2e3d73117dc0a8e77484.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/0ae67f3df63a2e3d73117dc0a8e77484.svg#Helvetica Neue LT Std 57 Condensed")format("svg");
+}
 </style>
 </head>
 

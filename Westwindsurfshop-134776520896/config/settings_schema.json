@@ -318,6 +318,33 @@
       },
       {
         "type": "checkbox",
+        "id": "show_heading_custom_font",
+        "label": "Use custom font for heading",
+        "default": true
+      },
+      {
+        "type": "select",
+        "id": "heading_custom_font",
+        "label": "Custom heading font",
+        "options": [
+          {
+            "value": "Helvetica Neue LT Std 93 Black Extended",
+            "label": "Helvetica Neue LT Std 93 Black Extended"
+          },
+          {
+            "value": "Helvetica Neue LT Std 57 Condensed",
+            "label": "Helvetica Neue LT Std 57 Condensed"
+          },
+          {
+            "value": "Londrina Solid",
+            "label": "Londrina Solid"
+          }
+        ],
+        "default": "Helvetica Neue LT Std 93 Black Extended"
+      },
+    
+      {
+        "type": "checkbox",
         "id": "heading_uppercase",
         "label": "Make headings uppercase",
         "default": false
@@ -365,6 +392,32 @@
         "default": "nunito_sans_n4"
       },
       {
+        "type": "checkbox",
+        "id": "show_body_custom_font",
+        "label": "Use custom font for body",
+        "default": true
+      },
+      {
+        "type": "select",
+        "id": "body_custom_font",
+        "label": "Custom body font",
+        "options": [
+          {
+            "value": "Helvetica Neue LT Std 93 Black Extended",
+            "label": "Helvetica Neue LT Std 93 Black Extended"
+          },
+          {
+            "value": "Helvetica Neue LT Std 57 Condensed",
+            "label": "Helvetica Neue LT Std 57 Condensed"
+          },
+          {
+            "value": "Londrina Solid",
+            "label": "Londrina Solid"
+          }          
+        ],
+        "default": "Helvetica Neue LT Std 93 Black Extended"
+      },
+      {
         "type": "range",
         "id": "body_font_size",
         "min": 15,
@@ -384,6 +437,32 @@
         "label": "Font",
         "default": "nunito_sans_n7",
         "info": "The body font will be used for third-level menu items."
+      },
+      {
+        "type": "checkbox",
+        "id": "show_navigation_custom_font",
+        "label": "Use custom font for navigation",
+        "default": true
+      },
+      {
+        "type": "select",
+        "id": "navigation_custom_font",
+        "label": "Custom navigation font",
+        "options": [
+          {
+            "value": "Helvetica Neue LT Std 93 Black Extended",
+            "label": "Helvetica Neue LT Std 93 Black Extended"
+          },
+          {
+            "value": "Helvetica Neue LT Std 57 Condensed",
+            "label": "Helvetica Neue LT Std 57 Condensed"
+          },
+          {
+            "value": "Londrina Solid",
+            "label": "Londrina Solid"
+          }          
+        ],
+        "default": "Helvetica Neue LT Std 93 Black Extended"
       }
     ]
   },
