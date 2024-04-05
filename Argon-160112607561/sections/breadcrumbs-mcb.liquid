@@ -18,6 +18,8 @@
       --padding-top-mobile: {{ section.settings.padding_top_mobile }}px;
       --padding-bottom-mobile: {{ section.settings.padding_bottom_mobile }}px;
       --max-width: none;
+      --breadcrumbs-background-color: {{ section.settings.breadcrumbs-background-color.rgb }};
+      --breadcrumbs-seperator-color: {{ section.settings.breadcrumbs-seperator-color.rgb }};
       {% if section.settings.max_width > 0 %}
         --max-width: {{ section.settings.max_width }}px;
       {% endif %}
@@ -30,6 +32,7 @@
       padding-left: var(--padding-left);
       padding-right: var(--padding-right);
       color: var(--breadcrumbs-text-color);
+      background-color: rgb(var(--breadcrumbs-background-color));
     }
     .custom_breadcrumbs-section * {
       color: var(--breadcrumbs-text-color);
@@ -75,6 +78,7 @@
       transform: rotate(45deg);
       vertical-align: middle;
       font-size: calc(var(--breadcrumbs-font-size) + 2px);
+      border-color:rgb(var(--breadcrumbs-seperator-color));
       /* top: -0.1em; */
     }
 
@@ -82,6 +86,7 @@
       content: '/';
       margin: 0 .4em;
       font-size: var(--breadcrumbs-font-size);
+      color:rgb(var(--breadcrumbs-seperator-color));
     }
 
     /* Links */
@@ -103,11 +108,11 @@
       
     <nav class="custom_breadcrumbs" role="navigation" aria-label="breadcrumbs">
       <ol class="custom_breadcrumbs-list {{ section.settings.separator_class }}">
-
+        {%- unless section.settings.hide_home -%}
         <li>
           <a href="/">{{ 'general.home' | t }} </a>
         </li>
-
+        {%- endunless -%}
         {%- assign t = template | split: '.' | first -%}
         {%- case t -%}
           
@@ -280,6 +285,13 @@
         "info": "For theme custom classes ie.: 'page-width' (without quotes) if needed. This will line up the section with other sections. Also add suitable side paddings."
       },
       {
+      "type": "checkbox",
+      "id": "hide_home",
+      "label": "Hide home",
+      "default": false
+    },
+
+      {
         "type": "header",
         "content": "Separator"
       },
@@ -331,6 +343,18 @@
         "type": "color",
         "id": "text_color",
         "label": "Text Color",
+        "default": "#000"
+      },
+      {
+        "type": "color",
+        "id": "breadcrumbs-background-color",
+        "label": "Breadcrum background color",
+        "default": "#000"
+      },
+      {
+        "type": "color",
+        "id": "breadcrumbs-seperator-color",
+        "label": "Breadcrum seperator color",
         "default": "#000"
       },
       {
