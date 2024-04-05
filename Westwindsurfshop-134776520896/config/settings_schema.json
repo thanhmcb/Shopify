@@ -336,9 +336,21 @@
             "label": "Helvetica Neue Condensed"
           },
           {
+            "value": "HelveticaNeueLTStd-Bdcn",
+            "label": "HelveticaNeueLTStd Bdcn"
+          },
+          {
+            "value": "HelveticaNeueLTStd-Hvex",
+            "label": "HelveticaNeueLTStd Hvex"
+          },
+          {
             "value": "Londrina Solid Black",
             "label": "Londrina Solid Black"
-          }
+          },
+          {
+            "value": "MinionPro-Regular",
+            "label": "MinionPro Regular"
+          }          
         ],
         "default": "Helvetica Neue LT Std 93 Black Extended"
       },
@@ -411,9 +423,21 @@
             "label": "Helvetica Neue Condensed"
           },
           {
+            "value": "HelveticaNeueLTStd-Bdcn",
+            "label": "HelveticaNeueLTStd Bdcn"
+          },
+          {
+            "value": "HelveticaNeueLTStd-Hvex",
+            "label": "HelveticaNeueLTStd Hvex"
+          },
+          {
             "value": "Londrina Solid Black",
             "label": "Londrina Solid Black"
-          }          
+          },
+          {
+            "value": "MinionPro-Regular",
+            "label": "MinionPro Regular"
+          }              
         ],
         "default": "Helvetica Neue LT Std 93 Black Extended"
       },
@@ -458,9 +482,21 @@
             "label": "Helvetica Neue Condensed"
           },
           {
+            "value": "HelveticaNeueLTStd-Bdcn",
+            "label": "HelveticaNeueLTStd Bdcn"
+          },
+          {
+            "value": "HelveticaNeueLTStd-Hvex",
+            "label": "HelveticaNeueLTStd Hvex"
+          },
+          {
             "value": "Londrina Solid Black",
             "label": "Londrina Solid Black"
-          }          
+          },
+          {
+            "value": "MinionPro-Regular",
+            "label": "MinionPro Regular"
+          }             
         ],
         "default": "Helvetica Neue LT Std 93 Black Extended"
       }
