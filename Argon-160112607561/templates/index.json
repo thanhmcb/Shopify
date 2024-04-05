@@ -1,0 +1,573 @@
+{
+  "sections": {
+    "6724d5de-e695-4121-b0c7-1d4de00fd965": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18504795881801__6724d5de-e695-4121-b0c7-1d4de00fd965-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "UPGRADE YOUR AUDIO GAME WITH"
+          }
+        },
+        "template--18504795881801__6724d5de-e695-4121-b0c7-1d4de00fd965-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "ACTIVE SPEAKERS",
+            "heading_tag": "h1"
+          }
+        },
+        "template--18504795881801__6724d5de-e695-4121-b0c7-1d4de00fd965-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Built-in amplifiers and advanced technology deliver powerful sound in a sleek, plug-and-play package.<\/p>"
+          }
+        },
+        "c41a9e87-cc70-4b73-b4ea-d1204fbc70e4": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "size": "lg",
+            "text": "SHOP NOW",
+            "link_url_page": "",
+            "url": "shopify:\/\/collections\/active-speakers",
+            "text-color": "#ffffff",
+            "button_background": "#8b6c48",
+            "button_border_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "template--18504795881801__6724d5de-e695-4121-b0c7-1d4de00fd965-subheading-1",
+        "template--18504795881801__6724d5de-e695-4121-b0c7-1d4de00fd965-heading-1",
+        "template--18504795881801__6724d5de-e695-4121-b0c7-1d4de00fd965-richtext-1",
+        "c41a9e87-cc70-4b73-b4ea-d1204fbc70e4"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/Banner_desktop.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Banner_mobile.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "image_with_text_overlay_AfXncQ": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_B3qQdX": {
+          "type": "subheading",
+          "settings": {
+            "text": "AMPLIFIER + SPEAKER COMBO"
+          }
+        },
+        "heading_6y9UDk": {
+          "type": "heading",
+          "settings": {
+            "text": "Stereo bundle offer",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_JBrGfz": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Upgrade your tunes with our sound duo: the FORUS speakers and the SA1 amplifier<\/p>"
+          }
+        },
+        "button_rY7HeW": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "size": "lg",
+            "text": "Save 98€: SA1 & FORUS bundle deal",
+            "link_url_page": "",
+            "url": "shopify:\/\/collections\/passive-speakers",
+            "text-color": "#ffffff",
+            "button_background": "rgba(0,0,0,0)",
+            "button_border_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_B3qQdX",
+        "heading_6y9UDk",
+        "richtext_JBrGfz",
+        "button_rY7HeW"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/forus_desktop_4_3434dcd4-0cbd-4418-8d95-9458320ff5ed.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/forus_mobile_4.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 20
+      }
+    },
+    "1707992406702476c9": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_trust_badge_QrWYkM": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-trust-badge\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "layout": "horizontal-slim",
+            "alignment": "fillContainer",
+            "scheme-type": "inverted",
+            "review-title": "reviews",
+            "rating-icon": true,
+            "average-rating": true,
+            "loox-branding": false,
+            "review-count": true,
+            "open-reviews": true,
+            "show-border": false,
+            "border-radius": 0,
+            "font-size": 14,
+            "background-color": "",
+            "secondary-background-color": "",
+            "text-color": "",
+            "rating-icon-color": "",
+            "border-color": ""
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_trust_badge_QrWYkM"
+      ],
+      "custom_css": [
+        ".section-full {padding: 0px; margin-bottom: 0px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": false,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "f2f081ca-370c-447f-bc8b-8de3430b9e24": {
+      "type": "collection-list",
+      "blocks": {
+        "template--18504795881801__f2f081ca-370c-447f-bc8b-8de3430b9e24-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "turntables",
+            "image": "shopify:\/\/shop_images\/tt_1500x1800_66cb4511-147d-42fb-9856-e829d774cbd1.jpg",
+            "subheading": "We believe that investing in a turntable really is investing in your music experiences.",
+            "title": "Turntables",
+            "product_type": "",
+            "url": "",
+            "heading_tag": "h3",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--18504795881801__f2f081ca-370c-447f-bc8b-8de3430b9e24-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "active-speakers",
+            "image": "shopify:\/\/shop_images\/Active_speakers_new.jpg",
+            "subheading": "Upgrade your TV or music quality with ease and without complicated wiring or multiple components.",
+            "title": "Active Speakers",
+            "product_type": "",
+            "url": "shopify:\/\/collections\/active-speakers",
+            "heading_tag": "h3",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "cc926af8-8bd5-45a2-b4b9-cc9600373207": {
+          "type": "collection",
+          "settings": {
+            "collection": "passive-speakers",
+            "image": "shopify:\/\/shop_images\/passive_menu.jpg",
+            "subheading": "Passive speakers require a separate amplifier for endless configuration options.",
+            "title": "Passive Speakers",
+            "product_type": "",
+            "url": "",
+            "heading_tag": "h3",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "196450b9-2b13-446c-9589-a146a7dca61e": {
+          "type": "collection",
+          "settings": {
+            "collection": "amplifiers",
+            "image": "shopify:\/\/shop_images\/SA1_1500x1800_f2c8a096-35c1-48e8-bbc7-c7fae68c9ce6.jpg",
+            "subheading": "Need an amplifier that’ll light up even the best speakers you decide to connect it with?",
+            "title": "Amplifiers",
+            "product_type": "",
+            "url": "",
+            "heading_tag": "h3",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--18504795881801__f2f081ca-370c-447f-bc8b-8de3430b9e24-collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "headphones",
+            "image": "shopify:\/\/shop_images\/headphones_1500x1800_a7c1a2b1-e628-48ca-9c72-35a1910fcef4.jpg",
+            "subheading": "Get the best of both worlds: style and sound with our fashionable headphones",
+            "title": "Headphones",
+            "product_type": "",
+            "url": "",
+            "heading_tag": "h3",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--18504795881801__f2f081ca-370c-447f-bc8b-8de3430b9e24-collection-2",
+        "template--18504795881801__f2f081ca-370c-447f-bc8b-8de3430b9e24-collection-1",
+        "cc926af8-8bd5-45a2-b4b9-cc9600373207",
+        "196450b9-2b13-446c-9589-a146a7dca61e",
+        "template--18504795881801__f2f081ca-370c-447f-bc8b-8de3430b9e24-collection-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_collections": false,
+        "collections_per_row": 3,
+        "show_progress_bar": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "frontpage",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 40,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Bestsellers",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "d13996ec-1ad1-49ee-bf29-5bb5f20c2a17": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18090383475000__d13996ec-1ad1-49ee-bf29-5bb5f20c2a17-1677508542b18af8ca-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Direct-to-Consumer",
+            "heading_tag": "h2"
+          }
+        },
+        "template--18090383475000__d13996ec-1ad1-49ee-bf29-5bb5f20c2a17-1677508542b18af8ca-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>At Argon Audio, we believe that music is an essential part of life and that everyone should have access to high-quality audio equipment. That's why we've made it our mission to bring the best audio products to market, combining cutting-edge technology with sleek design without compromising your wallet.<\/p>"
+          }
+        },
+        "fbe513b8-d628-4232-9cfa-1246092006d2": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Read more",
+            "link_url_page": "",
+            "url": "shopify:\/\/pages\/the-promise",
+            "text-color": "#ffffff",
+            "button_background": "rgba(0,0,0,0)",
+            "button_border_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "template--18090383475000__d13996ec-1ad1-49ee-bf29-5bb5f20c2a17-1677508542b18af8ca-1",
+        "template--18090383475000__d13996ec-1ad1-49ee-bf29-5bb5f20c2a17-1677508542b18af8ca-2",
+        "fbe513b8-d628-4232-9cfa-1246092006d2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "sm",
+        "image": "shopify:\/\/shop_images\/Banner_desktop_9be9602c-0fac-4fcf-85ae-6d98ebfa43b9.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 70
+      }
+    },
+    "61097ba1-1041-4bbe-a281-bf584d5129ac": {
+      "type": "logo-list",
+      "blocks": {
+        "template--18090383475000__61097ba1-1041-4bbe-a281-bf584d5129ac-1677779068d08b9092-2": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/ARGTT4_EISA_561da1c9-6382-4fe3-ae9b-1224a3875116.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "template--18090383475000__61097ba1-1041-4bbe-a281-bf584d5129ac-1677779068d08b9092-1": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/EN-Argon-Forte-A5-MK2_c8d63910-9dd1-45ca-9f2a-b1325d32a775.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "template--18090383475000__61097ba1-1041-4bbe-a281-bf584d5129ac-1677779068d08b9092-3": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/ARGSOLO_Stereo_f84fc5b5-8b9c-431c-ac95-886dfe288807.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "template--18090383475000__61097ba1-1041-4bbe-a281-bf584d5129ac-1677779068d08b9092-4": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/ARGTT_HIFINL_ba66f14a-14ad-4266-abcb-0158c211a7a8.jpg",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "6708e47c-feb1-43b9-af1e-94a893f88c27": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/ARGSOLO_AUDIODE_0da4012f-4ccb-49ec-a0f2-47367ef2b40f.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "template--18090383475000__61097ba1-1041-4bbe-a281-bf584d5129ac-1677779068d08b9092-0": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/ARGFORTEA5MK2_v2_HIFITEST_EN_077b6e30-3377-482c-928d-73d6cbad7d2a.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "f83861d8-5108-406f-a34a-79efc1f3c3cf": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/ARGTT4_LITEMAGAZIN_5078ec10-f01d-4be7-9663-53c04d398014.jpg",
+            "logo_width": 120,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18090383475000__61097ba1-1041-4bbe-a281-bf584d5129ac-1677779068d08b9092-2",
+        "template--18090383475000__61097ba1-1041-4bbe-a281-bf584d5129ac-1677779068d08b9092-1",
+        "template--18090383475000__61097ba1-1041-4bbe-a281-bf584d5129ac-1677779068d08b9092-3",
+        "template--18090383475000__61097ba1-1041-4bbe-a281-bf584d5129ac-1677779068d08b9092-4",
+        "6708e47c-feb1-43b9-af1e-94a893f88c27",
+        "template--18090383475000__61097ba1-1041-4bbe-a281-bf584d5129ac-1677779068d08b9092-0",
+        "f83861d8-5108-406f-a34a-79efc1f3c3cf"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": false,
+        "title": "Award-Winning Products",
+        "content": "",
+        "text_alignment": "start",
+        "items_per_row": 7,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
+    "f3ed217b-b7df-4385-ada3-a39c2d3f383c": {
+      "type": "collection-list",
+      "blocks": {
+        "template--18090383475000__f3ed217b-b7df-4385-ada3-a39c2d3f383c-167787222451d91876-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/fenirs_1800x1500_faf1b911-f9f1-448f-bd68-f3f975638f6b.jpg",
+            "subheading": "Our goal when creating these active speakers was to provide superior quality and features while keeping them budget-friendly.",
+            "title": "FENRIS",
+            "product_type": "Active Speakers",
+            "url": "shopify:\/\/collections\/fenris",
+            "heading_tag": "h3",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--18090383475000__f3ed217b-b7df-4385-ada3-a39c2d3f383c-167787222451d91876-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/forte_1800x1500_728db833-f7f5-481a-9f29-f27f29b01934.jpg",
+            "subheading": "Designed for true audio connoisseurs seeking pristine, yet punchy sound, and convenient day-to-day use.",
+            "title": "FORTE",
+            "product_type": "Active Speakers",
+            "url": "shopify:\/\/collections\/forte",
+            "heading_tag": "h3",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--18090383475000__f3ed217b-b7df-4385-ada3-a39c2d3f383c-167787222451d91876-0",
+        "template--18090383475000__f3ed217b-b7df-4385-ada3-a39c2d3f383c-167787222451d91876-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_collections": true,
+        "collections_per_row": 2,
+        "show_progress_bar": false,
+        "subheading": "80.000+ pairs of active speakers sold: your go-to choice for quality and value.",
+        "title": "We're experts",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "9499095b-8cc6-4e78-b321-93bb584179d8": {
+      "type": "multi-column",
+      "blocks": {
+        "template--18090383475000__9499095b-8cc6-4e78-b321-93bb584179d8-1678084217e4fd95ef-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Active-speakers-menu.jpg",
+            "column_size": "4",
+            "title": "Understanding Active Speakers: An In-Depth Guide",
+            "heading_tag": "h6",
+            "content": "<p>Active vs. passive speakers. Discover the benefits, drawbacks, and optimization tips for active speakers in this article.<\/p>",
+            "link_url": "shopify:\/\/pages\/active-speakers-article",
+            "link_text": "Read more",
+            "link_style": "link"
+          }
+        },
+        "template--18090383475000__9499095b-8cc6-4e78-b321-93bb584179d8-1678084217e4fd95ef-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Turntables-menu.jpg",
+            "column_size": "4",
+            "title": "Discovering the timeless appeal of turntables: An In-Depth Guide",
+            "heading_tag": "h6",
+            "content": "<p>From retro to modern. Enhance your music and cool factor with turntables. Learn about their technical aspects and home setup tips.<\/p>",
+            "link_url": "shopify:\/\/pages\/insights-turntables",
+            "link_text": "Read more",
+            "link_style": "link"
+          }
+        },
+        "template--18090383475000__9499095b-8cc6-4e78-b321-93bb584179d8-1678084217e4fd95ef-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/stereo-menu.jpg",
+            "column_size": "4",
+            "title": "Stereo Sound: Why It Matters for Your Audio Experience!",
+            "heading_tag": "h6",
+            "content": "<p>Maximize your music experience with our detailed guide to stereo sound. Discover its power and optimize your listening experience today.<\/p>",
+            "link_url": "shopify:\/\/pages\/insights-stereo-sound",
+            "link_text": "Read more",
+            "link_style": "link"
+          }
+        },
+        "24010165-d84f-43df-811c-53102f7c3a77": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/subwoofers-menu.jpg",
+            "column_size": "4",
+            "title": "Unleashing the Power of Subwoofers: An In-Depth Guide",
+            "heading_tag": "h6",
+            "content": "<p>Subwoofers are designed to enhance your audio experience by delivering powerful, deep bass tones and impactful sound effects.<\/p>",
+            "link_url": "shopify:\/\/pages\/insights-subwoofers",
+            "link_text": "Read more",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--18090383475000__9499095b-8cc6-4e78-b321-93bb584179d8-1678084217e4fd95ef-0",
+        "template--18090383475000__9499095b-8cc6-4e78-b321-93bb584179d8-1678084217e4fd95ef-1",
+        "template--18090383475000__9499095b-8cc6-4e78-b321-93bb584179d8-1678084217e4fd95ef-2",
+        "24010165-d84f-43df-811c-53102f7c3a77"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "small",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Insights",
+        "content": "<p>Looking to learn more about turntables, active speakers, and sound quality? Look no further!<\/p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "6724d5de-e695-4121-b0c7-1d4de00fd965",
+    "image_with_text_overlay_AfXncQ",
+    "1707992406702476c9",
+    "f2f081ca-370c-447f-bc8b-8de3430b9e24",
+    "featured-collection",
+    "d13996ec-1ad1-49ee-bf29-5bb5f20c2a17",
+    "61097ba1-1041-4bbe-a281-bf584d5129ac",
+    "f3ed217b-b7df-4385-ada3-a39c2d3f383c",
+    "9499095b-8cc6-4e78-b321-93bb584179d8"
+  ]
+}

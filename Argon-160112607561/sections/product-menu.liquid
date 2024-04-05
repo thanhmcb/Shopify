@@ -1,0 +1,84 @@
+
+
+<ul id="menu" class="product-menu">
+  {%- if section.blocks.size > 0 -%}
+    {%- for block in section.blocks -%}
+      {%- if block.settings.title != blank and block.settings.id != blank -%}
+        <li>
+          <a href="#{{block.settings.id}}">{{ block.settings.title }}</a>
+        </li>
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+</ul>
+
+<script>
+  (function ($) {
+    $(function () {
+      const productMenuSelector = '.product-menu a';
+      const toggleClassName = 'active';
+
+      function isInViewport(elm) {
+        let vpH = $(window).height(),
+                st = $(window).scrollTop(),
+                y = $(elm).offset().top,
+                elementHeight = $(elm).height();
+        return y < vpH + st - vpH * 0.4 && y > st - elementHeight + vpH * 0.3;
+      }
+
+      const handleProductMenuScroll = function (event) {
+        $(productMenuSelector).each(function () {
+          let menuItem = $(this);
+          if ($(menuItem.attr('href')).length) {
+            if (isInViewport($(menuItem.attr('href')))) {
+              $(productMenuSelector).removeClass(toggleClassName);
+              menuItem.addClass(toggleClassName);
+              return false;
+            } else {
+              menuItem.removeClass(toggleClassName);
+            }
+          }
+        });
+      };
+
+      handleProductMenuScroll();
+      $(document).on({ scroll: handleProductMenuScroll });
+    });
+  })(jQuery);
+</script>
+
+{% schema %}
+  {
+    "name": "Product menu",
+    "class": "shopify-section--product-menu",
+    "tag": "section",
+    "blocks": [
+      {
+        "name": "Menu Item",
+        "type": "item",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Menu Item"
+          }, {
+            "type": "text",
+            "id": "id",
+            "label": "Section id",
+            "info": "This section id must be the same with section id that will be scroll to"
+          }
+        ]
+      }
+    ],
+
+    "presets": [
+      {
+        "name": "Product menu"
+
+      }
+    ],
+    "enabled_on": {
+    "templates": ["product"]
+    }
+  }
+{% endschema %}

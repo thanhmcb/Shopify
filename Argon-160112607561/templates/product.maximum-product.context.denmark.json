@@ -1,0 +1,7 @@
+{
+  "parent": "product.maximum-product.json",
+  "context": {
+    "market": "denmark"
+  },
+  "sections": {}
+}

@@ -1,0 +1,335 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "8fe6e472-d203-4c40-ab29-6b90b2331bbc": {
+          "type": "product-type",
+          "settings": {}
+        },
+        "loox_reviews_loox_rating_kz3JJt": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 14,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "layout": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": false,
+            "selector_mode": "block",
+            "color_mode": "variant",
+            "size_chart_page": ""
+          }
+        },
+        "dd2c6229-7ad9-4f58-a181-ee4ae015c64d": {
+          "type": "inventory",
+          "settings": {
+            "low_inventory_threshold": 0
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "atc_button_background": "#755933",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "2704633a-332b-4725-b827-1f649205fd9a": {
+          "type": "button-mcb",
+          "settings": {
+            "aria_controls": true,
+            "text": "Find store",
+            "size": "xl",
+            "style": "fill",
+            "stretch": true,
+            "background": "#e8e8e8",
+            "text_color": "#1a1a1a"
+          }
+        },
+        "98b5a037-c220-4b6d-81fc-1a094a2783ee": {
+          "type": "separator",
+          "settings": {}
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "88bea931-3ac0-4da4-820e-7466475a3cb4": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "center",
+            "icon_position": "aligned",
+            "icon": "none",
+            "icon_width": 24,
+            "title": "✓ 30-day Free Return   ✓ 3-Year Warranty   ✓ Free Shipping*",
+            "content": "<p>{{ product.metafields.custom.type.value.usp | metafield_tag }}<\/p>",
+            "background": "#f5f5f5",
+            "text_color": "#1a1a1a"
+          }
+        },
+        "579dcddc-e550-4895-99b1-c1b06720cd6a": {
+          "type": "tab_contact",
+          "settings": {
+            "title": "Product questions? We're here to help!",
+            "show-phone": false
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "8fe6e472-d203-4c40-ab29-6b90b2331bbc",
+        "loox_reviews_loox_rating_kz3JJt",
+        "price",
+        "variant_picker",
+        "dd2c6229-7ad9-4f58-a181-ee4ae015c64d",
+        "buy_buttons",
+        "2704633a-332b-4725-b827-1f649205fd9a",
+        "98b5a037-c220-4b6d-81fc-1a094a2783ee",
+        "badges",
+        "description",
+        "88bea931-3ac0-4da4-820e-7466475a3cb4",
+        "579dcddc-e550-4895-99b1-c1b06720cd6a"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 50,
+        "desktop_media_layout": "carousel_thumbnails_bottom",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "free_scroll",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "cf291cc0-57a4-4e15-97c7-e3420e7f2894": {
+      "type": "product-menu",
+      "blocks": {
+        "f2b17f13-9799-4522-be12-53f2976ea41a": {
+          "type": "item",
+          "settings": {
+            "title": "Specifications",
+            "id": "product-spec"
+          }
+        },
+        "97324087-7794-4205-9514-345c8eb51e00": {
+          "type": "item",
+          "settings": {
+            "title": "Description",
+            "id": "product-desc"
+          }
+        },
+        "4448ba3f-2bb6-4fb0-ac1c-7907eec59f66": {
+          "type": "item",
+          "repeater": "{{ product.metafields.custom.menu.value }}",
+          "settings": {
+            "title": "{{ block.repeater.menu_item.value }}",
+            "id": "{{ block.repeater.section_id.value }}"
+          }
+        },
+        "2e89b67d-b5d4-4b3e-a08a-bd05e09d3e1c": {
+          "type": "item",
+          "settings": {
+            "title": "Related Products",
+            "id": "related-product"
+          }
+        }
+      },
+      "block_order": [
+        "f2b17f13-9799-4522-be12-53f2976ea41a",
+        "97324087-7794-4205-9514-345c8eb51e00",
+        "4448ba3f-2bb6-4fb0-ac1c-7907eec59f66",
+        "2e89b67d-b5d4-4b3e-a08a-bd05e09d3e1c"
+      ],
+      "settings": {}
+    },
+    "578804bb-4993-4eed-ba5f-ea32813975f1": {
+      "type": "feature-chart-custom",
+      "settings": {
+        "full_width": true,
+        "section-id": "product-spec",
+        "subheading": "{{ product.vendor }} {{ product.title }}",
+        "title": "{{ product.metafields.custom.headline.value }}",
+        "content": "{{ product.metafields.custom.bullets | metafield_tag }}",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "max_rows": 4,
+        "view_all_text": "View all",
+        "view_less_text": "View less",
+        "view_product": "View",
+        "viewing_product": "",
+        "show_product_swatch": true,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "chart_background": "",
+        "chart_text_color": "",
+        "chart_true_false_color": ""
+      }
+    },
+    "aa746878-ab5f-463f-aecf-8ee46683c486": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "template--17265392288056__aa746878-ab5f-463f-aecf-8ee46683c486-1671187603181ab09b-0": {
+          "type": "item",
+          "settings": {
+            "image": "{{ product.metafields.custom.story_1_image.value }}",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "{{ product.metafields.custom.story_headline_1.value }}",
+            "content": "<p>{{ product.metafields.custom.story_1 | metafield_tag }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17265392288056__aa746878-ab5f-463f-aecf-8ee46683c486-1671187603181ab09b-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "product-desc",
+        "stack_on_mobile": true,
+        "show_counter": false,
+        "desktop_image_effect": "fade",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "rich_text_TUgUm6": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_deXrkp": {
+          "type": "heading",
+          "settings": {
+            "text": "Customer Reviews",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_deXrkp"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "1707992113cf3890ea": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_section_ybndd7": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 5,
+            "hide_thumbnails": false,
+            "maxwidth": 1600,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_ybndd7"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "58a6f7f5-b217-4148-aa8f-efc05707ac1b": {
+      "type": "related-products",
+      "settings": {
+        "section-id": "related-product",
+        "recommendations_count": 10,
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Related products",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "cf291cc0-57a4-4e15-97c7-e3420e7f2894",
+    "578804bb-4993-4eed-ba5f-ea32813975f1",
+    "aa746878-ab5f-463f-aecf-8ee46683c486",
+    "rich_text_TUgUm6",
+    "1707992113cf3890ea",
+    "58a6f7f5-b217-4148-aa8f-efc05707ac1b"
+  ]
+}
