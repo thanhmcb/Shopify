@@ -86,24 +86,17 @@ Supported variables
   {%- endif -%}
 {%- endcapture -%}
 
+
 {%- capture attributes -%}
-  {% if class_attribute != blank %}class="{{ class_attribute | strip_newlines | strip }}"{% endif %}
-  {% if style_attribute != blank %}style="{{ style_attribute | strip_newlines | strip }}"{% endif %}
-  {% if aria_controls %}aria-controls="{{ aria_controls }}" aria-expanded="false"{% endif %}
-  {% if disabled %}
-    {% if href %}role="link" aria-disabled="true"{% else %}disabled{% endif %}
-  {% endif %}
-  {% if name %}name="{{ name }}"{% endif %}
-  {% if form %}form="{{ form }}"{% endif %}
-  {% if href %}href="{{ href }}"{% endif %}
-  {% if external and href != blank %}target="_blank"{% endif %}
-  {% if href == blank %}is="{{ is | default: 'custom-button' }}"{% endif %}
-  {% if name == "checkout" %} 
-    {%- if settings.show_terms -%}id="checkout-button-validate"{%- endif -%}
-  {% endif %}
-  {% if name == "checkout2" %}
-    {%- if settings.show_terms -%}id="checkout-button-validate2"{%- endif -%}
-  {% endif %}
+{% if class_attribute != blank %}class="{{ class_attribute | strip_newlines | strip }}"{% endif %}
+{% if style_attribute != blank %}style="{{ style_attribute | strip_newlines | strip }}"{% endif %}
+{% if aria_controls %}aria-controls="{{ aria_controls }}" aria-expanded="false"{% endif %}
+{% if disabled %}{% if href %}role="link" aria-disabled="true"{% else %}disabled{% endif %}{% endif %}
+{% if name %}name="{{ name }}"{% endif %}
+{% if form %}form="{{ form }}"{% endif %}
+{% if href %}href="{{ href }}"{% endif %}
+{% if external and href != blank %}target="_blank"{% endif %}
+{% if href == blank %}is="{{ is | default: 'custom-button' }}"{% endif %}
 {%- endcapture -%}
 
 {%- capture button_content -%}
