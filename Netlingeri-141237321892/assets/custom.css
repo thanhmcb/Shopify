@@ -129,3 +129,20 @@
   display: none;
   margin-top: -2rem;
 }
+
+/* slideshow on collection page */
+@media (min-width: 768px) {
+  .slideshow__slide ~ .page-header {
+    width: 100%;
+  }
+  
+  .slideshow__slide ~ .page-header .text-overlay__reveal {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 767.98px){
+  .slideshow__slide ~ .page-header {
+    display: none;
+  }
+}
