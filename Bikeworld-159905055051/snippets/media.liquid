@@ -63,7 +63,7 @@
   data-slide
 >
 {%- style -%}
-  .product__slide.media--hidden {
+  .product__slide:not(.media--active){
     flex:0 0 {{section.settings.product-image-spit}};
   }
 {%- endstyle -%}
@@ -78,12 +78,13 @@
         data-image-width="{{ media.width }}"
         data-image-height="{{ media.height }}"
       {% endif %}
-    >
-     {%- comment -%} MCB label - Start {%- endcomment -%}
-     {% if featured_media == media %} 
-      {% render 'custom-label', product:product %}
-     {% endif %}
-   {%- comment -%} MCB label - Start {%- endcomment -%}
+    >      
+  {%- comment -%} MCB label - Start {%- endcomment -%}
+    {% if featured_media == media %} 
+     {% render 'custom-label', product:product %}
+    {% endif %}
+  {%- comment -%} MCB label - Start {%- endcomment -%}
+
       {{ image }}
     </div>
   {%- else -%}

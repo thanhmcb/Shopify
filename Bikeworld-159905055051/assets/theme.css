@@ -11955,7 +11955,7 @@ body {
   text-align: center;
   color: inherit;
   background-color: transparent;
-  border: 1px solid var(--COLOR-A20);
+  border: 1px solid var(--border);
   border-radius: var(--RADIUS);
   transition: color 0.5s cubic-bezier(0.215, 0.61, 0.355, 1), background 0.5s cubic-bezier(0.215, 0.61, 0.355, 1), border 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
@@ -11965,8 +11965,7 @@ body {
 .radio__fieldset .radio__button input:disabled + label,
 .radio__fieldset .radio__button input.sold-out + label,
 .radio__fieldset .radio__button input.unavailable + label {
-  background-color: var(--COLOR-A5);
-  color: var(--COLOR-A20);
+  color: var(--border);
 }
 .radio__fieldset .radio__button input:checked ~ label {
   border-color: var(--primary);
@@ -13621,8 +13620,8 @@ body.has-header-transparent.has-first-section-overlay-header .product__content {
   --padding-vertical: 7px;
   flex-shrink: 0;
   min-width: 0;
-  background: var(--sale-bg);
-  color: var(--sale-text);
+  background: var(--color-percentage-bg);
+  color: var(--color-percentage-text);
   padding: calc(var(--padding-vertical) * var(--FONT-ADJUST-BODY)) 15px;
   margin-left: 1rem;
   border-radius: var(--btn-radius);

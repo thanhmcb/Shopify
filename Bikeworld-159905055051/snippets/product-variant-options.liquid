@@ -223,11 +223,9 @@
                   <legend class="radio__legend{% if is_size_option and size_chart_link and show_size_link_separated == false %} radio__legend--size{% endif %} {% if option.name == "Størrelse" %}option-size-guide{% endif %}">
                     <span class="radio__legend__label{% if size_style == 'text' %} radio__legend__label--text{% endif %}">
                       <span class="radio__legend__option-name">{{ option.name }}</span>
-
-                     
-
                       {%- if settings.show_labels -%}
-                        <small class="radio__legend__value" data-option-value>{{ current_value }}</small>
+                        
+                      {%- comment -%}<small class="radio__legend__value" data-option-value>{{ current_value }}</small>{%- endcomment -%}
                       {%- endif -%}
                     </span>
                     {%- comment -%} MCB size chart - start {%- endcomment -%}  
@@ -294,7 +292,7 @@
                       
 
                       {%- if settings.show_labels -%}
-                        <small class="radio__legend__value" data-option-value>{{ current_value }}</small>
+                      {%- comment -%}<small class="radio__legend__value" data-option-value>{{ current_value }}</small>{%- endcomment -%}
                       {%- endif -%}
                     </span>
                   </legend>
