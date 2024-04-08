@@ -12,8 +12,7 @@
   }
   .mini-cart__terms {
     display: block;
-     position: absolute;
-    
+     position: absolute;  
     width: 100%;
     background-color: #fff;
     z-index: 9000;
@@ -33,6 +32,7 @@
     flex: 0 0 auto;
     padding: 4rem calc(8 * var(--space-unit)) 4rem calc(8 * var(--space-unit));
     border-top: 1px solid rgb(var(--text-color) / var(--divider-opacity));
+    bottom: 0;
   }
   
   #mini-cart-terms-btn-denice {
@@ -56,7 +56,6 @@
     opacity: 1;
     -webkit-transform: translateY(0);
     transform: translateY(0);
-    bottom: 0;
   }
 
   cart-terms a, #mini-cart-terms a {
