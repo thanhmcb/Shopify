@@ -1,0 +1,25 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": false,
+        "page_width": "large"
+      }
+    },
+    "16504532766b2e21f1": {
+      "type": "recently-viewed-products",
+      "settings": {
+        "subheading": "REMEMBER THESE COOL THINGS?",
+        "title": "",
+        "products_count": 4,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16504532766b2e21f1"
+  ]
+}

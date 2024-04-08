@@ -1,0 +1,216 @@
+{
+  "sections": {
+    "blog-post-banner": {
+      "type": "blog-post-banner",
+      "settings": {
+        "show_category": true,
+        "blog_header_background": "#f5f5f5",
+        "blog_header_text_color": "#282828"
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "settings": {
+        "show_on_scroll_navigation": true,
+        "show_author": true,
+        "show_date": true,
+        "show_share_buttons": true
+      }
+    },
+    "164872775238a29dd0": {
+      "type": "featured-collections",
+      "blocks": {
+        "16487277527a5f6d7d-0": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "hide-seek-toys",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "321aee8a-e9a9-468c-829c-919b4fe7515f": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "sea-friends",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "16487277527a5f6d7d-0",
+        "321aee8a-e9a9-468c-829c-919b4fe7515f"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "toys for hide and seek games",
+        "title": "",
+        "content": "",
+        "products_count": 4,
+        "products_per_row": 4,
+        "stack_products": false,
+        "show_cta": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "164872857641e8d1d6": {
+      "type": "featured-product",
+      "blocks": {
+        "164872857685dc7cc5-0": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "164872857685dc7cc5-1": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "164872857685dc7cc5-2": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "atc_button_background": "rgba(0,0,0,0)",
+            "atc_button_text_color": "rgba(0,0,0,0)",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "164872857685dc7cc5-0",
+        "164872857685dc7cc5-1",
+        "164872857685dc7cc5-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "product": "cozy-lounger-w-activity-arch-raffi-sand",
+        "subheading": "our newest",
+        "title": "award winner",
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_share_buttons": true,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "slide",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "764afe87-d639-462c-974c-402b12d8f165": {
+      "type": "blog-posts",
+      "disabled": true,
+      "settings": {
+        "blog": "news",
+        "subheading": "",
+        "title": "other great blog posts",
+        "articles_count": 3,
+        "stack_mobile": false,
+        "show_category": true,
+        "show_excerpt": false,
+        "background": "#f5f1ec",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "blog-post-prev-next": {
+      "type": "blog-post-prev-next",
+      "settings": {}
+    },
+    "blog-post-comments": {
+      "type": "blog-post-comments",
+      "settings": {
+        "show_gravatar": true
+      }
+    },
+    "1649101103d25e94af": {
+      "type": "featured-product",
+      "blocks": {
+        "1649101102640256af-0": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "1649101102640256af-1": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "1649101102640256af-2": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "atc_button_background": "rgba(0,0,0,0)",
+            "atc_button_text_color": "rgba(0,0,0,0)",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "1649101102640256af-0",
+        "1649101102640256af-1",
+        "1649101102640256af-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "product": "",
+        "subheading": "Subheading",
+        "title": "Featured product",
+        "show_vendor": true,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_share_buttons": true,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "slide",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16491846057ddbd46e": {
+      "type": "recently-viewed-products",
+      "settings": {
+        "subheading": "REMEMBER THESE COOL THINGS",
+        "title": "",
+        "products_count": 4,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "blog-post-banner",
+    "main",
+    "164872775238a29dd0",
+    "164872857641e8d1d6",
+    "764afe87-d639-462c-974c-402b12d8f165",
+    "blog-post-prev-next",
+    "blog-post-comments",
+    "1649101103d25e94af",
+    "16491846057ddbd46e"
+  ]
+}

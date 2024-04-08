@@ -1,0 +1,96 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "164847017217a4d9ad": {
+      "type": "image-with-text-block",
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/slider-sea-friends_bc4eff8d-bc34-439c-ae66-6a46831f1686.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/slider-sea-friends_1800x1800_c475ecff-7199-4b87-a974-dc389c5f85ae.jpg",
+        "subheading": "meet our splashing fun",
+        "title": "sea friends",
+        "content": "<p>Welcome under the sea. Dive into underwater adventures and get familiar with our Sea friends Jelly and Wally. <\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "left",
+        "text_alignment": "center",
+        "text_background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "165271249766bb5159": {
+      "type": "featured-collections",
+      "blocks": {
+        "16527124970dca3cd9-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "wally",
+            "label": "Wally",
+            "button_text": "Shop all with wally",
+            "button_url": "shopify:\/\/collections\/wally"
+          }
+        },
+        "0e5e7a2e-7741-46ea-a385-b0528470b8e7": {
+          "type": "collection",
+          "settings": {
+            "collection": "jelly",
+            "label": "Jelly",
+            "button_text": "Shop all with jelly",
+            "button_url": "shopify:\/\/collections\/jelly"
+          }
+        }
+      },
+      "block_order": [
+        "16527124970dca3cd9-0",
+        "0e5e7a2e-7741-46ea-a385-b0528470b8e7"
+      ],
+      "settings": {
+        "subheading": "Shop along with",
+        "title": "Sea friends",
+        "content": "",
+        "products_count": 8,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1648542024d9578c74": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>Explore a world under the Sea with the curious jellyfish and the mighty whale as they pass by seashells, coral reef, and sea stars with their fun fish friends and Puffee the playful pufferfish. <\/p><p>This soft pair is all about splish, splash and giggles when they get all soaked up and turn drizzling water fun into the best time of the day. <\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "small",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#ccdad7",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "164847017217a4d9ad",
+    "165271249766bb5159",
+    "1648542024d9578c74"
+  ]
+}

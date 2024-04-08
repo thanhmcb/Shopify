@@ -1,0 +1,59 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "custom_css": [],
+      "settings": {
+        "show_title": true,
+        "page_width": "small"
+      }
+    },
+    "1656589557f30b0901": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>Here you can see all the previous winners of our monthly prize draw<br\/><br\/>To participate, simply sign up to <a href=\"\/pages\/newsletter-sign-up\" title=\"newsletter sign up\">our weekly newsletter<\/a>.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "77b5043a-39f1-40ca-8d89-5ca42deb953f": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<div data-paperturn=\"embed-v1\" style=\"width: 100%; max-width: 100%; height: 600px;\"><iframe src=\"https:\/\/www.paperturn-view.com\/?pid=MzY367019&amp;v=3&amp;bgcolor=%23FFFFFF&amp;embed=script&amp;shadow=1&amp;flipSound=&amp;hardCover=\" width=\"100%\" height=\"100%\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\" style=\"border: 0px; display: block; background-color: #FFFFFF\"><\/iframe><\/div><script src=\"https:\/\/www.paperturn-view.com\/script\/embed?v=1\"><\/script>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "2c09f8cc-5fe5-469e-a8b6-3050a8f95385": {
+      "type": "recently-viewed-products",
+      "settings": {
+        "subheading": "",
+        "title": "Recently viewed",
+        "products_count": 4,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1656589557f30b0901",
+    "77b5043a-39f1-40ca-8d89-5ca42deb953f",
+    "2c09f8cc-5fe5-469e-a8b6-3050a8f95385"
+  ]
+}

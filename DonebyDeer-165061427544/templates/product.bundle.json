@@ -1,0 +1,351 @@
+{
+  "sections": {
+    "1648878611fe56b87b": {
+      "type": "apps",
+      "blocks": {
+        "69b6fec3-407a-475e-af84-24c81a082538": {
+          "type": "shopify:\/\/apps\/category-breadcrumbs\/blocks\/category-breadcrumbs\/dba51573-4328-452d-90db-1ad2dc5be363",
+          "settings": {
+            "show_catroot": true,
+            "link_catroot": "\/",
+            "text_catroot": "Home",
+            "show_tags": false,
+            "show_finalbread_as_textonly": false,
+            "separator_char_code": "#47;",
+            "sep_plus_class": "breadcrumb__sep_plus5",
+            "insert_jsonld": true,
+            "insert_shortlinkfix": false,
+            "prod_ignore_referrer": false,
+            "prod_multicat_sel": "first",
+            "link_catall": "\/collections\/all",
+            "text_catall": "All Products",
+            "show_product_title": true,
+            "truncate_limit": 0
+          }
+        }
+      },
+      "block_order": [
+        "69b6fec3-407a-475e-af84-24c81a082538"
+      ],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": false,
+        "custom_class": ""
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "d578afcb-e17e-4d04-a2d8-dde6ba0abab0": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p><strong>How it works<br\/><\/strong>Add the hospital bag essentials to your cart with one click.<br\/><br\/>The products will be placed individually in your cart, so you can add or remove a product. <br\/><br\/>The price will change accordingly, if you make any changes to the products. <strong><br\/><br\/>What you get<\/strong><\/p>"
+          }
+        },
+        "96f9dde0-1094-4694-9fba-01fdd8a5cd2c": {
+          "type": "bundle_product",
+          "settings": {
+            "bundle-heading": ""
+          }
+        },
+        "07813eaa-5970-452a-a0ff-49ba5d862d01": {
+          "type": "custom_color_swatch",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "dropdown",
+            "color_mode": "color",
+            "size_chart_page": "size-chart"
+          }
+        },
+        "2fcb8ac0-fa94-4b27-9983-336bbb5d8691": {
+          "type": "inventory",
+          "settings": {
+            "low_inventory_threshold": 5
+          }
+        },
+        "1b370d87-dc5d-4543-9d77-f13819048017": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "{{product.metafields.my_fields.shorttext}}"
+          }
+        },
+        "8db99329-c04c-4c6b-80e6-59a5da1ca149": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "<p style=\"font-size:11px\">Shipping is calculated at checkout - see rates <a href=\"\/pages\/faq\" target=\"_blank\">here<\/a><\/p>"
+          }
+        },
+        "d8669307-e271-46f9-9c87-8faba40282b0": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<p style=\"font-size:11px\"><strong>365 days full return · 1-3  days shipping · safe payment<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "d578afcb-e17e-4d04-a2d8-dde6ba0abab0",
+        "96f9dde0-1094-4694-9fba-01fdd8a5cd2c",
+        "07813eaa-5970-452a-a0ff-49ba5d862d01",
+        "variant_picker",
+        "2fcb8ac0-fa94-4b27-9983-336bbb5d8691",
+        "1b370d87-dc5d-4543-9d77-f13819048017",
+        "8db99329-c04c-4c6b-80e6-59a5da1ca149",
+        "d8669307-e271-46f9-9c87-8faba40282b0"
+      ],
+      "settings": {
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": true,
+        "show_product_rating": true,
+        "show_sticky_add_to_cart": true,
+        "show_share_buttons": false,
+        "help_page": "",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "fade"
+      }
+    },
+    "product-content": {
+      "type": "product-content",
+      "blocks": {
+        "bfc0cd16-0c78-4e90-9da8-a5de82ef4a12": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "title": "about",
+            "content": "<p>{{ product.metafields.my_fields.c5softtext1 | metafield_tag }}<br\/><br\/>{{ product.metafields.my_fields.c5softtext2 | metafield_tag }}<br\/><br\/>{{ product.metafields.my_fields.c5softtext3 | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "8ab25f01-b1af-48a8-a6a1-d4f3467bdf53": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "title": "Good to know",
+            "content": "<p><strong>I'm made of:<\/strong><br\/>{{ product.metafields.my_fields.c5material.value }}<strong><br\/><br\/>I'm friendly:<\/strong><br\/>{{ product.metafields.my_fields.c5environment.value }}<strong><br\/><br\/>I'm this big:<\/strong><br\/>{{ product.metafields.my_fields.c5size.value }}<strong><br\/><\/strong>{{ product.metafields.my_fields.c5capacity.value }}<br\/><br\/><strong>How to care for me:<\/strong><br\/>{{ product.metafields.my_fields.c5care.value }}<\/p>",
+            "page": ""
+          }
+        },
+        "b8d3ca73-5051-4bf0-b79e-d114a22b025f": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "title": "Material",
+            "content": "<p><strong>I'm made of:<\/strong><br\/>{{ product.metafields.my_fields.c5material.value }}<br\/><br\/><strong>I'm friendly:<\/strong><br\/>{{ product.metafields.my_fields.c5environment.value }}<\/p>",
+            "page": ""
+          }
+        },
+        "552cd99e-5c4a-49e4-b8f5-594ec9b411f4": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "title": "safety stuff",
+            "content": "<p>All Done by Deer products are tested to comply with strict European standards and are therefore perfectly safe for kids to use. <br\/><br\/><strong>I've passed the test:<\/strong><br\/>{{ product.metafields.my_fields.c5safety.value }}<\/p>",
+            "page": ""
+          }
+        },
+        "96a62f45-da49-4e07-919b-121d6b22b0b3": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "title": "Size guide",
+            "content": "",
+            "page": "{{ product.metafields.my_fields.sizeguide.value }}"
+          }
+        },
+        "d8193bdc-2588-46f9-a5d4-22eef5457f0a": {
+          "type": "featured_products",
+          "disabled": true,
+          "settings": {
+            "title": "My perfect match",
+            "products_count": 3,
+            "show_cta": false,
+            "products_per_row": 4
+          }
+        },
+        "6de060a1-e592-416a-bc3c-5a5b6629506a": {
+          "type": "reviews",
+          "disabled": true,
+          "settings": {}
+        },
+        "29022c68-3989-40e8-913d-afbfc598162d": {
+          "type": "trust",
+          "settings": {
+            "icon_1": "picto-fast-delivery",
+            "title_1": "Shipping 1-3 days",
+            "content_1": "<p>Our warehouse strives to ship all orders within 1-3 business days.<br\/><\/p><p>Shipping rates:<\/p><p>Denmark and Sweden: 39 DKK (free shipping at 499 DKK)<\/p><p>Austria, Belgium, Finland, France, Germany and Netherlands: 8 EUR (free shipping at 79 EUR)<\/p><p><\/p><p>Find more info on shipping <a href=\"\/pages\/shipping-returns\" title=\"shipping & returns\">here<\/a>.<\/p>",
+            "icon_2": "picto-shield",
+            "title_2": "Safe payment",
+            "content_2": "<p>We accept online payments with:<br\/>· Visa<br\/>· Dankort (Denmark)<br\/>· Mastercard<br\/>· American Express<br\/>· Maestro<br\/>· Mobilepay (Denmark) <br\/>· Bancontact (Belgium)<br\/>· iDEAL (the Netherlands)<br\/>· Apple pay <br\/>· Shop Pay<br\/>· Google Pay <br\/><br\/>Your payment information is processed securely. <br\/><br\/>We do not store credit card details nor have access to your credit card information.<\/p>",
+            "icon_3": "picto-return-box",
+            "title_3": "365 days full return",
+            "content_3": "<p>Done by Deer always gives you a 365 days full return on unused items in original packaging.<\/p><p><\/p><p>Find more info on returns <a href=\"\/pages\/shipping-returns\" title=\"shipping & returns\">here<\/a>.<\/p>"
+          }
+        },
+        "c49010b3-6060-4d9b-a378-21b15a889d14": {
+          "type": "content",
+          "settings": {
+            "title": "",
+            "content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "bfc0cd16-0c78-4e90-9da8-a5de82ef4a12",
+        "description",
+        "8ab25f01-b1af-48a8-a6a1-d4f3467bdf53",
+        "b8d3ca73-5051-4bf0-b79e-d114a22b025f",
+        "552cd99e-5c4a-49e4-b8f5-594ec9b411f4",
+        "96a62f45-da49-4e07-919b-121d6b22b0b3",
+        "d8193bdc-2588-46f9-a5d4-22eef5457f0a",
+        "6de060a1-e592-416a-bc3c-5a5b6629506a",
+        "29022c68-3989-40e8-913d-afbfc598162d",
+        "c49010b3-6060-4d9b-a378-21b15a889d14"
+      ],
+      "settings": {}
+    },
+    "1648715139ff690474": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>- natural anti-slip & easy-grip<br\/>- microware, oven, frezer & dishwasher safe<br\/>- durable & unbreakable - perfect for kids!<br\/>- long lasting & recyclable<br\/><br\/>Our silicone kids tableware is soft, durable and practical – and with<br\/>playful designs it is both fun and safe for kids to use during mealtime. <br\/><\/p><p>We take advantage of the natural and practical silicone features in our designs.<br\/>Silicone has natural anti-slip, which stops the tableware from moving across<br\/>the table and makes a silicone placemat a perfect mealtime accessory. A clever<br\/>suction base makes sure our Stick & Stay plates and bowls stay put on most<br\/>smooth surfaces, preventing little ones from tipping or throwing them.<br\/><\/p><p>The easy-grip quality makes it easier for little ones to hold on to cups<br\/>and makes our cutlery sets perfect tools when learning to self-feed.<br\/><\/p><p>Silicone is easy to clean and resistant to high and low temperatures which makes our<br\/>silicone tableware suitable for use in the microwave oven, oven, freezer and dishwasher.<br\/><\/p><p>All Done by Deer silicone tableware is produced from 100% virgin food grade silicone<br\/>– free of BPA, phthalates and other harmful substances – and complies with<br\/><br\/>the European food standards as well as FDA, LFGB and ASTM.<br\/><\/p><p>Our silicone tableware has proven to be an everyday favourite.<br\/><br\/><\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "fill",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "164871499475ef92d0": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "subheading": "Your subheading",
+        "title": "Your title",
+        "html": "<p style=\"text-align: center\"><\/p><p><\/p><li>natural<\/li><p><\/p>\n<li>natural<\/li><p><\/p>\n<li>natural<\/li><p><\/p>\n<li>natural<\/li><p><\/p>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "blocks": {
+        "8c50f8eb-9668-4d07-8626-a3e862e2ccb3": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "8c50f8eb-9668-4d07-8626-a3e862e2ccb3"
+      ],
+      "settings": {
+        "subheading": "not it? try these instead...",
+        "title": "",
+        "recommendations_count": 4,
+        "background": "#f5f1ec",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1648204301f8a06e23": {
+      "type": "recently-viewed-products",
+      "settings": {
+        "subheading": "still here for you",
+        "title": "",
+        "products_count": 4,
+        "background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16539870392e25ae1d": {
+      "type": "image-with-text-block",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/changing-mat-confetti-sand_30.jpg",
+        "subheading": "know your materials",
+        "title": "waterproof or water-repellent?",
+        "content": "<p><strong>waterproof surface<\/strong> - water cannot penetrate the surface. It's easy to wipe clean with a cloth.<\/p><p><strong>water-repellent surface <\/strong>- the soft coating provides a good resistance towards liquid in moderate amounts.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "left",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1653987182a7485e8f": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "1653987182f2a4c3a8-0": {
+          "type": "item",
+          "settings": {
+            "tab_label": "Item",
+            "subheading": "know your materials",
+            "title": "waterproof or water-repellent?",
+            "content": "<p><strong>waterproof surface<\/strong> - water cannot penetrate the surface. It's easy to wipe clean with a cloth.<\/p><p><strong>water-repellent surface <\/strong>- the soft coating provides a good resistance towards liquid in moderate amounts<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1653987182f2a4c3a8-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "1648878611fe56b87b",
+    "main",
+    "product-content",
+    "1648715139ff690474",
+    "164871499475ef92d0",
+    "product-recommendations",
+    "1648204301f8a06e23",
+    "16539870392e25ae1d",
+    "1653987182a7485e8f"
+  ]
+}

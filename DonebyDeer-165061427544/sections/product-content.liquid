@@ -1,0 +1,1163 @@
+{%- capture product_content -%}
+  {%- capture product_tabs -%}
+    {%- capture product_tabs_nav_items -%}
+      {%- assign processed_blocks = 0 -%}
+
+      {%- for block in section.blocks -%}
+        {%- case block.type -%}
+          {%- when 'description' -%}
+            {%- if product.description != blank -%}
+              <button type="button" class="tabs-nav__item heading heading--small" aria-expanded="{% if processed_blocks == 0 %}true{% else %}false{% endif %}" aria-controls="block-{{ section.id }}-{{ block.id }}" {{ block.shopify_attributes }}>
+                {{- 'product.general.description' | t -}}
+              </button>
+
+              {%- assign processed_blocks = processed_blocks | plus: 1 -%}
+            {%- endif -%}
+
+{%- when 'reviews' -%}
+  {%- assign rating_count = product.metafields.reviews.rating_count.value | default: 0 -%}
+    <button type="button" id="product-{{ product.id }}-reviews-desktop" class="tabs-nav__item heading heading--small anchor" aria-expanded="{% if processed_blocks == 0 %}true{% else %}false{% endif %}" aria-controls="block-{{ section.id }}-{{ block.id }}" {{ block.shopify_attributes }}>
+      {{ 'product.general.reviews' | t }}({{ rating_count }})
+    </button>
+
+            {%- assign processed_blocks = processed_blocks | plus: 1 -%}
+
+          {%- when 'content' -%}
+            {%- if block.settings.page != blank -%}
+              {%- assign title = block.settings.page.title -%}
+              {%- assign content = block.settings.page.content -%}
+            {%- else -%}
+              {%- assign title = block.settings.title -%}
+              {%- assign content = block.settings.content -%}
+            {%- endif -%}
+
+            {%- if title != blank and content != blank -%}
+              {% if title == "safety stuff" and product.metafields.my_fields.c5safety != blank%}
+              <button type="button" class="tabs-nav__item heading heading--small" aria-expanded="{% if processed_blocks == 0 %}true{% else %}false{% endif %}" aria-controls="block-{{ section.id }}-{{ block.id }}" {{ block.shopify_attributes }}>
+                {{- title -}}
+               </button>
+                {%- elsif title != "safety stuff"-%}
+                <button type="button" class="tabs-nav__item heading heading--small" aria-expanded="{% if processed_blocks == 0 %}true{% else %}false{% endif %}" aria-controls="block-{{ section.id }}-{{ block.id }}" {{ block.shopify_attributes }}>
+                  {{- title -}}
+                  </button>
+              {%- endif -%}
+              {%- assign processed_blocks = processed_blocks | plus: 1 -%}
+            {%- endif -%}
+
+          {%- when 'liquid' -%}
+            {%- if block.settings.title != blank and block.settings.liquid != blank -%}
+              <button type="button" class="tabs-nav__item heading heading--small" aria-expanded="{% if processed_blocks == 0 %}true{% else %}false{% endif %}" aria-controls="block-{{ section.id }}-{{ block.id }}" {{ block.shopify_attributes }}>
+                {{- block.settings.title | escape -}}
+              </button>
+
+              {%- assign processed_blocks = processed_blocks | plus: 1 -%}
+            {%- endif -%}
+        {%- endcase -%}
+      {%- endfor -%}
+    {%- endcapture -%}
+
+    {%- if processed_blocks > 1 -%}
+      <tabs-nav arrows class="tabs-nav tabs-nav--loose hidden-pocket">
+        <scrollable-content class="tabs-nav__scroller hide-scrollbar">
+          <div class="tabs-nav__scroller-inner">
+            <div class="tabs-nav__item-list">
+              {{- product_tabs_nav_items -}}
+            </div>
+          </div>
+        </scrollable-content>
+
+        <div class="tabs-nav__arrows">
+          <button class="tabs-nav__arrow-item">
+            <span class="visually-hidden">{{ 'general.accessibility.previous' | t }}</span>
+            {%- render 'icon' with 'product-tab-left', direction_aware: true -%}
+          </button>
+
+          <button class="tabs-nav__arrow-item">
+            <span class="visually-hidden">{{ 'general.accessibility.next' | t }}</span>
+            {%- render 'icon' with 'product-tab-right', direction_aware: true -%}
+          </button>
+        </div>
+      </tabs-nav>
+    {%- endif -%}
+
+    {% assign trust_block = section.blocks | where: 'type', 'trust' | first %}
+
+    {%- if trust_block != blank -%}
+      {%- capture trust_content -%}
+        {%- for i in (1..3) -%}
+          {%- capture icon_setting -%}icon_{{ i }}{%- endcapture -%}
+          {%- capture custom_icon_setting -%}custom_icon_{{ i }}{%- endcapture -%}
+          {%- capture title_setting -%}title_{{ i }}{%- endcapture -%}
+          {%- capture content_setting -%}content_{{ i }}{%- endcapture -%}
+
+          {%- if trust_block.settings[title_setting] != blank -%}
+            {%- assign custom_icon = trust_block.settings[custom_icon_setting] -%}
+
+            {%- capture trust_icon -%}
+              {%- if custom_icon != blank -%}
+                <img class="product-tabs__trust-icon" loading="lazy" sizes="24px" {% render 'image-attributes', image: custom_icon, sizes: '24,48,72,96' %}>
+              {%- else -%}
+                {%- render 'icon' with trust_block.settings[icon_setting], class: 'product-tabs__trust-icon' -%}
+              {%- endif -%}
+            {%- endcapture -%}
+
+            {%- if trust_block.settings[content_setting] != blank -%}
+              <button is="toggle-button" class="product-tabs__trust-title icon-text link text--subdued hidden-phone" aria-controls="product-{{ section.id }}-{{ trust_block.id }}-trust-{{ forloop.index }}-drawer" aria-expanded="false">
+                {{- trust_icon -}} {{- trust_block.settings[title_setting] | escape -}}
+              </button>
+
+              <button is="toggle-button" class="product-tabs__trust-title icon-text link text--subdued hidden-tablet-and-up" aria-controls="product-{{ section.id }}-{{ trust_block.id }}-trust-{{ forloop.index }}-popover" aria-expanded="false">
+                {{- trust_icon -}} {{- trust_block.settings[title_setting] | escape -}}
+              </button>
+            {%- else -%}
+              <span class="product-tabs__trust-title icon-text text--subdued">
+                {{- trust_icon -}} {{- trust_block.settings[title_setting] | escape -}}
+              </span>
+            {%- endif -%}
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endcapture -%}
+
+      {%- capture trust_drawer_content -%}
+        {%- for i in (1..3) -%}
+          {%- capture icon_setting -%}icon_{{ i }}{%- endcapture -%}
+          {%- capture custom_icon_setting -%}custom_icon_{{ i }}{%- endcapture -%}
+          {%- capture title_setting -%}title_{{ i }}{%- endcapture -%}
+          {%- capture content_setting -%}content_{{ i }}{%- endcapture -%}
+
+          {%- if trust_block.settings[title_setting] != blank and trust_block.settings[content_setting] != blank -%}
+            {%- assign custom_icon = trust_block.settings[custom_icon_setting] -%}
+
+            {%- capture trust_icon -%}
+              {%- if custom_icon != blank -%}
+                <img class="product-tabs__trust-icon" loading="lazy" sizes="24px" {% render 'image-attributes', image: custom_image, sizes: '24,48,72,96' %}>
+              {%- else -%}
+                {%- render 'icon' with trust_block.settings[icon_setting], class: 'product-tabs__trust-icon' -%}
+              {%- endif -%}
+            {%- endcapture -%}
+
+            {%- comment -%}Drawer is for tablet and desktop{%- endcomment -%}
+            <drawer-content id="product-{{ section.id }}-{{ trust_block.id }}-trust-{{ forloop.index }}-drawer" class="drawer drawer--large hidden-phone">
+              <span class="drawer__overlay"></span>
+
+              <header class="drawer__header">
+                <p class="drawer__title heading h6">{{- trust_icon -}} {{- trust_block.settings[title_setting] | escape -}}</p>
+
+                <button type="button" class="drawer__close-button tap-area" data-action="close" title="{{ 'general.accessibility.close' | t | escape }}">
+                  {%- render 'icon' with 'close' -%}
+                </button>
+              </header>
+
+              <div class="drawer__content drawer__content--padded-start">
+                <div class="rte">
+                  {{- trust_block.settings[content_setting] -}}
+                </div>
+              </div>
+            </drawer-content>
+
+            {%- comment -%}Popover is for mobile{%- endcomment -%}
+            <popover-content id="product-{{ section.id }}-{{ trust_block.id }}-trust-{{ forloop.index }}-popover" class="popover hidden-tablet-and-up">
+              <span class="popover__overlay"></span>
+
+              <header class="popover__header">
+                <p class="popover__title heading h6">{{- trust_icon -}} {{- trust_block.settings[title_setting] | escape -}}</p>
+
+                <button type="button" class="popover__close-button tap-area tap-area--large" data-action="close" title="{{ 'general.accessibility.close' | t | escape }}">
+                  {%- render 'icon' with 'close' -%}
+                </button>
+              </header>
+
+              <div class="popover__content">
+                <div class="rte">
+                  {{- trust_block.settings[content_setting] -}}
+                </div>
+              </div>
+            </popover-content>
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endcapture -%}
+    {%- endif -%}
+
+    {%- if product_tabs_nav_items != blank -%}
+      <div class="product-tabs__content">
+        {%- assign processed_blocks = 0 -%}
+
+        {%- for block in section.blocks -%}
+          {%- case block.type -%}
+            {%- when 'description' -%}
+              {%- if product.description != blank -%}
+                <div {% unless processed_blocks == 0 %}hidden{% endunless %} id="block-{{ section.id }}-{{ block.id }}" class="product-tabs__tab-item-wrapper">
+                  <button is="toggle-button" class="collapsible-toggle heading heading--small hidden-lap-and-up" aria-controls="block-{{ section.id }}-{{ block.id }}-content" aria-expanded="{% if processed_blocks == 0 %}true{% else %}false{% endif %}">
+                    {{- 'product.general.description' | t -}}
+                    {%- render 'icon' with 'chevron' -%}
+                  </button>
+
+                  <collapsible-content {% if processed_blocks == 0 %}open{% endif %} id="block-{{ section.id }}-{{ block.id }}-content" class="collapsible">
+                    <div class="product-tabs__tab-item-content rte">
+                      {{- product.description -}}
+                    </div>
+
+                    {%- if trust_content != blank and processed_blocks == 0 -%}
+                      <div class="product-tabs__trust-list hidden-pocket">
+                        {{- trust_content -}}
+                      </div>
+                    {%- endif -%}
+                  </collapsible-content>
+                </div>
+
+                {%- assign processed_blocks = processed_blocks | plus: 1 -%}
+              {%- endif -%}
+
+            {%- when 'reviews' -%}
+              <div {% unless processed_blocks == 0 %}hidden{% endunless %} id="block-{{ section.id }}-{{ block.id }}" class="product-tabs__tab-item-wrapper" {{ block.shopify_attributes }}>
+                <button is="toggle-button" id="product-{{ product.id }}-reviews-pocket" class="collapsible-toggle heading heading--small hidden-lap-and-up anchor" aria-controls="block-{{ section.id }}-{{ block.id }}-content" aria-expanded="{% if processed_blocks == 0 %}true{% else %}false{% endif %}">
+                  {%- assign rating_count = product.metafields.reviews.rating_count.value | default: 0 -%}
+                  {{- 'product.general.reviews' | t: rating_count: rating_count }} {%- render 'icon' with 'chevron' -%}
+                </button>
+
+                <collapsible-content {% if processed_blocks == 0 %}open{% endif %} id="block-{{ section.id }}-{{ block.id }}-content" class="collapsible">
+                  <div class="product-tabs__tab-item-content">
+                    <div id="shopify-product-reviews" class="spr-reviews" data-id="{{ product.id }}">
+                      {{- product.metafields.spr.reviews -}}
+                    </div>
+                  </div>
+                </collapsible-content>
+              </div>
+
+              {%- assign processed_blocks = processed_blocks | plus: 1 -%}
+
+          {%- when 'content' -%}
+            {%- if block.settings.page != blank -%}
+              {%- assign title = block.settings.page.title -%}
+              {%- assign content = block.settings.page.content -%}
+            {%- else -%}
+              {%- assign title = block.settings.title -%}
+              {%- assign content = block.settings.content -%}
+            {%- endif -%}
+
+            {%- if title != blank and content != blank -%}
+         		{% if title == "safety stuff" and product.metafields.my_fields.c5safety != blank%}
+              		<div {% unless processed_blocks == 0 %}hidden{% endunless %} id="block-{{ section.id }}-{{ block.id }}" class="product-tabs__tab-item-wrapper" {{ block.shopify_attributes }}>
+                <button is="toggle-button" class="collapsible-toggle heading heading--small hidden-lap-and-up" aria-expanded="{% if processed_blocks == 0 %}true{% else %}false{% endif %}" aria-controls="block-{{ section.id }}-{{ block.id }}-content">
+                  {{- title -}}
+                  {%- render 'icon' with 'chevron' -%}
+                </button>
+
+                <collapsible-content {% if processed_blocks == 0 %}open{% endif %} id="block-{{ section.id }}-{{ block.id }}-content" class="collapsible">
+                  <div class="product-tabs__tab-item-content rte">
+                    {{- content -}}
+                        {% if product.metafields.my_fields.c5b2cinfo.value != blank %}
+                            <p><strong>Important info for you:</strong><br>{{ product.metafields.my_fields.c5b2cinfo.value }}<br></p>
+                        {% endif %}
+                  </div>
+
+                  {%- if trust_content != blank and processed_blocks == 0 -%}
+                    <div class="product-tabs__trust-list hidden-pocket">
+                      {{- trust_content -}}
+                    </div>
+                  {%- endif -%}
+                </collapsible-content>
+              </div>
+			     {%- elsif title != "safety stuff"-%}
+        			<div {% unless processed_blocks == 0 %}hidden{% endunless %} id="block-{{ section.id }}-{{ block.id }}" class="product-tabs__tab-item-wrapper{% if title == "safety stuff" and product.metafields.my_fields.c5safety == blank%} tab--hide{% endif %}" {{ block.shopify_attributes }}>
+                <button is="toggle-button" class="collapsible-toggle heading heading--small hidden-lap-and-up" aria-expanded="{% if processed_blocks == 0 %}true{% else %}false{% endif %}" aria-controls="block-{{ section.id }}-{{ block.id }}-content">
+                  {{- title -}}
+                  {%- render 'icon' with 'chevron' -%}
+                </button>
+
+                <collapsible-content {% if processed_blocks == 0 %}open{% endif %} id="block-{{ section.id }}-{{ block.id }}-content" class="collapsible">
+                  <div class="product-tabs__tab-item-content rte{% if title == "safety stuff" and product.metafields.my_fields.c5safety == blank%} tab--hide{% endif %}">
+                    {{- content -}}
+                  </div>
+
+                  {%- if trust_content != blank and processed_blocks == 0 -%}
+                    <div class="product-tabs__trust-list hidden-pocket">
+                      {{- trust_content -}}
+                    </div>
+                  {%- endif -%}
+                </collapsible-content>
+              </div>
+        	{%- endif -%}
+              {%- assign processed_blocks = processed_blocks | plus: 1 -%}
+            {%- endif -%}
+
+          {%- when 'liquid' -%}
+            {%- if block.settings.title != blank and block.settings.liquid != blank -%}
+              <div {% unless processed_blocks == 0 %}hidden{% endunless %} id="block-{{ section.id }}-{{ block.id }}" class="product-tabs__tab-item-wrapper" {{ block.shopify_attributes }}>
+                <button is="toggle-button" class="collapsible-toggle heading heading--small hidden-lap-and-up" aria-expanded="{% if processed_blocks == 0 %}true{% else %}false{% endif %}" aria-controls="block-{{ section.id }}-{{ block.id }}-content">
+                  {{- block.settings.title | escape -}}
+                  {%- render 'icon' with 'chevron' -%}
+                </button>
+
+                <collapsible-content {% if processed_blocks == 0 %}open{% endif %} id="block-{{ section.id }}-{{ block.id }}-content" class="collapsible">
+                  <div class="product-tabs__tab-item-content rte">
+                    {{- block.settings.liquid -}}
+                  </div>
+
+                  {%- if trust_content != blank and processed_blocks == 0 -%}
+                    <div class="product-tabs__trust-list hidden-pocket">
+                      {{- trust_content -}}
+                    </div>
+                  {%- endif -%}
+                </collapsible-content>
+              </div>
+
+              {%- assign processed_blocks = processed_blocks | plus: 1 -%}
+            {%- endif -%}
+          {%- endcase -%}
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
+
+    {%- if trust_content != blank -%}
+      <div class="product-tabs__trust-list container {% if product_tabs_nav_items != blank %}hidden-lap-and-up{% endif %}">
+        {{- trust_content -}}
+      </div>
+    {%- endif -%}
+
+    {%- comment -%}Output the various drawers for the trust badges, only once (if they exist){%- endcomment -%}
+    {{- trust_drawer_content -}}
+  {%- endcapture -%}
+
+  {%- if product_tabs != blank -%}
+    <div class="product-content__tabs anchor" id="product-{{ product.id }}-tabs">
+      <div class="product-tabs">
+        {{- product_tabs -}}
+      </div>
+    </div>
+  {%- endif -%}
+
+  {%- assign featured_products_block = section.blocks | where: 'type', 'featured_products' | first -%}
+  {%- assign collection-name = "zxrp-" | append: product.selected_or_first_available_variant.sku -%}
+  {%- capture sizes_attribute -%}(max-width: 740px) calc({{ 100.0 | divided_by: featured_products_block.settings.mobile_products_per_row | ceil }}vw - 24px), calc((min(100vw - 80px, 1520px) - {{ sidebar_width }}px) / {{ block.settings.desktop_products_per_row }} - {{ gap_width | ceil }}px){%- endcapture -%}
+  {%- if featured_products_block != blank and collections[collection-name] != blank -%}
+  <style>
+    --block-products-per-row:2; 
+  @media screen and (min-width: 741px) {
+    #product-content__featured-products-{{featured_products_block.id}} {
+      --block-products-per-row: {{ featured_products_block.settings.products_per_row | at_most: 3 }};
+    }
+  }
+  @media screen and (min-width: 1000px) {
+    #product-content__featured-products-{{featured_products_block.id}} {
+      --block-products-per-row: {{ featured_products_block.settings.products_per_row | at_most: 4 }};
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    #product-content__featured-products-{{featured_products_block.id}} {
+      --block-products-per-row: {{ featured_products_block.settings.products_per_row }};
+    }
+  }
+  
+  @media screen and (min-width: 1000px){
+    .product-content__featured-products .product-list {
+        /* We calculate the width of one product item cell thanks to power of CSS variables */
+        --item-width: calc((var(--container-max-width-minus-gutters) - 56px) / var(--block-products-per-row) - (var(--grid-gap) / var(--block-products-per-row) * (var(--block-products-per-row) - 1)));
+    }
+    @supports (width: max(1px, 2px)) {
+      .product-list {
+        --item-width: calc((min(100vw - var(--container-gutter) * 2, var(--container-max-width-minus-gutters)) - 56px) / var(--block-products-per-row) - (var(--grid-gap) / var(--block-products-per-row) * (var(--block-products-per-row) - 1)));
+      }
+    }
+    .product-content__featured-products .multi-column {
+    --block-products-per-row: 2;
+    --item-width: calc(var(--container-inner-width) / var(--block-products-per-row) - (var(--multi-column-column-gap) / var(--block-products-per-row) * (var(--block-products-per-row) - 1)));
+    }
+  .product-content__featured-products .product-list__inner--scroller {
+    grid-auto-columns: calc(100% / var(--block-products-per-row, 4) - (var(--grid-gap) / var(--block-products-per-row, 4) * (var(--block-products-per-row, 4) - 1)));
+    }
+  .product-list__inner {
+    grid-template-columns: repeat(auto-fit, calc(100% / var(--block-products-per-row) - var(--block-products-per-row) * (var(--block-products-per-row) - 1) / var(--block-products-per-row)));
+    }
+  }  
+  </style>
+      <div class="product-content__featured-products" id="product-content__featured-products-{{featured_products_block.id}}">
+        {%- if featured_products_block.settings.title != blank -%}
+          <p class="product-content__featured-products-title heading heading--small">{{ featured_products_block.settings.title }}</p>
+        {%- endif -%}
+          
+              <product-list {% if settings.stagger_products_apparition %}stagger-apparition{% endif %} id="block-{{featured_products_block.id }}" class="product-list product-list--center" style="opacity: 1;">
+                <div class="scroller">
+                  <div class="product-list__inner product-list__inner--scroller hide-scrollbar">
+                    {%- assign number_of_products_minus_one = featured_products_block.settings.products_per_row | minus: 1 -%}
+                    {%- assign gap_width = 24.0 | divided_by: featured_products_block.settings.products_per_row | times: number_of_products_minus_one -%}
+                    {%- capture sizes_attribute -%}(max-width: 740px) 52vw, calc(min(100vw - 80px, 1520px) / {{ featured_products_block.settings.products_per_row }} - {{ gap_width | ceil }}px){%- endcapture -%}
+    
+                    {% for product in collections[collection-name].products  limit:featured_products_block.settings.products_count %}
+                      {%- if product.featured_media -%}
+                        {%- assign smallest_image_aspect_ratio = smallest_image_aspect_ratio | at_least: product.featured_media.aspect_ratio -%}
+                      {%- endif -%}
+    
+                      {%- render 'product-item', product: product, collection: [collection-name], show_cta:featured_products_block.settings.show_cta, reduced_content: true,block: featured_products_block, sizes_attribute: sizes_attribute, reveal: settings.stagger_products_apparition -%}
+                      {%- else -%}
+                      {%- assign smallest_image_aspect_ratio = 1 -%}
+    
+                      {%- for i in (1..featured_products_block.settings.products_count) -%}
+                        {%- capture product_image -%}product-{% cycle '1', '2', '3', '4', '5' %}{% endcapture %}
+                        {%- render 'product-item-placeholder', product_image: product_image, show_cta: featured_products_block.settings.show_cta, reveal: settings.stagger_products_apparition -%}
+                      {%- endfor -%}
+                      {%- endfor -%}
+                  </div>
+                </div>
+                {%- if collections[collection-name].products_count == 0 -%}
+                  {%- assign products_shown = featured_products_block.settings.products_count -%}
+                {%- else -%}
+                  {%- assign products_shown = collections[collection-name].products_count | default: featured_products_block.settings.products_count | at_most: featured_products_block.settings.products_count -%}
+                {%- endif -%}
+                  {%- if products_shown > featured_products_block.settings.products_per_row -%}
+                   
+                    <prev-next-buttons class="product-list__prev-next hidden-pocket" style="--smallest-image-aspect-ratio: {{ smallest_image_aspect_ratio }}">
+                      <button class="product-list__arrow prev-next-button prev-next-button--prev" disabled>
+                        <span class="visually-hidden">{{ 'general.accessibility.previous' | t }}</span>
+                        {%- include 'icon' with 'nav-arrow-left', block: true, direction_aware: true -%}
+                      </button>
+    
+                      <button class="product-list__arrow prev-next-button prev-next-button--next">
+                        <span class="visually-hidden">{{ 'general.accessibility.next' | t }}</span>
+                        {%- include 'icon' with 'nav-arrow-right', block: true, direction_aware: true -%}
+                      </button>
+                    </prev-next-buttons>
+                  {%- endif -%}
+
+              </product-list>
+      </div>  
+  {%- endif -%}
+{%- endcapture -%}
+
+{%- if product_content != blank -%}
+  <section class="container">
+    <div id="product-{{ product.id }}-content" class="product-content anchor">
+      {{- product_content -}}
+    </div>
+  </section>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Product content",
+  "class": "shopify-section--product-content",
+  "blocks": [
+    {
+      "name": "Description",
+      "type": "description",
+      "limit": 1
+    },
+    {
+      "name": "Content",
+      "type": "content",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Content"
+        },
+        {
+          "type": "page",
+          "id": "page",
+          "label": "Content from page",
+          "info": "If specified, takes precedence over inline content."
+        }
+      ]
+    },
+    {
+      "name": "Custom Liquid",
+      "type": "liquid",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "liquid",
+          "id": "liquid",
+          "label": "Liquid",
+          "info": "Add app snippets or other Liquid code to create advanced customizations."
+        }
+      ]
+    },
+    {
+      "name": "Reviews",
+      "type": "reviews",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "To show review, add the official Product Reviews app. [Learn more](https://help.shopify.com/en/manual/products/product-reviews/installation)"
+        }
+      ]
+    },
+ {
+      "name": "My perfect match - MCB",
+      "type": "featured_products",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Featured products"
+        },
+
+        {
+          "type": "range",
+          "id": "products_count",
+          "label": "Products to show",
+          "min": 2,
+          "max": 20,
+          "step": 1,
+          "default": 3
+        },
+         {
+          "type": "checkbox",
+          "id": "show_cta",
+          "label": "Show add to cart below info",
+          "info": "If enabled, we recommend using 4 products per row at maximum.",
+          "default": false
+        },
+        {
+          "type": "range",
+          "id": "products_per_row",
+          "label": "Products per row (desktop)",
+          "min": 2,
+          "max": 6,
+          "step": 1,
+          "default": 4
+        }
+      ]
+    },
+    {
+      "name": "Trust icons",
+      "type": "trust",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "Show extra text next to your product description to improve trust."
+        },
+        {
+          "type": "header",
+          "content": "Text 1"
+        },
+        {
+          "type": "select",
+          "id": "icon_1",
+          "label": "Icon",
+          "options": [
+            {
+              "value": "picto-coupon",
+              "label": "Coupon",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-gift",
+              "label": "Gift",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-taxes",
+              "label": "Taxes",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-warranty",
+              "label": "Warranty",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-like",
+              "label": "Like",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-store",
+              "label": "Store",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-store-pickup",
+              "label": "Store pickup",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-love",
+              "label": "Love",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-donation",
+              "label": "Donation",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-box",
+              "label": "Box",
+              "group": "Shipping"
+            },
+            {
+              "value": "picto-address",
+              "label": "Address",
+              "group": "Shipping"
+            },
+            {
+              "value": "picto-address-pin",
+              "label": "Address pin",
+              "group": "Shipping"
+            },
+            {
+              "value": "picto-fast-delivery",
+              "label": "Fast delivery",
+              "group": "Shipping"
+            },
+            {
+              "value": "picto-delivery-truck",
+              "label": "Delivery truck",
+              "group": "Shipping"
+            },
+            {
+              "value": "picto-return-box",
+              "label": "Returns",
+              "group": "Shipping"
+            },
+            {
+              "value": "picto-worldwide",
+              "label": "World",
+              "group": "Shipping"
+            },
+            {
+              "value": "picto-plane",
+              "label": "Plane",
+              "group": "Shipping"
+            },
+            {
+              "value": "picto-credit-card",
+              "label": "Credit card",
+              "group": "Payment & Security"
+            },
+            {
+              "value": "picto-lock",
+              "label": "Lock",
+              "group": "Payment & Security"
+            },
+            {
+              "value": "picto-shield",
+              "label": "Shield",
+              "group": "Payment & Security"
+            },
+            {
+              "value": "picto-secure-payment",
+              "label": "Secure payment",
+              "group": "Payment & Security"
+            },
+            {
+              "value": "picto-mobile",
+              "label": "Mobile",
+              "group": "Communication"
+            },
+            {
+              "value": "picto-phone",
+              "label": "Phone",
+              "group": "Communication"
+            },
+            {
+              "value": "picto-chat",
+              "label": "Chat",
+              "group": "Communication"
+            },
+            {
+              "value": "picto-send",
+              "label": "Send",
+              "group": "Communication"
+            },
+            {
+              "value": "picto-email",
+              "label": "Email",
+              "group": "Communication"
+            },
+            {
+              "value": "picto-customer-support",
+              "label": "Customer support",
+              "group": "Communication"
+            },
+            {
+              "value": "picto-operator",
+              "label": "Support operator",
+              "group": "Communication"
+            },
+            {
+              "value": "picto-virus",
+              "label": "Virus",
+              "group": "Health"
+            },
+            {
+              "value": "picto-mask",
+              "label": "Mask",
+              "group": "Health"
+            },
+            {
+              "value": "picto-DbD-payment",
+              "label": "Nozzo Secure Payment",
+              "group": "DbD x MCB"
+            },
+            {
+              "value": "picto-DbD-delievery",
+              "label": "Birdee Fast Delivery",
+              "group": "DbD x MCB"
+            },
+            {
+              "value": "picto-DbD-return",
+              "label": "Birdee 365 Days Return",
+              "group": "DbD x MCB"
+            }
+          ],
+          "default": "picto-customer-support"
+        },
+        {
+          "type": "image_picker",
+          "id": "custom_icon_1",
+          "label": "Custom icon",
+          "info": "48 x 48px .png with transparency recommended"
+        },
+        {
+          "type": "text",
+          "id": "title_1",
+          "label": "Heading",
+          "default": "Shipping & Returns"
+        },
+        {
+          "type": "richtext",
+          "id": "content_1",
+          "label": "Content",
+          "default": "<p>Add text about your shipping policy</p>"
+        },
+        {
+          "type": "header",
+          "content": "Text 2"
+        },
+        {
+          "type": "select",
+          "id": "icon_2",
+          "label": "Icon",
+          "options": [
+            {
+              "value": "picto-coupon",
+              "label": "Coupon",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-gift",
+              "label": "Gift",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-taxes",
+              "label": "Taxes",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-warranty",
+              "label": "Warranty",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-like",
+              "label": "Like",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-store",
+              "label": "Store",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-store-pickup",
+              "label": "Store pickup",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-love",
+              "label": "Love",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-donation",
+              "label": "Donation",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-box",
+              "label": "Box",
+              "group": "Shipping"
+            },
+            {
+              "value": "picto-address",
+              "label": "Address",
+              "group": "Shipping"
+            },
+            {
+              "value": "picto-address-pin",
+              "label": "Address pin",
+              "group": "Shipping"
+            },
+            {
+              "value": "picto-fast-delivery",
+              "label": "Fast delivery",
+              "group": "Shipping"
+            },
+            {
+              "value": "picto-delivery-truck",
+              "label": "Delivery truck",
+              "group": "Shipping"
+            },
+            {
+              "value": "picto-return-box",
+              "label": "Returns",
+              "group": "Shipping"
+            },
+            {
+              "value": "picto-worldwide",
+              "label": "World",
+              "group": "Shipping"
+            },
+            {
+              "value": "picto-plane",
+              "label": "Plane",
+              "group": "Shipping"
+            },
+            {
+              "value": "picto-credit-card",
+              "label": "Credit card",
+              "group": "Payment & Security"
+            },
+            {
+              "value": "picto-lock",
+              "label": "Lock",
+              "group": "Payment & Security"
+            },
+            {
+              "value": "picto-shield",
+              "label": "Shield",
+              "group": "Payment & Security"
+            },
+            {
+              "value": "picto-secure-payment",
+              "label": "Secure payment",
+              "group": "Payment & Security"
+            },
+            {
+              "value": "picto-mobile",
+              "label": "Mobile",
+              "group": "Communication"
+            },
+            {
+              "value": "picto-phone",
+              "label": "Phone",
+              "group": "Communication"
+            },
+            {
+              "value": "picto-chat",
+              "label": "Chat",
+              "group": "Communication"
+            },
+            {
+              "value": "picto-send",
+              "label": "Send",
+              "group": "Communication"
+            },
+            {
+              "value": "picto-email",
+              "label": "Email",
+              "group": "Communication"
+            },
+            {
+              "value": "picto-customer-support",
+              "label": "Customer support",
+              "group": "Communication"
+            },
+            {
+              "value": "picto-operator",
+              "label": "Support operator",
+              "group": "Communication"
+            },
+            {
+              "value": "picto-virus",
+              "label": "Virus",
+              "group": "Health"
+            },
+            {
+              "value": "picto-mask",
+              "label": "Mask",
+              "group": "Health"
+            },
+            {
+              "value": "picto-DbD-payment",
+              "label": "Nozzo Secure Payment",
+              "group": "DbD x MCB"
+            },
+            {
+              "value": "picto-DbD-delievery",
+              "label": "Birdee Fast Delivery",
+              "group": "DbD x MCB"
+            },
+            {
+              "value": "picto-DbD-return",
+              "label": "Birdee 365 Days Return",
+              "group": "DbD x MCB"
+            }
+          ],
+          "default": "picto-warranty"
+        },
+        {
+          "type": "image_picker",
+          "id": "custom_icon_2",
+          "label": "Custom icon",
+          "info": "48 x 48px .png with transparency recommended"
+        },
+        {
+          "type": "text",
+          "id": "title_2",
+          "label": "Heading",
+          "default": "Warranty"
+        },
+        {
+          "type": "richtext",
+          "id": "content_2",
+          "label": "Content",
+          "default": "<p>Add text about your product warranty</p>"
+        },
+        {
+          "type": "header",
+          "content": "Text 3"
+        },
+        {
+          "type": "select",
+          "id": "icon_3",
+          "label": "Icon",
+          "options": [
+            {
+              "value": "picto-coupon",
+              "label": "Coupon",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-gift",
+              "label": "Gift",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-taxes",
+              "label": "Taxes",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-warranty",
+              "label": "Warranty",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-like",
+              "label": "Like",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-store",
+              "label": "Store",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-store-pickup",
+              "label": "Store pickup",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-love",
+              "label": "Love",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-donation",
+              "label": "Donation",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-box",
+              "label": "Box",
+              "group": "Shipping"
+            },
+            {
+              "value": "picto-address",
+              "label": "Address",
+              "group": "Shipping"
+            },
+            {
+              "value": "picto-address-pin",
+              "label": "Address pin",
+              "group": "Shipping"
+            },
+            {
+              "value": "picto-fast-delivery",
+              "label": "Fast delivery",
+              "group": "Shipping"
+            },
+            {
+              "value": "picto-delivery-truck",
+              "label": "Delivery truck",
+              "group": "Shipping"
+            },
+            {
+              "value": "picto-return-box",
+              "label": "Returns",
+              "group": "Shipping"
+            },
+            {
+              "value": "picto-worldwide",
+              "label": "World",
+              "group": "Shipping"
+            },
+            {
+              "value": "picto-plane",
+              "label": "Plane",
+              "group": "Shipping"
+            },
+            {
+              "value": "picto-credit-card",
+              "label": "Credit card",
+              "group": "Payment & Security"
+            },
+            {
+              "value": "picto-lock",
+              "label": "Lock",
+              "group": "Payment & Security"
+            },
+            {
+              "value": "picto-shield",
+              "label": "Shield",
+              "group": "Payment & Security"
+            },
+            {
+              "value": "picto-secure-payment",
+              "label": "Secure payment",
+              "group": "Payment & Security"
+            },
+            {
+              "value": "picto-mobile",
+              "label": "Mobile",
+              "group": "Communication"
+            },
+            {
+              "value": "picto-phone",
+              "label": "Phone",
+              "group": "Communication"
+            },
+            {
+              "value": "picto-chat",
+              "label": "Chat",
+              "group": "Communication"
+            },
+            {
+              "value": "picto-send",
+              "label": "Send",
+              "group": "Communication"
+            },
+            {
+              "value": "picto-email",
+              "label": "Email",
+              "group": "Communication"
+            },
+            {
+              "value": "picto-customer-support",
+              "label": "Customer support",
+              "group": "Communication"
+            },
+            {
+              "value": "picto-operator",
+              "label": "Support operator",
+              "group": "Communication"
+            },
+            {
+              "value": "picto-virus",
+              "label": "Virus",
+              "group": "Health"
+            },
+            {
+              "value": "picto-mask",
+              "label": "Mask",
+              "group": "Health"
+            },
+                        {
+              "value": "picto-DbD-payment",
+              "label": "Nozzo Secure Payment",
+              "group": "DbD x MCB"
+            },
+            {
+              "value": "picto-DbD-delievery",
+              "label": "Birdee Fast Delivery",
+              "group": "DbD x MCB"
+            },
+            {
+              "value": "picto-DbD-return",
+              "label": "Birdee 365 Days Return",
+              "group": "DbD x MCB"
+            }
+          ],
+          "default": "picto-secure-payment"
+        },
+        {
+          "type": "image_picker",
+          "id": "custom_icon_3",
+          "label": "Custom icon",
+          "info": "48 x 48px .png with transparency recommended"
+        },
+        {
+          "type": "text",
+          "id": "title_3",
+          "label": "Heading",
+          "default": "Secure Payment"
+        },
+        {
+          "type": "richtext",
+          "id": "content_3",
+          "label": "Content",
+          "default": "<p>Add text about your payment</p>"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js"></script>
+<script>
+  var swiper = new Swiper('.swiper-container', {
+    slidesPerView: 3,
+    spaceBetween: 0,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-next',
+      prevEl: '.swiper-prev',
+    },
+  });
+</script>
+
+<script>
+  $(document).ready(function() {
+    $('.product-tabs__tab-item-content strong').parent().addClass('small-heading');
+    $('.product-tabs__tab-item-content .small-heading').next().addClass('small-content');
+    $('.product-tabs__tab-item-content .small-content').each(function(index) {
+      var elm = $(this);
+      if (elm.is(':empty')) {
+        elm.prev('.small-heading').css('display', 'none');
+      }
+
+    });
+  });
+</script>

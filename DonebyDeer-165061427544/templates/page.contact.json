@@ -1,0 +1,101 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "small"
+      }
+    },
+    "1654169973307c16dc": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "you are more than welcome to",
+        "title": "contact our friendly team",
+        "content": "<p>We love to hear from Deer friends, so please do not hesitate to contact us.<br\/><br\/><strong>didn't buy from our webshop?<\/strong><br\/>If your Done by Deer product is bought in another shop, we kindly ask you to contact the particular shop who will help you with your inquiry. <br\/><br\/><strong>get your answer right now<\/strong><br\/>You can find lots of answers in our FAQ.<\/p>",
+        "button_text": "find your answer now",
+        "button_link": "shopify:\/\/pages\/faq",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#e4e0db",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "contact-form": {
+      "type": "contact-form",
+      "blocks": {
+        "79010985-3519-4786-a5e9-c0fd42e41b71": {
+          "type": "text",
+          "settings": {
+            "title": "country",
+            "use_long_text": false,
+            "is_required": true
+          }
+        },
+        "8905591b-cc9c-4b54-981a-0c242689129c": {
+          "type": "text",
+          "settings": {
+            "title": "order number (if possible)",
+            "use_long_text": false,
+            "is_required": false
+          }
+        }
+      },
+      "block_order": [
+        "79010985-3519-4786-a5e9-c0fd42e41b71",
+        "8905591b-cc9c-4b54-981a-0c242689129c"
+      ],
+      "settings": {
+        "title": "contact our webshop",
+        "content": "<p>We get back to you within 24 hours during normal business hours:<br\/>Monday-Thursday: 9 am - 3:30 pm<br\/>Friday: 9 am - 2 pm<\/p>",
+        "text_1_heading": "BECOME A DONE BY DEER RETAILER?",
+        "text_1_text": "<p>Please fill out our contact form for retailers and our sales team will get back to you as soon as possible.<br\/><br\/><a href=\"https:\/\/donebydeer-shop.myshopify.com\/pages\/become-a-retailer\" title=\"Become a retailer for Done by Deer\">Find the B2B contact form here &gt;<\/a><\/p>",
+        "text_2_heading": "",
+        "text_2_text": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1651735440d0bd08bb": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "join the fun @donebydeer",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "5d8cb41f-f4e5-42b6-a096-0250f8355e9e": {
+      "type": "instafeed",
+      "settings": {
+        "heading_size": 20,
+        "feed_width": 80,
+        "html_area": "<h1 style=\"text-align:center\">\n<a href=\"https:\/\/www.instagram.com\/donebydeer\/\" target=\"_blank\">join the fun @donebydeer<\/a>\n<\/h1>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1654169973307c16dc",
+    "contact-form",
+    "1651735440d0bd08bb",
+    "5d8cb41f-f4e5-42b6-a096-0250f8355e9e"
+  ]
+}

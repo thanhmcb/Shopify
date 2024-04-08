@@ -1,0 +1,372 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "1652087977ce2d0cae": {
+      "type": "slideshow",
+      "blocks": {
+        "16520879774e1fdf26-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cozy-up-slider.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/mobil-slider_cozy-nest_37409ab5-0b55-464e-892d-5ce444187832.jpg",
+            "text_position": "top_left",
+            "subheading": "a safe & familiar space",
+            "title": "baby cozy nests",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/collections\/changing-bags",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5
+          }
+        }
+      },
+      "block_order": [
+        "16520879774e1fdf26-0"
+      ],
+      "custom_css": [
+        "h2 {color: white;}"
+      ],
+      "settings": {
+        "section_height": "small",
+        "transition_type": "sweep",
+        "autoplay": false,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "a3a5a558-3603-4c46-bb93-9fdbee69bb77": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>Welcome to a world of comfort and security for your little one! <br\/><br\/>Our cozy nests are designed to provide the perfect environment for play, rest, sleep, and tummy time. <br\/><br\/>Encasing your baby in a safe and familiar space, our nests offer unparalleled comfort and peace of mind for both parents and babies.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "f3927dae-34b4-40ee-9402-bb3c597ea877": {
+      "type": "collection-list",
+      "blocks": {
+        "template--15072744308779__f3927dae-34b4-40ee-9402-bb3c597ea877-167524333180b65eb3-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "kids-backpacks",
+            "image": "shopify:\/\/shop_images\/Quilted-kids-backpack-Croco-Green-4-LS.jpg",
+            "subheading": "",
+            "title": "bags",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "template--15072744308779__f3927dae-34b4-40ee-9402-bb3c597ea877-167524333180b65eb3-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "kids-lunch-and-snack-boxes",
+            "image": "shopify:\/\/shop_images\/Kiddish-lunch-box-Elphee-Sand-6-LS.jpg",
+            "subheading": "",
+            "title": "lunch boxes",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "template--15072744308779__f3927dae-34b4-40ee-9402-bb3c597ea877-167524333180b65eb3-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "kids-water-bottles",
+            "image": "shopify:\/\/shop_images\/Metal-bottle-Raffi-Mustard-4-LS.jpg",
+            "subheading": "",
+            "title": "bottles",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "e4bda30b-4b52-41a1-857d-659125373787": {
+          "type": "collection",
+          "settings": {
+            "collection": "food-storage",
+            "image": "shopify:\/\/shop_images\/Snack-box-set-3-pcs-Deer-friends-Blue-4-LS.jpg",
+            "subheading": "",
+            "title": "snack boxes",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        }
+      },
+      "block_order": [
+        "template--15072744308779__f3927dae-34b4-40ee-9402-bb3c597ea877-167524333180b65eb3-0",
+        "template--15072744308779__f3927dae-34b4-40ee-9402-bb3c597ea877-167524333180b65eb3-1",
+        "template--15072744308779__f3927dae-34b4-40ee-9402-bb3c597ea877-167524333180b65eb3-2",
+        "e4bda30b-4b52-41a1-857d-659125373787"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": false,
+        "layout": "collage",
+        "subheading": "",
+        "title": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "982366f0-1d77-4780-a451-2b00e8fb1ae7": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19079306543448__982366f0-1d77-4780-a451-2b00e8fb1ae7-16862229483d79dae4-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cozy-nest-Confetti-Sand-Cozy-nest-Confetti-Sand-2-PS.jpg",
+            "tab_label": "",
+            "subheading": "a comfortable &",
+            "title": "safe space",
+            "content": "<p> Our nests are crafted with your baby's safety as the top priority. <br\/><br\/>With a snug and secure design, each nest encases your baby, creating a familiar and safe space that promotes relaxation and comfort.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19079306543448__982366f0-1d77-4780-a451-2b00e8fb1ae7-16862229483d79dae4-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "both",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 7,
+        "accent_background": "#f5f1ec",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_text_hieweR": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_LEb6Dp": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cozy-nest-Confetti-Grey-front-open.jpg",
+            "tab_label": "Item",
+            "subheading": "adjustable design",
+            "title": "for growing babies",
+            "content": "<p>Our baby cozy nests can be opened up to accommodate your growing baby, ensuring that they have plenty of space to stretch and move as they develop. <br\/><br\/>With an adjustable feature, our nests grow with your baby, providing comfort and support at every stage of their growth.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_LEb6Dp"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_text_dgtqaK": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_8DH9WA": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cozy-nest-Confetti-Sand-detail.jpg",
+            "tab_label": "Item",
+            "subheading": "easy access for",
+            "title": "easy cleanup",
+            "content": "<p>A practical zipper at the bottom of the cozy nest makes it easy to access the matress and side-filling if you need to wash it. <\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_8DH9WA"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "both",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#f5f1ec",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "rich_text_TEyCqf": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p><strong>IMPORTANT:<\/strong> Our baby cozy nests are brethability tested according to BS 4578 and the mattress firmness complies with EN 16890.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "95ecc740-bad6-4944-a1f4-3b2415a4e422": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_eQJ6y3": {
+          "type": "collection",
+          "settings": {
+            "collection": "baby-cozy-nests",
+            "label": "",
+            "button_text": "",
+            "button_url": "shopify:\/\/collections\/changing-bags"
+          }
+        }
+      },
+      "block_order": [
+        "collection_eQJ6y3"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "products_count": 4,
+        "products_per_row": 2,
+        "stack_products": true,
+        "show_cta": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "5427e58b-18eb-4a73-ab46-339905f6802b": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15072744308779__5427e58b-18eb-4a73-ab46-339905f6802b-16788256327b75df77-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/recycle.jpg",
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "made from recycled polyester",
+            "content": "<p>All our changing bags are made from recycled polyester .<br\/><br\/>The polyester is made from used PET bottles and we use <strong>up to 48 recycled PET bottles<\/strong> in making our bags. <\/p>",
+            "button_text": "shop changing bags",
+            "button_link": "shopify:\/\/collections\/changing-bags"
+          }
+        }
+      },
+      "block_order": [
+        "template--15072744308779__5427e58b-18eb-4a73-ab46-339905f6802b-16788256327b75df77-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "both",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#b6c2b3",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "4f64e550-3780-4f3e-b75e-95c56dbf414f": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "it's lunch time!",
+        "content": "<p>The practical insulated bags and bottle holders will keep your child's food and drinks the right temperature.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16647965959e7e4d9a": {
+      "type": "apps",
+      "blocks": {
+        "0d7f87a6-59f0-44df-bca6-5044e39bf441": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "TjhVaJ"
+          }
+        }
+      },
+      "block_order": [
+        "0d7f87a6-59f0-44df-bca6-5044e39bf441"
+      ],
+      "settings": {
+        "include_horizontal_margins": false,
+        "include_vertical_margins": false,
+        "custom_class": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1652087977ce2d0cae",
+    "a3a5a558-3603-4c46-bb93-9fdbee69bb77",
+    "f3927dae-34b4-40ee-9402-bb3c597ea877",
+    "982366f0-1d77-4780-a451-2b00e8fb1ae7",
+    "image_with_text_hieweR",
+    "image_with_text_dgtqaK",
+    "rich_text_TEyCqf",
+    "95ecc740-bad6-4944-a1f4-3b2415a4e422",
+    "5427e58b-18eb-4a73-ab46-339905f6802b",
+    "4f64e550-3780-4f3e-b75e-95c56dbf414f",
+    "16647965959e7e4d9a"
+  ]
+}

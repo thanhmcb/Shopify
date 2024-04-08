@@ -1,0 +1,360 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "1650971678390b1451": {
+      "type": "image-with-text-block",
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/activitycenter_lav.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/activitycenter_lav_mobile.jpg",
+        "subheading": "toy & gift guide",
+        "title": "0-3 months",
+        "content": "<p>A newborn baby needs only limited stimulation. Introducing stimuli at this age in the form of a musical toy is a good choice. <br\/><br\/>Music can be used to soothe when changing nappies or lull the little one to sleep.<\/p><p>When the baby is beginning to be more focused and curious you can start introducing small activity toys like rattles or activity gyms. <br\/><br\/>At first the baby will just observe and later start interacting with the toys.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "left",
+        "text_alignment": "center",
+        "text_background": "#e4e0db",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1649078063e03da0e2": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<div class=\"span12\">\n    <a class=\"pidlink\" name=\"17437\" id=\"17437\"><\/a>\n    \n        \n    \n\n    <p style=\"text-align: center;\"><a href=\"\/pages\/toy-and-gift-guide-0-3-months\"><u>0-3 months<\/u><\/a><a href=\"\/activity-toys-guide-2\">&nbsp;<\/a>&nbsp;<span style=\"text-align: center;\" lang=\"EN-US\">&nbsp;&nbsp;<\/span> &nbsp; <a href=\"\/pages\/toy-and-gift-guide-3-6-months\"><u>3-6 months<\/u><\/a><a href=\"\/activity-toys-guide-2\">&nbsp;<\/a>&nbsp;<span style=\"text-align: center;\" lang=\"EN-US\">&nbsp;&nbsp;<\/span> &nbsp; <a href=\"\/pages\/toy-and-gift-guide-6-12-months\"><u>6-12 months<\/u><\/a><a href=\"\/pages\/toy-and-gift-guide-6-12-months\">&nbsp;<\/a>&nbsp;<span style=\"text-align: center;\" lang=\"EN-US\">&nbsp;&nbsp;<\/span> &nbsp; <a href=\"\/pages\/toy-and-gift-guide-12-months\"><u>12+ months<\/u><\/a>&nbsp;<\/p>\n    \n  <\/div>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1651051715abc2b77f": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=iX2Q5TlmzRU",
+        "background_type": "boxed",
+        "video_size": "medium",
+        "autoplay": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16510510198abde8c6": {
+      "type": "featured-collections",
+      "blocks": {
+        "1651051019c6d6924a-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "cozy-loungers",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1651051019c6d6924a-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "cozy loungers",
+        "content": "<p>The Red dot award-winning cozy lounger is a soft base for your baby, which follows the rapid body development, to give your baby the best position, for rest, play and following along and feel a part of the activities around the house. Perfect for playtime and tummy time.<\/p>",
+        "products_count": 6,
+        "products_per_row": 3,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "164907939075bcc9ae": {
+      "type": "featured-collections",
+      "blocks": {
+        "35e5452c-87fa-4f61-a7eb-696496973908": {
+          "type": "collection",
+          "settings": {
+            "collection": "musical-toys",
+            "label": "musical toys",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "16490793901a8adc55-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "musical-mobiles",
+            "label": "musical mobiles",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "35e5452c-87fa-4f61-a7eb-696496973908",
+        "16490793901a8adc55-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Musical toys",
+        "content": "<p>The soothing sound of a musical toy can be perfect for distracting a tiny one; when it is time to change a nappy or as a well-known tune to play at bedtime.<\/p>",
+        "products_count": 8,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "#f5f1ec",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1649076809cbadb1b3": {
+      "type": "featured-collections",
+      "blocks": {
+        "54626500-33a9-4563-9961-0ae83b522558": {
+          "type": "collection",
+          "settings": {
+            "collection": "rattles",
+            "label": "",
+            "button_text": "see all rattles",
+            "button_url": "shopify:\/\/collections\/rattles"
+          }
+        }
+      },
+      "block_order": [
+        "54626500-33a9-4563-9961-0ae83b522558"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "First rattles",
+        "content": "<p>Small rattles that can be easily triggered is a perfect first toy or newborn baby gift. The little baby can easily grasp it and their sudden uncontrolled movements will trigger the cute rattle sound and make them curious.<\/p>",
+        "products_count": 8,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1649078999ad469e3a": {
+      "type": "featured-collections",
+      "blocks": {
+        "1649078999264702c0-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "baby-play-gyms-activity-blankets",
+            "label": "",
+            "button_text": "see all play mats & activity gyms",
+            "button_url": ""
+          }
+        },
+        "d9d6e0cb-2da2-4aa5-a88c-e4e07fab76fd": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "activity-gyms",
+            "label": "activity gyms",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1649078999264702c0-0",
+        "d9d6e0cb-2da2-4aa5-a88c-e4e07fab76fd"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "activity centres",
+        "content": "<p>A baby activity centre or activity gym is a classic first baby toy.<br\/>They provide great entertainment for your little one. Whether you choose a play mat with attached arches or the more flexible activity gym you will have a toy to engage and entertain the baby for months.<\/p>",
+        "products_count": 8,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "#f5f1ec",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "featured_collections_rtPUbQ": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_VNzcRa": {
+          "type": "collection",
+          "settings": {
+            "collection": "contrasting-colours",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_VNzcRa"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "contrast & colours",
+        "content": "<p>High-contrast colours help delevop your baby's eyesight. <br\/>The contrasting colours help your baby focus as they can not yet see colours. <\/p>",
+        "products_count": 8,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "164907800035fafcbd": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_VDHYxR": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "1649078000cb21f9e5-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "pram-chains-toys",
+            "label": "to go toys",
+            "button_text": "See all on-the-go toys",
+            "button_url": ""
+          }
+        },
+        "627c6ad7-b470-47f6-a3cf-10aee1ae3ae6": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "pram-pillows",
+            "label": "pram pillows",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_VDHYxR",
+        "1649078000cb21f9e5-0",
+        "627c6ad7-b470-47f6-a3cf-10aee1ae3ae6"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "on the go",
+        "content": "<p>Let the Deer friends be a familiar face for your little one wherever you go – it can be all you need to make a stress-free journey. Attach the pram toys to your stroller, pram or car seats. <\/p>",
+        "products_count": 8,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "#f5f1ec",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16490785858ede6a29": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_mXYCPm": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "88252a88-1dd9-4509-b035-1aff67321fb1": {
+          "type": "collection",
+          "settings": {
+            "collection": "comfort-blankets",
+            "label": "comfort blankets",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "16490785856892d779-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "pacifier-holders",
+            "label": "pacifier holders",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_mXYCPm",
+        "88252a88-1dd9-4509-b035-1aff67321fb1",
+        "16490785856892d779-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "comforting friends",
+        "content": "<p>The Deer friends will keep pacifiers close by and the small tags and soft textures are perfect for little fingers to find comfort in.<\/p>",
+        "products_count": 8,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1651126247124a8415": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<div class=\"span12\">\n    <a class=\"pidlink\" name=\"17437\" id=\"17437\"><\/a>\n    \n        \n    \n\n    <p style=\"text-align: center;\"><a href=\"\/pages\/toy-and-gift-guide-0-3-months\"><u>0-3 months<\/u><\/a><a href=\"\/activity-toys-guide-2\">&nbsp;<\/a>&nbsp;<span style=\"text-align: center;\" lang=\"EN-US\">&nbsp;&nbsp;<\/span> &nbsp; <a href=\"\/pages\/toy-and-gift-guide-3-6-months\"><u>3-6 months<\/u><\/a><a href=\"\/activity-toys-guide-2\">&nbsp;<\/a>&nbsp;<span style=\"text-align: center;\" lang=\"EN-US\">&nbsp;&nbsp;<\/span> &nbsp; <a href=\"\/pages\/toy-and-gift-guide-6-12-months\"><u>6-12 months<\/u><\/a><a href=\"\/pages\/toy-and-gift-guide-6-12-months\">&nbsp;<\/a>&nbsp;<span style=\"text-align: center;\" lang=\"EN-US\">&nbsp;&nbsp;<\/span> &nbsp; <a href=\"\/pages\/toy-and-gift-guide-12-months\"><u>12+ months<\/u><\/a>&nbsp;<\/p>\n    \n  <\/div>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "#1a1a1a"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1650971678390b1451",
+    "1649078063e03da0e2",
+    "1651051715abc2b77f",
+    "16510510198abde8c6",
+    "164907939075bcc9ae",
+    "1649076809cbadb1b3",
+    "1649078999ad469e3a",
+    "featured_collections_rtPUbQ",
+    "164907800035fafcbd",
+    "16490785858ede6a29",
+    "1651126247124a8415"
+  ]
+}

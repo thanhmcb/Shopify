@@ -1,0 +1,371 @@
+{
+  "sections": {
+    "1648878611fe56b87b": {
+      "type": "apps",
+      "blocks": {
+        "69b6fec3-407a-475e-af84-24c81a082538": {
+          "type": "shopify:\/\/apps\/category-breadcrumbs\/blocks\/category-breadcrumbs\/dba51573-4328-452d-90db-1ad2dc5be363",
+          "settings": {
+            "override_linktext_colour": false,
+            "linktext_colour": "#0000EE",
+            "separator_colour": "#555555",
+            "producttitle_colour": "#555555",
+            "spacing_above": 0,
+            "spacing_below": 0,
+            "sep_plus_class": "breadcrumb__sep_plus5",
+            "separator_char_code": "#47;",
+            "hide_old_breadcrumb": false,
+            "show_catroot": true,
+            "link_catroot": "\/",
+            "text_catroot": "Home",
+            "show_tags": false,
+            "show_finalbread_as_textonly": false,
+            "insert_jsonld": true,
+            "insert_shortlinkfix": false,
+            "prod_multicat_sel": "first",
+            "link_catall": "\/collections\/all",
+            "text_catall": "All Products",
+            "show_product_title": true,
+            "truncate_limit": 0,
+            "prod_ignore_referrer": false,
+            "old_breadcrumb_class": "breadcrumb"
+          }
+        }
+      },
+      "block_order": [
+        "69b6fec3-407a-475e-af84-24c81a082538"
+      ],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": false,
+        "custom_class": ""
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "8238a677-8aee-4e9b-891f-76fe20f45923": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link": "#",
+            "text": "Teksten over her, er et metafelt",
+            "stretch": true,
+            "background": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "07813eaa-5970-452a-a0ff-49ba5d862d01": {
+          "type": "custom_color_swatch",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": "{{ product.metafields.my_fields.sizeguide.value }}"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "atc_button_background": "rgba(0,0,0,0)",
+            "atc_button_text_color": "rgba(0,0,0,0)",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)",
+            "store-link": ""
+          }
+        },
+        "1b370d87-dc5d-4543-9d77-f13819048017": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "{{product.metafields.my_fields.shorttext}}"
+          }
+        },
+        "0f988c3c-f124-466a-a3b5-deaac0f538f8": {
+          "type": "liquid",
+          "settings": {
+            "liquid": ""
+          }
+        },
+        "d1ffd43e-df96-4ad4-b15d-fe65bfcdc6f7": {
+          "type": "description",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "8238a677-8aee-4e9b-891f-76fe20f45923",
+        "07813eaa-5970-452a-a0ff-49ba5d862d01",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "1b370d87-dc5d-4543-9d77-f13819048017",
+        "0f988c3c-f124-466a-a3b5-deaac0f538f8",
+        "d1ffd43e-df96-4ad4-b15d-fe65bfcdc6f7"
+      ],
+      "settings": {
+        "show_vendor": false,
+        "show_sku": true,
+        "show_taxes_included": false,
+        "show_product_rating": true,
+        "show_sticky_add_to_cart": true,
+        "show_share_buttons": false,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": true,
+        "desktop_thumbnails_position": "left",
+        "transition_effect": "slide"
+      }
+    },
+    "product-content": {
+      "type": "product-content",
+      "blocks": {
+        "bfc0cd16-0c78-4e90-9da8-a5de82ef4a12": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "title": "about",
+            "content": "<p>{{ product.metafields.my_fields.c5softtext1 | metafield_tag }}<br\/><br\/>{{ product.metafields.my_fields.c5softtext2 | metafield_tag }}<br\/><br\/>{{ product.metafields.my_fields.c5softtext3 | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "8ab25f01-b1af-48a8-a6a1-d4f3467bdf53": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "title": "Good to know",
+            "content": "<p><strong>I'm made of:<\/strong><br\/>{{ product.metafields.my_fields.c5material.value }}<br\/><br\/><strong>I'm this big:<\/strong><br\/>{{ product.metafields.my_fields.c5size.value }}<strong><br\/><\/strong>{{ product.metafields.my_fields.c5capacity.value }}<br\/><br\/><strong>How to care for me:<\/strong><br\/>{{ product.metafields.my_fields.c5care.value }}<\/p>",
+            "page": ""
+          }
+        },
+        "b8d3ca73-5051-4bf0-b79e-d114a22b025f": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "title": "Material",
+            "content": "<p>{{ product.metafields.my_fields.c5material.value }}<\/p>",
+            "page": ""
+          }
+        },
+        "b3eea966-837d-442b-a182-3974665e4f34": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "title": "Size guide",
+            "content": "",
+            "page": "sleepy-bags-size-guide"
+          }
+        },
+        "552cd99e-5c4a-49e4-b8f5-594ec9b411f4": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "title": "safety stuff",
+            "content": "<p>All Done by Deer products are tested to comply with strict European standards and are therefore perfectly safe for kids to use. <br\/><br\/><strong>I've passed the test:<\/strong><br\/>This {{ product.metafields.my_fields.c5mainitemname.value }} is tested to comply with \"c5 cert\"<br\/><br\/><strong>Safety first<\/strong><br\/>{{ product.metafields.my_fields.c5b2cinfo.value }}<\/p>",
+            "page": ""
+          }
+        },
+        "96a62f45-da49-4e07-919b-121d6b22b0b3": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "title": "Size guide",
+            "content": "",
+            "page": "{{ product.metafields.my_fields.sizeguide.value }}"
+          }
+        },
+        "d8193bdc-2588-46f9-a5d4-22eef5457f0a": {
+          "type": "featured_products",
+          "disabled": true,
+          "settings": {
+            "title": "The perfect match",
+            "products_count": 3,
+            "show_cta": false,
+            "products_per_row": 4
+          }
+        },
+        "6de060a1-e592-416a-bc3c-5a5b6629506a": {
+          "type": "reviews",
+          "disabled": true,
+          "settings": {}
+        },
+        "29022c68-3989-40e8-913d-afbfc598162d": {
+          "type": "trust",
+          "settings": {
+            "icon_1": "picto-delivery-truck",
+            "title_1": "Delivery",
+            "content_1": "<p>Shipping is calculated at checkout<\/p><p>Please see our current shipping rates here<\/p>",
+            "icon_2": "picto-shield",
+            "title_2": "Safe payment",
+            "content_2": "<p>Your payment information is processed securely. <br\/><br\/>We do not store credit card details nor have access to your credit card information.<\/p>",
+            "icon_3": "picto-email",
+            "title_3": "Questions?",
+            "content_3": "<p>All questions about your order, return, delivery and product inquiries must be sent to our customer service team bye-mail.<br\/><br\/><strong>Get answers now<br\/><\/strong>Please check <a href=\"\/pages\/faq\" title=\"frequently asked questions\">our FAQ page<\/a><strong> <\/strong>to see if your question has an answer.<strong><br\/><\/strong><\/p>"
+          }
+        },
+        "c49010b3-6060-4d9b-a378-21b15a889d14": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "bfc0cd16-0c78-4e90-9da8-a5de82ef4a12",
+        "description",
+        "8ab25f01-b1af-48a8-a6a1-d4f3467bdf53",
+        "b8d3ca73-5051-4bf0-b79e-d114a22b025f",
+        "b3eea966-837d-442b-a182-3974665e4f34",
+        "552cd99e-5c4a-49e4-b8f5-594ec9b411f4",
+        "96a62f45-da49-4e07-919b-121d6b22b0b3",
+        "d8193bdc-2588-46f9-a5d4-22eef5457f0a",
+        "6de060a1-e592-416a-bc3c-5a5b6629506a",
+        "29022c68-3989-40e8-913d-afbfc598162d",
+        "c49010b3-6060-4d9b-a378-21b15a889d14"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "1651147288f4f0a52e": {
+      "type": "image-with-text",
+      "blocks": {
+        "16511472889aa82b99-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Deer-friends_A4-new.jpg",
+            "tab_label": "Item",
+            "subheading": "free printables",
+            "title": "colour up the day!",
+            "content": "<p>Make it a personal gift with a free printable poster. Let your little one colour one of our Deer friends and give it to the lucky little receiver.<\/p>",
+            "button_text": "find your print",
+            "button_link": "shopify:\/\/pages\/free-printables"
+          }
+        }
+      },
+      "block_order": [
+        "16511472889aa82b99-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "both",
+        "image_position": "right",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#e1cfc6",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1648204301f8a06e23": {
+      "type": "recently-viewed-products",
+      "settings": {
+        "subheading": "remember these cool things?",
+        "title": "",
+        "products_count": 4,
+        "background": "#f5f1ec",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1648715139ff690474": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>- natural anti-slip & easy-grip<br\/>- microware, oven, frezer & dishwasher safe<br\/>- durable & unbreakable - perfect for kids!<br\/>- long lasting & recyclable<br\/><br\/>Our silicone kids tableware is soft, durable and practical – and with<br\/>playful designs it is both fun and safe for kids to use during mealtime. <br\/><\/p><p>We take advantage of the natural and practical silicone features in our designs.<br\/>Silicone has natural anti-slip, which stops the tableware from moving across<br\/>the table and makes a silicone placemat a perfect mealtime accessory. A clever<br\/>suction base makes sure our Stick & Stay plates and bowls stay put on most<br\/>smooth surfaces, preventing little ones from tipping or throwing them.<br\/><\/p><p>The easy-grip quality makes it easier for little ones to hold on to cups<br\/>and makes our cutlery sets perfect tools when learning to self-feed.<br\/><\/p><p>Silicone is easy to clean and resistant to high and low temperatures which makes our<br\/>silicone tableware suitable for use in the microwave oven, oven, freezer and dishwasher.<br\/><\/p><p>All Done by Deer silicone tableware is produced from 100% virgin food grade silicone<br\/>– free of BPA, phthalates and other harmful substances – and complies with<br\/><br\/>the European food standards as well as FDA, LFGB and ASTM.<br\/><\/p><p>Our silicone tableware has proven to be an everyday favourite.<br\/><br\/><\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "fill",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "164871499475ef92d0": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "subheading": "Your subheading",
+        "title": "Your title",
+        "html": "<p style=\"text-align: center\"><\/p><p><\/p><li>natural<\/li><p><\/p>\n<li>natural<\/li><p><\/p>\n<li>natural<\/li><p><\/p>\n<li>natural<\/li><p><\/p>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16500151924b155878": {
+      "type": "image-with-text-custom-3",
+      "settings": {
+        "main-heading": "The Basics Of Buying",
+        "sub-heading": "sub heading",
+        "reveal_on_scroll": true,
+        "top-icon-width": 30,
+        "section-bg": "#1a1a1a",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "text-color": "#ffffff",
+        "button-bg-color": "",
+        "button_text_color": "",
+        "slide-dot": "",
+        "slide-dot-active": ""
+      }
+    },
+    "99da4b2a-218b-4e89-9188-42ca8c59637f": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "Done by Deer gift cards - Give the gift of choice to your loved ones",
+        "title": "",
+        "content": "<p>Looking for a thoughtful and convenient gift idea for your friends or family members who are expecting or have little ones? What about a digital Done by Deer gift card?<br\/><br\/>Our gift cards come in various denominations and can be used on any product in our online store, from adorable baby gear to stylish nursery decor.<br\/><br\/><strong>When will I receive the gift card?<\/strong><br\/>You will receive the gift card right away to the e-mail address that you entered making it easy for you to forward it to your recipient or print it out for a more personal touch.<br\/><br\/><strong>When does a Done by Deer gift card expire?<\/strong><br\/>Our digital gift cards expire after 5 years, so you will have plenty of time to think about what to buy for your little one. <br\/><br\/><strong>Does the gift card trigger free delivery?<\/strong><br\/>If you have other items in your cart together with a gift card, free delivery does not apply unless you meet our free shipping limit.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "1648878611fe56b87b",
+    "main",
+    "product-content",
+    "1651147288f4f0a52e",
+    "1648204301f8a06e23",
+    "1648715139ff690474",
+    "164871499475ef92d0",
+    "16500151924b155878",
+    "99da4b2a-218b-4e89-9188-42ca8c59637f"
+  ]
+}
