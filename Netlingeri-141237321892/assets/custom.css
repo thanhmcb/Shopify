@@ -131,8 +131,6 @@
 }
 
 /* slideshow on collection page */
-
-
 @media (min-width: 768px) {
   .slideshow__slide ~ .page-header {
     width: 100%;
