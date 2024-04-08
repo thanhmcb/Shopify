@@ -1,0 +1,50 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "16510409965c29eb58": {
+      "type": "gallery",
+      "blocks": {
+        "1651040996aa0b5db2-0": {
+          "type": "image",
+          "settings": {
+            "caption": ""
+          }
+        },
+        "1651040996aa0b5db2-1": {
+          "type": "image",
+          "settings": {
+            "caption": ""
+          }
+        },
+        "1651040996aa0b5db2-2": {
+          "type": "image",
+          "settings": {
+            "caption": ""
+          }
+        }
+      },
+      "block_order": [
+        "1651040996aa0b5db2-0",
+        "1651040996aa0b5db2-1",
+        "1651040996aa0b5db2-2"
+      ],
+      "settings": {
+        "subheading": "Subheading",
+        "title": "Gallery",
+        "show_arrows": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16510409965c29eb58"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "sections": {
+    "main": {
+      "type": "store-list-main",
+      "settings": {
+        "page_width": "medium",
+        "tab1": "Stores",
+        "tab2": "Webshops",
+        "opt-text": "Choose country"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

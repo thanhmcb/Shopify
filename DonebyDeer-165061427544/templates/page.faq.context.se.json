@@ -1,0 +1,18 @@
+{
+  "parent": "page.faq.json",
+  "context": {
+    "market": "se"
+  },
+  "sections": {
+    "faq": {
+      "settings": {},
+      "blocks": {
+        "0b44a2e4-b0ec-4641-9899-ecdcc86dd851": {
+          "settings": {
+            "answer": "<p>We accept online payments with the following credit cards and payment methods: PayPal, Visa\/Dankort, Mastercard, American Express, Maestro, Shop Pay, Apple pay, Google Pay, Mobilepay (Denmark), Bancontact (Belgium) and iDEAL (the Netherlands).<\/p>"
+          }
+        }
+      }
+    }
+  }
+}

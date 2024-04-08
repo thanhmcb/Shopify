@@ -1,0 +1,280 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "164847017217a4d9ad": {
+      "type": "image-with-text-block",
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/slider-deer-friends.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/slider-deer-friends_1800x1800_5295c689-c31b-4203-a55f-c8c47ac88944.jpg",
+        "subheading": "Meet our loveable",
+        "title": "Deer friends",
+        "content": "<p>The Done by Deer universe is created around the Deer friends who all wander in and out of our products.<br\/><br\/>They are really good at being cuddly and keeping secrets, and they all want to become someone’s new best friend.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "right",
+        "text_alignment": "center",
+        "text_background": "#f5f1ec",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16538969526239f062": {
+      "type": "featured-collections",
+      "blocks": {
+        "1653896952aa5c3bc0-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "elphee",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "1612ea2a-6945-4370-a4df-c1d59001019a": {
+          "type": "collection",
+          "settings": {
+            "collection": "croco",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "c14b9f65-39cc-48ca-a9a1-cf81ddf0ed64": {
+          "type": "collection",
+          "settings": {
+            "collection": "raffi",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "f0501abd-8405-489b-b43b-0df37a5137a1": {
+          "type": "collection",
+          "settings": {
+            "collection": "lalee",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1653896952aa5c3bc0-0",
+        "1612ea2a-6945-4370-a4df-c1d59001019a",
+        "c14b9f65-39cc-48ca-a9a1-cf81ddf0ed64",
+        "f0501abd-8405-489b-b43b-0df37a5137a1"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "take a peek",
+        "content": "",
+        "products_count": 4,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1652713093618627da": {
+      "type": "featured-product",
+      "blocks": {
+        "16527130931156d49c-0": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "16527130931156d49c-1": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "16527130931156d49c-2": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "atc_button_background": "rgba(0,0,0,0)",
+            "atc_button_text_color": "rgba(0,0,0,0)",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "16527130931156d49c-0",
+        "16527130931156d49c-1",
+        "16527130931156d49c-2"
+      ],
+      "settings": {
+        "product": "activity-floor-mirror-lalee-sand",
+        "subheading": "Meet our Deer friend",
+        "title": "Lalee",
+        "show_vendor": false,
+        "show_sku": true,
+        "show_taxes_included": true,
+        "show_product_rating": false,
+        "show_share_buttons": true,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "slide",
+        "background": "#f5f1ec",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1653658617f3ced15e": {
+      "type": "logo-list",
+      "blocks": {
+        "165365861762e4b2b5-0": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/elphee-filter.png",
+            "link": "shopify:\/\/collections\/elphee"
+          }
+        },
+        "165365861762e4b2b5-1": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/croco-filter.png",
+            "link": "shopify:\/\/collections\/croco"
+          }
+        },
+        "165365861762e4b2b5-2": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/lalee-filter.png",
+            "link": "shopify:\/\/collections\/lalee"
+          }
+        },
+        "165365861762e4b2b5-3": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/raffi-filter.png",
+            "link": "shopify:\/\/collections\/raffi"
+          }
+        },
+        "303c56f2-9d0d-4f77-9b66-a0e416dd2df4": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/birdee-icon_450x450_2f80f0af-7843-42ab-af8b-ed917bceca49.png",
+            "link": "shopify:\/\/collections\/birdee"
+          }
+        },
+        "165365861762e4b2b5-4": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/ozzo-filter.png",
+            "link": "shopify:\/\/collections\/ozzo"
+          }
+        },
+        "165365861762e4b2b5-5": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/nozo-filter.png",
+            "link": "shopify:\/\/collections\/nozo"
+          }
+        },
+        "1f373fb8-d199-473a-9f92-e6a522f10154": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/antee-filter.png",
+            "link": "shopify:\/\/collections\/antee"
+          }
+        },
+        "4c957fe6-ba66-4da0-97f6-3216b9a05afa": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/zebee-filter.png",
+            "link": "shopify:\/\/collections\/zebee"
+          }
+        },
+        "e15ae8c3-a0ff-40cd-a6f6-7a21ff40ef6e": {
+          "type": "logo",
+          "disabled": true,
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/jelly-filter.png",
+            "link": "shopify:\/\/collections\/jelly"
+          }
+        },
+        "9a6b0e32-f5e2-48ef-a587-1fcb53d8d293": {
+          "type": "logo",
+          "disabled": true,
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/wally-filter.png",
+            "link": "shopify:\/\/collections\/wally"
+          }
+        }
+      },
+      "block_order": [
+        "165365861762e4b2b5-0",
+        "165365861762e4b2b5-1",
+        "165365861762e4b2b5-2",
+        "165365861762e4b2b5-3",
+        "303c56f2-9d0d-4f77-9b66-a0e416dd2df4",
+        "165365861762e4b2b5-4",
+        "165365861762e4b2b5-5",
+        "1f373fb8-d199-473a-9f92-e6a522f10154",
+        "4c957fe6-ba66-4da0-97f6-3216b9a05afa",
+        "e15ae8c3-a0ff-40cd-a6f6-7a21ff40ef6e",
+        "9a6b0e32-f5e2-48ef-a587-1fcb53d8d293"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "shop Deer friends",
+        "button_text": "",
+        "button_link": "",
+        "stack_logos": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)",
+        "logo_background": "rgba(0,0,0,0)"
+      }
+    },
+    "164854323159d325a1": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>The friends will love to follow you on exciting adventures out and about or jump, dance, and bounce with you! <\/p><p>When the tiniest ones need entertainment, you can count on the Deer friends for a cozy playtime. <\/p><p>All the friends are good at being cuddly and keeping secrets, and they all have different skills and personalities – so there is a Deer friend for all little ones. <\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "small",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#e4e0db",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "164847017217a4d9ad",
+    "16538969526239f062",
+    "1652713093618627da",
+    "1653658617f3ced15e",
+    "164854323159d325a1"
+  ]
+}

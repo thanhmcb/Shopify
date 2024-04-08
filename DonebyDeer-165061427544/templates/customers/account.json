@@ -1,0 +1,31 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-customers-account",
+      "blocks": {
+        "orders": {
+          "type": "orders",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "orders"
+      ],
+      "settings": {}
+    },
+    "16506258735ed34078": {
+      "type": "recently-viewed-products",
+      "settings": {
+        "subheading": "",
+        "title": "we have a crush on you too",
+        "products_count": 4,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16506258735ed34078"
+  ]
+}

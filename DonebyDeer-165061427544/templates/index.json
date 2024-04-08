@@ -1,0 +1,741 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "47f93dd3-a589-4264-b8be-1ddba531535c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/webslider_kidsroom_2160x1080_f12231e8-caa5-4020-9725-ac26e23bb2bc.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/mobilslider_kidsroom_1080x1400_db8bacf5-aa6a-4cda-af11-ac477c6ff811.jpg",
+            "text_position": "middle_center",
+            "subheading": "nursery inspiration",
+            "title": "decorate with deer friends",
+            "button_1_text": "be inspired here",
+            "button_1_link": "shopify:\/\/collections\/room-decoration",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "8a4957f4-882f-4c4a-8425-62721f0e98e6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/webslider_news_2160x1080_b41ee95b-9db6-4cb3-af3c-f927a8f1ae13.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/mobilslider_news_1080x1400_86b3d7b6-abfc-4f73-a39d-36d282b3d677.jpg",
+            "text_position": "bottom_center",
+            "subheading": "even more",
+            "title": "new arrivals",
+            "button_1_text": "shop now",
+            "button_1_link": "shopify:\/\/collections\/news",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#607066",
+            "button_background": "#607066",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "df43986e-398b-42f6-9e17-9578c039f993": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/webslider_spring_picnic_2160x1080_9dbcc5df-096f-4b5e-a617-560089616861.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/mobilslider_spring_picnic_1080x1400_020a5fb7-3d28-4f97-af32-916e914be8cb.jpg",
+            "text_position": "bottom_right",
+            "subheading": "spring is here",
+            "title": "essentials for outdoor adventures",
+            "button_1_text": "explore now",
+            "button_1_link": "shopify:\/\/collections\/picnic-for-kids",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "85ded656-e979-4f82-a6ba-53df019c83fb": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/webslider_outlet_2160x1080_e4edd751-8e73-453f-a313-d435a51f9769.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/mobilslider_outlet_2160x1080_4bb4470d-a5c5-4ed1-94d7-1dc149e71842.jpg",
+            "text_position": "middle_center",
+            "subheading": "save up to 40%",
+            "title": "outlet",
+            "button_1_text": "shop now",
+            "button_1_link": "shopify:\/\/collections\/outlet",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "01d6c992-a912-4b91-9830-d5410f4de2ca": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/webslider_indoor_fun_2160x1080_2ae5c9f7-cd23-4cae-a95b-25cac803e7b3.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/mobilslider_indoor_fun_1080x1400_44dce013-4b95-4832-806b-13436419e7d9.jpg",
+            "text_position": "bottom_center",
+            "subheading": "",
+            "title": "indoor fun",
+            "button_1_text": "enjoy",
+            "button_1_link": "shopify:\/\/collections\/indoor-fun",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "47f93dd3-a589-4264-b8be-1ddba531535c",
+        "8a4957f4-882f-4c4a-8425-62721f0e98e6",
+        "df43986e-398b-42f6-9e17-9578c039f993",
+        "85ded656-e979-4f82-a6ba-53df019c83fb",
+        "01d6c992-a912-4b91-9830-d5410f4de2ca"
+      ],
+      "custom_css": [
+        "h2 {margin-left: 4px;}"
+      ],
+      "settings": {
+        "section_height": "small",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "rich_text_qJVCHt": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>*If you are one of the first 50 customers you will get a free Croco tote bag with your order. Kindly note that the tote bag will automatically be included when we pack your order. This give away is valid from Monday the 5th of February.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "ada42888-04a4-49ed-9f26-048f038f6dd2": {
+      "type": "multi-column",
+      "blocks": {
+        "template--18524040626520__ada42888-04a4-49ed-9f26-048f038f6dd2-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shipping_96195af9-4dbc-4a44-aa95-55360ea5151c.jpg",
+            "image_width": 50,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<h5>Free shipping possible<\/h5>",
+            "link_text": "",
+            "link_url": "shopify:\/\/pages\/shipping-returns",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "template--18524040626520__ada42888-04a4-49ed-9f26-048f038f6dd2-item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Return_9678c3c5-0c46-4073-8738-199125fd620a.jpg",
+            "image_width": 50,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<h5><strong>365 days return<\/strong><\/h5>",
+            "link_text": "",
+            "link_url": "shopify:\/\/pages\/shipping-returns",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "template--18524040626520__ada42888-04a4-49ed-9f26-048f038f6dd2-item-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Payment_48105166-55ba-4872-89a4-9d3033c90ebe.jpg",
+            "image_width": 50,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<h5><strong>Safe payment <\/strong><\/h5>",
+            "link_text": "",
+            "link_url": "shopify:\/\/pages\/safe-payment",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--18524040626520__ada42888-04a4-49ed-9f26-048f038f6dd2-item-1",
+        "template--18524040626520__ada42888-04a4-49ed-9f26-048f038f6dd2-item-2",
+        "template--18524040626520__ada42888-04a4-49ed-9f26-048f038f6dd2-item-3"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "content_position": "below",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "small",
+        "desktop_item_size": "small",
+        "spacing": "normal",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "item_text_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#000000",
+        "image_overlay_opacity": 0
+      }
+    },
+    "collection_list_JcadPE": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_GW7wED": {
+          "type": "collection",
+          "settings": {
+            "collection": "dinner-time",
+            "image": "shopify:\/\/shop_images\/forside-grafikker.jpg",
+            "subheading": "",
+            "title": "dinner time",
+            "link_text": "shop now",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_VDe7qC": {
+          "type": "collection",
+          "settings": {
+            "collection": "playtime",
+            "image": "shopify:\/\/shop_images\/forside-grafikker_2_29997011-9ee0-4e22-ac20-67d3bb48b042.jpg",
+            "subheading": "",
+            "title": "play time",
+            "link_text": "shop now",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_DXtWkJ": {
+          "type": "collection",
+          "settings": {
+            "collection": "sleepy-time",
+            "image": "shopify:\/\/shop_images\/forside-grafikker_3.jpg",
+            "subheading": "",
+            "title": "sleepy time",
+            "link_text": "shop now",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5
+          }
+        },
+        "collection_UyiiJg": {
+          "type": "collection",
+          "settings": {
+            "collection": "nursing-bath-time",
+            "image": "shopify:\/\/shop_images\/forside-grafikker_4_cccda2de-4d6f-45d9-bbd4-e1a0ab1ca6b0.jpg",
+            "subheading": "",
+            "title": "nursing & bath time",
+            "link_text": "shop now",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5
+          }
+        },
+        "collection_6pEP8e": {
+          "type": "collection",
+          "settings": {
+            "collection": "out-and-about",
+            "image": "shopify:\/\/shop_images\/forside-grafikker_5_1af7f90b-1021-4821-aecc-94922b583153.jpg",
+            "subheading": "",
+            "title": "out & about",
+            "link_text": "shop now",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "collection_RTd7bd": {
+          "type": "collection",
+          "settings": {
+            "collection": "nursery-storage-and-decor",
+            "image": "shopify:\/\/shop_images\/forside-grafikker_6_c5a9f220-f9b1-4161-a8cc-f722ea6da69b.jpg",
+            "subheading": "",
+            "title": "storage & decor",
+            "link_text": "shop now",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "collection_GW7wED",
+        "collection_VDe7qC",
+        "collection_DXtWkJ",
+        "collection_UyiiJg",
+        "collection_6pEP8e",
+        "collection_RTd7bd"
+      ],
+      "custom_css": [],
+      "settings": {
+        "reveal_on_scroll": false,
+        "layout": "grid",
+        "subheading": "",
+        "title": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "164922954787d4813d": {
+      "type": "featured-collections",
+      "blocks": {
+        "679336f6-7124-4db5-817f-038c91950c93": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "outlet",
+            "label": "",
+            "button_text": "see more",
+            "button_url": "shopify:\/\/collections\/outlet"
+          }
+        },
+        "collection_dGf68R": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "2023-bestsellers",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "collection_CPeNTF": {
+          "type": "collection",
+          "settings": {
+            "collection": "news",
+            "label": "",
+            "button_text": "see all new arrivals",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "679336f6-7124-4db5-817f-038c91950c93",
+        "collection_dGf68R",
+        "collection_CPeNTF"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "new arrivals",
+        "content": "",
+        "products_count": 4,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1649313882a20e5d8c": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<p><\/p>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "e6809561-813d-4b1a-a2ad-68ce2872858d": {
+      "type": "collection-list",
+      "blocks": {
+        "template--15033430179883__e6809561-813d-4b1a-a2ad-68ce2872858d-1674565309fa829957-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/toy_gift_guide_collage_ny3.jpg",
+            "subheading": "",
+            "title": "0-3 months",
+            "link_text": "shop now",
+            "link_url": "shopify:\/\/pages\/toy-and-gift-guide-0-3-months",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15033430179883__e6809561-813d-4b1a-a2ad-68ce2872858d-1674565309fa829957-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/1000x530_forside-grafik_toyguide-element.jpg",
+            "subheading": "",
+            "title": "3-6 months",
+            "link_text": "shop now",
+            "link_url": "shopify:\/\/pages\/toy-and-gift-guide-3-6-months",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15033430179883__e6809561-813d-4b1a-a2ad-68ce2872858d-1674565309fa829957-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/1000x530_forside-grafik_toyguide-element4.jpg",
+            "subheading": "",
+            "title": "6-12 months",
+            "link_text": "shop now",
+            "link_url": "shopify:\/\/pages\/toy-and-gift-guide-6-12-months",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "d80a2c5a-18a9-4b2d-8e17-69a37ef09ce0": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/1000x530_forside-grafik_toyguide-element3.jpg",
+            "subheading": "",
+            "title": "12+ months",
+            "link_text": "shop now",
+            "link_url": "shopify:\/\/pages\/toy-and-gift-guide-12-months",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--15033430179883__e6809561-813d-4b1a-a2ad-68ce2872858d-1674565309fa829957-0",
+        "template--15033430179883__e6809561-813d-4b1a-a2ad-68ce2872858d-1674565309fa829957-1",
+        "template--15033430179883__e6809561-813d-4b1a-a2ad-68ce2872858d-1674565309fa829957-2",
+        "d80a2c5a-18a9-4b2d-8e17-69a37ef09ce0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "layout": "collage",
+        "subheading": "",
+        "title": "shop by age",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16475270440d92f93d": {
+      "type": "logo-list",
+      "blocks": {
+        "1647527044cd46eeea-0": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/elphee-icon_450x450_7dfc21d2-4a09-48ba-b54b-d6d0482ddd4d.png",
+            "link": "shopify:\/\/collections\/elphee"
+          }
+        },
+        "1647527044cd46eeea-1": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/croco-icon_450x450_bd163ecd-03b6-444f-b0ef-bd94de856e56.png",
+            "link": "shopify:\/\/collections\/croco"
+          }
+        },
+        "1647527044cd46eeea-2": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/lalee-icon_450x450_35fdc114-ef4f-4631-8d8c-b587a1d23dbe.png",
+            "link": "shopify:\/\/collections\/lalee"
+          }
+        },
+        "1647527044cd46eeea-3": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/raffi-icon_450x450_c949d89e-ad85-45f0-8956-292ad9261789.png",
+            "link": "shopify:\/\/collections\/raffi"
+          }
+        },
+        "5315ed16-b32d-42ba-a08b-62a816f50997": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/birdee-icon_450x450_2f80f0af-7843-42ab-af8b-ed917bceca49.png",
+            "link": "shopify:\/\/collections\/birdee"
+          }
+        },
+        "1647527044cd46eeea-4": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/ozzo-icon_450x450_c787315f-2c0d-4540-8947-849e046580e3.png",
+            "link": "shopify:\/\/collections\/ozzo"
+          }
+        },
+        "1647527044cd46eeea-5": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/nozo-icon_450x450_d45f6b7d-dea7-486a-a080-07e58b0e8479.png",
+            "link": "shopify:\/\/collections\/nozo"
+          }
+        },
+        "8b9b7319-17ed-4dd0-8d14-64e1a835f59b": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/antee-icon_450x450_f0806e7f-aee0-4963-8057-ef3b436485c6.png",
+            "link": "shopify:\/\/collections\/antee"
+          }
+        },
+        "e5a09ff4-303e-4c78-847d-1a064cfaf049": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/zebee-icon_450x450_7e40fefd-fc9c-47d7-8f2f-e3efa20f875c.png",
+            "link": "shopify:\/\/collections\/zebee"
+          }
+        },
+        "ed4fcd1c-8dc7-45ae-9554-c18ee67dfc6d": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/jelly-icon_450x450_cb91e6b6-c0ea-41f7-9d4c-d0b3d0274580.png",
+            "link": "shopify:\/\/collections\/jelly"
+          }
+        },
+        "1fa45c4b-4afc-480b-9c34-e4f8e09cb16a": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/wally-icon_450x450_cd65c004-e9a1-4fee-84da-6e60815008a8.png",
+            "link": "shopify:\/\/collections\/wally"
+          }
+        }
+      },
+      "block_order": [
+        "1647527044cd46eeea-0",
+        "1647527044cd46eeea-1",
+        "1647527044cd46eeea-2",
+        "1647527044cd46eeea-3",
+        "5315ed16-b32d-42ba-a08b-62a816f50997",
+        "1647527044cd46eeea-4",
+        "1647527044cd46eeea-5",
+        "8b9b7319-17ed-4dd0-8d14-64e1a835f59b",
+        "e5a09ff4-303e-4c78-847d-1a064cfaf049",
+        "ed4fcd1c-8dc7-45ae-9554-c18ee67dfc6d",
+        "1fa45c4b-4afc-480b-9c34-e4f8e09cb16a"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "shop your Deer friend",
+        "button_text": "",
+        "button_link": "",
+        "stack_logos": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)",
+        "logo_background": "rgba(0,0,0,0)"
+      }
+    },
+    "0d600b88-ec29-493c-9adc-9b8912b4123a": {
+      "type": "timeline",
+      "blocks": {
+        "template--18524040626520__0d600b88-ec29-493c-9adc-9b8912b4123a-16819806512a169add-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cozy-lounger-with-activity-arch-Raffi-Sand-5-LS_76818181-22eb-4740-8f76-f2d1776048f1.jpg",
+            "label": "cozy lounger",
+            "title": "cozy lounger",
+            "content": "<p><strong>Red Dot Award: Product Design 2022<\/strong>.<br\/><br\/>Awarded for its excellent and innovative design.<br\/><br\/>A safe and comfy space from newborn up to 9 months - perfect for playtime and tummy time. <\/p>",
+            "button_text": "check it out",
+            "button_link": "shopify:\/\/products\/cozy-lounger-w-activity-arch-raffi-sand"
+          }
+        },
+        "template--18524040626520__0d600b88-ec29-493c-9adc-9b8912b4123a-16819806512a169add-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Tiny-toys-gift-set-Deer-friends-Colour-mix-Front-1.jpg",
+            "label": "Tiny toys gift set",
+            "title": "tiny toys gift set",
+            "content": "<p><strong>Red Dot Award: Product Design 2018<br\/><br\/><\/strong>Awarded for its excellent and innovative design.<br\/><br\/>The three tiny activity toys in this gift box are great for practising baby's first talents.<\/p>",
+            "button_text": "see more",
+            "button_link": "shopify:\/\/products\/tiny-activity-toys-gift-set-deer-friends-blue"
+          }
+        },
+        "6e5a3b26-63bf-4306-bfd6-58ca98247996": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Activity-play-mat-Deer-friends-Grey-2-LS_1.jpg",
+            "label": "Activity play mat",
+            "title": "activity play mat",
+            "content": "<p><strong>Red Dot Award: Product Design 2017<\/strong>.<br\/><br\/>Awarded for an outstanding design that aligns with the rest of your home.<br\/><br\/>The activity play mat is a perfect entertainment center for your baby.<br\/><\/p>",
+            "button_text": "find it here",
+            "button_link": "shopify:\/\/products\/activity-play-mat-deer-friends-grey"
+          }
+        },
+        "template--18524040626520__0d600b88-ec29-493c-9adc-9b8912b4123a-16819806512a169add-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Activity-gym-Lalee-Sand-8-LS.jpg",
+            "label": "activity gym",
+            "title": "Activity gym",
+            "content": "<p>Red Dot Award: Product Design 2016<\/p><p>Awarded for it's innovative, flexible design.<\/p><p>The activity gym is free standing and easy to adjust to suit your baby's needs.<\/p>",
+            "button_text": "go to gym",
+            "button_link": "shopify:\/\/products\/activity-gym-lalee-sand"
+          }
+        }
+      },
+      "block_order": [
+        "template--18524040626520__0d600b88-ec29-493c-9adc-9b8912b4123a-16819806512a169add-2",
+        "template--18524040626520__0d600b88-ec29-493c-9adc-9b8912b4123a-16819806512a169add-0",
+        "6e5a3b26-63bf-4306-bfd6-58ca98247996",
+        "template--18524040626520__0d600b88-ec29-493c-9adc-9b8912b4123a-16819806512a169add-1"
+      ],
+      "settings": {
+        "subheading": "meet our",
+        "title": "award winners",
+        "text_position": "middle",
+        "background": "#f5f1ec",
+        "text_color": "rgba(0,0,0,0)",
+        "item_background": "rgba(0,0,0,0)",
+        "item_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "064c5d07-9443-4b06-8b04-c4f78798c12d": {
+      "type": "blog-posts",
+      "settings": {
+        "blog": "news",
+        "subheading": "Stay up-to-date",
+        "title": "Blog posts",
+        "articles_count": 3,
+        "stack_mobile": false,
+        "show_category": true,
+        "show_excerpt": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1647866869fd706c3a": {
+      "type": "apps",
+      "blocks": {
+        "452aa7d3-53f3-46a9-bc8f-b6d3de491a31": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "alignment": "center",
+            "html_area": "<h2 style=\"text-align:center; line-height: normal;\">\n<a href=\"https:\/\/www.instagram.com\/donebydeer\/\" target=\"_blank\">share your moments with @donebydeer<\/a>\n\n<h3 style=\"text-align:center; margin-top: -5px;\">\n<a href=\"https:\/\/www.instagram.com\/donebydeer\/\" target=\"_blank\">tag #donebydeer and inspire other families with kids.<\/a>\n<\/h3>\n<\/h2>"
+          }
+        }
+      },
+      "block_order": [
+        "452aa7d3-53f3-46a9-bc8f-b6d3de491a31"
+      ],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true,
+        "custom_class": ""
+      }
+    },
+    "text-with-icons": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-love",
+            "custom_icon_width": 50,
+            "title": "Safe for kids",
+            "content": "<p>Our products are thoroughly tested<\/p>"
+          }
+        },
+        "item-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-worldwide",
+            "custom_icon_width": 50,
+            "title": "Danish design",
+            "content": "<p>Modern, colourful design with playful features<\/p>"
+          }
+        },
+        "item-4": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-store",
+            "custom_icon_width": 50,
+            "title": "All deer friends in one place",
+            "content": "<p>Shop the whole collection online<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item-2",
+        "item-1",
+        "item-4"
+      ],
+      "settings": {
+        "background": "#e4e0db",
+        "text_color": "#38383a"
+      }
+    },
+    "16541138547deb0c2d": {
+      "type": "apps",
+      "blocks": {
+        "8cc5d93d-8605-4c21-9bd6-a37b4a9d59c2": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "TjhVaJ"
+          }
+        }
+      },
+      "block_order": [
+        "8cc5d93d-8605-4c21-9bd6-a37b4a9d59c2"
+      ],
+      "settings": {
+        "include_horizontal_margins": false,
+        "include_vertical_margins": false,
+        "custom_class": ""
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "rich_text_qJVCHt",
+    "ada42888-04a4-49ed-9f26-048f038f6dd2",
+    "collection_list_JcadPE",
+    "164922954787d4813d",
+    "1649313882a20e5d8c",
+    "e6809561-813d-4b1a-a2ad-68ce2872858d",
+    "16475270440d92f93d",
+    "0d600b88-ec29-493c-9adc-9b8912b4123a",
+    "064c5d07-9443-4b06-8b04-c4f78798c12d",
+    "1647866869fd706c3a",
+    "text-with-icons",
+    "16541138547deb0c2d"
+  ]
+}

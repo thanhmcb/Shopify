@@ -1,0 +1,231 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "1648027535609149c4": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "large",
+        "image": "shopify:\/\/shop_images\/job_2000x980_c1b5148d-1c28-4c74-9ffa-edd66d8da29f.webp",
+        "subheading": "",
+        "title": "Come work with us",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "1648797249336211db": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>At Done by Deer you will become a part of a passionate team aiming to create fun products that combine modern Scandinavian design with features that are fun and playful for children.<\/p><p>Done by Deer is based in Haarup near Silkeborg in the heart of Denmark. In Silkeborg you find our warehouse, internal sales, design, sourcing, logistics, economics, e-commerce, marketing and management teams. We also have a great sales team and merchandisers placed around Europe to make sure we keep a close and personal connection to our wholesale customers.<\/p><p>If you have what it takes to work with our Deer friends and be part of the Deer family – do not hesitate to let us know. <br\/><\/p><p>Send us your unsolicited application at <a href=\"mailto:jobs@donebydeer.com\" target=\"_blank\" title=\"e-mail address for job applications to Done by Deer\"><strong>jobs@donebydeer.com<\/strong><\/a>, stating what you can offer Done by Deer, and what we might be able to offer you. Also, you can keep an eye on this page or our social media channels for vacant positions.<\/p><p>We look forward to hearing from you!<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#e4e0db",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1648027781e2a6bf0e": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "available job openings",
+        "content": "<p>We are currently looking for a<\/p><p><a href=\"https:\/\/www.donebydeer.com\/Files\/Images\/About\/Jobs\/donebydeer_emballage-designer.pdf\" target=\"_blank\" title=\"https:\/\/www.donebydeer.com\/Files\/Images\/About\/Jobs\/donebydeer_emballage-designer.pdf\"><strong>Packaging designer (Danish) &gt;<\/strong><\/a><\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1649713697858473f5": {
+      "type": "image-with-text",
+      "blocks": {
+        "16497136972a3fdc66-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mega-menu-deerfriends_420x420_826a3244-269f-4ba2-b667-6d9b0ff64285.jpg",
+            "tab_label": "Item",
+            "subheading": "become a part of our deer family",
+            "title": "Available job openings",
+            "content": "<p><em>We do not have any open positions at this time. <\/em><\/p><p>If you are interested in possible future opportunities, please send your CV to jobs@donebydeer.com.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16497136972a3fdc66-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "230d6687-6083-4696-ac03-1239dc9ae4a5": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "BECOME A PART OF OUR DEER FAMILY",
+        "title": "available job openings",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "0d43f830-ae34-4ccb-a77d-8485bee95e41": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15033430704171__0d43f830-ae34-4ccb-a77d-8485bee95e41-168025904419a78799-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slidergrafik_decorateyouroom2_1080x1080_c1614a4c-1027-42ca-a2ad-471861925196.jpg",
+            "tab_label": "Item",
+            "subheading": "Denmark",
+            "title": "online\/platform account specialist",
+            "content": "<p>Har du stærke kompetencer inden for online B2B salg? Har du såvel tekniske og marketingmæssige online\/platform kompetencer? Skaber du samtidig gode kunderelationer, så er den nyoprettede stilling som Online\/Platform Account Specialist måske noget for dig.<\/p>",
+            "button_text": "læs mere og ansøg her",
+            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0565\/6808\/6571\/files\/Online_Platform_Account_Specialist.pdf?v=1702633959"
+          }
+        }
+      },
+      "block_order": [
+        "template--15033430704171__0d43f830-ae34-4ccb-a77d-8485bee95e41-168025904419a78799-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_text_yygRVW": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_MbxJgr": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wooden-toys.jpg",
+            "tab_label": "Item",
+            "subheading": "denmark",
+            "title": "head of marketing",
+            "content": "<p>Tænk nu, hvis du hver dag skulle arbejde med branding af nordisk design og kvalitet hos en virksomhed, hvor alle arbejder målrettet og med hjertet for at udvikle og udbrede dyrenes fortælling for et dansk livsstils- og legetøjsbrand. Så er denne stilling lige noget for dig.<\/p>",
+            "button_text": "læs mere og ansøg her",
+            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0565\/6808\/6571\/files\/head-of-marketing_donebydeer.pdf"
+          }
+        }
+      },
+      "block_order": [
+        "item_MbxJgr"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "062ea383-850f-463e-8f46-75b179aa24cc": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18524041216344__062ea383-850f-463e-8f46-75b179aa24cc-168069423911b2d797-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slidergrafik_woodentoys_1080x1080_e95e2a79-ba4d-4100-a8d1-05cadabfe691.jpg",
+            "tab_label": "Item",
+            "subheading": "denmark",
+            "title": "økonomichef",
+            "content": "<p>Som økonomichef hos Done by Deer A\/S vil du få en central rolle på økonomiområdet og få et ret nært samarbejde med en række specialiserede kollegaer i virksomhedens øvrige funktioner. <\/p>",
+            "button_text": "læs mere og ansøg her",
+            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0565\/6808\/6571\/files\/okonomi-chef_0124.pdf?v=1706090389"
+          }
+        }
+      },
+      "block_order": [
+        "template--18524041216344__062ea383-850f-463e-8f46-75b179aa24cc-168069423911b2d797-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1648027535609149c4",
+    "1648797249336211db",
+    "1648027781e2a6bf0e",
+    "1649713697858473f5",
+    "230d6687-6083-4696-ac03-1239dc9ae4a5",
+    "0d43f830-ae34-4ccb-a77d-8485bee95e41",
+    "image_with_text_yygRVW",
+    "062ea383-850f-463e-8f46-75b179aa24cc"
+  ]
+}

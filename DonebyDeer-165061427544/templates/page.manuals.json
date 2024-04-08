@@ -1,0 +1,128 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "08e84fcd-f174-475b-910c-8da2713d888d": {
+      "type": "faq",
+      "blocks": {
+        "template--18524040921432__08e84fcd-f174-475b-910c-8da2713d888d-1686128075cf4dc2bd-0": {
+          "type": "category",
+          "settings": {
+            "title": "Baby cot"
+          }
+        },
+        "template--18524040921432__08e84fcd-f174-475b-910c-8da2713d888d-1686128075cf4dc2bd-1": {
+          "type": "question",
+          "settings": {
+            "title": "Baby cot manual",
+            "answer": "<p><a href=\"https:\/\/acrobat.adobe.com\/link\/track?uri=urn:aaid:scds:US:4042d65e-0315-3582-b8cb-7f342ac84484\" title=\"https:\/\/acrobat.adobe.com\/link\/track?uri=urn:aaid:scds:US:4042d65e-0315-3582-b8cb-7f342ac84484\">Download Baby cot manual<\/a><\/p>"
+          }
+        },
+        "template--18524040921432__08e84fcd-f174-475b-910c-8da2713d888d-1686128075cf4dc2bd-3": {
+          "type": "category",
+          "settings": {
+            "title": "Croco walker"
+          }
+        },
+        "template--18524040921432__08e84fcd-f174-475b-910c-8da2713d888d-1686128075cf4dc2bd-4": {
+          "type": "question",
+          "settings": {
+            "title": "Croco walker manual",
+            "answer": "<p><a href=\"https:\/\/acrobat.adobe.com\/link\/track?uri=urn:aaid:scds:US:a4c151d8-a987-3f70-aba5-9209af34a4b4\" title=\"https:\/\/acrobat.adobe.com\/link\/track?uri=urn:aaid:scds:US:a4c151d8-a987-3f70-aba5-9209af34a4b4\">Download Croco walker manual<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18524040921432__08e84fcd-f174-475b-910c-8da2713d888d-1686128075cf4dc2bd-0",
+        "template--18524040921432__08e84fcd-f174-475b-910c-8da2713d888d-1686128075cf4dc2bd-1",
+        "template--18524040921432__08e84fcd-f174-475b-910c-8da2713d888d-1686128075cf4dc2bd-3",
+        "template--18524040921432__08e84fcd-f174-475b-910c-8da2713d888d-1686128075cf4dc2bd-4"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16480235668597a322": {
+      "type": "text-with-icons",
+      "disabled": true,
+      "blocks": {
+        "16480235664e87a705-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-email",
+            "custom_icon_width": 50,
+            "title": "Contact us",
+            "content": "<p>Need to contact us ? Just send us an e-mail at info@yourstore.com<\/p>"
+          }
+        },
+        "16480235664e87a705-0": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "icon": "picto-box",
+            "custom_icon_width": 50,
+            "title": "Free shipping",
+            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included<\/p>"
+          }
+        },
+        "16480235664e87a705-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-phone",
+            "custom_icon_width": 50,
+            "title": "Customer service",
+            "content": "<p>We are available from monday to friday to answer your questions.<\/p>"
+          }
+        },
+        "16480235664e87a705-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "custom_icon_width": 50,
+            "title": "Secure payment",
+            "content": "<p>Your payment information is processed securely.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16480235664e87a705-3",
+        "16480235664e87a705-0",
+        "16480235664e87a705-1",
+        "16480235664e87a705-2"
+      ],
+      "settings": {
+        "background": "#f7aea6",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "2fc5c3c6-ced6-4f2d-9b95-76f15ab6567f": {
+      "type": "blog-posts",
+      "settings": {
+        "blog": "news",
+        "subheading": "Stay up-to-date",
+        "title": "Blog posts",
+        "articles_count": 3,
+        "stack_mobile": false,
+        "show_category": true,
+        "show_excerpt": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "08e84fcd-f174-475b-910c-8da2713d888d",
+    "16480235668597a322",
+    "2fc5c3c6-ced6-4f2d-9b95-76f15ab6567f"
+  ]
+}

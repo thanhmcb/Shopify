@@ -1,0 +1,286 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "1649071458b96d3a5f": {
+      "type": "image-with-text-block",
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/webslider_giftguide_slider_2160x1080_19dc0589-a58d-4a29-ba4e-62e5106c708f.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/mobilslider_giftguide_slider_1400x1080_20af26e0-0c36-42dd-8e5b-dfb32cc273cc.jpg",
+        "subheading": "",
+        "title": "toy guide",
+        "content": "<p>This toy guide will help you find toys that are a good match for babies and toddlers, going through their development phases from newborn and on.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "left",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "75e6c97e-430c-407a-8d95-72a1349a4869": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14990134575147__75e6c97e-430c-407a-8d95-72a1349a4869-16674121181f7b2207-1": {
+          "type": "image",
+          "settings": {
+            "mobile_image": "shopify:\/\/shop_images\/header_christmas-gifts_mobile_3a34385d-92f2-41b9-80b3-e06a3e79f160.jpg",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "toy gift guide",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--14990134575147__75e6c97e-430c-407a-8d95-72a1349a4869-16674121181f7b2207-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "e87d33a4-6b88-46fd-bf69-a5d1548f8129": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "medium",
+        "subheading": "find the perfect toy",
+        "title": "toy gift guide",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 10
+      }
+    },
+    "ce305d33-f058-48b3-bd6e-6e58dc78d02d": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>This toy gift guide is  a help for you to find out which toys are a good match for babies and toddlers, going through their development phases from newborn and on.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "9cab7d26-b02a-4715-afd5-d483128149d5": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14990134575147__9cab7d26-b02a-4715-afd5-d483128149d5-16674128667d7821bf-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/header_christmas-gifts_mobile.jpg",
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "toy gift guide",
+            "content": "<p>This toy gift guide is  a help for you to find out which toys are a good match for babies and toddlers, going through their development phases from newborn and on.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14990134575147__9cab7d26-b02a-4715-afd5-d483128149d5-16674128667d7821bf-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "both",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "164907287995e5dde1": {
+      "type": "multi-column",
+      "blocks": {
+        "16490728785bc8007b-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/toyguide_0-3months_oversigt.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "0-3 months",
+            "content": "<p>Find the perfect toy for your newborn baby to explore<\/p>",
+            "link_text": "see newborn toys >",
+            "link_url": "shopify:\/\/pages\/toy-and-gift-guide-0-3-months",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "16490728785bc8007b-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tg_3-6months_oversigt.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "3-6 months",
+            "content": "<p>Find tummy toys and activity centres for a curious baby<\/p>",
+            "link_text": "See toys for your growing baby >",
+            "link_url": "shopify:\/\/pages\/toy-and-gift-guide-3-6-months",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "16490728785bc8007b-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mega-menu-toyguide_420x420_7774fa0d-eea7-4936-aa9a-359da69a8498.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "6-12 months",
+            "content": "<p>Find toys for your baby to investigate and explore<\/p>",
+            "link_text": "see toys for your active baby >",
+            "link_url": "shopify:\/\/pages\/toy-and-gift-guide-6-12-months",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "16490728785bc8007b-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/toyguide_12months_oversigt.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "12+ months",
+            "content": "<p>Find toys for your curious and more active toddler<\/p>",
+            "link_text": "See toys for your toddler >",
+            "link_url": "shopify:\/\/pages\/toy-and-gift-guide-12-months",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "16490728785bc8007b-0",
+        "16490728785bc8007b-1",
+        "16490728785bc8007b-2",
+        "16490728785bc8007b-3"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": true,
+        "content_position": "below",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "medium",
+        "spacing": "tight",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "item_text_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#000000",
+        "image_overlay_opacity": 0
+      }
+    },
+    "164916603201be65b0": {
+      "type": "timeline",
+      "blocks": {
+        "16491660322e809d7e-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sensory-play-mat-deer-friends_841.jpg",
+            "label": "",
+            "title": "0-3 months",
+            "content": "<p><a href=\"\/pages\/toy-guide-0-3-months\" title=\"toy guide (0-3 months)\">Find the perfect toy for your newborn baby to explore.<\/a><\/p>",
+            "button_text": "",
+            "button_link": "shopify:\/\/pages\/toy-guide-0-3-months"
+          }
+        },
+        "16491660322e809d7e-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/toyguide_header.jpg",
+            "label": "",
+            "title": "Your heading",
+            "content": "<p>Write content about your store<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "16491660322e809d7e-2": {
+          "type": "item",
+          "settings": {
+            "label": "",
+            "title": "Your heading",
+            "content": "<p>Write content about your store<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16491660322e809d7e-0",
+        "16491660322e809d7e-1",
+        "16491660322e809d7e-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "text_position": "middle",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "item_background": "rgba(0,0,0,0)",
+        "item_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1649071458b96d3a5f",
+    "75e6c97e-430c-407a-8d95-72a1349a4869",
+    "e87d33a4-6b88-46fd-bf69-a5d1548f8129",
+    "ce305d33-f058-48b3-bd6e-6e58dc78d02d",
+    "9cab7d26-b02a-4715-afd5-d483128149d5",
+    "164907287995e5dde1",
+    "164916603201be65b0"
+  ]
+}

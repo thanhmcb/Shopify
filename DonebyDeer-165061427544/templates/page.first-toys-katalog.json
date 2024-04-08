@@ -1,0 +1,889 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "1fefb3b7-660a-4327-84c2-dcd827f7cd55": {
+      "type": "slideshow",
+      "blocks": {
+        "template--20762181468504__1fefb3b7-660a-4327-84c2-dcd827f7cd55-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lalee_christmaslights.jpg",
+            "text_position": "top_left",
+            "subheading": "it's the season",
+            "title": "let's get jolly",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 8
+          }
+        }
+      },
+      "block_order": [
+        "template--20762181468504__1fefb3b7-660a-4327-84c2-dcd827f7cd55-image-2"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "f8cf8a33-d302-47f6-9274-8b3aa3909afc": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "medium",
+        "image": "shopify:\/\/shop_images\/lalee_christmaslights.jpg",
+        "subheading": "it's the season",
+        "title": "let's get jolly",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "top_left",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "e9daf9a4-f8b6-469f-8549-1a5563c798b1": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "gift guide",
+        "content": "<p>bla bla bla blabla bla bla blabla bla bla blabla bla bla blabla bla bla blabla bla bla blabla bla bla blabla bla bla blabla bla bla blabla bla bla bla<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#e5d2b7",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1651126247124a8415": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<div class=\"span12\">\n    <a class=\"pidlink\" name=\"17437\" id=\"17437\"><\/a>\n    \n        \n    \n\n    <p style=\"text-align: center;\"><a href=\"\/pages\/toy-and-gift-guide-0-3-months\"><u>0-3 months<\/u><\/a><a href=\"\/activity-toys-guide-2\">&nbsp;<\/a>&nbsp;<span style=\"text-align: center;\" lang=\"EN-US\">&nbsp;&nbsp;<\/span> &nbsp; <a href=\"\/pages\/toy-and-gift-guide-3-6-months\"><u>3-6 months<\/u><\/a><a href=\"\/activity-toys-guide-2\">&nbsp;<\/a>&nbsp;<span style=\"text-align: center;\" lang=\"EN-US\">&nbsp;&nbsp;<\/span> &nbsp; <a href=\"\/pages\/toy-and-gift-guide-6-12-months\"><u>6-12 months<\/u><\/a><a href=\"\/pages\/toy-and-gift-guide-6-12-months\">&nbsp;<\/a>&nbsp;<span style=\"text-align: center;\" lang=\"EN-US\">&nbsp;&nbsp;<\/span> &nbsp; <a href=\"\/pages\/toy-and-gift-guide-12-months\"><u>12+ months<\/u><\/a>&nbsp;<\/p>\n    \n  <\/div>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "#e5d2b7",
+        "text_color": "#1a1a1a"
+      }
+    },
+    "17f5a3af-e9a0-4249-b05b-5fa47705e682": {
+      "type": "multi-column",
+      "blocks": {
+        "template--20762181468504__17f5a3af-e9a0-4249-b05b-5fa47705e682-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Activity-play-mat-Lalee-Sand-8-LS.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "0-3 months",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "template--20762181468504__17f5a3af-e9a0-4249-b05b-5fa47705e682-item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/To-go-activity-mirror-Happy-clouds-Papaya-7-LS.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "3-6 months",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "template--20762181468504__17f5a3af-e9a0-4249-b05b-5fa47705e682-item-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4823137_Discovery_cube_Deer_friends_Colour_mix_7.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "6-12 months",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "template--20762181468504__17f5a3af-e9a0-4249-b05b-5fa47705e682-item-4": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sorting-box-Elphee-Grey-7-LS.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "12+ months",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--20762181468504__17f5a3af-e9a0-4249-b05b-5fa47705e682-item-1",
+        "template--20762181468504__17f5a3af-e9a0-4249-b05b-5fa47705e682-item-2",
+        "template--20762181468504__17f5a3af-e9a0-4249-b05b-5fa47705e682-item-3",
+        "template--20762181468504__17f5a3af-e9a0-4249-b05b-5fa47705e682-item-4"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "content_position": "below",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "small",
+        "desktop_item_size": "medium",
+        "spacing": "normal",
+        "background": "#e5d2b7",
+        "text_color": "rgba(0,0,0,0)",
+        "item_text_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#000000",
+        "image_overlay_opacity": 30
+      }
+    },
+    "1650971678390b1451": {
+      "type": "image-with-text-block",
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/Activity-play-mat-Lalee-Sand-8-LS.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Activity-play-mat-Lalee-Sand-8-LS.jpg",
+        "subheading": "0-3 months",
+        "title": "first toys",
+        "content": "<p>A newborn baby only needs limited stimulation. <br\/><br\/>Introducing musical stimuli is perfect for nurturing early sensory development and creating a soothing, harmonious environment.<br\/><br\/>As your baby learns to focus and grows curious, you can introduce small activity toys like rattles or an activity gym. <\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "left",
+        "text_alignment": "center",
+        "text_background": "#ded8d1",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16510510198abde8c6": {
+      "type": "featured-collections",
+      "blocks": {
+        "1651051019c6d6924a-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "first-toys",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1651051019c6d6924a-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "products_count": 10,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "#ded8d1",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "164907939075bcc9ae": {
+      "type": "featured-collections",
+      "blocks": {
+        "35e5452c-87fa-4f61-a7eb-696496973908": {
+          "type": "collection",
+          "settings": {
+            "collection": "first-toys",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "35e5452c-87fa-4f61-a7eb-696496973908"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "products_count": 10,
+        "products_per_row": 5,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "#ded8d1",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "baa308a2-1c9c-4f8a-9a32-a09052345473": {
+      "type": "multi-column",
+      "blocks": {
+        "template--20762181468504__baa308a2-1c9c-4f8a-9a32-a09052345473-item-1": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Column 1",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "template--20762181468504__baa308a2-1c9c-4f8a-9a32-a09052345473-item-2": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Column 1",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "template--20762181468504__baa308a2-1c9c-4f8a-9a32-a09052345473-item-3": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Column 1",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "template--20762181468504__baa308a2-1c9c-4f8a-9a32-a09052345473-item-4": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Column 1",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "1359d7fd-6652-4000-ba2b-dff6b7b04c23": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Your content",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--20762181468504__baa308a2-1c9c-4f8a-9a32-a09052345473-item-1",
+        "template--20762181468504__baa308a2-1c9c-4f8a-9a32-a09052345473-item-2",
+        "template--20762181468504__baa308a2-1c9c-4f8a-9a32-a09052345473-item-3",
+        "template--20762181468504__baa308a2-1c9c-4f8a-9a32-a09052345473-item-4",
+        "1359d7fd-6652-4000-ba2b-dff6b7b04c23"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "content_position": "below",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "medium",
+        "spacing": "normal",
+        "background": "#ded8d1",
+        "text_color": "rgba(0,0,0,0)",
+        "item_text_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#000000",
+        "image_overlay_opacity": 30
+      }
+    },
+    "1651051715abc2b77f": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=iX2Q5TlmzRU",
+        "background_type": "boxed",
+        "video_size": "medium",
+        "autoplay": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "39f20fb3-fa9b-4c57-92f2-3e3bf80e681e": {
+      "type": "video",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "video_url": "https:\/\/youtu.be\/qZhK7lqMSRI?si=-mk0qRHLydgSc4lE",
+        "background_type": "full_width",
+        "video_size": "auto",
+        "autoplay": true,
+        "background": "#ded8d1",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "cfa68c01-039a-48e4-8f32-bcb7f7f43c8c": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "safe play time",
+        "content": "<p>Safety is our top priority when we design toys.<br\/><br\/>Our products comply with all relevant standards and regulations, so you can have peace of mind when it's playtime - just as it should be.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#ded8d1",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1649078063e03da0e2": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<div class=\"span12\">\n    <a class=\"pidlink\" name=\"17437\" id=\"17437\"><\/a>\n    \n        \n    \n\n    <p style=\"text-align: center;\"><a href=\"\/pages\/toy-and-gift-guide-0-3-months\"><u>0-3 months<\/u><\/a><a href=\"\/activity-toys-guide-2\">&nbsp;<\/a>&nbsp;<span style=\"text-align: center;\" lang=\"EN-US\">&nbsp;&nbsp;<\/span> &nbsp; <a href=\"\/pages\/toy-and-gift-guide-3-6-months\"><u>3-6 months<\/u><\/a><a href=\"\/activity-toys-guide-2\">&nbsp;<\/a>&nbsp;<span style=\"text-align: center;\" lang=\"EN-US\">&nbsp;&nbsp;<\/span> &nbsp; <a href=\"\/pages\/toy-and-gift-guide-6-12-months\"><u>6-12 months<\/u><\/a><a href=\"\/pages\/toy-and-gift-guide-6-12-months\">&nbsp;<\/a>&nbsp;<span style=\"text-align: center;\" lang=\"EN-US\">&nbsp;&nbsp;<\/span> &nbsp; <a href=\"\/pages\/toy-and-gift-guide-12-months\"><u>12+ months<\/u><\/a>&nbsp;<\/p>\n    \n  <\/div>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "3c3ebeca-e446-4235-b0ef-e29094febfb4": {
+      "type": "featured-product",
+      "blocks": {
+        "template--20762181468504__3c3ebeca-e446-4235-b0ef-e29094febfb4-variant_picker-1": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "template--20762181468504__3c3ebeca-e446-4235-b0ef-e29094febfb4-quantity_selector-1": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "template--20762181468504__3c3ebeca-e446-4235-b0ef-e29094febfb4-buy_buttons-1": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "atc_button_background": "rgba(0,0,0,0)",
+            "atc_button_text_color": "rgba(0,0,0,0)",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "template--20762181468504__3c3ebeca-e446-4235-b0ef-e29094febfb4-variant_picker-1",
+        "template--20762181468504__3c3ebeca-e446-4235-b0ef-e29094febfb4-quantity_selector-1",
+        "template--20762181468504__3c3ebeca-e446-4235-b0ef-e29094febfb4-buy_buttons-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "product": "activity-play-mat-lalee-sand",
+        "subheading": "",
+        "title": "",
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": true,
+        "show_share_buttons": false,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "left",
+        "transition_effect": "slide",
+        "background": "#ded8d1",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "05bdc947-e00f-4b39-9280-557882395ea1": {
+      "type": "collection-list",
+      "blocks": {
+        "template--20762181468504__05bdc947-e00f-4b39-9280-557882395ea1-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--20762181468504__05bdc947-e00f-4b39-9280-557882395ea1-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--20762181468504__05bdc947-e00f-4b39-9280-557882395ea1-collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--20762181468504__05bdc947-e00f-4b39-9280-557882395ea1-collection-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--20762181468504__05bdc947-e00f-4b39-9280-557882395ea1-collection-5": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--20762181468504__05bdc947-e00f-4b39-9280-557882395ea1-collection-6": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--20762181468504__05bdc947-e00f-4b39-9280-557882395ea1-collection-1",
+        "template--20762181468504__05bdc947-e00f-4b39-9280-557882395ea1-collection-2",
+        "template--20762181468504__05bdc947-e00f-4b39-9280-557882395ea1-collection-3",
+        "template--20762181468504__05bdc947-e00f-4b39-9280-557882395ea1-collection-4",
+        "template--20762181468504__05bdc947-e00f-4b39-9280-557882395ea1-collection-5",
+        "template--20762181468504__05bdc947-e00f-4b39-9280-557882395ea1-collection-6"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": false,
+        "layout": "grid",
+        "subheading": "Subheading",
+        "title": "Collection list",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "0cdd2678-fbde-494e-b2f7-00ba9ad502f8": {
+      "type": "image-with-text-block",
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/To-go-activity-mirror-Happy-clouds-Papaya-7-LS.jpg",
+        "subheading": "3-6 months",
+        "title": "toys for tiny",
+        "content": "<p>Use block text to give your customers insight into your brand. Select impactful text that relates to your brand and story.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "left",
+        "text_alignment": "center",
+        "text_background": "#edcbbf",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1649078999ad469e3a": {
+      "type": "featured-collections",
+      "blocks": {
+        "1649078999264702c0-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "first-toys",
+            "label": "play mats",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1649078999264702c0-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "products_count": 10,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "#edcbbf",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "164907800035fafcbd": {
+      "type": "featured-collections",
+      "blocks": {
+        "1649078000cb21f9e5-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "pram-toys",
+            "label": "to go toys",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "627c6ad7-b470-47f6-a3cf-10aee1ae3ae6": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "pram-pillows",
+            "label": "pram pillows",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1649078000cb21f9e5-0",
+        "627c6ad7-b470-47f6-a3cf-10aee1ae3ae6"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "on the go",
+        "content": "<p>Let the Deer friends be a familiar face for your little one wherever you go – it can be all you need to make a stress-free journey. Attach the pram toys to your stroller, pram or car seats. <\/p>",
+        "products_count": 6,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16490785858ede6a29": {
+      "type": "featured-collections",
+      "blocks": {
+        "88252a88-1dd9-4509-b035-1aff67321fb1": {
+          "type": "collection",
+          "settings": {
+            "collection": "comfort-blankets",
+            "label": "comfort blankets",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "16490785856892d779-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "pacifier-holders",
+            "label": "pacifier holders",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "88252a88-1dd9-4509-b035-1aff67321fb1",
+        "16490785856892d779-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "comforting friends",
+        "content": "<p>The Deer friends will keep pacifiers close by and the small tags and soft textures are perfect for little fingers to find comfort in.<\/p>",
+        "products_count": 6,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16494172639debf6e9": {
+      "type": "featured-collections",
+      "blocks": {
+        "1649417263ed376e39-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "toyguide-soft-toys-sea-friends",
+            "label": "sea friends",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "d48f5e36-1309-4c07-b87c-f09b9d7797cc": {
+          "type": "collection",
+          "settings": {
+            "collection": "toyguide-soft-toys-deer-friends",
+            "label": "deer friends",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1649417263ed376e39-0",
+        "d48f5e36-1309-4c07-b87c-f09b9d7797cc"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "Soft toys",
+        "content": "<p>Little ones can form a very special bond with a soft toy. You will find that a stuffed animal could become an irreplaceable toy.<\/p><p>Our cuddle cute Deer friends are ready for everlasting friendships. They will provide comfort when it's time to go to sleep and are always ready for adventures – big or small.<\/p>",
+        "products_count": 6,
+        "products_per_row": 3,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "c1e6a92a-554b-4740-9313-7642e13602a2": {
+      "type": "gallery",
+      "blocks": {
+        "template--20762181468504__c1e6a92a-554b-4740-9313-7642e13602a2-image-1": {
+          "type": "image",
+          "settings": {
+            "caption": ""
+          }
+        },
+        "template--20762181468504__c1e6a92a-554b-4740-9313-7642e13602a2-image-2": {
+          "type": "image",
+          "settings": {
+            "caption": ""
+          }
+        },
+        "template--20762181468504__c1e6a92a-554b-4740-9313-7642e13602a2-image-3": {
+          "type": "image",
+          "settings": {
+            "caption": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20762181468504__c1e6a92a-554b-4740-9313-7642e13602a2-image-1",
+        "template--20762181468504__c1e6a92a-554b-4740-9313-7642e13602a2-image-2",
+        "template--20762181468504__c1e6a92a-554b-4740-9313-7642e13602a2-image-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "Subheading",
+        "title": "Gallery",
+        "show_arrows": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "cfcd91b2-67f8-4f73-baef-f2afa386da3b": {
+      "type": "testimonials",
+      "blocks": {
+        "template--20762181468504__cfcd91b2-67f8-4f73-baef-f2afa386da3b-testimonial-1": {
+          "type": "testimonial",
+          "disabled": true,
+          "settings": {
+            "content": "Write some content about what they are saying about your store.",
+            "author": ""
+          }
+        },
+        "template--20762181468504__cfcd91b2-67f8-4f73-baef-f2afa386da3b-testimonial-2": {
+          "type": "testimonial",
+          "disabled": true,
+          "settings": {
+            "content": "Write some content about what they are saying about your store.",
+            "author": "John S."
+          }
+        },
+        "template--20762181468504__cfcd91b2-67f8-4f73-baef-f2afa386da3b-testimonial-3": {
+          "type": "testimonial",
+          "disabled": true,
+          "settings": {
+            "content": "Write some content about what they are saying about your store.",
+            "author": "John S."
+          }
+        },
+        "6afb0467-5e65-4b22-a295-97eb92482f45": {
+          "type": "testimonial",
+          "settings": {
+            "content": "Safety is our top priority when we design toys.",
+            "author": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20762181468504__cfcd91b2-67f8-4f73-baef-f2afa386da3b-testimonial-1",
+        "template--20762181468504__cfcd91b2-67f8-4f73-baef-f2afa386da3b-testimonial-2",
+        "template--20762181468504__cfcd91b2-67f8-4f73-baef-f2afa386da3b-testimonial-3",
+        "6afb0467-5e65-4b22-a295-97eb92482f45"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "",
+        "background": "#ded8d1",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "e84ac745-b607-43fb-a279-cec1615edb76": {
+      "type": "slideshow",
+      "blocks": {
+        "template--20762181468504__e84ac745-b607-43fb-a279-cec1615edb76-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tummy_time.jpg",
+            "text_position": "middle_center",
+            "subheading": "5 tips for",
+            "title": "tummy time",
+            "button_1_text": "read blog post",
+            "button_1_link": "shopify:\/\/blogs\/news\/5-tips-for-tummy-time",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#c49d69",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 9
+          }
+        }
+      },
+      "block_order": [
+        "template--20762181468504__e84ac745-b607-43fb-a279-cec1615edb76-image-1"
+      ],
+      "settings": {
+        "section_height": "large",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 4,
+        "background": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1fefb3b7-660a-4327-84c2-dcd827f7cd55",
+    "f8cf8a33-d302-47f6-9274-8b3aa3909afc",
+    "e9daf9a4-f8b6-469f-8549-1a5563c798b1",
+    "1651126247124a8415",
+    "17f5a3af-e9a0-4249-b05b-5fa47705e682",
+    "1650971678390b1451",
+    "16510510198abde8c6",
+    "164907939075bcc9ae",
+    "baa308a2-1c9c-4f8a-9a32-a09052345473",
+    "1651051715abc2b77f",
+    "39f20fb3-fa9b-4c57-92f2-3e3bf80e681e",
+    "cfa68c01-039a-48e4-8f32-bcb7f7f43c8c",
+    "1649078063e03da0e2",
+    "3c3ebeca-e446-4235-b0ef-e29094febfb4",
+    "05bdc947-e00f-4b39-9280-557882395ea1",
+    "0cdd2678-fbde-494e-b2f7-00ba9ad502f8",
+    "1649078999ad469e3a",
+    "164907800035fafcbd",
+    "16490785858ede6a29",
+    "16494172639debf6e9",
+    "c1e6a92a-554b-4740-9313-7642e13602a2",
+    "cfcd91b2-67f8-4f73-baef-f2afa386da3b",
+    "e84ac745-b607-43fb-a279-cec1615edb76"
+  ]
+}

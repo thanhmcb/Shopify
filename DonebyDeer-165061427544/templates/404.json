@@ -1,0 +1,162 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-not-found",
+      "disabled": true,
+      "settings": {}
+    },
+    "16539147349bdce883": {
+      "type": "image-with-text",
+      "blocks": {
+        "1653914734e9119cc3-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/404_1400x1400_4fff9d26-3442-4fa6-b987-e8a32f005e27.jpg",
+            "tab_label": "Item",
+            "subheading": "oh deer!",
+            "title": "404",
+            "content": "<p>We have lost the page you were looking for. <br\/><br\/>We have looked everywhere, but it's nowhere to be found.<br\/><br\/>Let us help you to another page:<br\/><br\/><a href=\"\/pages\/faq\" title=\"frequently asked questions\">FAQ<\/a><br\/><a href=\"\/pages\/toy-and-gift-guide\" title=\"toy and gift guide\">Toy & gift guide<\/a><br\/><a href=\"\/pages\/free-printables\" title=\"free printables\">Free printables<\/a><\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1653914734e9119cc3-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "#38383a",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "3b15a2e7-b9f0-41b2-b0c2-69dd7fbb35ad": {
+      "type": "collection-list",
+      "blocks": {
+        "template--18524036989272__3b15a2e7-b9f0-41b2-b0c2-69dd7fbb35ad-16892346560607a20d-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "dinner-time",
+            "image": "shopify:\/\/shop_images\/Foodie-plate-Happy-clouds-Powder-4-LS.jpg",
+            "subheading": "",
+            "title": "dinner time",
+            "link_text": "shop now",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--18524036989272__3b15a2e7-b9f0-41b2-b0c2-69dd7fbb35ad-16892346560607a20d-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "playtime",
+            "image": "shopify:\/\/shop_images\/Activity-play-mat-Lalee-Sand-9-LS.jpg",
+            "subheading": "",
+            "title": "play time",
+            "link_text": "shop now",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--18524036989272__3b15a2e7-b9f0-41b2-b0c2-69dd7fbb35ad-16892346560607a20d-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "sleepy-time",
+            "image": "shopify:\/\/shop_images\/Bedlinen-baby-Sleepy-Croco-Green-Bedlinen-baby-Sleepy-Croco-Green-2-PS.jpg",
+            "subheading": "",
+            "title": "sleeping time",
+            "link_text": "shop now",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--18524036989272__3b15a2e7-b9f0-41b2-b0c2-69dd7fbb35ad-16892346560607a20d-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "nursing-bath-time",
+            "image": "shopify:\/\/shop_images\/Nursing-and-baby-pillow-Elphee-Powder-4-LS.jpg",
+            "subheading": "",
+            "title": "nursing & bath time",
+            "link_text": "shop now",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--18524036989272__3b15a2e7-b9f0-41b2-b0c2-69dd7fbb35ad-16892346560607a20d-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "out-and-about",
+            "image": "shopify:\/\/shop_images\/Quilted-changing-bag-Green-7-LS.jpg",
+            "subheading": "",
+            "title": "out & about",
+            "link_text": "shop now",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--18524036989272__3b15a2e7-b9f0-41b2-b0c2-69dd7fbb35ad-16892346560607a20d-5": {
+          "type": "collection",
+          "settings": {
+            "collection": "nursery-storage-and-decor",
+            "image": "shopify:\/\/shop_images\/slidergrafik_decorateyouroom2_1080x1080_c1614a4c-1027-42ca-a2ad-471861925196.jpg",
+            "subheading": "",
+            "title": "storage & decor",
+            "link_text": "shop now",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--18524036989272__3b15a2e7-b9f0-41b2-b0c2-69dd7fbb35ad-16892346560607a20d-0",
+        "template--18524036989272__3b15a2e7-b9f0-41b2-b0c2-69dd7fbb35ad-16892346560607a20d-1",
+        "template--18524036989272__3b15a2e7-b9f0-41b2-b0c2-69dd7fbb35ad-16892346560607a20d-2",
+        "template--18524036989272__3b15a2e7-b9f0-41b2-b0c2-69dd7fbb35ad-16892346560607a20d-3",
+        "template--18524036989272__3b15a2e7-b9f0-41b2-b0c2-69dd7fbb35ad-16892346560607a20d-4",
+        "template--18524036989272__3b15a2e7-b9f0-41b2-b0c2-69dd7fbb35ad-16892346560607a20d-5"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "layout": "grid",
+        "subheading": "",
+        "title": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "165365637160cf9526": {
+      "type": "recently-viewed-products",
+      "settings": {
+        "subheading": "need a little help?",
+        "title": "find your way back to your deer friends",
+        "products_count": 4,
+        "background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16539147349bdce883",
+    "3b15a2e7-b9f0-41b2-b0c2-69dd7fbb35ad",
+    "165365637160cf9526"
+  ]
+}
