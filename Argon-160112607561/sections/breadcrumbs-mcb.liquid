@@ -32,7 +32,7 @@
       padding-left: var(--padding-left);
       padding-right: var(--padding-right);
       color: var(--breadcrumbs-text-color);
-      background-color: rgb(var(--breadcrumbs-background-color));
+      background-color: {{ section.settings.breadcrumbs-background-color }};
     }
     .custom_breadcrumbs-section * {
       color: var(--breadcrumbs-text-color);
@@ -349,7 +349,7 @@
         "type": "color",
         "id": "breadcrumbs-background-color",
         "label": "Breadcrum background color",
-        "default": "#000"
+        "default": "#8A0837"
       },
       {
         "type": "color",
