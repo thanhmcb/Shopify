@@ -20,6 +20,13 @@
           #section-id-{{ section.id }} .height--fixed {
             --image-height: {{ section.settings.height_desktop }}px;
           }
+          {%- if template == 'collection' and block.settings.hide_on_desktop -%}      
+            #section-id-{{ section.id }} .slideshow {
+                display:none;
+              }
+       
+          {%- endif -%}
+         
         }
       {%- endif -%}
 
@@ -90,6 +97,17 @@
             assign wrap_slide_with_link = true
           endif
         -%}
+        {% style %}
+         @media (min-width: 768px) {         
+          {%- if template == 'collection' and block.settings.hide_on_desktop -%}      
+            #section-id-{{ section.id }} .slideshow__slide {
+                display:none;
+              }       
+          {%- endif -%}         
+        }
+        
+        {% endstyle %}
+
         <image-with-text-overlay class="slideshow__slide slide-{{ forloop.index }}{% if forloop.first %} is-active{% endif %} height--{{ section.settings.height }} image-overlay image-overlay--bg-{{ section.settings.overlay_style }}{% if section.settings.mobile_overlay_under %} text-overlay-parent--mobile-stack{% endif %}"
             role="group" aria-roledescription="{{ 'sections.slideshow.slide' | t }}"
             aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
@@ -181,6 +199,17 @@
             </a>
           {%- endif -%}
         </image-with-text-overlay>
+        {%- if template == 'collection' and block.settings.hide_on_desktop -%}    
+            <div class="page-header page-header--with-upper-spacing">
+              <div class="container">
+                <h1 class="pagetitle h3">{{collection.title}}</h1>
+                {%- if block.settings.text != blank -%}
+                <div class="text-overlay__reveal"><div class="text-overlay__rte rte {% if block.settings.enlarge_text %}large-text{% endif %} has-motion">{{ block.settings.text }}</div></div>
+              {%- endif -%}
+              </div>
+            </div>
+
+      {%- endif -%}
       {%- endfor -%}
     </div>
 
@@ -213,8 +242,12 @@
         {%- endif -%}
       </div>
     {%- endif -%}
+  
+      
+  
   </slide-show>
 
+  
   {%- unless section.settings.full_width -%}</div>{%- endunless -%}
 </div>
 
@@ -395,6 +428,13 @@
           "id": "image",
           "label": "Image",
           "info": "2048 x 1024px recommended"
+        },
+        {
+          "id": "hide_on_desktop",
+          "type": "checkbox",
+          "label": "Hide on desktop",
+          "default": true,
+          "info" :"Only works for collection template"
         },
         {
           "type": "image_picker",

@@ -1,0 +1,30 @@
+<style>
+    .breadcrum {
+        background-color: {{ section.settings.breadcrumbs-background-color }};
+    }
+</style>
+<div class="breadcrum"
+>
+<ul>
+    <li><a href="#">test 1</a></li>
+    <li><a href="#">test 2</a></li>
+    <li><a href="#">test 3</a></li>
+</ul>
+</div>{% schema %}
+    {
+      "name": "thanh",
+      "settings": [
+        {
+          "type": "color",
+          "id": "breadcrumbs-background-color",
+          "label": "Breadcrum background color",
+          "default": "#8A0837"
+        }
+      ],
+      "presets": [
+        {
+          "name": "thanh"
+        }
+      ]
+    }
+  {% endschema %}
