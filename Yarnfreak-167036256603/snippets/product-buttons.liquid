@@ -117,13 +117,13 @@
         <div class="product__submit__buttons{% if buybutton_setting and show_quantity == false %} product__submit__buttons--inline{% endif %}">
           <div class="product__submit__item{% if show_quantity %} product__submit__item--inline{% endif %}">
             {{ quantity_selector }}
-
-            <button
+            {% if current_variant.available %}
+              <button
               type="submit"
               name="add"
               class="btn btn--primary {{ btn_atc_class }}"
               data-add-to-cart
-              {% unless current_variant.available %}disabled="disabled"{% endunless %}>
+>
               <span class="btn__text" data-add-to-cart-text>{{ button_text }}</span>
               <span class="btn__added">&nbsp;</span>
 
@@ -134,6 +134,13 @@
                 </svg>
               </span>
             </button>
+           
+            {% else %}
+            <button href="#" class="SI_trigger btn {{ btn_atc_class }}" data-product-data='{{ product | json | escape }}'> {{ 'products.general.out_of_stock' | t }} </button>
+            {% endif %}
+          
+
+
           </div>
           {%- if buybutton_setting -%}
             <div class="product__submit__item">

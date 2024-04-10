@@ -71,3 +71,12 @@
   margin-right: .2rem;
 }
 
+/*back to stock */
+#SI_trigger{
+  display: none !important;
+}
+
+.SI_trigger{
+  background: var(--BTN-BACK-TO-STOCK-BG-COLOR);
+  color: var(--BTN-BACK-TO-STOCK-TEXT-COLOR);
+}

@@ -7422,6 +7422,7 @@
 
       _onOptionChange(event) {
         this._setIdInputValue(event.dataset.variant);
+        console.log("thanh");
       }
 
       _onFormEvent(cb) {

@@ -329,6 +329,22 @@
         "id": "btn_secondary_border_color",
         "label": "Outline and text",
         "default": "#8191A4"
+      },
+      {
+        "type": "header",
+        "content": "Back to stock"
+      },
+      {
+        "type": "color",
+        "id": "btn_back_to_stock_bg_color",
+        "label": "Background",
+        "default": "#A2A2A2"
+      },
+      {
+        "type": "color",
+        "id": "btn_back_to_stock_text_color",
+        "label": "Text",
+        "default": "#FFF"
       }
     ]
   },

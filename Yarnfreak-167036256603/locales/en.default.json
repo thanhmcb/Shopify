@@ -430,6 +430,7 @@
       "description": "Description",
       "read_more": "Read more",
       "view_product": "View Product",
+      "out_of_stock": "Notify when available",
       "reviews_with_count": {
         "one": "{{ count }} Review",
         "other": "{{ count }} Reviews"
