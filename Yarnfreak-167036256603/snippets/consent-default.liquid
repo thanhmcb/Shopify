@@ -1,0 +1,49 @@
+<script type="text/javascript">
+var consent = {
+    'ad_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'analytics_storage': 'denied',
+    'functionality_storage': 'denied',
+    'personalization_storage': 'denied',
+    'security_storage': 'denied',
+    'wait_for_update': 5000
+  }
+
+var CookieInformationConsent = getAndDecodeCookie('CookieInformationConsent');
+if (CookieInformationConsent) {
+  var consentsApproved = JSON.parse(CookieInformationConsent).consents_approved;
+  if (consentsApproved) {
+    for (var i in consentsApproved ) {
+        if (consentsApproved[i] == 'cookie_cat_marketing') {
+            consent.ad_storage = 'granted';
+            consent.ad_personalization = 'granted';
+            consent.ad_user_data = 'granted';
+        }
+        if (consentsApproved[i] == 'cookie_cat_statistic') {
+            consent.analytics_storage = 'granted';
+        }
+        if (consentsApproved[i] == 'cookie_cat_functional') {
+            consent.functionality_storage = 'granted';
+        }
+    } 
+  }
+}
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){ dataLayer.push(arguments); }
+gtag('consent', 'default', consent);
+gtag('set', 'ads_data_redaction', true);
+
+function getAndDecodeCookie(cookieName) {
+  const cookies = document.cookie.split(';');
+  let decodedCookieValue = '';
+  
+  cookies.forEach(cookie => {
+    let [key, value] = cookie.trim().split('=');
+    if (key === cookieName) decodedCookieValue = decodeURIComponent(value);
+  });
+  
+  return decodedCookieValue;
+}
+</script>
