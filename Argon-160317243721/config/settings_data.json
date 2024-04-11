@@ -1,0 +1,381 @@
+{
+  "current": {
+    "page_width": 1600,
+    "section_vertical_spacing": "small",
+    "section_boxed_horizontal_spacing": "small",
+    "button_border_radius": 4,
+    "input_border_radius": 4,
+    "block_border_radius": 4,
+    "block_shadow_opacity": 10,
+    "block_shadow_vertical_offset": 18,
+    "icon_stroke_width": 2,
+    "icon_style": "duo",
+    "button_style": "fill",
+    "button_hover_effect": "fade",
+    "background": "#f5f5f5",
+    "text_color": "#1a1a1a",
+    "success_color": "#088a59",
+    "warning_color": "#ffb74a",
+    "error_color": "#f83a3a",
+    "header_background": "#1a1a1a",
+    "dropdown-menu_background": "#1a1a1a",
+    "product-menu-background": "#f5f5f5",
+    "product-menu-text": "#000000",
+    "header_text_color": "#1a1a1a",
+    "footer_background": "#ffffff",
+    "footer_text_color": "#1a1a1a",
+    "primary_button_background": "#8b6c48",
+    "primary_button_text_color": "#ffffff",
+    "secondary_button_background": "#1a1a1a",
+    "secondary_button_text_color": "#ffffff",
+    "product_card_unit_price": "#1a1a1a",
+    "product_menu_hover": "#1a1a1a",
+    "product_card_text_color": "#323335",
+    "product_on_sale_accent": "#f83a3a",
+    "product_sold_out_badge_background": "#323335",
+    "product_primary_badge_background": "#f5f5f5",
+    "heading_font": "futura_n7",
+    "heading_font_size": "small",
+    "heading_text_transform": "uppercase",
+    "heading_letter_spacing": 0,
+    "text_font": "roboto_n4",
+    "text_font_size_mobile": 13,
+    "text_font_size_desktop": 15,
+    "currency_code_enabled": false,
+    "show_page_transition": true,
+    "heading_apparition": "split_fade",
+    "color_swatch_style": "round",
+    "color_swatch_config": "White:#FFFFFF\nBlack:#000000\nWalnut:#865431\nMahogany:#452928\nAsh:#e1bb9d\nOak:#a67f65\nSatin Mahogany:#452928\nReal Walnut:#865431\nPine Green:#01201a\nAtlantic Blue:#031c38\nBronze Black:#674019\nHigh Gloss Black:#000000",
+    "show_vendor": false,
+    "show_quick_buy": false,
+    "show_product_rating": false,
+    "discount_mode": "percentage",
+    "product_color_display": "swatch",
+    "product_info_alignment": "start",
+    "cart_type": "drawer",
+    "cart_empty_button_link": "shopify:\/\/collections\/bestsellers",
+    "cart_show_free_shipping_threshold": true,
+    "cart_free_shipping_threshold": 49,
+    "social_facebook": "https:\/\/www.facebook.com\/argonaudio",
+    "social_instagram": "https:\/\/www.instagram.com\/argonaudio\/",
+    "social_youtube": "https:\/\/www.youtube.com\/channel\/UCho-urqPuUndf9lg4PkpUfw",
+    "favicon": "shopify:\/\/shop_images\/argon-favi_1ad887df-fe09-48e1-b6ec-34e16fbf6840.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/header-logo.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "large",
+    "checkout_body_background_color": "#fff",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_accent_color": "#755933",
+    "checkout_button_color": "#1a1a1a",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "message": {
+            "type": "message",
+            "settings": {
+              "text": "Gratis fragt. Gratis returnering. Altid på alle ordrer.",
+              "url": ""
+            }
+          },
+          "02a08297-56c3-4123-8a07-147e6d6708d0": {
+            "type": "message",
+            "disabled": true,
+            "settings": {
+              "text": "",
+              "url": ""
+            }
+          },
+          "e3142bd4-0cbd-4477-83da-b69b48746645": {
+            "type": "message",
+            "disabled": true,
+            "settings": {
+              "text": "30-days free return",
+              "url": ""
+            }
+          }
+        },
+        "block_order": [
+          "message",
+          "02a08297-56c3-4123-8a07-147e6d6708d0",
+          "e3142bd4-0cbd-4477-83da-b69b48746645"
+        ],
+        "settings": {
+          "enable_sticky": false,
+          "background": "#1a1a1a",
+          "background_gradient": "",
+          "text_color": "#ffffff"
+        }
+      },
+      "header": {
+        "type": "header",
+        "blocks": {
+          "da92aa12-03cf-47f5-b26d-c49ab69ace82": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "Shop",
+              "layout": "horizontal",
+              "submenu_style": "bold_heading",
+              "image_heading_1": "Headphones",
+              "image_link_1": "shopify:\/\/collections\/headphones",
+              "image_text_color_1": "#ffffff",
+              "image_heading_2": "",
+              "image_link_2": "",
+              "image_text_color_2": "#ffffff",
+              "image_heading_3": "",
+              "image_link_3": "",
+              "image_text_color_3": "#ffffff",
+              "product": "",
+              "product_card_background": "",
+              "product_card_text_color": "",
+              "promo_content_layout": "carousel",
+              "stretch_promo": false,
+              "drawer_link_image": "show"
+            }
+          },
+          "29b77d6a-333b-444b-9c65-e9febc9bed1c": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "About us",
+              "layout": "horizontal",
+              "submenu_style": "bold_heading",
+              "image_heading_1": "",
+              "image_link_1": "",
+              "image_text_color_1": "#ffffff",
+              "image_heading_2": "",
+              "image_link_2": "",
+              "image_text_color_2": "#ffffff",
+              "image_heading_3": "",
+              "image_link_3": "",
+              "image_text_color_3": "#ffffff",
+              "product": "",
+              "product_card_background": "",
+              "product_card_text_color": "",
+              "promo_content_layout": "grid",
+              "stretch_promo": false,
+              "drawer_link_image": "hide"
+            }
+          }
+        },
+        "block_order": [
+          "da92aa12-03cf-47f5-b26d-c49ab69ace82",
+          "29b77d6a-333b-444b-9c65-e9febc9bed1c"
+        ],
+        "settings": {
+          "enable_sticky": true,
+          "hide_on_scroll": false,
+          "logo": "shopify:\/\/shop_images\/argonaudio_250x250_pos.png",
+          "logo_max_width": 70,
+          "logo_mobile_max_width": 50,
+          "menu": "main-menu",
+          "sidebar_menu": "",
+          "menu_open_trigger": "hover",
+          "opening_from": "bottom",
+          "layout": "drawer",
+          "show_social_media": true,
+          "show_locale_selector": true,
+          "show_country_selector": true,
+          "show_country_flag": true,
+          "show_country_name": false,
+          "transparent_header_text_color": "#ffffff",
+          "transparent_logo": "shopify:\/\/shop_images\/argonaudio_250x250_neg.png",
+          "reduce_padding": true,
+          "background_opacity": 100,
+          "background_blur_radius": 0
+        }
+      },
+      "cart-drawer": {
+        "type": "cart-drawer",
+        "settings": {
+          "show_cart_note": true,
+          "show_shipping_text": true,
+          "show_checkout_button": true,
+          "recommendations_title": "Trending this month",
+          "products": [],
+          "product_card_background": "#ffffff",
+          "product_card_text_color": ""
+        }
+      },
+      "search-drawer": {
+        "type": "search-drawer",
+        "settings": {
+          "full_width": true,
+          "show_article_category": true,
+          "search_menu": "",
+          "search_menu_show_title": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "newsletter": {
+            "type": "newsletter",
+            "settings": {
+              "image": "{{shop.brand.logo}}",
+              "image_width": 150,
+              "heading_size": "h3",
+              "title": "Sign up for new stories and personal offers",
+              "content": ""
+            }
+          },
+          "links": {
+            "type": "links",
+            "settings": {
+              "menu": "footer",
+              "show_menu_title": true
+            }
+          },
+          "text": {
+            "type": "text",
+            "settings": {
+              "title": "About",
+              "content": "<p>Argon Audio is a Danish audio company founded 20 years ago with a clear goal: to deliver high-quality products at value-for-money prices. Today, all Argon Audio products are designed and engineered in Denmark and carefully crafted to deliver a level of performance that punches way above their respective price classes – and always with a Scandinavian design aesthetic.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "newsletter",
+          "links",
+          "text"
+        ],
+        "settings": {
+          "show_social_media": true,
+          "show_payment_icons": true,
+          "show_country_selector": true,
+          "show_country_flag": true,
+          "show_country_name": true,
+          "show_locale_selector": true
+        }
+      },
+      "newsletter-popup": {
+        "type": "newsletter-popup",
+        "settings": {
+          "apparition_delay": 5,
+          "show_only_on_index": true,
+          "show_only_for_visitors": true,
+          "show_only_once": true,
+          "title": "Signup for our newsletter",
+          "button_text": "Subscribe",
+          "subtext": "Describe what your customers will receive when subscribing to your newsletter."
+        }
+      },
+      "store-drawer": {
+        "type": "store-drawer",
+        "settings": {}
+      }
+    },
+    "content_for_index": [],
+    "blocks": {
+      "13581873799926253961": {
+        "type": "shopify:\/\/apps\/payfy-control-payment-methods\/blocks\/install-snippets\/a3e9996d-434d-48b0-ace2-ba7b3d58826c",
+        "disabled": false,
+        "settings": {}
+      },
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {}
+      },
+      "11532412952436166569": {
+        "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-inject\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+        "disabled": false,
+        "settings": {}
+      }
+    }
+  },
+  "presets": {
+    "Sound": {
+      "section_vertical_spacing": "medium",
+      "button_border_radius": 60,
+      "input_border_radius": 8,
+      "block_border_radius": 24,
+      "block_shadow_opacity": 10,
+      "block_shadow_vertical_offset": 18,
+      "background": "#f0f0f0",
+      "text_color": "#1a1a1a",
+      "header_background": "#f0f0f0",
+      "header_text_color": "#1a1a1a",
+      "footer_background": "#ffffff",
+      "footer_text_color": "#1a1a1a",
+      "primary_button_background": "#1a1a1a",
+      "primary_button_text_color": "#ffffff",
+      "secondary_button_background": "#f0c417",
+      "secondary_button_text_color": "#1a1a1a",
+      "product_card_text_color": "#1a1a1a",
+      "product_primary_badge_background": "#803cee",
+      "heading_font": "din_next_n7",
+      "heading_font_size": "large",
+      "heading_letter_spacing": -2,
+      "text_font": "din_next_n4",
+      "show_page_transition": true,
+      "heading_apparition": "split_fade",
+      "product_color_display": "swatch",
+      "product_info_alignment": "start",
+      "checkout_accent_color": "#f0c417",
+      "checkout_button_color": "#1a1a1a"
+    },
+    "Home": {
+      "section_vertical_spacing": "medium",
+      "section_boxed_horizontal_spacing": "large",
+      "button_hover_effect": "reverse",
+      "background": "#ffffff",
+      "text_color": "#272727",
+      "success_color": "#708a5c",
+      "warning_color": "#e37e16",
+      "error_color": "#aa2826",
+      "header_background": "#ffffff",
+      "header_text_color": "#272727",
+      "footer_background": "#f2f2f2",
+      "footer_text_color": "#272727",
+      "primary_button_background": "#272727",
+      "primary_button_text_color": "#ffffff",
+      "secondary_button_background": "#3c619e",
+      "secondary_button_text_color": "#ffffff",
+      "product_card_text_color": "#272727",
+      "product_on_sale_accent": "#e34f4f",
+      "product_sold_out_badge_background": "#bebdb9",
+      "product_primary_badge_background": "#3c619e",
+      "heading_font": "futura_n7",
+      "heading_font_size": "large",
+      "heading_text_transform": "normal",
+      "heading_letter_spacing": -1,
+      "text_font": "futura_n4",
+      "heading_apparition": "split_rotation",
+      "color_swatch_style": "rectangle",
+      "product_color_display": "swatch",
+      "cart_type": "drawer",
+      "checkout_body_background_color": "#f2f2f2",
+      "checkout_sidebar_background_color": "#ffffff",
+      "checkout_accent_color": "#3c619e",
+      "checkout_button_color": "#3c619e"
+    },
+    "Shape": {
+      "page_width": 1440,
+      "section_vertical_spacing": "small",
+      "section_boxed_horizontal_spacing": "medium",
+      "button_border_radius": 60,
+      "input_border_radius": 8,
+      "block_border_radius": 20,
+      "icon_stroke_width": 1.5,
+      "button_style": "fill",
+      "button_hover_effect": "reverse",
+      "text_color": "#2a555a",
+      "header_background": "#ffffff",
+      "header_text_color": "#2a555a",
+      "footer_background": "#f7f7f7",
+      "footer_text_color": "#2a555a",
+      "primary_button_background": "#2a555a",
+      "primary_button_text_color": "#ffffff",
+      "secondary_button_background": "#d9967e",
+      "product_card_text_color": "#2a555a",
+      "heading_font": "itc_berkeley_old_style_n4",
+      "heading_font_size": "large",
+      "heading_text_transform": "normal",
+      "heading_letter_spacing": -1,
+      "text_font": "muli_n4",
+      "text_font_size_desktop": 15,
+      "product_color_display": "swatch",
+      "product_info_alignment": "center"
+    }
+  }
+}

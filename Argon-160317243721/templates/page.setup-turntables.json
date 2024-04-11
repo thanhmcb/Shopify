@@ -1,0 +1,304 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "c03fa2f7-d125-476c-9e1b-de3afd2543de": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18164129759544__c03fa2f7-d125-476c-9e1b-de3afd2543de-16775188529c67ba76-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "How to get started"
+          }
+        },
+        "template--18164129759544__c03fa2f7-d125-476c-9e1b-de3afd2543de-16775188529c67ba76-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Turntables: Setup Guide",
+            "heading_tag": "h1"
+          }
+        },
+        "template--18164129759544__c03fa2f7-d125-476c-9e1b-de3afd2543de-16775188529c67ba76-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Get the most out of your turntable setup with our comprehensive guide.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18164129759544__c03fa2f7-d125-476c-9e1b-de3afd2543de-16775188529c67ba76-0",
+        "template--18164129759544__c03fa2f7-d125-476c-9e1b-de3afd2543de-16775188529c67ba76-1",
+        "template--18164129759544__c03fa2f7-d125-476c-9e1b-de3afd2543de-16775188529c67ba76-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "enable_parallax": false,
+        "image_size": "sm",
+        "image": "shopify:\/\/shop_images\/Turntables-setup_DESKTOP.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Turntables-setup_mobile.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "7674864b-bfdb-41fe-bad4-83c0cf2953e6": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17265392419128__7674864b-bfdb-41fe-bad4-83c0cf2953e6-16750754821e6a0faa-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Investing in a turntable really is investing in your music experiences. In the case of our turntables, exclusive materials and ridiculous ease of use all contribute to that special feeling you won’t get anywhere else than vinyl.<\/p><p>Here at Argon Audio, we’ve been making turntables for many years. We find that very often, a turntable can be the fastest and cheapest way to gain access to fantastic sound quality, although we also often hear from our customers that setting up a turntable can seem difficult and complicated. It’s not! All our turntables are super simple to set up, and we promise you that if you follow the steps below, you can get great sound from your new turntable within 5 minutes.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17265392419128__7674864b-bfdb-41fe-bad4-83c0cf2953e6-16750754821e6a0faa-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "c04d219c-3532-40af-854a-70b55122eb8c": {
+      "type": "video-custom",
+      "blocks": {
+        "085813ce-f145-442a-938b-225923d78ab3": {
+          "type": "item",
+          "settings": {
+            "external_video_url_custom": "https:\/\/youtu.be\/FFluP6BEM3c",
+            "image": "shopify:\/\/shop_images\/TT_unboxing.jpg",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h2",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "5d17d5af-78ad-40da-b5f3-84ab84255142": {
+          "type": "item",
+          "settings": {
+            "external_video_url_custom": "https:\/\/youtu.be\/oKi6D1IBtHY",
+            "image": "shopify:\/\/shop_images\/TT3_Unboxing.jpg",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h2",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "f1eca38e-606e-4e75-8b78-52ad706f8ce3": {
+          "type": "item",
+          "settings": {
+            "external_video_url_custom": "https:\/\/youtu.be\/oe0n8ShL6R4",
+            "image": "shopify:\/\/shop_images\/TT4_Unboxing.jpg",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h2",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "085813ce-f145-442a-938b-225923d78ab3",
+        "5d17d5af-78ad-40da-b5f3-84ab84255142",
+        "f1eca38e-606e-4e75-8b78-52ad706f8ce3"
+      ],
+      "settings": {
+        "section-id": "",
+        "stack_testimonials": false,
+        "stack_testimonials_mobile": false,
+        "subheading": "",
+        "title": "Unboxing & Setup",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "df3674cd-6238-46bd-b362-c46fd1f11e02": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--18164129759544__df3674cd-6238-46bd-b362-c46fd1f11e02-16775195149610dfe5-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/placement.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Things to note when placing your new turntable",
+            "content": "<p>Turntables are very sensitive to vibrations and resonances. These can come from the floor, furniture or even your speakers. Our turntables have specially designed rubber feet to decouple the turntable as much as possible from the surface on which it is placed. Still, you should always try to place the turntable on a surface that is as resistant to vibrations as possible. The best thing you can do generally is to put the turntable on a shelf that is mounted on the wall.<\/p><p>It’s also very important that the turntable is level. Therefore, always check with a spirit level to ensure that the furniture or shelf you place the turntable on is completely level.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#323335",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "4eb453df-8e4f-4050-8c80-7ec845c9beef": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cartridge_2.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Setup",
+            "content": "<p>Perhaps the most important component of the turntable is the cartridge. This is the part of the turntable that decodes the grooves in your vinyl records and translate them into electrical energy that your system can then convert to sound. In order for the cartridge to perform as well as possible, there are a few things that you should check before you start spinning your records.<\/p><p>All turntables from Argon Audio come with the cartridge mounted from the factory. We are careful to mount it correctly, but if you want to change it or adjust it yourself, you can use a so-called protractor, which is included in the box in our <a href=\"\/products\/vinyl-kit-2\" title=\"Vinyl Kit 2\">Vinyl Kit 2.<\/a><\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#323335",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "2972447f-06ab-4b1f-844f-4c9df9396c16": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/neddle_v2.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "NEEDLE PRESSURE",
+            "content": "<p>For the cartridge to work as intended, it is also important that it has the right amount of pressure into the groove. This is also sometimes referred to as downforce or VTF (Vertical Tracking Force). First of all, look in the data sheet for the cartridge, or on the manufacturer's website, and see what amount of pressure the manufacturer recommends. Usually, it’s between 1.5 – 3 grams.<\/p><p>To adjust the needle pressure, use the counterweight – the small, round weight located at the back of the tone arm. For our turntables here are the correct settings (with the standard pickup):<\/p><p>TT: 3 grams<br\/>TT-3: 1.75 grams<\/p><p>Start by finding the point where the tone arm with the cartridge mounted is “floating” in the air because there is no down force applied. This is found by adjusting the counterweight forward or backward on the arm until you can let go of the arm and it does not move up or down. NOTE! Remember to remove the protective cap on the cartridge before adjustment.<\/p><p>When the weight is adjusted so the arm is \"floating\", you hold on to the weight itself and turn the small scale so that the 0 is at 12 o’clock – signifying that there is no weight added to the arm. This small scale can be rotated independently of the large weight. Now, turn both the counterweight and the scale towards the arm until the correct weight is applied to the cartridge.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#323335",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "c90856d5-b2fd-4d85-9c8c-a848fb307338": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/neddle.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "ANTI-SKATING",
+            "content": "<p>Anti-skating typically consists of a small weight in a string or a magnetic mechanism, which holds the arm back and prevents it from just speeding towards the center of the record. Typically, anti-skating must be set to the same value as the needle pressure. So if, for example, the needle pressure is 1.75 grams, anti-skating should be set to the same, or in the same range (1-2 grams).<\/p><p><em>Argon Audio TT has built-in anti-skating which cannot be adjusted but is tuned to the pickup.<\/em><\/p><p>This covers all the basics of setting up a turntable; if you have done all this, then you are ready to start playing your records!<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#323335",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18164129759544__df3674cd-6238-46bd-b362-c46fd1f11e02-16775195149610dfe5-0",
+        "4eb453df-8e4f-4050-8c80-7ec845c9beef",
+        "2972447f-06ab-4b1f-844f-4c9df9396c16",
+        "c90856d5-b2fd-4d85-9c8c-a848fb307338"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "22de4d31-f900-448c-9f25-f504660d4d66": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18185923002697__22de4d31-f900-448c-9f25-f504660d4d66-16780912832eabb7e5-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "Discovering the timeless appeal of Turntables"
+          }
+        },
+        "template--18185923002697__22de4d31-f900-448c-9f25-f504660d4d66-16780912832eabb7e5-1": {
+          "type": "heading",
+          "settings": {
+            "text": "An In-Depth Guide",
+            "heading_tag": "h2"
+          }
+        },
+        "template--18185923002697__22de4d31-f900-448c-9f25-f504660d4d66-16780912832eabb7e5-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>This article will explore the technical aspects of turntables and explain how incorporating them into your home and setup can enhance your music experience and even up your cool factor.<\/p>"
+          }
+        },
+        "619943a0-8f72-4099-9ddc-c0f27d71dd49": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Read more",
+            "link_url_page": "",
+            "url": "shopify:\/\/pages\/insights-turntables",
+            "text-color": "#ffffff",
+            "button_background": "#000000",
+            "button_border_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "template--18185923002697__22de4d31-f900-448c-9f25-f504660d4d66-16780912832eabb7e5-0",
+        "template--18185923002697__22de4d31-f900-448c-9f25-f504660d4d66-16780912832eabb7e5-1",
+        "template--18185923002697__22de4d31-f900-448c-9f25-f504660d4d66-16780912832eabb7e5-2",
+        "619943a0-8f72-4099-9ddc-c0f27d71dd49"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "sm",
+        "image": "shopify:\/\/shop_images\/Turntables_DESKTOP_68973b80-f3d1-4a8f-a315-3995d442f109.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c03fa2f7-d125-476c-9e1b-de3afd2543de",
+    "7674864b-bfdb-41fe-bad4-83c0cf2953e6",
+    "c04d219c-3532-40af-854a-70b55122eb8c",
+    "df3674cd-6238-46bd-b362-c46fd1f11e02",
+    "22de4d31-f900-448c-9f25-f504660d4d66"
+  ]
+}

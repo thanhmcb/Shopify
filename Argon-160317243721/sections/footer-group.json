@@ -1,0 +1,195 @@
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "faq_mcb_rEAM7n": {
+      "type": "faq-mcb",
+      "blocks": {
+        "item_MQNiTw": {
+          "type": "item",
+          "settings": {
+            "title": "What is your return policy?",
+            "content": "<p>Enjoy a risk-free 30-day return policy with free return shipping. If you are not satisfied with the product or the product does not work as intended, you can simply return it for a full refund or exchange it for the same product.<\/p><p>To initiate a product return, please follow these steps:<\/p><ul><li>Request the return\/exchange directly on our website: <a href=\"https:\/\/argonaudio.returnscenter.com\/\" title=\"https:\/\/argonaudio.returnscenter.com\/\">https:\/\/argonaudio.returnscenter.com\/<\/a><\/li><li>Once your request is approved, we will send you a shipping label via email.<\/li><li>Ensure that you send back the product in its original box and with all of its accessories.<\/li><li>Drop off the parcel at your local post office (you will find a list of partner locations in the confirmation email).<\/li><li>Upon receiving and verifying the package's condition, you can expect a refund within 14 business days.<br\/><br\/><strong>DHL Returns<\/strong>: Once your return parcel reaches DHL's parcel center in Neumünster, Germany, it is typically received at our Danish headquarters within a few days.<br\/><br\/><strong>PostNord Returns<\/strong> (Scandinavia only): Parcels are delivered directly to our headquarters in Denmark.<\/li><\/ul><p>Read more about our refund policy here: <a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">https:\/\/argonaudio.com\/policies\/refund-policy<\/a><br\/><\/p>"
+          }
+        },
+        "item_KkJbYQ": {
+          "type": "item",
+          "settings": {
+            "title": "Shipping & handling",
+            "content": "<ul><li>Currently, our shipping services are limited to countries within the European Union. <\/li><li>If there are any shipping charges, they will be calculated and added to your total during the checkout process.<\/li><li>Orders under €49 are subject to shipping charges of €5.<\/li><li>Free shipping on orders over €49.<\/li><li>All product prices listed on our website already include taxes.<\/li><\/ul>"
+          }
+        },
+        "item_ymRxxf": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take for my order to arrive?",
+            "content": "<ul><li>Once dispatched from our warehouse in Denmark, delivery typically takes 2-4 business days, although this can vary based on your location. <\/li><li>The shipping time starts from when the package leaves Denmark to when it reaches its destination.<\/li><li>Be aware that shipping times may be extended due to external factors such as force majeure events and public holidays.<\/li><li>Typically, shipments to Malta and Cyprus are expected to reach the customer within 7 to 10 days.<\/li><li>You'll receive delivery details, including track and trace information, in your confirmation email. If you don't receive these details, feel free to reach out to our customer support at support@argonaudio.com.<\/li><\/ul>"
+          }
+        },
+        "item_B63793": {
+          "type": "item",
+          "settings": {
+            "title": "Where do I find product manuals and firmware updates?",
+            "content": "<ul><li>Visit this link to access manuals for all our latest products: <a href=\"\/pages\/support\" title=\"Support\">Support Manuals<\/a><\/li><li>Should you have trouble locating the manual for your item, don't hesitate to contact our customer support at support@argonaudio.com.<\/li><li>For firmware updates, including their release dates, please click here: <a href=\"\/pages\/firmware-updates\" title=\"Firmware Update\">Firmware Updates<\/a><\/li><\/ul>"
+          }
+        },
+        "item_3ydTU8": {
+          "type": "item",
+          "settings": {
+            "title": "Where is my order?",
+            "content": "<p>For the most current information regarding your order, please use the track and trace link sent to you in your shipment confirmation email. This will provide real-time updates on the location and status of your order.<\/p><ul><li><a href=\"https:\/\/www.dhl.com\/dk-en\/home\/tracking.html\" target=\"_blank\" title=\"https:\/\/www.dhl.com\/ home\/tracking\/tracking-ecommerce.html\">DHL Tracking<\/a><\/li><li><a href=\"https:\/\/www.postnord.dk\/en\/tools\/track-and-trace\" target=\"_blank\" title=\"https:\/\/www.postnord.dk\/en\/tools\/track-and-trace\">PostNord Tracking<\/a><\/li><\/ul><p>If your parcel is taking longer than expected to arrive, we understand your concern. Please contact our dedicated customer support team at support@argonaudio.com.<\/p><p><em>Note: If your parcel's tracking status hasn't updated for over 7 days, please contact us. We'll promptly investigate with the carrier to resolve the issue swiftly.<\/em><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_MQNiTw",
+        "item_KkJbYQ",
+        "item_ymRxxf",
+        "item_B63793",
+        "item_3ydTU8"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "We're here to help",
+        "content": "<p>Have a question about our products or service? Please, hit us up! We'll get back to you as soon as possible.<\/p>",
+        "team_avatar_width": 200,
+        "support_hours": "Average answer time: 24h. Our customer support is available Monday to Friday.",
+        "answer_time": "Write to us at support@argonaudio.com",
+        "button_text": "Support",
+        "button_url": "shopify:\/\/pages\/support",
+        "text_position": "start",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "text-with-icons": {
+      "type": "text-with-icons",
+      "blocks": {
+        "free-shipping": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-recycle",
+            "mobile_icon_width": 24,
+            "icon_width": 24,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "30-day free return",
+            "content": ""
+          }
+        },
+        "customer-support": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-truck",
+            "mobile_icon_width": 24,
+            "icon_width": 24,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Free shipping over €49",
+            "content": ""
+          }
+        },
+        "discount": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-star",
+            "mobile_icon_width": 24,
+            "icon_width": 24,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "3 years warranty",
+            "content": ""
+          }
+        },
+        "payment": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-customer-support",
+            "mobile_icon_width": 24,
+            "icon_width": 24,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Best-in-class Support",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "free-shipping",
+        "customer-support",
+        "discount",
+        "payment"
+      ],
+      "settings": {
+        "full_width": true,
+        "title": "",
+        "heading_tag": "h6",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "#1a1a1a",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shipping_2024.png",
+            "image_width": 300,
+            "heading_size": "h6",
+            "title": "Sign up for new stories and personal offers",
+            "content": ""
+          }
+        },
+        "links": {
+          "type": "links",
+          "settings": {
+            "menu": "footer-menu",
+            "show_menu_title": false
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "content": "<p>Argon Audio is a Danish audio company founded 20 years ago with a clear goal: to deliver high-quality products at value-for-money prices. All of our products are designed and engineered in Denmark with superior performance and a Scandinavian design.<\/p><p>Argon Audio A\/S<br\/>support@argonaudio.com<br\/>Dali Alle 1, DK-9610 Nørager<br\/>VAT: DK39551713<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "newsletter",
+        "links",
+        "text"
+      ],
+      "settings": {
+        "show_social_media": true,
+        "show_payment_icons": true,
+        "show_mcb_language_switcher": true,
+        "show_country_selector": false,
+        "show_country_flag": false,
+        "show_country_name": false,
+        "show_locale_selector": true
+      }
+    }
+  },
+  "order": [
+    "faq_mcb_rEAM7n",
+    "text-with-icons",
+    "footer"
+  ]
+}
