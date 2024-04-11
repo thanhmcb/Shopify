@@ -80,3 +80,11 @@
   background: var(--BTN-BACK-TO-STOCK-BG-COLOR);
   color: var(--BTN-BACK-TO-STOCK-TEXT-COLOR);
 }
+
+@media only screen and (max-width: 749px) {
+  .SI_trigger{
+    font-size: 12px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
