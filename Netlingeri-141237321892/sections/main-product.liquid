@@ -897,7 +897,10 @@
               <div class="product-collection--heading">{{ block.settings.title}}</div>
               <div class="product-collection--items">
                 {% for collection in product.collections %}
-                  {{- collection.title | link_to: collection.url }}
+                  {%-  unless collection.metafields.custom.show_related == false -%}
+                    {{- collection.title | link_to: collection.url }} 
+                  {%- endunless -%}
+                          
                   {% endfor %}
               </div>
             </div>
