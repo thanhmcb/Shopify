@@ -9,7 +9,7 @@ Custom MCB section
 {% assign gradient2 = section.settings.gradient_color | hex_to_rgba: 1 %}
 
 {%- if full_description != blank -%}
-   <div {% render 'section-properties' %}>
+   <div {% render 'section-properties' %} id="{{section.settings.section-id}}">
     <collection-description class="{{ section.id }}-collection-description prose collection-description">
       {{ full_description }}
       <div class="description-overlay"></div>
@@ -33,6 +33,12 @@ Custom MCB section
     "groups": ["custom.overlay"]
   },
   "settings": [
+    {
+        "type": "text",
+        "id": "section-id",
+        "label": "Section ID",
+        "info": "To be used with scroll menu"
+      },
        {
       "type": "color",
       "id": "gradient_color",

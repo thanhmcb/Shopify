@@ -40,7 +40,7 @@
   ------------------------------------------------------------------------------------------------------------------------
 {%- endcomment -%}
 
-<div {% render 'section-properties' %}>
+<div {% render 'section-properties' %} id="{{section.settings.section-id}}">
   <media-with-text class="media-with-text {% if section.settings.spacing == 'none' %}{% if section.settings.full_width %}full-bleed{% else %}rounded{% endif %}{% endif %}">
     {%- for block in section.blocks -%}
       <div id="block-{{ section.id }}-{{ block.id }}" class="media-with-text__item" {{ block.shopify_attributes }}>
@@ -205,6 +205,12 @@
       "info": "Only has effect when spacing is set to none.",
       "default": false
     },
+    {
+        "type": "text",
+        "id": "section-id",
+        "label": "Section ID",
+        "info": "To be used with scroll menu"
+      },
     {
       "type": "checkbox",
       "id": "enable_parallax",

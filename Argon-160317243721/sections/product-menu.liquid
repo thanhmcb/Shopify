@@ -12,40 +12,7 @@
   {%- endif -%}
 </ul>
 
-<script>
-  (function ($) {
-    $(function () {
-      const productMenuSelector = '.product-menu a';
-      const toggleClassName = 'active';
 
-      function isInViewport(elm) {
-        let vpH = $(window).height(),
-                st = $(window).scrollTop(),
-                y = $(elm).offset().top,
-                elementHeight = $(elm).height();
-        return y < vpH + st - vpH * 0.4 && y > st - elementHeight + vpH * 0.3;
-      }
-
-      const handleProductMenuScroll = function (event) {
-        $(productMenuSelector).each(function () {
-          let menuItem = $(this);
-          if ($(menuItem.attr('href')).length) {
-            if (isInViewport($(menuItem.attr('href')))) {
-              $(productMenuSelector).removeClass(toggleClassName);
-              menuItem.addClass(toggleClassName);
-              return false;
-            } else {
-              menuItem.removeClass(toggleClassName);
-            }
-          }
-        });
-      };
-
-      handleProductMenuScroll();
-      $(document).on({ scroll: handleProductMenuScroll });
-    });
-  })(jQuery);
-</script>
 
 {% schema %}
   {

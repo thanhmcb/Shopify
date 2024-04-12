@@ -54,7 +54,7 @@ CSS
 ------------------------------------------------------------------------------------------------------------------------
 LIQUID
 ------------------------------------------------------------------------------------------------------------------------
-{%- endcomment -%}<div {% render 'section-properties' %}{%- if request.page_type == 'product' -%}id="{{section.settings.section-id}}"{%- endif -%}>
+{%- endcomment -%}<div {% render 'section-properties' %}id="{{section.settings.section-id}}">
   <div class="section-stack {% if text_position != 'center' %}section-stack--horizontal{% else %}section-stack--center{% endif %} {% if text_position == 'end' %}section-stack--reverse{% endif %}">
     {%- if section.settings.subheading != blank or section.settings.title != blank or section.settings.content != blank or section.settings.button_text != blank -%}
       <div class="section-stack__intro">
@@ -267,7 +267,7 @@ LIQUID
         "type": "text",
         "id": "section-id",
         "label": "Section ID",
-        "info": "Only for product page"
+        "info": "To be used with scroll menu"
       },
       {
         "type": "header",

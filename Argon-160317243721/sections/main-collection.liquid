@@ -60,7 +60,7 @@
   }
 </style>
 
-<div class="container">
+<div class="container" id="{{section.settings.section-id}}"></div> 
   {%- if collection.all_products_count == 0 -%}
     <div class="empty-state">
       <div class="empty-state__icon-wrapper">
@@ -576,6 +576,12 @@
     }
   ],
   "settings": [
+    {
+        "type": "text",
+        "id": "section-id",
+        "label": "Section ID",
+        "info": "To be used with scroll menu"
+      },
     {
       "type": "range",
       "id": "products_per_page",

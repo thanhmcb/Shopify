@@ -7,7 +7,7 @@
     }
   </style>
 
-  <div {% render 'section-properties' %}>
+  <div {% render 'section-properties' %} id="{{section.settings.section-id}}" >
     {%- assign text_position = section.settings.text_position -%}
     {%- assign blocks_before_divider = '' -%}
     {%- assign blocks_after_divider = '' -%}
@@ -147,6 +147,12 @@
       "label": "Full width",
       "default": true
     },
+    {
+        "type": "text",
+        "id": "section-id",
+        "label": "Section ID",
+        "info": "To be used with scroll menu"
+      },
     {
       "type": "select",
       "id": "content_width",

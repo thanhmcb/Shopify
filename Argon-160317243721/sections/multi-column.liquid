@@ -27,7 +27,7 @@
     }
   </style>
 
-  <div {% render 'section-properties' %}>
+  <div {% render 'section-properties' %} id="{{section.settings.section-id}}">
     <div class="section-stack">
       {%- render 'section-header',
         subheading: section.settings.subheading,
@@ -127,6 +127,12 @@
       "label": "Full width",
       "default": true
     },
+    {
+        "type": "text",
+        "id": "section-id",
+        "label": "Section ID",
+        "info": "To be used with scroll menu"
+      },
     {
       "type": "checkbox",
       "id": "stack_on_mobile",
