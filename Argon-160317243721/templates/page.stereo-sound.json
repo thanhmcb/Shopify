@@ -1,0 +1,262 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "c03fa2f7-d125-476c-9e1b-de3afd2543de": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18164129759544__c03fa2f7-d125-476c-9e1b-de3afd2543de-16775188529c67ba76-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Why Music Sounds Better in Stereo",
+            "heading_tag": "h1"
+          }
+        },
+        "template--18164129759544__c03fa2f7-d125-476c-9e1b-de3afd2543de-16775188529c67ba76-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Why It Matters for Your Audio Experience<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18164129759544__c03fa2f7-d125-476c-9e1b-de3afd2543de-16775188529c67ba76-1",
+        "template--18164129759544__c03fa2f7-d125-476c-9e1b-de3afd2543de-16775188529c67ba76-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "enable_parallax": false,
+        "image_size": "sm",
+        "image": "shopify:\/\/shop_images\/Stereo_DESKTOP.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Stereo_Mobile.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "7674864b-bfdb-41fe-bad4-83c0cf2953e6": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17265392419128__7674864b-bfdb-41fe-bad4-83c0cf2953e6-16750754821e6a0faa-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Stereo sound has the power to bring music to life. It's like adding extra sprinkles to your ice cream sundae or seeing the world in all its vivid, breathtaking colours. If you've ever wondered why music sounds better in stereo, it's because it enables you to hear the full range of frequencies and nuances that constitute a track, making you feel like you're immersed in the action. In this article, we'll explore stereo sound in detail and guide you on how to maximize your listening experience.<\/p>"
+          }
+        },
+        "e071e0b2-75c1-449d-8f9e-5771728174d5": {
+          "type": "heading",
+          "settings": {
+            "text": "Wait… What is stereo sound?",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "5b9b1fc4-3e3b-409b-980e-7948a723717f": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Stereo sound is a type of audio that uses two separate channels, left and right, to produce sound. To achieve a real stereo experience, you need two speakers – a left speaker and a right speaker – that collaborate to produce a wide soundstage that envelops the listener, making it feel as if the sound is coming from all around them. This is why all our active and passive speakers are sold in pairs (sets).<\/p>"
+          }
+        },
+        "0b79db68-1a53-4855-bd51-f4205d6d49a9": {
+          "type": "heading",
+          "settings": {
+            "text": "Why Music Sounds Better in Stereo",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "9a1cf4e4-e4db-4d04-abba-f23003a9c42e": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>In the real world, we experience sound in stereo because our ears are positioned on either side of our heads, enabling us to hear sounds from different directions. When we listen to music in stereo, it's like we're standing in the middle of a concert, with the sound swirling all around us. It provides us with a more immersive and engaging listening experience.<\/p><p>Let's face it, a poor-quality audio system like plastic soundbars and cheap streaming speakers with mono sound can ruin even the best tracks, robbing them of their power and emotion. Listening to mono sound is like listening to a story told in black and white. It's just plain boring. Stereo sound, on the other hand, is like watching a story in full colour. It's vibrant, captivating, and brings the audio to life.<\/p><p>With stereo sound, sounds can be positioned in a specific location, giving the listener a better sense of the sound's direction and location. This makes the audio feel more real and engaging.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17265392419128__7674864b-bfdb-41fe-bad4-83c0cf2953e6-16750754821e6a0faa-2",
+        "e071e0b2-75c1-449d-8f9e-5771728174d5",
+        "5b9b1fc4-3e3b-409b-980e-7948a723717f",
+        "0b79db68-1a53-4855-bd51-f4205d6d49a9",
+        "9a1cf4e4-e4db-4d04-abba-f23003a9c42e"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "df3674cd-6238-46bd-b362-c46fd1f11e02": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--18164129759544__df3674cd-6238-46bd-b362-c46fd1f11e02-16775195149610dfe5-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/quality.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "The Importance of Good Sound",
+            "title": "Why Quality Matters",
+            "content": "<p>Sound is an essential part of our daily lives, from the music we listen to, to the movies and games we play. Yet, despite its importance, many people don't give much thought to the quality of sound they experience. We honestly think that’s a shame!<\/p><p>Good sound is about more than just volume; it's about clarity, balance, and the ability to accurately reproduce the sound that was intended. When sound is of high quality, it enhances our experience and makes it more enjoyable. On the other hand, poor sound quality can be frustrating, making it difficult to understand dialogue or enjoy music.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#323335",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18164129759544__df3674cd-6238-46bd-b362-c46fd1f11e02-16775195149610dfe5-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "372faa89-3616-4280-a9bb-4053283ad693": {
+      "type": "rich-text",
+      "blocks": {
+        "b778a4cb-dac0-4c2a-809e-ef47626c6dc4": {
+          "type": "subheading",
+          "settings": {
+            "text": "Improving Your Listening Experience"
+          }
+        },
+        "template--18164129759544__372faa89-3616-4280-a9bb-4053283ad693-167751962899fe76be-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Gear and Good Behavior",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "3b6e0922-b32e-40bd-8679-654953f45ff8": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>If you want to take your music listening experience to the next level, there are a few things you can do. First, find a quiet space to really immerse yourself in the music and hear all its nuances.<\/p><p>Experiment with speaker placement to find the best position for your speakers, and don't be afraid to listen critically. Pay attention to the different instruments and how they're mixed together and try to pick out individual sounds and details that you may have missed before. This will help you appreciate the music on a deeper level and give you a greater appreciation for stereo sound.<\/p><p>To sum up, stereo sound is the key to unlocking a truly immersive and memorable music experience. It's like adding extra cheese to your pizza or a cherry on top of your cake. To fully enjoy your music, it is important to invest in quality gear. Whether you prefer active or passive speakers, the key is to find equipment that can accurately reproduce music according to your preferences. <\/p>"
+          }
+        },
+        "a5ccabc6-7f1c-4851-bcd6-c4b7377db08c": {
+          "type": "heading",
+          "settings": {
+            "text": "Active vs. Passive Speakers",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "48e1e4dd-ef31-465f-b574-8032f13b1068": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>There are two main types of speakers: active and passive. Active speakers have built-in amplifiers, so they don't need a separate amp. They're usually easier to set up and can offer better performance in smaller spaces. On the other hand, passive speakers require an external amplifier to power them. They can be more challenging to set up, but they offer more flexibility and can deliver better performance in larger rooms. Choosing between the two is like choosing between a cat and a dog – both have their pros and cons, and it ultimately comes down to personal preference.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "b778a4cb-dac0-4c2a-809e-ef47626c6dc4",
+        "template--18164129759544__372faa89-3616-4280-a9bb-4053283ad693-167751962899fe76be-1",
+        "3b6e0922-b32e-40bd-8679-654953f45ff8",
+        "a5ccabc6-7f1c-4851-bcd6-c4b7377db08c",
+        "48e1e4dd-ef31-465f-b574-8032f13b1068"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "19f6b367-cab9-4aae-8e53-0b96fca49db2": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "speakers",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 50,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "55c89bfc-b3af-4019-9125-a5ad09737adc": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--18179945759049__55c89bfc-b3af-4019-9125-a5ad09737adc-16778516199dfa29be-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/argon.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Our mission at Argon Audio",
+            "content": "<p>You don't have to spend a fortune, but you should aim for gear that is well-built and capable of producing clean, accurate sound. It's like buying a good pair of sneakers that won't fall apart after a few uses. At Argon Audio, our mission is to provide affordable high-quality audio gear that not only sounds great but also looks great.<\/p><p>This is the very essence of Argon Audio. Music is an essential part of life, and everyone should have access to high-quality audio equipment. We strive to satisfy your eyes, your ears, and your music-loving soul, without compromising your wallet. And that’s a promise.<\/p><p>So, turn up the volume, close your eyes, and let stereo sound take you on a journey you'll never forget! And if anyone complains about the noise, just tell them you're spreading joy to everyone like a musical Santa Claus.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18179945759049__55c89bfc-b3af-4019-9125-a5ad09737adc-16778516199dfa29be-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c03fa2f7-d125-476c-9e1b-de3afd2543de",
+    "7674864b-bfdb-41fe-bad4-83c0cf2953e6",
+    "df3674cd-6238-46bd-b362-c46fd1f11e02",
+    "372faa89-3616-4280-a9bb-4053283ad693",
+    "19f6b367-cab9-4aae-8e53-0b96fca49db2",
+    "55c89bfc-b3af-4019-9125-a5ad09737adc"
+  ]
+}

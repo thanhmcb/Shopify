@@ -1,0 +1,119 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "d1b0a070-eb74-4622-9b8e-e13a2a6578c0": {
+      "type": "faq",
+      "blocks": {
+        "template--17265392156984__d1b0a070-eb74-4622-9b8e-e13a2a6578c0-16750734342923d299-0": {
+          "type": "item",
+          "settings": {
+            "title": "What is your return policy?",
+            "content": "<p>You always get 30-day free return. If you end up not liking the product (we doubt it, but hear us out), you can always return it within 30 days and get your money back. We'll even pay for the return shipping, so you can try it out consequence-free.<\/p>"
+          }
+        },
+        "template--17265392156984__d1b0a070-eb74-4622-9b8e-e13a2a6578c0-16750734342923d299-1": {
+          "type": "item",
+          "settings": {
+            "title": "Do you ship internationally?",
+            "content": "<p>Currently, we only ship to countries within the EU. Shipping costs will apply, and will be added at checkout. <\/p>"
+          }
+        },
+        "template--17265392156984__d1b0a070-eb74-4622-9b8e-e13a2a6578c0-16750734342923d299-2": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take for my order to arrive?",
+            "content": "<p>Delivery usally takes 2-5 business days to arrive. It depends on where you are. Delivery details will be provided in your confirmation email.<\/p><p>The shipping time is the estimated time from when the package leaves our warehouse in Denmark until it reaches its destination.<\/p>"
+          }
+        },
+        "1c370e4c-4712-47a6-a282-94fefc70612d": {
+          "type": "item",
+          "settings": {
+            "title": "How can I track my order?",
+            "content": "<p>Once your order is shipped, we'll send you an email with a tracking number so you can keep an eye on your package as it travels from one country to another.<br\/><br\/>We ship using PostNord, DPD, and DHL.<\/p>"
+          }
+        },
+        "1fbad5fa-4add-432a-8748-8702c1ebc503": {
+          "type": "item",
+          "settings": {
+            "title": "Are there any additional fees for shipping or handling?",
+            "content": "<p>All products have tax included. Shipping calculated at checkout. We believe that our products will talk for themselves once you hear them, that's why we offer free shipping when you order for €49 or more.<\/p>"
+          }
+        },
+        "3ac2753f-317b-4ee4-9759-6ebd75552b7b": {
+          "type": "item",
+          "settings": {
+            "title": "Where do I find product manuals?",
+            "content": "<p>Below you'll find links to our manuals and frequently asked questions about our products.<\/p><p><a href=\"\/pages\/support-manuals\" title=\"Support & Manuals\">MANUALS & DOWNLOADS<\/a><\/p>"
+          }
+        },
+        "b773663b-94e6-46dc-8b04-3ca046a4df0e": {
+          "type": "item",
+          "settings": {
+            "title": "What if I receive a damaged item?",
+            "content": "<p>Contact us immediately and we'll send you a replacement.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17265392156984__d1b0a070-eb74-4622-9b8e-e13a2a6578c0-16750734342923d299-0",
+        "template--17265392156984__d1b0a070-eb74-4622-9b8e-e13a2a6578c0-16750734342923d299-1",
+        "template--17265392156984__d1b0a070-eb74-4622-9b8e-e13a2a6578c0-16750734342923d299-2",
+        "1c370e4c-4712-47a6-a282-94fefc70612d",
+        "1fbad5fa-4add-432a-8748-8702c1ebc503",
+        "3ac2753f-317b-4ee4-9759-6ebd75552b7b",
+        "b773663b-94e6-46dc-8b04-3ca046a4df0e"
+      ],
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "",
+        "team_avatar": "shopify:\/\/shop_images\/sprog_2f521c01-7d41-4a3b-b464-5b12a1c74671.png",
+        "team_avatar_width": 160,
+        "support_hours": "Our customer support is available Monday to Friday.",
+        "answer_time": "Average answer time: 24h",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "#ffffff",
+        "accordion_text_color": ""
+      }
+    },
+    "contact": {
+      "type": "contact",
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "Contact Us",
+        "content": "<p>We're here to help! If you have any questions or concerns, please don't hesitate to reach out. Our dedicated customer service team is always ready to assist you. If you have a product-related question, and you bought your product at a local retailer, we recommend that you contact them directly first for the best and fastest support in your native language.<\/p><p>We value your feedback and suggestions, so please don't hesitate to let us know how we can improve. We look forward to hearing from you!<\/p>",
+        "text_position": "center",
+        "contact_form_size": "large",
+        "background": "#f5f5f5",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "#ffffff",
+        "contact_text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "d1b0a070-eb74-4622-9b8e-e13a2a6578c0",
+    "contact"
+  ]
+}

@@ -1,0 +1,140 @@
+{%- comment -%}
+------------------------------------------------------------------------------------------------------------------------
+Custom MCB section
+------------------------------------------------------------------------------------------------------------------------
+{%- endcomment -%}
+
+{% assign full_description = collection.description %}
+{% assign gradient = section.settings.gradient_color | hex_to_rgba: 0 %}
+{% assign gradient2 = section.settings.gradient_color | hex_to_rgba: 1 %}
+
+{%- if full_description != blank -%}
+   <div {% render 'section-properties' %} id="{{section.settings.section-id}}">
+    <collection-description class="{{ section.id }}-collection-description prose collection-description">
+      {{ full_description }}
+      <div class="description-overlay"></div>
+    </collection-description>
+    
+    <div class="{{ section.id }}-collection-moreless-button collection-moreless-button">
+      <button class="text-with-icon group">
+        <span class="collection-moreless-button_text">{{ section.settings.read_more_text -}}</span>
+        <span class="circle-chevron group-hover:colors">{%- render 'icon' with 'chevron-bottom-small' -%}</span>
+      </button>
+    </div>
+  </div>
+
+{% endif %}
+{% schema %}
+{
+  "name": "Collection desc... - MCB",
+  "class": "shopify-section--collection-description",
+  "tag": "section",
+  "disabled_on": {
+    "groups": ["custom.overlay"]
+  },
+  "settings": [
+    {
+        "type": "text",
+        "id": "section-id",
+        "label": "Section ID",
+        "info": "To be used with scroll menu"
+      },
+       {
+      "type": "color",
+      "id": "gradient_color",
+      "label": "Gradient Color fade",
+          "default": "#F5F5F5"
+    },
+    {
+      "type": "number",
+      "id": "max_height",
+      "label": "Hight of the description to crop",
+      "default": 100,
+      "info":"only work if the setting smaller than the description height"
+    },
+    {
+      "type": "text",
+      "id": "read_more_text",
+      "label": "Read more button text",
+      "default": "Read More"
+    },
+    {
+      "type": "text",
+      "id": "read_less_text",
+      "label": "Read less button text",
+      "default": "Read Less"
+    }
+    
+  ],
+  "presets": [
+    {
+      "name": "Collection description"
+    }
+  ]
+}
+{% endschema %}
+
+<style>
+  .collection-description.hide-overlay .description-overlay {
+  opacity: 0;
+   }
+  
+  .description-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to bottom, {{ gradient }}, {{ gradient2 }});
+    pointer-events: none;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 3;
+}
+</style>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script>
+
+
+    var maxHeightToShow = {{section.settings.max_height}};
+    var moretext = "{{ section.settings.read_more_text | escape}}";
+    var lesstext = "{{ section.settings.read_less_text  | escape}}";
+    var descriptionContainer = $('.collection-description');
+    var descriptionHight = descriptionContainer.height(); 
+    var overlay = $('.description-overlay');
+
+    var buttonReadMore = $('.collection-moreless-button');
+    let isMobile = window.matchMedia("only screen and (max-width: 699px)").matches;
+    if(descriptionHight > maxHeightToShow ){
+      buttonReadMore.css( 'display','flex' );
+      if (isMobile) {
+        if ( maxHeightToShow <= 30) {
+          descriptionContainer.css({ "height": maxHeightToShow * 3, "overflow": "hidden"});
+        } else {
+          descriptionContainer.css({ "height": maxHeightToShow , "overflow": "hidden"});
+        }
+      } else{
+        descriptionContainer.css({ "height": maxHeightToShow, "overflow": "hidden"})
+      }
+    }else {
+          overlay.css('opacity','0');
+    }
+      
+    buttonReadMore.click(function() {
+      descriptionContainer.toggleClass('hide-overlay');     
+      var buttonText = $('.collection-moreless-button_text');
+      var icon = $('.collection-moreless-button .icon');
+      if (buttonText.text() === moretext) {
+        descriptionContainer.css({ "overflow": "visible" });
+       descriptionContainer.animate({height: descriptionHight});
+        buttonText.text(lesstext);
+       icon.css('transform','rotate(180deg)');
+      } else {
+        descriptionContainer.css({ "overflow": "hidden" });
+        buttonText.text(moretext);
+       descriptionContainer.animate({height: maxHeightToShow});
+        icon.css('transform','rotate(0)');     
+      }
+  });
+ 
+</script>
