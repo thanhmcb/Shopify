@@ -1,0 +1,125 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "section_slideshow_tzLBqh": {
+      "type": "section-slideshow",
+      "blocks": {
+        "image_KQeQK7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Wild_Distillery_Bornholm_Opalsoeen_Hammershus.jpg",
+            "alignment": "left",
+            "title": "Vores Natur",
+            "text": "<p>Navnet Wild Distillery stammer fra en værdsættelse af den rå og vilde natur som findes på Bornholm. Fra de saltede klippekyster til de vilde skovområder. Naturen er noget, der har en særlig betydning for os og vi vil være med til at passe på den. Derfor gør vi hvad vi kan for at bidrage til bæredygtighed, økologi og grøn omstilling.</p>",
+            "link_style": "c-btn c-btn--hollow",
+            "link_title": "",
+            "link": "",
+            "link_style_2": "c-btn c-btn--primary",
+            "link_title_2": "",
+            "link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_KQeQK7"
+      ],
+      "settings": {
+        "style": "semi",
+        "title_size": 3,
+        "autoplay": true,
+        "autoplay_speed": 8,
+        "nav_style": "solid-brand",
+        "nav_arrows": false,
+        "slideshow_height": "small",
+        "slideshow_width": "full",
+        "text_color": "#111111",
+        "text_heading_color": false,
+        "text_border_color": true,
+        "text_bg_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_strength": 10,
+        "section-bottom-margin": false
+      }
+    },
+    "section_image_with_text_overlap_h7Czq4": {
+      "type": "section-image-with-text-overlap",
+      "blocks": {
+        "image_iDhwqU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Original_dry_ingredi-2.jpg",
+            "title": "Økologiske og lokale råvarer",
+            "desc": "<p>Vi elsker at lave vilde og anderledes smagsnuancer til vores gin, prøve ting af der aldrig er set før og samtidig bevare den nordiske produktionsstil, ren, klar, kvalitet. I vores ENE serie finder du blandt andet smagsnuancer som tomat, rosmarin og hamp. Alle råvarer i vores produktion er økologiske, det gør sig gældende for råspritten såvel som de håndplukkede enebær, som indehaver Henrik, sanker om efteråret. </p><p></p><p>Med vores placering og kærlighed til Bornholm, ligger det os naturligt at bruge lokale råvarer. Hvilket vi forsøger at gøre så meget som det overhoved er muligt. Vores Wild serie er udelukkende produceret på håndplukkede vilde enebær.  I ENE serien finder du blandt andet vores Hemp gin, der er destilleret med økologisk bornholmsk hamp fra de smukke hampmarker i Østermarie og vores Rhubarb gin der er destilleret med rabarber rester fra Bornholms Mosteri. </p>",
+            "horizontal_align": "left",
+            "link_title": "",
+            "link": "",
+            "bg_color_block": "#0a2d27",
+            "bg_color_content": "#ffffff",
+            "color_text": "#212121",
+            "text_heading_color": false,
+            "text_border_color": true
+          }
+        },
+        "image_cwt87E": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Nyt_anlaeg.jpg",
+            "title": "Produktion",
+            "desc": "<p>Vi producerer langt størstedelen af vores gin og vodka om vinteren, på den måde kan vi bruge den varme som destilleringsapparatet afgiver, til at varme bygningen op. Destilleringsapparatet fungerer nemlig lidt som en radiator. I Destilleringsprocessen bliver indholdet varmet op til 80-90 grader og de store kobberkedler fungerer som en varmegenerator. På den måde sparer vi på opvarmning og udledning i vores radiatorer. </p><p></p><p>De glasflasker ginnen bliver tappet i, bliver produceret af et fransk firma, der blandt andet arbejder med at reducere deres CO2 aftryk samt optimere brugen af ressourcer. Siden 2009 har de formået at reducerer deres CO2 aftryk med 11% og de har fået anlagt et stort regnvandsanlæg der kan dække 60% af virksomhedens vandforbrug. For at hjælpe med at spare på udledningen af CO2, har vi valgt, kun at få leveret vores varer fra Frankrig én gang om året. På den måde sparer vi turen fra Frankrig til Danmark flere gange årligt..</p>",
+            "horizontal_align": "left",
+            "link_title": "",
+            "link": "",
+            "bg_color_block": "#0a2d27",
+            "bg_color_content": "#ffffff",
+            "color_text": "#212121",
+            "text_heading_color": false,
+            "text_border_color": true
+          }
+        },
+        "image_Aad8qB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Wild_Distillery_Bornholm_Henrik_Nerst_Destilleringsapperat2.jpg",
+            "title": "I nærmeste fremtid",
+            "desc": "<p>Vi har haft stor vækst i virksomheden og vi har derfor haft behov for at udvide vores produktion og indkøbe et større destilleringsapparat. Vi ville gerne finde en løsning hvorpå vi kunne udvide produktionen samtidig med at vi også passede på vores miljø. Vi er med hjælp fra EU, kommet frem til en løsning hvor dette kan lade sig gøre. Det nye destilleringsapparat vil være overdimensioneret, på den måde behøver vi ikke at udskifte apparatet igen, selvom virksomheden fortsætter med at vokse. Det betyder også, at vi samlet set halverer vores CO2 udledning. Derudover har vi også taget et valg om at få omlagt vore nye destilleringsapparat fra at være drevet af gas, til at være drevet af el. Over 60% af den bornholmske el kommer fra grønne energikilder, som biogas og vindmøller og vi kan dermed reducere udledningen endnu mere. Selvom omlægningen til el har været dyr for vores stadig nye og lille virksomhed, så føler vi at det er det rigtige valg for os og for miljøet.</p>",
+            "horizontal_align": "left",
+            "link_title": "",
+            "link": "",
+            "bg_color_block": "#0a2d27",
+            "bg_color_content": "#ffffff",
+            "color_text": "#212121",
+            "text_heading_color": false,
+            "text_border_color": true
+          }
+        }
+      },
+      "block_order": [
+        "image_iDhwqU",
+        "image_cwt87E",
+        "image_Aad8qB"
+      ],
+      "settings": {
+        "container": "full",
+        "block_spacing": 5,
+        "image_ratio": "4:3",
+        "block_layout": "2/3",
+        "block_align": "right",
+        "heading_size": 3,
+        "link_style": "hollow",
+        "text_style": "solid",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "section-bottom-margin": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_slideshow_tzLBqh",
+    "section_image_with_text_overlap_h7Czq4"
+  ]
+}

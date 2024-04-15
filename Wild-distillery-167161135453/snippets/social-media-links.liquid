@@ -1,0 +1,53 @@
+{% comment %}
+  Render social icons with their links
+{% endcomment %}
+{%- liquid
+  assign social_names = 'facebook,instagram,linkedin,pinterest,snapchat,threads,tiktok,tumblr,twitch,twitter,untappd,vimeo,whatsapp,x,youtube,custom_1,custom_2,custom_3,custom_4,custom_5' | split: ','
+-%}
+<ul class="social-links">
+  {%- for social_name in social_names -%}
+    {%- liquid
+      assign setting_link_name = 'social_' | append: social_name | append: '_link'
+      assign social_link = settings[setting_link_name]
+
+      if social_link == blank
+        continue
+      endif
+
+      assign svg_icon = null
+      if social_name contains 'custom'
+        assign setting_svg_name = 'social_' | append: social_name | append: '_svg-code'
+        assign svg_icon = settings[setting_svg_name]
+
+        if svg_icon == blank
+          continue
+        endif
+      endif
+    -%}
+    <li class="social-links__item">
+      <a href="{{ social_link }}" class="social-links__link icon-fallback" target="_blank" rel="noopener">
+        <i
+          class="icon{% unless svg_icon == blank %} icon--custom-svg{% endunless %} icon--{{ social_name }}"
+          aria-hidden="true"
+        >
+          {%- liquid
+            case social_name
+              when 'threads'
+                render 'icon-threads'
+              when 'whatsapp'
+                render 'icon-whatsapp'
+              when 'x'
+                render 'icon-x'
+            endcase
+          -%}
+          {%- unless svg_icon == blank -%}
+            {{ svg_icon }}
+          {%- endunless -%}
+        </i>
+        {%- if svg_icon == blank -%}
+          <span class="icon-fallback__text">{{ social_name | capitalize }}</span>
+        {%- endif -%}
+      </a>
+    </li>
+  {%- endfor -%}
+</ul>

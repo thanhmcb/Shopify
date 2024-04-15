@@ -1,0 +1,38 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "tags": {
+          "type": "tags",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "date": {
+          "type": "date",
+          "disabled": true,
+          "settings": {}
+        },
+        "content": {
+          "type": "content",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "tags",
+        "title",
+        "date",
+        "content"
+      ],
+      "settings": {
+        "show_img": false
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

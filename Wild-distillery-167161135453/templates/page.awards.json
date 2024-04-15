@@ -1,0 +1,209 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    },
+    "section_rich_text_ktcqcG": {
+      "type": "section-rich-text",
+      "settings": {
+        "full_width": false,
+        "section_title": "ENE Organic Gin",
+        "text": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "section-bottom-margin": false
+      }
+    },
+    "section_image_grid_A7bXC7": {
+      "type": "section-image-grid",
+      "blocks": {
+        "image_rdMaXU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Original_med_medaljer-kopi_2.png",
+            "text_alignment": "top",
+            "text_border_color": false,
+            "title": "Original Dry",
+            "text": "",
+            "link": "shopify://products/ene-gin-original-dry"
+          }
+        },
+        "image_tzydBr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Hamp_med_medaljer-kopi.png",
+            "text_alignment": "bottom",
+            "text_border_color": false,
+            "title": "Hemp",
+            "text": "",
+            "link": "shopify://products/ene-gin-hamp"
+          }
+        },
+        "image_PEDJnG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Rhubarb_med_medaljer-kopi.png",
+            "text_alignment": "bottom",
+            "text_border_color": false,
+            "title": "Rabarber",
+            "text": "",
+            "link": "shopify://products/ene-gin-rhubarb"
+          }
+        },
+        "image_6aEmxA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Navy_med_medaljer-kopi.png",
+            "text_alignment": "top",
+            "text_border_color": false,
+            "title": "Navy Strength",
+            "text": "",
+            "link": "shopify://products/ene-gin-navy-strength"
+          }
+        }
+      },
+      "block_order": [
+        "image_rdMaXU",
+        "image_tzydBr",
+        "image_PEDJnG",
+        "image_6aEmxA"
+      ],
+      "settings": {
+        "featured": true,
+        "height": "medium",
+        "width": "full",
+        "button_style": "hollow",
+        "overlay_strength": 10,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "section-bottom-margin": false
+      }
+    },
+    "section_rich_text_BJxwLL": {
+      "type": "section-rich-text",
+      "settings": {
+        "full_width": false,
+        "section_title": "Wild Botanicals Gin",
+        "text": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "section-bottom-margin": false
+      }
+    },
+    "section_image_grid_QPLqJP": {
+      "type": "section-image-grid",
+      "blocks": {
+        "image_UPM7Gx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Wild_med_medalje-kopi.png",
+            "text_alignment": "bottom",
+            "text_border_color": false,
+            "title": "Årang 2018",
+            "text": "Find alle årgange",
+            "link": "shopify://collections/wild"
+          }
+        }
+      },
+      "block_order": [
+        "image_UPM7Gx"
+      ],
+      "settings": {
+        "featured": true,
+        "height": "medium",
+        "width": "full",
+        "button_style": "hollow",
+        "overlay_strength": 10,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "section-bottom-margin": false
+      }
+    },
+    "section_rich_text_p79ep9": {
+      "type": "section-rich-text",
+      "settings": {
+        "full_width": false,
+        "section_title": "Ren Vodka",
+        "text": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "section-bottom-margin": false
+      }
+    },
+    "section_image_grid_8fHyKA": {
+      "type": "section-image-grid",
+      "blocks": {
+        "image_P6xp4f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Original_vodka_med_medaljer-kopi.png",
+            "text_alignment": "bottom",
+            "text_border_color": false,
+            "title": "Original",
+            "text": "",
+            "link": "shopify://products/ren-vodka-original"
+          }
+        },
+        "image_wYYJ9t": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Apple_med_medaljer-kopi.png",
+            "text_alignment": "top",
+            "text_border_color": false,
+            "title": "Apple",
+            "text": "",
+            "link": "shopify://products/ren-vodka-aeble"
+          }
+        },
+        "image_MwkMXN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Orange_med_medaljer-kopi.png",
+            "text_alignment": "bottom",
+            "text_border_color": false,
+            "title": "Orange",
+            "text": "",
+            "link": "shopify://products/ren-vodka-appelsin"
+          }
+        },
+        "image_kXiDNg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Poul_med_medlajer-kopi.png",
+            "text_alignment": "bottom",
+            "text_border_color": false,
+            "title": "Poul Pava",
+            "text": "",
+            "link": "shopify://collections/poul-pava"
+          }
+        }
+      },
+      "block_order": [
+        "image_P6xp4f",
+        "image_wYYJ9t",
+        "image_MwkMXN",
+        "image_kXiDNg"
+      ],
+      "settings": {
+        "featured": true,
+        "height": "medium",
+        "width": "full",
+        "button_style": "hollow",
+        "overlay_strength": 10,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "section-bottom-margin": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_rich_text_ktcqcG",
+    "section_image_grid_A7bXC7",
+    "section_rich_text_BJxwLL",
+    "section_image_grid_QPLqJP",
+    "section_rich_text_p79ep9",
+    "section_image_grid_8fHyKA"
+  ]
+}

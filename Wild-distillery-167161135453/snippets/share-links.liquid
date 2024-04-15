@@ -1,0 +1,71 @@
+{% comment %}
+  Render share links for social media
+
+  Accepts:
+  - share_link: {String} Share item  link
+  - share_title: {String} Share item title
+  - share_img: {String} Share item image
+{% endcomment %}
+<ul class="social-links social-links--share">
+  {% if settings.share_facebook %}
+    <li class="social-links__item">
+      <a
+        href="//www.facebook.com/sharer.php?u={{ share_link }}"
+        class="social-links__link icon-fallback"
+        target="_blank"
+      >
+        <i class="icon icon--facebook" aria-hidden="true"></i>
+        <span class="icon-fallback__text">Facebook</span>
+      </a>
+    </li>
+  {% endif %}
+  {% if settings.share_X %}
+    <li class="social-links__item">
+      <a
+        href="//x.com/share?text={{ share_title }}&url={{ share_link }}"
+        class="social-links__link icon-fallback"
+        target="_blank"
+      >
+        <i class="icon icon--X" aria-hidden="true">
+          {% render 'icon-x' %}
+        </i>
+        <span class="icon-fallback__text">X</span>
+      </a>
+    </li>
+  {% endif %}
+  {% if settings.share_twitter %}
+    <li class="social-links__item">
+      <a
+        href="//twitter.com/share?text={{ share_title }}&url={{ share_link }}"
+        class="social-links__link icon-fallback"
+        target="_blank"
+      >
+        <i class="icon icon--twitter" aria-hidden="true"></i>
+        <span class="icon-fallback__text">Twitter</span>
+      </a>
+    </li>
+  {% endif %}
+  {% if settings.share_pinterest %}
+    <li class="social-links__item">
+      <a
+        href="http://pinterest.com/pin/create/button/?url={{ share_link }}&media={{ share_img }}&description={{ share_title }}"
+        class="social-links__link icon-fallback"
+        target="_blank"
+      >
+        <i class="icon icon--pinterest" aria-hidden="true"></i>
+        <span class="icon-fallback__text">Pinterest</span>
+      </a>
+    </li>
+  {% endif %}
+  {% if settings.share_mail %}
+    <li class="social-links__item">
+      <a
+        href="mailto:?body={{ share_title }} - {{ share_link }}"
+        class="social-links__link icon-fallback"
+      >
+        <i class="icon icon--mail" aria-hidden="true"></i>
+        <span class="icon-fallback__text">Email</span>
+      </a>
+    </li>
+  {% endif %}
+</ul>

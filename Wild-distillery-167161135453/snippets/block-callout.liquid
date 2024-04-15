@@ -1,0 +1,47 @@
+{% comment %}
+  Renders callout block
+
+  Accepts:
+  - icon: {String}
+  - icon_custom_svg: {String}
+  - text: {String}
+  - icon_size: {String}
+  - bg_color: {String}
+  - text_color: {String}
+{% endcomment %}
+
+{%- liquid
+  assign bg_color_block = bg_color | upcase
+  assign bg_color_global = settings.color_bg | upcase
+  if bg_color.alpha == 0 or bg_color_block == bg_color_global
+    assign section_bg = false
+  else
+    assign section_bg = true
+  endif
+-%}
+
+<div
+  class="callout section--{% if section_bg %}has{% else %}no{% endif %}-bg"
+  style="--bg-color: {{ bg_color }};"
+>
+  <div
+    class="callout__content"
+    style="--color: {{ text_color }};"
+  >
+    {% unless icon == 'none' and icon_custom_svg == blank %}
+      <div
+        class="callout__icon"
+        style="--size: {{ icon_size | times : 6 | plus : 18 }}px;"
+      >
+        {% if icon_custom_svg != blank %}
+          {{ icon_custom_svg | replace: ' width=', ' ' | replace: ' height=', ' ' }}
+        {% else %}
+          {% render 'icons', icon: icon %}
+        {% endif %}
+      </div>
+    {% endunless %}
+    <div class="callout__text rte">
+      {{ text }}
+    </div>
+  </div>
+</div>

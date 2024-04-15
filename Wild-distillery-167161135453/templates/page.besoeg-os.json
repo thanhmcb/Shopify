@@ -1,0 +1,176 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    },
+    "section_multi_column_images_QyR4Nf": {
+      "type": "section-multi-column-images",
+      "blocks": {
+        "image_fWBdnm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/70cl_group_1_brighter-kopi.jpg",
+            "title": "Åbningstider i butikken",
+            "sub_title": "",
+            "desc": "<p>På Brovangen 7 - 3720 Aakirkeby,<br/>finder du vores helårsåbne butik. </p><p>Vi har åbent:</p><p>Mandag-Torsdag: 08-16<br/>Fredag: 08-15.30<br/>Lør-Søn: Lukket</p>",
+            "link_title": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_fWBdnm"
+      ],
+      "settings": {
+        "title": "Besøg os i destilleriet",
+        "container": "large",
+        "link_title": "",
+        "link": "",
+        "divider": false,
+        "grid": 3,
+        "spacing": 3,
+        "alignment": "center",
+        "link_style": "hollow",
+        "heading_size": 3,
+        "image_toggle": true,
+        "image_size": 100,
+        "image_padding": 0,
+        "image_ratio": "4:3",
+        "image_fit": false,
+        "bg_color": "#0a2d27",
+        "color_image": "#ffffff",
+        "color_text": "#ffffff",
+        "text_heading_color": false,
+        "text_border_color": true,
+        "grid_mobile": "1",
+        "mobile_layout": "carousel",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "section-bottom-margin": false
+      }
+    },
+    "section_multi_column_images_fAEEQk": {
+      "type": "section-multi-column-images",
+      "blocks": {
+        "image_wxYfnK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Wild_Distillery_Bornholm_Process_Destilleringsapparet.jpg",
+            "title": "30 minutters rundvisning med indehaver Henrik Nerst",
+            "sub_title": "",
+            "desc": "<p>Kom med i produktionen af vores nordiske spiritus. Hør indehaver og master distiller, Henrik Nerst, fortælle om Wild Distillerys historie og produktion.</p>",
+            "link_title": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_wxYfnK"
+      ],
+      "settings": {
+        "title": "Gratis rundvisning",
+        "container": "large",
+        "link_title": "Learn more",
+        "link": "",
+        "divider": false,
+        "grid": 3,
+        "spacing": 3,
+        "alignment": "center",
+        "link_style": "hollow",
+        "heading_size": 3,
+        "image_toggle": true,
+        "image_size": 100,
+        "image_padding": 0,
+        "image_ratio": "4:3",
+        "image_fit": false,
+        "bg_color": "#ffffff",
+        "color_image": "rgba(0,0,0,0)",
+        "color_text": "#0a2d27",
+        "text_heading_color": false,
+        "text_border_color": true,
+        "grid_mobile": "1",
+        "mobile_layout": "carousel",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "section-bottom-margin": false
+      }
+    },
+    "section_multi_column_images_JFkYbm": {
+      "type": "section-multi-column-images",
+      "blocks": {
+        "image_tDGkdy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_1659_5c6517a9-907f-45e2-9902-a1723adc0df1.jpg",
+            "title": "Lav 3 cocktails med indehaver Henrik",
+            "sub_title": "",
+            "desc": "<p>Kom med indenfor til Rundvisning og Smagning hos Wild Distillery. Lad indehaver Henrik Nerst tage jer med rundt i produktionen af vores nordiske spiritus. Smag derefter på vores  produkter, både rent og som cocktails.</p>",
+            "link_title": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_tDGkdy"
+      ],
+      "settings": {
+        "title": "Rundvisning og Smagning",
+        "container": "large",
+        "link_title": "Learn more",
+        "link": "",
+        "divider": false,
+        "grid": 3,
+        "spacing": 3,
+        "alignment": "center",
+        "link_style": "hollow",
+        "heading_size": 3,
+        "image_toggle": true,
+        "image_size": 100,
+        "image_padding": 0,
+        "image_ratio": "4:3",
+        "image_fit": false,
+        "bg_color": "#0a2d27",
+        "color_image": "rgba(0,0,0,0)",
+        "color_text": "#ffffff",
+        "text_heading_color": false,
+        "text_border_color": true,
+        "grid_mobile": "1",
+        "mobile_layout": "carousel",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "section-bottom-margin": false
+      }
+    },
+    "section_rich_text_GtGt3f": {
+      "type": "section-rich-text",
+      "settings": {
+        "full_width": false,
+        "section_title": "Hvordan foregår en rundvisning hos Wild Distillery?",
+        "text": "<p><strong>Hvad kan jeg forvente af sommerens rundvisninger og smagninger hos Wild Distillery?</strong><br/>I løbet af sommersæsonen tilbyder vi både gratis og betalte ture af vores produktionsfaciliteter. Begge ture inkluderer en omfattende gennemgang af vores destilleringsproces samt muligheden for at smage vores håndlavede spiritus. Dog tilbyder vores betalte tur en eksklusiv oplevelse, hvor du sammen med ejeren Henrik Nerst kan deltage i en cocktail-workshop og sammen fremstille tre lækre cocktails.</p><p><strong>Er der en aldersgrænse for deltagelse i rundvisning og smagning?</strong><br/>Ja, <strong>alle deltagere være mindst 18 år </strong>gammel for at deltage i vores rundvisning og smagninger, uanset om de har til hensigt at indtage alkohol eller ej.</p><p><strong>Skal jeg reservere i forvejen til rundvisning og smagning ?</strong><br/>For at deltage i en <a href=\"/products/gratis-rundvisning\" title=\"Gratis rundvisning (30 min.)\">gratis rundvisning </a>eller en <a href=\"/products/rundvisning-smagning\" title=\"Rundvisning & Smagning (1.5 time)\">rundvisning og smagning</a>, skal der bookes på forhånd. </p><p>Du er velkommen til at besøge butikken uden at reservere tid først.</p><p><strong>Hvor lang tid varer Rundvisning og Smagning typisk?</strong><br/>Vores rundvisninger og smagninger varer normalt mellem 0,5 og 1,5 time, afhængigt af gruppestørrelsen og antal af spørgsmål. Vi sætter 30 minutter af til gratis rundvisning og 1,5 time til betalt rundvisning smagning.</p><p><strong>Kan jeg booke en privat tur til en særlig lejlighed eller gruppebegivenhed?</strong><br/>Absolut! Vi tilbyder private smagninger til særlige lejligheder, firmaarrangementer og gruppesammenkomster. <a href=\"https://wilddistillery.dk/pages/kontakt\" title=\"https://wilddistillery.dk/pages/kontakt\">Kontakt os </a>for at drøfte dine specifikke krav, og vi vil skræddersy en uforglemmelig oplevelse for din gruppe.</p><p></p>",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "section-bottom-margin": false
+      }
+    },
+    "section_rich_text_f3tUpA": {
+      "type": "section-rich-text",
+      "settings": {
+        "full_width": false,
+        "section_title": "Ofte Stillede Spørgsmål",
+        "text": "<p><strong>Hvordan kan jeg besøge Wild Distillery uden for sommersæsonen?</strong> <br/>Selvom sommeren er højsæsonen for vores arrangementer, er vores showroom åbent året rundt. Her får du direkte udsyn til vores produktionsproces og en chance for at smage vores unikke spiritusprodukter.</p><p><strong>Hvad kan jeg forvente under et besøg i showroomet?<br/></strong> Under dit besøg vil vi byde dig velkommen og præsentere vores prisvindende produkter. Smag på vores håndlavet spiritus og hør historien bag Wild Distillery, vores produktionsmetode og vores spændende fremtidsplaner.</p><p><strong>Er der rundvisninger om vinteren?<br/></strong> Selvom vi ikke afholder officielle rundvisninger om vinteren, er du velkommen til at udforske showroomet og stille spørgsmål. Vi er altid klar til at dele vores passion for destillering og Bornholm med dig.</p><p>Oplev Bornholm på en unik måde – besøg Wild Distillery og få en smagsprøve på øens essens året rundt!</p>",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "section-bottom-margin": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_multi_column_images_QyR4Nf",
+    "section_multi_column_images_fAEEQk",
+    "section_multi_column_images_JFkYbm",
+    "section_rich_text_GtGt3f",
+    "section_rich_text_f3tUpA"
+  ]
+}

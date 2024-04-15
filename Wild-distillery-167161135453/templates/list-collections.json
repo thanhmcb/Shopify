@@ -1,0 +1,134 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-list-collections",
+      "blocks": {
+        "collection_qRYaLL": {
+          "type": "collection",
+          "settings": {
+            "collection": "aak-akvavit",
+            "heading": "",
+            "description": "",
+            "button_label": "Se kollektion",
+            "link": "shopify://collections/aak-akvavit"
+          }
+        },
+        "collection_n4LFz6": {
+          "type": "collection",
+          "settings": {
+            "collection": "enegin",
+            "heading": "",
+            "description": "",
+            "button_label": "Se kollektion",
+            "link": "shopify://collections/enegin"
+          }
+        },
+        "collection_iMEPDd": {
+          "type": "collection",
+          "settings": {
+            "collection": "vodka",
+            "heading": "",
+            "description": "",
+            "button_label": "Se kollektion",
+            "link": "shopify://collections/vodka"
+          }
+        },
+        "collection_JdA8XV": {
+          "type": "collection",
+          "settings": {
+            "collection": "wild",
+            "heading": "",
+            "description": "",
+            "button_label": "Se kollektion",
+            "link": "shopify://collections/wild"
+          }
+        },
+        "collection_deRRBR": {
+          "type": "collection",
+          "settings": {
+            "collection": "poul-pava",
+            "heading": "",
+            "description": "",
+            "button_label": "Se kollektion",
+            "link": "shopify://collections/poul-pava"
+          }
+        },
+        "collection_wpY7ag": {
+          "type": "collection",
+          "settings": {
+            "collection": "gaveaesker",
+            "heading": "",
+            "description": "",
+            "button_label": "Se kollektion",
+            "link": "shopify://collections/gaveaesker"
+          }
+        },
+        "collection_kgX4Hf": {
+          "type": "collection",
+          "settings": {
+            "collection": "tonic",
+            "heading": "",
+            "description": "",
+            "button_label": "Se kollektion",
+            "link": "shopify://collections/tonic"
+          }
+        },
+        "collection_eGngtF": {
+          "type": "collection",
+          "settings": {
+            "collection": "gavekort",
+            "heading": "",
+            "description": "",
+            "button_label": "Se kollektion",
+            "link": "shopify://collections/gavekort"
+          }
+        },
+        "collection_krmKn9": {
+          "type": "collection",
+          "settings": {
+            "collection": "webshop",
+            "heading": "",
+            "description": "",
+            "button_label": "Se kollektion",
+            "link": "shopify://collections/webshop"
+          }
+        }
+      },
+      "block_order": [
+        "collection_qRYaLL",
+        "collection_n4LFz6",
+        "collection_iMEPDd",
+        "collection_JdA8XV",
+        "collection_deRRBR",
+        "collection_wpY7ag",
+        "collection_kgX4Hf",
+        "collection_eGngtF",
+        "collection_krmKn9"
+      ],
+      "settings": {
+        "display_type": "selected",
+        "sort": "alphabetical",
+        "grid": 3,
+        "title_size": 3,
+        "image_ratio": "3:4",
+        "button_style": "c-btn c-btn--hollow",
+        "alignment": "middle-center",
+        "text_alignment": "center",
+        "visibility_heading": true,
+        "visibility_border": true,
+        "visibility_count": false,
+        "visibility_description": false,
+        "visibility_button": true,
+        "hover_options": "hover-button",
+        "color_text": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_strength": 20,
+        "color_default_heading": false,
+        "color_default_border": true
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
