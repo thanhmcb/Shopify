@@ -1,0 +1,94 @@
+{
+  "name": "Header group",
+  "type": "header",
+  "sections": {
+    "announcement-bar": {
+      "type": "section-announcement-bar",
+      "blocks": {
+        "f752cf03-1fbc-4be1-a3cc-171a071687d2": {
+          "type": "announcement",
+          "settings": {
+            "icon": "icon-delivery-truck-3",
+            "svg-code": "",
+            "text": "Fri fragt på ordrer over 499 DKK til PostNord pakkeshop i DK",
+            "text_link": "",
+            "link": ""
+          }
+        },
+        "539fad8b-91eb-4f52-8e5a-4d3ec8358e38": {
+          "type": "announcement",
+          "settings": {
+            "icon": "icon-award-medal",
+            "svg-code": "",
+            "text": "5 ud af 5 stjerner på Trustpilot",
+            "text_link": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "f752cf03-1fbc-4be1-a3cc-171a071687d2",
+        "539fad8b-91eb-4f52-8e5a-4d3ec8358e38"
+      ],
+      "settings": {
+        "divider_top": false,
+        "divider_bottom": false,
+        "text_size_desktop": 2,
+        "text_size_mobile": 2,
+        "text_style": "body",
+        "message_color_bg": "#000000",
+        "message_color_text": "#ffffff",
+        "text_letter_spacing": 0,
+        "text_bold": false,
+        "text_capitalize": false,
+        "close_icon": false,
+        "carousel_desktop": false,
+        "auto_carousel": true,
+        "carousel_speed": 8,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "section-bottom-margin": true
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "menu": "hovedmenu-ny",
+        "layout": "logo-left",
+        "style": "scroll",
+        "link_style": "icon",
+        "enable_chevrons": true,
+        "header_divider": false,
+        "header_bg": "#ffffff",
+        "header_text": "#0a2d27",
+        "logo": "shopify://shop_images/Wild_Distillery_Bornholm_Logo_Groen_Stort.png",
+        "header_transparent": true,
+        "header_transparent_collection": false,
+        "header_transparent_divider": true,
+        "header_transparent_text": "#ffffff",
+        "special_link_triggers": "",
+        "special_link_color": "#c00000",
+        "special_link_disable_on_transparent_header": false,
+        "logo_size": 40,
+        "logo_spacing": 7,
+        "logo_size_mobile": 50,
+        "logo_spacing_mobile": 0,
+        "sidebar_main_menu": "sidebj-lkemenu-ny",
+        "sidebar_secondary_menu": "",
+        "sidebar_show_borders": true,
+        "sidebar_show_collection_images_in_submenu": true,
+        "sidebar_show_view_all_in_submenu": true,
+        "sidebar_view_all_style": "outline",
+        "sidebar_show_contact_number": true,
+        "sidebar_show_contact_email": true,
+        "sidebar_show_social": true,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

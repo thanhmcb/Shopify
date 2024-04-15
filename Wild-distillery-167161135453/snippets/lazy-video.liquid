@@ -1,0 +1,19 @@
+{% comment %}
+  Render lazy video component
+
+  Accepts:
+  - video: {Object} video object
+  - class: {String} video element class
+{% endcomment %}
+
+<lazy-video>
+    <video class="{{ class }}" playsinline="playsinline" autoplay="autoplay" loop="loop" muted="muted" poster="{{ video.preview_image | image_url: width: 1000 }}" title="{{ video.alt }}">
+        {% for src in video.sources %}
+            <source data-src="{{ src.url }}" type="video/{{ src.format }}">
+        {% endfor %}
+    </video>
+    <div class="lazy-video-fallback">
+        <img src="{{ video.preview_image | image_url: width: 1000 }}" alt="{{ video.alt }}">
+    </div>
+</lazy-video>
+<script src="{{ 'lazy-video.js' | asset_url }}" type="module"></script>

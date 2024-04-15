@@ -1,0 +1,426 @@
+{
+  "sections": {
+    "section-slideshow": {
+      "type": "section-slideshow",
+      "blocks": {
+        "video_kyLjtq": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Wild - BLÅ - 16_9.mp4",
+            "alignment": "left",
+            "title": "Wild Distillery Bornholm",
+            "text": "<p>Håndlavet <br/>Bornholmsk<br/>Spiritus</p>",
+            "link_style": "c-btn c-btn--hollow",
+            "link_title": "Besøg os",
+            "link": "shopify://pages/besoeg-wild-distillery",
+            "link_style_2": "c-btn c-btn--primary",
+            "link_title_2": "Se produkter",
+            "link_2": "shopify://collections"
+          }
+        },
+        "section-slideshow-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Wild_Distillery_Bornholm_Sanke_vilde_enebaer.jpg",
+            "image_mobile": "shopify://shop_images/Wild_Distillery_Bornholm_Sanke_vilde_enebaer.jpg",
+            "alignment": "left",
+            "title": "Wild Botanicals",
+            "text": "<p>Med tilladelse fra Naturstyrelsen har vi fået en unik mulighed for at sanke vilde bornholmske enebær i den spændende, bornholmske natur. </p>",
+            "link_style": "c-btn c-btn--primary",
+            "link_title": "Se Wild Botanicals serien",
+            "link": "shopify://collections/wild",
+            "link_style_2": "c-btn c-btn--hollow",
+            "link_title_2": "",
+            "link_2": ""
+          }
+        },
+        "section-slideshow-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Wild_Distillery_Bornholm_Destilleringsapperat_Proces.jpg",
+            "image_mobile": "shopify://shop_images/IMG_8872_4edc9be1-1113-4fbf-9392-af6aa12c2fb2.jpg",
+            "alignment": "left",
+            "title": "Vores historie",
+            "text": "<p>Wild Distillery har været en spirende idé hos Master Distiller, Henrik Nerst, siden 2010, hvor han første gang besøgte Müller Brennereianlagen - producent af kobberkedler - i Oberkirch i Tyskland. </p>",
+            "link_style": "c-btn c-btn--primary",
+            "link_title": "Læs om vores historie",
+            "link": "",
+            "link_style_2": "c-btn c-btn--primary",
+            "link_title_2": "",
+            "link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_kyLjtq",
+        "section-slideshow-0",
+        "section-slideshow-1"
+      ],
+      "settings": {
+        "style": "transparent",
+        "title_size": 3,
+        "autoplay": true,
+        "autoplay_speed": 8,
+        "nav_style": "solid-brand",
+        "nav_arrows": false,
+        "slideshow_height": "full-screen",
+        "slideshow_width": "full",
+        "text_color": "#ffffff",
+        "text_heading_color": false,
+        "text_border_color": true,
+        "text_bg_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_strength": 10,
+        "section-bottom-margin": false
+      }
+    },
+    "section_product_Nw6mmH": {
+      "type": "section-product",
+      "blocks": {
+        "vendor_Lx7VFD": {
+          "type": "vendor",
+          "disabled": true,
+          "settings": {
+            "vendor_size": 2,
+            "vendor_style": "body"
+          }
+        },
+        "title_NtY74j": {
+          "type": "title",
+          "settings": {
+            "title_size": 3,
+            "title_size_mobile": 3
+          }
+        },
+        "price_zmAfJD": {
+          "type": "price",
+          "settings": {
+            "price_label_discount": true,
+            "price_label_discount_type": "text",
+            "price_label_discount_color": "#c00000"
+          }
+        },
+        "spacer_7yMAED": {
+          "type": "spacer",
+          "settings": {
+            "top": "small",
+            "bottom": "small",
+            "border": true
+          }
+        },
+        "description_RWzx8r": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "desc_text": ""
+          }
+        },
+        "variant_picker_UDM6fT": {
+          "type": "variant_picker",
+          "settings": {
+            "product_variant_style": "swatches-buttons",
+            "popup_enable": false,
+            "popup_trigger": "Size\nGröße\nTaille\nTaglia\nTalla",
+            "popup_label": "Size guide",
+            "popup_content": ""
+          }
+        },
+        "quantity_selector_iALAKi": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_FQcDCE": {
+          "type": "buy_buttons",
+          "settings": {
+            "enable_payment_button": false
+          }
+        }
+      },
+      "block_order": [
+        "vendor_Lx7VFD",
+        "title_NtY74j",
+        "price_zmAfJD",
+        "spacer_7yMAED",
+        "description_RWzx8r",
+        "variant_picker_UDM6fT",
+        "quantity_selector_iALAKi",
+        "buy_buttons_FQcDCE"
+      ],
+      "settings": {
+        "featured_product": "ene-gin-orange",
+        "content_align": "default",
+        "enable_video_looping": false,
+        "product_image_ratio": "1:1",
+        "enable_gallery_arrows": true,
+        "thumbnails_position": "bottom",
+        "thumbnails_ratio": "1:1",
+        "thumbnails_show_border": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_image_grid_gLDQ9J": {
+      "type": "section-image-grid",
+      "blocks": {
+        "text_tpzxjc": {
+          "type": "text",
+          "settings": {
+            "bg_color": "#0a2d27",
+            "text_color": "white",
+            "text_heading_color": false,
+            "text_border_color": false,
+            "title": "Bornholmsk Gin, Vodka & Akvavit",
+            "text": "<p>Med udgangspunkt i den bornholmske natur, gør vi vores bedste for at producere det reneste og fineste gin, vodka & akvavit på vores håndbankede kobberkedler. </p><p><strong> Vi håber du har lyst til at smage.</strong></p>",
+            "link_text": "Se vores udvalg",
+            "link": "shopify://collections"
+          }
+        }
+      },
+      "block_order": [
+        "text_tpzxjc"
+      ],
+      "settings": {
+        "featured": true,
+        "height": "small",
+        "width": "large",
+        "button_style": "hollow",
+        "overlay_strength": 10,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "section-bottom-margin": false
+      }
+    },
+    "e7564c21-6be8-45b8-a2ff-9dbd3e39175a": {
+      "type": "section-collection-list",
+      "blocks": {
+        "template--15118602403863__e7564c21-6be8-45b8-a2ff-9dbd3e39175a-168789263903095273-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "aak-akvavit",
+            "heading": "",
+            "description": "",
+            "button_label": "Se kollektion",
+            "link": "shopify://collections/aak-akvavit"
+          }
+        },
+        "template--15118602403863__e7564c21-6be8-45b8-a2ff-9dbd3e39175a-168789263903095273-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "enegin",
+            "heading": "",
+            "description": "",
+            "button_label": "Se kollektion",
+            "link": "shopify://collections/enegin"
+          }
+        },
+        "template--15118602403863__e7564c21-6be8-45b8-a2ff-9dbd3e39175a-168789263903095273-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "wild",
+            "heading": "",
+            "description": "",
+            "button_label": "Se kollektion",
+            "link": "shopify://collections/wild"
+          }
+        },
+        "template--15118602403863__e7564c21-6be8-45b8-a2ff-9dbd3e39175a-168789263903095273-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "vodka",
+            "heading": "",
+            "description": "",
+            "button_label": "Se kollektion",
+            "link": "shopify://collections/vodka"
+          }
+        },
+        "template--15118602403863__e7564c21-6be8-45b8-a2ff-9dbd3e39175a-168789263903095273-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "heading": "",
+            "description": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "template--15118602403863__e7564c21-6be8-45b8-a2ff-9dbd3e39175a-168789263903095273-5": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "heading": "",
+            "description": "",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15118602403863__e7564c21-6be8-45b8-a2ff-9dbd3e39175a-168789263903095273-0",
+        "template--15118602403863__e7564c21-6be8-45b8-a2ff-9dbd3e39175a-168789263903095273-1",
+        "template--15118602403863__e7564c21-6be8-45b8-a2ff-9dbd3e39175a-168789263903095273-2",
+        "template--15118602403863__e7564c21-6be8-45b8-a2ff-9dbd3e39175a-168789263903095273-3",
+        "template--15118602403863__e7564c21-6be8-45b8-a2ff-9dbd3e39175a-168789263903095273-4",
+        "template--15118602403863__e7564c21-6be8-45b8-a2ff-9dbd3e39175a-168789263903095273-5"
+      ],
+      "settings": {
+        "title": "Vores kollektioner",
+        "desc": "",
+        "divider": false,
+        "heading_alignment": "center",
+        "section_width": "large",
+        "grid": 3,
+        "spacing": 3,
+        "enable_carousel_desktop": true,
+        "enable_carousel_mobile": true,
+        "title_size": 3,
+        "image_ratio": "3:4",
+        "button_style": "c-btn c-btn--hollow",
+        "alignment": "middle-center",
+        "text_alignment": "center",
+        "visibility_heading": true,
+        "visibility_border": true,
+        "visibility_count": false,
+        "visibility_description": false,
+        "visibility_button": true,
+        "hover_options": "hover-button",
+        "color_text": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_strength": 10,
+        "color_default_heading": false,
+        "color_default_border": true,
+        "link_title": "View all",
+        "link": "",
+        "section_link_style": "link link--arrow",
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    },
+    "e6c3bd10-67e9-4c3b-b5e2-69738954310b": {
+      "type": "section-testimonials",
+      "blocks": {
+        "template--14778633355349__e6c3bd10-67e9-4c3b-b5e2-69738954310b-16802773813ee3c4f6-0": {
+          "type": "text",
+          "settings": {
+            "media": "quote",
+            "svg-code": "",
+            "image_round": true,
+            "text": "<p>\"Vi lægger os fladt på maven i beundring over den kompromisløshed, der udvises i jagten på den perfekte Gin - både i og uden på flasken.\"</p>",
+            "name": "gintossen.dk",
+            "source": ""
+          }
+        },
+        "template--14778633355349__e6c3bd10-67e9-4c3b-b5e2-69738954310b-16802773813ee3c4f6-1": {
+          "type": "text",
+          "settings": {
+            "media": "quote",
+            "svg-code": "",
+            "image_round": true,
+            "text": "<p>\"(...) det er de mest stilrene, flotteste og bedst producerede ginprodukter i Danmark\"</p>",
+            "name": "Gastromand.dk",
+            "source": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14778633355349__e6c3bd10-67e9-4c3b-b5e2-69738954310b-16802773813ee3c4f6-0",
+        "template--14778633355349__e6c3bd10-67e9-4c3b-b5e2-69738954310b-16802773813ee3c4f6-1"
+      ],
+      "settings": {
+        "title": "",
+        "style_desktop": "carousel",
+        "style_mobile": "carousel",
+        "link_title": "Shop now",
+        "link": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_slideshow_GRwa6J": {
+      "type": "section-slideshow",
+      "blocks": {
+        "video_CgRa4w": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/WD Proces Bred Web.mp4",
+            "alignment": "left",
+            "title": "Håndlavet på Bornholm",
+            "text": "",
+            "link_style": "c-btn c-btn--primary",
+            "link_title": "læs om vores proces",
+            "link": "shopify://pages/voreshistorie",
+            "link_style_2": "c-btn c-btn--primary",
+            "link_title_2": "",
+            "link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_CgRa4w"
+      ],
+      "settings": {
+        "style": "transparent",
+        "title_size": 3,
+        "autoplay": true,
+        "autoplay_speed": 8,
+        "nav_style": "solid-brand",
+        "nav_arrows": false,
+        "slideshow_height": "small",
+        "slideshow_width": "full",
+        "text_color": "#ffffff",
+        "text_heading_color": false,
+        "text_border_color": true,
+        "text_bg_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_strength": 10,
+        "section-bottom-margin": false
+      }
+    },
+    "deed0c7d-a6b2-434e-8882-2a7cba84c982": {
+      "type": "section-map",
+      "blocks": {
+        "template--16580692541694__deed0c7d-a6b2-434e-8882-2a7cba84c982-16667837825ddf24c3-0": {
+          "type": "map",
+          "settings": {
+            "title": "Destilleriet",
+            "desc": "<p>Brovangen 7<br/>3720 Aakirkeby<br/>Bornholm - Danmark</p>",
+            "sub_desc": "<p>Mandag - Torsdag :  08:00 til 16:00<br/>Fredag: 08:00-15:30<br/>Lørdag-Søndag:  Lukket</p>",
+            "address": "Brovangen 7, 3720 Aakirkeby",
+            "map_image": "shopify://shop_images/Wild_Distillery_Bornholm_kort.png"
+          }
+        },
+        "map_kHbA6r": {
+          "type": "map",
+          "settings": {
+            "title": "Find Forhandler",
+            "desc": "<p>Find en forhandler nær dig</p><p>Klik <a href=\"/pages/forhandlere\" title=\"Kort over vores forhandlere\">her</a><br/></p>",
+            "sub_desc": "",
+            "address": "",
+            "map_image": "shopify://shop_images/70cl_group_1_brighter-kopi_1c846750-88d9-4405-a12e-d86174d1ac15.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "template--16580692541694__deed0c7d-a6b2-434e-8882-2a7cba84c982-16667837825ddf24c3-0",
+        "map_kHbA6r"
+      ],
+      "settings": {
+        "show_directions_btn": false,
+        "bg_color": "rgba(0,0,0,0)",
+        "google_api_key": "",
+        "map_style": "light",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "section-bottom-margin": false
+      }
+    }
+  },
+  "order": [
+    "section-slideshow",
+    "section_product_Nw6mmH",
+    "section_image_grid_gLDQ9J",
+    "e7564c21-6be8-45b8-a2ff-9dbd3e39175a",
+    "e6c3bd10-67e9-4c3b-b5e2-69738954310b",
+    "section_slideshow_GRwa6J",
+    "deed0c7d-a6b2-434e-8882-2a7cba84c982"
+  ]
+}

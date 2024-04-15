@@ -1,0 +1,315 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "collection_banner_style": "overlap",
+        "text_align": "left",
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "use_first_product_image": false,
+        "image_ratio": "32:9",
+        "image_ratio_mobile": "16:9",
+        "overlay_color": "#000000",
+        "overlay_strength": 0
+      }
+    },
+    "section_rich_text_DcHUNR": {
+      "type": "section-rich-text",
+      "settings": {
+        "full_width": false,
+        "section_title": "ENE Organic Gin",
+        "text": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "section-bottom-margin": false
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "grid": 3,
+        "grid_mobile": "2",
+        "rows": 6,
+        "show_count": false,
+        "sort_enable": false,
+        "filter_style": "drawer"
+      }
+    },
+    "section_image_grid_xbaqih": {
+      "type": "section-image-grid",
+      "blocks": {
+        "text_NNVq3x": {
+          "type": "text",
+          "settings": {
+            "bg_color": "#0a2d27",
+            "text_color": "white",
+            "text_heading_color": false,
+            "text_border_color": false,
+            "title": "ENE Organic Gin",
+            "text": "<p>ENE er ikke bare et akronym for enebær, det er en filosofi om at finde essensen af den rene og afbalancerede gin. Ved kun at bruge økologiske ingredienser er det lykkedes os at producere en serie spændende gintyper. Vi håber du er klar til at udforske og blive udfordret.</p>",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "image_UmNNWh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Enebaer_paa_Bornholm_Wild_Distillery.jpg",
+            "text_alignment": "bottom",
+            "text_border_color": false,
+            "title": "",
+            "text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_NNVq3x",
+        "image_UmNNWh"
+      ],
+      "settings": {
+        "featured": true,
+        "height": "medium",
+        "width": "full",
+        "button_style": "hollow",
+        "overlay_strength": 10,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "section-bottom-margin": false
+      }
+    },
+    "section_multi_column_images_Eyq34H": {
+      "type": "section-multi-column-images",
+      "blocks": {
+        "image_PLhR3G": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/REN_Appelsin_1.jpg",
+            "title": "Cocktailopskrifter",
+            "sub_title": "",
+            "desc": "<p>Find inspiration til din næste cocktail. Vi har udvalgt en lang række cocktails der passer perfekt til vores produkter.</p>",
+            "link_title": "Læs mere her",
+            "link": "shopify://blogs/oversigt"
+          }
+        },
+        "image_GEH9jq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Gin_smagning_Wild_Distillery_Bornholm_Rundvisning.jpg",
+            "title": "Besøg os i destilleriet",
+            "sub_title": "",
+            "desc": "<p>Besøg vores butik eller kom til rundvisning og smagning! Du kan besøge os hele året og om sommeren inviterer vi på gratis rundvisning.</p>",
+            "link_title": "Læs mere her",
+            "link": "shopify://pages/besoeg-wild-distillery"
+          }
+        },
+        "image_7pCh46": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Navy_med_medaljer-kopi.png",
+            "title": "Vores Prisvindende Gin og Vodka",
+            "sub_title": "",
+            "desc": "<p>Vores passion for kvalitet og håndværk har ført til adskillige priser og hædersbevisninger fra anerkendte institutioner og konkurrencer inden for spiritusverdenen.</p>",
+            "link_title": "Læs mere her",
+            "link": "shopify://pages/awards"
+          }
+        }
+      },
+      "block_order": [
+        "image_PLhR3G",
+        "image_GEH9jq",
+        "image_7pCh46"
+      ],
+      "settings": {
+        "title": "Mere om  Wild Distillery",
+        "container": "large",
+        "link_title": "Learn more",
+        "link": "",
+        "divider": false,
+        "grid": 3,
+        "spacing": 3,
+        "alignment": "center",
+        "link_style": "hollow",
+        "heading_size": 3,
+        "image_toggle": true,
+        "image_size": 100,
+        "image_padding": 0,
+        "image_ratio": "4:3",
+        "image_fit": false,
+        "bg_color": "rgba(0,0,0,0)",
+        "color_image": "rgba(0,0,0,0)",
+        "color_text": "rgba(0,0,0,0)",
+        "text_heading_color": false,
+        "text_border_color": true,
+        "grid_mobile": "1",
+        "mobile_layout": "carousel",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "section-bottom-margin": false
+      }
+    },
+    "section_image_with_text_y69UMc": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "image_QUKmjm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Telia_giftbox.jpg",
+            "video": "",
+            "video_button_color": "primary",
+            "title": "Private Label Design med Wild Distillery",
+            "desc": "<p>Hos Wild Distillery har vi mulighed for at levere private label flasker til jeres virksomhed.</p><p>Med vores inhouse flatbed printer, kan vi i samarbejde med jer, skabe custom-made designs på flaskerne, hvor kvalitet og sans for detaljer er af højeste prioritet. Flaskerne kan ydermere leveres i flotte gaveæsker med logoglas eller med tonic til.</p>",
+            "horizontal_align": "center",
+            "link_title": "Læs mere",
+            "link": "shopify://pages/custom",
+            "bg_color_block": "#0a2d27",
+            "bg_color_content": "#0a2d27",
+            "color_text": "#ffffff",
+            "text_heading_color": false,
+            "text_border_color": true
+          }
+        },
+        "image_67cWLL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Nyt_anlaeg.jpg",
+            "video": "",
+            "video_button_color": "primary",
+            "title": "Vores historie og proces",
+            "desc": "<p>Wild Distillery har været en spirende idé hos Master Distiller, Henrik Nerst, siden 2010, hvor han første gang besøgte Müller Brennereianlagen - producent af kobberkedler - i Oberkirch i Tyskland. </p><p></p><p>Som daværende indehaver og sommelier på en gourmetrestaurant på Bornholm, har interessen for spiritusproduktion altid været stor. I 2013, samme år som Henrik blev nomineret til Årets Sommelier i Danmark, besøgte han igen Tyskland med henblik på at lære mere om destillationsprocesserne.</p>",
+            "horizontal_align": "center",
+            "link_title": "Læs mere",
+            "link": "shopify://pages/voreshistorie",
+            "bg_color_block": "rgba(0,0,0,0)",
+            "bg_color_content": "#ffffff",
+            "color_text": "#212121",
+            "text_heading_color": false,
+            "text_border_color": true
+          }
+        }
+      },
+      "block_order": [
+        "image_QUKmjm",
+        "image_67cWLL"
+      ],
+      "settings": {
+        "container": "large",
+        "block_spacing": 2,
+        "image_ratio": "4:3",
+        "block_layout": "2/3",
+        "block_align": "left",
+        "vertical_align": "top",
+        "heading_size": 3,
+        "link_style": "hollow",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "section-bottom-margin": false
+      }
+    },
+    "section_collection_list_3G6Ri8": {
+      "type": "section-collection-list",
+      "blocks": {
+        "collection_atpiER": {
+          "type": "collection",
+          "settings": {
+            "collection": "aak-akvavit",
+            "heading": "",
+            "description": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "collection_rTgAyE": {
+          "type": "collection",
+          "settings": {
+            "collection": "vodka",
+            "heading": "",
+            "description": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "collection_fKy8fU": {
+          "type": "collection",
+          "settings": {
+            "collection": "wild",
+            "heading": "",
+            "description": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "collection_EUmB3W": {
+          "type": "collection",
+          "settings": {
+            "collection": "tonic",
+            "heading": "",
+            "description": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "collection_XHNJjc": {
+          "type": "collection",
+          "settings": {
+            "collection": "gaveaesker",
+            "heading": "",
+            "description": "",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_atpiER",
+        "collection_rTgAyE",
+        "collection_fKy8fU",
+        "collection_EUmB3W",
+        "collection_XHNJjc"
+      ],
+      "settings": {
+        "title": "Se mere fra Wild Distillery",
+        "desc": "",
+        "divider": false,
+        "heading_alignment": "center",
+        "section_width": "large",
+        "grid": 3,
+        "spacing": 3,
+        "enable_carousel_desktop": true,
+        "enable_carousel_mobile": true,
+        "title_size": 3,
+        "image_ratio": "3:4",
+        "button_style": "c-btn c-btn--hollow",
+        "alignment": "middle-center",
+        "text_alignment": "center",
+        "visibility_heading": true,
+        "visibility_border": true,
+        "visibility_count": false,
+        "visibility_description": false,
+        "visibility_button": true,
+        "hover_options": "hover-button",
+        "color_text": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_strength": 10,
+        "color_default_heading": false,
+        "color_default_border": true,
+        "link_title": "View all",
+        "link": "",
+        "section_link_style": "link link--arrow",
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "section_rich_text_DcHUNR",
+    "product-grid",
+    "section_image_grid_xbaqih",
+    "section_multi_column_images_Eyq34H",
+    "section_image_with_text_y69UMc",
+    "section_collection_list_3G6Ri8"
+  ]
+}

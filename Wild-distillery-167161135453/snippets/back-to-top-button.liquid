@@ -1,0 +1,13 @@
+<back-to-top-button
+  class="back-to-top-button back-to-top-button--{{ btn_color }}{% if btn_square %} back-to-top-button--square{% endif %}"
+  aria-label="Back to top"
+  type="button"
+  role="button"
+  tabindex="0"
+  align-{{ btn_position }}
+>
+  <i class="back-to-top-button__icon icon icon--up" aria-hidden="true"></i>
+  <span class="visually-hidden">Back to top</span>
+</back-to-top-button>
+
+<script src="{{ 'back-to-top-button.js' | asset_url }}" type="module"></script>

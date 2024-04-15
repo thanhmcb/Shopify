@@ -1,0 +1,78 @@
+{
+  "name": "Footer group",
+  "type": "footer",
+  "sections": {
+    "footer-newsletter": {
+      "type": "section-newsletter",
+      "settings": {
+        "divider": false,
+        "section_width": "contained",
+        "newsletter_bg": "#ffffff",
+        "newsletter_style": "dark",
+        "default_title_color": false,
+        "text_border_color": true,
+        "section_newsletter_title": "Med dig til vores nyhedsbrev",
+        "section_newsletter_desc": "<p>Hold dig opdateret på nyeste produkter, få opskrifter og inspiration.</p>",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "section-bottom-margin": true
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "b96dcb38-c4f5-4701-a393-c492aabf73f0": {
+          "type": "text",
+          "settings": {
+            "title": "Wild Distillery Bornholm",
+            "text": "<p>Wild Distillery er et mikrodestilleri der producerer økologisk højkvalitets gin, vodka og akvavit på Bornholm.</p><p><strong>Adresse: </strong><br/>Brovangen 7<br/>3720 Aakirkeby<br/>Bornholm - Denmark</p><p><strong>Åbningstider:</strong><br/>Man-Tors: 8-16<br/>Fre: 8-15.30<br/>Lørdag: Lukket</p>"
+          }
+        },
+        "f58ac740-bb9f-42d4-bf28-e224a9c7a5c5": {
+          "type": "linklist",
+          "settings": {
+            "title": "Information",
+            "linklist": "footer-2"
+          }
+        },
+        "0d728555-98b6-4f94-a11b-099fcd6f15fb": {
+          "type": "linklist",
+          "settings": {
+            "title": "Generelle betingelser",
+            "linklist": "footer-3"
+          }
+        },
+        "4471e50e-c157-46b7-ba5e-464266db8052": {
+          "type": "contact",
+          "settings": {
+            "title": "Kontakt os",
+            "show_email": true,
+            "show_number": true,
+            "show_address": false,
+            "show_social": true,
+            "show_follow_on_shop": true
+          }
+        }
+      },
+      "block_order": [
+        "b96dcb38-c4f5-4701-a393-c492aabf73f0",
+        "f58ac740-bb9f-42d4-bf28-e224a9c7a5c5",
+        "0d728555-98b6-4f94-a11b-099fcd6f15fb",
+        "4471e50e-c157-46b7-ba5e-464266db8052"
+      ],
+      "settings": {
+        "footer_bg": "rgba(0,0,0,0)",
+        "footer_style": "dark",
+        "footer_heading_color": false,
+        "show_payment_icons": true,
+        "divider": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true
+      }
+    }
+  },
+  "order": [
+    "footer-newsletter",
+    "footer"
+  ]
+}

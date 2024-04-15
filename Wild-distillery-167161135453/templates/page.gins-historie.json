@@ -1,0 +1,199 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "section_slideshow_tzLBqh": {
+      "type": "section-slideshow",
+      "blocks": {
+        "image_KQeQK7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Wild_Distillery_Bornholm_Enebaer_Proces.jpg",
+            "alignment": "left",
+            "title": "Gin's Historie",
+            "text": "<p>Fra lægemiddel til Cocktail</p>",
+            "link_style": "c-btn c-btn--hollow",
+            "link_title": "",
+            "link": "",
+            "link_style_2": "c-btn c-btn--primary",
+            "link_title_2": "",
+            "link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_KQeQK7"
+      ],
+      "settings": {
+        "style": "solid",
+        "title_size": 3,
+        "autoplay": true,
+        "autoplay_speed": 8,
+        "nav_style": "solid-brand",
+        "nav_arrows": false,
+        "slideshow_height": "small",
+        "slideshow_width": "full",
+        "text_color": "#111111",
+        "text_heading_color": false,
+        "text_border_color": true,
+        "text_bg_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_strength": 10,
+        "section-bottom-margin": false
+      }
+    },
+    "section_image_with_text_6EWwAr": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "image_3RXdix": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Historien_om_Gin_Wild_Distillery_Bornholm_Deleboe_Sylvius.jpg",
+            "title": "Oprindelse",
+            "desc": "<p>På Universitetet i Leyden i Holland, arbejdede  professor Dr. Sylvius som læge i midten af 1600-tallet. Dr. Sylvius var kommet til den konklusion, at enebær havde en yderst gavnlig effekt på nyreproblemer. Dr. Sylvius lavede et udtræk med alkohol og drikken blev kendt i Holland som “<em>genever</em>” - hollandsk for \"enebær\". Under Trediveårskrigen i Holland, opdagede briterne “genever”, da de bemærkede, at de hollandske krigere tilsyneladende var påvirkede og kæmpede hårdere end normalt. Briterne døbte dette “The Dutch Courage” og tog opskriften med hjem til England.</p>",
+            "horizontal_align": "center",
+            "link_title": "",
+            "link": "",
+            "bg_color_block": "#0a2d27",
+            "bg_color_content": "#0a2d27",
+            "color_text": "#ffffff",
+            "text_heading_color": false,
+            "text_border_color": true
+          }
+        },
+        "image_ipP6An": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Enebaer_paa_Bornholm_Wild_Distillery.jpg",
+            "title": "Videreudvikling",
+            "desc": "<p>Gin blev hurtigt populært i England og i midten af 1700-tallet var produktionen af gin seks gange større end produktionen af øl. Populariteten betød at briterne i høj grad videreudviklede på deres destilleringsmetoder og deres produkter. Udviklingen af kolonnedestillering i 1830 og væsentlig mere know-how end tidligere, banede blandt andet vejen for stilen London Dry Gin, som vi alle kender så godt i dag.</p>",
+            "horizontal_align": "center",
+            "link_title": "",
+            "link": "",
+            "bg_color_block": "rgba(0,0,0,0)",
+            "bg_color_content": "#ffffff",
+            "color_text": "#212121",
+            "text_heading_color": false,
+            "text_border_color": true
+          }
+        },
+        "image_kDp8QF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ENE_Organic_Gin_Wild_Distillery_Bornholm.jpg",
+            "title": "London Dry Gin - en elegant base",
+            "desc": "<p>London Dry Gin blev hurtigt den mest populære gin stil med sin balancerede og rene smag, og i over et århundrede har varianten været den foretrukne go-to gin i cocktails. For at sikre, at kvaliteten af stilen bliver bibeholdt, formaliserede EU i 2008 kravene til en London Dry Gin; intet indhold af kunstigt fremstillede ingredienser, og ingen ingredienser tilføjet efter destilleringsprocessen. <a href=\"https://wilddistillery.dk/products/ene-gin-original-70cl\" title=\"Ene Craft Gin - Original Dry 70 cl 40%\">ENE Original Dry</a> er også produceret efter disse principper og det giver en ren, fin og klar smagsoplevelse.</p>",
+            "horizontal_align": "left",
+            "link_title": "",
+            "link": "",
+            "bg_color_block": "rgba(0,0,0,0)",
+            "bg_color_content": "#0a2d27",
+            "color_text": "#ffffff",
+            "text_heading_color": false,
+            "text_border_color": true
+          }
+        }
+      },
+      "block_order": [
+        "image_3RXdix",
+        "image_ipP6An",
+        "image_kDp8QF"
+      ],
+      "settings": {
+        "container": "large",
+        "block_spacing": 2,
+        "image_ratio": "4:3",
+        "block_layout": "2/3",
+        "block_align": "left",
+        "vertical_align": "top",
+        "heading_size": 3,
+        "link_style": "hollow",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "section-bottom-margin": false
+      }
+    },
+    "section_rich_text_B6kn3e": {
+      "type": "section-rich-text",
+      "settings": {
+        "full_width": false,
+        "section_title": "Wild Distillery's gin",
+        "text": "<p>Med respekt for århundredes traditioner forbundet med gin destillering, er <a href=\"/collections/enegin\" title=\"ENE Organic Gin\">ENE gin</a> vores egen videreudvikling på klassisk London Dry Gin. ENE er ikke bare navnet på vores økologiske gin serie, men også en filosofi i vores produktion, der hylder de helt tidlige versioner af gin. Filosofien handler i høj grad om at finde ind til den klare, rene smag af enebær, som har været nydt i mange hundrede år.<br/><br/>Udviklingen fortsætter dog hele tiden hos os, og vores <a href=\"https://wilddistillery.dk/products/ene-gin-original-70cl\" title=\"Ene Craft Gin - Original Dry 70 cl 40%\">ENE Original Dry</a> står ikke alene, men har været grobund for videreudviklingen af adskillige andre <a href=\"https://wilddistillery.dk/collections/all\" title=\"Alle Produkter\">interessante varianter.</a></p>",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "section-bottom-margin": false
+      }
+    },
+    "section_collection_list_ni9Rq3": {
+      "type": "section-collection-list",
+      "blocks": {
+        "collection_qYi7YY": {
+          "type": "collection",
+          "settings": {
+            "collection": "enegin",
+            "heading": "",
+            "description": "",
+            "button_label": "Se kollektion",
+            "link": "shopify://collections/enegin"
+          }
+        },
+        "collection_TpKJBY": {
+          "type": "collection",
+          "settings": {
+            "collection": "wild",
+            "heading": "",
+            "description": "",
+            "button_label": "Se kollektion",
+            "link": "shopify://collections/wild"
+          }
+        }
+      },
+      "block_order": [
+        "collection_qYi7YY",
+        "collection_TpKJBY"
+      ],
+      "settings": {
+        "title": "Vores gin kollektioner",
+        "desc": "",
+        "divider": false,
+        "heading_alignment": "center",
+        "section_width": "large",
+        "grid": 2,
+        "spacing": 3,
+        "enable_carousel_desktop": false,
+        "enable_carousel_mobile": false,
+        "title_size": 3,
+        "image_ratio": "3:4",
+        "button_style": "c-btn c-btn--hollow",
+        "alignment": "middle-center",
+        "text_alignment": "center",
+        "visibility_heading": true,
+        "visibility_border": true,
+        "visibility_count": false,
+        "visibility_description": false,
+        "visibility_button": true,
+        "hover_options": "hover-button",
+        "color_text": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_strength": 10,
+        "color_default_heading": false,
+        "color_default_border": true,
+        "link_title": "View all",
+        "link": "",
+        "section_link_style": "link link--arrow",
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_slideshow_tzLBqh",
+    "section_image_with_text_6EWwAr",
+    "section_rich_text_B6kn3e",
+    "section_collection_list_ni9Rq3"
+  ]
+}

@@ -1,0 +1,313 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": 2,
+            "title_size_mobile": 3
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "emphasize": false,
+            "price_label_discount": true,
+            "price_label_discount_type": "text",
+            "price_label_discount_color": "#c00000"
+          }
+        },
+        "db48bf56-e904-4604-9f21-89d04e9bf249": {
+          "type": "spacer",
+          "settings": {
+            "column": "primary",
+            "top": "small",
+            "bottom": "small",
+            "border": true
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "product_variant_style": "swatches-buttons",
+            "popup_enable": true,
+            "popup_trigger": "Size\nGröße\nTaille\nTaglia\nTalla",
+            "popup_label": "Size guide",
+            "popup_content": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_gift_card_recipient": true,
+            "enable_payment_button": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "column": "primary",
+            "align": "center"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "column": "secondary",
+            "title": "Description",
+            "description_collapsible_tab": false,
+            "open": false,
+            "icon": "none",
+            "icon_size": 2,
+            "color_icon": "#212121",
+            "svg-code": ""
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "db48bf56-e904-4604-9f21-89d04e9bf249",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "share",
+        "description"
+      ],
+      "settings": {
+        "style": "clean",
+        "style_clean_mobile": true,
+        "layout-order": "media-left",
+        "enable_sticky_content": true,
+        "container": "large",
+        "show_breadcrumbs": true,
+        "breadcrumbs_align": "center",
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "product_image_ratio": "1:1",
+        "enable_gallery_arrows": true,
+        "thumbnails_position": "bottom",
+        "thumbnails_ratio": "1:1",
+        "thumbnails_show_border": false
+      }
+    },
+    "product-recommendations": {
+      "type": "section-product-recommendations",
+      "settings": {
+        "related_title": "Måske du også kan lide",
+        "section_width": "large",
+        "maximum_products": 10,
+        "grid": 3,
+        "grid_mobile": "1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "5a818a60-e694-4eac-a33f-5ce701e894b0": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "template--16580692508926__5a818a60-e694-4eac-a33f-5ce701e894b0-1666784018a0003e2f-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Nyt_anlaeg.jpg",
+            "title": "Historien om Wild Distillery",
+            "desc": "<p>Wild Distillery har været en spirende idé hos Master Distiller, Henrik Nerst, siden 2010, hvor han første gang besøgte Müller Brennereianlagen - producent af kobberkedler - i Oberkirch i Tyskland. </p><p>Som daværende indehaver og sommelier på en gourmetrestaurant på Bornholm, har interessen for spiritusproduktion altid været stor. I 2013, samme år som Henrik blev nomineret til Årets Sommelier i Danmark, besøgte han igen Tyskland med henblik på at lære mere om destillationsprocesserne.</p>",
+            "horizontal_align": "center",
+            "link_title": "Læs mere",
+            "link": "shopify://pages/voreshistorie",
+            "bg_color_block": "#0a2d27",
+            "bg_color_content": "rgba(0,0,0,0)",
+            "color_text": "#ffffff",
+            "text_heading_color": false,
+            "text_border_color": true
+          }
+        },
+        "template--16580692508926__5a818a60-e694-4eac-a33f-5ce701e894b0-1666784018a0003e2f-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Gin_smagning_Wild_Distillery_Bornholm_Rundvisning.jpg",
+            "title": "Besøg os i destilleriet",
+            "desc": "<p>Besøg vores butik eller kom til rundvisning og smagning!</p><p>Planlægger du et besøg på Bornholm? Uanset om det er sommer eller vinter, kan du altid opleve det bedste af øen hos Wild Distillery. Vores destilleri er åbent hele året, og selv uden de sædvanlige rundvisninger og smagninger om vinteren, er der masser af grunde til at besøge os.</p>",
+            "horizontal_align": "center",
+            "link_title": "Læs mere",
+            "link": "shopify://pages/besoeg-wild-distillery",
+            "bg_color_block": "rgba(0,0,0,0)",
+            "bg_color_content": "rgba(0,0,0,0)",
+            "color_text": "#212121",
+            "text_heading_color": false,
+            "text_border_color": true
+          }
+        },
+        "video_bWqQQT": {
+          "type": "video",
+          "settings": {
+            "video": "https://www.youtube.com/watch?v=lUMcBe7CxaQ&t=5s",
+            "title": "Se vores proces",
+            "desc": "<p>Alle vores produkter bliver destilleret på håndbankede kobberkedler fra Müller Brennereianlagen i Oberkirch i Tyskland.</p><p>Vores nøje udvalgte ingredienser og økologiske råsprit blandes i potten, inden der varmes op under denne.</p><p>Alkohol fordamper ved 78,3 grader og vand ved 100 grader. Det er det, der gør, at vi kan holde styr på, at vi kun får de gode, alkoholiske dampe med igennem anlægget. I anlægget passerer dampene en aromatforstærker</p>",
+            "horizontal_align": "center",
+            "link_title": "Læs mere",
+            "link": "shopify://pages/voreshistorie",
+            "bg_color_block": "#0a2d27",
+            "bg_color_content": "#0a2d27",
+            "color_text": "#ffffff",
+            "text_heading_color": false,
+            "text_border_color": true
+          }
+        },
+        "image_McDKHV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Private_label_Telia_Danmark_Wild_Distillery_Bornholm.jpg",
+            "title": "Private Label med Wild Distillery",
+            "desc": "<p>Hos Wild Distillery har vi mulighed for at levere private label flasker til jeres virksomhed.</p><p>Med vores inhouse flatbed printer, kan vi i samarbejde med jer, skabe custom-made designs på flaskerne, hvor kvalitet og sans for detaljer er af højeste prioritet. Flaskerne kan ydermere leveres i flotte gaveæsker med logoglas eller med tonic til.</p>",
+            "horizontal_align": "center",
+            "link_title": "Læs mere",
+            "link": "shopify://pages/custom",
+            "bg_color_block": "rgba(0,0,0,0)",
+            "bg_color_content": "#ffffff",
+            "color_text": "#212121",
+            "text_heading_color": false,
+            "text_border_color": true
+          }
+        }
+      },
+      "block_order": [
+        "template--16580692508926__5a818a60-e694-4eac-a33f-5ce701e894b0-1666784018a0003e2f-0",
+        "template--16580692508926__5a818a60-e694-4eac-a33f-5ce701e894b0-1666784018a0003e2f-1",
+        "video_bWqQQT",
+        "image_McDKHV"
+      ],
+      "settings": {
+        "container": "large",
+        "block_spacing": 2,
+        "image_ratio": "4:3",
+        "block_layout": "2/3",
+        "block_align": "left",
+        "vertical_align": "top",
+        "heading_size": 2,
+        "link_style": "chevron",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "section-bottom-margin": false
+      }
+    },
+    "section_collection_list_7DKnzp": {
+      "type": "section-collection-list",
+      "blocks": {
+        "collection_6PBUr9": {
+          "type": "collection",
+          "settings": {
+            "collection": "aak-akvavit",
+            "heading": "",
+            "description": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "collection_iTBf3g": {
+          "type": "collection",
+          "settings": {
+            "collection": "vodka",
+            "heading": "",
+            "description": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "collection_RiJdX6": {
+          "type": "collection",
+          "settings": {
+            "collection": "enegin",
+            "heading": "",
+            "description": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "collection_8jmfVf": {
+          "type": "collection",
+          "settings": {
+            "collection": "wild",
+            "heading": "",
+            "description": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "collection_C8hRdG": {
+          "type": "collection",
+          "settings": {
+            "collection": "gaveaesker",
+            "heading": "",
+            "description": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "collection_inDkjt": {
+          "type": "collection",
+          "settings": {
+            "collection": "tonic",
+            "heading": "",
+            "description": "",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_6PBUr9",
+        "collection_iTBf3g",
+        "collection_RiJdX6",
+        "collection_8jmfVf",
+        "collection_C8hRdG",
+        "collection_inDkjt"
+      ],
+      "settings": {
+        "title": "Mere fra Wild Distillery",
+        "desc": "",
+        "divider": false,
+        "heading_alignment": "center",
+        "section_width": "large",
+        "grid": 3,
+        "spacing": 3,
+        "enable_carousel_desktop": true,
+        "enable_carousel_mobile": true,
+        "title_size": 3,
+        "image_ratio": "3:4",
+        "button_style": "c-btn c-btn--hollow",
+        "alignment": "middle-center",
+        "text_alignment": "center",
+        "visibility_heading": true,
+        "visibility_border": true,
+        "visibility_count": false,
+        "visibility_description": false,
+        "visibility_button": true,
+        "hover_options": "hover-button",
+        "color_text": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_strength": 10,
+        "color_default_heading": false,
+        "color_default_border": true,
+        "link_title": "View all",
+        "link": "",
+        "section_link_style": "link link--arrow",
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations",
+    "5a818a60-e694-4eac-a33f-5ce701e894b0",
+    "section_collection_list_7DKnzp"
+  ]
+}

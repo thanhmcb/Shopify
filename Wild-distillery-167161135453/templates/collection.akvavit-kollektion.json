@@ -1,0 +1,495 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "collection_banner_style": "overlap",
+        "text_align": "left",
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "use_first_product_image": false,
+        "image_ratio": "32:9",
+        "image_ratio_mobile": "16:9",
+        "overlay_color": "#000000",
+        "overlay_strength": 0
+      }
+    },
+    "section_rich_text_DcHUNR": {
+      "type": "section-rich-text",
+      "settings": {
+        "full_width": false,
+        "section_title": "Akvavit & Likør",
+        "text": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "section-bottom-margin": false
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "grid": 3,
+        "grid_mobile": "2",
+        "rows": 6,
+        "show_count": false,
+        "sort_enable": false,
+        "filter_style": "drawer"
+      }
+    },
+    "section_image_grid_xbaqih": {
+      "type": "section-image-grid",
+      "blocks": {
+        "text_NNVq3x": {
+          "type": "text",
+          "settings": {
+            "bg_color": "#0a2d27",
+            "text_color": "white",
+            "text_heading_color": false,
+            "text_border_color": false,
+            "title": "SØD Serien",
+            "text": "<p><strong>Velkommen til SØD </strong>serien- en dansk likørkollektion, der er inspireret af den vilde natur på Bornholm.</p><p>Vores likører er resultatet af mange timers tilsmagning, udarbejdet af sommelier og indehaver Henrik Nerst samt hans hustru, den dedikerede kok fra deres tidligere fælles restaurant.</p><p>Deres dynamiske samarbejde og evne til at skabe enestående gastronomiske oplevelser har været den drivende kraft bag udviklingen af SØD serien. Det er deres fælles søgen efter den perfekte smagskombination og hendes sans for detaljer og kompromisløse tilgang til kvalitet, der er essentiel for seriens unikke karakter og smagfulde dybde.</p>",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "image_UmNNWh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Slaen-nature-1-web.jpg",
+            "text_alignment": "bottom",
+            "text_border_color": false,
+            "title": "",
+            "text": "",
+            "link": ""
+          }
+        },
+        "image_qat63R": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/hyld4.jpg",
+            "text_alignment": "bottom",
+            "text_border_color": false,
+            "title": "",
+            "text": "",
+            "link": ""
+          }
+        },
+        "text_dWnfnJ": {
+          "type": "text",
+          "settings": {
+            "bg_color": "#0a2d27",
+            "text_color": "white",
+            "text_heading_color": false,
+            "text_border_color": false,
+            "title": "Omhyggelig blandeproces",
+            "text": "<p>Kombinationen af friske råvarer og traditionelle teknikker, skaber likører af højeste kvalitet, der fanger essensen af Bornholms unikke natur. Hver batch gennemgår en omhyggelig blande- og lagringsproces for at opnå den perfekte balance af smag og aroma.</p><p>Vi tror på, at det er vores engagement i håndværket, der giver vores bornholmske likører deres særlige karakter og dybde. Når du nyder en flaske fra SØD serien, kan du være sikker på, at den er blevet skabt med den største omhu og dedikation.</p><p>Den første likør vi er stolte af at introducerer er vores Slåen Gin Likør.</p>",
+            "link_text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_NNVq3x",
+        "image_UmNNWh",
+        "image_qat63R",
+        "text_dWnfnJ"
+      ],
+      "settings": {
+        "featured": true,
+        "height": "medium",
+        "width": "full",
+        "button_style": "hollow",
+        "overlay_strength": 10,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "section-bottom-margin": false
+      }
+    },
+    "section_image_with_text_BnCy7y": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "image_XhcMfL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Indsat_grafik-1.png",
+            "video": "",
+            "video_button_color": "primary",
+            "title": "AAK Akvavit",
+            "desc": "<p>Velkommen til vores akvavitserie, AAK.</p><p>AAK er en forkortelse for Aakirkeby, hvor Wild Distillery holder til.</p><p>Akvavitserien er lavet med respekt for nordiske traditioner og arv.</p><p>AAK akvavitserien holder sig til de klassiske smage, som vi har kendt i norden gennem århundreder. Vores akvavit adskiller sig ved at bruge nøje udvalgte økologiske ingredienser, destilleret på et håndlavet destilleringsanlæg og tilsmagt og tilrettet af indehaver, sommelier og Master Distiller, Henrik Nerst.</p>",
+            "horizontal_align": "center",
+            "link_title": "",
+            "link": "",
+            "bg_color_block": "rgba(0,0,0,0)",
+            "bg_color_content": "#ffffff",
+            "color_text": "#212121",
+            "text_heading_color": false,
+            "text_border_color": true
+          }
+        },
+        "image_irVfrt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Akvavitgrouplandscape.jpg",
+            "video": "",
+            "video_button_color": "primary",
+            "title": "Inspirationen til vores bornholmske akvavitserie, AAK.",
+            "desc": "<p>Vores kollektion er skabt med kærlighed og respekt for dansk kulturarv og destilleringshåndværk.</p><p>Vi har skabt denne danske akvavitserie med øje for detaljer og respekt for nordiske smagstraditioner. Hvert glas er fyldt med karakteristiske smagsnoter, der bringer minder om århundreder gamle opskrifter og nedarvet viden.</p><p>Vi har savnet en dansk akvavit, der er både ren i smagen og lækker at drikke ved stuetemperatur. Derfor præsenterer vi stolt AAK Akvavit-kollektionen. Begge varianter er nøje afbalanceret og udviklet for at levere en sublim smagsoplevelse. Fra den første duft til den sidste dråbe er vores akvavit en rejse gennem nordiske smagsnuancer.</p>",
+            "horizontal_align": "center",
+            "link_title": "",
+            "link": "",
+            "bg_color_block": "rgba(0,0,0,0)",
+            "bg_color_content": "#ffffff",
+            "color_text": "#212121",
+            "text_heading_color": false,
+            "text_border_color": true
+          }
+        }
+      },
+      "block_order": [
+        "image_XhcMfL",
+        "image_irVfrt"
+      ],
+      "settings": {
+        "container": "large",
+        "block_spacing": 2,
+        "image_ratio": "4:3",
+        "block_layout": "2/3",
+        "block_align": "left",
+        "vertical_align": "top",
+        "heading_size": 3,
+        "link_style": "hollow",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "section-bottom-margin": false
+      }
+    },
+    "section_faq_hbW4ii": {
+      "type": "section-faq",
+      "blocks": {
+        "category_7PQMNx": {
+          "type": "category",
+          "settings": {
+            "title": "Ofte stillede spørgsmål om dansk Akvavit"
+          }
+        },
+        "article_am6P3t": {
+          "type": "article",
+          "settings": {
+            "title": "Hvad er dansk akvavit?",
+            "text": "<p>Dansk akvavit er en traditionel nordisk spiritus, der hylder krydderurternes kompleksitet, herunder kommen og dild. AAK-serien bringer en moderne tilgang til denne arv og er dedikeret til at præsentere unikke smagsoplevelser.</p>"
+          }
+        },
+        "article_ab4n8U": {
+          "type": "article",
+          "settings": {
+            "title": "Hvordan laves dansk akvavit?",
+            "text": "<p>Dansk akvavit laves ved at destillere neutral alkohol med økologiske ingredienser som kommen og dild. Efter destillationsprocessen kan nogle varianter lagres i træfade for at tilføje yderligere smag. AAK Akvavit anvender traditionelle destilleringsteknikker på håndbankede kobberkedler fra Müller Brennereianlagen.</p>"
+          }
+        },
+        "article_RkYmzB": {
+          "type": "article",
+          "settings": {
+            "title": "Hvad er forskellen mellem akvavit og snaps?",
+            "text": "<p>Akvavit og snaps refererer ofte til det samme, men \"snaps\" er mere generelt og kan omfatte enhver form for brændevin. Reglerne for hvornår en spiritus må kaldes akvavit er mere skærpede. Modsat snaps må akvavit ikke indeholde sukker og den skal have en alkoholprocent over 37,5%. Yderligere må det kun kaldes en akvavit hvis smagen er karakteriseret ved enten kommen eller dild.</p>"
+          }
+        },
+        "article_gMyfRV": {
+          "type": "article",
+          "settings": {
+            "title": "Hvad er historien bag dansk akvavit?",
+            "text": "<p>Dansk akvavits historie går tilbage flere hundrede år og har dybe rødder i Skandinavien. Oprindeligt brugt som medicin, udviklede den sig til en festlig drik og tilbehør til mad. </p>"
+          }
+        },
+        "article_pGQaEY": {
+          "type": "article",
+          "settings": {
+            "title": "Er akvavit eksklusiv for Scandinavian?",
+            "text": "<p>Selvom akvavit har sine rødder i Norden, er det ikke eksklusivt for regionen. Dens popularitet strækker sig globalt blandt dem, der værdsætter unikke smagsoplevelser og traditionel destillation.</p>"
+          }
+        },
+        "article_X49iKr": {
+          "type": "article",
+          "settings": {
+            "title": "Hvad gør AAK Akvavitserien unik?",
+            "text": "<p>AAK Akvavitserien kombinerer nordiske traditioner og respekt for arven med moderne produktionsmetoder. Den bruger udelukkende økologiske ingredienser og destilleres i håndbankede kobberkedler fra Müller Brennereianlagen, hvilket sikrer en autentisk og høj kvalitet.</p>"
+          }
+        },
+        "article_R4npnp": {
+          "type": "article",
+          "settings": {
+            "title": "Hvordan serveres dansk akvavit bedst?",
+            "text": "<p>Dansk akvavit serveres traditionelt køligt eller ved stuetemperatur for at fremhæve smagsprofilen. Vi anbefaler, at man drikker begge varianter af AAK- akvavit ved stuetemperatur for at få den bedste smagsoplevelse. </p>"
+          }
+        },
+        "article_Ekibww": {
+          "type": "article",
+          "settings": {
+            "title": " Hvornår drikker man akvavit?",
+            "text": "<p>Du kan drikke akvavit hele året, men det ses typisk at danskerne drikker akvavit ved påske- og julebordet. </p>"
+          }
+        },
+        "article_AFnhRa": {
+          "type": "article",
+          "settings": {
+            "title": "Er AAK en Bornholmer snaps? ",
+            "text": "<p>AAK er produceret på Bornholm. Men vil ikke betegnes som en klassisk bornholmer snaps. Den unikke bornholmer snaps ”Honningsyp”, er en klassisk akvavit blandet op med honning. Du kan derfor godt lave dine egen bornholmer snaps, ved at bruge AAK Akvavit – Original som base til din honningsyp eller til andre snaps.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_7PQMNx",
+        "article_am6P3t",
+        "article_ab4n8U",
+        "article_RkYmzB",
+        "article_gMyfRV",
+        "article_pGQaEY",
+        "article_X49iKr",
+        "article_R4npnp",
+        "article_Ekibww",
+        "article_AFnhRa"
+      ],
+      "settings": {
+        "enable_sidebar": false,
+        "cta_link_title": "",
+        "cta_link": "",
+        "cta_style": "link",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_multi_column_images_Eyq34H": {
+      "type": "section-multi-column-images",
+      "blocks": {
+        "image_Pdw3fk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Akvavit_GT-kopi.jpg",
+            "title": "Cocktailopskrifter",
+            "sub_title": "",
+            "desc": "<p>Find inspiration til din næste cocktail. Vi har udvalgt en lang række cocktails der passer perfekt til vores produkter.</p>",
+            "link_title": "Læs mere her",
+            "link": "shopify://blogs/oversigt"
+          }
+        },
+        "image_4EmJ8L": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Gin_smagning_Wild_Distillery_Bornholm_Rundvisning.jpg",
+            "title": "Besøg os i destilleriet",
+            "sub_title": "",
+            "desc": "<p>Besøg vores butik eller kom til rundvisning og smagning! Du kan besøge os hele året og om sommeren inviterer vi på gratis rundvisning.</p>",
+            "link_title": "Læs mere her",
+            "link": "shopify://pages/besoeg-wild-distillery"
+          }
+        },
+        "image_VECQYc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Navy_med_medaljer-kopi.png",
+            "title": "Vores Prisvindende Gin og Vodka",
+            "sub_title": "",
+            "desc": "<p>Vores passion for kvalitet og håndværk har ført til adskillige priser og hædersbevisninger fra anerkendte institutioner og konkurrencer inden for spiritusverdenen.</p>",
+            "link_title": "Læs mere her",
+            "link": "shopify://pages/awards"
+          }
+        }
+      },
+      "block_order": [
+        "image_Pdw3fk",
+        "image_4EmJ8L",
+        "image_VECQYc"
+      ],
+      "settings": {
+        "title": "Mere om  Wild Distillery",
+        "container": "large",
+        "link_title": "Learn more",
+        "link": "",
+        "divider": false,
+        "grid": 3,
+        "spacing": 3,
+        "alignment": "center",
+        "link_style": "hollow",
+        "heading_size": 3,
+        "image_toggle": true,
+        "image_size": 100,
+        "image_padding": 0,
+        "image_ratio": "4:3",
+        "image_fit": false,
+        "bg_color": "rgba(0,0,0,0)",
+        "color_image": "rgba(0,0,0,0)",
+        "color_text": "rgba(0,0,0,0)",
+        "text_heading_color": false,
+        "text_border_color": true,
+        "grid_mobile": "1",
+        "mobile_layout": "carousel",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "section-bottom-margin": false
+      }
+    },
+    "section_image_with_text_y69UMc": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "image_QUKmjm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Telia_giftbox.jpg",
+            "video": "",
+            "video_button_color": "primary",
+            "title": "Private Label Design med Wild Distillery",
+            "desc": "<p>Hos Wild Distillery har vi mulighed for at levere private label flasker til jeres virksomhed.</p><p>Med vores inhouse flatbed printer, kan vi i samarbejde med jer, skabe custom-made designs på flaskerne, hvor kvalitet og sans for detaljer er af højeste prioritet. Flaskerne kan ydermere leveres i flotte gaveæsker med logoglas eller med tonic til.</p>",
+            "horizontal_align": "center",
+            "link_title": "Læs mere",
+            "link": "shopify://pages/custom",
+            "bg_color_block": "#0a2d27",
+            "bg_color_content": "#0a2d27",
+            "color_text": "#ffffff",
+            "text_heading_color": false,
+            "text_border_color": true
+          }
+        },
+        "image_67cWLL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Nyt_anlaeg.jpg",
+            "video": "",
+            "video_button_color": "primary",
+            "title": "Vores historie og proces",
+            "desc": "<p>Wild Distillery har været en spirende idé hos Master Distiller, Henrik Nerst, siden 2010, hvor han første gang besøgte Müller Brennereianlagen - producent af kobberkedler - i Oberkirch i Tyskland. </p><p></p><p>Som daværende indehaver og sommelier på en gourmetrestaurant på Bornholm, har interessen for spiritusproduktion altid været stor. I 2013, samme år som Henrik blev nomineret til Årets Sommelier i Danmark, besøgte han igen Tyskland med henblik på at lære mere om destillationsprocesserne.</p>",
+            "horizontal_align": "center",
+            "link_title": "Læs mere",
+            "link": "shopify://pages/voreshistorie",
+            "bg_color_block": "rgba(0,0,0,0)",
+            "bg_color_content": "#ffffff",
+            "color_text": "#212121",
+            "text_heading_color": false,
+            "text_border_color": true
+          }
+        }
+      },
+      "block_order": [
+        "image_QUKmjm",
+        "image_67cWLL"
+      ],
+      "settings": {
+        "container": "large",
+        "block_spacing": 2,
+        "image_ratio": "4:3",
+        "block_layout": "2/3",
+        "block_align": "left",
+        "vertical_align": "top",
+        "heading_size": 3,
+        "link_style": "hollow",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "section-bottom-margin": false
+      }
+    },
+    "section_collection_list_3G6Ri8": {
+      "type": "section-collection-list",
+      "blocks": {
+        "collection_atpiER": {
+          "type": "collection",
+          "settings": {
+            "collection": "enegin",
+            "heading": "",
+            "description": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "collection_rTgAyE": {
+          "type": "collection",
+          "settings": {
+            "collection": "vodka",
+            "heading": "",
+            "description": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "collection_fKy8fU": {
+          "type": "collection",
+          "settings": {
+            "collection": "wild",
+            "heading": "",
+            "description": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "collection_EUmB3W": {
+          "type": "collection",
+          "settings": {
+            "collection": "tonic",
+            "heading": "",
+            "description": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "collection_XHNJjc": {
+          "type": "collection",
+          "settings": {
+            "collection": "gaveaesker",
+            "heading": "",
+            "description": "",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_atpiER",
+        "collection_rTgAyE",
+        "collection_fKy8fU",
+        "collection_EUmB3W",
+        "collection_XHNJjc"
+      ],
+      "settings": {
+        "title": "Se mere fra Wild Distillery",
+        "desc": "",
+        "divider": false,
+        "heading_alignment": "center",
+        "section_width": "large",
+        "grid": 3,
+        "spacing": 3,
+        "enable_carousel_desktop": true,
+        "enable_carousel_mobile": true,
+        "title_size": 3,
+        "image_ratio": "3:4",
+        "button_style": "c-btn c-btn--hollow",
+        "alignment": "middle-center",
+        "text_alignment": "center",
+        "visibility_heading": true,
+        "visibility_border": true,
+        "visibility_count": false,
+        "visibility_description": false,
+        "visibility_button": true,
+        "hover_options": "hover-button",
+        "color_text": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_strength": 10,
+        "color_default_heading": false,
+        "color_default_border": true,
+        "link_title": "View all",
+        "link": "",
+        "section_link_style": "link link--arrow",
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "section_rich_text_DcHUNR",
+    "product-grid",
+    "section_image_grid_xbaqih",
+    "section_image_with_text_BnCy7y",
+    "section_faq_hbW4ii",
+    "section_multi_column_images_Eyq34H",
+    "section_image_with_text_y69UMc",
+    "section_collection_list_3G6Ri8"
+  ]
+}

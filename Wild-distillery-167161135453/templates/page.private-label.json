@@ -1,0 +1,998 @@
+{
+  "sections": {
+    "section_hero_video_ChApPw": {
+      "type": "section-hero-video",
+      "blocks": {
+        "heading_MAzVAD": {
+          "type": "heading",
+          "settings": {
+            "heading": "Wild Distillery tilbyder skræddersyede løsninger, hvor vi kan forsyne din virksomhed med private label flasker.",
+            "text_size": 7,
+            "text_width": 75,
+            "text_size_mobile": 4
+          }
+        },
+        "text_KMRzHF": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use wallpaper video to create an emotional connection with your customers and help them to understand your products</p>",
+            "text_size": 2,
+            "text_width": 100,
+            "text_size_mobile": 1
+          }
+        },
+        "button_fNxeqR": {
+          "type": "button",
+          "settings": {
+            "button_style": "c-btn c-btn--hollow",
+            "button_label": "Kontakt os",
+            "button_link": "shopify://pages/kontakt",
+            "button_2_style": "c-btn c-btn--primary",
+            "button_2_label": "",
+            "button_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_MAzVAD",
+        "text_KMRzHF",
+        "button_fNxeqR"
+      ],
+      "settings": {
+        "video": "shopify://files/videos/Private label 48sek.mp4",
+        "section_height": 880,
+        "section_height_mobile": 460,
+        "section_width": "full",
+        "content_alignment": "bottom-center",
+        "content_color": "#ffffff",
+        "content_heading_color": false,
+        "overlay_color": "#000000",
+        "overlay_strength": 10,
+        "section_bottom_margin": true
+      }
+    },
+    "section_image_text_banner_r7NbPE": {
+      "type": "section-image-text-banner",
+      "blocks": {
+        "text_N7z8Hz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>I samarbejde med jer har vi mulighed for at udvikle unikke, skræddersyede design på flaskerne, hvor fokus på kvalitet og øje for detaljer er i top. Derudover tilbyder vi levering af flaskerne i elegante gaveæsker, komplet med logo-prægede glas eller inklusive tonic. minimumsbestilling på 80 stk.</p>",
+            "text_size": 4,
+            "text_width": 75,
+            "text_size_mobile": 2
+          }
+        }
+      },
+      "block_order": [
+        "text_N7z8Hz"
+      ],
+      "settings": {
+        "bg_image": "shopify://shop_images/70cl_group_1_brighter-kopi_1c846750-88d9-4405-a12e-d86174d1ac15.jpg",
+        "bg_color": "#000000",
+        "section_height": 450,
+        "section_height_mobile": 250,
+        "section_width": "full",
+        "content_alignment": "center",
+        "content_color": "#ffffff",
+        "content_heading_color": false,
+        "overlay_color": "#041a16",
+        "overlay_strength": 80,
+        "section_bottom_margin": true
+      }
+    },
+    "section_collection_bqnctj": {
+      "type": "section-collection",
+      "blocks": {
+        "collection_mGfHqT": {
+          "type": "collection",
+          "settings": {
+            "heading": "",
+            "heading_color": "rgba(0,0,0,0)",
+            "collection": "enegin",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_mGfHqT"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Vores udvalg af private label flasker",
+        "text_alignment": "center",
+        "section_width": "large",
+        "link_title": "",
+        "link": "",
+        "divider": false,
+        "maximum_products": 6,
+        "grid": 3,
+        "enable_carousel_desktop": true,
+        "grid_mobile": "1",
+        "enable_carousel_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_image_with_text_overlap_QnzGfr": {
+      "type": "section-image-with-text-overlap",
+      "blocks": {
+        "image_pMCx69": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Roland1.png",
+            "video_button_color": "primary",
+            "title": "Hvad kan private label flasker bruges til?",
+            "desc": "<p>Unik gave der stemmer overens med virksomhedens brand og visuelle identitet<br/></p><p>Er blevet brugt til ”tak for handlen gaver”, sponsor- medarbejder- og julegaver. Til firmagaver og receptioner i repræsentative formål. Endda som til produktlancering som alternativ til et nyhedsbrev.<br/></p>",
+            "horizontal_align": "left",
+            "link_title": "Vi er med dig hele vejen",
+            "link": "shopify://pages/kontakt",
+            "bg_color_block": "#f2f2f2",
+            "bg_color_content": "#ffffff",
+            "color_text": "#212121",
+            "text_heading_color": false,
+            "text_border_color": true
+          }
+        },
+        "image_hr87YA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Wild_distillery_aston.png",
+            "video_button_color": "primary",
+            "title": "Hvorfor vælge Wild Distillery som private label løsning?",
+            "desc": "<p>Prisbelønnet gin, vodka eller akvavit som indhold.<br/>Meget ”personlig” i virksomhed øjemed end blot et klistermærke på en vinflaske. </p><ul><li>Vi er fleksibel og hjælpsom</li><li>Hurtig levering</li><li>Minimumsbestilling på 80 stk.</li></ul>",
+            "horizontal_align": "left",
+            "link_title": "Kontakt os",
+            "link": "shopify://pages/kontakt",
+            "bg_color_block": "rgba(0,0,0,0)",
+            "bg_color_content": "#ffffff",
+            "color_text": "#212121",
+            "text_heading_color": false,
+            "text_border_color": true
+          }
+        },
+        "video_agaUiw": {
+          "type": "video",
+          "settings": {
+            "video_background": "shopify://files/videos/flasker drejer - bred 15sek.mp4",
+            "video": "",
+            "video_button_color": "primary",
+            "title": "Hvad er prisen og minumusbestilling?",
+            "desc": "<p>Prisen starter fra 320 kr. for en gin ved minumsbestilling på 80 stk. </p><p>Her ser man et udvalg af private label designs, hvor man også kan fornemme 3D effekten i flaskens dybde</p>",
+            "horizontal_align": "left",
+            "link_title": "",
+            "link": "",
+            "bg_color_block": "#f2f2f2",
+            "bg_color_content": "#ffffff",
+            "color_text": "#212121",
+            "text_heading_color": false,
+            "text_border_color": true
+          }
+        }
+      },
+      "block_order": [
+        "image_pMCx69",
+        "image_hr87YA",
+        "video_agaUiw"
+      ],
+      "settings": {
+        "container": "large",
+        "block_spacing": 4,
+        "image_ratio": "1:1",
+        "block_layout": "2/3",
+        "block_align": "right",
+        "heading_size": 4,
+        "link_style": "hollow",
+        "text_style": "solid",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "section-bottom-margin": true
+      }
+    },
+    "section_multi_column_images_wg84yL": {
+      "type": "section-multi-column-images",
+      "blocks": {
+        "image_Fkhqtq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Dry_gift_box_tonic_taet.jpg",
+            "title": "2 x Fever-Tree Tonic",
+            "sub_title": "+ Pris på 60 kr./stk.",
+            "desc": "<p>Describe the main features of your brand or products using a few lines of text along with images or icons.</p>",
+            "link_title": "",
+            "link": ""
+          }
+        },
+        "image_NX8Jb4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Dry_gift_box_glas.jpg",
+            "title": "2 x Logo glas",
+            "sub_title": "+ Pris på 90 kr./stk.",
+            "desc": "<p>Describe the main features of your brand or products using a few lines of text along with images or icons. <br/></p>",
+            "link_title": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Fkhqtq",
+        "image_NX8Jb4"
+      ],
+      "settings": {
+        "title": "Gaveæsker - Hvis det skal være eksklusiv",
+        "container": "large",
+        "link_title": "",
+        "link": "",
+        "divider": false,
+        "grid": 3,
+        "spacing": 5,
+        "alignment": "center",
+        "link_style": "hollow",
+        "heading_size": 5,
+        "image_toggle": true,
+        "image_size": 100,
+        "image_padding": 0,
+        "image_ratio": "circle",
+        "image_fit": false,
+        "bg_color": "#041a16",
+        "color_image": "rgba(0,0,0,0)",
+        "color_text": "#ffffff",
+        "text_heading_color": false,
+        "text_border_color": true,
+        "grid_mobile": "1",
+        "mobile_layout": "carousel",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "section-bottom-margin": false
+      }
+    },
+    "section_image_compare_iJPeyM": {
+      "type": "section-image-compare",
+      "blocks": {
+        "feature_f8UNyt": {
+          "type": "feature",
+          "settings": {
+            "icon": "icon-pencil-2",
+            "svg-code": "",
+            "title": "Formalia",
+            "text": "<p>Designet skal afleveres i 3 dokumenter. Ét dokument til hver side. Forsidens design skal laves med sort tekst på hvid baggrund. Alle sorte elementer på forsiden printes i hvid på flasken. Format (70cl): 90 x 172mm</p><p><a href=\"#\" title=\"#\">Download skabelon her</a></p>"
+          }
+        },
+        "feature_3zJF7w": {
+          "type": "feature",
+          "settings": {
+            "icon": "icon-cocktail-martini",
+            "svg-code": "",
+            "title": "Formkrav",
+            "text": "<p>På flasken SKAL der indgå: Produktionssted (Wild Distillery Bornholm) Alkoholprocent (”alc. xx% vol.”) Indhold i centiliter Spiritustypen skal indgå på flaskens forside (f.eks. Gin)</p>"
+          }
+        },
+        "feature_canWmG": {
+          "type": "feature",
+          "settings": {
+            "icon": "icon-notes-list",
+            "svg-code": "",
+            "title": "Huskeliste",
+            "text": "<p>Konverter alle tekster til outlines  Integrér alle billeder Alle elementer skal være mindst 300 dpi Ingen skærelinjer og Filtype:  PDF, Eps eller AI.</p>"
+          }
+        },
+        "feature_3btRty": {
+          "type": "feature",
+          "settings": {
+            "icon": "icon-picture-stack-landscape",
+            "svg-code": "",
+            "title": "Har du brug for hjælp?",
+            "text": "<p>Mangler i en grafisk designer? Så hjælper vi gerne med at opsætte jeres design. Hvis i fremsender jeres logo, et billede til mellemlag og bagside, samt tekst til bagside til: <a href=\"mailto:Marketing@wilddistillery.com\" title=\"mailto:Marketing@wilddistillery.com\">Marketing@wilddistillery.com</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "feature_f8UNyt",
+        "feature_3zJF7w",
+        "feature_canWmG",
+        "feature_3btRty"
+      ],
+      "settings": {
+        "title": "Design og formkrav",
+        "desc": "<p>Der er mange muligheder når det gælder valg af jeres design og vi sender gerne inspiration fra tidligere designs vi har lavet. </p>",
+        "text_alignment": "center",
+        "divider": false,
+        "container": "large",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#000000",
+        "text_border_color": true,
+        "handle_style": "solid",
+        "handle_color": "#ffffff",
+        "handle_start": 45,
+        "label_style": "overlay",
+        "image_ratio": "1:1",
+        "image_ratio_mobile": "1:1",
+        "image_1": "shopify://shop_images/foer.jpg",
+        "image_1_heading": "Before",
+        "image_2": "shopify://shop_images/efter_6f023406-73d5-4fca-b6c2-5ecb9b550d1c.jpg",
+        "image_2_heading": "After",
+        "feature_position": "right",
+        "feature_heading_style": "heading",
+        "feature_heading_size": 5,
+        "feature_icon_size": 3,
+        "link_title": "Download skabelon her",
+        "link": "#",
+        "section_link_style": "c-btn c-btn--solid",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "section-bottom-margin": false
+      }
+    },
+    "section_multi_column_images_cTzVeq": {
+      "type": "section-multi-column-images",
+      "blocks": {
+        "image_aYKexL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9820-Edit-3.jpg",
+            "title": "Ingen kompromiser på kvalitet",
+            "sub_title": "",
+            "desc": "<p>Printet på de private label flasker er af samme høje kvalitet, som vi producerer til vores egne gin-, vodka- og akvavitflasker. Custom flaskerne indeholder tilmed også det samme velsmagende gin, vodka og akvavit, som vi bruger til vores egne produkter.</p>",
+            "link_title": "Læs mere",
+            "link": "shopify://pages/awards"
+          }
+        },
+        "image_4fUUyq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Poul_Pava.jpg",
+            "title": "3D-lignende effekt",
+            "sub_title": "",
+            "desc": "<p>Designet på flasken spænder sig over tre printflader. Forside, mellemlag og bagside. Det giver en unik 3D-lignende effekt, som gør at flaskerne bliver ekstra iøjenfaldende.</p>",
+            "link_title": "",
+            "link": ""
+          }
+        },
+        "image_4iDm7L": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Wild-Sanke_01.jpg",
+            "title": "CSR & Bæredygtighed",
+            "sub_title": "",
+            "desc": "<p>Naturen er noget, der har en særlig betydning for os og vi vil være med til at passe på den. Alle råvarer i vores produktion er økologiske. Håndplukkede enebær, som indehaver Henrik, sanker om efteråret.</p>",
+            "link_title": "Læs mere",
+            "link": "shopify://pages/baeredygtighed"
+          }
+        },
+        "image_weTPGJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9251.jpg",
+            "title": "Råvarer og destillering",
+            "sub_title": "",
+            "desc": "<p>Alle vores produkter bliver destilleret på håndbankede kobberkedler fra Müller Brennereianlagen i Oberkirch i Tyskland. I anlægget passerer dampene en aromatforstærker. Denne bruges til de friske ingredienser i produktionen.</p>",
+            "link_title": "Læs mere",
+            "link": "shopify://pages/voreshistorie"
+          }
+        }
+      },
+      "block_order": [
+        "image_aYKexL",
+        "image_4fUUyq",
+        "image_4iDm7L",
+        "image_weTPGJ"
+      ],
+      "settings": {
+        "title": "Features som gør Wild Distillery Bornholm unikke som en Privat label løsning",
+        "container": "large",
+        "link_title": "",
+        "link": "",
+        "divider": false,
+        "grid": 4,
+        "spacing": 3,
+        "alignment": "left",
+        "link_style": "hollow",
+        "heading_size": 3,
+        "image_toggle": true,
+        "image_size": 100,
+        "image_padding": 0,
+        "image_ratio": "1:1",
+        "image_fit": false,
+        "bg_color": "#041a16",
+        "color_image": "rgba(0,0,0,0)",
+        "color_text": "#ffffff",
+        "text_heading_color": false,
+        "text_border_color": true,
+        "grid_mobile": "1",
+        "mobile_layout": "carousel",
+        "padding_top": 39,
+        "padding_bottom": 39,
+        "section-bottom-margin": true
+      }
+    },
+    "section_hero_video_d4HN8a": {
+      "type": "section-hero-video",
+      "settings": {
+        "video": "shopify://files/videos/kun flasker.mp4",
+        "section_height": 750,
+        "section_height_mobile": 270,
+        "section_width": "full",
+        "content_alignment": "center",
+        "content_color": "#ffffff",
+        "content_heading_color": false,
+        "overlay_color": "#000000",
+        "overlay_strength": 0,
+        "section_bottom_margin": true
+      }
+    },
+    "section_logo_list_mhkFKA": {
+      "type": "section-logo-list",
+      "blocks": {
+        "image_dwXcrV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AMCPH_WHite.png",
+            "link": ""
+          }
+        },
+        "image_iEPrAC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BIF_logo_streg_W12.png",
+            "link": ""
+          }
+        },
+        "image_8KmPRb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Telia_Negative_White_Logo_CMYK.png",
+            "link": ""
+          }
+        },
+        "image_iLqfxw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Gin_side_1_-_PRINTES_I_HVID-2.png",
+            "link": ""
+          }
+        },
+        "image_PjFqC4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BORSEN_FR1.png",
+            "link": ""
+          }
+        },
+        "image_7BMgEE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DBU_1.png",
+            "link": ""
+          }
+        },
+        "image_xrUeDX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/X-Yachts_logo_white_payoff_midt.png",
+            "link": ""
+          }
+        },
+        "image_D9VR4w": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Lind.png",
+            "link": ""
+          }
+        },
+        "image_g6FY3T": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/CHGP_FR1.png",
+            "link": ""
+          }
+        },
+        "image_AA7JRR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/GROHE_FR_W.1eps_-_Kopi.png",
+            "link": ""
+          }
+        },
+        "image_wPWRVT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ALTANA_FR_W1_kopi.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_dwXcrV",
+        "image_iEPrAC",
+        "image_8KmPRb",
+        "image_iLqfxw",
+        "image_PjFqC4",
+        "image_7BMgEE",
+        "image_xrUeDX",
+        "image_D9VR4w",
+        "image_g6FY3T",
+        "image_AA7JRR",
+        "image_wPWRVT"
+      ],
+      "settings": {
+        "title": "Kunder som har valgt vores Privat label løsning",
+        "desc": "",
+        "grid": 5,
+        "style_desktop": "carousel",
+        "style_mobile": "carousel",
+        "link_title": "",
+        "link": "",
+        "bg_color": "#000000",
+        "color_text": "#ffffff",
+        "text_heading_color": false,
+        "padding_top": 42,
+        "padding_bottom": 42
+      }
+    },
+    "section_testimonials_zE4HTE": {
+      "type": "section-testimonials",
+      "blocks": {
+        "text_XzQEAh": {
+          "type": "text",
+          "settings": {
+            "media": "quote",
+            "svg-code": "",
+            "image_round": true,
+            "text": "<p>Vi har været glade for samarbejdet. Vi har fået<br/>lavet en flot ginflaske med logo og dyremotiv. Flasken er flot og anderledes, og har fået meget positiv respons\"</p>",
+            "name": "Morten Mikkelsen, Salgs- og Marketingchef, RandersRegnskov",
+            "source": ""
+          }
+        },
+        "text_JLTytd": {
+          "type": "text",
+          "settings": {
+            "media": "quote",
+            "svg-code": "",
+            "image_round": true,
+            "text": "<p>Vi har været tilfredse med både samarbejdet og det leverede produkt fra Wild Distillery, hvor vi fik fremstillet en flot flaske med designmæssigt udgangspunkt i vores brand.</p>",
+            "name": "Aya B.Lorenzen, Senior Marketing Project Manager, Telia",
+            "source": ""
+          }
+        },
+        "text_FhmygE": {
+          "type": "text",
+          "settings": {
+            "media": "quote",
+            "svg-code": "",
+            "image_round": true,
+            "text": "<p>Hos Keepers er vi stolte af, at vi de seneste to år kunnet levere en unik, Keeperficeret og ”Wild” gin-julegave til vores kunder. Samarbejdet og ikke mindst fleksibiliteten fra Wild Distillery har været fantastisk.</p>",
+            "name": "Katja Feldstein, Partner at Keepers ApS",
+            "source": "Source"
+          }
+        },
+        "text_DD36xe": {
+          "type": "text",
+          "settings": {
+            "media": "quote",
+            "svg-code": "",
+            "image_round": true,
+            "text": "<p>Vi har været meget tilfredse med Samarbejdet og har fået stor hjælp med at få vores eget udtryk frem På flasken , så den passer ind i vores fortælling. Og for god respons fra vores gæster på både udseende og smag Bo Møller, Restaurantchef, Bautahøj Hotel og kursuscenter</p>",
+            "name": "Bo Møller, Restaurantchef",
+            "source": ""
+          }
+        },
+        "text_Dxqxfm": {
+          "type": "text",
+          "settings": {
+            "media": "quote",
+            "svg-code": "",
+            "image_round": true,
+            "text": "<p>Efter vi fik idéen om at få produceret ginflasker med vores logo, gik det utrolig hurtig med at få lavet et flot design, baseret på vores eget materiale. Wild Distillery gav os kompetent og god sparring, og siden har vi fået stor ros af vores kunder for både indhold og flaske.</p>",
+            "name": "Jacob Guldager BranchManager & Business Development DirectorLeth Agencies",
+            "source": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_XzQEAh",
+        "text_JLTytd",
+        "text_FhmygE",
+        "text_DD36xe",
+        "text_Dxqxfm"
+      ],
+      "settings": {
+        "title": "",
+        "style_desktop": "carousel",
+        "style_mobile": "carousel",
+        "link_title": "",
+        "link": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_collection_nJjBGY": {
+      "type": "section-collection",
+      "blocks": {
+        "collection_rt4qMg": {
+          "type": "collection",
+          "settings": {
+            "heading": "",
+            "heading_color": "rgba(0,0,0,0)",
+            "collection": "enegin",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_rt4qMg"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Vores udvalg af private label flasker og priser",
+        "text_alignment": "center",
+        "section_width": "large",
+        "link_title": "",
+        "link": "",
+        "divider": false,
+        "maximum_products": 6,
+        "grid": 3,
+        "enable_carousel_desktop": true,
+        "grid_mobile": "1",
+        "enable_carousel_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_multi_column_icons_nG7yf8": {
+      "type": "section-multi-column-icons",
+      "blocks": {
+        "text_cpiDQw": {
+          "type": "text",
+          "settings": {
+            "icon": "icon-discount-circle",
+            "color_icon": "#ffffff",
+            "svg-code": "",
+            "title": "Antal",
+            "sub_title": "",
+            "desc": "<h3>80-159 stk.</h3><h3>160-299 stk.</h3><h3>300-499 stk.</h3><h3>500-1000 stk.</h3><h3>1001 og op</h3>",
+            "link_title": "",
+            "link": ""
+          }
+        },
+        "text_TYVTPN": {
+          "type": "text",
+          "settings": {
+            "icon": "icon-coffee-cup",
+            "color_icon": "#ffffff",
+            "svg-code": "",
+            "title": "Custom gin (70cl.)",
+            "sub_title": "",
+            "desc": "<h3>320kr</h3><h3>300kr.</h3><h3>280kr.</h3><h3>260kr.</h3><h3>Forespørgsel</h3>",
+            "link_title": "Learn more",
+            "link": ""
+          }
+        },
+        "text_bWrxzr": {
+          "type": "text",
+          "settings": {
+            "icon": "icon-cocktail-martini",
+            "color_icon": "#ffffff",
+            "svg-code": "",
+            "title": "Custon vodka (70 cl.)",
+            "sub_title": "",
+            "desc": "<h3>260kr.</h3><h3>250kr.</h3><h3>240kr.</h3><h3>230kr.</h3><h3>Forespørgsel</h3>",
+            "link_title": "Learn more",
+            "link": ""
+          }
+        },
+        "text_NNCfQw": {
+          "type": "text",
+          "settings": {
+            "icon": "icon-ice-snowflake",
+            "color_icon": "#ffffff",
+            "svg-code": "",
+            "title": "Custon akvavit (70 cl.)",
+            "sub_title": "",
+            "desc": "<h3>260kr.</h3><h3>250kr.</h3><h3>240kr.</h3><h3>230kr.</h3><h3>Forespørgsel</h3>",
+            "link_title": "Learn more",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_cpiDQw",
+        "text_TYVTPN",
+        "text_bWrxzr",
+        "text_NNCfQw"
+      ],
+      "settings": {
+        "title": "Prisliste",
+        "container": "large",
+        "link_title": "",
+        "link": "",
+        "divider": false,
+        "grid": 4,
+        "spacing": 3,
+        "alignment": "left",
+        "link_style": "hollow",
+        "heading_size": 5,
+        "icon_size": 30,
+        "icon_padding": 0,
+        "bg_color": "#041a16",
+        "color_text": "#ffffff",
+        "text_heading_color": false,
+        "text_border_color": true,
+        "grid_mobile": "1",
+        "mobile_layout": "carousel",
+        "padding_top": 39,
+        "padding_bottom": 39,
+        "section-bottom-margin": true
+      }
+    },
+    "section_image_with_text_overlap_cPPqJP": {
+      "type": "section-image-with-text-overlap",
+      "blocks": {
+        "image_aHUD3W": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Prisliste.jpg",
+            "video_button_color": "primary",
+            "title": "Prisliste",
+            "desc": "<p>Use these blocks to share your brand's story. You can focus on a particular collection, a product detail, or even embed a video.</p>",
+            "horizontal_align": "left",
+            "link_title": "Kontakt os",
+            "link": "shopify://pages/kontakt",
+            "bg_color_block": "#041a16",
+            "bg_color_content": "#ffffff",
+            "color_text": "#212121",
+            "text_heading_color": false,
+            "text_border_color": true
+          }
+        }
+      },
+      "block_order": [
+        "image_aHUD3W"
+      ],
+      "settings": {
+        "container": "large",
+        "block_spacing": 5,
+        "image_ratio": "natural",
+        "block_layout": "2/3",
+        "block_align": "right",
+        "heading_size": 3,
+        "link_style": "hollow",
+        "text_style": "solid",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "section-bottom-margin": true
+      }
+    },
+    "section_contact_form_PQbyfL": {
+      "type": "section-contact-form",
+      "settings": {
+        "heading": "Kontakt os",
+        "background": false,
+        "divider": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "section-bottom-margin": false
+      }
+    },
+    "section_image_with_text_overlap_wFJen4": {
+      "type": "section-image-with-text-overlap",
+      "blocks": {
+        "image_eB9jNx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9152_kopier.png",
+            "video_button_color": "primary",
+            "title": "Jeg ser frem til at starte samarbejde med jer!",
+            "desc": "<p>Use these blocks to share your brand's story. You can focus on a particular collection, a product detail, or even embed a video.<br/><a href=\"tel:27222388\" title=\"tel:27222388\">+ 45 27 22 23 88</a><br/><a href=\"mailto:Henrik@wilddistillery.com\" title=\"mailto:Henrik@wilddistillery.com\">Henrik@wilddistillery.com</a></p>",
+            "horizontal_align": "left",
+            "link_title": "Kontakt mig",
+            "link": "shopify://pages/kontakt",
+            "bg_color_block": "#041a16",
+            "bg_color_content": "#ffffff",
+            "color_text": "#212121",
+            "text_heading_color": false,
+            "text_border_color": true
+          }
+        }
+      },
+      "block_order": [
+        "image_eB9jNx"
+      ],
+      "settings": {
+        "container": "large",
+        "block_spacing": 5,
+        "image_ratio": "4:3",
+        "block_layout": "2/3",
+        "block_align": "right",
+        "heading_size": 3,
+        "link_style": "hollow",
+        "text_style": "solid",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "section-bottom-margin": true
+      }
+    },
+    "section_hero_video_e4xDcK": {
+      "type": "section-hero-video",
+      "settings": {
+        "video": "shopify://files/videos/Distillery process 1.26 au.mp4",
+        "section_height": 850,
+        "section_height_mobile": 270,
+        "section_width": "full",
+        "content_alignment": "center",
+        "content_color": "#ffffff",
+        "content_heading_color": false,
+        "overlay_color": "#000000",
+        "overlay_strength": 0,
+        "section_bottom_margin": false
+      }
+    },
+    "section_map_rKrdcd": {
+      "type": "section-map",
+      "blocks": {
+        "map_EQanfc": {
+          "type": "map",
+          "settings": {
+            "title": "Map",
+            "desc": "<p>273 Street Lane<br/>San Francisco, CA 94102<br/>(415) 557-4400<br/>store@email.com</p>",
+            "sub_desc": "<p>Monday - Thursday, 12:00 to 23:00<br/>Friday & Saturday, 12:00 to 00:00<br/>Sunday, Closed</p>",
+            "address": "100 Larkin St, San Francisco, CA 94102, USA",
+            "map_image": "shopify://shop_images/IMG_9152_kopier.png"
+          }
+        }
+      },
+      "block_order": [
+        "map_EQanfc"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_directions_btn": false,
+        "bg_color": "#f2f2f2",
+        "google_api_key": "",
+        "map_style": "light",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "section-bottom-margin": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "section_rich_text_9tD4Ld": {
+      "type": "section-rich-text",
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "section_title": "Hos Wild Distillery har vi mulighed for at levere private label flasker til jeres virksomhed.",
+        "text": "<p>Med vores inhouse flatbed printer, kan vi i samarbejde med jer, skabe custom-made designs på flaskerne, hvor kvalitet og sans for detaljer er af højeste prioritet. Flaskerne kan ydermere leveres i flotte gaveæsker med logoglas eller med tonic til.</p>",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "section-bottom-margin": false
+      }
+    },
+    "section_liquid_FyDrJh": {
+      "type": "section-liquid",
+      "disabled": true,
+      "custom_css": [
+        ".form-CTA {display: flex; margin: 30px auto 60px; justify-content: center; text-align: center;}",
+        ".custom-form-cta {background: #0a2d27; color: #fff; font-size: 22px; display: block; padding: 4px 22px; font-weight: bold;}"
+      ],
+      "settings": {
+        "custom_liquid": "<div class=\"form-CTA\">\n<a href=\"#form-data-content\" class=\"custom-form-cta\">\nKontakt os\n</a>\n</div>"
+      }
+    },
+    "section_multi_column_icons_FGGiVw": {
+      "type": "section-multi-column-icons",
+      "blocks": {
+        "text_rdQz8h": {
+          "type": "text",
+          "settings": {
+            "icon": "icon-pencil-2",
+            "color_icon": "rgba(0,0,0,0)",
+            "svg-code": "",
+            "title": "Formalia",
+            "sub_title": "Designet skal afleveres i 3 dokumenter. Ét dokument til hver side. Forsidens design skal laves med sort tekst på hvid baggrund. Alle sorte elementer på forsiden printes i hvid på flasken. Format",
+            "desc": "<p>Format (70cl): 90 x 172mm</p>",
+            "link_title": "Download skabelon her",
+            "link": "#"
+          }
+        },
+        "text_jL6GK7": {
+          "type": "text",
+          "settings": {
+            "icon": "icon-cocktail-martini",
+            "color_icon": "rgba(0,0,0,0)",
+            "svg-code": "",
+            "title": "Formkrav",
+            "sub_title": "På flasken SKAL der indgå: Produktionssted (Wild Distillery Bornholm) Alkoholprocent (”alc. xx% vol.”) Indhold i centiliter Spiritustypen skal indgå på flaskens forside (f.eks. Gin)",
+            "desc": "",
+            "link_title": "Learn more",
+            "link": ""
+          }
+        },
+        "text_nGYhd3": {
+          "type": "text",
+          "settings": {
+            "icon": "icon-conversation-chat-text",
+            "color_icon": "rgba(0,0,0,0)",
+            "svg-code": "",
+            "title": "Huskeliste",
+            "sub_title": "Konverter alle tekster til outlines  Integrér alle billeder Alle elementer skal være mindst 300 dpi Ingen skærelinjer og Filtype:  PDF, Eps eller AI.",
+            "desc": "",
+            "link_title": "",
+            "link": ""
+          }
+        },
+        "text_GbpEFQ": {
+          "type": "text",
+          "settings": {
+            "icon": "icon-picture-stack-landscape",
+            "color_icon": "rgba(0,0,0,0)",
+            "svg-code": "",
+            "title": "Har du brug for hjælp?",
+            "sub_title": "Mangler i en grafisk designer? Så hjælper vi gerne med at opsætte jeres design. Hvis i fremsender jeres logo, et billede til mellemlag og bagside, samt tekst til bagside til:",
+            "desc": "<p><a href=\"mailto:Marketing@wilddistillery.com\" title=\"mailto:Marketing@wilddistillery.com\">Marketing@wilddistillery.com</a></p>",
+            "link_title": "Download skabelon her",
+            "link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "text_rdQz8h",
+        "text_jL6GK7",
+        "text_nGYhd3",
+        "text_GbpEFQ"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Formkrav til design",
+        "container": "large",
+        "link_title": "",
+        "link": "",
+        "divider": false,
+        "grid": 5,
+        "spacing": 4,
+        "alignment": "left",
+        "link_style": "hollow",
+        "heading_size": 3,
+        "icon_size": 30,
+        "icon_padding": 0,
+        "bg_color": "rgba(0,0,0,0)",
+        "color_text": "rgba(0,0,0,0)",
+        "text_heading_color": false,
+        "text_border_color": true,
+        "grid_mobile": "1",
+        "mobile_layout": "carousel",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "section-bottom-margin": false
+      }
+    }
+  },
+  "order": [
+    "section_hero_video_ChApPw",
+    "section_image_text_banner_r7NbPE",
+    "section_collection_bqnctj",
+    "section_image_with_text_overlap_QnzGfr",
+    "section_multi_column_images_wg84yL",
+    "section_image_compare_iJPeyM",
+    "section_multi_column_images_cTzVeq",
+    "section_hero_video_d4HN8a",
+    "section_logo_list_mhkFKA",
+    "section_testimonials_zE4HTE",
+    "section_collection_nJjBGY",
+    "section_multi_column_icons_nG7yf8",
+    "section_image_with_text_overlap_cPPqJP",
+    "section_contact_form_PQbyfL",
+    "section_image_with_text_overlap_wFJen4",
+    "section_hero_video_e4xDcK",
+    "section_map_rKrdcd",
+    "main",
+    "section_rich_text_9tD4Ld",
+    "section_liquid_FyDrJh",
+    "section_multi_column_icons_FGGiVw"
+  ]
+}
