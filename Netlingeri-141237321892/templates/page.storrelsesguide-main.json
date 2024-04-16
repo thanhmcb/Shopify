@@ -1,0 +1,360 @@
+{
+    "sections": {
+      "main": {
+        "type": "main-page",
+        "disabled": true,
+        "settings": {
+          "show_page_title": true,
+          "full_width": false
+        }
+      },
+      "rich_text_LxVT3c": {
+        "type": "rich-text",
+        "blocks": {
+          "heading_YCNTKw": {
+            "type": "heading",
+            "settings": {
+              "title": "HVILKEN BH STØRRELSE PASSER BEDST TIL DIG?",
+              "use_h1": true
+            }
+          },
+          "text_hbxKQw": {
+            "type": "text",
+            "settings": {
+              "text": "<p>Det kan du få svar på her i Netlingeri.dks store BH størrelsesguide. </p><p>En <a href=\"https://www.netlingeri.dk/bh.aspx\">BH </a>er i dag en vigtig del af næsten alle kvinders garderobe. Den kommer i mange former og farver, og har flere forskellige formål, alt efter hvilken type BH der bruges. Typisk skal den støtte brysterne, fremhæve dem, gøre dem større, eller udfylde et praktisk formål i forbindelse med sport, eller som en amme BH.</p>",
+              "enlarge_text": true
+            }
+          }
+        },
+        "block_order": [
+          "heading_YCNTKw",
+          "text_hbxKQw"
+        ],
+        "settings": {
+          "height": "medium",
+          "text_alignment": "left",
+          "full_width": false,
+          "color_scheme": "default"
+        }
+      },
+      "multi_column_ry7G9U": {
+        "type": "multi-column",
+        "blocks": {
+          "text_block_8Ycrh8": {
+            "type": "text_block",
+            "settings": {
+              "enable_media": true,
+              "video_shopify": "shopify://files/videos/Step_3.mp4",
+              "title": "STEP 1 - MÅL DIN OMKREDS",
+              "text": "",
+              "button_label": "",
+              "link": ""
+            }
+          },
+          "text_block_gPN97H": {
+            "type": "text_block",
+            "settings": {
+              "enable_media": true,
+              "image": "shopify://shop_images/Step_2.jpg",
+              "title": "STEP 2 - FIND DIN BH STØRRELSE",
+              "text": "",
+              "button_label": "",
+              "link": ""
+            }
+          },
+          "text_block_PcNJ8q": {
+            "type": "text_block",
+            "settings": {
+              "enable_media": true,
+              "video_shopify": "shopify://files/videos/Step_1.mp4",
+              "title": "STEP 3 - FIND DIT BRYST MÅL",
+              "text": "",
+              "button_label": "",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "text_block_8Ycrh8",
+          "text_block_gPN97H",
+          "text_block_PcNJ8q"
+        ],
+        "settings": {
+          "title": "",
+          "media_aspect_ratio": "s",
+          "media_width": 700,
+          "text_alignment": "center",
+          "button_style": "primary",
+          "color_scheme": "default"
+        }
+      },
+      "rich_text_jUy6LV": {
+        "type": "rich-text",
+        "blocks": {
+          "heading_wgyb6B": {
+            "type": "heading",
+            "settings": {
+              "title": "STEP 4 - FIND DIN CUP STØRRELSE",
+              "use_h1": false
+            }
+          }
+        },
+        "block_order": [
+          "heading_wgyb6B"
+        ],
+        "settings": {
+          "height": "small",
+          "text_alignment": "center",
+          "full_width": false,
+          "color_scheme": "default"
+        }
+      },
+      "custom_content_WPyDdT": {
+        "type": "custom-content",
+        "blocks": {
+          "image_x3FMgr": {
+            "type": "image",
+            "settings": {
+              "width": "full",
+              "image": "shopify://shop_images/Step_4.jpg",
+              "height": "adapt",
+              "height_desktop": 600,
+              "height_mobile": 500,
+              "subheading": "",
+              "title": "",
+              "text": "",
+              "enlarge_text": false,
+              "button_label": "",
+              "button_style": "primary",
+              "image_link": "",
+              "text_alignment": "center center",
+              "mobile_overlay_under": false,
+              "overlay_style": "shadow"
+            }
+          }
+        },
+        "block_order": [
+          "image_x3FMgr"
+        ],
+        "settings": {
+          "alignment": "middle"
+        }
+      },
+      "rich_text_K6G8rc": {
+        "type": "rich-text",
+        "blocks": {
+          "heading_Fm6Vcx": {
+            "type": "heading",
+            "settings": {
+              "title": "STEP 4 - FIND DIN CUP STØRRELSE",
+              "use_h1": false
+            }
+          },
+          "text_ndeKWA": {
+            "type": "text",
+            "settings": {
+              "text": "<p>Når du køber lingeri på nettet, skal du naturligvis købe de størrelser du normalt køber, og her er lige en kort guide til at finde din rette størrelse. Det eneste du skal bruge er et målebånd.</p><h4>Omkreds</h4><p>Du skal starte med at måle din omkreds lige under brystet, og så skal du sikre dig, at målet ikke er for stramt/løst. En tommelfinger regel er at du skal kunne få to fingre ind under BHen, og stykket mellem brysterne skal sidde tæt på kroppen.<br/><br/><strong>Når du har målet kan du bruge følgende guide til at finde din BH størrelse:</strong><br/><br/>63-67 cm =  Str. 65<br/>38-72 cm =  Str. 70<br/>73-77 cm =  Str. 75<br/>78-82 cm =  Str. 80<br/>83-87 cm =  Str. 85<br/>88-92 cm =  Str. 90<br/>93-97 cm =  Str. 95<br/>98-102 cm = Str. 100<br/>103-107 cm = Str. 105<br/>108-112 cm = Str. 110<br/>113-117 cm = Str. 115<br/>118-122 cm = Str. 120<br/>123-127 cm = Str. 125</p><p></p><h4>Størrelsesskema</h4><p>Nedenfor ser du vores størrelsesguide i skemaform.</p>",
+              "enlarge_text": true
+            }
+          }
+        },
+        "block_order": [
+          "heading_Fm6Vcx",
+          "text_ndeKWA"
+        ],
+        "settings": {
+          "height": "medium",
+          "text_alignment": "left",
+          "full_width": false,
+          "color_scheme": "default"
+        }
+      },
+      "multi_column_iTkqtt": {
+        "type": "multi-column",
+        "blocks": {
+          "text_block_NPbCRU": {
+            "type": "text_block",
+            "settings": {
+              "enable_media": false,
+              "title": "",
+              "text": "<p>Når du køber lingeri på nettet, skal du naturligvis købe de størrelser du normalt køber, og her er lige en kort guide til at finde din rette størrelse. Det eneste du skal bruge er et målebånd.<br/><br/><strong>Omkreds</strong></p><p>Du skal starte med at måle din omkreds lige under brystet, og så skal du sikre dig, at målet ikke er for stramt/løst. En tommelfinger regel er at du skal kunne få to fingre ind under BHen, og stykket mellem brysterne skal sidde tæt på kroppen.<br/><br/>Når du har målet kan du bruge følgende guide til at finde din BH størrelse:</p><p></p><p>Størrelsesskema<br/>Nedenfor ser du vores størrelsesguide i skemaform.</p>",
+              "button_label": "",
+              "link": ""
+            }
+          },
+          "text_block_zWtTeY": {
+            "type": "text_block",
+            "settings": {
+              "enable_media": false,
+              "title": "",
+              "text": "<p>63-67 cm =  Str. 65<br/>38-72 cm =  Str. 70<br/>73-77 cm =  Str. 75<br/>78-82 cm =  Str. 80<br/>83-87 cm =  Str. 85<br/>88-92 cm =  Str. 90<br/>93-97 cm =  Str. 95<br/>98-102 cm = Str. 100<br/>103-107 cm = Str. 105<br/>108-112 cm = Str. 110<br/>113-117 cm = Str. 115<br/>118-122 cm = Str. 120<br/>123-127 cm = Str. 125</p>",
+              "button_label": "",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "text_block_NPbCRU",
+          "text_block_zWtTeY"
+        ],
+        "disabled": true,
+        "settings": {
+          "title": "Multi-column",
+          "media_aspect_ratio": "s",
+          "media_width": 700,
+          "text_alignment": "left",
+          "button_style": "primary",
+          "color_scheme": "default"
+        }
+      },
+      "custom_content_XAEq8U": {
+        "type": "custom-content",
+        "blocks": {
+          "image_aLiNyJ": {
+            "type": "image",
+            "settings": {
+              "width": "full",
+              "image": "shopify://shop_images/storrelsesguide.bh.nl.2022.webp",
+              "height": "adapt",
+              "height_desktop": 600,
+              "height_mobile": 500,
+              "subheading": "",
+              "title": "",
+              "text": "",
+              "enlarge_text": false,
+              "button_label": "",
+              "button_style": "primary",
+              "image_link": "",
+              "text_alignment": "center center",
+              "mobile_overlay_under": false,
+              "overlay_style": "shadow"
+            }
+          }
+        },
+        "block_order": [
+          "image_aLiNyJ"
+        ],
+        "settings": {
+          "alignment": "middle"
+        }
+      },
+      "collection_list_MNYND6": {
+        "type": "collection-list",
+        "settings": {
+          "title": "Hos Netlingeri har vi et solidt udvalg af BH'er:",
+          "enable_carousel": true,
+          "grid": 5,
+          "color_scheme": "default",
+          "full_width": true,
+          "coll_grid_image_shape": "square",
+          "coll_grid_image_position": "center center",
+          "coll_thumb_mob_per_row": "2",
+          "coll_grid_show_count": true,
+          "coll_text_position": "below",
+          "coll_text_position_under_mobile": false,
+          "coll_thumb_text_align_x": "center",
+          "coll_thumb_text_align_y": "center",
+          "coll_button_style": "primary"
+        }
+      },
+      "collection_list_7EiVbg": {
+        "type": "collection-list",
+        "blocks": {
+          "collection_6YV6dB": {
+            "type": "collection",
+            "settings": {
+              "collection": "chantelle",
+              "image": "{{ block.settings.collection.metafields.custom.image_logo.value }}",
+              "subheading": "",
+              "button_label": ""
+            }
+          },
+          "collection_rmyX7g": {
+            "type": "collection",
+            "settings": {
+              "collection": "marie-jo",
+              "subheading": "",
+              "button_label": ""
+            }
+          },
+          "collection_4rA4c4": {
+            "type": "collection",
+            "settings": {
+              "collection": "primadonna",
+              "subheading": "",
+              "button_label": ""
+            }
+          },
+          "collection_3QTGAM": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "subheading": "",
+              "button_label": ""
+            }
+          },
+          "collection_h4GTYY": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "subheading": "",
+              "button_label": ""
+            }
+          },
+          "collection_ywbHrG": {
+            "type": "collection",
+            "settings": {
+              "collection": "sloggi",
+              "subheading": "",
+              "button_label": ""
+            }
+          },
+          "collection_EEccd4": {
+            "type": "collection",
+            "settings": {
+              "collection": "hunkemoller",
+              "subheading": "",
+              "button_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "collection_6YV6dB",
+          "collection_rmyX7g",
+          "collection_4rA4c4",
+          "collection_3QTGAM",
+          "collection_h4GTYY",
+          "collection_ywbHrG",
+          "collection_EEccd4"
+        ],
+        "settings": {
+          "title": "Vi fører BH'er fra alle de kendte brands:",
+          "enable_carousel": true,
+          "grid": 5,
+          "color_scheme": "default",
+          "full_width": true,
+          "coll_grid_image_shape": "square",
+          "coll_grid_image_position": "center center",
+          "coll_thumb_mob_per_row": "2",
+          "coll_grid_show_count": false,
+          "coll_text_position": "below",
+          "coll_text_position_under_mobile": false,
+          "coll_thumb_text_align_x": "center",
+          "coll_thumb_text_align_y": "center",
+          "coll_button_style": "primary"
+        }
+      }
+    },
+    "order": [
+      "main",
+      "rich_text_LxVT3c",
+      "multi_column_ry7G9U",
+      "rich_text_jUy6LV",
+      "custom_content_WPyDdT",
+      "rich_text_K6G8rc",
+      "multi_column_iTkqtt",
+      "custom_content_XAEq8U",
+      "collection_list_MNYND6",
+      "collection_list_7EiVbg"
+    ]
+  }

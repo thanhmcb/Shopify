@@ -72,6 +72,9 @@
       {% for block in section.blocks %}
         <div id="block-id-{{ block.id }}" class="column text-column fade-in-up" {{ block.shopify_attributes }}
              data-cc-animate data-cc-animate-delay="{{ forloop.index | times: 0.15 }}s">
+             {% if block.settings.title != blank and block.settings.heading_position == 'above' %}
+              <h3 class="text-column__title">{{ block.settings.title | escape }}</h3>
+            {% endif %}
           {% if block.settings.enable_media %}
             <div class="text-column__image lightly-spaced-row">
               {%- if block.settings.link != blank -%}<a href="{{ block.settings.link }}">{%- endif -%}
@@ -115,10 +118,10 @@
               {%- if block.settings.link != blank -%}</a>{% endif -%}
             </div>
           {% endif %}
-
-          {% if block.settings.title != blank %}
+          {% if block.settings.title != blank and block.settings.heading_position == 'below' %}
             <h3 class="text-column__title">{{ block.settings.title | escape }}</h3>
           {% endif %}
+          
 
           {% if block.settings.text != blank %}
             <div class="text-column__text rte">{{ block.settings.text }}</div>
@@ -153,6 +156,7 @@
       "label": "Heading",
       "default": "Multi-column"
     },
+   
     {
       "type": "select",
       "id": "media_aspect_ratio",
@@ -273,6 +277,23 @@
           "label": "Heading",
           "default": "Add a title or tagline"
         },
+        {
+      "type": "select",
+      "id": "heading_position",
+      "label": "Heading position",
+      "default": "above",
+      "options": [
+        {
+          "value": "above",
+          "label": "Above the image"
+        },
+        {
+          "value": "below",
+          "label": "Below the image"
+        }
+      
+      ]
+    },
         {
           "type": "richtext",
           "id": "text",
