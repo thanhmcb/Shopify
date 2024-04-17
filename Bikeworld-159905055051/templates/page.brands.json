@@ -1,0 +1,191 @@
+{
+    "sections": {
+      "main": {
+        "type": "main-page",
+        "settings": {
+          "subheading": "",
+          "show_title": true,
+          "show_content": true,
+          "text_size": 2,
+          "align_text": "text-left",
+          "height": "margin--medium",
+          "width": "wrapper",
+          "text_color": "text-dark",
+          "bg_color": "#ffffff"
+        }
+      },
+      "165407770874347319": {
+        "type": "section-press-logos",
+        "blocks": {
+          "165407770852446cfd-2": {
+            "type": "logo-item",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/absoluteBlack.png",
+              "logo_width": 150,
+              "link": "shopify:\/\/collections\/trek"
+            }
+          },
+          "5de78cb5-83b9-4c76-8154-c595e60ebc01": {
+            "type": "logo-item",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/Adidas.png",
+              "logo_width": 100,
+              "link": ""
+            }
+          },
+          "b0fa8c89-a048-4646-8b45-6dd75fc1ec46": {
+            "type": "logo-item",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/ABUS.png",
+              "logo_width": 100,
+              "link": ""
+            }
+          },
+          "4bf06dc0-3836-40e3-a774-dd7240c1a86b": {
+            "type": "logo-item",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/argon18.png",
+              "logo_width": 100,
+              "link": ""
+            }
+          },
+          "165407770852446cfd-0": {
+            "type": "logo-item",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/asssavers.png",
+              "logo_width": 100,
+              "link": ""
+            }
+          },
+          "165407770852446cfd-1": {
+            "type": "logo-item",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/assos.png",
+              "logo_width": 100,
+              "link": ""
+            }
+          },
+          "3324fbd3-9ebd-4330-ac6d-3259939c3548": {
+            "type": "logo-item",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/Avid.png",
+              "logo_width": 100,
+              "link": ""
+            }
+          },
+          "6af27f1b-9237-44a1-9102-f8650ade136b": {
+            "type": "logo-item",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/Barebells.png",
+              "logo_width": 180,
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "165407770852446cfd-2",
+          "5de78cb5-83b9-4c76-8154-c595e60ebc01",
+          "b0fa8c89-a048-4646-8b45-6dd75fc1ec46",
+          "4bf06dc0-3836-40e3-a774-dd7240c1a86b",
+          "165407770852446cfd-0",
+          "165407770852446cfd-1",
+          "3324fbd3-9ebd-4330-ac6d-3259939c3548",
+          "6af27f1b-9237-44a1-9102-f8650ade136b"
+        ],
+        "settings": {
+          "title": "",
+          "text_color": "text-dark",
+          "bg_color": "{{ shop.brand.colors.primary[0].background }}"
+        }
+      },
+      "1654589891a7e3c442": {
+        "type": "section-press-logos",
+        "blocks": {
+          "165458989112a63618-1": {
+            "type": "logo-item",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/basil.png",
+              "logo_width": 100,
+              "link": ""
+            }
+          },
+          "165458989112a63618-2": {
+            "type": "logo-item",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/batavus.png",
+              "logo_width": 140,
+              "link": ""
+            }
+          },
+          "d076e706-25cf-4e30-a80c-0c35d15559b6": {
+            "type": "logo-item",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/bell.png",
+              "logo_width": 100,
+              "link": ""
+            }
+          },
+          "5399d775-8c75-4c33-88d5-73f2b4c9a65f": {
+            "type": "logo-item",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/BetterBodies.png",
+              "logo_width": 100,
+              "link": ""
+            }
+          },
+          "cef4cec6-13e0-4be4-83ed-34a1bb326cce": {
+            "type": "logo-item",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/BH.png",
+              "logo_width": 100,
+              "link": ""
+            }
+          },
+          "9bc01fe3-85c6-4ae8-a968-da31f116d4e1": {
+            "type": "logo-item",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/BKool.png",
+              "logo_width": 100,
+              "link": ""
+            }
+          },
+          "294c9476-0cfe-46b4-a093-4c5d31eaa75a": {
+            "type": "logo-item",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/blackburn.png",
+              "logo_width": 120,
+              "link": ""
+            }
+          },
+          "2e4b3a6b-6187-42c8-b215-aba8cf6fe8d1": {
+            "type": "logo-item",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/BlueGrass.png",
+              "logo_width": 120,
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "165458989112a63618-1",
+          "165458989112a63618-2",
+          "d076e706-25cf-4e30-a80c-0c35d15559b6",
+          "5399d775-8c75-4c33-88d5-73f2b4c9a65f",
+          "cef4cec6-13e0-4be4-83ed-34a1bb326cce",
+          "9bc01fe3-85c6-4ae8-a968-da31f116d4e1",
+          "294c9476-0cfe-46b4-a093-4c5d31eaa75a",
+          "2e4b3a6b-6187-42c8-b215-aba8cf6fe8d1"
+        ],
+        "settings": {
+          "title": "",
+          "text_color": "text-dark",
+          "bg_color": "{{ shop.brand.colors.primary[0].background }}"
+        }
+      }
+    },
+    "order": [
+      "main",
+      "165407770874347319",
+      "1654589891a7e3c442"
+    ]
+  }

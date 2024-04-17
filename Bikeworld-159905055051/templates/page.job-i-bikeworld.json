@@ -1,0 +1,93 @@
+{
+    "sections": {
+      "main": {
+        "type": "main-page",
+        "disabled": true,
+        "settings": {
+          "subheading": "",
+          "show_title": true,
+          "show_content": true,
+          "text_size": 2,
+          "align_text": "text-left",
+          "height": "margin--small",
+          "width": "wrapper",
+          "text_color": "text-dark",
+          "bg_color": "#ffffff"
+        }
+      },
+      "16541728155b9734c1": {
+        "type": "section-rich-text",
+        "settings": {
+          "subheading": "",
+          "title": "Butiksansat i Danmarks fedeste cykelbutik - Bikeworld i Silkeborg",
+          "text": "<p>Du er altid velkommen til at sende en uopfordret ansøgning til os :)<\/p><p>Som butiksansat hos BIKEWORLD bliver du en del af et fedt team. <\/p><p>Du skal kunne have mange bolde i luften og bevare roen når det går stærkt!<\/p><p>Dagligdagen i BIKEWORLD er spændende og uforudsigelig. Du ved aldrig hvad kunderne ønsker. <\/p><p>Vi er et firma der har vækstet i flere år, og vi fortsætter, derfor kommer der hele tiden nye daglige udfordringer og arbejdsopgaver.<\/p><p>Din vigtigste opgave er at sikre, at vores kunder altid får Danmarks bedste og ærligste oplevelse.<\/p><p><strong>Du skal IKKE sende en ansøgning hvis du ikke vil arbejde i butikkens åbningstider, samt lørdage.<br\/><\/strong><\/p><p>Smid en mail til <a href=\"mailto:anikaa@live.dk \" target=\"_blank\" title=\"mailto:anikaa@live.dk \"><em><strong>anikaa@live.dk<\/strong><\/em> <\/a>om dig selv.<\/p><p>Vi glæder os til at høre fra dig.<\/p>",
+          "text_size": 2,
+          "text_columns": 1,
+          "align_text": "text-left",
+          "button_text": "",
+          "button_url": "",
+          "button_color": "btn--neutral",
+          "button_style": "caps--large",
+          "height": "margin--medium",
+          "width": "wrapper--narrow",
+          "text_color": "text-dark",
+          "bg_color": "#ffffff"
+        }
+      },
+      "1660643409df9e8535": {
+        "type": "section-rich-text",
+        "settings": {
+          "subheading": "",
+          "title": "Cykelmekanikere i Danmarks fedeste cykelbutik - Bikeworld i Silkeborg",
+          "text": "<p>Du er altid velkommen til at sende en uopfordret ansøgning til os :)<\/p><p>Du SKAL være udlært cykelmekaniker, have erfaring og helst pisse dygtig til EL-cykler og Highend-cykler.<\/p><p>Arbejdstiden er i butikkens åbningstider og der er også lørdags åben.<\/p><p>Eller send en mail: anikaa@live.dk<\/p><p>Vi glæder os til at høre fra dig.<\/p>",
+          "text_size": 2,
+          "text_columns": 1,
+          "align_text": "text-left",
+          "button_text": "",
+          "button_url": "",
+          "button_color": "btn--neutral",
+          "button_style": "caps--large",
+          "height": "margin--medium",
+          "width": "wrapper--narrow",
+          "text_color": "text-dark",
+          "bg_color": "#ffffff"
+        }
+      },
+      "1660643712aec96ef7": {
+        "type": "video-custom",
+        "settings": {
+          "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/7dabf8fad0fc45dd8dcca1b59e34bec0.mp4",
+          "video-height": 400
+        }
+      },
+      "166064618928a69288": {
+        "type": "section-video",
+        "settings": {
+          "video_link_bg": "",
+          "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/7dabf8fad0fc45dd8dcca1b59e34bec0.mp4",
+          "image": "shopify:\/\/shop_images\/Skaermbillede_2022-05-19_kl._09.34.35.png",
+          "bg_position": "center-center",
+          "desktop_height": "screen-height-three-quarters",
+          "mobile_height": "screen-height-three-quarters--mobile",
+          "overlay_opacity": 0,
+          "overlay_color": "#000000",
+          "title": "Om os",
+          "description": "",
+          "flex_align": "align--middle-center",
+          "text_color": "text-light",
+          "transparent": true,
+          "link_text": "",
+          "link": "",
+          "button_color": "btn--white",
+          "button_style": "hero__btn btn btn--large btn--outline caps"
+        }
+      }
+    },
+    "order": [
+      "main",
+      "16541728155b9734c1",
+      "1660643409df9e8535",
+      "1660643712aec96ef7",
+      "166064618928a69288"
+    ]
+  }
