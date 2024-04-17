@@ -2924,11 +2924,21 @@
           if (buttonUpsellHolder && buttonUpsellHolder.querySelector(selectors$Q.formErrorsContainer)) {
             errorContainer = buttonUpsellHolder.querySelector(selectors$Q.formErrorsContainer);
           }
-
+           
           if (errorContainer) {
-            errorContainer.innerHTML = `<div class="errors">${data.message}: ${data.description}<button type="button" class="errors__close" data-close-error><svg aria-hidden="true" focusable="false" role="presentation" width="24px" height="24px" stroke-width="1" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor" class="icon icon-cancel"><path d="M6.758 17.243L12.001 12m5.243-5.243L12 12m0 0L6.758 6.757M12.001 12l5.243 5.243" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path></svg></button></div>`;
+            let msg = data.message;
+            let desc = data.description;
+            let result = msg.concat(": ", desc);
+            const msgContent = msg != desc ? result : msg;
+           
+            errorContainer.innerHTML = `<div class="errors"> ${msgContent}<button type="button" class="errors__close gfdg" data-close-error><svg aria-hidden="true" focusable="false" role="presentation" width="24px" height="24px" stroke-width="1" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor" class="icon icon-cancel"><path d="M6.758 17.243L12.001 12m5.243-5.243L12 12m0 0L6.758 6.757M12.001 12l5.243 5.243" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path></svg></button></div>`;
+            console.log('thanh' + msg, 'khoi' + desc);
+          
+         
             errorContainer.classList.add(classes$B.visible);
             this.formErrorsEvents(errorContainer);
+            
+         
           }
 
           button.dispatchEvent(
