@@ -1,0 +1,378 @@
+{
+    "sections": {
+      "main": {
+        "type": "main-page",
+        "disabled": true,
+        "settings": {
+          "subheading": "",
+          "show_title": true,
+          "show_content": true,
+          "text_size": 2,
+          "align_text": "text-left",
+          "height": "margin--small",
+          "width": "wrapper",
+          "text_color": "text-dark",
+          "bg_color": "#ffffff"
+        }
+      },
+      "1657706040c74481cf": {
+        "type": "section-hero",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/C21_Jekyll_Kanuga_0679-960x540.jpg",
+          "bg_position": "center-top",
+          "height": "screen-height-two-thirds",
+          "overlay_opacity": 15,
+          "overlay_color": "#282828",
+          "title": "Cannondale",
+          "description": "Amerikanske Cannondale producerer alle former for cykler og udstyr og du kan derfor finde mountainbikes, racercykler, børnecykler med støttehjul, citybikes, crosscykler og  pendlercykler",
+          "flex_align": "align--middle-left",
+          "text_color": "text-light",
+          "transparent": true,
+          "link_text": "Se udvalget",
+          "link": "shopify:\/\/collections\/cannondale",
+          "button_color": "btn--primary",
+          "button_style": "hero__btn btn btn--large caps",
+          "padding_top": 0,
+          "padding_bottom": 0
+        }
+      },
+      "166089805596ad888e": {
+        "type": "section-custom-content",
+        "blocks": {
+          "1660898055a190dec6-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/iF0ObjS4_400x400_4b798f49-8d00-4cb2-9895-fb65f9a052bd.png",
+              "bg_position": "center-center",
+              "overlay_opacity": 0,
+              "overlay_color": "#000000",
+              "title": "",
+              "description": "",
+              "flex_align": "align--middle-center",
+              "text_color": "text-light",
+              "transparent": true,
+              "link_text": "",
+              "link": "",
+              "button_color": "btn--white",
+              "button_style": "hero__btn btn btn--large btn--outline caps"
+            }
+          },
+          "1660898055a190dec6-1": {
+            "type": "text",
+            "settings": {
+              "subheading": "",
+              "title": "",
+              "text": "<p>Her hos Bikeworld finder du et overblik over alle de varer vi har fra det Amerikanske cykelmærke Cannondale.<\/p>",
+              "text_size": 2,
+              "text_columns": 1,
+              "align_text": "text-left",
+              "text_color": "text-dark",
+              "bg_color": "#ffffff",
+              "button_text": "",
+              "button_url": "",
+              "button_color": "btn--neutral",
+              "button_style": "hero__btn btn btn--large btn--outline caps"
+            }
+          }
+        },
+        "block_order": [
+          "1660898055a190dec6-0",
+          "1660898055a190dec6-1"
+        ],
+        "settings": {
+          "height": "screen-height-one-half",
+          "padding": true,
+          "borders": false,
+          "wrapper": true,
+          "padding_top": 0,
+          "padding_bottom": 0
+        }
+      },
+      "1660900415fb9db1ed": {
+        "type": "section-custom-content",
+        "blocks": {
+          "1660900415b700e152-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/cannondale-topstone-carbon-2-2021-saber-md-detail-1_3000x_png.webp",
+              "bg_position": "center-center",
+              "overlay_opacity": 0,
+              "overlay_color": "#000000",
+              "title": "",
+              "description": "",
+              "flex_align": "align--bottom-center",
+              "text_color": "text-light",
+              "transparent": true,
+              "link_text": "Se Cube racercykler her",
+              "link": "",
+              "button_color": "btn--white",
+              "button_style": "hero__btn btn btn--large caps"
+            }
+          },
+          "0bfeadf1-0839-449b-8ca7-f394f0041f28": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Cannondale-Scalpel-Carbon-SE-1-abyss-blue-MTB-Fully-2023-C24251M20_b_1_3000x_jpg.webp",
+              "bg_position": "center-top",
+              "overlay_opacity": 0,
+              "overlay_color": "#000000",
+              "title": "",
+              "description": "",
+              "flex_align": "align--bottom-center",
+              "text_color": "text-light",
+              "transparent": true,
+              "link_text": "Se Cube Mountainbikes her",
+              "link": "",
+              "button_color": "btn--white",
+              "button_style": "hero__btn btn btn--large caps"
+            }
+          }
+        },
+        "block_order": [
+          "1660900415b700e152-0",
+          "0bfeadf1-0839-449b-8ca7-f394f0041f28"
+        ],
+        "settings": {
+          "height": "screen-height-one-half",
+          "padding": false,
+          "borders": false,
+          "wrapper": false,
+          "padding_top": 30,
+          "padding_bottom": 30
+        }
+      },
+      "1657706489ee9c5bc9": {
+        "type": "section-columns",
+        "disabled": true,
+        "blocks": {
+          
+        },
+        "block_order": [
+         
+        ],
+        "settings": {
+          "title": "",
+          "bg_color": "#ffffff",
+          "align_text": "text-left",
+          "width": "wrapper--full",
+          "equalize_height": true,
+          "photo_aspect_ratio": 0.7,
+          "enable_image": true
+        }
+      },
+      "1660900896ea91b710": {
+        "type": "section-custom-content",
+        "blocks": {
+          "1660900895feb5c559-1": {
+            "type": "text",
+            "settings": {
+              "subheading": "",
+              "title": "Mere om Cube cykler",
+              "text": "<p>Cube er et tysk brand der producerer cykler og cykel tilbehør. Specielt på området, børnecykler har Cube skabt stor begejstring ved at designe drengecykler med seje kombination af farver der giver et råt udtryk, hvorimod deres pigecykler holder et sejt look med en smule prinsesse. Dog producerer Cube også racercykler, mountainbikes, både hardtail og full suspension. Leder du efter en citybike, en herrecykel, eller en damecykel har Cube også et program hvor i der kan findes en til dig. Med den sædvanlige tyske grundighed og kvalitet er vi sikre på at du vil få stor glæde af din nye Cube cykel.<\/p>",
+              "text_size": 2,
+              "text_columns": 2,
+              "align_text": "text-left",
+              "text_color": "text-dark",
+              "bg_color": "#ffffff",
+              "button_text": "",
+              "button_url": "",
+              "button_color": "btn--neutral",
+              "button_style": "hero__btn btn btn--large btn--outline caps"
+            }
+          }
+        },
+        "block_order": [
+          "1660900895feb5c559-1"
+        ],
+        "settings": {
+          "height": "screen-height-one-half",
+          "padding": false,
+          "borders": false,
+          "wrapper": false,
+          "padding_top": 0,
+          "padding_bottom": 0
+        }
+      },
+      "1660898735c81b1eac": {
+        "type": "section-tab-collections",
+        "blocks": {
+          "1660898735f94e7652-1": {
+            "type": "collection",
+            "settings": {
+              "title": "Hverdagscykler",
+              "featured_collection": "cube-hverdagscykler",
+              "show_image": true,
+              "image": "shopify:\/\/shop_images\/Cube_2021_02_04955_low.jpg",
+              "overlay_opacity": 0,
+              "overlay_color": "#000000",
+              "description": "",
+              "text_color": "text-light",
+              "link_text": "Se alle Hverdagscykler her",
+              "link": "",
+              "button_color": "btn--primary",
+              "button_style": "hero__btn btn btn--large caps"
+            }
+          },
+          "1660898735f94e7652-0": {
+            "type": "collection",
+            "settings": {
+              "title": "Mountainbikes",
+              "featured_collection": "cube-mountainbike",
+              "show_image": true,
+              "image": "shopify:\/\/shop_images\/cube7P9R6qrvUSnTt.jpg",
+              "overlay_opacity": 0,
+              "overlay_color": "#000000",
+              "description": "",
+              "text_color": "text-light",
+              "link_text": "Se Alle Mountainbikes her",
+              "link": "",
+              "button_color": "btn--primary",
+              "button_style": "hero__btn btn btn--large caps"
+            }
+          },
+          "138fe6d8-0bca-4d53-86b7-a573e0bdb742": {
+            "type": "collection",
+            "settings": {
+              "title": "Racercykler",
+              "featured_collection": "cube-racercykler",
+              "show_image": true,
+              "image": "shopify:\/\/shop_images\/header-1-2880x920-cube-21-11-bike24-1113626.jpg",
+              "overlay_opacity": 0,
+              "overlay_color": "#000000",
+              "description": "",
+              "text_color": "text-light",
+              "link_text": "Se alle Racercykler her",
+              "link": "",
+              "button_color": "btn--primary",
+              "button_style": "hero__btn btn btn--large caps"
+            }
+          }
+        },
+        "block_order": [
+          "1660898735f94e7652-1",
+          "1660898735f94e7652-0",
+          "138fe6d8-0bca-4d53-86b7-a573e0bdb742"
+        ],
+        "settings": {
+          "title": "Bredt udvalg af cykler fra Specialized"
+        }
+      },
+      "1657707395cbc44915": {
+        "type": "section-custom-content",
+        "disabled": true,
+        "blocks": {
+          "1657707395ef63013d-1": {
+            "type": "text",
+            "settings": {
+              "subheading": "",
+              "title": "Proven Power",
+              "text": "<p>Quick to charge, easy to operate, and always a blast to ride—we partner exclusively with the world’s best battery and motor manufacturers.<\/p>",
+              "text_size": 2,
+              "text_columns": 1,
+              "align_text": "text-left",
+              "text_color": "text-dark",
+              "bg_color": "#ffffff",
+              "button_text": "",
+              "button_url": "",
+              "button_color": "btn--neutral",
+              "button_style": "caps--large"
+            }
+          },
+          "1657707395ef63013d-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/141048140_204222531397000_3625305243681231095_n.jpg",
+              "bg_position": "center-center",
+              "overlay_opacity": 0,
+              "overlay_color": "#000000",
+              "title": "",
+              "description": "",
+              "flex_align": "align--middle-center",
+              "text_color": "text-light",
+              "transparent": true,
+              "link_text": "",
+              "link": "",
+              "button_color": "btn--white",
+              "button_style": "caps--large"
+            }
+          }
+        },
+        "block_order": [
+          "1657707395ef63013d-1",
+          "1657707395ef63013d-0"
+        ],
+        "settings": {
+          "height": "screen-height-one-half",
+          "padding": false,
+          "borders": false,
+          "wrapper": true,
+          "padding_top": 0,
+          "padding_bottom": 0
+        }
+      },
+      "16577079142be374cb": {
+        "type": "section-custom-content",
+        "disabled": true,
+        "blocks": {
+          "1657707914e4f68bf2-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/156428214_231031318716121_7771899036568233940_n.jpg",
+              "bg_position": "center-center",
+              "overlay_opacity": 0,
+              "overlay_color": "#000000",
+              "title": "",
+              "description": "",
+              "flex_align": "align--middle-center",
+              "text_color": "text-light",
+              "transparent": true,
+              "link_text": "",
+              "link": "",
+              "button_color": "btn--white",
+              "button_style": "caps--large"
+            }
+          },
+          "1657707914e4f68bf2-1": {
+            "type": "text",
+            "settings": {
+              "subheading": "",
+              "title": "Tuned for the Ride",
+              "text": "<p>We blend state-of-the-art chassis with class-leading motors and batteries, optimized for riding. You get unrivaled handling and a smooth boost of power on every ride.<\/p>",
+              "text_size": 2,
+              "text_columns": 1,
+              "align_text": "text-left",
+              "text_color": "text-dark",
+              "bg_color": "#ffffff",
+              "button_text": "",
+              "button_url": "",
+              "button_color": "btn--neutral",
+              "button_style": "caps--large"
+            }
+          }
+        },
+        "block_order": [
+          "1657707914e4f68bf2-0",
+          "1657707914e4f68bf2-1"
+        ],
+        "settings": {
+          "height": "screen-height-one-half",
+          "padding": false,
+          "borders": false,
+          "wrapper": true,
+          "padding_top": 0,
+          "padding_bottom": 0
+        }
+      }
+    },
+    "order": [
+      "main",
+      "1657706040c74481cf",
+      "166089805596ad888e",
+      "1660900415fb9db1ed",
+      "1657706489ee9c5bc9",
+      "1660900896ea91b710",
+      "1660898735c81b1eac",
+      "1657707395cbc44915",
+      "16577079142be374cb"
+    ]
+  }

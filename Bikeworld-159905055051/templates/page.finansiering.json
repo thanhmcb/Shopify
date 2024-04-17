@@ -1,0 +1,203 @@
+{
+    "sections": {
+      "main": {
+        "type": "main-page",
+        "disabled": true,
+        "settings": {
+          "subheading": "",
+          "show_title": true,
+          "show_content": true,
+          "text_size": 2,
+          "align_text": "text-left",
+          "height": "margin--small",
+          "width": "wrapper",
+          "text_color": "text-dark",
+          "bg_color": "#ffffff"
+        }
+      },
+      "16541728155b9734c1": {
+        "type": "section-rich-text",
+        "settings": {
+          "subheading": "",
+          "title": "RENTEFRI - Finansiering af dit køb!",
+          "text": "<p>Hos BIKEWORLD tilbyder vi finansiering via Sparxpres.<br\/><br\/>Du kan se alle oplysningerne på lånene, under produktet eller på sparxpres' hjemmeside ved checkout.<br\/><br\/>Ønsker du at betale finansiering i butikken hjælper vi dig gerne med det - eller du kan lave en forhåndsgodkendelse.<\/p><p><\/p><p>Ønsker du at handle online skal du blot handle som du normalt gør og gå til check-out.<\/p><p>Her har du mulighed for at vælge finansiering og udfylde en ansøgning.<br\/>Ordren går først igennem når ansøgningen er gennemført.<\/p>",
+          "text_size": 2,
+          "text_columns": 1,
+          "align_text": "text-left",
+          "button_text": "",
+          "button_url": "",
+          "button_color": "btn--neutral",
+          "button_style": "caps--large",
+          "height": "margin--medium",
+          "width": "wrapper--narrow",
+          "text_color": "text-dark",
+          "bg_color": "#ffffff",
+          "padding_top": 0,
+          "padding_bottom": 0
+        }
+      },
+    
+      "16542295738525b14d": {
+        "type": "section-rich-text",
+        "settings": {
+          "subheading": "",
+          "title": "",
+          "text": "",
+          "text_size": 2,
+          "text_columns": 1,
+          "align_text": "text-left",
+          "button_text": "",
+          "button_url": "",
+          "button_color": "btn--neutral",
+          "button_style": "caps--large",
+          "height": "margin--medium",
+          "width": "wrapper--narrow",
+          "text_color": "text-dark",
+          "bg_color": "#ffffff",
+          "padding_top": 0,
+          "padding_bottom": 0
+        }
+      },
+     
+      "165424083352be202d": {
+        "type": "section-rich-text",
+        "settings": {
+          "subheading": "",
+          "title": "Så let er det",
+          "text": "",
+          "text_size": 2,
+          "text_columns": 1,
+          "align_text": "text-center",
+          "button_text": "",
+          "button_url": "",
+          "button_color": "btn--neutral",
+          "button_style": "caps--large",
+          "height": "margin--medium",
+          "width": "wrapper",
+          "text_color": "text-dark",
+          "bg_color": "#ffffff",
+          "padding_top": 0,
+          "padding_bottom": 0
+        }
+      },
+      "1654229827969161eb": {
+        "type": "section-text-row",
+        "settings": {
+          "text_alignment": "center",
+          "icon_size": 75,
+          "icon_alignment": "icon--top",
+          "text_color": "text-dark",
+          "height": "margin--medium",
+          "bg_color": "#ffffff",
+          "padding_top": 0,
+          "padding_bottom": 0
+        }
+      },    
+     
+      "1654173576f21375cd": {
+        "type": "section-rich-text",
+        "settings": {
+          "subheading": "",
+          "title": "Ansøg om forhåndsgodkendelse her!",
+          "text": "<p>*OBS! <span style=\"text-decoration:underline\">Forhåndsgodkendelse er udelukkende til at handle i butikken.<br\/><\/span><\/p><p><\/p>",
+          "text_size": 2,
+          "text_columns": 1,
+          "align_text": "text-left",
+          "button_text": "",
+          "button_url": "",
+          "button_color": "btn--neutral",
+          "button_style": "caps--large",
+          "height": "margin--medium",
+          "width": "wrapper--narrow",
+          "text_color": "text-dark",
+          "bg_color": "#ffffff",
+          "padding_top": 0,
+          "padding_bottom": 0
+        }
+      },
+      "1654173763950347fe": {
+        "type": "section-rich-text",
+        "settings": {
+          "subheading": "",
+          "title": "",
+          "text": "<p>Du kan bruge ansøge om en forhåndsgodkendelse, og tage forbi butikken efter, og få indløst lånet. Så går det hele lidt hurtigere.<br\/><br\/>Ansøg <a href=\"https:\/\/sparxpres.dk\/ansoegning\/?linkId=TVFUUM\" title=\"https:\/\/sparxpres.dk\/ansoegning\/?linkId=TVFUUM\"><em><strong>HER<\/strong><\/em><\/a><\/p>",
+          "text_size": 2,
+          "text_columns": 1,
+          "align_text": "text-left",
+          "button_text": "",
+          "button_url": "",
+          "button_color": "btn--neutral",
+          "button_style": "caps--large",
+          "height": "margin--medium",
+          "width": "wrapper--narrow",
+          "text_color": "text-dark",
+          "bg_color": "#ffffff",
+          "padding_top": 0,
+          "padding_bottom": 0
+        }
+      },
+      "1654239196fba28305": {
+        "type": "section-text-row",
+        "blocks": {         
+        },
+        "block_order": [
+        ],
+        "settings": {
+          "text_alignment": "center",
+          "icon_size": 75,
+          "icon_alignment": "icon--top",
+          "text_color": "text-dark",
+          "height": "margin--medium",
+          "bg_color": "#ffffff",
+          "padding_top": 0,
+          "padding_bottom": 0
+        }
+      },
+      "e25ea7df-837b-4eaf-8cc1-14c0276b360f": {
+        "type": "section-slideshow",
+        "blocks": {
+          "template--18919049265483__e25ea7df-837b-4eaf-8cc1-14c0276b360f-1683789533859af555-0": {
+            "type": "image",
+            "settings": {
+              "bg_position": "center-center",
+              "image": "shopify:\/\/shop_images\/sparxpres-logo_d6846e9f-47cd-46d2-bd55-22cd7d245774.png",
+              "mobile_image": "shopify:\/\/shop_images\/sparxpres-logo_d6846e9f-47cd-46d2-bd55-22cd7d245774.png",
+              "overlay_opacity": 0,
+              "overlay_color": "#000",
+              "title": "Image slide",
+              "description": "Tell your brand's story through images.",
+              "flex_align": "align--middle-center",
+              "text_color": "text-light",
+              "transparent": true,
+              "link_text": "View products",
+              "link": "",
+              "button_color": "btn--white",
+              "button_style": "hero__btn btn btn--large btn--outline caps"
+            }
+          }
+        },
+        "block_order": [
+          "template--18919049265483__e25ea7df-837b-4eaf-8cc1-14c0276b360f-1683789533859af555-0"
+        ],
+        "settings": {
+          "height": "image-height",
+          "transition": "slide",
+          "arrows_style": false,
+          "dots_style": "hidden",
+          "autoplay": false,
+          "autoplay_speed": 8
+        }
+      }
+    },
+    "order": [
+      "main",
+      "16541728155b9734c1",
+      "16542295738525b14d",
+      "165424083352be202d",
+      "1654229827969161eb",
+      "1654173576f21375cd",
+      "1654173763950347fe",
+      "1654239196fba28305",
+      "e25ea7df-837b-4eaf-8cc1-14c0276b360f"
+    ]
+  }

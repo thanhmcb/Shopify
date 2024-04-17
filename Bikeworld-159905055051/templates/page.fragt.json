@@ -1,0 +1,148 @@
+{
+    "sections": {
+      "main": {
+        "type": "main-page",
+        "disabled": true,
+        "settings": {
+          "subheading": "",
+          "show_title": true,
+          "show_content": true,
+          "text_size": 2,
+          "align_text": "text-left",
+          "height": "margin--small",
+          "width": "wrapper",
+          "text_color": "text-dark",
+          "bg_color": "#ffffff"
+        }
+      },
+      "16541728155b9734c1": {
+        "type": "section-rich-text",
+        "settings": {
+          "subheading": "",
+          "title": "Fragt \/ forsendelse",
+          "text": "<p>Normal levering er 1-3 arbejdsdage fra modtagelse af ordren. Vi bestræber os på at få sendt alle ordre samme dag, hvis afgivet inden kl. 12:00. <\/p><p>(Cykler dog inden 10:00)<\/p><p>(Bemærk at lørdage, søndage og helligdage ikke regnes som arbejdsdage.)<br\/> <br\/>Vi leverer kun til Danmark (ikke Grønland og Færøerne) <\/p><p><strong>Bemærk: <\/strong>Alle cykler sendes med pakkesporring. Hvis der ikke er nogen hjemme på din adresse, når leveringer finder sted, skal du efterfølgende selv hente pakken på nærmeste fragtcentral.<\/p><p>Ved køb af cykler kan du notere i kommentarfeltet, at den evt. må stilles i carport, baghave el.<\/p><p><\/p><p>Det er MEGET vigtigt, at du noterer på ordren, ringer til os eller skriver en mail, hvis du på forhånd ved at du ikke er hjemme - Ellers har fragtmændene ikke mulighed for at stille den på adressen.<\/p><p><\/p>",
+          "text_size": 2,
+          "text_columns": 1,
+          "align_text": "text-left",
+          "button_text": "",
+          "button_url": "",
+          "button_color": "btn--neutral",
+          "button_style": "caps--large",
+          "height": "margin--medium",
+          "width": "wrapper--narrow",
+          "text_color": "text-dark",
+          "bg_color": "#ffffff",
+          "padding_bottom": 10
+        }
+      },
+      "16542273379b39449f": {
+        "type": "section-rich-text",
+        "settings": {
+          "subheading": "",
+          "title": "Køb af tilbehør sendes med GLS",
+          "text": "<p>- Ved køb af udstyr ligger fragten på en lav pris på kr. 49,- ved valg af pakkeshop<\/p><p><\/p><p>- Gælder ikke hjulsæt, da de skal forsikres<\/p>",
+          "text_size": 2,
+          "text_columns": 1,
+          "align_text": "text-left",
+          "button_text": "",
+          "button_url": "",
+          "button_color": "btn--neutral",
+          "button_style": "caps--large",
+          "height": "margin--medium",
+          "width": "wrapper--narrow",
+          "text_color": "text-dark",
+          "bg_color": "#ffffff",
+          "padding_bottom": 10
+        }
+      },
+      "16542273934228cdd9": {
+        "type": "section-rich-text",
+        "settings": {
+          "subheading": "",
+          "title": "Køb af cykler og hjulsæt. Sendes med Danske Fragtmænd",
+          "text": "<p>Er du ikke hjemme ved modtagelse? Ring os op 86 82 73 99 eller læg en mail\/kommentar, INDEN varen bliver sendt.<\/p><p><\/p><p>Cykler sendes i Danmark fra Kr. 299,- med Danske Fragtmænd (fastlandet og brofaste øer).<\/p><p>Hvis ingen hjemme, ved levering, vil ordren blive taget med retur til nærmeste afhentningssted, genudkørsel er for købers regning og koster fra 299kr. Ikke  afhentede ordrer vil blive returneret til www.bikeworld.dk. Retur omkostningerne bliver pålagt kunden, og fra trukket det returnerede <br\/>beløb.<\/p><p>Cykler købt på <a href=\"http:\/\/www.Bikeworld.dk\">www.Bikeworld.dk<\/a> Bliver grundigt efterset og monteret med lovpligt udstyr. Købes der  udstyr samme med cyklen vil dette blive monteret inden afsendelse, med  mindre andet er aftalt.<\/p><p><strong><br\/>Bemærk<\/strong>: Ved Nogen Racercykler bliver der ikke monteret reflekser og\/eller ringeklokke - Ønskes det med, skriv endelig, så kommer det med i kassen.<\/p><p>Cykler købt på <a href=\"http:\/\/www.Bikeworld.dk\">www.Bikeworld.dk<\/a> bliver sendt på hjul og 99 % samlet. Der skal blot drejes og spændes styr samt montere pedaler og sætte sadlen, så den passer. Vi anbefaler at du lader en proffesionel udføre opgaven, så der ikke opstår komplikationer. Styr og sadel skal spændes med moment og pedaler skal monteres i korrekte side.<\/p><p><\/p><p>I tilfælde af udsolgte varer eller varer i restordre, vil du blive ringet op inden vi sender dine varer.<\/p>",
+          "text_size": 2,
+          "text_columns": 1,
+          "align_text": "text-left",
+          "button_text": "",
+          "button_url": "",
+          "button_color": "btn--neutral",
+          "button_style": "caps--large",
+          "height": "margin--medium",
+          "width": "wrapper--narrow",
+          "text_color": "text-dark",
+          "bg_color": "#ffffff",
+          "padding_bottom": 10
+        }
+      },
+      "165422743418f1d6c5": {
+        "type": "section-rich-text",
+        "settings": {
+          "subheading": "",
+          "title": "VIGTIGT",
+          "text": "<p>Ved levering med Danske Fragtmænd sender vi ved afsendelse et fragtbrevsnummer og link til Track n' Trace af forsendelsen.<\/p><p>Danske Fragtmænd leverer mellem 10 -17 på hverdage. Det er ikke muligt at levere på et bestemt tidspunkt. Det er muligt at stille forsendelsen på adresse, men på eget ansvar. Bikeworld og Danske <br\/>Fragtmænd fraskriver sig enhvert ansvar for forsendelser der efter aftale efterlades på adresse uden underskrift.<\/p><p><\/p><p>Danske Fragtmænd forsøger at levere ÉN gang, derefter kan der <br\/>bestilles genudlevering for 299,- eller forsendelsen kan hentes på den nærmeste fragtcentral. Bikeworld dækker ikke omkostninger ved genlevering.<strong><br\/><\/strong><\/p><p><strong>Ikke afhentet GLS pakke:<\/strong><\/p><p>Hvis pakken fra GLS ikke bliver afhentet ved pakkeshoppen indenfor 10<br\/> dage (fra modtaget SMS) vil pakken blive sendt tilbage til os. Det koster 51kr. Altså vil samlet levering blive 100kr - Hvorefter der kan bestilles en ny levering for 49kr eller varen retur.<\/p><p><\/p><p><\/p>",
+          "text_size": 2,
+          "text_columns": 1,
+          "align_text": "text-left",
+          "button_text": "",
+          "button_url": "",
+          "button_color": "btn--neutral",
+          "button_style": "caps--large",
+          "height": "margin--medium",
+          "width": "wrapper--narrow",
+          "text_color": "text-dark",
+          "bg_color": "#ffffff",
+          "padding_bottom": 0
+        }
+      },
+      "02d5ee76-d197-4b15-81a4-b11dac9e232a": {
+        "type": "section-rich-text",
+        "settings": {
+          "subheading": "",
+          "title": "Ikke afhentet Cykel hos Danske Fragtmænd?",
+          "text": "<p>Hvis du ikke er hjemme på dagen din forsendelse kommer frem, skal du hente den på nærmeste fragtcentral. Du modtager en mail af os, med adresse og info - og har 1 uge til at afhente den, eller bede os om en genlevering.<\/p><p>Hvis der ikke sker noget med forsendelsen, bliver cyklen returneret til os, for købers regning. Ønskes cyklen genudkørt, skal køber betale fragt igen.<\/p>",
+          "text_size": 2,
+          "text_columns": 1,
+          "align_text": "text-left",
+          "button_text": "",
+          "button_url": "",
+          "button_color": "btn--neutral",
+          "button_style": "caps--large",
+          "height": "margin--medium",
+          "width": "wrapper--narrow",
+          "text_color": "text-dark",
+          "bg_color": "#ffffff",
+          "padding_bottom": 16
+        }
+      },
+      "d1c8fb82-cb93-49b0-a5f3-880881e8bb6f": {
+        "type": "section-rich-text",
+        "settings": {
+          "subheading": "",
+          "title": "FRAGTSKADER PÅ CYKELFORSENDELSEN?",
+          "text": "<p>Hos Bikeworld forsikrer vi alle vores cykler, når de bliver sendt afsted. Vi taber penge på fragten, men vi mener at det er en vigtig service for vores kunder.<\/p><p>Har den modtagede cykelkasse fået buler, så er det næsten bedst at nægte modtagelse, eller ihvertfald at tage et billede af kassen - og beholde kassen indtil cyklen er set efter.<\/p><p><\/p><p>Er der en skade eller en bule, skal det behandles gennem os, og vi skal have billededokumentation på skaden. Derefter tager vi kontakt til Danske Fragtmænd.<\/p><p><\/p><p>Der kan godt gå nogle dage, før vi får en klar melding om, hvad der skal ske med forsendelsen - og her er det vigtigt at kunden holder tålmodigheden og gemmer både cyklen og cykelkassen.<\/p><p><\/p><p>Langt de fleste af alle fragtskader ender med at vi får cyklen retu og kunden får en ny (hvis vi har en på lager), ellers får kunden pengene tilbage.<\/p><p>Alternativt har vi prøvet, at kunden lever med skaden, mod et beløb retur.<\/p><p><\/p><p>Vi har ikke prøvet, at det ikke har løst sig. <\/p>",
+          "text_size": 2,
+          "text_columns": 1,
+          "align_text": "text-left",
+          "button_text": "",
+          "button_url": "",
+          "button_color": "btn--neutral",
+          "button_style": "caps--large",
+          "height": "margin--medium",
+          "width": "wrapper--narrow",
+          "text_color": "text-dark",
+          "bg_color": "#ffffff",
+          "padding_bottom": 0
+        }
+      }
+    },
+    "order": [
+      "main",
+      "16541728155b9734c1",
+      "16542273379b39449f",
+      "16542273934228cdd9",
+      "165422743418f1d6c5",
+      "02d5ee76-d197-4b15-81a4-b11dac9e232a",
+      "d1c8fb82-cb93-49b0-a5f3-880881e8bb6f"
+    ]
+  }

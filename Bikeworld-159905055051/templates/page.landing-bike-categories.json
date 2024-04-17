@@ -1,0 +1,114 @@
+{
+    "sections": {
+      "main": {
+        "type": "main-page",
+        "disabled": true,
+        "settings": {
+          "subheading": "",
+          "show_title": true,
+          "show_content": true,
+          "text_size": 2,
+          "align_text": "text-left",
+          "height": "margin--small",
+          "width": "wrapper",
+          "text_color": "text-dark",
+          "bg_color": "#ffffff"
+        }
+      },
+      "1657706040c74481cf": {
+        "type": "section-hero",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/201831903_299119345240651_4290084604123849604_n.jpg",
+          "mobile_image": "shopify:\/\/shop_images\/136973715_196970535455533_7939420980118829686_n.jpg",
+          "bg_position": "center-center",
+          "height": "screen-height-one-third",
+          "overlay_opacity": 30,
+          "overlay_color": "#000000",
+          "title": "Klargjorte cykler leveret til hele Danmark",
+          "description": "Hos Bikeworld har vi altid mere en 3000 cykler til alle formål, som klar til levering.",
+          "flex_align": "align--middle-left",
+          "text_color": "text-light",
+          "transparent": true,
+          "link_text": "Se udvalget",
+          "link": "shopify:\/\/collections\/cykler",
+          "button_color": "btn--primary",
+          "button_style": "hero__btn btn btn--large caps"
+        }
+      },
+      "166184802444a8cd7e": {
+        "type": "section-rich-text",
+        "settings": {
+          "subheading": "",
+          "title": "Cykler klargjort og klar til levering i hele landet",
+          "text": "<p>Hos BikeWorld har vi altid over 3000 klargjorte cykler til alle formål og prisklasser klar til dig. Store indkøb sikrer dig et stort udvalg af billige cykler når du skal have ny cykel. <\/p><p>Vi har et bredt udvalg, sammensat af fagfolk, i løbe-, og balancecykler, trehjulede cykler, børnecykler, hverdags herre- og damecykler, shopping cykler, citybikes, El-cykler, sportscykler, racercykler, tri og MTB. Fra bl.a. Avenue, Batavus, Bianchi, Centurion, Cultima, Everton, Giant, Kildemoes, MBK, Nishiki, Puky, Raam, Raleigh, Specialized, Trek, Winther. <\/p><p>Så er du på udkig efter en ny cykel er vi helt klar et besøg værd. <\/p><p>Vi leverer cyklen direkte til dig, klargjort af vores udlærte mekanikkere. Eller du kan komme forbi vores 1800m2 store butik i Silkeborg hvor vi altid er klar på en god handel, anført at solid vejledning, så er vi sikre på du får den helt rigtige cykel. <\/p><p>Husk! Hos BikeWorld får du det største udbud og de bedste tilbud.<\/p>",
+          "text_size": 2,
+          "text_columns": 2,
+          "align_text": "text-left",
+          "button_text": "",
+          "button_url": "",
+          "button_color": "btn--neutral",
+          "button_style": "caps--large",
+          "height": "margin--medium",
+          "width": "wrapper--full",
+          "text_color": "text-dark",
+          "bg_color": "#ffffff"
+        }
+      },
+      "1657706489ee9c5bc9": {
+        "type": "section-columns",
+        "blocks": {
+        },
+        "block_order": [
+        ],
+        "settings": {
+          "title": "",
+          "bg_color": "#ffffff",
+          "align_text": "text-left",
+          "width": "wrapper--narrow",
+          "equalize_height": true,
+          "photo_aspect_ratio": 0.7,
+          "enable_image": true
+        }
+      },
+      "165770706642a3e1c9": {
+        "type": "section-columns",
+        "blocks": {        
+        },
+        "block_order": [
+        ],
+        "settings": {
+          "title": "",
+          "bg_color": "#ffffff",
+          "align_text": "text-left",
+          "width": "wrapper--full",
+          "equalize_height": true,
+          "photo_aspect_ratio": 0.7,
+          "enable_image": true
+        }
+      },
+      "16577080767c469142": {
+        "type": "section-collection",
+        "settings": {
+          "heading": "",
+          "description": "",
+          "text_alignment": "center",
+          "link_text": "",
+          "link_url": "",
+          "button_color": "btn--black",
+          "button_style": "hero__btn btn btn--input caps",
+          "featured_collection": "cykler",
+          "grid": 4,
+          "rows": 2,
+          "layout_mobile": "carousel"
+        }
+      }
+    },
+    "order": [
+      "main",
+      "1657706040c74481cf",
+      "166184802444a8cd7e",
+      "1657706489ee9c5bc9",
+      "165770706642a3e1c9",
+      "16577080767c469142"
+    ]
+  }

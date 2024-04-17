@@ -1,0 +1,216 @@
+{
+    "sections": {
+      "main": {
+        "type": "main-page",
+        "disabled": true,
+        "settings": {
+          "subheading": "",
+          "show_title": true,
+          "show_content": true,
+          "text_size": 2,
+          "align_text": "text-left",
+          "height": "margin--small",
+          "width": "wrapper",
+          "text_color": "text-dark",
+          "bg_color": "#ffffff"
+        }
+      },
+      "1657706040c74481cf": {
+        "type": "section-hero",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/MTB-2350-XCHero-2800x1620.jpg",
+          "bg_position": "center-top",
+          "height": "screen-height-one-half",
+          "overlay_opacity": 30,
+          "overlay_color": "#000000",
+          "title": "Specialized mountainbikes",
+          "description": "Uanset hvor meget erfaring du har, vil der altid være en Specialized mountain bike, der passer til dig.",
+          "flex_align": "align--middle-left",
+          "text_color": "text-light",
+          "transparent": true,
+          "link_text": "Se udvalget",
+          "link": "shopify:\/\/pages\/contact",
+          "button_color": "btn--primary",
+          "button_style": "hero__btn btn btn--large caps",
+          "padding_top": 0,
+          "padding_bottom": 0
+        }
+      },
+      "16577072956bea3c34": {
+        "type": "section-custom-content",
+        "blocks": {
+          "1657707295d9b8d283-1": {
+            "type": "text",
+            "settings": {
+              "subheading": "",
+              "title": "Trail-bikes i høj kvalitet",
+              "text": "",
+              "text_size": 2,
+              "text_columns": 1,
+              "align_text": "text-left",
+              "text_color": "text-dark",
+              "bg_color": "#ffffff",
+              "button_text": "",
+              "button_url": "",
+              "button_color": "btn--neutral",
+              "button_style": "caps--large"
+            }
+          },
+          "ef8e0b7b-0aa5-42b8-9ad8-d26aca88d1ea": {
+            "type": "text",
+            "settings": {
+              "subheading": "",
+              "title": "",
+              "text": "<p>Specialized leverer lette, stærke og alsidige trail-bikes, som gør dem nemmere at klatre på de stejleste stigninger og ikke mindst gøre det nemt at kontrollere en actionfyldt nedkørsel.<\/p>",
+              "text_size": 2,
+              "text_columns": 1,
+              "align_text": "text-left",
+              "text_color": "text-dark",
+              "bg_color": "#ffffff",
+              "button_text": "",
+              "button_url": "",
+              "button_color": "btn--neutral",
+              "button_style": "caps--large"
+            }
+          }
+        },
+        "block_order": [
+          "1657707295d9b8d283-1",
+          "ef8e0b7b-0aa5-42b8-9ad8-d26aca88d1ea"
+        ],
+        "settings": {
+          "height": "screen-height-one-half",
+          "padding": false,
+          "borders": false,
+          "wrapper": true,
+          "padding_top": 0,
+          "padding_bottom": 0
+        }
+      },
+      "1657707395cbc44915": {
+        "type": "section-custom-content",
+        "blocks": {
+          "1657707395ef63013d-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Offroad.jpg",
+              "bg_position": "center-center",
+              "overlay_opacity": 0,
+              "overlay_color": "#000000",
+              "title": "",
+              "description": "",
+              "flex_align": "align--middle-center",
+              "text_color": "text-light",
+              "transparent": true,
+              "link_text": "",
+              "link": "",
+              "button_color": "btn--white",
+              "button_style": "caps--large"
+            }
+          },
+          "1657707395ef63013d-1": {
+            "type": "text",
+            "settings": {
+              "subheading": "",
+              "title": "40 års erfaring",
+              "text": "<p>Specialized har mere end 40 års erfaring i produktion af trailbikes, hvilket er med til at gøre dem til en af de førende producenter af mountainbikes.<\/p>",
+              "text_size": 2,
+              "text_columns": 1,
+              "align_text": "text-left",
+              "text_color": "text-dark",
+              "bg_color": "#ffffff",
+              "button_text": "",
+              "button_url": "",
+              "button_color": "btn--neutral",
+              "button_style": "caps--large"
+            }
+          }
+        },
+        "block_order": [
+          "1657707395ef63013d-0",
+          "1657707395ef63013d-1"
+        ],
+        "settings": {
+          "height": "screen-height-one-half",
+          "padding": false,
+          "borders": false,
+          "wrapper": true,
+          "padding_top": 0,
+          "padding_bottom": 0
+        }
+      },
+      "16577079142be374cb": {
+        "type": "section-custom-content",
+        "blocks": {
+          "1657707914e4f68bf2-1": {
+            "type": "text",
+            "settings": {
+              "subheading": "",
+              "title": "Hvilken skal du vælge?",
+              "text": "<p>Den mountain bike der passer bedst til dig, kommer an på behoved. Hardtail er cykler med en fast bagstage uden affjedring - derfor er de blandt andet god til og fra skole. Suspension er derimod god til terrænkørsel.<\/p>",
+              "text_size": 2,
+              "text_columns": 1,
+              "align_text": "text-left",
+              "text_color": "text-dark",
+              "bg_color": "#ffffff",
+              "button_text": "",
+              "button_url": "",
+              "button_color": "btn--neutral",
+              "button_style": "caps--large"
+            }
+          },
+          "1657707914e4f68bf2-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/shutterstock_1417367060.jpg",
+              "bg_position": "center-center",
+              "overlay_opacity": 0,
+              "overlay_color": "#000000",
+              "title": "",
+              "description": "",
+              "flex_align": "align--middle-center",
+              "text_color": "text-light",
+              "transparent": true,
+              "link_text": "",
+              "link": "",
+              "button_color": "btn--white",
+              "button_style": "caps--large"
+            }
+          }
+        },
+        "block_order": [
+          "1657707914e4f68bf2-1",
+          "1657707914e4f68bf2-0"
+        ],
+        "settings": {
+          "height": "screen-height-one-half",
+          "padding": false,
+          "borders": false,
+          "wrapper": true,
+          "padding_top": 0,
+          "padding_bottom": 0
+        }
+      },
+      "16611474563b09be4b": {
+        "type": "section-collection",
+        "settings": {
+          "heading": "Udvalg af Specialized mountainbikes",
+          "description": "",
+          "text_alignment": "inline",
+          "link_text": "Se alle her",
+          "link_url": "",
+          "button_color": "btn--black",
+          "button_style": "hero__btn btn btn--input btn--outline caps",
+          "featured_collection": "specialized-mountainbikes"
+        }
+      }
+    },
+    "order": [
+      "main",
+      "1657706040c74481cf",
+      "16577072956bea3c34",
+      "1657707395cbc44915",
+      "16577079142be374cb",
+      "16611474563b09be4b"
+    ]
+  }
