@@ -140,9 +140,13 @@
     display: flex;
     justify-content: center;
   }
+  .slideshow-collection {
+    pointer-events: unset !important;
+  }
 }
 @media (max-width: 767.98px){
   .slideshow__slide ~ .page-header {
     display: none;
   }
 }
+
