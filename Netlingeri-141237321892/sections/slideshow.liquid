@@ -20,13 +20,6 @@
           #section-id-{{ section.id }} .height--fixed {
             --image-height: {{ section.settings.height_desktop }}px;
           }
-          {%- if template == 'collection' and block.settings.hide_on_desktop -%}      
-            #section-id-{{ section.id }} .slideshow {
-                display:none;
-              }
-       
-          {%- endif -%}
-         
         }
       {%- endif -%}
 
@@ -83,7 +76,7 @@
   {%- unless section.settings.full_width -%}<div class="container container--not-mobile fully-spaced-row--medium fully-spaced-row--not-mobile">{%- endunless -%}
 
   <slide-show role="region" aria-roledescription="{{ 'sections.slideshow.carousel' | t }}" aria-label="{{ section.settings.accessibility_info | escape }}" data-autoplay="{{ section.settings.autoplay }}" data-speed="{{ section.settings.autoplay_speed }}" data-transition="{{ section.settings.transition }}" data-transition-out-delay="0" data-pause-autoplay-on-mouseover="false">
-    <div class="slideshow slideshow--navigation-{{ section.settings.navigation }}" id="slideshow-{{ section.id }}" aria-live="polite" aria-atomic="true">
+    <div class="slideshow{% if template == 'collection' %} slideshow-collection{% endif %} slideshow--navigation-{{ section.settings.navigation }}" id="slideshow-{{ section.id }}" aria-live="polite" aria-atomic="true">
       {%- for block in section.blocks -%}
         {%- liquid
           assign show_overlay_text = false
@@ -97,17 +90,15 @@
             assign wrap_slide_with_link = true
           endif
         -%}
-        {% style %}
+         {% style %}
          @media (min-width: 768px) {         
-          {%- if template == 'collection' and block.settings.hide_on_desktop -%}      
-            #section-id-{{ section.id }} .slideshow__slide {
-                display:none;
-              }       
-          {%- endif -%}         
-        }
-        
+            {%- if template == 'collection' and block.settings.hide_on_desktop -%}      
+              #section-id-{{ section.id }} .slideshow__slide {
+                  display:none;
+                }       
+            {%- endif -%}         
+          }        
         {% endstyle %}
-
         <image-with-text-overlay class="slideshow__slide slide-{{ forloop.index }}{% if forloop.first %} is-active{% endif %} height--{{ section.settings.height }} image-overlay image-overlay--bg-{{ section.settings.overlay_style }}{% if section.settings.mobile_overlay_under %} text-overlay-parent--mobile-stack{% endif %}"
             role="group" aria-roledescription="{{ 'sections.slideshow.slide' | t }}"
             aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
@@ -208,8 +199,7 @@
               {%- endif -%}
               </div>
             </div>
-
-      {%- endif -%}
+        {%- endif -%}
       {%- endfor -%}
     </div>
 
@@ -242,12 +232,8 @@
         {%- endif -%}
       </div>
     {%- endif -%}
-  
-      
-  
   </slide-show>
 
-  
   {%- unless section.settings.full_width -%}</div>{%- endunless -%}
 </div>
 
@@ -429,7 +415,7 @@
           "label": "Image",
           "info": "2048 x 1024px recommended"
         },
-        {
+         {
           "id": "hide_on_desktop",
           "type": "checkbox",
           "label": "Hide on desktop",
