@@ -4704,3 +4704,6 @@ label[data-swatch]::before {
     grid-template-columns: repeat(8, minmax(0, 1fr));
   }
 }
+.section-no-galerry-block .section__header {
+  display: none;
+}

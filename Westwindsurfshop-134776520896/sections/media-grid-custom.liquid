@@ -200,7 +200,7 @@
 {
   "name": "Media grid mcb",
   "tag": "section",
-  "class": "cc-gallery",
+  "class": "cc-gallery media-grid-custom",
   "settings": [
     {
       "type": "header",
@@ -614,3 +614,12 @@
   }
 }
 {% endschema %}
+
+<script>
+ const galerryBlockExist = document.querySelector(".gallery.grid").childNodes.length;
+  if ( !galerryBlockExist > 0) {
+    document.querySelector(".gallery.grid").parentElement.parentElement.classList.add("section-no-galerry-block"); 
+  }
+
+  
+</script>
