@@ -528,7 +528,7 @@
   {%- endif -%}
 </div>
 
-                  {%- when 'features' -%}
+  {%- when 'features' -%}
                     {% comment %} Features block for Product {% endcomment %}
 
                     {%- liquid
@@ -636,6 +636,17 @@
                         {%- endif -%}
                       </complementary-products>
                     </div>
+                    {% when 'related-collections' %}
+                      <div class="product-collection">
+                        <div class="product-collection--heading">{{ block.settings.title}}</div>
+                        <div class="product-collection--items">
+                          {% for collection in product.collections %}
+                            {%-  unless collection.metafields.custom.do_not_show == false -%}
+                              {{- collection.title | link_to: collection.url }} 
+                            {%- endunless -%}                                   
+                            {% endfor %}
+                        </div>
+                      </div>
                 {%- endcase -%}
               {%- endfor -%}
             </div>
@@ -1835,7 +1846,20 @@
             "default": 16
           }
         ]
-      }
+      },
+      {
+      "type": "related-collections",
+      "name": "Product collection",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Relaterede kategorier"
+        }
+      ]
+    }
     ]
   }
 {% endschema %}

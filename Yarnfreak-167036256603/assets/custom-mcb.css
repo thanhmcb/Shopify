@@ -88,3 +88,21 @@
     padding-right: 0.5rem;
   }
 }
+
+/* product collection */
+.product-collection{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.product-collection--items {
+ display: flex;
+ flex-wrap: wrap;
+}
+.product-collection--items a{
+  padding: .5rem 1rem;
+  margin-right: .6rem;
+  color: rgb(var(--body-text-color));
+  margin-top: .5rem;
+  border: 1px solid var(--BTN-PRIMARY-BORDER-COLOR);
+}
