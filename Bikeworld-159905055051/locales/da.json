@@ -166,6 +166,7 @@
       "vendor": "Mærke",
       "remove": "Fjern",
       "subtotal": "Total",
+      "cart_error_msg":"Accepter venligst vores handelsbetingelser for at fortsætte.",
       "subtotal_items": "Varer",
       "subtotal_note": "Fragt og rabatkoder bliver beregnet i checkout",
       "customer_note": "Evt. note til din ordre",

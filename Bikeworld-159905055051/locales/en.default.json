@@ -164,6 +164,7 @@
       "vendor": "Vendor",
       "remove": "Remove",
       "subtotal": "Subtotal",
+      "cart_error_msg":"You must accept our terms and conditions.",
       "subtotal_items": "Items",
       "subtotal_note": "Shipping, taxes, and discount codes are calculated at checkout",
       "customer_note": "Leave a note about your order",

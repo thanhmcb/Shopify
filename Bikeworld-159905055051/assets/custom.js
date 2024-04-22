@@ -7,16 +7,23 @@
 * the custom.js script import line near the bottom of the file.
 */
 
-
+const checkboxTermAndCondition = document.getElementById('term-acceptance');
+const buttonTermAndCondition = document.querySelector('.cart__foot__inner .cart__buttons');
 (function() {
   // Add custom code below this line
-
-
-  
-
-
-
-
+  const checkInput = function checkUncheck(){
+    if ( checkboxTermAndCondition.checked){
+      checkboxTermAndCondition.nextSibling.nextSibling.nextSibling.nextSibling.classList.remove("is-expanded");
+    }else{
+      checkboxTermAndCondition.nextSibling.nextSibling.nextSibling.nextSibling.classList.add("is-expanded");
+    }
+  }
+  checkboxTermAndCondition.addEventListener('click', function (e) {
+    checkInput(); 
+  })
+  buttonTermAndCondition.addEventListener('click', function (e) {
+    checkInput(); 
+  }); 
   // ^^ Keep your scripts inside this IIFE function call to 
   // avoid leaking your variables into the global scope.
 })();
