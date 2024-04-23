@@ -402,18 +402,16 @@
 
                 {%- when 'checkout-buttons' -%}
                   <div class="cart__foot__inner">
-                    <button type="submit" name="update" class="btn btn--full btn--outline btn--primary cart__checkout no-js">
-                      {{- 'cart.general.update' | t -}}
-                    </button>
+                   
 
                     <div class="cart__buttons-wrapper">
-                      {%- if settings.enable_accept_terms -%}
-                        <input type="hidden" name="attributes[{{ 'cart.general.accepted_terms' | t }}]" value="Yes"/>
-                        <input type="checkbox" class="cart__acceptance__input" name="acceptance" id="acceptance" data-cart-acceptance-checkbox>
-                        <label for="acceptance" class="cart__acceptance__label" data-cart-acceptance-label>{{ settings.accept_terms_text }}</label>
-
-                        <p class="cart__terms cart__errors__content" data-terms-error-message></p>
-                      {%- endif -%}
+                    
+                    {%- if settings.enable_accept_terms -%}
+                      <input type="checkbox" class="cart__acceptance__input" name="acceptance" id="term-acceptance">
+                      <label for="term" class="cart__acceptance__label" >{{ settings.accept_terms_text }}</label>
+          
+                      <p class="cart__terms cart__errors__content" >{{- 'cart.general.cart_error_msg' | t -}}</p>
+                    {%- endif -%}
 
                       <div class="cart__buttons{% if settings.enable_accept_terms %} cart__buttons--disabled{% endif %}" data-cart-checkout-buttons>
                         <fieldset class="cart__buttons__fieldset" data-cart-checkout-button>
