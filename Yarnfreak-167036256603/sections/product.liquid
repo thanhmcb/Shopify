@@ -646,7 +646,7 @@
                          }
                         {%- endstyle -%}
                           {% for collection in product.collections %}
-                            {%-  unless collection.metafields.custom.do_not_show == false -%}
+                            {%-  unless collection.metafields.custom.do_not_show == true -%}
                               {{- collection.title | link_to: collection.url }} 
                             {%- endunless -%}                                   
                             {% endfor %}
@@ -1854,7 +1854,7 @@
       },
       {
       "type": "related-collections",
-      "name": "Product collection",
+      "name": "Product collection - MCB",
       "limit": 1,
       "settings": [
         {
@@ -1862,7 +1862,7 @@
           "id": "title",
           "label": "Heading",
           "default": "Relaterede kategorier",
-          "info":"Denne section samler collections på baggrund af metafeltet 'Do not show' - Hvis 'True' så vises collection - Hvis 'False' så vies collection ikke"
+          "info":"Denne section samler collections på baggrund af metafeltet 'Do not show' - Hvis 'True' så vises collection ikke - Hvis 'False' eller 'blank' så vises collection"
         },
         {
           "type": "color",
