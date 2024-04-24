@@ -60,9 +60,9 @@
           assign powered_by_link = powered_by_link_html
         -%}
 
-        <!-- Remove the following line to delete 'Powered by Shopify' from your footer -->
+        <!-- Remove the following line to delete 'Powered by Shopify' from your footer 
         <li data-powered-link>{{ powered_by_link }}</li>
-        <!-- Do not delete below this line -->
+         Do not delete below this line -->
       </ul>
     </div>
 
@@ -70,9 +70,10 @@
       {%- unless shop.enabled_payment_types == empty -%}
         <div class="supporting-menu__item supporting-menu__item--payment">
           <ul class="supporting-menu__payment payment-icons inline-list">
-            {%- for type in shop.enabled_payment_types -%}
-              <li>{{ type | payment_type_svg_tag: class: 'payment-icon' }}</li>
-            {%- endfor -%}
+            {% assign enabled_payment_types = 'visa,master,dankort,mobilepay,apple_pay, google_pay' | remove: ' ' | split: ',' %}
+            {% for type in enabled_payment_types %}
+              <li>{{ type | payment_type_svg_tag: class:'payment-icon' }}</li>
+            {% endfor %}
           </ul>
         </div>
       {%- endunless -%}
