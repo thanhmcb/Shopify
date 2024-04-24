@@ -3,7 +3,6 @@
 {%- liquid
   assign blocks_size = section.blocks.size
   assign image_background = section.settings.image
-  assign logo = section.settings.logo
   assign inline_blocks = ''
   assign inline_blocks_placeholder = '####inline-blocks@@@@'
   assign border_color = section.settings.border_color
@@ -36,23 +35,7 @@
 {%- endstyle -%}
 
 <section class="site-footer-wrapper section-padding" data-section-id="{{ section.id }}" data-section-type="footer">
-  <div class="site-footer wrapper--full-padded">
-    {%- if logo -%}
-      {%- liquid
-        assign logo_width = section.settings.logo_image_width
-        assign logo_width_px = logo_width | append: 'px'
-        assign logo_width_2x = logo_width | times: 2
-        assign logo_width_3x = logo_width | times: 3
-        assign logo_widths = logo_width | append: ',' | append: logo_width_2x | append: ',' | append: logo_width_3x
-        assign logo_alt = logo.alt | default: shop.name | strip_html | escape
-      -%}
-      <div class="footer__logo__wrapper">
-        <a href="{{ routes.root_url }}" class="footer__logo" style="width: {{ logo_width_px }};" aria-label="{{ 'general.accessibility.footer_logo' | t }}">
-          {%- render 'image' image: logo, width: logo_width_2x, widths: logo_widths, sizes: logo_width_px, alt: logo_alt -%}
-        </a>
-      </div>
-    {%- endif -%}
-
+  <div class="site-footer wrapper--full-padded">   
     {%- if section.blocks.size > 0 -%}
       <div class="footer__blocks">
         {%- for block in section.blocks -%}
@@ -139,6 +122,16 @@
               {%- when 'newsletter' -%}
                 <div class="footer__block footer__block--newsletter" style="{{ block_style }}" {{ block.shopify_attributes }}>
                   <div class="footer__newsletter__wrapper">
+                    {% if block.settings.footer_logo != blank %}
+                      <a href="{{ shop.url }}" itemprop="url">
+                        <img src="{{  block.settings.footer_logo | image_url }}"
+                            style="width: {{ block.settings.logo_max_limit }}px; margin: 0 auto;"
+                            alt="{{  block.settings.footer_logo.alt | default: shop.name }}"
+                            loading="eager">
+                      </a>
+                    {%- endif -%} 
+                    
+                    
                     {%- if title != blank -%}
                       <h2 class="h5 footer__block__title">{{ title }}</h2>
                     {%- endif -%}
@@ -193,31 +186,11 @@
 {
   "name": "Footer",
   "max_blocks": 5,
-  "settings": [
-    {
-      "label": "Logo",
-      "type": "image_picker",
-      "id": "logo"
-    },
-    {
-      "type": "range",
-      "id": "logo_image_width",
-      "label": "Logo width (in pixels)",
-      "min": 50,
-      "max": 400,
-      "step": 5,
-      "unit": "px",
-      "default": 150
-    },
+  "settings": [   
     {
       "type": "header",
       "content": "Optional background image"
-    },
-    {
-      "type": "image_picker",
-      "id": "image",
-      "label": "Image"
-    },
+    },   
     {
       "type": "range",
       "id": "overlay_opacity",
@@ -308,6 +281,21 @@
         {
           "type": "paragraph",
           "content": "Subscribers are under 'Accepts Marketing' in your [customer admin](/admin/customers)."
+        },
+        {
+          "label": "Logo",
+          "type": "image_picker",
+          "id": "footer_logo"
+        },
+        {
+          "type": "range",
+          "id": "logo_max_limit",
+          "label": "Logo width (in pixels)",
+          "min": 50,
+          "max": 400,
+          "step": 5,
+          "unit": "px",
+          "default": 150
         },
         {
           "type": "text",

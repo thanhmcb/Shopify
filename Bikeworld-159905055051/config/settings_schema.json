@@ -756,6 +756,18 @@
     },
     {
       "type": "color",
+      "id": "price_off_bg_color",
+      "label": "Background price off label",
+      "default": "#4869D9"
+  },
+  {
+    "type": "color",
+    "id": "price_off_text_color",
+    "label": "Text price off label",
+    "default": "#ffffff"
+  },
+    {
+      "type": "color",
       "id": "custom_label_bg_color",
       "label": "Background custom label",
       "default": "#c84242"
