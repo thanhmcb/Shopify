@@ -640,6 +640,11 @@
                       <div class="product-collection">
                         <div class="product-collection--heading">{{ block.settings.title}}</div>
                         <div class="product-collection--items">
+                        {%- style -%}
+                         .product-collection--items a:hover{
+                          border-color: {{block.settings.border_color}};
+                         }
+                        {%- endstyle -%}
                           {% for collection in product.collections %}
                             {%-  unless collection.metafields.custom.do_not_show == false -%}
                               {{- collection.title | link_to: collection.url }} 
@@ -1856,7 +1861,14 @@
           "type": "text",
           "id": "title",
           "label": "Heading",
-          "default": "Relaterede kategorier"
+          "default": "Relaterede kategorier",
+          "info":"Denne section samler collections på baggrund af metafeltet 'Do not show' - Hvis 'True' så vises collection - Hvis 'False' så vies collection ikke"
+        },
+        {
+          "type": "color",
+          "id":"border_color",
+          "label":"Hover border color",
+          "default": "#1A1A1A"
         }
       ]
     }
