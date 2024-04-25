@@ -1,0 +1,64 @@
+<div class="section-spacing color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
+  <div class="container full-width">
+    <div class="section-stack">
+      <div class="shop_the_look_grid">
+        <div class="shop_the_look_content">
+          <h2 class="h2">{{ section.settings.title }}</h2>
+          <span>{{ section.settings.content }}</span>
+          {%- if section.settings.button_url != blank -%}
+            <div class="button">
+              <a href="{{ section.settings.button_url }}">{{ section.settings.button_label }}</a>
+            </div>
+          {%- endif -%}
+        </div>
+
+        {%- for product in section.settings.products -%}
+          {%- render 'product-card'
+            , product: product
+            , reveal: false
+            , hide_product_information: false
+            , block: block -%}
+        {%- endfor -%}
+      </div>
+
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Shop the look grid",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      },
+      {
+        "type": "textarea",
+        "id": "content",
+        "label": "Content"
+      },
+      {
+        "type": "text",
+        "id": "button_label",
+        "label": "Button Label"
+      },
+      {
+        "type": "url",
+        "id": "button_url",
+        "label": "Button URL"
+      }, {
+        "type": "product_list",
+        "id": "products",
+        "label": "Products",
+        "limit": 7
+      }
+    ],
+    "presets": [
+      {
+        "name": "Shop the look Grid"
+      }
+    ]
+  }
+{% endschema %}

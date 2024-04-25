@@ -1,0 +1,60 @@
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "2a36b3aa-a62e-4d69-8caa-717b6d73e615": {
+      "type": "newsletter",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": false,
+        "image_size": "sm",
+        "image": "shopify://shop_images/slider2.jpg",
+        "subheading": "",
+        "title": "Få 10% rabat på din første ordre",
+        "content": "<p>Tilmeld dig vores kundeklub og få 10% på den første ordre hos NUMBER NINE. <em>*Gælder ikke på i forvejen nedsatte varer.</em></p>",
+        "button_text": "Tilmeld nyhedsbrev",
+        "overlay_color": "#000000",
+        "overlay_opacity": 60
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "title": "Number Nine",
+            "content": "<p>Stegholt 8A, 6200 Aabenraa<br/>E-mail: <a href=\"mailto:info@number-nine.dk\" title=\"mailto:info@number-nine.dk\">info@number-nine.dk</a><br/>Tlf: 69149994<br/>Cvr: 41695056<br/></p><p>Number Nine præsenterer danske og internationale high-end fashion brands. Bliv dagligt inspireret hos Number Nine.</p>",
+            "enable_follow_on_shop": true
+          }
+        },
+        "links": {
+          "type": "links",
+          "settings": {
+            "menu": "footer",
+            "show_menu_title": false,
+            "menu_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "text",
+        "links"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "show_social_media": true,
+        "show_payment_icons": true,
+        "show_country_selector": true,
+        "show_country_name": true,
+        "show_country_flag": true,
+        "show_locale_selector": true
+      }
+    }
+  },
+  "order": [
+    "2a36b3aa-a62e-4d69-8caa-717b6d73e615",
+    "footer"
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "sections": {
+    "7c0bd6a8-4e42-49b1-b5b3-69d6e663f891": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_Fg4adQ": {
+          "type": "heading",
+          "settings": {
+            "text": "MID SEASON SALE",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_8Y8UiH": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Find det perfekte outfit i vores MID SEASON SALE </p>"
+          }
+        },
+        "button_M6mar6": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Shop nu",
+            "url": "shopify://collections/sale",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_Fg4adQ",
+        "richtext_8Y8UiH",
+        "button_M6mar6"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "image_size": "lg",
+        "image": "shopify://shop_images/slider_1.webp",
+        "allow_transparent_header": true,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "overlay_color": "#000000",
+        "overlay_opacity": 40
+      }
+    },
+    "featured-collections": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "nyheder",
+            "products_count": 50,
+            "title": "Nyheder: Håndplukket styles fra verdens bedste brands",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection-1"
+      ],
+      "settings": {
+        "headingalign": "center",
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1.6,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "3a98c6a6-e621-42fd-9bca-1a8c92b39b96": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19977642901839__3a98c6a6-e621-42fd-9bca-1a8c92b39b96-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Find dit perfekte outfit med GANNI",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_zC4RwG": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Skab dit ideelle look med GANNI's nyeste kollektion! Uanset om du foretrækker en afslappet og cool stil eller er mere til det  sofistikerede og elegante, har GANNI det perfekte outfit til enhver lejlighed</p>",
+            "centered": false
+          }
+        },
+        "button_CzzXHX": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Shop GANNI",
+            "url": "shopify://collections/ganni",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19977642901839__3a98c6a6-e621-42fd-9bca-1a8c92b39b96-heading-1",
+        "richtext_zC4RwG",
+        "button_CzzXHX"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "image": "shopify://shop_images/slider1.jpg",
+        "mobile_image": "shopify://shop_images/slider1.jpg",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "lg",
+        "remove_vertical_spacing": false
+      }
+    },
+    "6ffaf8bf-d6e2-41e6-a805-93227623fb81": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--19977642901839__6ffaf8bf-d6e2-41e6-a805-93227623fb81-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "toj",
+            "products_count": 27,
+            "title": "Trending this week",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19977642901839__6ffaf8bf-d6e2-41e6-a805-93227623fb81-collection-1"
+      ],
+      "settings": {
+        "headingalign": "center",
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "ed8d93c6-491d-465e-9317-003154ecf2ce": {
+      "type": "collection-list",
+      "blocks": {
+        "template--19977642901839__ed8d93c6-491d-465e-9317-003154ecf2ce-collection-1": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "collection": "ganni",
+            "layout": "overlay",
+            "image": "shopify://shop_images/IMG_6442.jpg",
+            "expand_collection": true,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "",
+            "button_link": "shopify://collections/ganni",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--19977642901839__ed8d93c6-491d-465e-9317-003154ecf2ce-collection-3": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "",
+            "collection": "kjoler",
+            "layout": "overlay",
+            "image": "shopify://shop_images/IMG_6418.jpg",
+            "expand_collection": true,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "",
+            "button_link": "shopify://collections/kjoler",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--19977642901839__ed8d93c6-491d-465e-9317-003154ecf2ce-collection-1",
+        "template--19977642901839__ed8d93c6-491d-465e-9317-003154ecf2ce-collection-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "image_size": "auto",
+        "show_text_outside": false,
+        "space_items": true,
+        "stack_collections": false,
+        "collections_per_row_desktop": 2,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "4441a974-3ac7-49dc-826b-add4b532b2ca": {
+      "type": "slideshow",
+      "blocks": {
+        "template--19977642901839__4441a974-3ac7-49dc-826b-add4b532b2ca-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/header3_f1c6ee70-5f44-4fa6-88b5-788388617f55.jpg",
+            "mobile_image": "shopify://shop_images/mobil1_b23d368e-1d2f-4fef-81ac-6765624ac4d1.jpg",
+            "subheading": "",
+            "title": "",
+            "font_size": "normal",
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "content_max_width": 780,
+            "make_link": true,
+            "button_1_text": "",
+            "button_1_link": "shopify://collections/accessories",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#1c1c1c",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#1c1c1c",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19977642901839__4441a974-3ac7-49dc-826b-add4b532b2ca-image-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "allow_transparent_header": true,
+        "show_next_section_button": false,
+        "media_size": "sm",
+        "autoplay": true,
+        "autoplay_pause_on_video": true,
+        "cycle_speed": 5,
+        "background": "#1c1c1c",
+        "controls_color": "#ffffff"
+      }
+    },
+    "image_with_text_overlay_3iePd8": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_WTdHL4": {
+          "type": "heading",
+          "settings": {
+            "text": "Musthaves til din Basis Garderobe",
+            "heading_tag": "h2"
+          }
+        },
+        "button_DJ7eKE": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Shop de nyeste musthaves",
+            "url": "shopify://pages/musthaves-til-din-basis-garderobe",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_WTdHL4",
+        "button_DJ7eKE"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "image_size": "lg",
+        "image": "shopify://shop_images/slider_f565d46d-0ede-4a88-b211-01f879f984c1.jpg",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "collection-list": {
+      "type": "collection-list",
+      "blocks": {
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "collection": "accessories",
+            "layout": "normal",
+            "image": "shopify://shop_images/AnineBingJeremyBaseballCapAnineBing-VintageBlack2edited.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "ACCESSORIES",
+            "title": "",
+            "button_text": "",
+            "button_link": "shopify://collections/accessories",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_UVWiRY": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "collection": "jewellery",
+            "layout": "normal",
+            "image": "shopify://shop_images/AnniLuPinkBubblesNecklaceedited.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "HALSKÆDER",
+            "title": "",
+            "button_text": "",
+            "button_link": "shopify://collections/jewellery",
+            "overlay_color": "#1c1c1c",
+            "overlay_opacity": 84
+          }
+        },
+        "collection-3": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "",
+            "collection": "shoes",
+            "layout": "normal",
+            "image": "shopify://shop_images/GanniFeminineBuckleMuleSandalSuedeChocolateFondantedited_jpg.webp",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "SKO",
+            "title": "",
+            "button_text": "",
+            "button_link": "shopify://collections/shoes",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection-1",
+        "collection_UVWiRY",
+        "collection-3"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "image_size": "auto",
+        "show_text_outside": true,
+        "space_items": true,
+        "stack_collections": false,
+        "collections_per_row_desktop": 3,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "0c67239a-4d17-4d83-b798-35807bd36ede": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/brands5_66f8d150-8674-4603-ac74-8e5083b1b9b5.jpg",
+            "mobile_image": "shopify://shop_images/brands_mobil2.jpg",
+            "subheading": "",
+            "title": "",
+            "font_size": "normal",
+            "mobile_text_position": "place-self-start-center text-center",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "content_max_width": 400,
+            "make_link": false,
+            "button_1_text": "",
+            "button_1_link": "shopify://collections/anine-bing",
+            "button_1_style": "link",
+            "button_1_background": "#000000",
+            "button_1_text_color": "#ffffff",
+            "button_2_text": "",
+            "button_2_link": "shopify://collections/nyheder",
+            "button_2_style": "outline",
+            "button_2_background": "#000000",
+            "button_2_text_color": "#ffffff",
+            "background": "",
+            "background_opacity": 100,
+            "text_color": "#1c1c1c",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
+        "25acd12e-ef4a-4e97-b557-388d63587b8b": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Skaermbillede_2024-01-04_kl._09.21.52.png",
+            "mobile_image": "shopify://shop_images/Skaermbillede_2024-01-04_kl._09.36.27.png",
+            "subheading": "",
+            "title": "GANNI BUCKLE BALLERINA",
+            "font_size": "normal",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "content_max_width": 780,
+            "make_link": false,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "SHOP NU",
+            "button_2_link": "shopify://collections/ganni",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
+        "0713b8f4-c064-4438-9524-65a8af800fdb": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/IMG_4814.jpg",
+            "mobile_image": "shopify://shop_images/IMG_4814_6f28c9c3-02b9-4bb7-824e-56baf406c93d.jpg",
+            "subheading": "",
+            "title": "SALE SPAR OP TIL 70%",
+            "font_size": "normal",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "content_max_width": 780,
+            "make_link": false,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "SHOP NU",
+            "button_2_link": "shopify://collections/sale",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        }
+      },
+      "block_order": [
+        "0c67239a-4d17-4d83-b798-35807bd36ede",
+        "25acd12e-ef4a-4e97-b557-388d63587b8b",
+        "0713b8f4-c064-4438-9524-65a8af800fdb"
+      ],
+      "disabled": true,
+      "settings": {
+        "allow_transparent_header": false,
+        "show_next_section_button": false,
+        "media_size": "fill",
+        "autoplay": true,
+        "autoplay_pause_on_video": false,
+        "cycle_speed": 6,
+        "background": "#000000",
+        "controls_color": "#ffffff"
+      }
+    },
+    "ea7ba5e1-c962-46aa-9a42-75f0f5580c89": {
+      "type": "shop-the-look-grid",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "content": "",
+        "button_label": "Se populære styles",
+        "button_url": "#",
+        "products": [
+          "anine-bing-alec-hoodie-anine-bing-heather-grey",
+          "anine-bing-avi-tee-paris-ivory",
+          "anine-bing-avi-tee-smiley-vintage-black"
+        ]
+      }
+    }
+  },
+  "order": [
+    "7c0bd6a8-4e42-49b1-b5b3-69d6e663f891",
+    "featured-collections",
+    "3a98c6a6-e621-42fd-9bca-1a8c92b39b96",
+    "6ffaf8bf-d6e2-41e6-a805-93227623fb81",
+    "ed8d93c6-491d-465e-9317-003154ecf2ce",
+    "4441a974-3ac7-49dc-826b-add4b532b2ca",
+    "image_with_text_overlay_3iePd8",
+    "collection-list",
+    "slideshow",
+    "ea7ba5e1-c962-46aa-9a42-75f0f5580c89"
+  ]
+}

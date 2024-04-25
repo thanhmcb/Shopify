@@ -1,0 +1,529 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "rich_text_PdFThe": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_WBwHeW": {
+          "type": "subheading",
+          "settings": {
+            "text": "<em>get the look</em>"
+          }
+        },
+        "heading_CG7ke3": {
+          "type": "heading",
+          "settings": {
+            "text": "Musthaves til din basis garderobe",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_z3LaUe": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Her er et udvalg af sæsonens musthaves til din basic garderobe. Number Nines modeeksperter hjælper dig med at finde det perfekte outfit til din dag. Vi har samlet de perfekte basis styles du kan bruge igen og igen. T-shirts fra <a href=\"/collections/ganni\" title=\"GANNI\">Ganni</a>, Caps fra <a href=\"/collections/anine-bing\" title=\"ANINE BING\">Anine Bing</a> og en masse basic styles fra blandt andet Halo, <a href=\"/collections/anni-lu\" title=\"ANNI LU\">Anni Lu</a> og vores nye mærke <a href=\"/collections/my-essential-wardrobe\" title=\"My Essential Wardrobe\">My Essential Wardrobe</a>.</p><p></p><p></p>"
+          }
+        },
+        "link_97JkAq": {
+          "type": "link",
+          "disabled": true,
+          "settings": {
+            "text": "Bliv inspireret her",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_WBwHeW",
+        "heading_CG7ke3",
+        "richtext_z3LaUe",
+        "link_97JkAq"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "image_with_text_overlay_ELzMDi": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "color_scheme": "",
+        "image_size": "auto",
+        "image": "shopify://shop_images/slider_f565d46d-0ede-4a88-b211-01f879f984c1.jpg",
+        "mobile_image": "shopify://shop_images/slider1.jpg",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "scrolling_content_GbhGPT": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_nJUgnW": {
+          "type": "text",
+          "settings": {
+            "text": "Nine modeeksperter styler dig til hverdagen"
+          }
+        },
+        "text_rtx9em": {
+          "type": "text",
+          "settings": {
+            "text": "Basic styles til din garderobe"
+          }
+        }
+      },
+      "block_order": [
+        "text_nJUgnW",
+        "text_rtx9em"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "scrolling_speed": 0.3,
+        "scroll_direction": "left",
+        "text_font": "body",
+        "text_font_size_mobile": 40,
+        "text_font_size_desktop": 96,
+        "section_vertical_spacing_mobile": 60,
+        "section_vertical_spacing_desktop": 80,
+        "item_horizontal_spacing_mobile": 80,
+        "item_horizontal_spacing_desktop": 120,
+        "background": "",
+        "text_color": ""
+      }
+    },
+    "featured_collections_9bH74Q": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_3PJV9E": {
+          "type": "collection",
+          "settings": {
+            "collection": "ganni",
+            "products_count": 8,
+            "title": "",
+            "link_url": "shopify://collections/ganni",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_3PJV9E"
+      ],
+      "settings": {
+        "headingalign": "left",
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "hide_product_information": true,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 6,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "Shop til hverdagen"
+      }
+    },
+    "multiple_media_with_text_968i3g": {
+      "type": "multiple-media-with-text",
+      "blocks": {
+        "image_99tHBV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/GanniFeminineBuckleMuleSandalSuedeBlack4.jpg",
+            "rotation": 0
+          }
+        },
+        "image_TGqXmG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/GanniFeminineBuckleBallerinaNaplackRacingRededited.jpg",
+            "rotation": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_99tHBV",
+        "image_TGqXmG"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "reveal_on_scroll": true,
+        "separate_section_with_border": true,
+        "media_position_desktop": "before_text",
+        "media_position_mobile": "before_text",
+        "media_layout": "overlap",
+        "media_alignment": "center",
+        "media_alignment_offset": 0,
+        "media_mobile_alignment_offset": 0,
+        "text_alignment": "center",
+        "subheading": "Nines Modeeksperter",
+        "title": "",
+        "content": "<p>Nines modeeksperter viser hvordan man kan styler basic styles til hverdag.</p>",
+        "button_1_text": "shop Ganni Buckle Ballerina",
+        "button_1_link": "shopify://products/ganni-feminine-buckle-ballerina-naplack-racing-red",
+        "button_1_style": "outline",
+        "button_2_text": "",
+        "button_2_link": "",
+        "button_2_style": "solid"
+      }
+    },
+    "media_grid_7fjqE7": {
+      "type": "media-grid",
+      "blocks": {
+        "image_RGMPic": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/HJJJJ.jpg",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "shopify://products/ganni-chunky-buckle-ballerina-snake",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_L8QpKi": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/Silverearringsdrop.jpg",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "shopify://products/nine-big-drop-earrings-silver",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_M4rdcM": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/IMG_4814_6f28c9c3-02b9-4bb7-824e-56baf406c93d.jpg",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "shopify://products/ganni-snow-washed-denim-angi-black-washed",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_RGMPic",
+        "image_L8QpKi",
+        "image_M4rdcM"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "full",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "Musthaves til din garderobe",
+        "content": "<p>Shop <a href=\"/products/ganni-chunky-buckle-ballerina-snake\" title=\"Ganni Chunky Buckle Ballerina Snake\">Ganni Buckle Ballerina</a> og sammensæt det med vores mange fede jeans fra <a href=\"/collections/anine-bing\" title=\"ANINE BING\">Anine Bing</a> og <a href=\"/products/ganni-snow-washed-denim-angi-black-washed\" title=\"Ganni Snow Washed Denim Angi Black Washed\">Ganni</a> og slut dit look af med et par smukke dråbeformet ørering i vores eget design <a href=\"/collections/nine\" title=\"NINE\">Nine</a>.</p>"
+      }
+    },
+    "featured_collections_YL3pAM": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_GgG4Cr": {
+          "type": "collection",
+          "settings": {
+            "collection": "my-essential-wardrobe",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_GgG4Cr"
+      ],
+      "settings": {
+        "headingalign": "left",
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "hide_product_information": true,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 6,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "Rå styles med basic outfits"
+      }
+    },
+    "media_grid_PciB3t": {
+      "type": "media-grid",
+      "blocks": {
+        "image_wMQYax": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/HaloLogoGraphicT-shirtRavenedited.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "shopify://products/halo-logo-graphic-t-shirt-raven",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_VeBnT9": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AnineBingJeremyBaseballCapAnineBing-VintageBlack2edited.jpg",
+            "column_count": "8",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "shopify://products/anine-bing-sport-jeremy-baseball-cap-black",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_rf3t4M": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AnniLuGoldieHoopGoldedited.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "shopify://products/anni-lu-goldie-hoop-gold",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_wMQYax",
+        "image_VeBnT9",
+        "image_rf3t4M"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "lg",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "Afslapning look",
+        "content": "<p><a href=\"/products/anine-bing-sport-jeremy-baseball-cap-black\" title=\"Anine Bing Jeremy Baseball Cap Black\">Anine Bing Jeremy Baseball Cap</a> - Justerbar rygstrop, som passer til de fleste. Style din <a href=\"/collections/anine-bing\" title=\"ANINE BING\">Anine Bing</a> cap med de smukke øreringe fra <a href=\"/collections/anni-lu\" title=\"ANNI LU\">Anni Lu</a> Goldie Hoop, der er fremstillet i messing med 24-karat guld-ion-belægning og fuldføre det med en t-shirts fra <a href=\"/collections/halo\" title=\"HALO\">Halo</a>. </p>"
+      }
+    },
+    "featured_product_WMi4Wi": {
+      "type": "featured-product",
+      "blocks": {
+        "title_8bpzQk": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "description_C7Axgd": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "price_yWdmn7": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "buy_buttons_4aRjzQ": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "title_8bpzQk",
+        "description_C7Axgd",
+        "price_yWdmn7",
+        "buy_buttons_4aRjzQ"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "product": "nine-everyday-bag-small-black",
+        "separate_section_with_border": true,
+        "container_size": "lg",
+        "product_info_size": 45,
+        "center_basic_info": false,
+        "desktop_media_layout": "carousel_thumbnails_bottom",
+        "desktop_media_grid_gap": 30,
+        "mobile_controls": "dots",
+        "enable_media_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": false,
+        "max_image_zoom_level": 3,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "scrolling_content_XgzY7F": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_zYkGVD": {
+          "type": "text",
+          "settings": {
+            "text": "Vores favoritter på hverdagens bestsellers"
+          }
+        },
+        "text_ywyxaC": {
+          "type": "text",
+          "settings": {
+            "text": "Number Nines modeeksperter"
+          }
+        }
+      },
+      "block_order": [
+        "text_zYkGVD",
+        "text_ywyxaC"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "scrolling_speed": 0.3,
+        "scroll_direction": "left",
+        "text_font": "heading",
+        "text_font_size_mobile": 40,
+        "text_font_size_desktop": 96,
+        "section_vertical_spacing_mobile": 60,
+        "section_vertical_spacing_desktop": 80,
+        "item_horizontal_spacing_mobile": 80,
+        "item_horizontal_spacing_desktop": 120,
+        "background": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_VRegEU": {
+      "type": "multi-column",
+      "blocks": {
+        "image_with_text_xzH9qf": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/AnineBingRamonaSweatshirtDoodleIvory2edited.jpg",
+            "title": "Shop sweatshirts",
+            "heading_tag": "h3",
+            "content": "<p>Shop den smukke Anine Bing Ramona Sweatshirt Doodle Ivory</p>",
+            "link_url": "shopify://collections/sweatshirts",
+            "link_text": ""
+          }
+        },
+        "image_with_text_kiAQrf": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/AnineBingCasonTeeLiveTheDreamWashedBlack1edited.jpg",
+            "title": "Shop t-shirts",
+            "heading_tag": "h3",
+            "content": "<p>Shop denne smukke Anine Bing Cason Tee Live The Dream Washed Black</p>",
+            "link_url": "shopify://collections/top-t-shirts",
+            "link_text": ""
+          }
+        },
+        "image_with_text_WgL4FQ": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/GanniFeminineBuckleMuleSandalSuedeChocolateFondantedited_jpg.webp",
+            "title": "Shop sko",
+            "heading_tag": "h3",
+            "content": "<p>Shop de smukke Ganni Feminine Buckle Mule Sandal Suede Chocolate Fondant</p>",
+            "link_url": "shopify://products/ganni-feminine-buckle-mule-sandal-suede-chocolate-fondant",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_xzH9qf",
+        "image_with_text_kiAQrf",
+        "image_with_text_WgL4FQ"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "columns_per_row": 3,
+        "stack_on_mobile": false,
+        "overlap_image": false,
+        "content_alignment": "start",
+        "text_alignment": "start",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "Gå på opdagelse i vores mange kategorier",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_PdFThe",
+    "image_with_text_overlay_ELzMDi",
+    "scrolling_content_GbhGPT",
+    "featured_collections_9bH74Q",
+    "multiple_media_with_text_968i3g",
+    "media_grid_7fjqE7",
+    "featured_collections_YL3pAM",
+    "media_grid_PciB3t",
+    "featured_product_WMi4Wi",
+    "scrolling_content_XgzY7F",
+    "multi_column_VRegEU"
+  ]
+}

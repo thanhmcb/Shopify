@@ -1,0 +1,109 @@
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "message-1": {
+          "type": "message",
+          "disabled": true,
+          "settings": {
+            "text": "Sale optil 70% - ekstra nedsættelser"
+          }
+        },
+        "940c60c4-97f4-4f76-8df0-5a44cdd04c9f": {
+          "type": "message",
+          "settings": {
+            "text": "Gratis fragt ved køb over 1000 kr"
+          }
+        },
+        "51766881-9427-4b4a-9403-488e200883a9": {
+          "type": "message",
+          "disabled": true,
+          "settings": {
+            "text": "Gratis fragt over 1000 kr"
+          }
+        }
+      },
+      "block_order": [
+        "message-1",
+        "940c60c4-97f4-4f76-8df0-5a44cdd04c9f",
+        "51766881-9427-4b4a-9403-488e200883a9"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "enable_sticky": false,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "desktop_font_size": 9,
+        "mobile_font_size": 11
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "3f47c669-530f-4a0a-8df7-d847cff9843b": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Brands",
+            "images_position": "right",
+            "image_1": "shopify://shop_images/AxelArigatoSignatureRomeDenimJacketLightBlue1edited.jpg",
+            "image_1_heading": "AXEL ARIGATO",
+            "image_1_text": "",
+            "image_1_link": "shopify://collections/axel-arigato",
+            "image_2": "shopify://shop_images/ProenzaSchoulerWhiteLabelChrystieBagBlack3edited.jpg",
+            "image_2_heading": "PROENZA SCHOULER",
+            "image_2_text": "",
+            "image_2_link": "shopify://collections/proenza-schouler-white-label"
+          }
+        },
+        "efeeb556-de61-4c79-b564-c57e89537398": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Shop",
+            "images_position": "right",
+            "image_1_heading": "",
+            "image_1_text": "",
+            "image_1_link": "",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "3f47c669-530f-4a0a-8df7-d847cff9843b",
+        "efeeb556-de61-4c79-b564-c57e89537398"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "enable_sticky": true,
+        "show_separation_border": false,
+        "reduce_padding": true,
+        "logo": "shopify://shop_images/logo_sort1.png",
+        "logo_max_width": 210,
+        "logo_mobile_max_width": 145,
+        "menu": "main-menu",
+        "sidebar_menu": "",
+        "menu_open_trigger": "hover",
+        "enable_search": true,
+        "sidebar_color_scheme": "",
+        "sidebar_text_font": "heading",
+        "sidebar_show_dividers": true,
+        "layout": "logo_left_navigation_center",
+        "show_icons": true,
+        "show_country_selector": false,
+        "show_country_name": false,
+        "show_country_flag": false,
+        "show_locale_selector": false,
+        "transparent_header_text_color": "#ffffff",
+        "transparent_logo": "shopify://shop_images/logo_hvid.png"
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}
