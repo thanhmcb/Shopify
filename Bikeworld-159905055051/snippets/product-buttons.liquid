@@ -119,6 +119,7 @@
           <div class="product__submit__item{% if show_quantity %} product__submit__item--inline{% endif %}">
             {{ quantity_selector }}
             <div class="button__wrapper">
+            
               <button
                 type="submit"
                 name="add"
@@ -135,14 +136,12 @@
                   </svg>
                 </span>
               </button>
-
-              {% comment %}MCB Shopify Wishlist- Klaviyo - start{% endcomment %}
-
-            <button class="klaviyo-bis-trigger btn btn--primary btn--solid " href="#">
-              <span class="btn__text" > {{'products.product.sold_out_klaviyo' | t }}</span>
-             
-            </button>
-
+              {% unless current_variant.available %}
+                  <button class="klaviyo-bis-trigger btn btn--primary btn--solid " href="#">
+                    <span class="btn__text" > {{'products.product.sold_out_klaviyo' | t }}</span>               
+                  </button>
+            {% endunless %}
+     
             {%- render 'button-wishlist', product: product -%}
 
             {% comment %}MCB Shopify Wishlist- Klaviyo - end{% endcomment %}

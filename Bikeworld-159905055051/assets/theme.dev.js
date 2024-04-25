@@ -10379,8 +10379,10 @@
             if (variant) {
               if (variant.available) {
                 button.disabled = false;
+                button.classList.remove("button-hide");
               } else {
                 button.disabled = true;
+                button.classList.add("button-hide");
               }
             } else {
               button.disabled = true;
