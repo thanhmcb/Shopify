@@ -1,0 +1,31 @@
+<p style="margin: 0 auto 10px;">
+  <input
+    style="margin-right: 5px;"
+    type="checkbox"
+    id="agree" />
+  <label for="agree">
+    <span>{{ 'cart.general.accept_text' | t }}</span>
+    <a style="text-decoration: underline;" href={{ 'cart.general.terms_link' | t }}>
+      <span>{{ 'cart.general.terms_text' | t }}</span>
+    </a>
+  </label>
+</p>
+
+
+<script>
+addEventListener("DOMContentLoaded", (event) => {
+  const checkoutForm = document.querySelector('.cart-drawer__footer')
+  const checkOutButton = document.querySelector('[name="checkout"]');
+  const termsCheckbox = document.querySelector("#agree");
+
+if (checkOutButton) {
+  checkoutForm.addEventListener("submit", (e) => {
+    if (!termsCheckbox.checked) {
+      alert("Du skal acceptere vores vilkår og betingelser for at fortsætte.");
+      e.preventDefault();
+      return false;
+    }
+  });
+}
+    });
+</script>

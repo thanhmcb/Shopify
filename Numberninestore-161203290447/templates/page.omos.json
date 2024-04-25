@@ -1,0 +1,519 @@
+{
+  "sections": {
+    "image_with_text_overlay_fkpn3J": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "image_size": "auto",
+        "image": "shopify://shop_images/t-shirt1.jpg",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_BpDMpH": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_Ud3iCx": {
+          "type": "subheading",
+          "settings": {
+            "text": "<em>Den Tidsløse Style</em>"
+          }
+        },
+        "heading_x8Vheq": {
+          "type": "heading",
+          "settings": {
+            "text": "T-shirten til ethvert hverdags look",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_QtP3de": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Et af de mest tidsløse styles er t-shirten. Den har så mange egenskaber og efterhånden er der kommet så mange typer at man kan bruge en <a href=\"/collections/top-t-shirts\" title=\"TOP | T-SHIRTS\">t-shirt</a> til alle slags outfits. Hvis man har en hyggedag er det lækkert med en oversized t-shirt i et afslappet fit, men går man derimod efter et pænere udtryk kan en t-shirt med et simpelt print og et smallere fit klare opgaven. Man kan aldrig gå galt i byen med en t-shirt og derfor tilbyder vi fra de fedeste brands for, at gøre den søgen nemmere. Number Nine har t-shirts fra Anine Bing, <a href=\"/collections/ganni\" title=\"GANNI\">Ganni</a>, <a href=\"/collections/halo\" title=\"HALO\">Halo</a> og mange flere modebrands.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Ud3iCx",
+        "heading_x8Vheq",
+        "richtext_QtP3de"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_wDcDQ9": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_8PRqBh": {
+          "type": "subheading",
+          "settings": {
+            "text": "Anine Bing"
+          }
+        },
+        "heading_awYhME": {
+          "type": "heading",
+          "settings": {
+            "text": "The Hollywood Tee",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_EhGwwf": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Blød og let gennemsigtig. Rund hals med vintage-inspireret Hollywood grafik på ryggen. Afslappet og samtidig boxy pasform. Brug den til enhver hverdag eller pift den op med en smuk <a href=\"/collections/blazer\" title=\"BLAZER | VESTE\">blazer</a> fra Anine Bing</p>",
+            "centered": false
+          }
+        },
+        "link_8mhbma": {
+          "type": "link",
+          "settings": {
+            "text": "Shop",
+            "url": "shopify://products/anine-bing-louis-tee-hollywood-ivory"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_8PRqBh",
+        "heading_awYhME",
+        "richtext_EhGwwf",
+        "link_8mhbma"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/AnineBingLouisTeeHollywoodIvory3edited.jpg",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    },
+    "scrolling_content_mgVrqW": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_q6EKbA": {
+          "type": "text",
+          "settings": {
+            "text": "Den Tidsløse T-shirt"
+          }
+        },
+        "text_bCUgNN": {
+          "type": "text",
+          "settings": {
+            "text": "T-shirten til ethvert hverdags look"
+          }
+        }
+      },
+      "block_order": [
+        "text_q6EKbA",
+        "text_bCUgNN"
+      ],
+      "disabled": true,
+      "settings": {
+        "separate_section_with_border": true,
+        "scrolling_speed": 0.3,
+        "scroll_direction": "left",
+        "text_font": "heading",
+        "text_font_size_mobile": 40,
+        "text_font_size_desktop": 96,
+        "section_vertical_spacing_mobile": 60,
+        "section_vertical_spacing_desktop": 80,
+        "item_horizontal_spacing_mobile": 80,
+        "item_horizontal_spacing_desktop": 120,
+        "background": "",
+        "text_color": ""
+      }
+    },
+    "featured_collections_BM8Ugp": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_NN7yXK": {
+          "type": "collection",
+          "settings": {
+            "collection": "top-t-shirts",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_NN7yXK"
+      ],
+      "disabled": true,
+      "settings": {
+        "headingalign": "left",
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "hide_product_information": true,
+        "stack_products": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 6,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "Moderedaktørens Favorit Tee"
+      }
+    },
+    "media_grid_gXLgHt": {
+      "type": "media-grid",
+      "blocks": {
+        "image_NmntJG": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/blazer.jpg",
+            "column_count": "8",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_pPRbAG": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AnineBingRylanTeeBlackAndWhiteStripe3edited.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_XAXEzW": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AnniLuPealyDropEarring-LongGoldedited.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_NmntJG",
+        "image_pPRbAG",
+        "image_XAXEzW"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "lg",
+        "spacing": "md",
+        "subheading": "",
+        "title": "Nines moderedaktør styler",
+        "content": "<p>Style din hverdags t-shirt fra Anine Bing med et par bestseller øreringe Pearly Drop Earring fra <a href=\"/collections/anni-lu\" title=\"ANNI LU\">Anni Lu</a>. Din hverdags <a href=\"/collections/top-t-shirts\" title=\"TOP | T-SHIRTS\">t-shirt</a> kan altid styles med en smuk oversize blazer fra <a href=\"/collections/anine-bing\" title=\"ANINE BING\">Anine Bing</a>.</p>"
+      }
+    },
+    "media_grid_zbtCmP": {
+      "type": "media-grid",
+      "blocks": {
+        "image_Lgm9Ud": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AnniLuGoldieHoopGoldedited.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_BHqj8L": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AnineBingLouisTeeHollywoodIvory2edited.jpg",
+            "column_count": "8",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_exWtYF": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/HaloStretchCapmoreledited.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_Lgm9Ud",
+        "image_BHqj8L",
+        "image_exWtYF"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "lg",
+        "spacing": "md",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "scrolling_content_JtejAU": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_7nJpVt": {
+          "type": "text",
+          "settings": {
+            "text": "Det perfekte everyday fit"
+          }
+        },
+        "text_9N3pdP": {
+          "type": "text",
+          "settings": {
+            "text": "T-shirten der passer til alt"
+          }
+        }
+      },
+      "block_order": [
+        "text_7nJpVt",
+        "text_9N3pdP"
+      ],
+      "disabled": true,
+      "settings": {
+        "separate_section_with_border": true,
+        "scrolling_speed": 0.3,
+        "scroll_direction": "left",
+        "text_font": "heading",
+        "text_font_size_mobile": 40,
+        "text_font_size_desktop": 96,
+        "section_vertical_spacing_mobile": 60,
+        "section_vertical_spacing_desktop": 80,
+        "item_horizontal_spacing_mobile": 80,
+        "item_horizontal_spacing_desktop": 120,
+        "background": "",
+        "text_color": ""
+      }
+    },
+    "featured_collections_KekC4p": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_ViGd88": {
+          "type": "collection",
+          "settings": {
+            "collection": "my-essential-wardrobe",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_ViGd88"
+      ],
+      "disabled": true,
+      "settings": {
+        "headingalign": "left",
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "hide_product_information": true,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 6,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "Style din t-shirt med et råt twist"
+      }
+    },
+    "image_with_text_overlay_JVRULX": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "image_size": "auto",
+        "image": "shopify://shop_images/t-shirt.jpg",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "multi_column_7jDdT8": {
+      "type": "multi-column",
+      "blocks": {
+        "image_with_text_nMFUKe": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/GanniT-shirtBunnyBrightWhite2edited.jpg",
+            "title": "Ganni",
+            "heading_tag": "h3",
+            "content": "<p>T-shirt Bunny Bright White</p>",
+            "link_url": "shopify://products/ganni-t-shirt-bunny-bright-white",
+            "link_text": "599.95 DKK"
+          }
+        },
+        "image_with_text_icJdyz": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/GanniBasicJerseyBananaRelaxedT-shirtBrightWhite2edited.jpg",
+            "title": "Ganni",
+            "heading_tag": "h3",
+            "content": "<p>Banana Relaxed T-shirt Bright White</p>",
+            "link_url": "shopify://products/ganni-basic-jersey-banana-relaxed-t-shirt-bright-white",
+            "link_text": "699.95 DKK"
+          }
+        },
+        "image_with_text_c97V6r": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/GanniBasicJerseyCatsRelaxedT-shirtBrightWhite2edited.jpg",
+            "title": "Ganni",
+            "heading_tag": "h3",
+            "content": "<p>Jersey Cats Relaxed T-shirt</p>",
+            "link_url": "shopify://products/ganni-basic-jersey-cats-relaxed-t-shirt-bright-white",
+            "link_text": "699.95 DKK"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_nMFUKe",
+        "image_with_text_icJdyz",
+        "image_with_text_c97V6r"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "columns_per_row": 3,
+        "stack_on_mobile": false,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "center",
+        "spacing": "md",
+        "subheading": "The Ganni Tee",
+        "title": "",
+        "content": "<p>Number Nines modeeksperter er vilde med de mange smukke t-shirts fra <a href=\"/collections/ganni\" title=\"GANNI\">Ganni</a> i sjove og firnurlig prints. Gannis t-shirts er produceret i 100% økologisk bomuld og enhver style kan sammensættes med både jeans, shorts eller nederdel. <br/></p>"
+      }
+    },
+    "rich_text_LLPyT3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qMMFm6": {
+          "type": "heading",
+          "settings": {
+            "text": "Om Os",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_GRhGVJ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Number Nine startede tilbage i 2015 i København i en lille pop-up shop. Her var butikken placeret på Studiestræde nr. 9, hvoraf navnet ´Number Nine´ er opstået. Efter cirka 6 måneder som pop-up shop valgte vi at flytte butikken permanent til  Skagen. Her har vi en lille fysisk butik med åbningstider i  feriesæsonen, med tilhørende webshop som holder åbent året rundt.</p><p>Hos Number Nine gør vi hver dag en indsats for at være mere end bare en butik. Vores sortiment spænder bredt med både high end brands, sporty brands og fashion brands hvor kombinationerne er uendelige, og så er vi altid klar til at hjælpe med at besvare alle spørgsmål og give den bedste service. Vi har skabt et univers hvor der er plads til at udfolde sig og skabe nye indtryk. <br/>Derfor sørger vi også altid for at give inspiration og have de fedeste varer fra de fedeste brands.</p><p><br/>//Number Nine <br/><a href=\"https://www.instagram.com/numberninestores/?hl=da\">#Numberninestores</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qMMFm6",
+        "richtext_GRhGVJ"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_fkpn3J",
+    "rich_text_BpDMpH",
+    "main",
+    "image_with_text_wDcDQ9",
+    "scrolling_content_mgVrqW",
+    "featured_collections_BM8Ugp",
+    "media_grid_gXLgHt",
+    "media_grid_zbtCmP",
+    "scrolling_content_JtejAU",
+    "featured_collections_KekC4p",
+    "image_with_text_overlay_JVRULX",
+    "multi_column_7jDdT8",
+    "rich_text_LLPyT3"
+  ]
+}

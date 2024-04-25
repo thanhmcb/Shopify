@@ -1,0 +1,185 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_type": "block",
+            "color_selector_type": "color",
+            "size_chart_page": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "41e48e68-f0a3-4dab-a7e9-487260390cef": {
+          "type": "shopify://apps/wishlist-king/blocks/wishlist-button-block/194f5011-a43c-4b22-b12e-eaf20dc4506a",
+          "settings": {
+            "button_style": "plain_accent_1",
+            "button_alignment": "center",
+            "button_content_alignment": "center",
+            "button_margin_top": 0,
+            "button_margin_bottom": 0,
+            "button_max_width": 0,
+            "button_padding_horizontal": 15,
+            "button_full_width": true,
+            "button_show_text": true,
+            "button_show_icon": true,
+            "icon_size": 18,
+            "icon_stroke_width": 1.2,
+            "icon_offset_vertical": 0
+          }
+        },
+        "payment_icons_YteK46": {
+          "type": "payment_icons",
+          "settings": {}
+        },
+        "product_info_6cdq98": {
+          "type": "product_info",
+          "settings": {
+            "info_1": "Kundeservice alle hverdage 9-15",
+            "info_2": "Spørgsmål til størrelse eller pasform? Se størrelsesguide eller kontakt kundeservice",
+            "info_3": "Bestil inden kl. 15 og varen bliver pakket samme dag",
+            "info_4": "Levering 1-2 hverdage",
+            "info_5": ""
+          }
+        },
+        "e5f41b07-daf0-4215-be0c-572937a5f6c7": {
+          "type": "pasform",
+          "settings": {}
+        },
+        "c9042694-7580-4dd6-8125-8822c2e4aa71": {
+          "type": "farve",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": true,
+            "show_below_gallery": false
+          }
+        },
+        "838ccd72-87e5-4522-96e9-eef0c3e35bfe": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "Returnering",
+            "content": "<p></p><p>Returpakker behandles inden for 14 dage.</p><p></p><p>Find din returlabel her: <a href=\"https://return.shipmondo.com/numbernine\" title=\"https://return.shipmondo.com/numbernine\">https://return.shipmondo.com/numbernine</a></p>",
+            "page": ""
+          }
+        },
+        "cfda5999-01b8-4679-b078-955081729a45": {
+          "type": "storrelsesguide",
+          "settings": {}
+        },
+        "complementary_products": {
+          "type": "complementary_products",
+          "settings": {
+            "title": "Pairs well with",
+            "products_count": 2,
+            "show_below_gallery": true,
+            "stack_products": false,
+            "show_quick_buy": true
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "variant_picker",
+        "buy_buttons",
+        "41e48e68-f0a3-4dab-a7e9-487260390cef",
+        "payment_icons_YteK46",
+        "product_info_6cdq98",
+        "e5f41b07-daf0-4215-be0c-572937a5f6c7",
+        "c9042694-7580-4dd6-8125-8822c2e4aa71",
+        "description",
+        "838ccd72-87e5-4522-96e9-eef0c3e35bfe",
+        "cfda5999-01b8-4679-b078-955081729a45",
+        "complementary_products"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "container_size": "full",
+        "product_info_size": 45,
+        "show_sticky_add_to_cart": true,
+        "center_basic_info": false,
+        "desktop_media_layout": "grid_2x",
+        "desktop_media_grid_gap": 30,
+        "mobile_controls": "dots",
+        "enable_media_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "recommendations_count": 10,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "",
+        "title": "Style produktet med",
+        "content": ""
+      }
+    },
+    "528cd32a-c356-42ec-ac6c-8dd9382b8086": {
+      "type": "recently-viewed-products",
+      "settings": {
+        "separate_section_with_border": false,
+        "color_scheme": "",
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_count": 9,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "",
+        "title": "Senest sete produkter",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "528cd32a-c356-42ec-ac6c-8dd9382b8086"
+  ]
+}
