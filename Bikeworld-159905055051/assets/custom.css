@@ -8,7 +8,9 @@
 .announcement__text h3 {
   margin: 0.5em 0;
 }
-
+.social-link .icon-facebook{
+  margin-top: -2px;
+}
 .header__desktop__lower{
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
@@ -18,12 +20,21 @@
   --icon-size: 20px;
 }
 
-@media only screen and (min-width: 750px) {
-  .header__desktop__bar__c .header__logo__link{
-    margin-top: -13px;
-  }
+.header__desktop__upper, .header__mobile{
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
+.header__mobile{
+  border-bottom: 1px solid var(--border);
+}
+
+.show {
+  display: block !important;
+}
+.hide {
+  display: none !important;
+}
 /* Find Butik*/
 .header__desktop__bar__l{
   align-items: center;
@@ -238,19 +249,21 @@ width: 100%;
   z-index: 10;
 }
 
-.product__content .button__wrapper button:disabled {
-  display: none;
-}
-.product__content .button__wrapper button:not(:disabled) ~ .klaviyo-bis-trigger{
+.product__submit__item .btn.button-hide{
   display: none;
 }
 
-.product-quick-add__form .button__wrapper .klaviyo-bis-trigger {
-display: none;
+.socials li{
+  margin-right: 14px;
 }
 
+.header__desktop__bar__r .header__desktop__button{
+  margin-right: 10px;
+}
 
-
+.header__mobile__right .header__mobile__button:first-child {
+  margin-right: 5px;
+}
 .product__submit__item .icon-wishlist{
   stroke: var(--BTN-PRIMARY-BG-COLOR);
 }

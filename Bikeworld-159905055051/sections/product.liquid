@@ -387,10 +387,11 @@
     data-remaining-wrapper
     {{ block.shopify_attributes }}
     {{ block_style }}>
-    <span class="variant__countdown--in"{{ in_stock_icon_color }}>
+    {%- comment -%}<span class="variant__countdown--in"{{ in_stock_icon_color }}>
       {% render 'icon-in-stock' %}
       <span class="variant__countdown-text">{{ 'products.product.in_stock' | t }}</span>
     </span>
+{%- endcomment -%}
     {%- if hide_inventory_count -%}
       <span class="variant__countdown--low"{{ low_stock_icon_color }}>
         {% render 'icon-low-inventory' %}

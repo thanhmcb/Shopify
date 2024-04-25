@@ -38,9 +38,9 @@
 
     <div class="supporting-menu__item supporting-menu__item--copyright">
       <ul class="supporting-menu__copyright inline-list">
-        <li>
+        <!-- <li>
           <a href="{{ shop.secure_url }}">&copy; {{ shop.name }} {{ 'now' | date: "%Y" }}</a>
-        </li>
+        </li>-->
         {% for link in linklists[section.settings.linklist].links %}
           <li><a href="{{ link.url }}">{{ link.title }}</a></li>
         {% endfor %}

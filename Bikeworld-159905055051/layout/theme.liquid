@@ -17,7 +17,7 @@
   {{ 'custom.css' | asset_url | preload_tag: as: 'style' }}
   {{ 'clipboard.js' | asset_url | preload_tag: as: 'script' }}
   {{ 'wishList.js' | asset_url | preload_tag: as: 'script' }}
-  {{ 'theme.js' | asset_url | preload_tag: as: 'script' }}
+  {{ 'theme.dev.js' | asset_url | preload_tag: as: 'script' }}
 
 
   {%- if settings.loading_image_1 != blank or settings.loading_image_2 != blank -%}
@@ -208,7 +208,7 @@
   <script src="{{ 'vendor.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'clipboard.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'wishList.js' | asset_url }}" defer="defer"></script>
-  <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
+  <script src="{{ 'theme.dev.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
 
   {%- if request.design_mode -%}
