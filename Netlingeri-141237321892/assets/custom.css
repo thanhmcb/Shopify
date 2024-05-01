@@ -97,7 +97,7 @@
 
 /* product collection */
 .product-collection{
-  margin-top: -30px;
+  margin-top: -50px;
 }
 
 .product-collection--items {
@@ -153,4 +153,8 @@
 /* capital H2 */
 h2 {
   text-transform: uppercase !important;
+}
+
+.product-block.expanded .block-inner:after{
+  content: none;
 }
