@@ -150,3 +150,7 @@
   }
 }
 
+/* capital H2 */
+h2 {
+  text-transform: uppercase !important;
+}
