@@ -1,0 +1,187 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "007372ce-67cb-4083-8bec-2059d980cb48": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--21741162332462__007372ce-67cb-4083-8bec-2059d980cb48-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--21741162332462__007372ce-67cb-4083-8bec-2059d980cb48-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "UFO Products Support",
+            "heading_tag": "h1"
+          }
+        },
+        "template--21741162332462__007372ce-67cb-4083-8bec-2059d980cb48-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21741162332462__007372ce-67cb-4083-8bec-2059d980cb48-subheading-1",
+        "template--21741162332462__007372ce-67cb-4083-8bec-2059d980cb48-heading-1",
+        "template--21741162332462__007372ce-67cb-4083-8bec-2059d980cb48-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/custom_resized_cfea32aa-bd33-49de-9343-5a250d9f12c3.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "media_grid_GpdjyR": {
+      "type": "media-grid",
+      "blocks": {
+        "image_CP76kN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ufo_dashboard_01_1.png",
+            "title": "UFO Product Family",
+            "heading_tag": "h5",
+            "link_url": "shopify:\/\/pages\/ufo-product-family",
+            "link_text": "",
+            "mobile_text_position": "place-self-center-start text-start",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_JgfUK7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/custom_resized_cfea32aa-bd33-49de-9343-5a250d9f12c3.jpg",
+            "title": "UFO Drip - Application and FAQ",
+            "heading_tag": "h5",
+            "link_url": "shopify:\/\/pages\/ufo-drip-application-and-faq",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "image_mTKNjP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ufo_chain_02_8c5f38a9-7826-43ec-8761-6926ed5298e8.jpg",
+            "title": "Chains & Coating",
+            "heading_tag": "h5",
+            "link_url": "shopify:\/\/pages\/support-for-chains-coatings",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_xwmrDa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ufo-bearing.png",
+            "title": "MSDS Documents",
+            "heading_tag": "h5",
+            "link_url": "shopify:\/\/pages\/msds-documents",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_VTAmhE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ufo-chain.png",
+            "title": "Technical Traning",
+            "heading_tag": "h5",
+            "link_url": "shopify:\/\/pages\/technical-training",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_CP76kN",
+        "image_JgfUK7",
+        "image_mTKNjP",
+        "image_xwmrDa",
+        "image_VTAmhE"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "007372ce-67cb-4083-8bec-2059d980cb48",
+    "media_grid_GpdjyR"
+  ]
+}

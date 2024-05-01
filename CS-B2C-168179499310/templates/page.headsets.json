@@ -1,0 +1,118 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "007372ce-67cb-4083-8bec-2059d980cb48": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--21741162332462__007372ce-67cb-4083-8bec-2059d980cb48-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Support pages for"
+          }
+        },
+        "template--21741162332462__007372ce-67cb-4083-8bec-2059d980cb48-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Headsets",
+            "heading_tag": "h1"
+          }
+        },
+        "template--21741162332462__007372ce-67cb-4083-8bec-2059d980cb48-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21741162332462__007372ce-67cb-4083-8bec-2059d980cb48-subheading-1",
+        "template--21741162332462__007372ce-67cb-4083-8bec-2059d980cb48-heading-1",
+        "template--21741162332462__007372ce-67cb-4083-8bec-2059d980cb48-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/pulley-wheels.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "media_grid_GpdjyR": {
+      "type": "media-grid",
+      "blocks": {
+        "image_tYm6QG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pw-view-all.jpg",
+            "title": "Pulley Wheels",
+            "heading_tag": "h5",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-start-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_gg8hcq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pulley_wheels.jpg",
+            "title": "Technical Traning",
+            "heading_tag": "h5",
+            "link_url": "shopify:\/\/pages\/technical-training",
+            "link_text": "",
+            "mobile_text_position": "place-self-start-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_tYm6QG",
+        "image_gg8hcq"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "007372ce-67cb-4083-8bec-2059d980cb48",
+    "media_grid_GpdjyR"
+  ]
+}

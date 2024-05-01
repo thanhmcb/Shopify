@@ -1,0 +1,764 @@
+{
+  "sections": {
+    "7d370b35-a56f-4ab8-9b9f-e0e199846375": {
+      "type": "video",
+      "blocks": {
+        "template--19591010517294__7d370b35-a56f-4ab8-9b9f-e0e199846375-1686912368fc9e8048-0": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--19591010517294__7d370b35-a56f-4ab8-9b9f-e0e199846375-1686912368fc9e8048-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--19591010517294__7d370b35-a56f-4ab8-9b9f-e0e199846375-1686912368fc9e8048-0",
+        "template--19591010517294__7d370b35-a56f-4ab8-9b9f-e0e199846375-1686912368fc9e8048-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/16X9_SC_OSPW_PRODUCT00000413.mov",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "1ad90b48-74aa-4d13-a6b5-41799e923cce": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19591010517294__1ad90b48-74aa-4d13-a6b5-41799e923cce-1686912432f34ea8b5-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--19591010517294__1ad90b48-74aa-4d13-a6b5-41799e923cce-1686912432f34ea8b5-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--19591010517294__1ad90b48-74aa-4d13-a6b5-41799e923cce-1686912432f34ea8b5-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h3>There's more to the name<\/h3><p>Over the years, some of the best off-road mechanics and their athletes have been quietly using CeramicSpeed products in gravity and endurance events, winning several World and Olympic titles along the way.<\/p><p>Now it’s time to turn up the volume. Introducing CeramicSpeed X, an off-road unit dedicated to connecting the lab to the trail in a mission to make the world’s fastest riders even faster. <\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--19591010517294__1ad90b48-74aa-4d13-a6b5-41799e923cce-1686912432f34ea8b5-0",
+        "template--19591010517294__1ad90b48-74aa-4d13-a6b5-41799e923cce-1686912432f34ea8b5-1",
+        "template--19591010517294__1ad90b48-74aa-4d13-a6b5-41799e923cce-1686912432f34ea8b5-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "enable_parallax": true,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "collection_title_size": "h2",
+        "image_size": "sm",
+        "image": "shopify:\/\/shop_images\/custom_resized_5f8258a1-4418-4b11-a747-7823e0026faa.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/custom_resized_5f8258a1-4418-4b11-a747-7823e0026faa.jpg",
+        "mobile_text_position": "place-self-end-start text-start",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "featured_product": "bb86-bottom-bracket-for-shimano",
+        "featured_product_heading": "Bestseller",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "6bbc3fe0-c71c-48fe-8367-9e32651b699c": {
+      "type": "collection-list",
+      "blocks": {
+        "template--19591010517294__6bbc3fe0-c71c-48fe-8367-9e32651b699c-16877617289269b130-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "ospw-x",
+            "image": "shopify:\/\/shop_images\/ospw-x_transmission_katagori-billede.jpg",
+            "subheading": "",
+            "title": "OSPW'S",
+            "url": "shopify:\/\/collections\/ospw-x",
+            "heading_tag": "h4",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--19591010517294__6bbc3fe0-c71c-48fe-8367-9e32651b699c-16877617289269b130-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "bottom-brackets-mountain",
+            "image": "shopify:\/\/shop_images\/bottom_bracket.jpg",
+            "subheading": "",
+            "title": "Bottom Brackets",
+            "url": "shopify:\/\/collections\/bottom-brackets-mountain",
+            "heading_tag": "h4",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--19591010517294__6bbc3fe0-c71c-48fe-8367-9e32651b699c-16877617289269b130-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-ufo-products",
+            "image": "shopify:\/\/shop_images\/UFO_family.jpg",
+            "subheading": "",
+            "title": "UFO Products",
+            "url": "shopify:\/\/collections\/all-ufo-products",
+            "heading_tag": "h4",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "4c99f59c-b6fe-44c3-bbc0-6769b8411c84": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-headsets",
+            "image": "shopify:\/\/shop_images\/headset.jpg",
+            "subheading": "",
+            "title": "Headsets",
+            "url": "shopify:\/\/collections\/headsets-mountain",
+            "heading_tag": "h4",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "334fb819-7c1c-4ce4-85ca-be272c2d859a": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-pulley-wheels",
+            "image": "shopify:\/\/shop_images\/pulley_wheels.jpg",
+            "subheading": "",
+            "title": "Pulley Wheels",
+            "url": "shopify:\/\/collections\/all-pulley-wheels",
+            "heading_tag": "h4",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "008d8a38-dd45-4157-bf03-6be88031c4ee": {
+          "type": "collection",
+          "settings": {
+            "collection": "wheel-kits",
+            "image": "shopify:\/\/shop_images\/wheel_kits.jpg",
+            "subheading": "",
+            "title": "Wheel Kits",
+            "url": "shopify:\/\/collections\/wheel-kits",
+            "heading_tag": "h4",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "15641ea9-72d7-42c7-8e5a-fa5fb46a49c4": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "Single Bearings",
+            "url": "shopify:\/\/collections\/single-bearings",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--19591010517294__6bbc3fe0-c71c-48fe-8367-9e32651b699c-16877617289269b130-0",
+        "template--19591010517294__6bbc3fe0-c71c-48fe-8367-9e32651b699c-16877617289269b130-1",
+        "template--19591010517294__6bbc3fe0-c71c-48fe-8367-9e32651b699c-16877617289269b130-2",
+        "4c99f59c-b6fe-44c3-bbc0-6769b8411c84",
+        "334fb819-7c1c-4ce4-85ca-be272c2d859a",
+        "008d8a38-dd45-4157-bf03-6be88031c4ee",
+        "15641ea9-72d7-42c7-8e5a-fa5fb46a49c4"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_collections": true,
+        "collections_per_row": 5,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "56104697-95a7-4de4-875d-dbd557b43f98": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "template--18123980112174__56104697-95a7-4de4-875d-dbd557b43f98-1677748250e63bc06a-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OSPW_8b0eff71-736b-41ad-96dc-a5be3cb53e00.jpg",
+            "stretch_image": true,
+            "link_text": "OSPW's",
+            "link_url": "\/collections\/road?filter.p.product_type=Bottom+Bracket",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--18123980112174__56104697-95a7-4de4-875d-dbd557b43f98-1677748250e63bc06a-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bottom_bracket.jpg",
+            "stretch_image": true,
+            "link_text": "Bottom Brackets",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--18123980112174__56104697-95a7-4de4-875d-dbd557b43f98-1677748250e63bc06a-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wheel_kits.jpg",
+            "stretch_image": true,
+            "link_text": "Wheel Bearings",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--18123980112174__56104697-95a7-4de4-875d-dbd557b43f98-1677748250e63bc06a-3": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ED8oAvmWsAE_CZt.jpg",
+            "stretch_image": true,
+            "link_text": "UFO Chains",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "96eb0962-5bc9-4367-820a-9b7be834057b": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pulley_wheels.jpg",
+            "stretch_image": true,
+            "link_text": "Pulley Wheels",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "c6f88e87-ece3-4851-b4f9-65d721629453": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/balls.jpg",
+            "stretch_image": true,
+            "link_text": "CeramicSpeed Balls",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "53328f46-7fd8-4c43-91b8-d72106c1804d": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EK9F_IMWkAA0a_9.jpg",
+            "stretch_image": true,
+            "link_text": "Single Bearings",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--18123980112174__56104697-95a7-4de4-875d-dbd557b43f98-1677748250e63bc06a-1",
+        "template--18123980112174__56104697-95a7-4de4-875d-dbd557b43f98-1677748250e63bc06a-0",
+        "template--18123980112174__56104697-95a7-4de4-875d-dbd557b43f98-1677748250e63bc06a-2",
+        "template--18123980112174__56104697-95a7-4de4-875d-dbd557b43f98-1677748250e63bc06a-3",
+        "96eb0962-5bc9-4367-820a-9b7be834057b",
+        "c6f88e87-ece3-4851-b4f9-65d721629453",
+        "53328f46-7fd8-4c43-91b8-d72106c1804d"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_image": false,
+        "grid-gap": 20,
+        "block_size": "medium",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "blocks": {
+        "6a8fecfa-a8fe-4e37-9cf8-5fda9b55acc8": {
+          "type": "promotion_video",
+          "disabled": true,
+          "settings": {
+            "position": 5,
+            "column_span": "2",
+            "video": "shopify:\/\/files\/videos\/001 - 1631053808733401088.mp4",
+            "external_video_url": "",
+            "title": "",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "heading_tag": "h4",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "6a8fecfa-a8fe-4e37-9cf8-5fda9b55acc8"
+      ],
+      "disabled": true,
+      "settings": {
+        "hide_sold_out_variants": true,
+        "products_per_page": 8,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "filter_layout": "horizontal",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_filter_group_name": true,
+        "show_color_swatch": true,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": true,
+        "open_first_filter_group": false,
+        "show_list_view": true,
+        "show_list_view_as_default": false
+      }
+    },
+    "d4291992-6da2-4aab-82c8-1b384bcfaafd": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19591010517294__d4291992-6da2-4aab-82c8-1b384bcfaafd-168733595795c73f13-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--19591010517294__d4291992-6da2-4aab-82c8-1b384bcfaafd-168733595795c73f13-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--19591010517294__d4291992-6da2-4aab-82c8-1b384bcfaafd-168733595795c73f13-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>CeramicSpeed X brings high-performance products to the dirt - designed for the world’s most demanding riders but made to make a real difference for everyone.<\/p>",
+            "text_align": "center"
+          }
+        },
+        "d227946a-2d8f-4f0f-854c-2c593dbd235b": {
+          "type": "image",
+          "settings": {
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "template--19591010517294__d4291992-6da2-4aab-82c8-1b384bcfaafd-168733595795c73f13-0",
+        "template--19591010517294__d4291992-6da2-4aab-82c8-1b384bcfaafd-168733595795c73f13-1",
+        "template--19591010517294__d4291992-6da2-4aab-82c8-1b384bcfaafd-168733595795c73f13-2",
+        "d227946a-2d8f-4f0f-854c-2c593dbd235b"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "763198e8-b918-430f-b3ff-bc1b9584c459": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--19591010517294__763198e8-b918-430f-b3ff-bc1b9584c459-16873360248b9df87b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2A7A4999.jpg",
+            "media_width": 60,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h5>Cover more ground<\/h5><p> Say our name, and you'll be left with no doubt. Put simply, our components are developed for World Cup speed and the most demanding riders. They'll propel you to the top of podiums and KOM leaderboards - or just help you leave your buddies in the dust.<\/p><p>When it comes to speed our components are the gold standard to which all others are measured.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19591010517294__763198e8-b918-430f-b3ff-bc1b9584c459-16873360248b9df87b-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "148a1119-b34e-413f-a6bc-7aa5ef72fbe7": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19591010517294__148a1119-b34e-413f-a6bc-7aa5ef72fbe7-168733595795c73f13-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--19591010517294__148a1119-b34e-413f-a6bc-7aa5ef72fbe7-168733595795c73f13-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--19591010517294__148a1119-b34e-413f-a6bc-7aa5ef72fbe7-168733595795c73f13-2": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--19591010517294__148a1119-b34e-413f-a6bc-7aa5ef72fbe7-168733595795c73f13-0",
+        "template--19591010517294__148a1119-b34e-413f-a6bc-7aa5ef72fbe7-168733595795c73f13-1",
+        "template--19591010517294__148a1119-b34e-413f-a6bc-7aa5ef72fbe7-168733595795c73f13-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_YBbQWF": {
+      "type": "video",
+      "blocks": {
+        "play_MqafVy": {
+          "type": "play",
+          "settings": {}
+        },
+        "heading_GejtBB": {
+          "type": "heading",
+          "settings": {
+            "text": "World Cup Team Support",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "play_MqafVy",
+        "heading_GejtBB"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/20230707_143612000_iOS.mov",
+        "external_video_url": "",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "07bb1d52-6a14-4511-bc29-91ec03155090": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--19591010517294__07bb1d52-6a14-4511-bc29-91ec03155090-16873360248b9df87b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/custom_resized_934121eb-ff59-4599-ba44-582ed397ae13.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h5>Benchmark Durability<\/h5><p>We've successfully been eliminating unnecessary downtime since 2004. By relying on the highest-quality materials and superior craftsmanship we make components that outlast time and passing trends.<\/p><p>Their do-it-all & go-everywhere capabilities will make you think of them as essentials rather than lush add-ons.<\/p>",
+            "link_text": "Lifetime Warranty on Coated Products",
+            "link_url": "shopify:\/\/pages\/lifetime-warrany",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19591010517294__07bb1d52-6a14-4511-bc29-91ec03155090-16873360248b9df87b-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "d5ebf65d-f8ca-4f8d-9992-a23770e83cf4": {
+      "type": "media-with-text",
+      "blocks": {
+        "f83310fd-1654-4d44-ac85-060b091b7aaf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/custom_resized_a446cbc2-d5e1-4115-b165-6d39765455ab.jpg",
+            "media_width": 60,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h5>Trusted by the best  <\/h5><p>Whenever the fastest riders in the world want to gain an edge, they know who to call. A special highlight of this was during a magical weekend back in October on the stunning Isle of Elba when both Mona Mitterwallner and Andreas Seewald relied on our support to become the <a href=\"https:\/\/www.instagram.com\/p\/CVAntTiIrOC\/\">2021 Elite Women's and Men's XCM World Champs.<\/a> <\/p>",
+            "link_text": "An (Cape) Epic Recap",
+            "link_url": "shopify:\/\/blogs\/journal\/an-epic-recap",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "f83310fd-1654-4d44-ac85-060b091b7aaf"
+      ],
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "102716f5-c579-4c70-ab2b-178901f13b1a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19591010517294__102716f5-c579-4c70-ab2b-178901f13b1a-168733595795c73f13-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--19591010517294__102716f5-c579-4c70-ab2b-178901f13b1a-168733595795c73f13-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--19591010517294__102716f5-c579-4c70-ab2b-178901f13b1a-168733595795c73f13-2": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--19591010517294__102716f5-c579-4c70-ab2b-178901f13b1a-168733595795c73f13-0",
+        "template--19591010517294__102716f5-c579-4c70-ab2b-178901f13b1a-168733595795c73f13-1",
+        "template--19591010517294__102716f5-c579-4c70-ab2b-178901f13b1a-168733595795c73f13-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "41852992-478d-4a2a-a4bd-6ba01001fc77": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "collection": "",
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Our full range of Mountain products",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "65693cfd-fedc-4ab2-8813-4975289db1f5": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--19591010517294__65693cfd-fedc-4ab2-8813-4975289db1f5-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--19591010517294__65693cfd-fedc-4ab2-8813-4975289db1f5-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        },
+        "template--19591010517294__65693cfd-fedc-4ab2-8813-4975289db1f5-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19591010517294__65693cfd-fedc-4ab2-8813-4975289db1f5-subheading-1",
+        "template--19591010517294__65693cfd-fedc-4ab2-8813-4975289db1f5-heading-1",
+        "template--19591010517294__65693cfd-fedc-4ab2-8813-4975289db1f5-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/CRWX_Rotorua24_0O9A7186-2100x1399-b57cdceb-e7fb-4af9-9f89-2a1eae192497.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    }
+  },
+  "order": [
+    "7d370b35-a56f-4ab8-9b9f-e0e199846375",
+    "1ad90b48-74aa-4d13-a6b5-41799e923cce",
+    "banner",
+    "6bbc3fe0-c71c-48fe-8367-9e32651b699c",
+    "56104697-95a7-4de4-875d-dbd557b43f98",
+    "main",
+    "d4291992-6da2-4aab-82c8-1b384bcfaafd",
+    "763198e8-b918-430f-b3ff-bc1b9584c459",
+    "148a1119-b34e-413f-a6bc-7aa5ef72fbe7",
+    "video_YBbQWF",
+    "07bb1d52-6a14-4511-bc29-91ec03155090",
+    "d5ebf65d-f8ca-4f8d-9992-a23770e83cf4",
+    "102716f5-c579-4c70-ab2b-178901f13b1a",
+    "41852992-478d-4a2a-a4bd-6ba01001fc77",
+    "65693cfd-fedc-4ab2-8813-4975289db1f5"
+  ]
+}

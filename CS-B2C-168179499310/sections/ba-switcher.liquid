@@ -1,0 +1,438 @@
+
+{% if template == "index" and section.settings.enable_redirect %}
+<ba-switcher>
+  <div class="country-redirect js-country-redirect hidden">
+    <div class="country-redirect__content">
+      {% if section.settings.header_logo != blank %}
+        <div class="country-redirect__content__logo">
+          <img src="{{ section.settings.header_logo | img_url: '' }}">
+        </div>
+      {% endif %}
+      <h2>{{ section.settings.heading-primary }}</h2>
+      <p>{{ section.settings.heading-secondary }}</p>
+      <div class="country-redirect__content__button-wrapper">
+        <a
+          tabindex="0"
+          class="country-redirect__content__link country-redirect__content__link-dynamic js-stay-link"
+          href="/">
+          {{ section.settings.dynamic_btn }}
+        </a>
+        <a class="country-redirect__content__link country-redirect__content__link-static-1 js-leave-link" href="{{ section.settings.static_btn_1_url }}">
+          {{ section.settings.static_btn_1 }}
+        </a>
+        <a class="country-redirect__content__link country-redirect__content__link-static-2 js-leave-link" href="{{ section.settings.static_btn_2_url }}">
+          {{ section.settings.static_btn_2 }}
+        </a>
+      </div>
+    </div>
+  </div>
+</ba-switcher>
+<style>
+  body:has(.country-redirect:not(.hidden)) {
+    overflow: hidden;
+  }
+  .country-redirect {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.95);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: opacity 1s;
+  }
+
+  .country-redirect.hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .country-redirect__content {
+    width: 100%;
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+   -webkit-backdrop-filter: blur(10px);
+    padding: 35px 25px;
+  }
+
+  .country-redirect__content__logo {
+    display: flex;
+    justify-content: center;
+  }
+  .country-redirect__content__logo img {
+    max-height: 50vh;
+  }
+  .country-redirect__content__button-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+  }
+  @media only screen and (max-width: 400px) {
+    .country-redirect__content__button-wrapper {
+      grid-template-columns: 1fr;
+    }
+  }
+  .country-redirect__content h2 {
+    margin: 0 0 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .country-redirect__content p {
+    margin: 0 0 25px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .country-redirect__content__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 35px 5px;
+    text-decoration: none;
+    border-radius: 8px;
+    position: relative;
+    background-image: linear-gradient(45deg, rgba(51, 51, 51, 0.5), rgba(0, 0, 0, 0.5));
+    background-size: 1000%;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 10);
+    transition: 0.5s ease-in-out;
+    overflow-wrap: anywhere;
+  }
+  .country-redirect__content__link:hover,
+  .country-redirect__content__link:focus,
+  .country-redirect__content__link:active {
+    background-size: 100%;
+  }
+
+  .country-redirect__content__link::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    border-radius: 8px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(45deg, rgba(51, 51, 51, 0.5), rgba(0,0,0,0.5));
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  {% if section.settings.dynamic_btn_img %}
+    .country-redirect__content__link-dynamic:hover::after,
+    .country-redirect__content__link-dynamic:focus::after,
+    .country-redirect__content__link-dynamic:active::after {
+      opacity: 1;
+      background-image: linear-gradient(45deg, rgba(51, 51, 51, 0.5), rgba(0,0,0,0.5)), url('{{ section.settings.dynamic_btn_img | image_url }}');
+      background-position: {{ section.settings.dynamic_btn_img.presentation.focal_point }}
+      ;
+    }
+  {% endif %}
+  {% if section.settings.static_btn_1_img %}
+    .country-redirect__content__link-static-1:hover::after,
+    .country-redirect__content__link-static-1:focus::after,
+    .country-redirect__content__link-static-1:active::after {
+      opacity: 1;
+      background-image: linear-gradient(45deg, rgba(51, 51, 51, 0.5), rgba(0,0,0,0.5)), url('{{ section.settings.static_btn_1_img | image_url }}');
+      background-position: {{ section.settings.static_btn_1_img.presentation.focal_point }}
+      ;
+    }
+  {% endif %}
+  {% if section.settings.static_btn_2_img %}
+    .country-redirect__content__link-static-2:hover::after,
+    .country-redirect__content__link-static-2:focus::after,
+    .country-redirect__content__link-static-2:active::after {
+      opacity: 1;
+      background-image: linear-gradient(45deg, rgba(51, 51, 51, 0.5), rgba(0,0,0,0.5)), url('{{ section.settings.static_btn_2_img | image_url }}');
+      background-position: {{ section.settings.static_btn_2_img.presentation.focal_point }};
+    }
+  {% endif %}
+</style>
+
+
+<script>
+
+  var stayLink = document.querySelector('.js-stay-link');
+  var leaveLink = document.querySelector('.js-leave-link');
+  var countryRedirect = document.querySelector('.js-country-redirect');
+  var countryRedirectcontent = document.querySelector('.country-redirect__content');
+
+  var euBlock = {
+    name: '{{ section.settings.dynamic_btn }}',
+    url: '{{ section.settings.dynamic_btn_url }}'
+  };
+{% if section.settings.dismiss_enabled %}
+ function dismissPopupOnOutsideClick(popup) {
+    // Dismiss popup when clicking outside the content
+    popup.addEventListener('click', function(event) {
+      if (event.target === popup) {
+        popup.style.display = 'none';
+      }
+    });
+  }
+ document.addEventListener('DOMContentLoaded', function() {
+    var countryRedirect = document.querySelector('.js-country-redirect');
+    dismissPopupOnOutsideClick(countryRedirect);
+  });
+  
+  {% endif %}
+function init() {
+  if ({{ section.settings.enable_redirect }}) {
+    console.log("Redirect is enabled.");
+    var dismissedRedirect = getCookie('dismissed_redirect');
+    if (dismissedRedirect == 'true') {
+      console.log("'dismissed_redirect' cookie was found and set to true. Value of 'dismissed_redirect' =", dismissedRedirect);
+      countryRedirect.classList.add('hidden');
+    } else {
+      console.log("'dismissed_redirect' cookie wasn't found or set to false. Value of 'dismissed_redirect' =", dismissedRedirect);
+      countryRedirect.classList.remove('hidden');
+      checkForRedirect();
+    }
+  } else {
+    console.log("Redirect is disabled.");
+    countryRedirect.classList.add('hidden');
+    return;
+  }
+}
+  
+  function checkForRedirect() {
+    proposeRedirect(euBlock);
+  }
+
+ function getBrowserLocales() {
+  const debug = false;
+  const browserLocales = navigator.languages === undefined
+    ? [navigator.language]
+    : navigator.languages;
+  if (!browserLocales) {
+    return undefined;
+  }
+  var language = browserLocales.map(locale => locale.toLowerCase());
+  let selectedLanguage = '';
+  if (debug) {
+    console.dir(language);
+    console.log("array length is at: " + language.length);
+  }
+  for (let i = 0; i <= language.length - 1; i++) {
+    if (debug) 
+      console.log("Looking at: " + language[i]);
+
+    if (language[i] !== undefined) {
+      selectedLanguage = language[i];
+      break;
+    }
+  }
+  if (debug) 
+   console.log("Selected Language: " + selectedLanguage);
+  return selectedLanguage;
+}
+
+function proposeRedirect(countryBlock) {
+  var language = getBrowserLocales();
+
+  if (language === 'en-us') {
+    stayLink.addEventListener('click', function(event) {
+      event.preventDefault();
+      setCookie('dismissed_redirect', 'true', parseInt({{ section.settings.cookie_hours }}));
+      countryRedirect.classList.add('hidden');
+    });
+  } else {
+    var languageUrls = [
+      {% for block in section.blocks %}
+        {% if block.type == 'language' %}
+          {% if block.settings.text != blank and block.settings.url != blank %}
+            {
+              languageCode: '{{ block.settings.text }}',
+              languageUrl: '{{ block.settings.url }}'
+            },
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    ];
+
+    var url = '';
+    var languageFound = false;
+
+    if (languageUrls.length > 0) {
+      for (var i = 0; i < languageUrls.length; i++) {
+        if (languageUrls[i].languageCode === language) {
+          url = languageUrls[i].languageUrl;
+          languageFound = true;
+          break;
+        } else if (languageUrls[i].languageCode.startsWith(language.split('-')[0])) {
+          url = languageUrls[i].languageUrl;
+          languageFound = true;
+        }
+      }
+    }
+
+    if (!languageFound) {
+      url = '{{ section.settings.dynamic_btn_url }}';
+    }
+
+    stayLink.href = url;
+    stayLink.addEventListener('click', function(event) {
+      setCookie('dismissed_redirect', 'true', parseInt({{ section.settings.cookie_hours }}));
+    });
+    
+    leaveLink.addEventListener('click', function(event) {
+      setCookie('dismissed_redirect', 'true', parseInt({{ section.settings.cookie_hours }}));
+    });
+  }
+}
+
+function setCookie(name, value, hours) {
+  var date = new Date();
+  date.setTime(date.getTime() + (hours * 60 * 60 * 1000));
+  var expires = "expires=" + date.toUTCString();
+  document.cookie = name + "=" + value + "; " + expires + "; path=/";
+}
+
+function getCookie(name) {
+  var cookieName = name + "=";
+  var decodedCookie = decodeURIComponent(document.cookie);
+  var splitCookie = decodedCookie.split(';');
+  for (var i = 0; i < splitCookie.length; i++) {
+    var cookie = splitCookie[i];
+    while (cookie.charAt(0) == ' ') {
+      cookie = cookie.substring(1);
+    }
+    if (cookie.indexOf(cookieName) == 0) {
+      return cookie.substring(cookieName.length, cookie.length);
+    }
+  }
+  return null;
+}
+
+function checkDismissedRedirect() {
+  var dismissedRedirectCookie = getCookie('dismissed_redirect');
+  if (dismissedRedirectCookie === 'true') {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+  init();
+</script>
+
+{% endif %}
+{% schema %}
+  {
+    "name": "Business area switcher",
+      "blocks": [
+    {
+      "type": "language",
+      "name": "Language",
+     "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Language Code",
+          "default": "da-dk"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "Language URL"
+        }
+      ]
+    }
+  ],
+    "settings": [
+      {
+        "id": "enable_redirect",
+        "type": "checkbox",
+        "label": "Enable business area switcher?"
+      },
+            {
+        "id": "dismiss_enabled",
+        "type": "checkbox",
+        "label": "Dismiss when clicking outside the modal"
+      },
+      {
+        "id": "cookie_hours",
+        "type": "text",
+        "label": "Cookie expiration in hours",
+        "info": "Enter how many hours you'd like the browser to the cookie to be stored"
+      },
+      {
+        "id": "header_logo",
+        "type": "image_picker",
+        "label": "Header logo"
+      },
+      {
+        "type": "header",
+        "content": "Headers"
+      }, {
+        "id": "heading-primary",
+        "type": "text",
+        "label": "Primary"
+      }, {
+        "id": "heading-secondary",
+        "type": "text",
+        "label": "Secondary"
+      }, {
+        "type": "header",
+        "content": "Dynamic button"
+      }, {
+        "id": "dynamic_btn",
+        "type": "text",
+        "label": "Label"
+      }, {
+        "id": "dynamic_btn_url",
+        "type": "url",
+        "label": "Fallback URL"
+      },
+      {
+        "id": "dynamic_btn_img",
+        "type": "image_picker",
+        "label": "Image"
+      },
+      {
+        "type": "header",
+        "content": "Static button 1"
+      }, {
+        "id": "static_btn_1",
+        "type": "text",
+        "label": "Label"
+      }, {
+        "id": "static_btn_1_url",
+        "type": "url",
+        "label": "URL"
+      }, {
+        "id": "static_btn_1_img",
+        "type": "image_picker",
+        "label": "Image"
+      }, {
+        "type": "header",
+        "content": "Static button 2"
+      }, {
+        "id": "static_btn_2",
+        "type": "text",
+        "label": "Static button 2"
+      }, {
+        "id": "static_btn_2_url",
+        "type": "url",
+        "label": "URL"
+      }, {
+        "id": "static_btn_2_img",
+        "type": "image_picker",
+        "label": "Image"
+      }
+    ]
+  }
+{% endschema %}

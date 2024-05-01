@@ -1,0 +1,265 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "3db86d21-e949-4476-90e5-64fecffed43e": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-1": {
+          "type": "heading",
+          "settings": {
+            "text": "MTB Wheel Kits",
+            "heading_tag": "h1"
+          }
+        },
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>CeramicSpeed kits for MTB wheels and hubs. Upgrade your wheel bearings and increase the performance.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-0",
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-1",
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/062bf8481005b8e1f21e4207d6ce812059b8e827.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "228aa022-ca57-4562-90e2-585e69b850be": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<google-sheets-html-origin>\n<style type=\"text\/css\"><!--\ntd {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}\n--><\/style>\n<table xmlns=\"http:\/\/www.w3.org\/1999\/xhtml\" cellspacing=\"0\" cellpadding=\"0\" dir=\"ltr\" border=\"1\"><colgroup><col width=\"146\" \/><col width=\"280\" \/><\/colgroup>\n<tbody>\n<tr>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Wheel Kit&quot;}\"><strong>Wheel Kit<\/strong><\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Compatibility&quot;}\"><strong>Compatibility<\/strong><\/td>\n<\/tr>\n<tr>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Spinergy-2 MTB&quot;}\" data-sheets-hyperlink=\"https:\/\/www.ceramicspeed.com\/en\/cycling\/shop\/wheel-kits\/spinergy-2-mtb\/\"><a class=\"in-cell-link\" href=\"https:\/\/www.ceramicspeed.com\/en\/cycling\/shop\/wheel-kits\/spinergy-2-mtb\/\" target=\"_blank\" rel=\"noopener noreferrer\">Spinergy-2 MTB<\/a><\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Spinergy MTB wheels&quot;}\">Spinergy MTB wheels<\/td>\n<\/tr>\n<tr>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Roval-1 Coated&quot;}\" data-sheets-hyperlink=\"https:\/\/www.ceramicspeed.com\/en\/cycling\/shop\/wheel-kits\/roval-1\/#sku=101857\"><a class=\"in-cell-link\" href=\"https:\/\/www.ceramicspeed.com\/en\/cycling\/shop\/wheel-kits\/roval-1\/#sku=101857\" target=\"_blank\" rel=\"noopener noreferrer\">Roval-1 Coated<\/a><\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Specialized MTB Roval Control SL 29\\&quot;&quot;}\">Specialized MTB Roval Control SL 29\"<\/td>\n<\/tr>\n<tr>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Cannondale-3 MTB&quot;}\" data-sheets-hyperlink=\"https:\/\/www.ceramicspeed.com\/en\/cycling\/shop\/wheel-kits\/cannondale-3-mtb\/\"><a class=\"in-cell-link\" href=\"https:\/\/www.ceramicspeed.com\/en\/cycling\/shop\/wheel-kits\/cannondale-3-mtb\/\" target=\"_blank\" rel=\"noopener noreferrer\">Cannondale-3 MTB<\/a><\/td>\n<td data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Cannondale MTB Czero&quot;}\">Cannondale MTB Czero<\/td>\n<\/tr>\n<\/tbody>\n<\/table>\n<\/google-sheets-html-origin><br \/><google-sheets-html-origin> <\/google-sheets-html-origin>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "88353e6c-40fd-4dce-81f1-cfd743219d3c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19676149580078__88353e6c-40fd-4dce-81f1-cfd743219d3c-16874309367093d359-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--19676149580078__88353e6c-40fd-4dce-81f1-cfd743219d3c-16874309367093d359-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--19676149580078__88353e6c-40fd-4dce-81f1-cfd743219d3c-16874309367093d359-2": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        },
+        "d1f36544-2c4f-461c-b37d-83a80b4024f8": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Mavic Wheel Kits",
+            "url": "shopify:\/\/pages\/mavic-wheel-kits",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19676149580078__88353e6c-40fd-4dce-81f1-cfd743219d3c-16874309367093d359-0",
+        "template--19676149580078__88353e6c-40fd-4dce-81f1-cfd743219d3c-16874309367093d359-1",
+        "template--19676149580078__88353e6c-40fd-4dce-81f1-cfd743219d3c-16874309367093d359-2",
+        "d1f36544-2c4f-461c-b37d-83a80b4024f8"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "f1f9bfbe-a70d-4074-890c-bf7a71a5c92e": {
+      "type": "rich-text",
+      "blocks": {
+        "2811951d-4a06-439e-a0f8-75ac7a5a4206": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "a13901dc-bd24-4218-8126-419d085b4d6d": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "5f859da4-7a43-425e-9d7e-47aade5cbc0b": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        },
+        "6bc350ee-0d63-4d61-87aa-c8bbbc19c7db": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Shimano MTB Wheel Kits",
+            "url": "shopify:\/\/pages\/shimano-mtb-wheel-kits",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "2811951d-4a06-439e-a0f8-75ac7a5a4206",
+        "a13901dc-bd24-4218-8126-419d085b4d6d",
+        "5f859da4-7a43-425e-9d7e-47aade5cbc0b",
+        "6bc350ee-0d63-4d61-87aa-c8bbbc19c7db"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "0b2e993b-8ccd-4c70-b388-316f88b64c27": {
+      "type": "rich-text",
+      "blocks": {
+        "7974a0a2-7aee-4f42-951b-94b3ee14c050": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "8c27ead2-ea5c-44a1-ba2c-0deac1095251": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "61d04d98-dafb-43a7-ad43-5f1a73dbfedf": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        },
+        "9c87486c-f2d2-41e4-8ba8-844a9b971d98": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Shop Wheel Kits",
+            "url": "shopify:\/\/collections\/wheel-kits",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "7974a0a2-7aee-4f42-951b-94b3ee14c050",
+        "8c27ead2-ea5c-44a1-ba2c-0deac1095251",
+        "61d04d98-dafb-43a7-ad43-5f1a73dbfedf",
+        "9c87486c-f2d2-41e4-8ba8-844a9b971d98"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "7ba20b51-34db-4997-955f-6acf2a47e8a9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19676149580078__7ba20b51-34db-4997-955f-6acf2a47e8a9-16874309367093d359-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--19676149580078__7ba20b51-34db-4997-955f-6acf2a47e8a9-16874309367093d359-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--19676149580078__7ba20b51-34db-4997-955f-6acf2a47e8a9-16874309367093d359-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Didn't find what you were look ing for? <a href=\"https:\/\/www.ceramicspeed.com\/en\/about\/contact\/\" title=\"Contact\">Contact us <\/a>andone of our specialists can advise on the best fit.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19676149580078__7ba20b51-34db-4997-955f-6acf2a47e8a9-16874309367093d359-0",
+        "template--19676149580078__7ba20b51-34db-4997-955f-6acf2a47e8a9-16874309367093d359-1",
+        "template--19676149580078__7ba20b51-34db-4997-955f-6acf2a47e8a9-16874309367093d359-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3db86d21-e949-4476-90e5-64fecffed43e",
+    "228aa022-ca57-4562-90e2-585e69b850be",
+    "88353e6c-40fd-4dce-81f1-cfd743219d3c",
+    "f1f9bfbe-a70d-4074-890c-bf7a71a5c92e",
+    "0b2e993b-8ccd-4c70-b388-316f88b64c27",
+    "7ba20b51-34db-4997-955f-6acf2a47e8a9"
+  ]
+}

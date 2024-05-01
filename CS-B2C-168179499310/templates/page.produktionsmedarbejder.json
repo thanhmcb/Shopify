@@ -1,0 +1,154 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "3db86d21-e949-4476-90e5-64fecffed43e": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Produktionsmedarbejder hos CeramicSpeed",
+            "heading_tag": "h1"
+          }
+        },
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-2": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-0",
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-1",
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/JG_221006_CeramicSpeed_HQ_0069.jpg",
+        "mobile_text_position": "place-self-end-start text-start",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "aca770b3-d895-4430-aa05-0990de07e08a": {
+      "type": "rich-text",
+      "blocks": {
+        "3e3fb28b-c92d-4cd9-965c-c4193fb676ed": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon": "picto-timer",
+            "icon_width": 32,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": ""
+          }
+        },
+        "d1fdfc50-8096-4401-9f4f-9b3c3f9e37ac": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--18216822309166__aca770b3-d895-4430-aa05-0990de07e08a-16777526798b832ccb-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>CeramicSpeed er en sund virksomhed med entreprenørånd. Vi er i vækst og tæller nu 100 ansatte fordelt på lokationer i Europa, USA og Asien. Vi har travlt og søger derfor en dygtig og fleksibel medarbejder, som ønsker at være en del af en ung virksomhed med et højt fokus på kvalitet og effektivisering.<br\/><br\/>Er du fingersnild og har lyst til at blive en del af et kompetent og uformelt team, som laver verdens bedste kuglelejer? Går du positivt til opgaverne, og sætter en ære i at levere et godt stykke arbejde af høj kvalitet? Så er det dig, vi søger!<br\/><br\/>Jobbet består bl.a. i håndmontage af kuglelejer og andre forfaldende montageopgaver i vores produktion. Vi er en ordreproducerende virksomhed som håndbygger alle vore produkter i høj kvalitet. Vi forestår en grundig oplæring i processer og arbejdsmetoder, så medarbejderen er klædt bedst mulig på til at udfører opgaverne.<br\/><br\/>Vi forventer:<\/p><ul><li>Tålmodighed til at arbejde fokuseret med opgaverne.<\/li><li>Kvalitetsbevidst og sætter en ære i dit arbejde.<\/li><li>Taler og skriver dansk (min. gennemført dansk 2).<\/li><li>Forstår vigtigheden i at arbejde som et team for at nå i mål med dagens produktion. <\/li><li>Er fleksibel i de perioder hvor efterspørgslen er høj.<\/li><li>Er klar på et stillesiddende\/stående job hvor du skal bruge dine hænder.<\/li><li>Kan arbejde struktureret og effektivt.<\/li><\/ul><p><\/p><p><strong><br\/>Du tilbydes <\/strong><br\/>Vi tilbyder et varigt job for den rette med attraktive arbejdstider, sundhedsordning og gode kolleger i en uformel og flad organisation.<br\/>Der er kantine- og frugtordning. Onsdag er der mulighed for 30 min. motion i arbejdstiden med dine kollegaer. Arbejdspladsen er 100% røgfri.<\/p><p><br\/>Tiltrædelse efter aftale. Vi holder samtaler løbende, og stillingen vil blive besat, når vi har fundet den rette. Ansøgning med CV sendes pr. mail til <a href=\"mailto:job@ceramicspeed.com\" target=\"_blank\" title=\"mailto:job@ceramicspeed.com\">job@ceramicspeed.com<\/a>. Har du spørgsmål til stillingen, er du velkommen til at kontakte Jeppe Bach Sørensen på mail <a href=\"mailto:jbs@ceramicspeed.com\" target=\"_blank\" title=\"mailto:jbs@ceramicspeed.com\">jbs@ceramicspeed.com<\/a> eller telefon: 4290 5024<\/p><p><br\/><strong>CeramicSpeed <\/strong><br\/>CeramicSpeed blev etableret i 2004 og er i dag en af verdens førende producenter af keramiske lejer til cykelbranchen. Vi har mere end 15 års erfaring med udvikling af lejer, som har ekstrem lav friktion og lang levetid. Alle lejer bliver håndlavet i Danmark.<\/p><p> <br\/>CeramicSpeed er underleverandør til nogle af verdens største og mest prominente high-end cykelproducenter. Produkterne bliver desuden distribueret i mere end 50 lande, og vi er det eneste lejebrand som sponsorerer 4 World Tour Teams samt en lang række af verdens bedste triatleter.<\/p><p>  <br\/>I 2008 tilføjedes det selvstændige industriselskab CeramicSpeed Bearings med fokus på kunder i industrien. Kerneområdet er keramiske kuglelejer med unikke egenskaber på levetid, friktion mv. Det giver kunderne store økonomiske fordele i forhold til traditionelle lejer. Samlet ændrer dette måden at tænke vedligeholdelsesplanlægning på. Vi er førende indenfor vores felt og har en forretningsmodel, som gør både produktsortiment, kvalitet og kundeservice unikt på markedet.<\/p>",
+            "text_align": "left"
+          }
+        }
+      },
+      "block_order": [
+        "3e3fb28b-c92d-4cd9-965c-c4193fb676ed",
+        "d1fdfc50-8096-4401-9f4f-9b3c3f9e37ac",
+        "template--18216822309166__aca770b3-d895-4430-aa05-0990de07e08a-16777526798b832ccb-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_n8k7yD": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_4izNBk": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_iMhtWL": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_7Xdh4N": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>CeramicSpeed is a global leader in the cycling industry, renowned for its innovative and high-performance products. Headquartered in Holstebro, Denmark, CeramicSpeed is expanding its presence worldwide, and we are seeking a dynamic and experienced individual to join our team as a Retail Marketing Specialist.<\/p>",
+            "text_align": "left"
+          }
+        },
+        "richtext_CPNAch": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Responsibilities: <\/strong><\/p><ul><li>Develop and implement a comprehensive Retail Asset Program to enhance brand awareness at retailers globally.Manage retail assets in conjunction with product launches, ensuring seamless coordination with sales teams in Asia, Europe, and the US.Act as the primary contact for sales teams in the development of new retail assets.Oversee the end-to-end process of retail asset creation, from ideation and planning to production and distribution, collaborating closely with internal stakeholders, graphic designers, and production companies.Ensure a continuous supply of relevant retail assets for our expanding network of global retailers.<\/li><\/ul>",
+            "text_align": "left"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_4izNBk",
+        "heading_iMhtWL",
+        "richtext_7Xdh4N",
+        "richtext_CPNAch"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3db86d21-e949-4476-90e5-64fecffed43e",
+    "aca770b3-d895-4430-aa05-0990de07e08a",
+    "rich_text_n8k7yD"
+  ]
+}
