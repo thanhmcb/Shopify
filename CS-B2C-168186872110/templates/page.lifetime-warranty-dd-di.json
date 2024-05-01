@@ -50,7 +50,6 @@
     },
     "af774888-011d-41f7-a607-e7eb7e8b6be5": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--19544013832494__af774888-011d-41f7-a607-e7eb7e8b6be5-1686661360b1fee7eb-1": {
           "type": "heading",
@@ -86,6 +85,7 @@
         "template--19544013832494__af774888-011d-41f7-a607-e7eb7e8b6be5-1686661360b1fee7eb-2",
         "ee6ad648-45c0-4189-82a6-e09910e7f24d"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "content_width": "small",

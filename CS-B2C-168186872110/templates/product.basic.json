@@ -521,7 +521,6 @@
     },
     "b2aea0c7-4d40-4c55-99f8-56844d5de20b": {
       "type": "feature-chart",
-      "disabled": true,
       "blocks": {
         "template--18123980538158__b2aea0c7-4d40-4c55-99f8-56844d5de20b-167774938156eb039f-0": {
           "type": "headings",
@@ -581,6 +580,7 @@
         "template--18123980538158__b2aea0c7-4d40-4c55-99f8-56844d5de20b-167774938156eb039f-0",
         "template--18123980538158__b2aea0c7-4d40-4c55-99f8-56844d5de20b-167774938156eb039f-1"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "subheading": "{{ product.title }}",
@@ -609,7 +609,6 @@
     },
     "310e66e5-499a-4ec7-9805-8d282cce6d2b": {
       "type": "impact-text",
-      "disabled": true,
       "blocks": {
         "template--18123980538158__310e66e5-499a-4ec7-9805-8d282cce6d2b-1677750750a100495c-0": {
           "type": "item",
@@ -627,6 +626,7 @@
       "block_order": [
         "template--18123980538158__310e66e5-499a-4ec7-9805-8d282cce6d2b-1677750750a100495c-0"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_mobile": true,
@@ -786,7 +786,6 @@
     },
     "6fff7755-bfbe-4fa3-8084-596dbf666baa": {
       "type": "image-link-blocks",
-      "disabled": true,
       "blocks": {
         "template--18123980538158__6fff7755-bfbe-4fa3-8084-596dbf666baa-16780910768c88c53c-0": {
           "type": "item",
@@ -805,6 +804,7 @@
       "block_order": [
         "template--18123980538158__6fff7755-bfbe-4fa3-8084-596dbf666baa-16780910768c88c53c-0"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_image": false,
@@ -847,7 +847,6 @@
     },
     "3144d435-c817-4454-a521-47b2d9c33cc7": {
       "type": "faq",
-      "disabled": true,
       "blocks": {
         "template--18123980538158__3144d435-c817-4454-a521-47b2d9c33cc7-16777513714ca22df6-0": {
           "type": "item",
@@ -861,6 +860,7 @@
       "block_order": [
         "template--18123980538158__3144d435-c817-4454-a521-47b2d9c33cc7-16777513714ca22df6-0"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "subheading": "",

@@ -359,7 +359,6 @@
     },
     "2d9709a4-1d19-405c-9a03-f46aae38ee19": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "fec71efe-b96d-43fe-a099-dd29c096942f": {
           "type": "image",
@@ -392,6 +391,7 @@
         "template--18123980538158__2d9709a4-1d19-405c-9a03-f46aae38ee19-1678135316ca2b516d-1",
         "template--18123980538158__2d9709a4-1d19-405c-9a03-f46aae38ee19-1678135316ca2b516d-2"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "content_width": "medium",
@@ -717,7 +717,6 @@
     },
     "f641ca64-6d02-43a7-9477-4b5d373f46f5": {
       "type": "text-with-icons",
-      "disabled": true,
       "blocks": {
         "template--18123980538158__f641ca64-6d02-43a7-9477-4b5d373f46f5-16777508603b3d690a-0": {
           "type": "item",
@@ -792,6 +791,7 @@
         "92f3eb91-ec7e-4758-b764-48f71c7c844f",
         "0c32e8f1-2dcb-4bd8-95fe-e3b821548b12"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "title": "",
