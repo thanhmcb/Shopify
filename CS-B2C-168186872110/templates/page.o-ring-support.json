@@ -9,7 +9,6 @@
     },
     "90305c3f-29b9-448d-b16a-0712fc975378": {
       "type": "faq",
-      "disabled": true,
       "blocks": {
         "template--18272984039726__90305c3f-29b9-448d-b16a-0712fc975378-1684755238f571b61f-0": {
           "type": "item",
@@ -23,6 +22,7 @@
       "block_order": [
         "template--18272984039726__90305c3f-29b9-448d-b16a-0712fc975378-1684755238f571b61f-0"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "subheading": "",

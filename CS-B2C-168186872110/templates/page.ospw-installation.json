@@ -88,7 +88,6 @@
     },
     "69dc3a18-61eb-4f0b-a1ca-e14216b71deb": {
       "type": "image-link-blocks",
-      "disabled": true,
       "blocks": {
         "c7b1aabc-0bd3-4bec-8161-6332110605f3": {
           "type": "item",
@@ -149,6 +148,7 @@
         "template--19558816579886__69dc3a18-61eb-4f0b-a1ca-e14216b71deb-168673444626bee4d9-1",
         "template--19558816579886__69dc3a18-61eb-4f0b-a1ca-e14216b71deb-168673444626bee4d9-2"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "block_size": "medium",

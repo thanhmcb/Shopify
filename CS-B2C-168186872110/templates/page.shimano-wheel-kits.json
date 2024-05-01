@@ -48,7 +48,6 @@
     },
     "3db86d21-e949-4476-90e5-64fecffed43e": {
       "type": "image-with-text-overlay",
-      "disabled": true,
       "blocks": {
         "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-0": {
           "type": "subheading",
@@ -75,6 +74,7 @@
         "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-1",
         "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-2"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
