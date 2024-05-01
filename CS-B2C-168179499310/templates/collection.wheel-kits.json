@@ -1,0 +1,388 @@
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "enable_parallax": true,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "collection_title_size": "h2",
+        "image_size": "sm",
+        "image": "shopify:\/\/shop_images\/84ed86854d1d5536044b889d1e4f2f7658619d91.png",
+        "mobile_text_position": "place-self-end-start text-start",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "featured_product": "cadex-42-65-disc-brake-hub-bearing-set-item-300000113",
+        "featured_product_heading": "Bestseller",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "56104697-95a7-4de4-875d-dbd557b43f98": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "template--18123980112174__56104697-95a7-4de4-875d-dbd557b43f98-1677748250e63bc06a-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bottom_bracket_hand.jpg",
+            "stretch_image": true,
+            "link_text": "Bottom Bracket",
+            "link_url": "\/collections\/road?filter.p.product_type=Bottom+Bracket",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--18123980112174__56104697-95a7-4de4-875d-dbd557b43f98-1677748250e63bc06a-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ED3ehr5XUAAQiVS.jpg",
+            "stretch_image": true,
+            "link_text": "Oversized Pulley Wheel Systems",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--18123980112174__56104697-95a7-4de4-875d-dbd557b43f98-1677748250e63bc06a-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EYYr1pRVcAUIVj1.jpg",
+            "stretch_image": true,
+            "link_text": "Pulley Wheels",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--18123980112174__56104697-95a7-4de4-875d-dbd557b43f98-1677748250e63bc06a-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ED8oAvmWsAE_CZt.jpg",
+            "stretch_image": true,
+            "link_text": "UFO Chains",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "96eb0962-5bc9-4367-820a-9b7be834057b": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ECgaefdWsAAgGdi.jpg",
+            "stretch_image": true,
+            "link_text": "Wheel Kits",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "c6f88e87-ece3-4851-b4f9-65d721629453": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/balls.jpg",
+            "stretch_image": true,
+            "link_text": "CeramicSpeed Balls",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "53328f46-7fd8-4c43-91b8-d72106c1804d": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EK9F_IMWkAA0a_9.jpg",
+            "stretch_image": true,
+            "link_text": "Single Bearings",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--18123980112174__56104697-95a7-4de4-875d-dbd557b43f98-1677748250e63bc06a-1",
+        "template--18123980112174__56104697-95a7-4de4-875d-dbd557b43f98-1677748250e63bc06a-0",
+        "template--18123980112174__56104697-95a7-4de4-875d-dbd557b43f98-1677748250e63bc06a-2",
+        "template--18123980112174__56104697-95a7-4de4-875d-dbd557b43f98-1677748250e63bc06a-3",
+        "96eb0962-5bc9-4367-820a-9b7be834057b",
+        "c6f88e87-ece3-4851-b4f9-65d721629453",
+        "53328f46-7fd8-4c43-91b8-d72106c1804d"
+      ],
+      "settings": {
+        "full_width": false,
+        "stack_image": false,
+        "grid-gap": 20,
+        "block_size": "medium",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "blocks": {
+        "6a8fecfa-a8fe-4e37-9cf8-5fda9b55acc8": {
+          "type": "promotion_video",
+          "disabled": true,
+          "settings": {
+            "position": 5,
+            "column_span": "2",
+            "video": "shopify:\/\/files\/videos\/001 - 1631053808733401088.mp4",
+            "external_video_url": "",
+            "title": "",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "heading_tag": "h4",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "6a8fecfa-a8fe-4e37-9cf8-5fda9b55acc8"
+      ],
+      "settings": {
+        "hide_sold_out_variants": true,
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "filter_layout": "horizontal",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_filter_group_name": true,
+        "show_color_swatch": true,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": true,
+        "open_first_filter_group": false,
+        "show_list_view": true
+      }
+    },
+    "e6e99b14-c77b-45e9-90a4-ebb385bf75e6": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--18123980112174__e6e99b14-c77b-45e9-90a4-ebb385bf75e6-16777524124b3d06ef-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Road_seo.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Drift into the flow",
+            "content": "<p>Speed and watt-savings are easily measurable. It's basic physics at the end of the day. But speed is more than objective facts. It's an emotional state as well. Our products will not only make you faster, but they will just as importantly make you feel faster. Enhancing your ride experience one smooth pedal stroke at a time.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "4c00d27f-00fe-462c-ae76-09e1f5fc6ad5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/road_seo1.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Proven to last",
+            "content": "<p>For nearly two decades, our products have been tested to their limits by the fastest riders in the world. Season after season and in the most challenging terrains - from cobbles to HC Climbs. We demand perfection from our products, and we know that WorldTour riders do the same.<br\/>If they're good enough for them, rest assured they'll make you enjoy your time on the bike like never before.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18123980112174__e6e99b14-c77b-45e9-90a4-ebb385bf75e6-16777524124b3d06ef-0",
+        "4c00d27f-00fe-462c-ae76-09e1f5fc6ad5"
+      ],
+      "settings": {
+        "full_width": true,
+        "enable_parallax": true,
+        "spacing": "medium"
+      }
+    },
+    "d46fd293-fbf2-47e5-98ba-0fb2c1db58ef": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18365893411118__d46fd293-fbf2-47e5-98ba-0fb2c1db58ef-1678887879ad8ba73e-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--18365893411118__d46fd293-fbf2-47e5-98ba-0fb2c1db58ef-1678887879ad8ba73e-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Less friction, more speed",
+            "heading_tag": "h1"
+          }
+        },
+        "template--18365893411118__d46fd293-fbf2-47e5-98ba-0fb2c1db58ef-1678887879ad8ba73e-2": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18365893411118__d46fd293-fbf2-47e5-98ba-0fb2c1db58ef-1678887879ad8ba73e-0",
+        "template--18365893411118__d46fd293-fbf2-47e5-98ba-0fb2c1db58ef-1678887879ad8ba73e-1",
+        "template--18365893411118__d46fd293-fbf2-47e5-98ba-0fb2c1db58ef-1678887879ad8ba73e-2"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": true,
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/dsc04115-min_jpg_80.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/dsc04115-min_jpg_80.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "5cae4b3f-0caa-4423-a813-d2ca6b6152e9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18123980112174__5cae4b3f-0caa-4423-a813-d2ca6b6152e9-16778500955957c382-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--18123980112174__5cae4b3f-0caa-4423-a813-d2ca6b6152e9-16778500955957c382-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Bottom Brackets for road, MTB and triathlon",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--18123980112174__5cae4b3f-0caa-4423-a813-d2ca6b6152e9-16778500955957c382-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>No matter the discipline, there's a CeramicSpeed Bottom Bracket that fits. The Bottom Brackets come in both road, tri and MTB specific variants. Use the CeramicSpeed Bottom Bracket Fit Finder to find the right fit for your specific crank. Among the CeramicSpeed Bottom Brackets specifically designed for MTB cranks are CeramicSpeed BSA30 MTB, CeramicSpeed PF4630 MTB, PF30 for Shimano MTB, PF30 for SRAM GXP MTB and many more. <\/p>"
+          }
+        },
+        "5f208839-ce93-43d9-ad21-c468e156b6a1": {
+          "type": "heading",
+          "settings": {
+            "text": "Coated Bottom Brackets for even better performance",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "a10f53df-35fc-42e4-a419-a3ef5e70c5b8": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>All of the CeramicSpeed Bottom Brackets come in a coated version for even longer lifetime and lower friction. The coating on the Bottom Brackets is a thin metallic layer that is 75% harder than the hardened-steel races and which offers an even better performance than the non-coated CeramicSpeed Bottom Brackets. <\/p>"
+          }
+        },
+        "a4837837-c357-4162-adda-bb913de86c29": {
+          "type": "heading",
+          "settings": {
+            "text": "Bottom Bracket installation",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "61c235c6-2185-43d5-8b78-26aa6f9d3d4e": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>If you need advice on how to install your CeramicSpeed Bottom Bracket, then please go to the support page. Here you can find videos on how to install both crank and bottom bracket and get answers to your tech related questions. <\/p>"
+          }
+        },
+        "fce6f4f9-e5d9-4cb6-95e8-85365a8968f9": {
+          "type": "heading",
+          "settings": {
+            "text": "Maintenance of your CeramicSpeed Bottom Bracket",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "8dac6a33-058f-4280-b65e-07ca7a4c5ed1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>For guidance on how to maintain and clean your CeramicSpeed Bottom Brackets, please go to the maintenance page. Here you can also find a guide on how to maintain CeramicSpeed Bearings to make sure they keep performing. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18123980112174__5cae4b3f-0caa-4423-a813-d2ca6b6152e9-16778500955957c382-0",
+        "template--18123980112174__5cae4b3f-0caa-4423-a813-d2ca6b6152e9-16778500955957c382-1",
+        "template--18123980112174__5cae4b3f-0caa-4423-a813-d2ca6b6152e9-16778500955957c382-2",
+        "5f208839-ce93-43d9-ad21-c468e156b6a1",
+        "a10f53df-35fc-42e4-a419-a3ef5e70c5b8",
+        "a4837837-c357-4162-adda-bb913de86c29",
+        "61c235c6-2185-43d5-8b78-26aa6f9d3d4e",
+        "fce6f4f9-e5d9-4cb6-95e8-85365a8968f9",
+        "8dac6a33-058f-4280-b65e-07ca7a4c5ed1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "56104697-95a7-4de4-875d-dbd557b43f98",
+    "main",
+    "e6e99b14-c77b-45e9-90a4-ebb385bf75e6",
+    "d46fd293-fbf2-47e5-98ba-0fb2c1db58ef",
+    "5cae4b3f-0caa-4423-a813-d2ca6b6152e9"
+  ]
+}

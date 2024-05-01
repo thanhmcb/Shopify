@@ -1,0 +1,424 @@
+{%- if section.blocks.size > 0 or section.settings.static_link_1 != blank -%}
+  {%- comment -%}
+  ------------------------------------------------------------------------------------------------------------------------
+  CSS
+  ------------------------------------------------------------------------------------------------------------------------
+  {%- endcomment -%}<style > :root
+  {
+    --sticky-announcement-bar-enabled: {%- if section.settings.enable_sticky -%}
+      1{% else %}
+      0{% endif %};
+  }
+  .announcement-bar {
+    padding-block-start: var(--spacing-3-5);
+    padding-block-end: var(--spacing-3-5);
+    border-bottom: 1px solid rgb(var(--text-color) / 0.20);
+  }
+  .announcement-bar * {
+    line-height: 1 !important;
+  }
+  .announcement-bar__wrapper {
+    gap: var(--spacing-4);
+    max-width: 450px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    align-items: center;
+    flex: 1;
+    display: none;
+    justify-content: center;
+  }
+
+  .announcement-bar__scrolling-list {
+    grid: auto / auto-flow max-content;
+    justify-content: center;
+    display: grid;
+    overflow: hidden;
+  }
+
+  .announcement-bar__static-list {
+    text-align: center;
+    place-items: center;
+    display: grid;
+  }
+
+  .announcement-bar__static-list > * {
+    grid-area: 1 / -1;
+  }
+
+  .announcement-bar__item {
+    grid: auto / auto-flow auto var(--spacing-20);
+    place-items: center;
+    display: grid;
+  }
+
+  @media screen and (min-width: 700px) {
+
+    .announcement-bar__item {
+      grid-auto-columns: auto var(--spacing-40);
+    }
+  }
+
+  @media(prefers-reduced-motion: no-preference) {
+    .announcement-bar__item {
+      animation: translateFull var(--marquee-animation-duration, 0s) linear infinite;
+    }
+  }
+
+  /*custom announcement bar CSS */
+
+
+  .announcement-bar__outer-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .announcement-bar__links {
+    text-align: center;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    gap: var(--spacing-4) var(--spacing-4);
+    flex-wrap: wrap;
+    margin-right: auto;
+    flex: 1;
+  }
+
+  .announcement-bar__links a.active {
+    opacity: 1;
+  }
+
+  
+
+  @media screen and (max-width: 700px) {
+    .announcement-bar__outer-wrapper {
+      flex-wrap: wrap;
+      row-gap: 20px;
+    }
+   
+  }
+  {%- if section.blocks.size > 0 -%}
+    .announcement-bar__wrapper {
+      display: flex;
+    }
+  {% endif %};
+
+  {%- if section.settings.enable_sticky -%}
+    #shopify-section-{{ section.id }}{
+      position: sticky;
+      top: 0;
+      z-index: 20;
+    }
+
+    .shopify-section--header ~ #shopify-section-{{ section.id }}{
+      top: calc(var(--sticky-header-enabled, 0) * var(--header-height, 0px));
+    }
+  {%- endif -%}
+</style>
+{%- if section.settings.show_country_selector and localization.available_countries.size > 1 -%}
+  {%- assign will_show_country_selector = true -%}
+{%- endif -%}
+
+{%- if section.settings.show_locale_selector and localization.available_languages.size > 1 -%}
+  {%- assign will_show_locale_selector = true -%}
+{%- endif -%}
+{%- comment -%}
+------------------------------------------------------------------------------------------------------------------------
+LIQUID
+------------------------------------------------------------------------------------------------------------------------
+{%- endcomment -%}
+{%- if section.blocks.size > 0 or section.settings.static_link_1 != blank -%}
+  <height-observer variable="announcement-bar">
+    <div {% render 'surface', class: 'announcement-bar', background_gradient: section.settings.background_gradient, background: section.settings.background, text_color: section.settings.text_color, show_country_selector: section.settings.show_country_selector, show_country_name: section.settings.show_country_name, show_country_flag: section.settings.show_country_flag, show_locale_selector: section.settings.show_locale_selector %}>
+      {%- if section.settings.navigation_mode == 'scrolling' -%}
+        <marquee-text scrolling-speed="{{ section.settings.scrolling_speed }}" class="announcement-bar__scrolling-list">
+          {%- capture content -%}
+            {%- for block in section.blocks -%}
+              <p class="bold {{ section.settings.text_size }}" {{ block.shopify_attributes }}>
+                {%- if block.settings.url != blank -%}
+                  <a href="{{ block.settings.url }}">{{ block.settings.text | escape }}</a>
+                {%- else -%}
+                  {{ block.settings.text | escape }}
+                {%- endif -%}
+              </p>
+
+              <span class="shape-circle shape--sm"></span>
+            {%- endfor -%}
+          {%- endcapture -%}
+
+          {%- for i in (1..10) -%}
+            <span
+              class="announcement-bar__item"
+              {% unless forloop.first %}
+              aria-hidden="true"
+              {% endunless %}>
+              {{- content -}}
+            </span>
+          {%- endfor -%}
+        </marquee-text>
+      {%- else -%}
+        <div class="container announcement-bar__outer-wrapper">
+          <div class="announcement-bar__wrapper">
+            {%- if section.blocks.size > 1 -%}
+              <button
+                class="tap-area"
+                is="prev-button"
+                aria-controls="announcement-bar"
+                aria-label="{{ 'general.accessibility.previous' | t }}">
+                {%- render 'icon' with 'chevron-left', direction_aware: true -%}
+              </button>
+            {%- endif -%}
+
+            <announcement-bar
+              swipeable
+              id="announcement-bar"
+              class="announcement-bar__static-list">
+              {%- for block in section.blocks -%}
+                <p class="bold text-xs {% unless forloop.first %}reveal-invisible{% endunless %}" {{ block.shopify_attributes }}>
+                  {%- if block.settings.url != blank -%}
+                    <a href="{{ block.settings.url }}">{{ block.settings.text | escape }}</a>
+                  {%- else -%}
+                    {{ block.settings.text | escape }}
+                  {%- endif -%}
+                </p>
+              {%- endfor -%}
+            </announcement-bar>
+
+            {%- if section.blocks.size > 1 -%}
+              <button
+                class="tap-area"
+                is="next-button"
+                aria-controls="announcement-bar"
+                aria-label="{{ 'general.accessibility.next' | t }}">
+                {%- render 'icon' with 'chevron-right', direction_aware: true -%}
+              </button>
+            {%- endif -%}
+          </div>
+          <div class="announcement-bar__icon-list sm-max:hidden">
+              {%- if section.settings.show_country_selector and localization.available_countries.size > 1 -%}
+                <div class="block shrink-0">
+                  {%- render 'localization-selector',
+                    type: 'country',
+                    show_country_name: section.settings.show_country_name,
+                    show_country_flag: section.settings.show_country_flag,
+                    popover_vertical_position: 'end'
+                  -%}
+                </div>
+              {%- endif -%}
+
+              {%- if section.settings.show_locale_selector and localization.available_languages.size > 1 -%}
+                <div class="block shrink-0">
+                  {%- render 'localization-selector', type: 'locale', popover_vertical_position: 'end' -%}
+                </div>
+              {%- endif -%}
+            </div>
+          <div class="announcement-bar__wrapper_custom">
+            <ul class="announcement-bar__links">
+              {%- if section.settings.static_link_1 != blank -%}
+                <li {{ block.shopify_attributes }}>
+                  <a class="bold link-faded text-xs {% if section.settings.static_link_1_active %}hight-light{% endif %}" href="{{ section.settings.static_link_1_url }}">
+                    {{ section.settings.static_link_1 }}
+                  </a>
+                </li>
+              {%- endif -%}
+              {%- if section.settings.static_link_2 != blank -%}
+                <li {{ block.shopify_attributes }}>
+                  <a class="bold link-faded text-xs {% if section.settings.static_link_2_active %}hight-light{% endif %}" href="{{ section.settings.static_link_2_url }}">
+                    {{ section.settings.static_link_2 }}
+                  </a>
+                </li>
+              {%- endif -%}
+              {%- if section.settings.static_link_3 != blank -%}
+                <li {{ block.shopify_attributes }}>
+                  <a class="bold link-faded text-xs {% if section.settings.static_link_3_active %}hight-light{% endif %}" href="{{ section.settings.static_link_3_url }}">
+                    {{ section.settings.static_link_3 }}
+                  </a>
+                </li>
+              {%- endif -%}
+            </ul>
+            {% if section.settings.find_store_url != blank %}
+            <a  class="bold link-faded text-xs{% if section.settings.hide_store_url_desktop %} hide-on-desktop{%- endif -%}" href="{{ section.settings.find_store_url }}">
+            {{ section.settings.find_store_label }}           
+            </a>
+          {%- endif -%}
+        </div>
+          
+         
+          
+        </div>
+      {%- endif -%}
+    </div>
+  </height-observer>
+{%- endif -%}
+<script>
+  document.documentElement?.style.setProperty('--announcement-bar-height', Math.round(document.getElementById('shopify-section- {{ section.id }}')?.clientHeight) + 'px');
+</script>{%- endif -%}{% schema %}
+{
+  "name": "Announcement bar",
+  "class": "shopify-section--announcement-bar",
+  "tag": "aside",
+  "max_blocks": 5,
+  "blocks": [
+    {
+      "type": "message",
+      "name": "Message",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text",
+          "default": "Announce something here"
+        }, {
+          "type": "url",
+          "id": "url",
+          "label": "Link"
+        }
+      ]
+    }
+  ],
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "enable_sticky",
+      "label": "Enable sticky bar",
+      "default": false
+    },
+    {	
+      "type": "text",	
+      "id": "find_store_label",	
+      "label": "Label",	
+      "default": "find store locations",	
+      "info": "This label is only for accessibility purposes."	
+    },
+    {	
+      "type": "url",	
+      "id": "find_store_url",	
+      "label": "Find store url",	
+      "info": "This is used to set the url for the pin icon."	
+    },	
+    {
+      "type": "checkbox",
+      "id": "hide_store_url_desktop",
+      "label": "Hide on desktop"
+    },
+    {
+      "type": "select",
+      "id": "navigation_mode",
+      "label": "Multiple message navigation",
+      "options": [
+        {
+          "value": "arrows",
+          "label": "Arrows"
+        }, {
+          "value": "scrolling",
+          "label": "Auto-scrolling"
+        }
+      ],
+      "default": "arrows"
+    },
+    {
+      "type": "range",
+      "id": "scrolling_speed",
+      "label": "Scrolling speed",
+      "min": 10,
+      "max": 30,
+      "unit": "s",
+      "default": 20
+    },
+    {
+      "type": "header",
+      "content": "Headers"
+    }, {
+      "type": "header",
+      "content": "Link 1"
+    }, {
+      "id": "static_link_1",
+      "type": "text",
+      "label": "Label"
+    },
+    {
+      "id": "static_link_1_active",
+      "type": "checkbox",
+      "label": "Highlight"
+    },{
+      "id": "static_link_1_url",
+      "type": "url",
+      "label": "URL"
+    }, {
+      "type": "header",
+      "content": "Link 2"
+    }, {
+      "id": "static_link_2",
+      "type": "text",
+      "label": "Link 2"
+    }, {
+      "id": "static_link_2_active",
+      "type": "checkbox",
+      "label": "Highlight"
+    },{
+      "id": "static_link_2_url",
+      "type": "url",
+      "label": "URL"
+    }, {
+      "type": "header",
+      "content": "Link 3"
+    }, {
+      "id": "static_link_3",
+      "type": "text",
+      "label": "Link 3"
+    },{
+      "id": "static_link_3_active",
+      "type": "checkbox",
+      "label": "Highlight"
+    }, {
+      "id": "static_link_3_url",
+      "type": "url",
+      "label": "URL"
+    }, {
+      "type": "header",
+      "content": "Colors",
+      "info": "Gradient replaces solid colors when set."
+    }, {
+      "type": "color",
+      "id": "background",
+      "label": "Background"
+    }, {
+      "type": "color_background",
+      "id": "background_gradient",
+      "label": "Background gradient"
+    }, {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text"
+    }, {
+      "type": "header",
+      "content": "Language selector",
+      "info": "To add a language, go to your [language settings.](/admin/settings/languages)"
+    }, {
+      "type": "checkbox",
+      "id": "show_locale_selector",
+      "label": "Show language selector",
+      "default": true
+    }, {
+      "type": "header",
+      "content": "Country/region selector",
+      "info": "To add a country/region, go to your [markets settings.](/admin/settings/markets). For best user experience, we recommend to keep this setting off and to use the free [Shopify Geolocation app](https://apps.shopify.com/geolocation)."
+    }, {
+      "type": "checkbox",
+      "id": "show_country_selector",
+      "label": "Show country/region selector",
+      "default": true
+    }, {
+      "type": "checkbox",
+      "id": "show_country_flag",
+      "label": "Show country flag",
+      "default": true
+    }, {
+      "type": "checkbox",
+      "id": "show_country_name",
+      "label": "Show country name",
+      "default": false
+    }
+  ]
+}
+{% endschema %}

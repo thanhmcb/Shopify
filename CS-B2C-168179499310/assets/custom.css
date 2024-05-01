@@ -1,0 +1,139 @@
+/* Responsive design for sharelist drawer */
+@media only screen and (min-width: 600px) {
+  .wishlist-share-info-placement {
+      margin-top: 4rem;
+      position: absolute;
+      margin-right: var(--spacing-8);
+  }
+}
+
+@media screen and (min-width: 601px) {
+  input#wishlist-link {
+    padding-top: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  input#wishlist-link {
+    padding-top: 9px;
+  }
+}
+
+/*Design for Stamped Review app */
+.stamped-product-reviews-badge.stamped-main-badge {
+  min-height: 27px;
+}
+div.stamped-container[data-widget-style], div[data-widget-style] div.stamped-container {
+  max-width: unset !important;
+  padding: 2rem !important;
+}
+.stamped-widget-poweredby, .stamped-review-avatar{
+  display: none !important;
+}
+.stamped-reviews-filter {
+  margin-bottom: 20px !important;
+}
+
+#stamped-main-widget:has(.stamped-container) {
+  margin:0 !important;
+  border-radius: var(--rounded-sm) !important;
+  background-color: white !important;
+}
+.stamped-container .stamped-empty-state{
+margin: 0 !important;
+}
+.stamped-container[data-count="0"] .stamped-tab-container {
+  display:none !important;
+}
+.stamped-form-review-rating input {
+  visibility: hidden !important;
+  display:none !important;
+}
+.stamped-summary-actions-newreview, .stamped-button {
+  --button-background: var(--button-background-primary) / var(--button-background-opacity, 1);
+    --button-text-color: var(--button-text-primary);
+    --button-outline-color: var(--button-background-primary);
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: var(--rounded-button) !important;
+    background-color: rgb(var(--button-background)) !important;
+    box-shadow: unset !important;
+    color: var(--button-text-color) !important; 
+    border: 0 !important;
+}
+.stamped-review-header-starratings {
+  display: block;
+}
+.stamped-review {
+  margin-bottom: 0 !important;
+}
+
+#stamped-rewards-views, .st-mt-15, .stamped-filter-selects, [data-widget-style=standard2] .stamped-review-content {
+  margin-top: 0 !important;
+}
+.stamped-share-icon {
+  padding-left: 0 !important;
+}
+.stamped-summary-actions-newreview:hover, .stamped-summary-actions-newreview:active,.stamped-summary-actions-newreview:active {
+    --button-background-opacity: 0.85 !important;
+}
+
+.stamped-container[data-count="0"] .stamped-empty-state:before {
+  font-size: 28px !important;
+   color: rgb(255, 183, 74) !important;
+}
+.stamped-starrating a, .stamped-badge-starrating i, .fa-star, .fa-star-checked, .fa-star-half-o, .fa-star-o, .stamped-fa-star, .stamped-fa-star-checked, .stamped-fa-star-half-o, .stamped-fa-star-o {
+    color: rgb(255, 183, 74) !important;
+}
+.new-review-form.stamped-visible {
+  border: 0 !important;
+  padding: 15px 0 !important;
+}
+
+.stamped-form-review-rating
+.stamped-form-label:not([for="reviewRating"]) {
+  visibility: hidden !important;
+  display: none !important;
+}
+.stamped-form-review-rating a, .stamped-form-review-rating a:hover, .stamped-form-input {
+  display: flex !important;
+  align-items: center !important;
+
+}
+.stamped-form-review-rating {
+  display:flex !important;
+  flex-direction: column !important;
+}
+div[data-count="0"] .summary-overview, div[data-widget-style*=standard][data-count="0"] .summary-overview {
+  display: none !important;
+}
+.stamped-content .new-review-form .stamped-visible{
+  border-top: 0 !important;
+}
+.stamped-container .stamped-header, .summary-overview, [data-widget-style=slider] .stamped-review-body, div[data-widget-style*=standard] .stamped-header {
+margin-bottom: 0 !important;
+}
+input.stamped-form-input-email, input.stamped-form-input-text, textarea.stamped-form-input-textarea {
+  border-radius: 3px !important;
+  border-color: rgb(var(--text-color) / .08) !important;
+}
+
+.stamped-form-label+.stamped-form-input {
+  font-size: 13px !important;
+}
+
+.stamped-form-actions {
+  text-align: left !important;
+}
+
+.footer__wrapper input[name="contact[email]"] {
+border: 1px solid rgba(255,255,255,0.7);
+}
+
+.facet-dialog {
+  z-index: 999;
+}
+.pointer-events-none {
+  pointer-events: none;
+}
+

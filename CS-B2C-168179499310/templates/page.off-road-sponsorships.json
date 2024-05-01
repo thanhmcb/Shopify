@@ -1,0 +1,412 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "3db86d21-e949-4476-90e5-64fecffed43e": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Off-Road Sponsorships",
+            "heading_tag": "h1"
+          }
+        },
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-2": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Find your nearest distributor of CeramicSpeed products<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-0",
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-1",
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/Design_uden_navn_22.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "29453e63-b23b-441c-a1d7-b2c2373123e8": {
+      "type": "media-with-text",
+      "blocks": {
+        "6defd0bb-1efe-4b5b-83cc-2c0885fd9e5e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2A7A5991.jpg",
+            "media_width": 60,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h4>Cannondale Factory Racing<\/h4><p>For the 2024 season, we're continuing our support of the Cannondale Factory Racing team. Over the past seasons, our BBs, Wheel Bearings, and UFO Drip chain waxes have been put to the test by one of the best XC teams around. This makes us extremely proud, and we can't wait to see what the squad gets up to this season. All we know is it's going to be fun! <\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "6defd0bb-1efe-4b5b-83cc-2c0885fd9e5e"
+      ],
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "cb53e414-b2f8-40a5-9e8c-9d0fa339abed": {
+      "type": "media-with-text",
+      "blocks": {
+        "d94e4f64-377b-4cf1-965c-705d05dcdc81": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CRWX_Rotorua24_0O9A6550-2100x1399-174b8e52-5843-4040-ae4a-c923b2070427.png",
+            "media_width": 60,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h4>Yeti Cycles Race Teams<\/h4><p>The Yeti Factory Race Program has produced multiple World, National, and Regional championship titles and has been represented by some of the most talented riders to ever wear a race jersey. We're beyond proud to have our BBs and Wheel Bearings ridden by both the Enduro and DH teams of this iconic brand for the 2024 season.  <\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#fafafa",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "d94e4f64-377b-4cf1-965c-705d05dcdc81"
+      ],
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "70906a3b-f5f3-432e-b38a-77581fe8720e": {
+      "type": "media-with-text",
+      "blocks": {
+        "69f955be-fa91-4c1f-ac61-72bc7cc90682": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AMR24-Enough-Nils_Laengner-8909.jpg",
+            "media_width": 60,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h4>Enough Cycling Collective <\/h4><p>The Italian collective Enough is out to inspire. Born from the simple idea and driving mantra of 'a bike is enough to be happy' - Enough are blending racing at the highest level with a focus on the experience of riding. For their adventure racing on MTBs, Enough rides our OSPW X for Transmission and BBs, while they exclusively ride our UFO products for gravel racing. <\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "69f955be-fa91-4c1f-ac61-72bc7cc90682"
+      ],
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "media_with_text_R63NP4": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_HNg7CC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Z8C_2286.jpg",
+            "media_width": 60,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h4>PAS Racing<\/h4><p>As the Danish apparel brand continue to blend their contemporary aesthetic approach with high-performance, Pas Normal Studios have launched a gravel collective to take on the biggest races in 2024. Spearheaded by experienced hitters like Amity Rockwell and Chad Haga mixed with exciting young talents, the PAS Racing Team are out to prove that they do more than just look good. <\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#fafafa",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_HNg7CC"
+      ],
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "8e2a74f0-30c6-4e1a-a7ef-75e4c6302825": {
+      "type": "media-with-text",
+      "blocks": {
+        "62b59514-d6dc-4d80-b356-a6203ba2868b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Design_uden_navn_24.png",
+            "media_width": 60,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h5>Tormans CycloCross Team<\/h5><p>Tormans is a professional cyclocross team founded in 2020 and is closely linked to WorldTour Team Intermarché-Circus-Wanty whom we also sponsor. We joined forces with the team for their 2021\/2022 CX season and are happy to report that for this year's CX campaign, the team's Cube bikes will once again feature our OSPWs, BBs, and Wheel Kits.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "62b59514-d6dc-4d80-b356-a6203ba2868b"
+      ],
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "ade8b8ae-b43a-44e0-b60d-ff4894677243": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21865090842926__ade8b8ae-b43a-44e0-b60d-ff4894677243-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--21865090842926__ade8b8ae-b43a-44e0-b60d-ff4894677243-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--21865090842926__ade8b8ae-b43a-44e0-b60d-ff4894677243-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h4>Other Teams:<\/h4><h5><\/h5><ul><li><h5>Willier Vittoria  <\/h5><\/li><li><h5>Goodman Santa Cruz.<\/h5><\/li><\/ul>",
+            "text_align": "left"
+          }
+        },
+        "c6eb4d0c-430e-4df4-b781-0dd41ae1cdc2": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<h5>Yeti factory racing <\/h5>",
+            "text_align": "left"
+          }
+        },
+        "658cea4b-928d-4baf-aff8-701e7c95eec2": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<h5>Pas Normal Gravel team <\/h5>",
+            "text_align": "left"
+          }
+        }
+      },
+      "block_order": [
+        "template--21865090842926__ade8b8ae-b43a-44e0-b60d-ff4894677243-subheading-1",
+        "template--21865090842926__ade8b8ae-b43a-44e0-b60d-ff4894677243-heading-1",
+        "template--21865090842926__ade8b8ae-b43a-44e0-b60d-ff4894677243-richtext-1",
+        "c6eb4d0c-430e-4df4-b781-0dd41ae1cdc2",
+        "658cea4b-928d-4baf-aff8-701e7c95eec2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_wtn6V8": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_iJhdVd": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h4>Yeti Factory Team<\/h4><p>Information coming soon<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_iJhdVd"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "media_with_text_9wD3gm": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_3UybU6": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h4>PAS racing <\/h4><p>Information coming soon<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_3UybU6"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "media_with_text_78yDaT": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_i3zYQ9": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h4>Tormens  <\/h4><p>Information coming soon<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_i3zYQ9"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3db86d21-e949-4476-90e5-64fecffed43e",
+    "29453e63-b23b-441c-a1d7-b2c2373123e8",
+    "cb53e414-b2f8-40a5-9e8c-9d0fa339abed",
+    "70906a3b-f5f3-432e-b38a-77581fe8720e",
+    "media_with_text_R63NP4",
+    "8e2a74f0-30c6-4e1a-a7ef-75e4c6302825",
+    "ade8b8ae-b43a-44e0-b60d-ff4894677243",
+    "media_with_text_wtn6V8",
+    "media_with_text_9wD3gm",
+    "media_with_text_78yDaT"
+  ]
+}

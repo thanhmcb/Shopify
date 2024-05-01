@@ -1,0 +1,248 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "disabled": true,
+      "settings": {
+        "allow_transparent_header": false,
+        "layout": "content_first",
+        "show_author": true,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px"
+      }
+    },
+    "e650360f-893a-4a54-833b-e1518be4892e": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18123979915566__e650360f-893a-4a54-833b-e1518be4892e-1678193963a0b029a4-1": {
+          "type": "heading",
+          "settings": {
+            "text": "In the Wheelhouse with Partington.cc",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--18123979915566__e650360f-893a-4a54-833b-e1518be4892e-1678193963a0b029a4-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/JAC_0833.jpg",
+        "mobile_image": "{{ article.metafields.custom.top_grafik_mobil.value }}",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "2f53b1e8-d38f-4945-a6b7-0be67279972a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18123979915566__2f53b1e8-d38f-4945-a6b7-0be67279972a-167819433943960406-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--18123979915566__2f53b1e8-d38f-4945-a6b7-0be67279972a-167819433943960406-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--18123979915566__2f53b1e8-d38f-4945-a6b7-0be67279972a-167819433943960406-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Over the years, we've been chosen by some of the world’s most renowned wheel brands in an attempt to make their wheels even faster and more capable. As we all know it takes two to tango, which is also the case for our wheel bearings that - like most of our products - are complementary by nature. Dependent on other products to unlock their benefits, while elevating that exact product at the same time. <\/p><p>Since our OE partnerships have played such a pivotal part in our venture within wheels, we've chosen to highlight some of these partners and collaborations in a small mini-series. <\/p><p>Starting with the Australian innovators from <strong>Partington.cc<\/strong> <\/p>",
+            "text_align": "left"
+          }
+        }
+      },
+      "block_order": [
+        "template--18123979915566__2f53b1e8-d38f-4945-a6b7-0be67279972a-167819433943960406-0",
+        "template--18123979915566__2f53b1e8-d38f-4945-a6b7-0be67279972a-167819433943960406-1",
+        "template--18123979915566__2f53b1e8-d38f-4945-a6b7-0be67279972a-167819433943960406-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "eab9b3a5-6897-4c38-a4b4-165cce7d3862": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/JAC_0835.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "b4303a10-2d8c-4d3d-acd1-766192760a35": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18272983843118__b4303a10-2d8c-4d3d-acd1-766192760a35-1680247564a5ac5646-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Founded by Englishman Jon Partington, who was originally a Machinist turned Design Engineer with vast experience working on transmissions and powertrains within motorsports. After returning to academia and completing a Ph.D. within Advanced Composites, Jon set out to pair his skills and experience in an attempt to create his take on what the optimal wheels within cycling should look like.<\/p><p>We caught up with Jon to learn more about what Partington.cc is all about. Read his answers below. <\/p><p><\/p><p><em>Starting off big here, if you had to put into words what the ethos behind Partington as a brand is, how would you describe that?<\/em><\/p><p><\/p><p>Innovative, performance-centric and with a desire to be recognized for our progressive contribution to the sport of cycling. We would like to be perceived as an aspirational brand offering genuine and tangible benefits that resonate with our end users.<\/p><p> <\/p>",
+            "text_align": "left"
+          }
+        }
+      },
+      "block_order": [
+        "template--18272983843118__b4303a10-2d8c-4d3d-acd1-766192760a35-1680247564a5ac5646-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "6fcae069-e287-4df6-8f35-9b7622f8ab8f": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "lg",
+        "image": "shopify:\/\/shop_images\/Photo_21-10-20_8_11_44_pm.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "4e385257-5454-4f27-ba80-6735b9323a67": {
+      "type": "rich-text",
+      "blocks": {
+        "8b89ae4a-fed7-4174-8bdb-9e0d72c2384a": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><em>What is the common thread that runs through Partington's portfolio of wheels?<\/em><\/p><p>The ultimate in performance through design innovation; Australian designed, Australian made.<\/p><p><\/p><p><em>In your opinion, which characteristics are most important to create a great set of wheels?<\/em><\/p><p> I don’t believe any singular attribute can be relied on to produce a great set of wheels. Low weight is not advantageous to the detriment of other attributes. The most tangible characteristics are weight, stiffness, aerodynamics, comfort, and rolling efficiency. Our mission is to find the best balance of attributes for a given genre of wheel within the practical limits of what’s technically possible. The opportunity we have as both designer and manufacturer is to reimagine and develop technology that allows us to redefine what the pinnacle of high-performance road wheels is.<\/p>",
+            "text_align": "left"
+          }
+        }
+      },
+      "block_order": [
+        "8b89ae4a-fed7-4174-8bdb-9e0d72c2384a"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "8191e8b1-e8ce-4d1e-be58-98f9529f5d15": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "lg",
+        "image": "shopify:\/\/shop_images\/Photo_24-12-2020_8_29_39_pm_4ddfd431-2fa6-45eb-8b9f-87c163affafa.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "63f7bbac-adec-4696-b0c8-27a754fbbd62": {
+      "type": "rich-text",
+      "blocks": {
+        "7d68c60c-2046-4314-99c1-68d56b78ee22": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><em>For a brand like Partington, what is the appeal of collaborating with us at CeramicSpeed? <\/em><\/p><p>We value subject matter experts and celebrate anyone willing to optimise in their field. Except for bearings, partington.cc produces all components, sub-assemblies, and assemblies in-house under one roof. We do this because our requirements are original, and that design control and quality are essential enablers to produce the best wheelsets in the world. It is impractical for us to ‘in-source’ specialist technologies such as bearing manufacture; therefore, we look for like-minded and progressive partners to support our design direction and product objectives.<\/p><p>For our R-Series wheels, we collaborated with CeramicSpeed to develop our unique bearing specifications which optimise wheel performance. Internal clearances, seal configurations, grease selections, and filling details were all honed to meet our functional requirements and performance objectives. We believe that the product of this collaborative work is one of the most efficient wheel hub designs in the cycling industry.<\/p><p><\/p><p>Learn more about Partington.cc and their wheels here: <a href=\"https:\/\/partington.cc\/\">https:\/\/partington.cc\/<\/a><\/p>",
+            "text_align": "left"
+          }
+        }
+      },
+      "block_order": [
+        "7d68c60c-2046-4314-99c1-68d56b78ee22"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "3a69b754-5912-4701-8e50-bfd750f394a7": {
+      "type": "slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "e650360f-893a-4a54-833b-e1518be4892e",
+    "2f53b1e8-d38f-4945-a6b7-0be67279972a",
+    "eab9b3a5-6897-4c38-a4b4-165cce7d3862",
+    "b4303a10-2d8c-4d3d-acd1-766192760a35",
+    "6fcae069-e287-4df6-8f35-9b7622f8ab8f",
+    "4e385257-5454-4f27-ba80-6735b9323a67",
+    "8191e8b1-e8ce-4d1e-be58-98f9529f5d15",
+    "63f7bbac-adec-4696-b0c8-27a754fbbd62",
+    "3a69b754-5912-4701-8e50-bfd750f394a7"
+  ]
+}

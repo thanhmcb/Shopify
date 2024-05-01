@@ -1,0 +1,873 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "3db86d21-e949-4476-90e5-64fecffed43e": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Our Partners",
+            "heading_tag": "h1"
+          }
+        },
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-2": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Find your nearest distributor of CeramicSpeed products<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-0",
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-1",
+        "template--18272984301870__3db86d21-e949-4476-90e5-64fecffed43e-16866450405d17acc7-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/4e5ccf3b5fb33311ca75822df5e2c052f5fbc9fc.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "a7fc285b-721d-4de0-a238-9492c7a3f988": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19634067964206__a7fc285b-721d-4de0-a238-9492c7a3f988-16872005326a7b9185-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--19634067964206__a7fc285b-721d-4de0-a238-9492c7a3f988-16872005326a7b9185-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--19634067964206__a7fc285b-721d-4de0-a238-9492c7a3f988-16872005326a7b9185-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>CeramicSpeed is proud to partner with some of the most significant names in the cycling industry. We work with our OEM customers on an individual basis, developing the best possible solutions to meet their unique requirements.<\/p><p>For many manufacturers, bearings are just a tiny part of a much larger product, but at CeramicSpeed this is our core product. This focus has enabled us to build a high level of expertise over the years. Using this knowledge, we work closely with our partners to develop bearing solutions that set new standards for high performance and durability.<\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--19634067964206__a7fc285b-721d-4de0-a238-9492c7a3f988-16872005326a7b9185-0",
+        "template--19634067964206__a7fc285b-721d-4de0-a238-9492c7a3f988-16872005326a7b9185-1",
+        "template--19634067964206__a7fc285b-721d-4de0-a238-9492c7a3f988-16872005326a7b9185-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "c521ab80-2555-4032-98d4-ce2c09bf02c1": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--19634067964206__c521ab80-2555-4032-98d4-ce2c09bf02c1-16872005937729c88d-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/53b00f8bd1338f6a45272f7c6ba738686d456784.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Factor Bikes",
+            "content": "<p>Factor Bikes and CeramicSpeed started their collaboration in 2016 when the brand chose CeramicSpeed Bottom Brackets as a factory standard in all of their bikes.<br\/><\/p>",
+            "link_text": "Read more",
+            "link_url": "shopify:\/\/pages\/factor-bikes",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19634067964206__c521ab80-2555-4032-98d4-ce2c09bf02c1-16872005937729c88d-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "01c48ad2-88c9-4a89-9462-583ae1292561": {
+      "type": "media-with-text",
+      "blocks": {
+        "7ef8c365-c822-4474-bdcc-1116942298e6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Design_uden_navn_15.png",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Black Inc.",
+            "content": "<p>At the heart of every Black Inc. wheel is a unique combination of craftsmanship and technology.<br\/><\/p>",
+            "link_text": "Read more",
+            "link_url": "shopify:\/\/pages\/black-inc",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "7ef8c365-c822-4474-bdcc-1116942298e6"
+      ],
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "06d717d0-05cc-4638-853e-b9ebefff6e9e": {
+      "type": "media-with-text",
+      "blocks": {
+        "2890e9ef-5b03-4b6d-8097-3cae400ab01c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Design_uden_navn_16.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Cervélo",
+            "content": "<p>In 2016, Cervélo launched their famed P5X, which included many innovations, not least, the CeramicSpeed Bottom Bracket.<\/p>",
+            "link_text": "Read more",
+            "link_url": "shopify:\/\/pages\/cervelo",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "2890e9ef-5b03-4b6d-8097-3cae400ab01c"
+      ],
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "a914e087-c954-49eb-bcb0-cbe3ea1f4ca5": {
+      "type": "media-with-text",
+      "blocks": {
+        "ddb0e641-5623-4663-8b53-64941a65c64f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Design_uden_navn_17.png",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Lightweight",
+            "content": "<p>The Lightweight SchwarzED wheel collection was designed in 2014 with a focus on performance. All SchwarzED wheels are optimised with CeramicSpeed bearings and have been developed to take every cyclist one step closer to success. It doesn’t matter whether we’re talking pro or recreational cyclists, these wheels are the perfect mix of speed and enjoyment.<\/p>",
+            "link_text": "Read more",
+            "link_url": "shopify:\/\/pages\/lightweight",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "ddb0e641-5623-4663-8b53-64941a65c64f"
+      ],
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "ae350333-2a64-414a-8439-c8c450a1e84e": {
+      "type": "media-with-text",
+      "blocks": {
+        "2b86e773-27e7-48dc-90f7-eff7ecb42bff": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Design_uden_navn_18.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Specialized",
+            "content": "<p>The first collaboration with Specialized started in 2011 when CeramicSpeed supplied bearings for Specialized McLaren.<\/p>",
+            "link_text": "Read more",
+            "link_url": "shopify:\/\/pages\/specialized",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "2b86e773-27e7-48dc-90f7-eff7ecb42bff"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "7cefffa6-1394-49c6-8a48-3d47563e36c6": {
+      "type": "rich-text",
+      "blocks": {
+        "4429b84d-5552-4988-ab93-bf5cbdda9af2": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "18496d66-ca2d-4694-9c04-395e01133615": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "ee46b74e-12d2-45df-94b9-479df1d00df7": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>Argonaut Cycles<\/h5><p>Argonaut Cycles makes fully custom carbon fiber road bikes entirely out of their manufacturing facility in Bend, OR. Every Argonaut is made to order using best-in-class composite molding practices to deliver exceptional performance and ride quality. <\/p><p><a href=\"https:\/\/argonautcycles.com\/\">Visit Argonaut Cycles<\/a> <\/p><p><\/p><h5>Bastion Cycles<\/h5><p>Bastion Cycles are engineering a new art form. We share their mission to create the most desirable bikes in the world. Their belief that the ultimate ride comes from a blend of technology and craft mirrors ours. They pioneered the use of 3D printed Titanium in bicycle frame manufacture, extracting design and performance features otherwise impossible with more traditional manufacturing processes. The result is a high performance, bespoke bike precision crafted just for its owner.<\/p><p><a href=\"https:\/\/www.bastioncycles.com\/\">Visit Bastion Cycles<\/a> <\/p><h5>Canyon<\/h5><p>Canyon has always been an innovator in the bike industry and within a short space of time, has established themselves as a successful high-end brand. Since 2015, Canyon has chosen CeramicSpeed as an essential partner in their development, offering our high-quality bearings as an upgrade on many of their high-end bikes.<\/p><p><a href=\"https:\/\/www.canyon.com\/\">Visit Canyon<\/a><\/p><h5>Corima<\/h5><p>Having been a pillar of the cycling industry for more than 40 years, Corima has built a strong reputation for innovation, design, and performance. In developing their new top model, CeramicSpeed proudly collaborated by supplying the finest ceramic bearings, to enhance the riding experience every time you hit the road.<\/p><p><a href=\"https:\/\/www.corima.com\/\" target=\"_blank\">Visit Corima<\/a><\/p><h5>DATI<\/h5><p>DATI is clearly one of the top manufacturers of wheels and hubs for kick-bikes. Safety, ultra-lightweight and high quality is their ultimate concept. DATI strives to make the best products for all users, combining functional use with form. DATI started their collaboration with CeramicSpeed in 2018, and through the combined efforts they have produced one of the best performing kick-bike series, the “XR LINE”.<\/p><p><a href=\"http:\/\/www.datibike.com\/\" target=\"_blank\">Visit DATI<\/a><\/p><h5>Farsports<\/h5><p>Since 2008, Farsports has had only one focus; “Offering customers high-level performance carbon wheels with a lighter, stronger and more durable design”. Since 2016, Farsports began a partnership with CeramicSpeed, choosing our bearings for Farsports Ventoux carbon wheels. This partnership provides the rider with a smoother and more durable wheel, allowing the rider to concentrate on their performance - ride far and ride fast.<\/p><p><a href=\"https:\/\/www.farsports.com\/\" target=\"_blank\">Visit Farsports<\/a><\/p><h5>Felt<\/h5><p>For the TA FRD (Track Aero Felt Racing Development) - the most advanced track-racing bike that the world has ever seen, Felt chose the ultimate product specification. Designed specifically for pursuit races, the TA FRD was equipped with a CeramicSpeed BB30 coated Bottom Bracket, CeramicSpeed coated bearings in the HED Volo Track Discs and the CeramicSpeed UFO Chains.<\/p><p><a href=\"https:\/\/feltbicycles.com\/\" target=\"_blank\">Visit Felt<\/a><\/p><h5>Festka<\/h5><p>Based in Prague, the Czech Republic, FESTKA has been making bike frames for over ten years. When we first started we made steel and titanium frames but when we devised a unique technology for making carbon frames a few years later, we decided to focus solely on carbon. We build our frames from wound carbon filament tubes made by a local producer with who we work closely on their development. We make the frames by bonding them tube-to-tube. This method gives us complete freedom in terms of size and geometry. Most of our production is made to measure and completely from scratch.<\/p><p><a href=\"https:\/\/festka.com\/\">Visit Festka<\/a><\/p><h5>Hubsmith<\/h5><p>Hubsmith, an innovative bicycle wheel and hub producer from Taiwan was established in 2010. With over 30- years of prior experience in hub manufacturing, Hubsmith delivers creative designs and solutions through a firm focus on high-quality material selection, and strict production methods to deliver the highest quality bicycle hub and wheelset products. All production is located in Taiwan.<br\/>Hubsmith’s goal is to develop a smoother and higher level of mini wheels for folding bike's top upgrade choice. CeramicSpeed bearings are the ideal choice, with a high level of smoothness and performance that reaches and exceeds the expectations.  <\/p><p><a href=\"https:\/\/www.hubsmith.com\/\" target=\"_blank\">Visit Hubsmith<\/a><\/p><h5>Hunt<\/h5><p>CeramicSpeed first partnered with HUNT in 2019 on their 48 Limitless Aero Disc, the world’s fastest disc-brake wheelset up to (and including) 50mm.<br\/>HUNT have been relentlessly pushing the boundaries on aerodynamic performance since shortly after their inception in 2015, and frequently perform testing at the GST Wind Tunnel with a team of engineers headed by Luisa Grappone (former senior R&D engineer at Campagnolo\/Fulcrum and 3T).<br\/>The collaborative efforts between CeramicSpeed and HUNT further evidence the shared philosophy between the companies: we seek to create the world’s fastest cycling equipment.<\/p><p><a href=\"https:\/\/www.huntbikewheels.com\/collections\/road-cx-disc-brake-wheels\/products\/hunt-48-limitless-aero-disc-wheelset\" target=\"_blank\">Visit Hunt<\/a><\/p><h5>Partington<\/h5><p>Much like the blank sheets of carbon fiber fabric the wheels are crafted from, Partington.cc went back to a blank canvas to reimagine the bicycle wheel. ”Bicycles have been around for over 200 years, but bike wheels have always been based on similar principles”. Jon Partington CTO and Founder, said.<\/p><p>“We went back to the drawing board to create wheels that holistically draw on the strengths of advanced composites to achieve a significant all-round performance improvement”.<\/p><p>Designed, developed, engineered and manufactured locally in Geelong, Australia, Partington.cc’s initial product release, the innovative R-Series wheelset has been recognised in the prestigious 2020 Australian good design awards in not one but two categories; Engineering design, and product design – Sport & Lifestyle.<\/p><p><a href=\"http:\/\/www.partington.cc\/\">Visit Partington<\/a><\/p><h5>Quintana Roo<\/h5><p>As the true original triathlon bike brand, Quintana Roo’s obsession for multisport speed and performance is unmatched. Founded in 1987, QR has continued to design and engineer bike and swim equipment to improve experience in training—and on race day. No other company is as invested in your performance. We’re always there to celebrate victories—no matter how big or small. Whether it’s the podium or personal records, Quintana Roo delivers a winning triathlon pedigree that no other brand can match.<\/p><p><a href=\"https:\/\/quintanarootri.com\/\" target=\"_blank\">Visit Quintana Roo<\/a> <\/p><h5>Roval<\/h5><p>Roval joined forces with CeramicSpeed in 2012 to fit our bearings in all CLX carbon wheels and was the first partner to use our coated range.<br\/>Every single Roval wheel that uses a CeramicSpeed bearing is proof of a partnership that is dedicated to perfection and seamless performance.<\/p><p><a href=\"https:\/\/rovalcomponents.com\/\" target=\"_blank\">Visit Roval<\/a><\/p><h5>Scope<\/h5><p>With a commitment to delivering the highest quality and performance, combined with innovation and passion, this young and innovative Dutch wheel brand, has chosen to integrate CeramicSpeed bearings in their entire product range, to give every Scope rider the ultimate riding experience.<\/p><p><a href=\"https:\/\/www.scopecycling.com\/\" target=\"_blank\">Visit Scope<\/a><\/p><h5>Trek<\/h5><p>In 2015, Trek introduced a CeramicSpeed upgrade option to Project One. When building your very own bike with Trek’s custom bike program, you have the opportunity to upgrade to standard or coated Bottom Brackets to optimise your perfectly designed speed machine. In addition, Trek recommends aftermarket Wheel Kits and Bottom Bracket as upgrade options, through their dealer network.<\/p><p><a href=\"https:\/\/www.trekbikes.com\/\" target=\"_blank\">Visit Trek<\/a><\/p><h5>Tune<\/h5><p>These German lightweight products are based on a fundamental need for high performance with less weight. Experiencing how a heavy bike was holding him from getting around the German mountains, Uli Fahl started developing the products that form Tune’s portfolio today. Now highly experienced in producing lightweight products, their newest add-on to the product range is a CeramicSpeed upgrade for their MTB and Road wheels.<\/p><p><a href=\"https:\/\/www.tune.de\/\" target=\"_blank\">Visit Tune<\/a><\/p><h5>Ventum<\/h5><p>For the ultimate triathlon racing bike that uses technology from fighter jets and Formula One race cars, Ventum chose CeramicSpeed. The Ventum One Premium is equipped with our revolutionary Oversized Pulley Wheel System and Bottom Bracket to deliver ultimate performance.<\/p><p><a href=\"https:\/\/ventumracing.com\/\" target=\"_blank\">Visit Ventum<\/a><\/p><h5>XeNTiS<\/h5><p>Handmade in Austria goes perfectly with handmade in Denmark. This Austrian wheel brand sets new standards in the construction of carbon wheels and components. At the cutting edge of next generation of wheels, XeNTiS offers CeramicSpeed bearings in their high-end wheelsets to complete and optimise their handmade products.<\/p><p><a href=\"https:\/\/xentis.com\/\" target=\"_blank\">Visit XeNTiS<\/a><\/p><h5>Zipp<\/h5><p>In 2015, the spectacular Zipp Firestrike 404 wheels were launched. CeramicSpeed bearings were chosen as an integrated part of their innovative project, thanks to their smooth rolling that puts every single watt into moving towards your goals. Aftermarket CeramicSpeed upgrade kits are available for all Zipp wheels through dealers.<\/p><p><a href=\"https:\/\/www.zipp.com\/wheels\/\" target=\"_blank\">Vist Zipp<\/a><\/p>",
+            "text_align": "center"
+          }
+        },
+        "03896ec1-2555-482c-8fb6-d26ef2179de9": {
+          "type": "richtext",
+          "settings": {
+            "content": "",
+            "text_align": "center"
+          }
+        },
+        "8325b825-e4c0-40e0-b21b-db1f71e73e55": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5><\/h5><h5>Work with us<\/h5><p>To become an OEM partner, or discuss other opportunities with us please <a href=\"https:\/\/www.ceramicspeed.com\/en\/about\/contact\/\" title=\"Contact\">get in touch<\/a><\/p>",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "4429b84d-5552-4988-ab93-bf5cbdda9af2",
+        "18496d66-ca2d-4694-9c04-395e01133615",
+        "ee46b74e-12d2-45df-94b9-479df1d00df7",
+        "03896ec1-2555-482c-8fb6-d26ef2179de9",
+        "8325b825-e4c0-40e0-b21b-db1f71e73e55"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_hW7Qjh": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_jMmAyt": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Factor",
+            "content": "<p>Information coming soon<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_Kcqd3m": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Colnago",
+            "content": "<p>Information coming soon<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_yjHdXV": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Canyon",
+            "content": "<p>Information coming soon<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_FBfcWR": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Lightweight",
+            "content": "<p>Information coming soon<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_GD3NTN": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Cervelo",
+            "content": "<p>Information coming soon<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_xg3VAY": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Specialized",
+            "content": "<p>Information coming soon<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_jMmAyt",
+        "image_Kcqd3m",
+        "image_yjHdXV",
+        "image_FBfcWR",
+        "image_GD3NTN",
+        "image_xg3VAY"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "section-id": "",
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "rich_text_eexKwc": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_eYdJCW": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_PdQF8D": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_ULKdFi": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Cannondale<\/p>",
+            "text_align": "center"
+          }
+        },
+        "button_L3VCq4": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Visit Cannondale",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "richtext_MVCt7n": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Basso Bikes<\/p>",
+            "text_align": "center"
+          }
+        },
+        "button_LbLbnr": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Visit Basso Bikes",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "richtext_XhKx8m": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Miche<\/p>",
+            "text_align": "center"
+          }
+        },
+        "button_PfpAMj": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Visit Miche",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "richtext_fLfzge": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Fast Forward<\/p>",
+            "text_align": "center"
+          }
+        },
+        "button_igJBMd": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Visit Fast Forward",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "richtext_WQ4jVd": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Partington CC<\/p>",
+            "text_align": "center"
+          }
+        },
+        "button_NBrK4q": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Visit Partington CC",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "richtext_zymBix": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Aurum<\/p>",
+            "text_align": "center"
+          }
+        },
+        "button_PK4Ut3": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Visit Aurum",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "richtext_94wABb": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Bastion Cycles<\/p>",
+            "text_align": "center"
+          }
+        },
+        "button_7AQmDV": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Visit Bastion Cycles",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "richtext_9aaqQR": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Fara<\/p>",
+            "text_align": "center"
+          }
+        },
+        "button_qU4MHR": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Visit Fara",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "richtext_efA39z": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Leeze<\/p>",
+            "text_align": "center"
+          }
+        },
+        "button_6AnPHR": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Visit Leeze",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "richtext_xGY7mM": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Pearson Cycles<\/p>",
+            "text_align": "center"
+          }
+        },
+        "button_nJUUbQ": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Visit Pearson Cycles",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_eYdJCW",
+        "heading_PdQF8D",
+        "richtext_ULKdFi",
+        "button_L3VCq4",
+        "richtext_MVCt7n",
+        "button_LbLbnr",
+        "richtext_XhKx8m",
+        "button_PfpAMj",
+        "richtext_fLfzge",
+        "button_igJBMd",
+        "richtext_WQ4jVd",
+        "button_NBrK4q",
+        "richtext_zymBix",
+        "button_PK4Ut3",
+        "richtext_94wABb",
+        "button_7AQmDV",
+        "richtext_9aaqQR",
+        "button_qU4MHR",
+        "richtext_efA39z",
+        "button_6AnPHR",
+        "richtext_xGY7mM",
+        "button_nJUUbQ"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_grid_86xEHq": {
+      "type": "media-grid",
+      "blocks": {
+        "image_zXwFyy": {
+          "type": "image",
+          "settings": {
+            "title": "Factor",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_YnVVx3": {
+          "type": "image",
+          "settings": {
+            "title": "Colnago",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_eLR7tA": {
+          "type": "image",
+          "settings": {
+            "title": "Canyon",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_ftAMG7": {
+          "type": "image",
+          "settings": {
+            "title": "Lightweight",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_dYnjcM": {
+          "type": "image",
+          "settings": {
+            "title": "Cervelo",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_H8QmCy": {
+          "type": "image",
+          "settings": {
+            "title": "Specialized",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_zXwFyy",
+        "image_YnVVx3",
+        "image_eLR7tA",
+        "image_ftAMG7",
+        "image_dYnjcM",
+        "image_H8QmCy"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3db86d21-e949-4476-90e5-64fecffed43e",
+    "a7fc285b-721d-4de0-a238-9492c7a3f988",
+    "c521ab80-2555-4032-98d4-ce2c09bf02c1",
+    "01c48ad2-88c9-4a89-9462-583ae1292561",
+    "06d717d0-05cc-4638-853e-b9ebefff6e9e",
+    "a914e087-c954-49eb-bcb0-cbe3ea1f4ca5",
+    "ae350333-2a64-414a-8439-c8c450a1e84e",
+    "7cefffa6-1394-49c6-8a48-3d47563e36c6",
+    "media_with_text_hW7Qjh",
+    "rich_text_eexKwc",
+    "media_grid_86xEHq"
+  ]
+}
