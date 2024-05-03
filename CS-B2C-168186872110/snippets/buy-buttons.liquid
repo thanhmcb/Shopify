@@ -35,9 +35,6 @@ Supported variables
     {%- if product.template_suffix contains 'pre-order' -%}
       {%- capture button_content -%}
         {{ 'product.general.pre_order_button' | t }}{%- endcapture -%}
-    {%- elsif product.template_suffix contains 'discontinued'-%}
-      {%- capture button_content -%}
-        {{ 'product.general.discontinued_button' | t }}{%- endcapture -%}
     {%- else -%}
       {%- capture button_content -%}
         <div data-buy-button>
@@ -46,9 +43,13 @@ Supported variables
       {%- endcapture -%}
     {%- endif -%}
   {%- else -%}
-    {%- capture button_content -%}
+  {%- if product.template_suffix contains 'discontinued'-%}
+      {%- capture button_content -%}
       {{ 'product.general.sold_out_button' | t }}{%- endcapture -%}
     {%- assign button_disabled = true -%}
+  {%- endif -%}
+      
+    
   {%- endif -%}
 
   <buy-buttons
@@ -79,12 +80,15 @@ Supported variables
         }
       </style>
     {%- endif -%}
+    {%- render 'button-wishlist', product: product -%}
   </buy-buttons>
-  
+
  
 {%- endform -%}
 {%- if request.page_type == 'product' -%}  
-  {%- unless product.template_suffix contains 'discontinued'-%}
-      <a class="klaviyo-bis-trigger button button--xl button--subdued button-full" href="#">{{ 'product.general.no_stock' | t }}</a>   
-  {%- endunless -%}    
+  {%- unless product.template_suffix contains 'discontinued'  -%}
+      <a class="klaviyo-bis-trigger button button--xl button--subdued button-full" href="#">{{ 'product.general.no_stock' | t }}</a> 
+      {%- render 'button-wishlist', product: product -%}    
+  {%- endunless -%} 
+   
   {%- endif -%}

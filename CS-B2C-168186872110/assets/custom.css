@@ -137,3 +137,9 @@ border: 1px solid rgba(255,255,255,0.7);
   pointer-events: none;
 }
 
+.product-available__buy-buttons .klaviyo-bis-trigger{
+  display: none;
+}
+.button--discontinued.button--subdued ~ .btn-wishlist {
+  display: none;
+}

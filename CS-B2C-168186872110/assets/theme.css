@@ -9888,7 +9888,25 @@ div.image-link-blocks__item > a > p {
   padding-bottom: 3rem;
 }
 
+.btn-wishlist{
+  padding-block-start: 1.075rem;
+    padding-block-end: 1.075rem;
+    height: 60px;
+}
 
+.buy-buttons{
+  display: flex;
+  align-items: center;
+}
+.buy-buttons .button{
+  width: 84%;
+    flex: 0 0 84%;
+    height: 60px;
+}
+.buy-buttons .button--subdued{
+  width: 100%;
+  flex: 0 0 100%;
+}
 .btn-wishlist__icon {
   fill: transparent;
   -webkit-transition: fill 0.3s ease;
@@ -11155,9 +11173,7 @@ flex-direction: column;
 .quick-buy-drawer__info .klaviyo-bis-trigger {
   display:none;
 }
-.product-available__buy-buttons .klaviyo-bis-trigger, .buy-buttons .button.button--subdued{
-  display:none;
-}
+
 .klaviyo-bis-trigger{
     width: calc(100% - 70px);
     flex-grow: 1;
