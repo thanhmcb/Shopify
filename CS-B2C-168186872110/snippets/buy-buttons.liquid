@@ -87,8 +87,7 @@ Supported variables
 {%- endform -%}
 {%- if request.page_type == 'product' -%}  
   {%- unless product.template_suffix contains 'discontinued'  -%}
-      <a class="klaviyo-bis-trigger button button--xl button--subdued button-full" href="#">{{ 'product.general.no_stock' | t }}</a> 
-      {%- render 'button-wishlist', product: product -%}    
+      <a class="klaviyo-bis-trigger button button--xl button--subdued button-full" href="#">{{ 'product.general.no_stock' | t }}</a>  
   {%- endunless -%} 
    
   {%- endif -%}
