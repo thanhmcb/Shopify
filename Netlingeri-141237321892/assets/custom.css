@@ -158,3 +158,28 @@ h2 {
 .product-block.expanded .block-inner:after{
   content: none;
 }
+
+/* quickview */
+.quickview-media .main-image .slider__grid .slider__item {
+  margin-bottom: 1rem;
+}
+.no-thumbnails .main-image ~ carousel-slider, .no-thumbnails .main-image .slider-nav{
+  display: none;
+}
+.no-thumbnails .main-image carousel-slider {
+  overflow: unset;
+}
+.no-thumbnails .main-image .slider__grid {
+  flex-wrap: wrap;
+}
+.no-thumbnails .main-image .slider__item {
+  flex: 1 0 50%;
+}
+.quick-view-media-gallery--layout-collage-2.no-thumbnails .main-image .slider__item:nth-child(3n+1) {
+  flex: 1 0 100%;
+}
+
+.quick-view-media-gallery--layout-collage-1.no-thumbnails .main-image .slider__item:first-child{
+  flex: 1 0 100%;
+}
+
