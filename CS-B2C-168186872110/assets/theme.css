@@ -11252,6 +11252,3 @@ flex-direction: column;
   display: none;
 }
 
-.button--discontinued {
-  pointer-events: none;
-}
