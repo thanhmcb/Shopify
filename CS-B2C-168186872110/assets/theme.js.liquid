@@ -2778,19 +2778,20 @@ var BuyButtons = class extends HTMLElement {
     this._productForm?.removeEventListener("cart:error", this._onCartErrorListener);
   }
   _onVariantChanged(event) {
+
     const addToCartButton = this.querySelector('button[type="submit"]'), paymentButton = this.querySelector(".shopify-payment-button");
     addToCartButton.classList.remove("button--secondary", "button--subdued");
     addToCartButton.disabled = !event.detail.variant || !event.detail.variant["available"];
     const addToCartButtonText = addToCartButton.getAttribute("is") === "custom-button" ? addToCartButton.firstElementChild : addToCartButton;
     if (!event.detail.variant) {
+     
       addToCartButtonText.innerHTML = window.themeVariables.strings.unavailableButton;
       addToCartButton.classList.add("button--subdued");
-      
       if (paymentButton) {
         paymentButton.style.display = "none";
       }
     } else {
-     
+ 
       addToCartButton.classList.add(event.detail.variant["available"] ? paymentButton || this.hasAttribute("force-secondary-button") ? "button--secondary" : "button" : "button--subdued");
       addToCartButtonText.innerHTML = event.detail.variant["available"] ? this.getAttribute("template").includes("pre-order") ? window.themeVariables.strings.preOrderButton : window.themeVariables.strings.addToCartButton : window.themeVariables.strings.soldOutButton;
       if (paymentButton) {
