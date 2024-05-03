@@ -114,7 +114,7 @@
         {%- if section.settings.gallery_layout contains 'collage' or section.settings.gallery_layout contains 'columns' -%}
           <div class="product-media-collage desktop-only">
             {%- for media in product.media -%}
-              <div class="product-media-collage__item{% if forloop.index0 == initial_slide %} is-active{% endif %}" data-media-id="{{ media.id }}" >
+              <div class="product-media-collage__item{% if forloop.index0 == initial_slide %} is-active{% endif %}" data-media-id="{{ media.id }}">
                 {%- if media.media_type == 'image' and section.settings.enable_zoom -%}
                   <a class="show-gallery" href="{{ media.preview_image | image_url: width: zoom_size }}">
                 {%- endif -%}
