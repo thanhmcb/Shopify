@@ -2,18 +2,9 @@
 
       $(document).ready(function() {
 
-        var agreementCheckBoxParentInMainCart = document.querySelector('.cart__terms');
+      
 
-        if(agreementCheckBoxParentInMainCart) {
-            let agreementCheckBox = agreementCheckBoxParentInMainCart?.getElementsByTagName('input')[0];
-          
-		  if(agreementCheckBox?.id === 'agree') {
-            agreementCheckBox?.addEventListener('click', function () {
-			  let previousState = agreementCheckBox.checked;
-			  agreementCheckBox.setAttribute('checked', previousState);
-            });
-		  }
-        }
+       
 
         if ($('#agree').is(':checked')) {
 		  $('#agree').prop('checked', true);

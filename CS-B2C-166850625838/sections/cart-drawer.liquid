@@ -235,12 +235,13 @@
         {%- if section.settings.show_checkout_button -%}
              <div class="checkout-button-wrapper">
            {% comment %} (Custom mcb) swapped the a tag and button placement to allow for styling {% endcomment %}
-             
-            {%- render 'button', type: 'button', content: checkout_label, icon: 'picto-lock', name: 'checkout', size: 'xl' -%}
+           {%- render 'button', type: 'submit', content: checkout_label, icon: 'picto-lock', name: 'checkout', size: 'xl' -%}
+          
           <a id="checkout-button-disable"></a>
           </div>
         {%- endif -%}
       </form>
+
     </div>
 
     {%- if settings.show_terms -%}
