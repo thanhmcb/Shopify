@@ -99,14 +99,20 @@
  display: flex;
  flex-wrap: wrap;
 }
+.product-collection--heading {
+  margin-bottom: 1rem;
+}
 .product-collection--items a{
   padding: .5rem 1rem;
   margin-right: .6rem;
-  color: rgb(var(--body-text-color));
-  margin-top: .5rem;
-  border: 1px solid var(--BTN-PRIMARY-BORDER-COLOR);
 }
 
+.product-collection--items .btn{
+  font-size: unset;
+}
+.product-collection--items .highlights__item--button{
+  margin-bottom: 0.7rem;
+}
 .product-collection--heading{
   font-weight: 700;
 }
