@@ -45,7 +45,7 @@
             "hide_sold_out_variants": false,
             "stack_blocks": true,
             "variant_has_link": "Engraving",
-            "selector_mode": "select-custom",
+            "selector_mode": "block",
             "color_mode": "variant",
             "size_chart_page": ""
           }
