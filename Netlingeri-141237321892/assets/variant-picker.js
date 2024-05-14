@@ -82,6 +82,16 @@ if (!customElements.get("variant-picker")) {
         : theme.strings.noVariant;
 
       this.addBtn.disabled = !variantAvailable;
+      if (!variantAvailable) {
+        console.log("thanh");
+        this.productForm.classList.add("form__product--sold-out");
+       
+       
+      } else {
+        console.log("thanh2");
+        this.productForm.classList.remove("form__product--sold-out");
+        
+      };
       this.addBtn.textContent = variantAvailable
         ? this.addBtn.dataset.addToCartText
         : unavailableStr;

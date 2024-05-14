@@ -79,6 +79,7 @@
       "description": "Description",
       "from": "From",
       "include_taxes": "Tax included",
+      "notify_text":"Notify Me When Available",
       "media": {
         "gallery_viewer": "Gallery Viewer",
         "load_image": "Load image {{ index }} in gallery view",

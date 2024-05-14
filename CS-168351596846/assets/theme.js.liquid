@@ -2762,6 +2762,7 @@ if (!window.customElements.get("product-form")) {
 }
 
 // js/common/product/product-form-listeners.js
+
 var BuyButtons = class extends HTMLElement {
   constructor() {
     super();
@@ -2784,16 +2785,15 @@ var BuyButtons = class extends HTMLElement {
     addToCartButton.disabled = !event.detail.variant || !event.detail.variant["available"];
     const addToCartButtonText = addToCartButton.getAttribute("is") === "custom-button" ? addToCartButton.firstElementChild : addToCartButton;
     if (!event.detail.variant) {
-     
       addToCartButtonText.innerHTML = window.themeVariables.strings.unavailableButton;
       addToCartButton.classList.add("button--subdued");
       if (paymentButton) {
         paymentButton.style.display = "none";
       }
     } else {
- 
+    
       addToCartButton.classList.add(event.detail.variant["available"] ? paymentButton || this.hasAttribute("force-secondary-button") ? "button--secondary" : "button" : "button--subdued");
-      addToCartButtonText.innerHTML = event.detail.variant["available"] ? this.getAttribute("template").includes("pre-order") ? window.themeVariables.strings.preOrderButton : window.themeVariables.strings.addToCartButton : window.themeVariables.strings.soldOutButton;
+      addToCartButtonText.innerHTML = event.detail.variant["available"] ? this.getAttribute("template").includes("pre-order") ? window.themeVariables.strings.preOrderButton : window.themeVariables.strings.addToCartButton : window.themeVariables.settings.discountinedButton;
       if (paymentButton) {
         paymentButton.style.display = event.detail.variant["available"] ? "block" : "none";
       }
@@ -3172,6 +3172,17 @@ var ProductGallery = class extends HTMLElement {
   }
   _onVariantChanged(event) {
     const filteredIndexes = this._getFilteredMediaIndexes(event.detail.product, event.detail.variant);
+    const productGallery = document.querySelector('.product-gallery__zoom .btn-wishlist');
+
+    if (!event.detail.variant["available"]) {
+     console.log("thanh");
+       productGallery.classList.add("button-hide");
+     
+   } else {
+    console.log("khoi");
+    productGallery.classList.remove("button-hide");
+    
+   }
     this._carousels.forEach((carousel) => carousel.dispatchEvent(new CustomEvent("carousel:filter", { detail: { filteredIndexes } })));
     this._pageDots.forEach((pageDots) => pageDots.dispatchEvent(new CustomEvent("control:filter", { detail: { filteredIndexes } })));
     if (event.detail.variant["featured_media"] && event.detail.previousVariant["featured_media"] && event.detail.previousVariant["featured_media"]["id"] !== event.detail.variant["featured_media"]["id"] || !event.detail.previousVariant["featured_media"] && event.detail.variant["featured_media"]) {

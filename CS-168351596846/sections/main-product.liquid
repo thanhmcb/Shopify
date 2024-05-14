@@ -170,7 +170,7 @@ quick buy information in a template, that will be extracted in JS, but ensure it
         {%- render 'variant-picker', product: product, form_id: product_form_id, update_url: false, hide_sold_out_variants: block.settings.hide_sold_out_variants, hide_size_chart: false, force_dropdown_as_block: false, block: block -%}
 
         {%- when 'buy_buttons' -%}
-          r{{ request.page_type }} 
+ 
         {%- render 'buy-buttons', product: product, form_id: product_form_id, show_payment_button: block.settings.show_payment_button, button_size: 'lg' -%}
 
 
@@ -597,6 +597,14 @@ quick buy information in a template, that will be extracted in JS, but ensure it
           "default": true
         },
         {
+          "type": "checkbox",
+          "id": "show_notify",
+          "label": "Show Notify",
+          "default": true,
+          "info":"OBS: If you want to change the text on the 'sold out' button:Go to Theme Settings > Product Button"
+        },
+        
+        {
           "type": "color",
           "id": "atc_button_background",
           "label": "Add to cart background"
@@ -616,6 +624,7 @@ quick buy information in a template, that will be extracted in JS, but ensure it
           "id": "payment_button_text_color",
           "label": "Buy now button color"
         }
+       
       ]
     },
     {

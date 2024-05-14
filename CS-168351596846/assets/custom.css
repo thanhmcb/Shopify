@@ -140,9 +140,7 @@ border: 1px solid rgba(255,255,255,0.7);
 .product-available__buy-buttons .klaviyo-bis-trigger{
   display: none;
 }
-.button--discontinued.button--subdued ~ .btn-wishlist {
-  display: none;
-}
+
 
 .block-swatch.is-disabled{
   background: linear-gradient(to top left,
@@ -151,4 +149,17 @@ border: 1px solid rgba(255,255,255,0.7);
   rgba(0,0,0,1) 50%,
   rgba(0,0,0,0) calc(50% + 0.8px),
   rgba(0,0,0,0) 100%);
+}
+
+:checked + .block-swatch.is-disabled{
+  background: linear-gradient(to top left,
+  rgba(0,0,0,0) 0%,
+  rgba(0,0,0,0) calc(50% - 0.8px),
+  rgba(0,0,0,1) 50%,
+  rgba(0,0,0,0) calc(50% + 0.8px),
+  rgba(0,0,0,0) 100%);
+}
+
+.klaviyo-bis-trigger ~ form .button--subdued  {
+  display: none;
 }
