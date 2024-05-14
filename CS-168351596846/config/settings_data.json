@@ -78,6 +78,7 @@
     "checkout_accent_color": "#000000",
     "checkout_button_color": "#1a1a1a",
     "content_for_index": [],
+    "discountinedButton":"Discontinued",
     "blocks": {
       "4499299782520642052": {
         "type": "shopify:\/\/apps\/clean-size-charts\/blocks\/core\/feed2801-552f-4e8f-ba1f-32ba9fe8a8f0",

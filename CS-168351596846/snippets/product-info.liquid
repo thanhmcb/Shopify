@@ -320,14 +320,33 @@
 
       {%- when 'buy_buttons' -%}
         {%- assign main_form_exists = true -%}
-
         {%- if request.page_type != 'password' -%}
           <div class="product-info__buy-buttons {% if product.template_suffix contains 'discontinued' %}product-info__buy-buttons-discontinued{% endif %}" {{ block.shopify_attributes }}>
-                 
-              {%- render 'buy-buttons', product: product, form_id: product_form_id, show_payment_button: block.settings.show_payment_button, atc_button_background: block.settings.atc_button_background, atc_button_text_color: block.settings.atc_button_text_color, payment_button_background: block.settings.payment_button_background, payment_button_text_color: block.settings.payment_button_text_color -%}
-              
-       
+            {% style %}
+               {%- unless settings.show_add_to_wishlist_when_sold_out-%} 
+                .button--subdued ~ .btn-wishlist {
+                      display: none;
+                  }
+                    .buy-buttons .button--subdued{
+                    width: 100%;
+                    flex: 0 0 100%;
+                    }
+                    .klaviyo-bis-trigger{
+                      width: 100%;
+                      flex: 0 0 100%;
+                    }
+               {%- endunless -%}
+             {% endstyle %}
+             {%- if request.page_type == 'product' -%}  
             
+                {%- if block.settings.show_notify-%}  
+                  <a class="klaviyo-bis-trigger button button--xl button--subdued button-full" href="#">{{ 'product.general.no_stock' | t }}</a>  
+                {%- endif -%}
+              
+            {%- endif -%}
+              {%- render 'buy-buttons', product: product, form_id: product_form_id, show_notify: block.settings.show_notify, show_payment_button: block.settings.show_payment_button, atc_button_background: block.settings.atc_button_background, atc_button_text_color: block.settings.atc_button_text_color, payment_button_background: block.settings.payment_button_background, payment_button_text_color: block.settings.payment_button_text_color -%}
+              
+              
           </div>
       
         {%- endif -%}

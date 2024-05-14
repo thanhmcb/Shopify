@@ -7,6 +7,13 @@
   Example usage:
   {% render 'faceted-filters', filter_context: collection, clear_url: collection.url, current_sort: current_sort %}
 {%- endcomment -%}
+{%- style -%}
+ {%- if section.settings.text_uppercase -%}
+  .filter-group {
+    text-transform:uppercase;
+  }
+{%- endif -%} 
+{%- endstyle -%}
 
 <a class="filter-shade" href="#" data-toggle-filters></a>
 <div class="filters{% if section.settings.enable_filtering == false or filter_context.filters == empty %} mobile-only{% endif %}" data-auto-apply-hide-unavailable="{{ section.settings.auto_apply_hide_unavailable }}">
@@ -79,7 +86,7 @@
       {%- if section.settings.enable_filtering -%}
         {%- for filter in filter_context.filters -%}
           {%- if filter.param_name == 'filter.v.availability' -%}
-            <div class="filter-group filter-group--availability">
+            <div class="filter-group filter-group--availability test">
               <div class="filter-toggle filter-toggle--inline">
                 <span class="filter-toggle__group-label">{{ 'products.filtering.out_of_stock_label' | t }}</span>
                 <div class="filter-toggle__options">

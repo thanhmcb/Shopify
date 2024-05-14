@@ -37,19 +37,15 @@ Supported variables
         {{ 'product.general.pre_order_button' | t }}{%- endcapture -%}
     {%- else -%}
       {%- capture button_content -%}
-        <div data-buy-button>
+        <div data-buy-button class="a">
           {{ 'product.general.add_to_cart_button' | t }}
         </div>
       {%- endcapture -%}
     {%- endif -%}
   {%- else -%}
-  {%- if product.template_suffix contains 'discontinued'-%}
-      {%- capture button_content -%}
-      {{ 'product.general.sold_out_button' | t }}{%- endcapture -%}
-    {%- assign button_disabled = true -%}
-  {%- endif -%}
-      
-    
+  {%- capture button_content -%}
+  {{ 'product.general.sold_out_button' | t }}{%- endcapture -%}
+{%- assign button_disabled = true -%}
   {%- endif -%}
 
   <buy-buttons
@@ -85,9 +81,3 @@ Supported variables
 
  
 {%- endform -%}
-{%- if request.page_type == 'product' -%}  
-  {%- unless product.template_suffix contains 'discontinued'  -%}
-      <a class="klaviyo-bis-trigger button button--xl button--subdued button-full" href="#">{{ 'product.general.no_stock' | t }}</a>  
-  {%- endunless -%} 
-   
-  {%- endif -%}

@@ -9898,15 +9898,8 @@ div.image-link-blocks__item > a > p {
   display: flex;
   align-items: center;
 }
-.buy-buttons .button{
-  width: 84%;
-    flex: 0 0 84%;
-    height: 60px;
-}
-.buy-buttons .button--subdued{
-  width: 100%;
-  flex: 0 0 100%;
-}
+
+
 .btn-wishlist__icon {
   fill: transparent;
   -webkit-transition: fill 0.3s ease;
@@ -10092,6 +10085,11 @@ input#wishlist-link {
 }
 
 @media screen and (min-width: 741px){
+  .buy-buttons .button{
+    width: 84%;
+      flex: 0 0 84%;
+      height: 60px;
+  }
   .mini-cart__terms{
     width: 576px;
   }
@@ -10734,13 +10732,15 @@ white-space: nowrap;
 
 
 .product-info__buy-buttons .btn-wishlist{
-  width: 60px;
+
   border-radius: var(--rounded-button);
   background-color:rgb(var(--wishlist_button_background));
 }
 
 @media screen and (min-width: 700px){
-  
+  .product-info__buy-buttons .btn-wishlist{
+    width: 60px;
+  }
   .product-info__buy-buttons .btn-wishlist:hover{
     --button-background-opacity: 0.85;
     background-color:rgb(var(--wishlist_button_background) / var(--button-background-opacity, 1));
@@ -10765,7 +10765,13 @@ white-space: nowrap;
   }
 }
 @media screen and (max-width: 699px){
-
+  .product-info__buy-buttons .btn-wishlist{
+    display: none;
+  }
+  .buy-buttons .button{
+    width: 100%;
+    flex: 0 0 100%;
+  }
   .shipping_info_container{
     text-align:center;
   }
@@ -11173,9 +11179,8 @@ flex-direction: column;
 }
 
 .klaviyo-bis-trigger{
-    width: calc(100% - 70px);
-    flex-grow: 1;
-  margin-left: -10px;
+    width: 84%;
+    flex:  0 0 84%;
 }
 .quick-buy-drawer__info .variant-picker>:first-child .variant-picker__option-info + div .variant-picker__option-values>:nth-child(2):last-child .extra-fee, 
 .product-info__variant-picker .variant-picker>:first-child .variant-picker__option-info + div .variant-picker__option-values>:first-child:last-child .extra-fee {
@@ -11250,6 +11255,3 @@ flex-direction: column;
   display: none;
 }
 
-.product-info__buy-buttons-discontinued .klaviyo-bis-trigger{
-  display: none !important;
-}
