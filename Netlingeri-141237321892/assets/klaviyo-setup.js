@@ -13,7 +13,7 @@ var klaviyo = klaviyo || [];
     },
     modal: {
      headline: "{product_name}",
-     body_content: "Register to receive a notification when this item comes back in stock.",
+     body_content: "Skriv dig op til at modtage besked når varen er på lager igen.",
      email_field_label: "Email",
      button_label: "Notify me when available",
      subscription_success_label: "You're in! We'll let you know when it's back.",

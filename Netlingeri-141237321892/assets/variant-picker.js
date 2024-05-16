@@ -90,7 +90,6 @@ if (!customElements.get("variant-picker")) {
       } else {
         console.log("thanh2");
         this.productForm.classList.remove("form__product--sold-out");
-        
       };
       this.addBtn.textContent = variantAvailable
         ? this.addBtn.dataset.addToCartText

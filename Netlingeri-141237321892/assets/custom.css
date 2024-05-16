@@ -190,11 +190,23 @@ h2 {
 /* notify */
 .klaviyo-bis-trigger{
   width: 100%;
+  margin-top: 46px;
 }
 
+.form__product--sold-out .wk-flex {
+  margin-top: 71px;
+}
 .klaviyo-enable .form__product--sold-out {
   display: none;
 }
 
-
+.klaviyo-enable .row-sold-out {
+  display: none;
+}
+.product-form .quantity-submit-row .quantity-submit-row__submit {
+  margin-top: 0;
+}
+.buy-buttons-row {
+  margin-top: 10px;
+}
 

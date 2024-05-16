@@ -144,7 +144,8 @@
       </div>
 
       <div class="logo-area__right">
-        <div class="logo-area__right__inner">
+        <div class="logo-area__right__inner">     
+
           {% if shop.customer_accounts_enabled %}
             {% if customer %}
               <a class="header-account-link" href="{{ routes.account_url }}" aria-label="{{ 'sections.header.account' | t | escape }}">
