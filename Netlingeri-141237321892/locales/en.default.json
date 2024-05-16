@@ -140,7 +140,7 @@
     "inventory": {
       "in_stock": "In stock",
       "low_stock": "Low stock",
-      "only_x_left": "{{ quantity }} in stock",
+      "only_x_left": "{{ quantity }} in stock dfd",
       "x_left": "{{ quantity }} in stock, ready to ship"
     },
     "transfers": {

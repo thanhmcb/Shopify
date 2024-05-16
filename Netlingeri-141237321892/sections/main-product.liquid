@@ -401,7 +401,8 @@
             </div>
 
           {% when 'buy-buttons' %}
-            <buy-buttons class="buy-buttons-row block{% unless product.metafields.easypos.product_b8 %} klaviyo-enable{% endunless %}" {{ block.shopify_attributes }}>
+            <buy-buttons class="buy-buttons-row block
+            {% unless product.metafields.easypos.product_b8 %} klaviyo-enable{% endunless %}" {{ block.shopify_attributes }}>
               {% form 'product', product, id: product_form_id, class: 'form js-product-form ', data-product-id: product.id %}
                 <input type="hidden" name="id" value="{{ current_variant.id }}" disabled>
 
@@ -424,7 +425,7 @@
                     {% render 'gift-card-recipient', section: section %}
                   {% endif %}
 
-                  <div class="quantity-submit-row input-row {% if enable_dynamic_payment_button %}has-spb{% endif %}">
+                  <div class="quantity-submit-row {% if enable_dynamic_payment_button %}has-spb{% endif %}">
                     {% if block.settings.show_quantity_selector %}
                       <label class="label" for="quantity">{{ 'products.product.quantity' | t }}</label>
                       <quantity-wrapper class="quantity-wrapper">
@@ -434,7 +435,7 @@
                       </quantity-wrapper>
                     {% endif %}
 
-                    <div class="quantity-submit-row__submit input-row">
+                    <div class="quantity-submit-row__submit">
                       <div class="js-form-error lightly-spaced-row" role="alert" hidden></div>
 
                       {%- capture add_to_cart_text -%}
@@ -475,15 +476,8 @@
                   </div>
                 {% endif %}
               {% endform %}
-              {%  unless product.metafields.easypos.product_b8  %}  
-              <div class="quantity-submit-row input-row">
-                <div class="quantity-submit-row__submit input-row">
-                  <div class="wk-flex" style="display: flex;">
-                  <a class="klaviyo-bis-trigger btn btn--large quantity-submit-row input-row " href="#">{{ 'products.product.notify_text' | t }}</a>
-                  </div>
-                </div>
-              </div>         
-                
+              {%  unless product.metafields.easypos.product_b8  %}             
+                  <a class="klaviyo-bis-trigger btn btn--large  " href="#">{{ 'products.product.notify_text' | t }}</a>
                {% endunless %} 
               {%- if product.available and block.settings.show_pickup_availability -%}
                 {% render 'pickup-availability', current_variant: current_variant %}
@@ -2722,3 +2716,14 @@
   ]
 }
 {% endschema %}
+
+<script>
+  window.onload = function(){
+    const soldOutText = "{{ 'products.variant.no_stock' | t }}";
+    const buttonAddToCart = document.querySelector(".add-to-cart");
+    if (buttonAddToCart.textContent === soldOutText) {
+      buttonAddToCart.parentElement.parentElement.parentElement.parentElement.classList.add("form__product--sold-out");
+    }
+  }
+  
+</script>
