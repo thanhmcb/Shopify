@@ -864,24 +864,7 @@
       }
     ]
   },
-  {
-    "name": "Product button",
-    "settings": [
-      {
-        "type": "text",
-        "id": "discountnued_button",
-        "label": "If product is sold out"       
-      },
-      {
-        "type": "checkbox",
-        "id": "show_add_to_wishlist_when_sold_out",
-        "label": "Show Add to wishlist when sold out",
-        "default": true
-      
 
-      }
-    ]
-  },
   {
     "name": "Cart",
     "settings": [

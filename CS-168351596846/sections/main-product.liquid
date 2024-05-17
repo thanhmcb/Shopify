@@ -599,11 +599,22 @@ quick buy information in a template, that will be extracted in JS, but ensure it
         {
           "type": "checkbox",
           "id": "show_notify",
-          "label": "Show Notify",
-          "default": true,
-          "info":"OBS: If you want to change the text on the 'sold out' button:Go to Theme Settings > Product Button"
+          "label": "Show notify me button",
+          "default": true
+
         },
-        
+        {
+        "type": "text",
+        "id": "replace_sold_out_text",
+        "label": "Overwrite 'Sold out'",
+        "info": "If a product is sold out, and notify me is disabled, use this field to change the 'sold out' text"
+      },
+        {
+        "type": "checkbox",
+        "id": "show_add_to_wishlist_when_sold_out",
+        "label": "Show Add to wishlist when sold out",
+        "default": false
+      },
         {
           "type": "color",
           "id": "atc_button_background",
