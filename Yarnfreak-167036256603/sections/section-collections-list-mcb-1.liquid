@@ -4,11 +4,13 @@
   assign title = section.settings.title
   assign description = section.settings.description
   assign has_content = false
-  assign collection_list = section.settings.collection_list
   if title != blank or description != blank
     assign has_content = true
   endif
-
+   assign metafield_parts = section.settings.collection_list | split: '.' 
+ assign metafield_namespace = metafield_parts | first 
+   assign metafield_key = metafield_parts | last 
+   
   assign aspect_ratio = 1 | divided_by: section.settings.aspect_ratio
 
   assign grid_columns = section.settings.grid
@@ -18,8 +20,8 @@
 
     if section.settings.layout == 'slider'
       echo ' grid--slider'
-    endif
-
+  
+      endif
     if section.settings.layout_mobile == 'slider'
       echo ' grid--mobile-slider'
     endif
@@ -63,79 +65,65 @@
     {%- endunless -%}
   }
 {%- endstyle -%}
-{%- if collection_list != blank -%}
-  <section id="CollectionsList--{{ section.id }}"
-    class="index-collections-list section-padding"
-    data-section-id="{{ section.id }}"
-    data-section-type="list-collections">
-    <div class="grid-container{% if section.settings.layout == 'slider' and has_content %} grid-container--inline{% endif %}">
-      {%- if has_content -%}
-        <div class="grid__heading-holder{% if section.settings.layout == 'grid' %} text-center{% else %} grid__heading-holder--sticky{% endif %}">
-          <div class="grid__heading-text">
-            {%- if title != blank -%}
-              <h2 class="grid__heading heading-size-5">{{ title }}</h2>
-            {%- endif -%}
 
-            {%- if description != blank -%}
-              <div class="grid__description">
-                {{ description }}
-              </div>
-            {%- endif -%}
-          </div>
+<section id="CollectionsList--{{ section.id }}"
+  class="index-collections-list section-padding"
+  data-section-id="{{ section.id }}"
+  data-section-type="list-collections">
+  <div class="grid-container{% if section.settings.layout == 'slider' and has_content %} grid-container--inline{% endif %}">
+    {%- if has_content -%}
+      <div class="grid__heading-holder{% if section.settings.layout == 'grid' %} text-center{% else %} grid__heading-holder--sticky{% endif %}">
+        <div class="grid__heading-text">
+          {%- if title != blank -%}
+            <h2 class="grid__heading heading-size-5">{{ title }}</h2>
+          {%- endif -%}
+
+          {%- if description != blank -%}
+            <div class="grid__description">
+              {{ description }}
+            </div>
+          {%- endif -%}
         </div>
-      {%- endif -%}
+      </div>
+    {%- endif -%}
 
-      <div class="grid__items-holder">
-
-        <div class="grid-outer collection-list-outer">
-          <div
-            class="collection-list {{ grid_classes }}"
-            {% if section.settings.layout == 'slider' %}
-              data-slider="Slider--{{ section.id }}"
-              data-options='{"watchCSS": true, "cellAlign": "left", "pageDots": false, "prevNextButtons": true, "adaptiveHeight": false, "wrapAround": false, "groupCells": true}'
-              data-equalize-height="true"
-              data-arrow-position-middle
-              {% if request.design_mode %}
-                data-block-scroll
-              {% endif %}
-            {% endif %}>
-
-          
-
-          
-            {%- liquid
-          
-              if collection_list!= blank
-                for collection in collection_list                 
-                    assign animation_delay = forloop.index0 | times: 1
-                    assign layout_slide_attributes = 'data-slide="' | append: block.id | append: '" data-slide-index="' | append: forloop.index0 | append: '"'
-                    capture index
-                      cycle 1, 2, 3
-                    endcapture
-                    render 'collection-grid-item', collection: collection, aspect_ratio: aspect_ratio, animation_delay: animation_delay, animation_anchor: animation_anchor, additional_attributes: layout_slide_attributes, index: index
-                endfor
-              else
-                for i in (1..limit_onboarding)
-                  assign animation_delay = forloop.index0 | times: 1
-                  assign layout_slide_attributes = 'data-slide="' | append: forloop.index0 | append: '" data-slide-index="' | append: forloop.index0 | append: '"'
-                  capture index
-                    cycle 1, 2, 3
-                  endcapture
-                  render 'collection-grid-item', collection: collection, aspect_ratio: aspect_ratio, animation_delay: animation_delay, animation_anchor: animation_anchor, additional_attributes: layout_slide_attributes, index: index
-                endfor
+    <div class="grid__items-holder">
+      <div class="grid-outer collection-list-outer">
+        <div
+          class="collection-list {{ grid_classes }}"
+          {% if section.settings.layout == 'slider' %}
+            data-slider="Slider--{{ section.id }}"
+            data-options='{"watchCSS": true, "cellAlign": "left", "pageDots": false, "prevNextButtons": true, "adaptiveHeight": false, "wrapAround": false, "groupCells": true}'
+            data-equalize-height="true"
+            data-arrow-position-middle
+            {% if request.design_mode %}
+              data-block-scroll
+            {% endif %}
+          {% endif %}>
+          {%- liquid
+            if metafield_parts != blank
+             assign collection_list = collection.metafields[metafield_namespace][metafield_key].value 
+              for collection in collection_list 
+                assign animation_delay = forloop.index0 | times: 1
+                assign layout_slide_attributes = 'data-slide="' | append: block.id | append: '" data-slide-index="' | append: forloop.index0 | append: '"'
+                capture index
+                  cycle 1, 2, 3
+                endcapture
+                render 'collection-grid-item', collection: collection, aspect_ratio: aspect_ratio, animation_delay: animation_delay, animation_anchor: animation_anchor, additional_attributes: layout_slide_attributes, index: index
+              endfor
               endif
-            -%}
-          </div>
+           
+          -%}
         </div>
       </div>
     </div>
-  </section>
-{%- endif -%}
+  </div>
+</section>
+
 {% schema %}
 {
-  "name": "Collection list",
+  "name": "MCB metafield",
   "settings": [
-    
     {
       "type": "text",
       "id": "title",
@@ -148,9 +136,10 @@
       "label": "Text"
     },
     {
-          "label": "Collection",
+          "type": "text",
           "id": "collection_list",
-          "type": "collection_list"
+          "label": "Collection metafield"
+
         },
     {
       "type": "select",
@@ -256,12 +245,12 @@
       "default": 32
     }
   ],
-
+ 
   "presets": [
     {
       "category": "Collection",
-      "name": "Collection list"
-      
+      "name": "MCB metafield"
+     
     }
   ],
   "disabled_on": {
