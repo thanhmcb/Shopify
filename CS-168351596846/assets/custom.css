@@ -163,3 +163,14 @@ border: 1px solid rgba(255,255,255,0.7);
 .klaviyo-bis-trigger ~ form .button--subdued  {
   display: none;
 }
+
+.text_to_be_place {
+  display: none;
+}
+
+.buy-buttons .button{
+  flex-grow: 1;
+}
+.product-info__buy-buttons .btn-wishlist{
+  width: 60px;
+}

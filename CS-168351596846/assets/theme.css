@@ -10085,11 +10085,7 @@ input#wishlist-link {
 }
 
 @media screen and (min-width: 741px){
-  .buy-buttons .button{
-    width: 84%;
-      flex: 0 0 84%;
-      height: 60px;
-  }
+
   .mini-cart__terms{
     width: 576px;
   }
@@ -10738,9 +10734,7 @@ white-space: nowrap;
 }
 
 @media screen and (min-width: 700px){
-  .product-info__buy-buttons .btn-wishlist{
-    width: 60px;
-  }
+ 
   .product-info__buy-buttons .btn-wishlist:hover{
     --button-background-opacity: 0.85;
     background-color:rgb(var(--wishlist_button_background) / var(--button-background-opacity, 1));
@@ -10765,13 +10759,8 @@ white-space: nowrap;
   }
 }
 @media screen and (max-width: 699px){
-  .product-info__buy-buttons .btn-wishlist{
-    display: none;
-  }
-  .buy-buttons .button{
-    width: 100%;
-    flex: 0 0 100%;
-  }
+  
+  
   .shipping_info_container{
     text-align:center;
   }

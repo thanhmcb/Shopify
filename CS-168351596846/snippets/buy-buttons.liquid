@@ -37,7 +37,7 @@ Supported variables
         {{ 'product.general.pre_order_button' | t }}{%- endcapture -%}
     {%- else -%}
       {%- capture button_content -%}
-        <div data-buy-button class="a">
+        <div data-buy-button >
           {{ 'product.general.add_to_cart_button' | t }}
         </div>
       {%- endcapture -%}
@@ -76,6 +76,7 @@ Supported variables
         }
       </style>
     {%- endif -%}
+
     {%- render 'button-wishlist', product: product -%}
   </buy-buttons>
 

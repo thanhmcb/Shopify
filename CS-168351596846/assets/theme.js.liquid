@@ -2787,13 +2787,19 @@ var BuyButtons = class extends HTMLElement {
     if (!event.detail.variant) {
       addToCartButtonText.innerHTML = window.themeVariables.strings.unavailableButton;
       addToCartButton.classList.add("button--subdued");
+     
       if (paymentButton) {
         paymentButton.style.display = "none";
       }
     } else {
     
       addToCartButton.classList.add(event.detail.variant["available"] ? paymentButton || this.hasAttribute("force-secondary-button") ? "button--secondary" : "button" : "button--subdued");
-      addToCartButtonText.innerHTML = event.detail.variant["available"] ? this.getAttribute("template").includes("pre-order") ? window.themeVariables.strings.preOrderButton : window.themeVariables.strings.addToCartButton : window.themeVariables.settings.discountinedButton;
+      addToCartButtonText.innerHTML = event.detail.variant["available"] ? this.getAttribute("template").includes("pre-order") ? window.themeVariables.strings.preOrderButton : window.themeVariables.strings.addToCartButton : window.themeVariables.strings.soldOutButton;
+      const soldOutTextReplace = document.querySelector(".text_to_be_place").textContent;
+    
+        document.querySelector(".buy-buttons .button--subdued div").textContent = soldOutTextReplace;
+     
+      
       if (paymentButton) {
         paymentButton.style.display = event.detail.variant["available"] ? "block" : "none";
       }
