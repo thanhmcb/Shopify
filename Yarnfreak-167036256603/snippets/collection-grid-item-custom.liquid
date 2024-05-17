@@ -58,25 +58,7 @@
     <a aria-label="{{ collection.title | strip_html | escape }}" href="{{ collection.url }}" class="collection-item__content">
   {%- endif -%}
 
-    <div class="collection-item__image">
-      <div class="collection-item__bg"
-        data-aos="img-in"
-        data-aos-anchor="{{ animation_anchor }}"
-        data-aos-delay="{{ animation_delay | times: 150 }}"
-        data-aos-duration="{{ animation_duration }}"
-        data-aos-easing="ease-out-quart">
-        {%- liquid
-          if collection_image or collection != empty
-            render 'image' image: collection_image, sizes: sizes, aspect_ratio: aspect_ratio
-          else
-            capture placeholder
-              echo 'collection-' | append: index
-            endcapture
-            render 'image' placeholder: placeholder, aspect_ratio: aspect_ratio
-          endif
-        -%}
-      </div>
-    </div>
+   
 
     <div class="collection-item__info"
       data-aos="fade"
