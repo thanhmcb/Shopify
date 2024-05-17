@@ -15,6 +15,7 @@
 {% endcomment %}
 
 {%- liquid
+  assign collection = collections[block.settings.collection]
   assign collection_title = block.settings.title | default: collection.title
   assign collection_image = block.settings.collection_image | default: collection.image | default: collection.products.first.featured_media.preview_image
   assign additional_attributes = additional_attributes | default: ''

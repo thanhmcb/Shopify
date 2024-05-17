@@ -11,12 +11,11 @@
     - index: (Int) Index in the loop
 
     Usage:
-    {% render 'collection-grid-item', block: block, animation_delay: animation_delay, animation_anchor: animation_anchor, aspect_ratio: aspect_ratio, index: index %}
+    {% render 'collection-grid-item-custom', collection: collection, animation_delay: animation_delay, animation_anchor: animation_anchor, aspect_ratio: aspect_ratio, index: index %}
 {% endcomment %}
 
 {%- liquid
-  assign collection_title = block.settings.title | default: collection.title
-  assign collection_image = block.settings.collection_image | default: collection.image | default: collection.products.first.featured_media.preview_image
+  assign collection_image = collection.image | default: collection.products.first.featured_media.preview_image
   assign additional_attributes = additional_attributes | default: ''
   assign animation_duration = 800
 
@@ -58,7 +57,25 @@
     <a aria-label="{{ collection.title | strip_html | escape }}" href="{{ collection.url }}" class="collection-item__content">
   {%- endif -%}
 
-   
+    <div class="collection-item__image">
+      <div class="collection-item__bg"
+        data-aos="img-in"
+        data-aos-anchor="{{ animation_anchor }}"
+        data-aos-delay="{{ animation_delay | times: 150 }}"
+        data-aos-duration="{{ animation_duration }}"
+        data-aos-easing="ease-out-quart">
+        {%- liquid
+          if collection_image or collection != empty
+            render 'image' image: collection_image, sizes: sizes, aspect_ratio: aspect_ratio
+          else
+            capture placeholder
+              echo 'collection-' | append: index
+            endcapture
+            render 'image' placeholder: placeholder, aspect_ratio: aspect_ratio
+          endif
+        -%}
+      </div>
+    </div>
 
     <div class="collection-item__info"
       data-aos="fade"
@@ -66,8 +83,8 @@
       data-aos-delay="{{ animation_delay | times: 150 }}"
       data-aos-duration="{{ animation_duration }}">
       <span>
-        {%- if collection_title != blank -%}
-          {{ collection_title }}
+        {%- if collection.title != blank -%}
+          {{ collection.title }}
         {%- else -%}
           {{ 'collections.general.items.heading' | t }}
         {%- endif -%}
