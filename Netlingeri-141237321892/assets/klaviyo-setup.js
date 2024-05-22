@@ -1,7 +1,7 @@
 var klaviyo = klaviyo || [];
     klaviyo.init({
       account: "Rx7dRj",
-      list: "YOUR_LIST_ID",
+      list: "QQ4aVE",
       platform: "shopify"
     });
     klaviyo.enable("backinstock",{ 

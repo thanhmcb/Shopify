@@ -332,7 +332,7 @@ Parameters:
     {%- unless no_quick_buy_markup or no_quick_buy -%}
       <div class="quickbuy-container quickview-media quick-view-media-gallery--layout-{{ section.settings.gallery_layout }} use-color-scheme use-color-scheme--{{ settings.quickbuy_color_scheme }}">
         <a href="#" class="close-detail" aria-label="{{ 'accessibility.close' | t }}" tabindex="-1">{% render 'icon-close', stroke_width: 1 %}</a>
-        <div class="inner"></div>
+        <div class="inner section-quickview"></div>
       </div>
     {%- endunless -%}
   {%- endif -%}
