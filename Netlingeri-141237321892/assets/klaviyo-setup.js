@@ -1,6 +1,7 @@
 var klaviyo = klaviyo || [];
     klaviyo.init({
       account: "Rx7dRj",
+      list: "QQ4aVE",
       platform: "shopify"
     });
     klaviyo.enable("backinstock",{ 
@@ -17,6 +18,8 @@ var klaviyo = klaviyo || [];
      email_field_label: "Email",
      button_label: "Notify me when available",
      subscription_success_label: "You're in! We'll let you know when it's back.",
+     newsletter_subscribe_label: "Add me to your email list.",
+     subscribe_checked: true,
      footer_content: '',
      additional_styles: "@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans');",
      drop_background_color: "#000",

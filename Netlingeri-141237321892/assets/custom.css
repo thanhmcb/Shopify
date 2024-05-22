@@ -97,7 +97,8 @@
 
 /* product collection */
 .product-collection{
-  margin-top: -50px;
+  margin-top: -40px;
+  padding-bottom: 1rem;
 }
 
 .product-collection--items {
@@ -203,10 +204,34 @@ h2 {
 .klaviyo-enable .row-sold-out {
   display: none;
 }
+.klaviyo-enable.product-not-available .quantity-submit-row {
+   display: none;
+}
+.section-quickview .klaviyo-enable.product-not-available .quantity-submit-row {
+  display: block;
+}
 .product-form .quantity-submit-row .quantity-submit-row__submit {
   margin-top: 0;
 }
 .buy-buttons-row {
   margin-top: 10px;
+}
+
+/* add-on label */
+.product-info__property {
+  margin-bottom: 20px;
+}
+.product-info__property .form-control {
+  display: flex;
+}
+.product-info__property input[type="text"]{
+  border: unset;
+  padding: 0;
+  margin-left: .2rem;
+  font-size: unset;
+  width: 100%;
+}
+.product-info__property input[type="text"]:focus{
+  box-shadow: none;
 }
 
