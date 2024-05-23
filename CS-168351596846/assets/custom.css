@@ -174,3 +174,7 @@ border: 1px solid rgba(255,255,255,0.7);
 .product-info__buy-buttons .btn-wishlist{
   width: 60px;
 }
+
+.horizontal-product__cta .klaviyo-bis-trigger{
+  display: none !important;
+}
