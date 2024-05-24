@@ -238,9 +238,10 @@ h2 {
 .product-inventory__icon-low {
   color: green;
 }
-/*
+
 .product-info__property .form-control {
   display: flex;
+  width: 100%;
 }
 .product-info__property input[type="text"]{
   border: unset;
@@ -257,7 +258,7 @@ h2 {
 .product-info__property label {
   display: none;
 }
-*/
+
 
 
 

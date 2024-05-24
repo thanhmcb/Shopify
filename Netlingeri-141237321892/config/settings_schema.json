@@ -989,23 +989,7 @@
       }
     ]
   },
-  {
-    "name": "Cart Message - MCB ",
-    "settings": [
-      {
-        "type": "text",
-        "id": "property_label",
-        "label": "Message label",
-        "default": "OBS:"
-      },
-      {
-        "type": "text",
-        "id": "property_value",
-        "label": "Message value",
-        "default": "Fjernlagervare - Maks 2 ugers levering"
-      }
-    ]
-  },
+
   {
     "name": "Swatches",
     "settings": [

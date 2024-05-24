@@ -914,14 +914,29 @@
               </div>
             </div>
             {%- when 'add_on_text' -%}
-              {% if product.metafields.easypos.product_b8 %}
-                <div class="product-info__property">
-                  <div class="icon-circle"></div>
-                  <div class="line-item-property__value">{{ block.settings.note_msg }}</div>
-                </div>
-              {% endif %}
-
-            
+   
+                   {%- capture id -%}input-{{ section.id }}-{{ form }}-{{ name | handle }}{%- endcapture -%}
+                   {%- capture name -%}properties[{{ block.settings.label | escape }}]{%- endcapture -%}
+                   {%- capture optional_attributes -%}{% if form %}form="{{ form }}"{% endif %}{%- endcapture -%}
+                   {%- capture value -%}{{ block.settings.value | escape }}{%- endcapture -%}
+                   {% if product.metafields.easypos.product_b8 %}
+                     <div class="product-info__property" {{ block.shopify_attributes }}>
+                       <div class="icon-circle"></div>
+                       <div class="form-control" {{ block.shopify_attributes }}>
+                         {%- if block.settings.label != blank -%}
+                             <label for="{{ id }}"  name="{{ name }}" id="{{ id }}" class="floating-label cart-printing-label">{{ block.settings.label | escape_once }}</label>
+                           {%- endif -%}
+                         <input
+                           id="{{ id }}"
+                           type="{{ type | default: 'text' }}"
+                           name="{{ name }}"
+                           value="{{ value }}"
+                           form="{{ product_form_id }}" 
+                           maxlength="0"                
+                           {{ optional_attributes }}>
+                       </div>                
+                     </div>
+                   {% endif %}
         {% endcase %}
       {% endfor %}
 
@@ -2726,12 +2741,18 @@
     },
     {
         "type": "add_on_text",
-        "name": "Add-on text",
+        "name": "Add-on text - MCB ",
         "settings": [
           {
             "type": "text",
-            "id": "note_msg",
-            "label": "Add-on text",
+            "id": "label",
+            "label": "Add-on label",
+            "default": "OBS"
+          },
+          {
+            "type": "text",
+            "id": "value",
+            "label": "Add-on vlue",
             "default": "Fjernlager - Maks 2 ugers levering"
           }
         ]

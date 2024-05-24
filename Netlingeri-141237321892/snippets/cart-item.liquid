@@ -38,19 +38,11 @@
               </div>
             {%- endfor -%}
           {%- endif -%}
-      
-          {% if item.product.metafields.easypos.product_b8 %}
-            
-          <div class="line-item-property">
-            <span class="line-item-property__label">{{ settings.property_label }}</span>
-            <span class="line-item-property__value">{{ settings.property_value }}</span>
-          </div>
-        {%- endif -%}
           {%- for property in item.properties -%}
             {%- assign property_first_char = property.first | slice: 0 -%}
             {% if property.last != blank and property_first_char != '_' %}
               <div class="line-item-property">
-                <span class="line-item-property__label">{{ property.first | escape_once }}</span>
+                <span class="line-item-property__label">{{ property.first | escape_once }}:</span>
                 <span class="line-item-property__value">
                   {%- if property.last contains '/uploads/' -%}
                     <a href="{{ property.last }}">{{ property.last | split: '/' | last }}</a>
