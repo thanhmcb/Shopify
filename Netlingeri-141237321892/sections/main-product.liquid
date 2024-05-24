@@ -503,7 +503,7 @@
               endif
             -%}
             {%- if content != blank -%}
-              <div class="product-info-accordion{% unless block.settings.show_in_quickbuy %} not-in-quickbuy{% endunless %}" {{ block.shopify_attributes }}>
+              <div class="product-info-accordion{% unless block.settings.show_in_quickbuy %} not-in-quickbuy{% endunless %}{% if block.settings.title == 'Materiale' %} product-info-accordion_material{% endif %}" {{ block.shopify_attributes }}>
                 <details-disclosure>
                   <details class="disclosure"{% if block.settings.open %} open{% endif %}>
                     <summary class="disclosure__title">
@@ -913,28 +913,14 @@
                   {% endfor %}
               </div>
             </div>
-            {%- when 'text_block' -%}
-                {%- capture id -%}input-{{ section.id }}-{{ form }}-{{ name | handle }}{%- endcapture -%}
-                {%- capture name -%}properties[{{ block.settings.label | escape }}]{%- endcapture -%}
-                {%- capture optional_attributes -%}{% if form %}form="{{ form }}"{% endif %}{%- endcapture -%}
-                {%- capture value -%}{{ block.settings.value | escape }}{%- endcapture -%}
-                {% if product.metafields.easypos.product_b8 %}
-                  <div class="product-info__property" {{ block.shopify_attributes }}>
-                    <div class="form-control" {{ block.shopify_attributes }}>
-                      {%- if block.settings.label != blank -%}
-                          <label for="{{ id }}"  name="{{ name }}" id="{{ id }}" class="floating-label cart-printing-label">{{ block.settings.label | escape_once }}</label>
-                        {%- endif -%}
-                      <input
-                        id="{{ id }}"
-                        type="{{ type | default: 'text' }}"
-                        name="{{ name }}"
-                        value="{{ value }}"
-                        form="{{ product_form_id }}" 
-                        maxlength="0"                
-                        {{ optional_attributes }}>
-                    </div>                
-                  </div>          
-                {% endif %}
+            {%- when 'add_on_text' -%}
+              {% if product.metafields.easypos.product_b8 %}
+                <div class="product-info__property">
+                  <div class="icon-circle"></div>
+                  <div class="line-item-property__value">{{ block.settings.note_msg }}</div>
+                </div>
+              {% endif %}
+
             
         {% endcase %}
       {% endfor %}
@@ -2739,24 +2725,15 @@
       ]
     },
     {
-        "type": "text_block",
-        "name": "Add-on note",
+        "type": "add_on_text",
+        "name": "Add-on text",
         "settings": [
-         
           {
             "type": "text",
-            "id": "label",
-            "label": "Add-on label",
-            "default": "Bemærk"
-          },
-
-         {
-            "type": "text",
-            "id": "value",
+            "id": "note_msg",
             "label": "Add-on text",
             "default": "Fjernlager - Maks 2 ugers levering"
           }
-          
         ]
       }
   ]
@@ -2773,11 +2750,41 @@
 
   }
   
-  const tabsContent = document.querySelectorAll('.product-info-accordion .disclosure__content p');
-  tabsContent.forEach(el => {
-      if (el.textContent.trim().length === 0 ) el.style.display = "none";
-    });
+  const tabsContent = document.querySelectorAll('.product-info-accordion_material .disclosure__content p');
+    tabsContent.forEach(el => {
+      var str = el.innerHTML;
+      var myarray = str.split('<br>');
+      for(var i = 0; i < myarray.length; i++)
+        {
+            let div = document.createElement('div');
+            div.classList.add('spec_item');
+            let text = document.createTextNode(myarray[i]);
+            div.appendChild(text);
+            el.appendChild(div);
+           
+        }
+       
+      if (el.textContent.trim().length === 0 ) el.style.display = "none";   
+    }) 
 
-   
+    const specItem = document.querySelectorAll('.product-info-accordion_material .disclosure__content .spec_item');
+    specItem.forEach(item => {
+      var testStr = item.textContent;
+      if( testStr.includes(":")){
+        var splitStr = testStr.substring(testStr.indexOf(':') + 1);       
+        if (!splitStr){
+          item.style.display = "none";
+        }
+      }     
+    });
+        
+        
+        
+     
+
+    
+  
+    
+
 
 </script>

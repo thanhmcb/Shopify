@@ -344,7 +344,7 @@
                 {%- endif -%}
               
             {%- endif -%}
-              {%- render 'buy-buttons', product: product, form_id: product_form_id, show_notify: block.settings.show_notify, show_payment_button: block.settings.show_payment_button, atc_button_background: block.settings.atc_button_background, atc_button_text_color: block.settings.atc_button_text_color, payment_button_background: block.settings.payment_button_background, payment_button_text_color: block.settings.payment_button_text_color -%}
+              {%- render 'buy-buttons', product: product, form_id: product_form_id, show_payment_button: block.settings.show_payment_button, atc_button_background: block.settings.atc_button_background, atc_button_text_color: block.settings.atc_button_text_color, payment_button_background: block.settings.payment_button_background, payment_button_text_color: block.settings.payment_button_text_color -%}
               {%- if block.settings.replace_sold_out_text != blank -%} 
                 <div class="text_to_be_place">{{ block.settings.replace_sold_out_text }}</div>
               {%- endif -%}

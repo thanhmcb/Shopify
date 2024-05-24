@@ -220,7 +220,25 @@ h2 {
 /* add-on label */
 .product-info__property {
   margin-bottom: 20px;
+  display: flex;
+  align-items: center;
 }
+.product-info__property .icon-circle{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  background: orange;
+}
+
+.product-info__property .line-item-property__value{
+  text-transform: uppercase;
+}
+
+.product-inventory__icon-low {
+  color: green;
+}
+/*
 .product-info__property .form-control {
   display: flex;
 }
@@ -230,8 +248,31 @@ h2 {
   margin-left: .2rem;
   font-size: unset;
   width: 100%;
+  text-transform: uppercase;
 }
 .product-info__property input[type="text"]:focus{
   box-shadow: none;
 }
 
+.product-info__property label {
+  display: none;
+}
+*/
+
+
+
+.product-info-accordion_material p > .spec_item {
+  visibility: visible; 
+  line-height: 20px !important;
+}
+.product-info-accordion_material p > .spec_item:not(:last-child){
+  margin-bottom: .3rem;
+}
+.product-info-accordion_material p br {
+  display: none;
+}
+
+.product-info-accordion_material p {
+  visibility: hidden;
+  line-height: 0;
+}

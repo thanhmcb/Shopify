@@ -92,6 +92,7 @@
         "label": "Background hover",
         "default": "#000000"
       },
+
       {
         "type": "color",
         "id": "btn_color_text",
@@ -985,6 +986,23 @@
         "label": "Show rating in product grid",
         "info": "Add reviews by installing [an app](https:\/\/apps.shopify.com\/search?q=reviews). App must support Shopify's standard rating metafield.",
         "default": true
+      }
+    ]
+  },
+  {
+    "name": "Cart Message - MCB ",
+    "settings": [
+      {
+        "type": "text",
+        "id": "property_label",
+        "label": "Message label",
+        "default": "OBS:"
+      },
+      {
+        "type": "text",
+        "id": "property_value",
+        "label": "Message value",
+        "default": "Fjernlagervare - Maks 2 ugers levering"
       }
     ]
   },
