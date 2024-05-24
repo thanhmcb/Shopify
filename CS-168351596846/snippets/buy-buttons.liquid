@@ -49,7 +49,7 @@ Supported variables
   {%- endif -%}
 
   <buy-buttons
-    class="buy-buttons {% if show_payment_button %}buy-buttons--multiple{% endif %}"
+    class="buy-buttons {% if show_payment_button %}buy-buttons--multiple{% endif %}{% unless show_notify %} notify_disable{% endunless  %}"
     template="{{ product.template_suffix | escape }}"
     form="{{ form_id }}">
     {% assign buyButton = "data-buy-button" %}

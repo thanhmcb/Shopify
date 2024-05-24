@@ -2795,6 +2795,7 @@ var BuyButtons = class extends HTMLElement {
     
       addToCartButton.classList.add(event.detail.variant["available"] ? paymentButton || this.hasAttribute("force-secondary-button") ? "button--secondary" : "button" : "button--subdued");
       addToCartButtonText.innerHTML = event.detail.variant["available"] ? this.getAttribute("template").includes("pre-order") ? window.themeVariables.strings.preOrderButton : window.themeVariables.strings.addToCartButton : window.themeVariables.strings.soldOutButton;
+      addToCartButton.classList.remove("button--sold-out");
       const soldOutTextReplace = document.querySelector(".text_to_be_place").textContent;
     
         document.querySelector(".buy-buttons .button--subdued div").textContent = soldOutTextReplace;

@@ -138,8 +138,13 @@ border: 1px solid rgba(255,255,255,0.7);
 }
 
 .product-available__buy-buttons .klaviyo-bis-trigger{
-  display: none;
+  display: none ;
 }
+
+.notify_disable ~ .klaviyo-bis-trigger {
+  display: none !important;
+}
+
 
 
 .block-swatch.is-disabled{
@@ -177,4 +182,14 @@ border: 1px solid rgba(255,255,255,0.7);
 
 .horizontal-product__cta .klaviyo-bis-trigger{
   display: none !important;
+}
+
+@media screen and (max-width: 600px) {
+  .product-info__buy-buttons .btn-wishlist {
+    display: none;
+  }
+  .klaviyo-bis-trigger{
+    width: 100%;
+    flex: 0 0 100%;
+  }
 }
