@@ -104,13 +104,7 @@ only way to do it on Shopify right now.
             class="mobile-touch-area">
             <div class="circle-button circle-button--fill ring">{%- render 'icon' with 'image-zoom' -%}</div>
           </button>
-          {% style %}
-           {%- unless settings.show_add_to_wishlist_when_sold_out-%} 
-            .product-gallery__zoom .button-hide{
-              display:none;
-            }
-           {%- endunless -%}
-          {% endstyle %}
+          
           {%- render 'button-wishlist-custom', product: product -%}
         </div>
       {%- endif -%}

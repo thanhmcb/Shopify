@@ -4,6 +4,9 @@
     .product-price__font-size {
     font-size: {{ section.settings.header_font_size_mobile }}px;
   }
+
+           
+       
   @media screen and (min-width: 700px) {
     .product-price__font-size {
       font-size: {{ section.settings.header_font_size_desktop }}px;
@@ -54,9 +57,16 @@
       --product-gallery-media-list-gap: var(--grid-gutter);
     }
   }
+  {%- unless section.settings.show_add_to_wishlist_when_sold_out -%} 
+    .btn-wishlist.button--hide{
+      display:none;
+    }
+   
+  {%- endunless -%}
 </style>
 
 <div {% render 'section-properties', tight: true %}>
+  
   <div class="product">
     {%- if product.media.size > 0 -%}
       {%- render 'product-gallery', product: product -%}
@@ -609,12 +619,7 @@ quick buy information in a template, that will be extracted in JS, but ensure it
         "label": "Overwrite 'Sold out'",
         "info": "If a product is sold out, and notify me is disabled, use this field to change the 'sold out' text"
       },
-        {
-        "type": "checkbox",
-        "id": "show_add_to_wishlist_when_sold_out",
-        "label": "Show Add to wishlist when sold out",
-        "default": false
-      },
+       
         {
           "type": "color",
           "id": "atc_button_background",
@@ -1636,6 +1641,12 @@ quick buy information in a template, that will be extracted in JS, but ensure it
       "default": true
     },
     {
+        "type": "checkbox",
+        "id": "show_add_to_wishlist_when_sold_out",
+        "label": "Show Add to wishlist when sold out",
+        "default": false
+      },
+    {
       "type": "header",
       "content": "Media"
     },
@@ -1822,15 +1833,13 @@ quick buy information in a template, that will be extracted in JS, but ensure it
 
 <script>
   $(document).ready(function() {
+  
     $('.buy-buttons .button:not(.button--subdued)').closest('.product-info__buy-buttons').addClass('product-available__buy-buttons');
     var moretext = "{{ 'general.accessibility.read_more' | t }}";
     var lesstext = "{{ 'general.accessibility.read_less' | t }}";
     $('.variant-block-title ').remove();
     //$('.product-info__engraving input').removeAttr( "required" );
 
-
-    
-  
      $('.variant-picker .variant-picker__option:nth-child(1) .option-value .value-custom').each(function(index) {
       var wrapClass = $(this).text().toLowerCase();
       var item = $('.' + wrapClass);
@@ -1895,6 +1904,8 @@ quick buy information in a template, that will be extracted in JS, but ensure it
       });
 });
 
+
+
   var mainProductFormId = document.getElementById('mainproductId');
     var mainProductForm = document.querySelector('form#'+mainProductFormId.dataset.formId+'.shopify-product-form');
     var engravingElementCopy = document.createElement("input");
@@ -1930,6 +1941,7 @@ quick buy information in a template, that will be extracted in JS, but ensure it
       engravingElementsGroup = document.querySelector(".product-info__property.product-info__engraving");
       engravingElementsGroup.childNodes[0].prepend(engravingElementCopy);
     }
- 
 
+
+    
 </script>

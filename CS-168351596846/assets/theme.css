@@ -8354,7 +8354,6 @@ div.image-link-blocks__item > a > p {
   color: rgb(var(--button-text-color, var(--button-text-primary))) !important;
   font-family: var(--text-font-family) !important;
   font-style: var(--text-font-style) !important;
-  font-weight: bolder !important;
   font-size: var(--shopify-payment-button-font-size, var(--text-base)) !important;
   text-align: center !important;
   line-height: inherit !important;

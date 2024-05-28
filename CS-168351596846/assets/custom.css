@@ -137,13 +137,8 @@ border: 1px solid rgba(255,255,255,0.7);
   pointer-events: none;
 }
 
-.product-available__buy-buttons .klaviyo-bis-trigger{
-  display: none ;
-}
 
-.notify_disable ~ .klaviyo-bis-trigger {
-  display: none !important;
-}
+
 
 
 
@@ -165,11 +160,9 @@ border: 1px solid rgba(255,255,255,0.7);
   rgba(0,0,0,0) 100%);
 }
 
-.klaviyo-bis-trigger ~ form .button--subdued  {
-  display: none;
-}
 
-.text_to_be_place {
+
+.text_to_replace {
   display: none;
 }
 
@@ -192,4 +185,28 @@ border: 1px solid rgba(255,255,255,0.7);
     width: 100%;
     flex: 0 0 100%;
   }
+  .buy-buttons{
+    flex-direction: column;
+  }
+  .buy-buttons .button, .buy-buttons .shopify-payment-button{
+    width: 100%;
+  }
 }
+
+
+
+
+.notify_enable .button:not(.button--subdued) ~ .shopify-payment-button ~ .klaviyo-bis-trigger{
+  display: none !important;
+}
+.notify_enable .button--discontinued.button--subdued, .notify_enable .button--discontinued.button--subdued ~ .shopify-payment-button {
+  display: none;
+}
+.notify_disable ~ .klaviyo-bis-trigger{
+  display: none !important;
+}
+.notify_disable .button--subdued ~ .shopify-payment-button {
+  display: none;
+}
+
+

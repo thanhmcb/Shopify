@@ -2769,6 +2769,7 @@ var BuyButtons = class extends HTMLElement {
     this._onVariantChangedListener = this._onVariantChanged.bind(this);
     this._onCartErrorListener = this._onCartError.bind(this);
   }
+  
   connectedCallback() {
     this._productForm = document.forms[this.getAttribute("form")];
     this._productForm?.addEventListener("variant:change", this._onVariantChangedListener);
@@ -2781,13 +2782,16 @@ var BuyButtons = class extends HTMLElement {
   _onVariantChanged(event) {
 
     const addToCartButton = this.querySelector('button[type="submit"]'), paymentButton = this.querySelector(".shopify-payment-button");
+    const addToWishlist = this.querySelector(".btn-wishlist");
     addToCartButton.classList.remove("button--secondary", "button--subdued");
+    addToWishlist.classList.remove("button--hide");
     addToCartButton.disabled = !event.detail.variant || !event.detail.variant["available"];
     const addToCartButtonText = addToCartButton.getAttribute("is") === "custom-button" ? addToCartButton.firstElementChild : addToCartButton;
     if (!event.detail.variant) {
       addToCartButtonText.innerHTML = window.themeVariables.strings.unavailableButton;
       addToCartButton.classList.add("button--subdued");
-     
+      addToWishlist.classList.add("button--hide");
+      
       if (paymentButton) {
         paymentButton.style.display = "none";
       }
@@ -2795,12 +2799,15 @@ var BuyButtons = class extends HTMLElement {
     
       addToCartButton.classList.add(event.detail.variant["available"] ? paymentButton || this.hasAttribute("force-secondary-button") ? "button--secondary" : "button" : "button--subdued");
       addToCartButtonText.innerHTML = event.detail.variant["available"] ? this.getAttribute("template").includes("pre-order") ? window.themeVariables.strings.preOrderButton : window.themeVariables.strings.addToCartButton : window.themeVariables.strings.soldOutButton;
-      addToCartButton.classList.remove("button--sold-out");
-      const soldOutTextReplace = document.querySelector(".text_to_be_place").textContent;
-    
-        document.querySelector(".buy-buttons .button--subdued div").textContent = soldOutTextReplace;
-     
+      addToWishlist.classList.add(event.detail.variant["available"] ? paymentButton || this.hasAttribute("force-secondary-button") ? "button--secondary" : "button" : "button--hide");
+      const textToReplace = this.querySelector('.text_to_replace').textContent;
+      if (textToReplace.trim().length !== 0) {
+        this.querySelector('.button--subdued div').textContent = textToReplace;
+      }
+        
       
+    
+
       if (paymentButton) {
         paymentButton.style.display = event.detail.variant["available"] ? "block" : "none";
       }
@@ -3179,15 +3186,15 @@ var ProductGallery = class extends HTMLElement {
   }
   _onVariantChanged(event) {
     const filteredIndexes = this._getFilteredMediaIndexes(event.detail.product, event.detail.variant);
-    const productGallery = document.querySelector('.product-gallery__zoom .btn-wishlist');
+    const btnWishlist = this.querySelector('.btn-wishlist');
 
     if (!event.detail.variant["available"]) {
      console.log("thanh");
-       productGallery.classList.add("button-hide");
+     btnWishlist.classList.add("button--hide");
      
    } else {
     console.log("khoi");
-    productGallery.classList.remove("button-hide");
+    btnWishlist.classList.remove("button--hide");
     
    }
     this._carousels.forEach((carousel) => carousel.dispatchEvent(new CustomEvent("carousel:filter", { detail: { filteredIndexes } })));
