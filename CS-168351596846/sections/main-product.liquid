@@ -57,8 +57,8 @@
       --product-gallery-media-list-gap: var(--grid-gutter);
     }
   }
-  {%- unless section.settings.show_add_to_wishlist_when_sold_out -%} 
-    .btn-wishlist.button--hide{
+  {%- unless section.settings.show_add_to_wishlist_when_sold_out_mobile -%} 
+    .btn-wishlist.mobile-touch-area.button--hide{
       display:none;
     }
    
@@ -613,6 +613,12 @@ quick buy information in a template, that will be extracted in JS, but ensure it
           "default": true
 
         },
+        {
+        "type": "checkbox",
+        "id": "show_add_to_wishlist_when_sold_out",
+        "label": "Show Add to wishlist when sold out",
+        "default": false
+      },
         {
         "type": "text",
         "id": "replace_sold_out_text",
@@ -1642,8 +1648,8 @@ quick buy information in a template, that will be extracted in JS, but ensure it
     },
     {
         "type": "checkbox",
-        "id": "show_add_to_wishlist_when_sold_out",
-        "label": "Show Add to wishlist when sold out",
+        "id": "show_add_to_wishlist_when_sold_out_mobile",
+        "label": "Show Add to wishlist when sold out on product image (mobile)",
         "default": false
       },
     {
