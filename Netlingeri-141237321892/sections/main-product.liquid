@@ -402,9 +402,7 @@
 
           {% when 'buy-buttons' %}  
             <buy-buttons class="buy-buttons-row block
-            {% unless product.metafields.easypos.product_b8 %} klaviyo-enable{% endunless %}{% unless product.available %} product-not-available{% endunless %}{%- if request.page_type == 'collection' -%} collection-quick-view{% endif %}" {{ block.shopify_attributes }}>
-              
-               
+            {% unless product.metafields.easypos.product_b8 %} klaviyo-enable{% endunless %}{% unless product.available %} product-not-available{% endunless %}{%- if request.page_type == 'collection' -%} collection-quick-view{% endif %}" {{ block.shopify_attributes }}>                             
               {% form 'product', product, id: product_form_id, class: 'form js-product-form ', data-product-id: product.id %}
                 <input type="hidden" name="id" value="{{ current_variant.id }}" disabled>
 
@@ -478,12 +476,10 @@
                   </div>
                 {% endif %}
               {% endform %}
-           
-           
-              {%  unless product.metafields.easypos.product_b8  %}    
+              {%  unless product.metafields.easypos.product_b8  %}  
                      
-                  <a class="klaviyo-bis-trigger btn btn--large not-in-quickbuy" href="#">{{ 'products.product.notify_text' | t }}</a>
-          
+                      <a class="klaviyo-bis-trigger btn btn--large {% if product.selected_or_first_available_variant.available  %} product-first-variant-available{% endif %}" href="#">{{ 'products.product.notify_text' | t }}</a>  
+                  
                {% endunless %} 
               {%- if product.available and block.settings.show_pickup_availability -%}
                 {% render 'pickup-availability', current_variant: current_variant %}
@@ -492,7 +488,7 @@
 
           {% when 'inventory-level' %}
             <div {% unless block.settings.show_in_quickbuy %}class="not-in-quickbuy"{% endunless %} {{ block.shopify_attributes }}>
-              {%- render 'product-inventory', product: product, current_variant: current_variant, block: block -%}
+              {%- render 'product-inventory', product: product, current_variant: current_variant, block: block, activate_b8_info: block.settings.activate_b8_info, value: block.settings.value -%}
             </div>
 
           {% when 'accordion' %}
@@ -913,30 +909,9 @@
                   {% endfor %}
               </div>
             </div>
-            {%- when 'add_on_text' -%}
+
    
-                   {%- capture id -%}input-{{ section.id }}-{{ form }}-{{ name | handle }}{%- endcapture -%}
-                   {%- capture name -%}properties[{{ block.settings.label | escape }}]{%- endcapture -%}
-                   {%- capture optional_attributes -%}{% if form %}form="{{ form }}"{% endif %}{%- endcapture -%}
-                   {%- capture value -%}{{ block.settings.value | escape }}{%- endcapture -%}
-                   {% if product.metafields.easypos.product_b8 %}
-                     <div class="product-info__property" {{ block.shopify_attributes }}>
-                       <div class="icon-circle"></div>
-                       <div class="form-control" {{ block.shopify_attributes }}>
-                         {%- if block.settings.label != blank -%}
-                             <label for="{{ id }}"  name="{{ name }}" id="{{ id }}" class="floating-label cart-printing-label">{{ block.settings.label | escape_once }}</label>
-                           {%- endif -%}
-                         <input
-                           id="{{ id }}"
-                           type="{{ type | default: 'text' }}"
-                           name="{{ name }}"
-                           value="{{ value }}"
-                           form="{{ product_form_id }}" 
-                           maxlength="0"                
-                           {{ optional_attributes }}>
-                       </div>                
-                     </div>
-                   {% endif %}
+                   
         {% endcase %}
       {% endfor %}
 
@@ -1657,7 +1632,13 @@
           "id": "show_in_quickbuy",
           "label": "Show in quick buy",
           "default": true
+        },{
+          "type": "checkbox",
+          "id": "activate_b8_info",
+          "label": "Activate B8 info"
         }
+       
+          
       ]
     },
     {
@@ -2738,25 +2719,8 @@
           "default": false
         }
       ]
-    },
-    {
-        "type": "add_on_text",
-        "name": "Add-on text - MCB ",
-        "settings": [
-          {
-            "type": "text",
-            "id": "label",
-            "label": "Add-on label",
-            "default": "OBS"
-          },
-          {
-            "type": "text",
-            "id": "value",
-            "label": "Add-on vlue",
-            "default": "Fjernlager - Maks 2 ugers levering"
-          }
-        ]
-      }
+    }
+
   ]
 }
 {% endschema %}
@@ -2793,19 +2757,13 @@
       var testStr = item.textContent;
       if( testStr.includes(":")){
         var splitStr = testStr.substring(testStr.indexOf(':') + 1);       
-        if (!splitStr){
+        if (splitStr.trim().length === 0){
           item.style.display = "none";
         }
       }     
-    });
-        
-        
-        
-     
+    })
 
-    
-  
-    
-
+ 
+        
 
 </script>

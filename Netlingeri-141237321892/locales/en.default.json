@@ -140,8 +140,10 @@
     "inventory": {
       "in_stock": "In stock",
       "low_stock": "Low stock",
-      "only_x_left": "{{ quantity }} in stock dfd",
-      "x_left": "{{ quantity }} in stock, ready to ship"
+      "only_x_left": "{{ quantity }} in stock",
+      "x_left": "{{ quantity }} in stock, ready to ship",
+      "b8_advisory_in_cart_and_checkout_and_orderconfirmation":"OBS: ",
+      "b8_message_in_cart_and_checkout_and_orderconfirmation":"Fjernlager - Maks 2 ugers levering"
     },
     "transfers": {
       "will_not_ship_until": "Ships {{ date }}",

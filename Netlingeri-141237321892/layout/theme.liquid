@@ -170,6 +170,9 @@
     {{- settings.custom_html_head -}}
     <!-- CC Custom Head End -->
   {%- endif -%}
+
+ <!-- Wishlist notification -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
 </head>
 
 <body class="template-{{ template | split: '.' | first | handle }}
@@ -225,6 +228,9 @@
   <script src="{{ klaviyo_script | asset_url }}" defer></script>
  -->
  <script src="{{ 'klaviyo-setup.js' | asset_url }}" defer></script>
+
+  <!-- Wishlist notification -->
+ <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 
 </body>
 </html>

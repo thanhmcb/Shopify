@@ -3980,10 +3980,7 @@ shopify-payment-terms {
 .product-form .quantity-submit-row {
   margin-bottom: 0;
 }
-.product-form .quantity-submit-row .quantity-submit-row__submit {
-  margin-top: 40px;
-  margin-bottom: 20px;
-}
+
 .product-form
   .quantity-submit-row
   .quantity-submit-row__submit
