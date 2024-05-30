@@ -1,0 +1,170 @@
+{
+  "sections": {
+    "slideshow_JEWhcH": {
+      "type": "slideshow",
+      "blocks": {
+        "image_7K6c3R": {
+          "type": "image",
+          "settings": {
+            "image": "{{ collection.image }}",
+            "hide_on_desktop": true,
+            "mobile_image": "{{ collection.metafields.custom.header_picture.value }}",
+            "slide_link": "",
+            "subheading": "",
+            "title": "{{ collection.title }}",
+            "heading_max_width": 15,
+            "title_size": 70,
+            "title_size_mobile": 40,
+            "use_h1": true,
+            "text": "<p>{{ collection.metafields.custom.top_text.value }}<\/p>",
+            "enlarge_text": false,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_7K6c3R"
+      ],
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 500,
+        "height_mobile": 340,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full image-overlay--bg-shadow",
+        "transition": "fade",
+        "navigation": "none",
+        "autoplay": false,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "collection_list_4Kfw9F": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_8kmWkX": {
+          "type": "collection",
+          "settings": {
+            "collection": "{{ collection }}",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_8kmWkX"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "enable_carousel": true,
+        "grid": 5,
+        "color_scheme": "default",
+        "full_width": true,
+        "coll_grid_image_shape": "square",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": true,
+        "coll_text_position": "over-full image-overlay--bg-shadow",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "link"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": false,
+        "show_image_behind_heading": false,
+        "show_in_quickbuy": false,
+        "gallery_layout": "carousel-under",
+        "heading_image_height": "huge",
+        "overlay_style": "full image-overlay--bg-shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 30,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": true,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "text_uppercase": true,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "show_disabled_filters": false,
+        "auto_apply_hide_unavailable": true,
+        "enable_sticky_filter": true,
+        "filter_two_columns": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": false,
+        "sort_show_price": true,
+        "sort_show_date": false,
+        "related_collections": "{{ collection.metafields.custom.subcollection.value }}",
+        "related_collections_style": "gallery",
+        "rel_coll_gall_aspect_ratio": "2",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": true,
+        "rel_coll_gall_overlay_style": "full image-overlay--bg-shadow",
+        "rel_coll_gall_text_alignment": "bottom left",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "rich_text_cUtPYE": {
+      "type": "rich-text",
+      "blocks": {
+        "text_LfzYKC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ collection.metafields.custom.seo_tekst.value }}<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_LfzYKC"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "left",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "custom_liquid_e3Yz9H": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "code": "{{collection.metafields.custom.seo_tekst}}"
+      }
+    },
+    "size_guide_mcb_section_EkatcQ": {
+      "type": "size-guide-mcb-section",
+      "settings": {
+        "size_chart_mcb_heading": "",
+        "size_chart_mcb_intro": "<p>Calculate your bra size starting from your measurements. You'll need this: an underwire bra that fits you well - preferably without padding - & a tape measure.<\/p>",
+        "size_chart_mcb_step1_heading": "Measure your band",
+        "size_chart_mcb_step1_label": "Band measurement (in cm) *",
+        "size_chart_mcb_step2_heading": "Measure your cup",
+        "size_chart_mcb_step2_label": "Exact cup measurement (in cm) *",
+        "script_size_guide_data": "size-guide-data.js",
+        "script_size_to_collection_relation": "size-to-collection-relation.js"
+      }
+    }
+  },
+  "order": [
+    "slideshow_JEWhcH",
+    "collection_list_4Kfw9F",
+    "main",
+    "rich_text_cUtPYE",
+    "custom_liquid_e3Yz9H",
+    "size_guide_mcb_section_EkatcQ"
+  ]
+}
