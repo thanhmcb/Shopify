@@ -2835,6 +2835,7 @@ const ProductForm = class extends HTMLElement {
 
 window.customElements.define('product-form', ProductForm);
 
+
 class ProductInventory extends HTMLElement {
   constructor() {
     super();
@@ -2913,6 +2914,10 @@ class ProductInventory extends HTMLElement {
 }
 
 customElements.define('product-inventory', ProductInventory);
+
+
+
+
 
 if (!customElements.get('quantity-wrapper')) {
   class QuantityWrapper extends HTMLElement {

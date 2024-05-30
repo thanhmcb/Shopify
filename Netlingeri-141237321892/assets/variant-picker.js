@@ -83,13 +83,12 @@ if (!customElements.get("variant-picker")) {
 
       this.addBtn.disabled = !variantAvailable;
       if (!variantAvailable) {
-        console.log("thanh");
         this.productForm.classList.add("form__product--sold-out");
-       
+        this.productForm.classList.remove("form__product");
        
       } else {
-        console.log("thanh2");
         this.productForm.classList.remove("form__product--sold-out");
+        this.productForm.classList.add("form__product");
       };
       this.addBtn.textContent = variantAvailable
         ? this.addBtn.dataset.addToCartText

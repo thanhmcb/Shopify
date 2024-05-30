@@ -2,7 +2,15 @@
   data-show-inventory-notice="{{ block.settings.show_inventory_notice }}"
   data-show-inventory-count="{{ block.settings.show_inventory_count }}"
   data-threshold="{{ block.settings.inventory_threshold }}"
-  data-text-x-left-low="{{ 'products.inventory.only_x_left' | t: quantity: '[QTY]' }}"
+  {%- if block.settings.activate_b8_info -%}
+    {%- if product.metafields.easypos.product_b8 -%}
+      data-text-x-left-low="{{ 'products.inventory.b8_message_in_cart_and_checkout_and_orderconfirmation' | t }}"
+    {%- else -%}
+      data-text-x-left-low="{{ 'products.inventory.only_x_left' | t: quantity: '[QTY]' }}"
+    {%- endif -%}
+  {%- else -%}
+    data-text-x-left-low="{{ 'products.inventory.only_x_left' | t: quantity: '[QTY]' }}"
+  {% endif %} 
   data-text-x-left-ok="{{ 'products.inventory.x_left' | t: quantity: '[QTY]' }}"
   data-text-low="{{ 'products.inventory.low_stock' | t }}"
   data-text-ok="{{ 'products.inventory.in_stock' | t }}">
@@ -17,7 +25,16 @@
 
     if show_inventory_count
       if current_variant.inventory_quantity <= block.settings.inventory_threshold
-        assign notice = 'products.inventory.only_x_left' | t: quantity: current_variant.inventory_quantity
+        if block.settings.activate_b8_info
+          if product.metafields.easypos.product_b8  
+            assign notice = 'products.inventory.b8_message_in_cart_and_checkout_and_orderconfirmation' | t
+          else
+            assign notice = 'products.inventory.only_x_left' | t: quantity: current_variant.inventory_quantity
+          endif    
+        else
+          assign notice = 'products.inventory.only_x_left' | t: quantity: current_variant.inventory_quantity
+        endif
+        
       else
         assign notice = 'products.inventory.x_left' | t: quantity: current_variant.inventory_quantity
       endif
@@ -30,15 +47,19 @@
     endif
   -%}
 
-  <div class="product-info-block product-inventory {% if block.settings.enable_pulse %}product-inventory--pulse{% endif %} product-inventory--{% if current_variant.inventory_quantity <= block.settings.inventory_threshold %}low{% else %}ok{% endif %} with-icon{% if block.settings.enable_box %} text-box{% endif %} lightly-spaced-row"
-    {%- if current_variant == blank or current_variant.inventory_management == blank %} hidden
-    {%- elsif current_variant and current_variant.inventory_management != blank and current_variant.inventory_quantity < 1 %} hidden
-    {%- elsif block.settings.show_inventory_notice == 'low' and current_variant.inventory_quantity > block.settings.inventory_threshold %} hidden{% endif %}>
-    <div class="icon-container">
-      <span class="product-inventory__icon-low">{%- render 'icon', icon: 'clock', size: 'small' -%}</span>
-      <span class="product-inventory__icon-ok">{%- render 'icon', icon: 'check_mark_in_circle', size: 'small' -%}</span>
-    </div>
-    <span class="with-icon__beside product-inventory__status">{{ notice }}</span>
+<div class="product-info-block product-inventory {% if block.settings.enable_pulse %}product-inventory--pulse{% endif %} product-inventory--{% if current_variant.inventory_quantity <= block.settings.inventory_threshold %}low{% else %}ok{% endif %} with-icon{% if block.settings.enable_box %} text-box{% endif %} lightly-spaced-row"
+  {%- if current_variant == blank or current_variant.inventory_management == blank %} hidden
+  {%- elsif current_variant and current_variant.inventory_management != blank and current_variant.inventory_quantity < 1 %} hidden
+  {%- elsif block.settings.show_inventory_notice == 'low' and current_variant.inventory_quantity > block.settings.inventory_threshold %} hidden{% endif %}>
+     
+    
+        <div class="icon-container">
+          <span class="product-inventory__icon-low">{%- render 'icon', icon: 'clock', size: 'small' -%}</span>
+          <span class="product-inventory__icon-ok">{%- render 'icon', icon: 'check_mark_in_circle', size: 'small' -%}</span>
+        </div>
+        <span class="with-icon__beside product-inventory__status">{{ notice }}</span>
+      
+      
   </div>
 
   {%- capture quantity_json -%}
