@@ -83,7 +83,16 @@
 
               if show_inventory_count
                 if item.variant.inventory_quantity <= section.settings.inventory_threshold
-                  assign notice = 'products.inventory.only_x_left' | t: quantity: item.variant.inventory_quantity
+                  if section.settings.activate_b8_info
+                    if item.product.metafields.easypos.product_b8  
+                      assign notice = 'products.inventory.b8_message_in_cart_and_checkout_and_orderconfirmation' | t
+                      assign label = 'products.inventory.b8_advisory_in_cart_and_checkout_and_orderconfirmation' | t
+                    else
+                      assign notice = 'products.inventory.only_x_left' | t: quantity: current_variant.inventory_quantity
+                    endif    
+                  else
+                    assign notice = 'products.inventory.only_x_left' | t: quantity: current_variant.inventory_quantity
+              endif 
                 else
                   assign notice = 'products.inventory.x_left' | t: quantity: item.variant.inventory_quantity
                 endif
@@ -95,9 +104,9 @@
                 endif
               endif
             -%}
-            <div class="very-lightly-spaced-row">
+            <div class="very-lightly-spaced-row {% if section.settings.activate_b8_info %}{% if item.product.metafields.easypos.product_b8 %}product-inventory--b8{% endif %}{% endif %}">
               <div class="product-info-block product-inventory product-inventory--small product-inventory--{% if item.variant.inventory_quantity <= section.settings.inventory_threshold %}low{% else %}ok{% endif %}">
-                {{- notice -}}
+                {{- label -}} {{- notice -}}
               </div>
             </div>
           {%- endif -%}

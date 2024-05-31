@@ -1,10 +1,10 @@
-<product-inventory class="no-js-hidden"
+<product-inventory class="no-js-hidden {% if block.settings.activate_b8_info %}{% if product.metafields.easypos.product_b8 %}product-inventory--b8{% endif %}{% endif %}"
   data-show-inventory-notice="{{ block.settings.show_inventory_notice }}"
   data-show-inventory-count="{{ block.settings.show_inventory_count }}"
   data-threshold="{{ block.settings.inventory_threshold }}"
-  data-text-x-left-low="{{ 'products.inventory.only_x_left' | t: quantity: '[QTY]' }}"
+  {%- if block.settings.activate_b8_info -%}{%- if product.metafields.easypos.product_b8 -%}data-text-x-left-low="{{ 'products.inventory.b8_message_in_cart_and_checkout_and_orderconfirmation' | t }}"{%- else -%}data-text-x-left-low="{{ 'products.inventory.only_x_left' | t: quantity: '[QTY]' }}"{%- endif -%}{%- else -%}data-text-x-left-low="{{ 'products.inventory.only_x_left' | t: quantity: '[QTY]' }}"{%- endif -%}
   data-text-x-left-ok="{{ 'products.inventory.x_left' | t: quantity: '[QTY]' }}"
-  data-text-low="{{ 'products.inventory.low_stock' | t }}"
+  data-text-low="{{ 'products.inventory.low_stock' | t }}"    
   data-text-ok="{{ 'products.inventory.in_stock' | t }}">
   {%- liquid
     assign show_inventory_count = false
@@ -17,7 +17,15 @@
 
     if show_inventory_count
       if current_variant.inventory_quantity <= block.settings.inventory_threshold
-        assign notice = 'products.inventory.only_x_left' | t: quantity: current_variant.inventory_quantity
+        if block.settings.activate_b8_info
+          if product.metafields.easypos.product_b8  
+            assign notice = 'products.inventory.b8_message_in_cart_and_checkout_and_orderconfirmation' | t
+          else
+            assign notice = 'products.inventory.only_x_left' | t: quantity: current_variant.inventory_quantity
+          endif    
+        else
+          assign notice = 'products.inventory.only_x_left' | t: quantity: current_variant.inventory_quantity
+        endif       
       else
         assign notice = 'products.inventory.x_left' | t: quantity: current_variant.inventory_quantity
       endif
