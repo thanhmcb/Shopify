@@ -1,0 +1,60 @@
+{
+  "parent": "page.storrelsesguide-main.json",
+  "context": {
+    "market": "germany"
+  },
+  "sections": {
+    "rich_text_K6G8rc": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {
+        "heading_Fm6Vcx": {
+          "disabled": true,
+          "settings": {}
+        },
+        "text_ndeKWA": {
+          "disabled": true,
+          "settings": {}
+        }
+      }
+    },
+    "multi_column_ry7G9U": {
+      "settings": {},
+      "blocks": {
+        "text_block_gPN97H": {
+          "settings": {
+            "title": "STEP 2 - FIND DIN BH STØRRELSE",
+            "image": "shopify:\/\/shop_images\/Malnr.1.1350.de.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_8Ycrh8",
+        "text_block_gPN97H",
+        "text_block_PcNJ8q"
+      ]
+    },
+    "custom_content_WPyDdT": {
+      "settings": {},
+      "blocks": {
+        "image_x3FMgr": {
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MALNR2.2700.de.jpg"
+          }
+        }
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_LxVT3c",
+    "multi_column_ry7G9U",
+    "rich_text_jUy6LV",
+    "custom_content_WPyDdT",
+    "rich_text_K6G8rc",
+    "multi_column_iTkqtt",
+    "custom_content_XAEq8U",
+    "collection_list_MNYND6",
+    "collection_list_7EiVbg"
+  ]
+}

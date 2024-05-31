@@ -1,0 +1,16 @@
+{
+  "general": {
+    "search": {
+      "view_all": "Se alle søkeresultatene"
+    }
+  },
+  "products": {
+    "product": {
+      "add_to_cart": "Legg i kurven",
+      "new": "Nyhet"
+    },
+    "inventory": {
+      "only_x_left": "Bestill nå, kun {{ quantity }} på lager"
+    }
+  }
+}

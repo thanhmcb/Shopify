@@ -1,0 +1,17 @@
+{
+  "general": {
+    "search": {
+      "view_all": "Zobacz wszystkie wyniki wyszukiwania"
+    }
+  },
+  "products": {
+    "product": {
+      "description": "Opis",
+      "add_to_cart": "Dodaj do koszyka",
+      "new": "Co nowego"
+    },
+    "inventory": {
+      "only_x_left": "Zamów teraz, tylko {{ quantity }} sztuka w magazynie"
+    }
+  }
+}
