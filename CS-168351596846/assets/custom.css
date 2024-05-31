@@ -173,7 +173,10 @@ border: 1px solid rgba(255,255,255,0.7);
   width: 60px;
 }
 
-.product-info__buy-buttons .btn-wishlist.button--hide {
+.wishlist_disable.form-variant--subdued .btn-wishlist{
+  display: none;
+}
+.wishlist_disable .button--hide {
   display: none;
 }
 .horizontal-product__cta .klaviyo-bis-trigger{
