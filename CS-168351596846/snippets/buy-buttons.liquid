@@ -54,9 +54,10 @@ Supported variables
   {%- endif -%}
 
   <buy-buttons
-    class="buy-buttons {% if show_payment_button %}buy-buttons--multiple{% endif %}{% if show_notify %} notify_enable{% else %} notify_disable{%- endif -%}{% if show_add_to_wishlist_when_sold_out %} wishlist_enable {% else %} wishlist_disable{%- endif -%}"
+    class="buy-buttons {% if show_notify %} notify_enable{% else %} notify_disable{%- endif -%}{% if show_add_to_wishlist_when_sold_out %} wishlist_enable {% else %} wishlist_disable{%- endif -%}"
     template="{{ product.template_suffix | escape }}"
     form="{{ form_id }}">
+    <div class="button-wrapper {% if show_payment_button %}buy-buttons--multiple{% endif %}">
     {% assign buyButton = "data-buy-button" %}
     {%- render 'button', content: button_content, type: 'submit', size: button_size, disabled: button_disabled, secondary: show_payment_button, subdued: button_disabled, background: atc_button_background, text_color: atc_button_text_color, attributes: buyButton -%}
     
@@ -83,6 +84,7 @@ Supported variables
         }
       </style>
     {%- endif -%}
+    </div>
     {% if show_notify %}
       <a class="klaviyo-bis-trigger button button--xl button--subdued" href="#">{{ 'product.general.no_stock' | t }}</a>  
     {%- endif -%}

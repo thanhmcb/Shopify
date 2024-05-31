@@ -171,7 +171,27 @@ border: 1px solid rgba(255,255,255,0.7);
 }
 .product-info__buy-buttons .btn-wishlist{
   width: 60px;
+  height: 100%;
 }
+
+@media screen and (min-width: 700px) {
+  .shopify-product-form{
+    display: flex;
+  }
+  .buy-buttons{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-grow: 1;
+  }
+  .button-wrapper{
+    flex-grow: 1;
+    display: grid;
+  }
+ 
+}
+
+
 
 .wishlist_disable.form-variant--subdued .btn-wishlist{
   display: none;
@@ -187,13 +207,14 @@ border: 1px solid rgba(255,255,255,0.7);
   .product-info__buy-buttons .btn-wishlist {
     display: none;
   }
+  .button-wrapper button{
+    margin-bottom: 0.5rem;
+  }
   .klaviyo-bis-trigger{
     width: 100%;
     flex: 0 0 100%;
   }
-  .buy-buttons{
-    flex-direction: column;
-  }
+ 
   .buy-buttons .button, .buy-buttons .shopify-payment-button{
     width: 100%;
   }
