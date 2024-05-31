@@ -9881,16 +9881,7 @@ div.image-link-blocks__item > a > p {
   padding-bottom: 3rem;
 }
 
-.btn-wishlist{
-  padding-block-start: 1.075rem;
-    padding-block-end: 1.075rem;
-    height: 60px;
-}
 
-.buy-buttons{
-  display: flex;
-  align-items: center;
-}
 
 
 .btn-wishlist__icon {
