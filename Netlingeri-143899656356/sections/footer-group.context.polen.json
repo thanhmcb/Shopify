@@ -1,0 +1,18 @@
+{
+  "parent": "footer-group.json",
+  "context": {
+    "market": "polen"
+  },
+  "sections": {
+    "footer": {
+      "settings": {},
+      "blocks": {
+        "1601308717434": {
+          "settings": {
+            "soc_icons_large": false
+          }
+        }
+      }
+    }
+  }
+}

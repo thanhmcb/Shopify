@@ -1,0 +1,49 @@
+{
+  "parent": "header-group.json",
+  "context": {
+    "market": "germany"
+  },
+  "sections": {
+    "header": {
+      "settings": {},
+      "blocks": {
+        "menu_promotion_small_pYJfmN": {
+          "settings": {
+            "title": "Trusser bestseller",
+            "link_url": "shopify:\/\/collections\/trusser-bestseller"
+          }
+        },
+        "menu_promotion_small_Xb6DhH": {
+          "settings": {
+            "title": "Badetøj bestseller",
+            "link_url": "shopify:\/\/collections\/badetoj-bestseller"
+          }
+        },
+        "menu_promotion_small_tnBGhe": {
+          "settings": {
+            "title": "Nattøj bestseller",
+            "link_url": "shopify:\/\/collections\/nattoj-bestseller"
+          }
+        },
+        "menu_promotion_small_QcYK9m": {
+          "settings": {
+            "title": "Sportstøj bestseller",
+            "link_url": "shopify:\/\/collections\/sportstoj-bestseller"
+          }
+        },
+        "menu_promotion_small_LAUgRB": {
+          "settings": {
+            "title": "Undertøj bestseller",
+            "link_url": "shopify:\/\/collections\/undertoj-bestseller"
+          }
+        },
+        "menu_promotion_small_LN4q8t": {
+          "settings": {
+            "title": "BH bestseller",
+            "link_url": "shopify:\/\/collections\/bh-bestseller"
+          }
+        }
+      }
+    }
+  }
+}
