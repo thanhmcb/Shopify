@@ -905,7 +905,30 @@
                   {% endfor %}
               </div>
             </div>
+            {%- when 'add_on_block' -%}
+             
+  
+{%- capture id -%}input-{{ section.id }}-{{ form }}-{{ name | handle }}{%- endcapture -%}
+{%- capture name -%}properties[{{ 'products.inventory.b8_advisory_in_cart_and_checkout_and_orderconfirmation' | t }}]{%- endcapture -%}
+{%- capture optional_attributes -%}{% if form %}form="{{ form }}"{% endif %}{%- endcapture -%}
+{%- capture value -%}{{ 'products.inventory.b8_message_in_cart_and_checkout_and_orderconfirmation' | t }}{%- endcapture -%}
+                  {% if product.metafields.easypos.product_b8 %}
+               
+                                          <div class="form-control" {{ block.shopify_attributes }}>
+                      
+                            <label for="{{ id }}"  name="{{ name }}" id="{{ id }}" class="floating-label cart-printing-label">{{ 'products.inventory.b8_advisory_in_cart_and_checkout_and_orderconfirmation' | t }}</label>
+                        
+                        <input
+                          id="{{ id }}"
+                          type="{{ type | default: 'text' }}"
+                          name="{{ name }}"
+                          value="{{ value }}"
+                          form="{{ product_form_id }}" 
+                          maxlength="0"                
+                          {{ optional_attributes }}>
+                      </div>                
                          
+                  {% endif %}            
         {% endcase %}
       {% endfor %}
 
@@ -1727,7 +1750,8 @@
         {
           "type": "checkbox",
           "id": "activate_b8_info",
-          "label": "Activate B8 info"
+          "label": "Activate B8 info",
+          "info":"If deactivating/activating B8 info - remember to deactivate/activate it in the cart drawer settings as well"
         }
       ]
     },
@@ -2807,6 +2831,12 @@
           "default": false
         }
       ]
+    },
+    {
+      "type": "add_on_block",
+      "name": "Add on",
+    
+      "limit": 1
     }
   ]
 }

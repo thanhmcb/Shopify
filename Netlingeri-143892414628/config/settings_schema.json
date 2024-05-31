@@ -522,6 +522,12 @@
       },
       {
         "type": "color",
+        "id": "prod_inv_low_box",
+        "label": "Low stock - box background",
+        "default": "#fcf1cd"
+      },
+      {
+        "type": "color",
         "id": "b8_stock_text",
         "label": "B8 Stock - Text",
         "default": "#e4e4e4"
@@ -532,12 +538,7 @@
         "label": "B8 Stock - Background",
         "default": "#e4e4e4"
       },
-      {
-        "type": "color",
-        "id": "prod_inv_low_box",
-        "label": "Low stock - box background",
-        "default": "#fcf1cd"
-      },
+     
       {
         "type": "header",
         "content": "Product ratings"

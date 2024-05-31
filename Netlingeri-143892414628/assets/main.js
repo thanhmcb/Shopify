@@ -2869,6 +2869,7 @@ class ProductInventory extends HTMLElement {
         ? this.variantInventory.find((v) => v.id === evt.detail.variant.id)
         : null
     );
+    
   }
 
   /**
@@ -2893,6 +2894,7 @@ class ProductInventory extends HTMLElement {
     if (showCount) {
       if (count <= this.threshold) {
         notice = this.dataset.textXLeftLow.replace('[QTY]', count);
+        console.log('test' + count);
       } else {
         notice = this.dataset.textXLeftOk.replace('[QTY]', count);
       }

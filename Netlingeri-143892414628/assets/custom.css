@@ -335,6 +335,3 @@ a.sibling__link.sibling__link--current:after {
   color: var(--product-inventory-b8-icon-box-fill-color);
 }
 
-.cart-item__description .small-text .line-item-property{
-  display: none;
-}
