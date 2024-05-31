@@ -4,7 +4,7 @@
 
 {%- if product.handle != blank -%}
 
-  <button type="button" aria-label="Add to wishlist" class="btn-wishlist{% unless block.settings.show_add_to_wishlist_when_sold_out %} {% unless product.selected_or_first_available_variant.available %} button--hide{% endunless %}{% endunless %}" button-wishlist data-product-handle="{{ product.handle }}">
+  <button type="button" aria-label="Add to wishlist" class="btn-wishlist{% unless product.selected_or_first_available_variant.available %} button--hide{% endunless %}" button-wishlist data-product-handle="{{ product.handle }}">
     {%- render 'icon' with 'wishlist' -%}
     <span class="tooltiptext item-added-to-wishlist">{{ 'general.wishlist.tooltip_item_added' | t }}</span>
     <span class="tooltiptext"> {{ 'general.wishlist.tooltip' | t }}</span>

@@ -1,0 +1,17 @@
+{
+  "general": {
+    "search": {
+      "view_all": "Katso kaikki hakutulokset"
+    }
+  },
+  "products": {
+    "product": {
+      "description": "Kuvaus",
+      "add_to_cart": "Lisää ostoskoriin",
+      "new": "Uutuudet"
+    },
+    "inventory": {
+      "only_x_left": "Tilaa nyt, vain {{ quantity }} tuote varastossa"
+    }
+  }
+}

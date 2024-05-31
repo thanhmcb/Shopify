@@ -54,7 +54,7 @@ Supported variables
   {%- endif -%}
 
   <buy-buttons
-    class="buy-buttons {% if show_payment_button %}buy-buttons--multiple{% endif %}{% if show_notify %} notify_enable{% else %} notify_disable{%- endif -%}"
+    class="buy-buttons {% if show_payment_button %}buy-buttons--multiple{% endif %}{% if show_notify %} notify_enable{% else %} notify_disable{%- endif -%}{% if show_add_to_wishlist_when_sold_out %} wishlist_enable {% else %} wishlist_disable{%- endif -%}"
     template="{{ product.template_suffix | escape }}"
     form="{{ form_id }}">
     {% assign buyButton = "data-buy-button" %}

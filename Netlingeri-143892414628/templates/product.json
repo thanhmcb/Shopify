@@ -1,0 +1,316 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false,
+            "enable_product_reviews_by_price": true
+          }
+        },
+        "divider": {
+          "type": "divider",
+          "settings": {
+            "show_in_quickbuy": false
+          }
+        },
+        "siblings_fNqdGm": {
+          "type": "siblings",
+          "settings": {
+            "siblings_collection": "{{ product.metafields.custom.siblings.value }}"
+          }
+        },
+        "variant-picker": {
+          "type": "variant-picker",
+          "settings": {
+            "show_single": true,
+            "select_first_variant": true,
+            "selector_style": "listed",
+            "enable_dynamic_availability": true,
+            "enable_size_chart": true,
+            "size_chart_variant": "",
+            "size_chart_page": "{{ product.metafields.custom.size_guide.value.simple_size_guide_page.value }}",
+            "enable_size_chart_mcb": true,
+            "enable_custom_marie_and_primadonna": true,
+            "size_chart_mcb_heading": "{{ product.metafields.custom.size_guide.value.heading.value }}",
+            "size_chart_mcb_intro": "<p>{{ product.metafields.custom.size_guide.value.descriptionv_2 | metafield_tag }}<\/p>",
+            "size_chart_mcb_step1_heading": "{{ product.metafields.custom.size_guide.value.step_1_title.value }}",
+            "size_chart_mcb_step1_label": "{{ product.metafields.custom.size_guide.value.step_1_label.value }}",
+            "size_chart_mcb_step1_video": "{{ product.metafields.custom.size_guide.value.step_1_video.value }}",
+            "size_chart_mcb_step2_heading": "{{ product.metafields.custom.size_guide.value.step_2_title.value }}",
+            "size_chart_mcb_step2_label": "{{ block.settings.size_chart_page.metafields.custom.size_guide.value.step_2_label.value }}",
+            "size_chart_mcb_step2_video": "{{ product.metafields.custom.size_guide.value.step_2_video.value }}",
+            "size_chart_mcb_step_video_range": 1
+          }
+        },
+        "inventory_level_h8VTEH": {
+          "type": "inventory-level",
+          "settings": {
+            "show_inventory_notice": "always",
+            "show_inventory_count": "always",
+            "inventory_threshold": 11,
+            "enable_box": false,
+            "enable_pulse": true,
+            "show_in_quickbuy": true,
+            "activate_b8_info": true
+          }
+        },
+        "buy-buttons": {
+          "type": "buy-buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "enable_payment_button": false,
+            "show_backorder_text": false,
+            "show_pickup_availability": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "viabill_payments_product_viabill_iTGVdd": {
+          "type": "shopify:\/\/apps\/viabill-payments\/blocks\/product-viabill\/103f7800-dd25-4a94-a997-8814f18d9df2",
+          "disabled": true,
+          "settings": {
+            "margin_left": 0,
+            "margin_top": 17,
+            "margin_right": 0,
+            "margin_bottom": 22
+          }
+        },
+        "accordion_kLm6gx": {
+          "type": "accordion",
+          "disabled": true,
+          "settings": {
+            "title": "Produktinformation",
+            "icon": "",
+            "content": "{{ product.metafields.custom.specification | metafield_tag }}",
+            "page": "",
+            "open": false,
+            "show_in_quickbuy": false
+          }
+        },
+        "divider_CYz9ga": {
+          "type": "divider",
+          "disabled": true,
+          "settings": {
+            "show_in_quickbuy": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "show_in_tab": true,
+            "open_tab": false,
+            "icon": "eye",
+            "show_in_quickbuy": true,
+            "ex-desc": "<p><\/p>{{ product.metafields.custom.specification | metafield_tag }}"
+          }
+        },
+        "sku_D84NaE": {
+          "type": "sku",
+          "disabled": true,
+          "settings": {}
+        },
+        "richtext_QqzUAH": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "richtext": "<p>Varenummer: {{ product.metafields.easypos.external_id.value }}<\/p><p>MPN: 0100410 PPF<\/p>",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "vendor": {
+          "type": "vendor",
+          "disabled": true,
+          "settings": {}
+        },
+        "accordion_Pbm63A": {
+          "type": "accordion",
+          "settings": {
+            "title": "Materiale",
+            "icon": "feather",
+            "content": "<p>{{ product.metafields.custom.material_1_percent.value }} {{ product.metafields.custom.material_1.value }}<br\/>{{ product.metafields.custom.material_2_percent.value }} {{ product.metafields.custom.material_2.value }}<br\/>{{ product.metafields.custom.material_3_percent.value }} {{ product.metafields.custom.material_3.value }}<br\/>{{ product.metafields.custom.material_4_percent.value }}  {{ product.metafields.custom.material_4.value }}<\/p><p>Varenummer: {{ product.metafields.easypos.external_id.value }}<\/p><p>MPN: {{ product.metafields.custom.mpn.value }}<br\/>Farvekode: {{ product.metafields.custom.colorcode.value }}<\/p>",
+            "page": "",
+            "open": false,
+            "show_in_quickbuy": true
+          }
+        },
+        "accordion_eKcXiH": {
+          "type": "accordion",
+          "settings": {
+            "title": "Levering og retur",
+            "icon": "truck",
+            "content": "",
+            "page": "levering-og-retur",
+            "open": false,
+            "show_in_quickbuy": true
+          }
+        },
+        "accordion_hjUYYD": {
+          "type": "accordion",
+          "settings": {
+            "title": "Sikker betaling",
+            "icon": "lock",
+            "content": "",
+            "page": "sikker-betaling",
+            "open": false,
+            "show_in_quickbuy": false
+          }
+        },
+        "complementary_HqGnfx": {
+          "type": "complementary",
+          "settings": {
+            "heading": "Se også...",
+            "enable_carousel": true,
+            "max_products": 10
+          }
+        },
+        "related_collections_JeAjNy": {
+          "type": "related-collections",
+          "settings": {
+            "title": "<b>Relaterede kategorier<\/b>"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "divider",
+        "siblings_fNqdGm",
+        "variant-picker",
+        "inventory_level_h8VTEH",
+        "buy-buttons",
+        "viabill_payments_product_viabill_iTGVdd",
+        "accordion_kLm6gx",
+        "divider_CYz9ga",
+        "description",
+        "sku_D84NaE",
+        "richtext_QqzUAH",
+        "vendor",
+        "accordion_Pbm63A",
+        "accordion_eKcXiH",
+        "accordion_hjUYYD",
+        "complementary_HqGnfx",
+        "related_collections_JeAjNy"
+      ],
+      "custom_css": [
+        ".product-description {margin-top: 30px; margin-bottom: 15px;}"
+      ],
+      "settings": {
+        "show_breadcrumbs": false,
+        "show_location_underneath": false,
+        "inventory_transfers_enable": true,
+        "enable_sticky_columns": true,
+        "gallery_size": "large",
+        "gallery_layout": "collage-2",
+        "enable_zoom": true,
+        "show_alt_text": false,
+        "alt_text_icon": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "enable_media_grouping": false,
+        "media_grouping_option": "Color,Colour,Couleur,Farbe"
+      }
+    },
+    "product_template_product_list_PmEftx": {
+      "type": "product-template-product-list",
+      "settings": {
+        "title": "Passer sammen med",
+        "product_list": "{{ product.metafields[\"shopify--discovery--product_recommendation\"].complementary_products.value }}",
+        "hide_if_empty": true,
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "color_scheme": "default",
+        "show_in_quickbuy": true,
+        "full_width": false
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "title": "Se også...",
+        "show_vendor": false,
+        "grid": 4,
+        "show_in_quickbuy": true
+      }
+    },
+    "featured_collection_96LGqi": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Du vil måske kunne lide",
+        "collection": "",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "shop_the_look_VdaNWn": {
+      "type": "shop-the-look",
+      "blocks": {
+        "heading_pqFHKt": {
+          "type": "heading",
+          "settings": {
+            "title": "Fuldend looket",
+            "heading_max_width": 10,
+            "title_size": 56,
+            "title_size_mobile": 26,
+            "use_h1": false
+          }
+        },
+        "text_9xEADK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>More details about this section<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_pqFHKt",
+        "text_9xEADK"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/0163432_7__1___2__jpg_80.jpg",
+        "video_external": "",
+        "video_description": "",
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "product_list": [
+          "hunkemoller-cardi-bh-med-bojle-sort-2",
+          "hunkemoller-cardi-bh-med-bojle-sort-3",
+          "hunkemoller-cardi-bh-med-bojle-sort-5"
+        ],
+        "products_alignment": "bottom left",
+        "product_card_layout": "landscape",
+        "show_swatches": true,
+        "full_width": true,
+        "text_alignment": "top left",
+        "mobile_overlay_over": false,
+        "overlay_style": "shadow"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product_template_product_list_PmEftx",
+    "related-products",
+    "featured_collection_96LGqi",
+    "shop_the_look_VdaNWn"
+  ]
+}
