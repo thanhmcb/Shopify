@@ -28,6 +28,7 @@
       <div class="lightly-spaced-row">
         <div class="cart-item__title">
           <a class="text-current" href="{{ item.url }}">{{ item.product.title | escape_once }}</a>
+          {{ item.variant.inventory_quantity }}
         </div>
         <div class="small-text">
           {%- if item.product.variants.size > 1 -%}
@@ -39,21 +40,25 @@
             {%- endfor -%}
           {%- endif -%}
 
+           
           {%- for property in item.properties -%}
-            {%- assign property_first_char = property.first | slice: 0 -%}
-            {% if property.last != blank and property_first_char != '_' %}
-             
-              <div class="line-item-property">
-                <span class="line-item-property__label">{{ property.first | escape_once }}:</span>
-                <span class="line-item-property__value">
-                  {%- if property.last contains '/uploads/' -%}
-                    <a href="{{ property.last }}">{{ property.last | split: '/' | last }}</a>
-                  {%- else -%}
-                    {{- property.last | escape_once -}}
-                  {%- endif -%}
-                </span>
-              </div>
-            {% endif %}
+                       
+              {%- assign property_first_char = property.first | slice: 0 -%}
+              {% if property.last != blank and property_first_char != '_' %}
+    
+                <div class="line-item-property">
+                  <span class="line-item-property__label">{{ property.first | escape_once }}</span>
+                  <span class="line-item-property__value">
+                    {%- if property.last contains '/uploads/' -%}
+                      <a href="{{ property.last }}">{{ property.last | split: '/' | last }}</a>
+                    {%- else -%}
+                      {{- property.last | escape_once -}}
+                    {%- endif -%}
+                  </span>
+                </div>
+              {% endif %}
+        
+            
               
           {%- endfor -%}
 
@@ -70,7 +75,7 @@
           {% endif %}
         </div>
 
-        {%- if item.variant.inventory_management != blank and item.variant.inventory_quantity > 0 and section.settings.show_inventory_notice != 'never' -%}
+        {%- if item.variant.inventory_management != blank  and section.settings.show_inventory_notice != 'never' -%}
           {%- if section.settings.show_inventory_notice == 'always' or item.variant.inventory_quantity <= section.settings.inventory_threshold -%}
             {%- liquid
               assign show_inventory_count = false
@@ -83,8 +88,23 @@
 
               if show_inventory_count
                 if item.variant.inventory_quantity <= section.settings.inventory_threshold
-                  assign notice = 'products.inventory.only_x_left' | t: quantity: item.variant.inventory_quantity
-                else
+                  if section.settings.activate_b8_info
+                    if item.product.metafields.easypos.product_b8
+                      if item.variant.inventory_policy == 'continue' and item.variant.inventory_quantity < 1
+                        assign notice = 'products.inventory.b8_message_in_cart_and_checkout_and_orderconfirmation' | t
+                        assign label = 'products.inventory.b8_advisory_in_cart_and_checkout_and_orderconfirmation' | t
+                      elsif item.variant.inventory_quantity > 0
+                        assign notice = 'products.inventory.only_x_left' | t: quantity: item.variant.inventory_quantity 
+                      endif
+                    elsif item.product.metafields.easypos.product_b8 != true and item.variant.inventory_quantity > 0
+                      assign notice = 'products.inventory.only_x_left' | t: quantity: item.variant.inventory_quantity 
+                    endif
+                  else  
+                    if item.variant.inventory_quantity > 0                 
+                      assign notice = 'products.inventory.only_x_left' | t: quantity: item.variant.inventory_quantity 
+                    endif
+                  endif                                     
+                else 
                   assign notice = 'products.inventory.x_left' | t: quantity: item.variant.inventory_quantity
                 endif
               else
@@ -97,7 +117,7 @@
             -%}
             <div class="very-lightly-spaced-row">
               <div class="product-info-block product-inventory product-inventory--small product-inventory--{% if item.variant.inventory_quantity <= section.settings.inventory_threshold %}low{% else %}ok{% endif %}">
-                {{- notice -}}
+                {{ label }}{{- notice -}}
               </div>
             </div>
           {%- endif -%}

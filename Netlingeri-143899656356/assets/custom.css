@@ -326,3 +326,14 @@ a.sibling__link.sibling__link--current:after {
 .page-collection .section-rich-text h2 {
   text-transform: uppercase;
 }
+
+/* b8 */
+.product-inventory--b8 .product-inventory--low {
+  color: var(--product-inventory-b8-text-color);
+}
+.product-inventory--b8 .product-inventory__icon-low {
+  color: var(--product-inventory-b8-icon-box-fill-color);
+}
+.cart-item__description .line-item-property {
+  display: none;
+}

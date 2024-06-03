@@ -400,6 +400,14 @@
           {%- render 'product-siblings' product: product, product_form_id: product_form_id, block: block, block_style: block_style, quick_add_product: false -%}
 
           {% when 'buy-buttons' %}
+            <cart-message class="cart-message-row">
+              <div class="properties" hidden> 
+              {%- capture name -%}properties[{{ 'products.inventory.b8_advisory_in_cart_and_checkout_and_orderconfirmation' | t }}]{%- endcapture -%}             
+                <label for="{{ id }}"  name="{{ name }}" id="{{ id }}" class="floating-label cart-printing-label">{{ 'products.inventory.b8_advisory_in_cart_and_checkout_and_orderconfirmation' | t }}</label>                         
+                <input id="{{ id }}" type="{{ type | default: 'text' }}" name="{{ name }}" value="{{ 'products.inventory.b8_message_in_cart_and_checkout_and_orderconfirmation' | t }}"form="{{ product_form_id }}" maxlength="0">
+                </div>
+            </cart-message>
+            
              <buy-buttons class="buy-buttons-row block
             {% unless product.metafields.easypos.product_b8 %} klaviyo-enable{% endunless %}{% unless product.available %} product-not-available{% endunless %}{%- if request.page_type == 'collection' -%} collection-quick-view{% endif %}" {{ block.shopify_attributes }}>                             
               {% form 'product', product, id: product_form_id, class: 'form js-product-form ', data-product-id: product.id %}
@@ -905,7 +913,24 @@
                   {% endfor %}
               </div>
             </div>
-                         
+            {%- when 'text_block' -%}
+      
+  
+                
+                  {%- capture name -%}properties[{{ 'products.inventory.b8_advisory_in_cart_and_checkout_and_orderconfirmation' | t }}]{%- endcapture -%}             
+                  <label for="{{ id }}"  name="{{ name }}" id="{{ id }}" class="floating-label cart-printing-label">{{ 'products.inventory.b8_advisory_in_cart_and_checkout_and_orderconfirmation' | t }}</label>                         
+                        <input
+                          id="{{ id }}"
+                          type="{{ type | default: 'text' }}" 
+                          name="{{ name }}"
+                          value="{{ 'products.inventory.b8_message_in_cart_and_checkout_and_orderconfirmation' | t }}"
+                          form="{{ product_form_id }}" 
+                          maxlength="0"                 
+                          >
+                                    
+                            
+                
+
         {% endcase %}
       {% endfor %}
 
@@ -1461,6 +1486,11 @@
     ]
     },
     {
+      "type": "text_block",
+      "name": "text block",
+      "limit": 1
+       },
+    {
       "type": "sku",
       "name": "SKU",
       "limit": 1
@@ -1696,6 +1726,12 @@
             }
           ],
           "default": "low"
+        },
+        {
+          "type": "checkbox",
+          "id": "activate_b8_info",
+          "label": "Activate B8 info",
+          "info":"If deactivating/activating B8 info - remember to deactivate/activate it in the cart drawer settings as well"
         },
         {
           "type": "range",
@@ -2825,7 +2861,6 @@
       var myarray = str.split('<br>');
       for(var i = 0; i < myarray.length; i++)
         {
-            console.log(myarray[i]);
             let div = document.createElement('div');
             div.classList.add('spec_item');
             let text = document.createTextNode(myarray[i]);
