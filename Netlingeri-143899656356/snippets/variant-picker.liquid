@@ -194,12 +194,14 @@
                 {%- endif %}
               </legend>
             {%- endif -%}
+
+
             <div class="option-selector__btns flex flex-wrap">
               {%- for value in option.values -%}
                 {%- assign value_index0 = forloop.index0 -%}
                 <input
                   type="radio"
-                  class="opt-btn visually-hidden focus-label js-option"
+                  class="opt-btn visually-hidden focus-label js-option" 
                   name="{{ option_id }}-option"
                   id="{{ option_id }}-opt-{{ value_index0 }}"
                   value="{{ value | escape }}"

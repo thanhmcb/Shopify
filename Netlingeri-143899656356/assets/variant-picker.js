@@ -75,6 +75,7 @@ if (!customElements.get('variant-picker')) {
       if (!variantAvailable) {
         this.productForm.classList.add("form__product--sold-out"); 
         this.productForm.classList.remove("form__product");
+     
       } else {
         this.productForm.classList.remove("form__product--sold-out");
         this.productForm.classList.add("form__product");

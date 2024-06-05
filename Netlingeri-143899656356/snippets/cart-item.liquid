@@ -28,7 +28,6 @@
       <div class="lightly-spaced-row">
         <div class="cart-item__title">
           <a class="text-current" href="{{ item.url }}">{{ item.product.title | escape_once }}</a>
-          {{ item.variant.inventory_quantity }}
         </div>
         <div class="small-text">
           {%- if item.product.variants.size > 1 -%}

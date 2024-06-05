@@ -873,7 +873,7 @@ class SideDrawer extends HTMLElement {
     this.dispatchEvent(new CustomEvent(`on:${this.dataset.name}:before-open`, {
       bubbles: true
     }));
-
+    
     // Prevent page behind from scrolling when side drawer is open.
     this.scrollY = window.scrollY;
     document.body.classList.add('fixed');
@@ -884,7 +884,8 @@ class SideDrawer extends HTMLElement {
     this.setAttribute('open', '');
     this.setAttribute('aria-hidden', 'false');
     this.opener = opener;
-
+    
+   
     trapFocus(this, elementToFocus);
 
     // Create event handler variables (so the bound event listeners can be removed).
@@ -2885,31 +2886,51 @@ class ProductInventory extends HTMLElement {
       return;
     } 
 
-    const count = inventory.inventory_quantity;
+    var count = inventory.inventory_quantity;
     const b8 = this.dataset.showB8Info;
     const b8Metafield = this.dataset.showB8Metafield;
+    const y = this.closest('.js-product').querySelector('variant-picker fieldset.option-selector:nth-child(2) input.opt-btn');
+    
+   
     const showCount = this.dataset.showInventoryCount === 'always'
       || (
         this.dataset.showInventoryCount === 'low' 
         && count <= this.threshold
       );
       
-    let notice = null;
+    let notice = null; 
+   
+
     if (showCount) {
+      
       if (count <= this.threshold) {
            var a = this.dataset.textXLeftLow;
            var b = theme.strings.textCartMessage; 
            var c = this.querySelector('.product-inventory__status');
+           
            if (b8 === 'true'){
-            if (count >=1 ){
+            if (count > 1 ){ 
               notice = a.replace('[QTY]', count);
               c.classList.remove("thanh"); 
+              c.classList.remove("khoi");    
+              this.classList.remove("product-inventory--b8");   
+              console.log("a");
+
+            } else if (count === 1){
+              notice = a.replace('[QTY]', count);
+              c.classList.remove("thanh"); 
+              c.classList.add("khoi");
+              console.log("c");
               this.classList.remove("product-inventory--b8"); 
+
             } else {
               if (b8Metafield === 'true'){
                 notice = a.replace(a, b);
                 c.classList.add("thanh"); 
+                c.classList.remove("khoi");   
                 this.classList.add("product-inventory--b8"); 
+                console.log("b");
+
               } else {
                 notice = a.replace('[QTY]', count);
               }              
@@ -2917,10 +2938,7 @@ class ProductInventory extends HTMLElement {
            }else{
             notice = a.replace('[QTY]', count); 
            }
-        
-         
-       
-        
+  
       } else {
         notice = this.dataset.textXLeftOk.replace('[QTY]', count);
       }
@@ -2932,7 +2950,7 @@ class ProductInventory extends HTMLElement {
         notice = this.dataset.textOk;
       }
     }
-
+ 
     this.productInventory.classList.toggle('product-inventory--low', count <= this.threshold);
     this.productInventory.classList.toggle('product-inventory--ok', count > this.threshold);
     this.inventoryNotice.innerText = notice;
@@ -2941,6 +2959,7 @@ class ProductInventory extends HTMLElement {
 }
 
 customElements.define('product-inventory', ProductInventory);
+
 var clone;
 class CartMessage extends HTMLElement {
   constructor() {
@@ -2963,13 +2982,13 @@ class CartMessage extends HTMLElement {
     
     if (r === null ) {
       
-      console.log("change"); 
+  
       myNode.remove();
 
     } else{
       
 
-      console.log("change2"); 
+      
       
         this.appendChild(clone);
         var a = document.querySelectorAll('.cart-message-row .properties'); 

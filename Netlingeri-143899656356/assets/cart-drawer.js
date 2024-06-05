@@ -19,6 +19,7 @@ class CartDrawer extends SideDrawer {
       theme.manuallyLoadImages(this);
       this.querySelectorAll('cc-cart-cross-sell').forEach((el) => el.init());
     });
+ 
   }
 
   disconnectedCallback() {
@@ -33,6 +34,8 @@ class CartDrawer extends SideDrawer {
    */
   handleDrawerOpenViaEvent(evt) {
     this.open(evt.detail ? evt.detail.opener : null);
+  
+
   }
 
   /**
@@ -49,6 +52,7 @@ class CartDrawer extends SideDrawer {
   updateFromCartChange(html) {
     this.querySelector('cart-form').refreshFromHtml(html);
   }
+ 
 }
 
 window.customElements.define('cart-drawer', CartDrawer);

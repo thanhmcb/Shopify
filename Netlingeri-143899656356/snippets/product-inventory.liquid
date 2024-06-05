@@ -34,9 +34,9 @@
   -%}
 
   <div class="product-info-block product-inventory {% if block.settings.enable_pulse %}product-inventory--pulse{% endif %} product-inventory--{% if current_variant.inventory_quantity <= block.settings.inventory_threshold %}low{% else %}ok{% endif %} with-icon{% if block.settings.enable_box %} text-box{% endif %} lightly-spaced-row"
-    {%- if current_variant == blank or current_variant.inventory_management == blank  %} hidden 
-    {%- elsif current_variant and current_variant.inventory_management != blank and current_variant.inventory_quantity < 1 %} hidden 
-    {%- elsif block.settings.show_inventory_notice == 'low' and current_variant.inventory_quantity > block.settings.inventory_threshold %} hidden  {% endif %}>
+    {%- if current_variant == blank or current_variant.inventory_management == blank  %} hidden a
+    {%- elsif current_variant and current_variant.inventory_management != blank  %} hidden 
+    {%- elsif block.settings.show_inventory_notice == 'low' and current_variant.inventory_quantity > block.settings.inventory_threshold %} hidden c {% endif %}>
     
       <div class="icon-container"> 
       <span class="product-inventory__icon-low">{%- render 'icon', icon: 'clock', size: 'small' -%}</span>
@@ -66,11 +66,23 @@
         {%- endif -%}
       {%- endif -%}
     {%- endfor -%}
+
+    {% for item in cart.items %}
+      ,{ "cart_item_id":{{- item.id -}} }
+   
+    {% endfor %}
   {%- endcapture -%}
+
   <script type="application/json">
     [
       {{- quantity_json | replace_first: ',', '' -}}
+   
     ]
   </script>
+  
 </product-inventory>
+
+
+
+
 

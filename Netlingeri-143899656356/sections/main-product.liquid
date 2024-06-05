@@ -2881,5 +2881,14 @@
       }     
     });
 
- 
+   var textPlace = "{{ 'products.inventory.b8_message_in_cart_and_checkout_and_orderconfirmation' | t }}"
+    var btn2 = document.querySelector(".add-to-cart");
+    var msg =  btn2.closest('.js-product').querySelector('product-inventory'); 
+    const btn3 = btn2.closest('.js-product').querySelector('.product-inventory__status');
+           btn2.addEventListener("click", function(){
+            if (btn3.classList.contains('khoi'))
+             btn3.textContent = textPlace;
+            console.log(msg);
+            msg.classList.add("product-inventory--b8");
+          });
 </script>                        
