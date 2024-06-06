@@ -1013,10 +1013,12 @@ const CartForm = class extends HTMLElement {
       theme.addDelegateEventListener(this, 'click', '.quantity-up', (evt) => {
         evt.preventDefault();
         this.adjustItemQuantity(evt.target.closest('.cart-item'), { increase: true });
+        console.log("khoiquan");
       });
 
       theme.addDelegateEventListener(this, 'change', '.cart-item__quantity-input', (evt) => {
         this.adjustItemQuantity(evt.target.closest('.cart-item'), { currentValue: true });
+       
       });
     }
   }
@@ -2899,10 +2901,10 @@ class ProductInventory extends HTMLElement {
       );
       
     let notice = null; 
+    let x ;
    
 
-    if (showCount) {
-      
+    if (showCount) {      
       if (count <= this.threshold) {
            var a = this.dataset.textXLeftLow;
            var b = theme.strings.textCartMessage; 
@@ -2915,15 +2917,16 @@ class ProductInventory extends HTMLElement {
               c.classList.remove("khoi");    
               this.classList.remove("product-inventory--b8");   
               console.log("a");
-
+ 
             } else if (count === 1){
               notice = a.replace('[QTY]', count);
               c.classList.remove("thanh"); 
               c.classList.add("khoi");
-              console.log("c");
+              x = count - 1;                      
               this.classList.remove("product-inventory--b8"); 
 
-            } else {
+            }
+            else {
               if (b8Metafield === 'true'){
                 notice = a.replace(a, b);
                 c.classList.add("thanh"); 
@@ -2942,6 +2945,7 @@ class ProductInventory extends HTMLElement {
       } else {
         notice = this.dataset.textXLeftOk.replace('[QTY]', count);
       }
+      
     } else {
       // eslint-disable-next-line no-lonely-if
       if (count <= this.threshold) {
@@ -2974,28 +2978,22 @@ class CartMessage extends HTMLElement {
   }
  
   handleVariantChange(evt) {
-    const r = this.closest('.js-product').querySelector('.thanh');
+    var r = this.closest('.js-product').querySelector('.thanh');
+    var p = this.closest('.js-product').querySelector('.quan');
     if (this.querySelector('.properties')) {
       var myNode = this.querySelector('.properties');
       clone = myNode.cloneNode(true);
     }
     
     if (r === null ) {
-      
-  
       myNode.remove();
-
     } else{
-      
-
-      
-      
         this.appendChild(clone);
         var a = document.querySelectorAll('.cart-message-row .properties'); 
         a.forEach(el => { if (el.nextSibling){ el.remove();}}); 
-     
-  
     }
+
+    
  
   }
 }

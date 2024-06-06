@@ -79,6 +79,7 @@
       "description": "Beschreibung",
       "from": "Ab",
       "include_taxes": "inkl. MwSt.",
+      "notify_text": "DE - Notify Me When Available",
       "media": {
         "gallery_viewer": "Galerie-Viewer",
         "load_image": "Bild {{ index }} in Galerieansicht laden",

@@ -772,4 +772,10 @@
   ]
 }
 {% endschema %}
+{%- for item in cart.items -%}
+  {{ item.id }}: {{- item.variant.inventory_quantity -}}
+  {%- endfor -%}
+
+
+
 

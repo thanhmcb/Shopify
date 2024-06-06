@@ -79,6 +79,7 @@
       "description": "Beschrijving",
       "from": "Van",
       "include_taxes": "Belasting inbegrepen",
+      "notify_text": "NL - Notify Me When Available",
       "media": {
         "gallery_viewer": "Gallerij-viewer",
         "load_image": "Laad afbeelding {{ index }} in gallerij-weergave",

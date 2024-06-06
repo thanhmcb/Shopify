@@ -62,7 +62,7 @@
 {%- endif -%}
 <page-header data-section-id="{{ section.id }}" data-cc-animate>
   <div id="pageheader" class="pageheader pageheader--layout-{{ section.settings.menu_layout }}{% if section.settings.enable_transparent and template.name == 'index' %} pageheader--transparent-permitted pageheader--transparent{% endif %}{% if section.settings.enable_sticky %} pageheader--sticky{% endif %}">
-    <div class="logo-area container container--no-max">
+    <div class="logo-area container container--no-max"> {%- assign lang_code =  request.locale.iso_code -%} {{ lang_code }}
       <div class="logo-area__left">
         <div class="logo-area__left__inner">
           <button class="mobile-nav-toggle" aria-label="{{ 'general.navigation.menu' | t }}" aria-controls="main-nav">

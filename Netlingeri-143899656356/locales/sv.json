@@ -8,7 +8,8 @@
     "product": {
       "description": "Beskrivning",
       "add_to_cart": "Lägg i korgen",
-      "new": "Nyhet"
+      "new": "Nyhet",
+      "notify_text": "SV - Notify Me When Available"
     },
     "inventory": {
       "only_x_left": "Beställ nu, endast {{ quantity }} i lager"
