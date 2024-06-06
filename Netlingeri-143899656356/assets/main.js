@@ -873,7 +873,7 @@ class SideDrawer extends HTMLElement {
     this.dispatchEvent(new CustomEvent(`on:${this.dataset.name}:before-open`, {
       bubbles: true
     }));
-
+    
     // Prevent page behind from scrolling when side drawer is open.
     this.scrollY = window.scrollY;
     document.body.classList.add('fixed');
@@ -884,7 +884,8 @@ class SideDrawer extends HTMLElement {
     this.setAttribute('open', '');
     this.setAttribute('aria-hidden', 'false');
     this.opener = opener;
-
+    
+   
     trapFocus(this, elementToFocus);
 
     // Create event handler variables (so the bound event listeners can be removed).
@@ -2766,10 +2767,10 @@ const ProductForm = class extends HTMLElement {
       this.dispatchEvent(new CustomEvent('on:cart:error', {
         bubbles: true,
         detail: {
-          error: this.errorMsg.textContent
+          error: this.errorMsg.textContent          
         }
       }));
-
+    
       // Re-enable 'Add to Cart' button.
       this.submitBtn.classList.remove('is-loading');
       this.submitBtn.classList.remove('is-success');
@@ -2783,6 +2784,7 @@ const ProductForm = class extends HTMLElement {
    */
   setErrorMsgState(error = false) {
     this.errorMsg = this.errorMsg || this.querySelector('.js-form-error');
+
     if (!this.errorMsg) return;
 
     this.errorMsg.hidden = !error;
@@ -2857,6 +2859,7 @@ class ProductInventory extends HTMLElement {
   getVariantInventory() {
     const dataEl = this.querySelector('[type="application/json"]');
     return this.variantInventory || JSON.parse(dataEl.textContent);
+    console.log('u' + dataEl);
   }
 
   /**
@@ -2869,6 +2872,7 @@ class ProductInventory extends HTMLElement {
         ? this.variantInventory.find((v) => v.id === evt.detail.variant.id)
         : null
     );
+
   }
 
   /**
@@ -2880,19 +2884,61 @@ class ProductInventory extends HTMLElement {
     if (!inventory) {
       this.productInventory.hidden = true;
       return;
-    }
+    } 
 
-    const count = inventory.inventory_quantity;
+    var count = inventory.inventory_quantity;
+    const b8 = this.dataset.showB8Info;
+    const b8Metafield = this.dataset.showB8Metafield;
+    const y = this.closest('.js-product').querySelector('variant-picker fieldset.option-selector:nth-child(2) input.opt-btn');
+    
+   
     const showCount = this.dataset.showInventoryCount === 'always'
       || (
-        this.dataset.showInventoryCount === 'low'
+        this.dataset.showInventoryCount === 'low' 
         && count <= this.threshold
       );
+      
+    let notice = null; 
+   
 
-    let notice = null;
     if (showCount) {
+      
       if (count <= this.threshold) {
-        notice = this.dataset.textXLeftLow.replace('[QTY]', count);
+           var a = this.dataset.textXLeftLow;
+           var b = theme.strings.textCartMessage; 
+           var c = this.querySelector('.product-inventory__status');
+           
+           if (b8 === 'true'){
+            if (count > 1 ){ 
+              notice = a.replace('[QTY]', count);
+              c.classList.remove("thanh"); 
+              c.classList.remove("khoi");    
+              this.classList.remove("product-inventory--b8");   
+              console.log("a");
+
+            } else if (count === 1){
+              notice = a.replace('[QTY]', count);
+              c.classList.remove("thanh"); 
+              c.classList.add("khoi");
+              console.log("c");
+              this.classList.remove("product-inventory--b8"); 
+
+            } else {
+              if (b8Metafield === 'true'){
+                notice = a.replace(a, b);
+                c.classList.add("thanh"); 
+                c.classList.remove("khoi");   
+                this.classList.add("product-inventory--b8"); 
+                console.log("b");
+
+              } else {
+                notice = a.replace('[QTY]', count);
+              }              
+            }
+           }else{
+            notice = a.replace('[QTY]', count); 
+           }
+  
       } else {
         notice = this.dataset.textXLeftOk.replace('[QTY]', count);
       }
@@ -2904,7 +2950,7 @@ class ProductInventory extends HTMLElement {
         notice = this.dataset.textOk;
       }
     }
-
+ 
     this.productInventory.classList.toggle('product-inventory--low', count <= this.threshold);
     this.productInventory.classList.toggle('product-inventory--ok', count > this.threshold);
     this.inventoryNotice.innerText = notice;
@@ -2914,6 +2960,48 @@ class ProductInventory extends HTMLElement {
 
 customElements.define('product-inventory', ProductInventory);
 
+var clone;
+class CartMessage extends HTMLElement {
+  constructor() {
+    super();
+    window.initLazyScript(this, this.initLazySection.bind(this));
+  }
+
+  initLazySection() {
+    
+   
+    this.closest('.js-product').addEventListener('on:variant:change', this.handleVariantChange.bind(this));
+  }
+ 
+  handleVariantChange(evt) {
+    const r = this.closest('.js-product').querySelector('.thanh');
+    if (this.querySelector('.properties')) {
+      var myNode = this.querySelector('.properties');
+      clone = myNode.cloneNode(true);
+    }
+    
+    if (r === null ) {
+      
+  
+      myNode.remove();
+
+    } else{
+      
+
+      
+      
+        this.appendChild(clone);
+        var a = document.querySelectorAll('.cart-message-row .properties'); 
+        a.forEach(el => { if (el.nextSibling){ el.remove();}}); 
+     
+  
+    }
+ 
+  }
+}
+customElements.define('cart-message', CartMessage);
+
+ 
 if (!customElements.get('quantity-wrapper')) {
   class QuantityWrapper extends HTMLElement {
     connectedCallback() {

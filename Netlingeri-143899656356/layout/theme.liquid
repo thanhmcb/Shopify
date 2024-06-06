@@ -12,6 +12,7 @@
 <head>
   {%- render 'doc-head-core' -%}
   {%- render 'doc-head-social' -%}
+  
 
   {%- liquid
     assign base_font = settings.type_base_font
@@ -87,6 +88,7 @@
         productsProductChooseA: {{ 'products.product.choose_a' | t | json }},
         generalSearchPages: {{ 'general.search.pages' | t | json }},
         generalSearchNoResultsWithoutTerms: {{ 'general.search.no_results_without_terms' | t | json }},
+        textCartMessage: {{ 'products.inventory.b8_message_in_cart_and_checkout_and_orderconfirmation' | t | json }},
         shippingCalculator: {
           singleRate: {{ 'cart.shipping_calculator.single_rate' | t | json }},
           multipleRates: {{ 'cart.shipping_calculator.multiple_rates' | t | json }},

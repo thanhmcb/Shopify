@@ -209,7 +209,9 @@
       "in_stock": "På lager",
       "low_stock": "Lavt lager",
       "only_x_left": "Bestil nu, kun {{ quantity }} på lager",
-      "x_left": "{{ quantity }} på lager, klar til forsendelse"
+      "x_left": "{{ quantity }} på lager, klar til forsendelse",
+      "b8_advisory_in_cart_and_checkout_and_orderconfirmation": "OBS: ",
+      "b8_message_in_cart_and_checkout_and_orderconfirmation": "Fjernlager - Maks 2 ugers levering"
     },
     "transfers": {
       "will_not_ship_until": "Sender {{ date }}",

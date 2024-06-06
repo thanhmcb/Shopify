@@ -527,6 +527,18 @@
         "default": "#fcf1cd"
       },
       {
+        "type": "color",
+        "id": "b8_stock_text",
+        "label": "B8 Stock - Text",
+        "default": "#e4e4e4"
+      },
+      {
+        "type": "color",
+        "id": "b8_stock_background",
+        "label": "B8 Stock - Background",
+        "default": "#e4e4e4"
+      },
+      {
         "type": "header",
         "content": "Product ratings"
       },
