@@ -8,7 +8,8 @@
     "product": {
       "description": "Opis",
       "add_to_cart": "Dodaj do koszyka",
-      "new": "Co nowego"
+      "new": "Co nowego",
+      "notify_text": "PL - Notify Me When Available"
     },
     "inventory": {
       "only_x_left": "Zamów teraz, tylko {{ quantity }} sztuka w magazynie"

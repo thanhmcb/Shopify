@@ -79,6 +79,7 @@
       "description": "Description",
       "from": "De",
       "include_taxes": "Taxes incluses",
+      "notify_text": "FR - Notify Me When Available",
       "media": {
         "gallery_viewer": "Visionneuse de galerie",
         "load_image": "Charger l’image {{ index }} dans la vue de galerie",

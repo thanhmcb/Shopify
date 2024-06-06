@@ -8,7 +8,8 @@
     "product": {
       "description": "Kuvaus",
       "add_to_cart": "Lisää ostoskoriin",
-      "new": "Uutuudet"
+      "new": "Uutuudet",
+      "notify_text": "FI - Notify Me When Available"
     },
     "inventory": {
       "only_x_left": "Tilaa nyt, vain {{ quantity }} tuote varastossa"

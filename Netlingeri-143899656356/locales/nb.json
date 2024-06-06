@@ -7,7 +7,8 @@
   "products": {
     "product": {
       "add_to_cart": "Legg i kurven",
-      "new": "Nyhet"
+      "new": "Nyhet",
+      "notify_text": "NB - Notify Me When Available"
     },
     "inventory": {
       "only_x_left": "Bestill nå, kun {{ quantity }} på lager"

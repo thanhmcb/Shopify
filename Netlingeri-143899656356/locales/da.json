@@ -147,7 +147,7 @@
       "description": "Beskrivelse",
       "from": "Fra",
       "include_taxes": "Skat inkluderet",
-      "notify_text": "Notify Me When Available",
+      "notify_text": "DK - Notify Me When Available",
       "media": {
         "gallery_viewer": "Gallerifremviser",
         "load_image": "Indlæs billede {{ index }} i gallerivisning",
