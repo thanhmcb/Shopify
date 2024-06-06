@@ -86,8 +86,8 @@ Supported variables
     {%- endif -%}
     </div>
     {% if show_notify %}
-      <a class="klaviyo-bis-trigger button button--xl button--subdued" href="#">{{ 'product.general.no_stock' | t }}</a>  
-    {%- endif -%}
+      <a class="klaviyo-bis-trigger button button--xl button--subdued klaviyo-disable" href="#">{{ 'product.general.no_stock' | t }}</a>  
+    {%- endif -%} 
     {%- render 'button-wishlist', product: product -%}
   </buy-buttons>
 
