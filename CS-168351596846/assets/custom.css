@@ -188,10 +188,13 @@ border: 1px solid rgba(255,255,255,0.7);
     flex-grow: 1;
     display: grid;
   }
-  .notify_enable.wishlist_enable.form-variant--subdued .buy-buttons--multiple{
+  .notify_enable.wishlist_enable.form-variant--subdued .buy-buttons--multiple, .notify_enable.form-variant--subdued .button-wrapper {
     display: none;
   }
  
+}
+.horizontal-product__cta .klaviyo-bis-trigger {
+  display: none !important;
 }
 
 .klaviyo-disable{
