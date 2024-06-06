@@ -57,12 +57,7 @@
       --product-gallery-media-list-gap: var(--grid-gutter);
     }
   }
-  {%- unless section.settings.show_add_to_wishlist_when_sold_out_mobile -%} 
-    .btn-wishlist.mobile-touch-area.button--hide{
-      display:none;
-    }
-   
-  {%- endunless -%}
+
 </style>
 
 <div {% render 'section-properties', tight: true %}>
@@ -1948,6 +1943,16 @@ quick buy information in a template, that will be extracted in JS, but ensure it
       engravingElementsGroup.childNodes[0].prepend(engravingElementCopy);
     }
 
+    function ready(){
+      const wishlistDisable = document.querySelector('.wishlist_disable');
+      if(wishlistDisable){
+        wishlistDisable.closest('.product').classList.add('produt-wishlist_disable');
+      }
+    
+    
+  }
+  document.addEventListener("DOMContentLoaded", ready)
 
+  
     
 </script>
