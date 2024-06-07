@@ -407,6 +407,7 @@
                 <input id="{{ id }}" type="{{ type | default: 'text' }}" name="{{ name }}" value="{{ 'products.inventory.b8_message_in_cart_and_checkout_and_orderconfirmation' | t }}"form="{{ product_form_id }}" maxlength="0">
                 </div>
             </cart-message>
+         
             
              <buy-buttons class="buy-buttons-row block
             {% unless product.metafields.easypos.product_b8 %} klaviyo-enable{% endunless %}{% unless product.available %} product-not-available{% endunless %}{%- if request.page_type == 'collection' -%} collection-quick-view{% endif %}" {{ block.shopify_attributes }}>                             
@@ -2888,8 +2889,6 @@
            btn2.addEventListener("click", function(){
             if (btn3.classList.contains('khoi'))
              btn3.textContent = textPlace;
-             btn3.classList.add("khoi");
-            console.log(msg);
             msg.classList.add("product-inventory--b8");
-          });
+          }); 
 </script>                        
