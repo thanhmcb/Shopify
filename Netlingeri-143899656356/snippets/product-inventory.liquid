@@ -67,10 +67,7 @@
       {%- endif -%}
     {%- endfor -%}
 
-    {% for item in cart.items %}
-      ,{ "cart_item_id":{{- item.id -}} }
    
-    {% endfor %}
   {%- endcapture -%}
 
   <script type="application/json">

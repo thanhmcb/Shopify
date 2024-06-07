@@ -4,7 +4,7 @@ class CartDrawer extends SideDrawer {
   connectedCallback() {
     this.bindEvents();
   }
-
+ 
   bindEvents() {
     this.openDrawerViaEventHandler = this.handleDrawerOpenViaEvent.bind(this);
     this.closeDrawerViaEventHandler = this.close.bind(this, null);
@@ -19,9 +19,10 @@ class CartDrawer extends SideDrawer {
       theme.manuallyLoadImages(this);
       this.querySelectorAll('cc-cart-cross-sell').forEach((el) => el.init());
     });
- 
+   
   }
 
+ 
   disconnectedCallback() {
     document.removeEventListener('dispatch:cart-drawer:refresh', this.cartRefreshHandler);
     document.removeEventListener('dispatch:cart-drawer:open', this.openDrawerViaEventHandler);
@@ -34,7 +35,7 @@ class CartDrawer extends SideDrawer {
    */
   handleDrawerOpenViaEvent(evt) {
     this.open(evt.detail ? evt.detail.opener : null);
-  
+   console.log("lam khoi");
 
   }
 
@@ -43,6 +44,7 @@ class CartDrawer extends SideDrawer {
    */
   cartRefreshHandler() {
     this.querySelector('cart-form').refresh();
+   
   }
 
   /**

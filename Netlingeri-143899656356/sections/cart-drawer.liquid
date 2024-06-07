@@ -235,6 +235,8 @@
           <label for="terms">{{ 'cart.terms.agreement_html' | t: terms_url: section.settings.cart_terms_page }}</label>
         </terms-agreement>
       {% endif %}
+      
+      
 
       <div class="checkout-buttons{% if cart.items == empty %} hidden{% endif %}" data-merge-attributes="checkout-buttons">
         {% if section.settings.enable_direct_cart %}
@@ -302,11 +304,34 @@
         {%- endif -%}
       </div>
     </div>
+    {% assign value = 'thanh kim' %} 
+      
+     
+       {%- for item in cart.items -%}
+        {% if item.variant.inventory_quantity < 1 %} 
+           {% assign variable = item.variant.id %} 
+            {{ variable }} - {{ item.variant.inventory_quantity }}
+        {%- endif -%}      
+      {%- endfor -%} 
+
   </cart-form>
+
+  {%- capture variant_json -%}
+    {%- for item in cart.items -%}
+      {% if item.variant.inventory_quantity < 1 %}                      
+                  ,{ "variable":{{- item.variant.id -}}, "inventory_quantity":{{- item.variant.inventory_quantity -}} }
+            {%- endif -%}      
+    {%- endfor -%}
+ 
+  {%- endcapture -%}
+  <script type="application/json">
+    [
+      {{- variant_json | replace_first: ',', '' -}}
+   
+    ]
+  </script>
 </side-drawer>
 {%- endunless -%}
-
-
 {% schema %}
 {
   "name": "Cart drawer",
@@ -772,9 +797,9 @@
   ]
 }
 {% endschema %}
-{%- for item in cart.items -%}
-  {{ item.id }}: {{- item.variant.inventory_quantity -}}
-  {%- endfor -%}
+
+
+
 
 
 

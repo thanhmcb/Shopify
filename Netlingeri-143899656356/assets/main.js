@@ -873,7 +873,8 @@ class SideDrawer extends HTMLElement {
     this.dispatchEvent(new CustomEvent(`on:${this.dataset.name}:before-open`, {
       bubbles: true
     }));
-    
+
+
     // Prevent page behind from scrolling when side drawer is open.
     this.scrollY = window.scrollY;
     document.body.classList.add('fixed');
@@ -994,7 +995,7 @@ customElements.define('buy-buttons', BuyButtons);
 const CartForm = class extends HTMLElement {
   connectedCallback() {
     this.enableAjaxUpdate = this.dataset.ajaxUpdate;
-
+   
     if (this.enableAjaxUpdate) {
       this.sectionId = this.dataset.sectionId;
       this.boundRefresh = this.refresh.bind(this);
@@ -1008,17 +1009,20 @@ const CartForm = class extends HTMLElement {
       theme.addDelegateEventListener(this, 'click', '.quantity-down', (evt) => {
         evt.preventDefault();
         this.adjustItemQuantity(evt.target.closest('.cart-item'), { decrease: true });
+        
+        
       });
 
       theme.addDelegateEventListener(this, 'click', '.quantity-up', (evt) => {
         evt.preventDefault();
         this.adjustItemQuantity(evt.target.closest('.cart-item'), { increase: true });
-        console.log("khoiquan");
+        
+        
       });
 
       theme.addDelegateEventListener(this, 'change', '.cart-item__quantity-input', (evt) => {
         this.adjustItemQuantity(evt.target.closest('.cart-item'), { currentValue: true });
-       
+         
       });
     }
   }
@@ -1041,6 +1045,7 @@ const CartForm = class extends HTMLElement {
       .then((response) => {
         this.refreshFromHtml(response);
       });
+
   }
 
   refreshFromHtml(html) {
@@ -1069,19 +1074,26 @@ const CartForm = class extends HTMLElement {
 
   adjustItemQuantity(item, change) {
     const quantityInput = item.querySelector('.cart-item__quantity-input');
-
+    const variantQuantity = Number(item.querySelector('.variant_inventory_quantity').textContent);
     let newQuantity = parseInt(quantityInput.value, 10);
+    
     if (typeof change.to !== 'undefined') {
       newQuantity = change.to;
       quantityInput.value = newQuantity;
     } else if (change.increase) {
       newQuantity += quantityInput.step || 1;
       quantityInput.value = newQuantity;
+      const purchaseQuanity = variantQuantity - newQuantity;
+    
     } else if (change.decrease) {
       newQuantity -= quantityInput.step || 1;
       quantityInput.value = newQuantity;
-    } else if (change.currentValue) ;
-
+     
+    } else if (change.currentValue){
+        
+    };
+    
+    
     if (quantityInput.max && parseInt(quantityInput.value, 10) > parseInt(quantityInput.max, 10)) {
       newQuantity = quantityInput.max;
       quantityInput.value = newQuantity;
@@ -1127,7 +1139,7 @@ const CartForm = class extends HTMLElement {
     }, newQuantity === 0 ? 10 : 700);
   }
 };
-
+ 
 window.customElements.define('cart-form', CartForm);
 
 const CCCartCrossSell = class extends HTMLElement {
@@ -2889,6 +2901,7 @@ class ProductInventory extends HTMLElement {
     } 
 
     var count = inventory.inventory_quantity;
+    var variantID = inventory.id;
     const b8 = this.dataset.showB8Info;
     const b8Metafield = this.dataset.showB8Metafield;
     const y = this.closest('.js-product').querySelector('variant-picker fieldset.option-selector:nth-child(2) input.opt-btn');
@@ -2901,7 +2914,7 @@ class ProductInventory extends HTMLElement {
       );
       
     let notice = null; 
-    let x ;
+
    
 
     if (showCount) {      
@@ -2914,33 +2927,32 @@ class ProductInventory extends HTMLElement {
             if (count > 1 ){ 
               notice = a.replace('[QTY]', count);
               c.classList.remove("thanh"); 
-              c.classList.remove("khoi");    
+              c.classList.remove("khoi");  
               this.classList.remove("product-inventory--b8");   
-              console.log("a");
- 
+              console.log("a"+ variantID);
+           
             } else if (count === 1){
-              notice = a.replace('[QTY]', count);
-              c.classList.remove("thanh"); 
-              c.classList.add("khoi");
-              x = count - 1;                      
+              notice = a.replace('[QTY]', count); 
+              c.classList.add("khoi");                     
               this.classList.remove("product-inventory--b8"); 
-
+              console.log("c" + variantID);
+              c.classList.add("thanh"); 
             }
             else {
               if (b8Metafield === 'true'){
                 notice = a.replace(a, b);
                 c.classList.add("thanh"); 
-                c.classList.remove("khoi");   
+                c.classList.remove("khoi");    
                 this.classList.add("product-inventory--b8"); 
-                console.log("b");
-
+                console.log("b" + variantID);                     
               } else {
                 notice = a.replace('[QTY]', count);
               }              
             }
-           }else{
+            
+          }else{
             notice = a.replace('[QTY]', count); 
-           }
+          }
   
       } else {
         notice = this.dataset.textXLeftOk.replace('[QTY]', count);
@@ -2979,7 +2991,7 @@ class CartMessage extends HTMLElement {
  
   handleVariantChange(evt) {
     var r = this.closest('.js-product').querySelector('.thanh');
-    var p = this.closest('.js-product').querySelector('.quan');
+
     if (this.querySelector('.properties')) {
       var myNode = this.querySelector('.properties');
       clone = myNode.cloneNode(true);
@@ -2992,12 +3004,12 @@ class CartMessage extends HTMLElement {
         var a = document.querySelectorAll('.cart-message-row .properties'); 
         a.forEach(el => { if (el.nextSibling){ el.remove();}}); 
     }
-
-    
- 
+   
   }
 }
 customElements.define('cart-message', CartMessage);
+
+
 
  
 if (!customElements.get('quantity-wrapper')) {
