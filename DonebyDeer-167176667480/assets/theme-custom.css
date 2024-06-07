@@ -881,7 +881,16 @@ a.product-item-meta__title {font-weight:bold;}
 /*Slide header*/
 
 @media screen and (max-width: 740px){
-  .mobile-content-box--center {
+  [dir="ltr"] .mobile-content-box--text-right {
+    text-align: right;
+  }
+  [dir="ltr"] .mobile-content-box--right {
+    margin-left: auto;
+  }
+  .mobile-content-box--text-center{
     text-align: center;
   }
-}
+  [dir="ltr"] .mobile-content-box--left {
+    margin-right: auto;
+  }
+} 
