@@ -1,0 +1,239 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "1650878705f4f354be": {
+      "type": "image-with-text-block",
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/toyguide6-12m-2800x1400.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/toyguide6-12m-1800x1800_ab05f2e7-8dd0-4aec-af9f-ab4b479efa8d.jpg",
+        "subheading": "toy & gift guide",
+        "title": "6-12 months",
+        "content": "<p>Your baby is now starting to sit up and is ready to move about and explore. <br\/><br\/>There can be a lot of rolling around before it is refined to crawling. <br\/><br\/>Toys that require problem solving are good from this age. <br\/><br\/>Investigating and figuring out how things work is a hit – it could be fun bath toys or trying to work out a sorting box.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "right",
+        "text_alignment": "center",
+        "text_background": "#e4e0db",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16511264944a5894ec": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<div class=\"span12\">\n    <a class=\"pidlink\" name=\"17437\" id=\"17437\"><\/a>\n    \n        \n    \n\n    <p style=\"text-align: center;\"><a href=\"\/pages\/toy-and-gift-guide-0-3-months\"><u>0-3 months<\/u><\/a><a href=\"\/activity-toys-guide-2\">&nbsp;<\/a>&nbsp;<span style=\"text-align: center;\" lang=\"EN-US\">&nbsp;&nbsp;<\/span> &nbsp; <a href=\"\/pages\/toy-and-gift-guide-3-6-months\"><u>3-6 months<\/u><\/a><a href=\"\/activity-toys-guide-2\">&nbsp;<\/a>&nbsp;<span style=\"text-align: center;\" lang=\"EN-US\">&nbsp;&nbsp;<\/span> &nbsp; <a href=\"\/pages\/toy-and-gift-guide-6-12-months\"><u>6-12 months<\/u><\/a><a href=\"\/pages\/toy-and-gift-guide-6-12-months\">&nbsp;<\/a>&nbsp;<span style=\"text-align: center;\" lang=\"EN-US\">&nbsp;&nbsp;<\/span> &nbsp; <a href=\"\/pages\/toy-and-gift-guide-12-months\"><u>12+ months<\/u><\/a>&nbsp;<\/p>\n    \n  <\/div>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1650878127f3f91b9b": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "video_url": "https:\/\/youtu.be\/82_kOszRRic",
+        "background_type": "boxed",
+        "video_size": "medium",
+        "autoplay": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1649076809cbadb1b3": {
+      "type": "featured-collections",
+      "blocks": {
+        "1649076808da3adb88-0": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "hide-seek-toys",
+            "label": "hide & seek",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "8adb19d4-a723-491f-aa33-dfe2cd0d1a5a": {
+          "type": "collection",
+          "settings": {
+            "collection": "tg-6-12m-sorting-stacking",
+            "label": "sorting & stacking",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "27307196-498f-4a95-bf31-d25c24fe5820": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1649076808da3adb88-0",
+        "8adb19d4-a723-491f-aa33-dfe2cd0d1a5a",
+        "27307196-498f-4a95-bf31-d25c24fe5820"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Learning toys",
+        "content": "<p>Sorting boxes and stacking cubes promote 'sorting out things' and teach about numbers, colours, shape, form and the Deer friends. The child will find it fun to stack the cubes up high, tip them over and do this over and over.<\/p><p>The Croco sorting box will teach the little one to recognise shapes and colours, while developing concentration and hand-eye coordination. Croco doubles as a pull along toy for going on adventures.<\/p>",
+        "products_count": 4,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1650879523b87a4ffa": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16508804499fd45ee1": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<p style=\"text-align:center;\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0565\/6808\/6571\/files\/sensory-play-mat-deer-friends_841_2000x.jpg?v=1649159377\" alt=\"Logo\"><\/p>",
+        "add_vertical_spacing": true,
+        "background_type": "boxed",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "164907939075bcc9ae": {
+      "type": "featured-collections",
+      "blocks": {
+        "16490793901a8adc55-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "bath-toys",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "4a400d55-81ec-4eeb-82f1-0769f19f8bf8": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "hooded-towels",
+            "label": "hooded towels",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "16490793901a8adc55-0",
+        "4a400d55-81ec-4eeb-82f1-0769f19f8bf8"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "splish splash",
+        "content": "<p>Jelly and wally are all about splish, splash and giggles at bathtime. The three baby and toddler bath toys are made of neoprene so they are soft to touch and will also dry fast.<\/p><p>Join the Sea friends on their adventures in the fun bath time book or have fun filling them with water and see how the water drizzles when they are turned up-side down. This cute pair loves bathtime fun!<\/p>",
+        "products_count": 4,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "#f5f1ec",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "164907800035fafcbd": {
+      "type": "featured-collections",
+      "blocks": {
+        "1649078000cb21f9e5-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "cuddle-toys",
+            "label": "deer friends",
+            "button_text": "see all cuddle toys",
+            "button_url": "shopify:\/\/collections\/cuddle-toys"
+          }
+        }
+      },
+      "block_order": [
+        "1649078000cb21f9e5-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "cuddle friends",
+        "content": "<p>There’s a Deer friend for everyone and Croco, Raffi, Elphee, Wally and Jelly are all ready to be your little one’s best friend.<\/p>",
+        "products_count": 8,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1649078063e03da0e2": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<div class=\"span12\">\n    <a class=\"pidlink\" name=\"17437\" id=\"17437\"><\/a>\n    \n        \n    \n\n    <p style=\"text-align: center;\"><a href=\"\/pages\/toy-and-gift-guide-0-3-months\"><u>0-3 months<\/u><\/a><a href=\"\/activity-toys-guide-2\">&nbsp;<\/a>&nbsp;<span style=\"text-align: center;\" lang=\"EN-US\">&nbsp;&nbsp;<\/span> &nbsp; <a href=\"\/pages\/toy-and-gift-guide-3-6-months\"><u>3-6 months<\/u><\/a><a href=\"\/activity-toys-guide-2\">&nbsp;<\/a>&nbsp;<span style=\"text-align: center;\" lang=\"EN-US\">&nbsp;&nbsp;<\/span> &nbsp; <a href=\"\/pages\/toy-and-gift-guide-6-12-months\"><u>6-12 months<\/u><\/a><a href=\"\/pages\/toy-and-gift-guide-6-12-months\">&nbsp;<\/a>&nbsp;<span style=\"text-align: center;\" lang=\"EN-US\">&nbsp;&nbsp;<\/span> &nbsp; <a href=\"\/pages\/toy-and-gift-guide-12-months\"><u>12+ months<\/u><\/a>&nbsp;<\/p>\n    \n  <\/div>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1650878705f4f354be",
+    "16511264944a5894ec",
+    "1650878127f3f91b9b",
+    "1649076809cbadb1b3",
+    "1650879523b87a4ffa",
+    "16508804499fd45ee1",
+    "164907939075bcc9ae",
+    "164907800035fafcbd",
+    "1649078063e03da0e2"
+  ]
+}

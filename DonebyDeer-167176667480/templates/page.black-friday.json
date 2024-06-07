@@ -1,0 +1,254 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "1652087977ce2d0cae": {
+      "type": "slideshow",
+      "blocks": {
+        "16520879774e1fdf26-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/black_friday_formater_til_web4.jpg",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "16520879774e1fdf26-0"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "1647953099004a604b": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "Be the first to know about our Black Friday offers",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "f451e65b-7673-4e50-a4ab-6be60fd519d7": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<div class=\"klaviyo-form-UKLVeW\"><\/div>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "#272727",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1664796649c974bebe": {
+      "type": "newsletter",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/black_friday_formater_til_web.jpg",
+        "subheading": "Be the first to know about black friday offers",
+        "content": "<p>& get the chance to win a prize EVERY month.<\/p>",
+        "text_position": "left",
+        "text_alignment": "left",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "b87ef7fc-f5cd-415f-b84a-096bd148aa72": {
+      "type": "multi-column",
+      "blocks": {
+        "template--18524040757592__b87ef7fc-f5cd-415f-b84a-096bd148aa72-item-1": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Column 1",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "template--18524040757592__b87ef7fc-f5cd-415f-b84a-096bd148aa72-item-2": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Column 1",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "template--18524040757592__b87ef7fc-f5cd-415f-b84a-096bd148aa72-item-3": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Column 1",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "template--18524040757592__b87ef7fc-f5cd-415f-b84a-096bd148aa72-item-4": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Column 1",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--18524040757592__b87ef7fc-f5cd-415f-b84a-096bd148aa72-item-1",
+        "template--18524040757592__b87ef7fc-f5cd-415f-b84a-096bd148aa72-item-2",
+        "template--18524040757592__b87ef7fc-f5cd-415f-b84a-096bd148aa72-item-3",
+        "template--18524040757592__b87ef7fc-f5cd-415f-b84a-096bd148aa72-item-4"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "content_position": "below",
+        "subheading": "Subheading",
+        "title": "Multi-column",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "medium",
+        "spacing": "normal",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "item_text_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#000000",
+        "image_overlay_opacity": 30
+      }
+    },
+    "16479529605025bcde": {
+      "type": "image-with-text",
+      "blocks": {
+        "1647952960cfadbfad-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/getimage_8.jpg",
+            "tab_label": "",
+            "subheading": "",
+            "title": "say hello to Helene",
+            "content": "<p>Done by Deer is designed by Danish designer Helene Hjorth (Hjorth means deer in Danish) and her design team. They have a special ability to spot modern design trends and convert them into 100% friendly items that not only spark the imagination of kids, but are also modern design pieces for the home.<\/p><p>Helene and her design team constantly challenge themselves and their designs in order to innovate and make each product stand out. Nothing is left to coincidence and the deer is in every detail.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1647952960cfadbfad-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "both",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#e1cfc6",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16520921098c1f9f8b": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p><strong>Black Friday at Done by Deer<\/strong><br\/>The Done by Deer webshop is celebrating Black Friday with special offers and our Deer friends are looking forward to celebrating with you. So, check out our webshop on this special day or sign up to our newsletter to get the latest news on offers, latest news and useful tips. <br\/><br\/><strong>How can I be the first to know about Black Friday at Done by Deer? <\/strong><br\/>If you would like to be the first to know about our Black Friday offers (and offers in general) you can sign up to our Done by Deer newsletter <a href=\"\/pages\/newsletter-sign-up\" title=\"\/pages\/newsletter-sign-up\">here<\/a> or right on this page. <br\/><br\/><strong>Do you offer free delivery on Black Friday orders?<\/strong><br\/>When you shop at the official Done by Deer webshop on Black Friday you are <a href=\"\/pages\/shipping-returns\" title=\"shipping & returns\">eligible to get free delivery<\/a> on you Black Friday order.<br\/><br\/>If you shop from Austria, Belgium, Finland, France, Germany and the Netherlands you can get free shipping on orders above 79 EUR.   <br\/><br\/>If you shop from Denmark or Sweden you can get free delivery on orders above 499 kr.<br\/><br\/><strong>Can I buy my Christmas gifts on Black Friday?<\/strong><br\/>Yes, you can start your Christmas shopping at Done by Deer on Black Friday and save money. We have a 365 days full return policy, so there's plenty of time to make up your mind.  <br\/>So ask your family and friends for their wishlists or create your own by adding your favourite products to your own, personal wishlist at donebydeer.com and share it with your Deer ones. <br\/><br\/> <strong>What is your return policy on Black Friday orders?<\/strong><br\/>You can already start your Christmas shopping at Done by Deer on Black Friday. You get 365 days full return from the day you receive your order. So, you have plenty of time to decide if you want to keep the purchase. The 365 days full return policy applies to new and unused goods in original packaging. <a href=\"\/pages\/shipping-returns\" title=\"\/pages\/shipping-returns\">Read more about returns here<\/a>.<br\/><br\/><strong>When will you ship my Black Friday purchase?<\/strong><br\/>Our friendly warehouse staff usually ship all orders within 1-3 business days. <br\/>However, a few more days is to be expected during peak season (Black Friday and Christmas), but rest assured that we are doing everything we can to ship your order as fast as possible. <br\/><br\/><strong>What is Black Friday?<\/strong><br\/>Black Friday originated in the USA. It is the Friday after Thanksgiving and is normally the biggest shopping day of the year. In the beginning, it was only physical stores that opened their door to eager shoppers, but today webshops follow as well.<br\/><br\/><strong>When is Black Friday?<\/strong><br\/>Black Friday is always the last Friday in November. It is the day after Thanksgiving in the USA, which is always a Thursday. The timing is also a great opportunity to do some Christmas shopping as you can save a lot of money on Christmas gifts. <\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#272727",
+        "text_color": "#ffffff",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16647965959e7e4d9a": {
+      "type": "apps",
+      "blocks": {
+        "0d7f87a6-59f0-44df-bca6-5044e39bf441": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "TjhVaJ"
+          }
+        }
+      },
+      "block_order": [
+        "0d7f87a6-59f0-44df-bca6-5044e39bf441"
+      ],
+      "settings": {
+        "include_horizontal_margins": false,
+        "include_vertical_margins": false,
+        "custom_class": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1652087977ce2d0cae",
+    "1647953099004a604b",
+    "f451e65b-7673-4e50-a4ab-6be60fd519d7",
+    "1664796649c974bebe",
+    "b87ef7fc-f5cd-415f-b84a-096bd148aa72",
+    "16479529605025bcde",
+    "16520921098c1f9f8b",
+    "16647965959e7e4d9a"
+  ]
+}

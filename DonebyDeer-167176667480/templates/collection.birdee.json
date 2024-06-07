@@ -1,0 +1,714 @@
+{
+  "sections": {
+    "16488782880a67a293": {
+      "type": "apps",
+      "blocks": {
+        "0aa052c5-a4c4-408b-b213-437f0afbde87": {
+          "type": "shopify:\/\/apps\/category-breadcrumbs\/blocks\/category-breadcrumbs\/dba51573-4328-452d-90db-1ad2dc5be363",
+          "settings": {
+            "show_catroot": true,
+            "link_catroot": "\/",
+            "text_catroot": "Home",
+            "show_tags": false,
+            "show_finalbread_as_textonly": false,
+            "separator_char_code": "#47;",
+            "sep_plus_class": "breadcrumb__sep_plus3",
+            "insert_jsonld": true,
+            "insert_shortlinkfix": false,
+            "prod_ignore_referrer": false,
+            "prod_multicat_sel": "first",
+            "link_catall": "\/collections\/all",
+            "text_catall": "All Products",
+            "show_product_title": true,
+            "truncate_limit": 0
+          }
+        }
+      },
+      "block_order": [
+        "0aa052c5-a4c4-408b-b213-437f0afbde87"
+      ],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": false,
+        "custom_class": "section-breadcrumb--custom"
+      }
+    },
+    "1650625750d333c980": {
+      "type": "slideshow",
+      "blocks": {
+        "16506257504ddf2628-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/birdee-top-banner_1e25fced-c4b1-4e4e-99c9-ed0208b33540.png",
+            "mobile_image": "shopify:\/\/shop_images\/birdee-top-banner_mobil_94886d78-4028-4849-ac8f-78bc070cda94.png",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "16506257504ddf2628-0"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": false,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "1650619396dca921bb": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "meet antee",
+        "content": "<p>Antee loves to explore and the curious anteater with the long snout will sniff out new adventures at any time. Antee is really nozy but always kind to everyone when searching for food and fun places to go with the Deer friends.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "#56483b",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "collection-banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_image": false,
+        "show_collection_description": true,
+        "shorten-mobile-image": true,
+        "section_height": "small",
+        "text_width": "large",
+        "image_text_color": "#ffffff",
+        "image_overlay_color": "#000000",
+        "image_overlay_opacity": 0,
+        "quick_links": ""
+      }
+    },
+    "16482359876bcc4364": {
+      "type": "multi-column",
+      "disabled": true,
+      "blocks": {
+        "1648235987e8c82366-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1200x600-collection-promotion_plates_f1047749-2d47-47bb-b877-292d2c97d473.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "1648235987e8c82366-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1200x600-collection-promotion_bowls.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "1648235987e8c82366-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1200x600-collection-promotion-cups.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "1648235987e8c82366-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1200x600-collection-promotion_cutler.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "4c8b0864-2ecf-4888-881c-ef453bb31563": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1200x600-collection-promotion_bibs.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "f8f045bf-f244-45ad-b866-6623b18a1902": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1200x600-collection-promotion_placemats.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "30a623a8-0344-4e1c-9516-664968d9eb87": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1200x600-collection-promotion-bottles.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "9bf81a14-3893-4243-9f1a-a5009ff67b3e": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1200x600-collection-promotion_lunch.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "e1526e92-d640-41c7-a25d-645e528b62eb": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1200x600-collection-promotion_dinner.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1648235987e8c82366-0",
+        "1648235987e8c82366-2",
+        "1648235987e8c82366-1",
+        "1648235987e8c82366-3",
+        "4c8b0864-2ecf-4888-881c-ef453bb31563",
+        "f8f045bf-f244-45ad-b866-6623b18a1902",
+        "30a623a8-0344-4e1c-9516-664968d9eb87",
+        "9bf81a14-3893-4243-9f1a-a5009ff67b3e",
+        "e1526e92-d640-41c7-a25d-645e528b62eb"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "content_position": "below",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "medium",
+        "spacing": "normal",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "item_text_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#000000",
+        "image_overlay_opacity": 30
+      }
+    },
+    "1648237437d6d82611": {
+      "type": "multi-column",
+      "disabled": true,
+      "blocks": {
+        "164823743743b125d2-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1200x1200-plates.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "164823743743b125d2-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1200x1200-bowls.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "164823743743b125d2-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1200x1200_cups.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "164823743743b125d2-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1200x1200-cutlery.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "04bddda6-be95-47df-a8d6-99dfa3eca6b5": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1200x1200_bibs.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "164823743743b125d2-0",
+        "164823743743b125d2-1",
+        "164823743743b125d2-2",
+        "164823743743b125d2-3",
+        "04bddda6-be95-47df-a8d6-99dfa3eca6b5"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "content_position": "below",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "medium",
+        "spacing": "normal",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "item_text_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#000000",
+        "image_overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "blocks": {
+        "297c0412-796a-42a2-ba70-748ed4b32ede": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Raffi-Big_0022-11_1200_edit.jpg",
+            "subheading": "guides",
+            "title": "why stuffed animals are so much more than a toy",
+            "link_text": "read more",
+            "link_url": "shopify:\/\/blogs\/news\/deer-friends",
+            "link_style": "button",
+            "text_position": "middle_right",
+            "background": "#f7f8fd",
+            "text_color": "#ffffff",
+            "button_background": "#c49d69",
+            "button_text_color": "#ffffff"
+          }
+        },
+        "50daee5c-d62d-4aff-8030-9d91168eb465": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slider-deer-friends_1200_76f4c2c4-f101-48ec-bcfc-54ac22ff116d.jpg",
+            "subheading": "meet our lovable",
+            "title": "deer friends",
+            "link_text": "let's go!",
+            "link_url": "shopify:\/\/pages\/meet-the-deer-friends",
+            "link_style": "button",
+            "text_position": "middle_right",
+            "background": "rgba(0,0,0,0)",
+            "text_color": "#ffffff",
+            "button_background": "#c49d69",
+            "button_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "297c0412-796a-42a2-ba70-748ed4b32ede",
+        "50daee5c-d62d-4aff-8030-9d91168eb465"
+      ],
+      "settings": {
+        "show_sort_by": true,
+        "products_per_page": 24,
+        "mobile_products_per_row": "2",
+        "desktop_products_per_row": 4,
+        "show_filters": true,
+        "show_filter_group_name": false,
+        "show_color_swatch": true,
+        "open_first_filter_group": true,
+        "filter_position": "drawer",
+        "promotion_position": "bottom",
+        "promotion_height": "small"
+      }
+    },
+    "5d1e0b22-2eeb-4e43-96bb-97b63bba8c03": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "the story about",
+        "title": "Birdee",
+        "content": "<p>{{ collection.metafields.my_fields.bottomdesc | metafield_tag }}<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "165062806460840f80": {
+      "type": "promotion-blocks",
+      "disabled": true,
+      "blocks": {
+        "1650628064c2b5c2e4-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1313522-2.jpg",
+            "highlight": false,
+            "subheading": "",
+            "title": "let antee catch the carrots",
+            "link_text": "Shop now",
+            "link_url": "shopify:\/\/products\/bib-w-velcro-2-pack-deer-friends-blue",
+            "link_style": "button",
+            "text_position": "bottom_center",
+            "background": "#f7f8fd",
+            "text_color": "#5a4b37",
+            "button_background": "#5a4b37",
+            "button_text_color": "#d9c2a0"
+          }
+        },
+        "5878e066-8760-4504-aaf5-9266641aaf1e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4823439.png",
+            "highlight": false,
+            "subheading": "hide & seek fun",
+            "title": "",
+            "link_text": "Shop now",
+            "link_url": "shopify:\/\/products\/hide-seek-mountain-lalee-colour-mix",
+            "link_style": "button",
+            "text_position": "bottom_center",
+            "background": "#dfd1bb",
+            "text_color": "#5a4b37",
+            "button_background": "#c49d69",
+            "button_text_color": "#f5f1ec"
+          }
+        },
+        "7d2d9525-85d7-43c9-8280-12fd783b5fa3": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "highlight": true,
+            "video_url": "https:\/\/www.youtube.com\/watch?v=82_kOszRRic"
+          }
+        }
+      },
+      "block_order": [
+        "1650628064c2b5c2e4-2",
+        "5878e066-8760-4504-aaf5-9266641aaf1e",
+        "7d2d9525-85d7-43c9-8280-12fd783b5fa3"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "section_size": "large",
+        "stack_on_mobile": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1648239300f17ae7b2": {
+      "type": "multi-column",
+      "blocks": {
+        "1648239299b0bb3541-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/elphee-icon_450x450_7dfc21d2-4a09-48ba-b54b-d6d0482ddd4d.png",
+            "image_width": 50,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "elphee",
+            "link_url": "shopify:\/\/collections\/elphee",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "fced0c9f-991f-4160-8794-49d03f5b8668": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/croco-icon_450x450_bd163ecd-03b6-444f-b0ef-bd94de856e56.png",
+            "image_width": 50,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "croco",
+            "link_url": "shopify:\/\/collections\/croco",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "2099df31-5cb6-40fd-9de6-bd021b0aa595": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lalee-icon_450x450_35fdc114-ef4f-4631-8d8c-b587a1d23dbe.png",
+            "image_width": 50,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "lalee",
+            "link_url": "shopify:\/\/collections\/lalee",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "1648239299b0bb3541-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/raffi-icon_450x450_c949d89e-ad85-45f0-8956-292ad9261789.png",
+            "image_width": 50,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "raffi",
+            "link_url": "shopify:\/\/collections\/raffi",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "097dd875-d390-49f0-a71d-ad9293ae4120": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/birdee-icon_450x450_2f80f0af-7843-42ab-af8b-ed917bceca49.png",
+            "image_width": 50,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "birdee",
+            "link_url": "shopify:\/\/collections\/birdee",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "b09dc36f-0aed-4b15-82fb-80c035bd4e85": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ozzo-icon_450x450_c787315f-2c0d-4540-8947-849e046580e3.png",
+            "image_width": 50,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "ozzo",
+            "link_url": "shopify:\/\/collections\/ozzo",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "1648239299b0bb3541-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/nozo-icon_450x450_d45f6b7d-dea7-486a-a080-07e58b0e8479.png",
+            "image_width": 50,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "nozo",
+            "link_url": "shopify:\/\/collections\/nozo",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "1648239299b0bb3541-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/zebee-icon_450x450_7e40fefd-fc9c-47d7-8f2f-e3efa20f875c.png",
+            "image_width": 50,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "zebee",
+            "link_url": "shopify:\/\/collections\/zebee",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "b5b11525-5f29-4f1b-bac3-b64f73b5c3ce": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/antee-icon_450x450_f0806e7f-aee0-4963-8057-ef3b436485c6.png",
+            "image_width": 50,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "antee",
+            "link_url": "shopify:\/\/collections\/antee",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "5f395188-ee38-4f4e-98de-715d6a248bd3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jelly-icon_450x450_cb91e6b6-c0ea-41f7-9d4c-d0b3d0274580.png",
+            "image_width": 50,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "jelly",
+            "link_url": "shopify:\/\/collections\/jelly",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "ae2167ed-bd16-41a5-a42b-5a03e8495710": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wally-icon_450x450_cd65c004-e9a1-4fee-84da-6e60815008a8.png",
+            "image_width": 50,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "wally",
+            "link_url": "shopify:\/\/collections\/wally",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1648239299b0bb3541-0",
+        "fced0c9f-991f-4160-8794-49d03f5b8668",
+        "2099df31-5cb6-40fd-9de6-bd021b0aa595",
+        "1648239299b0bb3541-2",
+        "097dd875-d390-49f0-a71d-ad9293ae4120",
+        "b09dc36f-0aed-4b15-82fb-80c035bd4e85",
+        "1648239299b0bb3541-1",
+        "1648239299b0bb3541-3",
+        "b5b11525-5f29-4f1b-bac3-b64f73b5c3ce",
+        "5f395188-ee38-4f4e-98de-715d6a248bd3",
+        "ae2167ed-bd16-41a5-a42b-5a03e8495710"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "content_position": "below",
+        "subheading": "shop another Deer friend",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "small",
+        "desktop_item_size": "pico",
+        "spacing": "tight",
+        "background": "#eeeee6",
+        "text_color": "rgba(0,0,0,0)",
+        "item_text_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#000000",
+        "image_overlay_opacity": 30
+      }
+    },
+    "1649833573bf0d2e64": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<h2 id=\"meet croco\">meet croco<\/h2>\n<p style=\"text-align: center\">Croco is a true best friend that sticks by you no matter what. Once you are Croco’s friend you are friends forever and he will protect you and guard all your favourite stuff.<\/p>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "16488782880a67a293",
+    "1650625750d333c980",
+    "1650619396dca921bb",
+    "collection-banner",
+    "16482359876bcc4364",
+    "1648237437d6d82611",
+    "main",
+    "5d1e0b22-2eeb-4e43-96bb-97b63bba8c03",
+    "165062806460840f80",
+    "1648239300f17ae7b2",
+    "1649833573bf0d2e64"
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "sections": {
+    "blog-post-banner": {
+      "type": "blog-post-banner",
+      "settings": {
+        "show_category": true,
+        "blog_header_background": "#f5f5f5",
+        "blog_header_text_color": "#282828"
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "settings": {
+        "show_on_scroll_navigation": true,
+        "show_author": true,
+        "show_date": true,
+        "show_share_buttons": true
+      }
+    },
+    "164872775238a29dd0": {
+      "type": "featured-collections",
+      "disabled": true,
+      "blocks": {
+        "16487277527a5f6d7d-0": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "lalee",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "321aee8a-e9a9-468c-829c-919b4fe7515f": {
+          "type": "collection",
+          "settings": {
+            "collection": "sea-friends",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "16487277527a5f6d7d-0",
+        "321aee8a-e9a9-468c-829c-919b4fe7515f"
+      ],
+      "settings": {
+        "subheading": "check out",
+        "title": "our new collection",
+        "content": "",
+        "products_count": 4,
+        "products_per_row": 4,
+        "stack_products": false,
+        "show_cta": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "164872857641e8d1d6": {
+      "type": "featured-product",
+      "disabled": true,
+      "blocks": {
+        "164872857685dc7cc5-0": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "164872857685dc7cc5-1": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "164872857685dc7cc5-2": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "atc_button_background": "rgba(0,0,0,0)",
+            "atc_button_text_color": "rgba(0,0,0,0)",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "164872857685dc7cc5-0",
+        "164872857685dc7cc5-1",
+        "164872857685dc7cc5-2"
+      ],
+      "settings": {
+        "product": "cozy-lounger-w-activity-arch-raffi-sand",
+        "subheading": "our newest",
+        "title": "award winner",
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_share_buttons": true,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "slide",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1655983389b1c3ed9e": {
+      "type": "promotion-blocks",
+      "blocks": {
+        "ac176adf-6f24-43d6-aaed-ec0bf4de6031": {
+          "type": "featured_products",
+          "settings": {
+            "highlight": false,
+            "subheading": "",
+            "product_1": "tummy-time-activity-toy-croco-sand",
+            "product_2": "tummy-time-activity-toy-croco-green",
+            "product_3": "tummy-time-activity-toy-croco-powder",
+            "product_4": "",
+            "background": "#ffffff",
+            "text_color": "#38383a"
+          }
+        },
+        "d6545f4d-f750-4076-93ae-44907ad52dbd": {
+          "type": "featured_products",
+          "settings": {
+            "highlight": false,
+            "subheading": "",
+            "product_1": "sensory-play-mat-sea-friends-colour-mix",
+            "product_2": "sensory-play-mat-deer-friends-sand",
+            "product_3": "",
+            "product_4": "",
+            "background": "#ffffff",
+            "text_color": "#38383a"
+          }
+        },
+        "ca6383c1-3a74-4c88-b79b-4b94bf1d3fa2": {
+          "type": "featured_products",
+          "settings": {
+            "highlight": false,
+            "subheading": "",
+            "product_1": "activity-floor-mirror-lalee-sand",
+            "product_2": "activity-floor-mirror-elphee-grey",
+            "product_3": "activity-floor-mirror-wally-blue",
+            "product_4": "activity-floor-mirror-raffi-mustard",
+            "background": "#ffffff",
+            "text_color": "#38383a"
+          }
+        }
+      },
+      "block_order": [
+        "ac176adf-6f24-43d6-aaed-ec0bf4de6031",
+        "d6545f4d-f750-4076-93ae-44907ad52dbd",
+        "ca6383c1-3a74-4c88-b79b-4b94bf1d3fa2"
+      ],
+      "settings": {
+        "subheading": "buy all of the",
+        "title": "cute stuff from this blog",
+        "section_size": "medium",
+        "stack_on_mobile": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "blog-post-prev-next": {
+      "type": "blog-post-prev-next",
+      "settings": {}
+    },
+    "blog-post-comments": {
+      "type": "blog-post-comments",
+      "settings": {
+        "show_gravatar": true
+      }
+    },
+    "16491846057ddbd46e": {
+      "type": "recently-viewed-products",
+      "disabled": true,
+      "settings": {
+        "subheading": "REMEMBER THESE COOL THINGS",
+        "title": "",
+        "products_count": 4,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "blog-post-banner",
+    "main",
+    "164872775238a29dd0",
+    "164872857641e8d1d6",
+    "1655983389b1c3ed9e",
+    "blog-post-prev-next",
+    "blog-post-comments",
+    "16491846057ddbd46e"
+  ]
+}

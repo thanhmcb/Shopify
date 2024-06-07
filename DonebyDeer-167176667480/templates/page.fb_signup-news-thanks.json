@@ -1,0 +1,370 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "e665158c-0413-457c-822d-2ad6755de3c8": {
+      "type": "image-with-text-block",
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/peekaboo-party-table_2065_2_78942a92-53f5-4c54-a8d4-41f9d3b40f35.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/peekaboo-party-table_2065_2_78942a92-53f5-4c54-a8d4-41f9d3b40f35.jpg",
+        "subheading": "",
+        "title": "Thank you for subscribing to our newsletter, Deer",
+        "content": "<p>We're so happy you want to join our monthly prize draw and recieve news from our Deer universe.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "right",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "9f29b561-5469-4c58-af60-f10411479f96": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "template--15100505358379__9f29b561-5469-4c58-af60-f10411479f96-1678791342999ca55c-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/peekaboo-party-table_2065_2.jpg",
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "Thank you for subscribing to our newsletter, Deer.",
+            "content": "<p>We're so happy you want to join our monthly prize draw and recieve news from our Deer universe.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15100505358379__9f29b561-5469-4c58-af60-f10411479f96-1678791342999ca55c-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "both",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "d3e05347-7a23-42c3-a6bc-f69c1bb277b9": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "as a deer member",
+        "content": "<p>you get the chance to win in our monthly prize draw, you recieve useful tips for your little one(s) and you get pre-access to our sales & offers.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "99a4fdb4-a41b-4a5f-93cd-c747a70c0d1e": {
+      "type": "promotion-blocks",
+      "blocks": {
+        "template--15100505358379__99a4fdb4-a41b-4a5f-93cd-c747a70c0d1e-167879747957dfcbc0-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/playtime_2702233_-80_brightness.jpg",
+            "highlight": false,
+            "subheading": "",
+            "title": "Toy guide",
+            "link_text": "find the perfect toys for both babies and toddlers",
+            "link_url": "shopify:\/\/pages\/toy-and-gift-guide",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#ffffff",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "template--15100505358379__99a4fdb4-a41b-4a5f-93cd-c747a70c0d1e-167879747957dfcbc0-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/croco-cuddle-friend-powder_0013_2160_-80.jpg",
+            "highlight": false,
+            "subheading": "",
+            "title": "New arrivals",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/news",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f8fd",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        }
+      },
+      "block_order": [
+        "template--15100505358379__99a4fdb4-a41b-4a5f-93cd-c747a70c0d1e-167879747957dfcbc0-0",
+        "template--15100505358379__99a4fdb4-a41b-4a5f-93cd-c747a70c0d1e-167879747957dfcbc0-2"
+      ],
+      "settings": {
+        "subheading": "get off to a good start",
+        "title": "explore the website",
+        "section_size": "medium",
+        "stack_on_mobile": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16635869840b2449f7": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<div class=\"klaviyo-form-Wvv7tJ\"><\/div>",
+        "add_vertical_spacing": false,
+        "background_type": "boxed",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "#38383a"
+      }
+    },
+    "16566778243f74371f": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "1656677824086796bc-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/140_eur_gift_card_350x350_31b6edb4-da6b-4d7e-aba2-7cf8f0b795f8.jpg",
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "March prize",
+            "content": "<p>The March prize is a € 140 gift card to use on our webshop.<br\/><br\/>If you're the luck winner, we will contact you by e-mail the last business day in March.  <\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "f2944bf7-a476-4686-b5c7-9a368d75c031": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "tab_label": "Item",
+            "subheading": "Subheading",
+            "title": "Image with text",
+            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1656677824086796bc-0",
+        "f2944bf7-a476-4686-b5c7-9a368d75c031"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "both",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#e4e0db",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "165909269289d4c2bd": {
+      "type": "image-with-text-block",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/peekaboo_prize4.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/peekaboo_prize5.jpg",
+        "subheading": "",
+        "title": "sign up & win",
+        "content": "<p>Sign up to our friendly newsletter and join in our monthly prize draw.<\/p><p>The September prize is a Peekaboo dinner set with plate, fork and a two-handle cup.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "left",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1655205738c8beb381": {
+      "type": "newsletter",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/newsletter_signup_colour_d532487a-8eb8-43f9-985d-d8cad6151bd6.jpg",
+        "subheading": "",
+        "content": "",
+        "text_position": "center",
+        "text_alignment": "left",
+        "text_background": "#ffffff",
+        "text_color": "#a89573",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16560539834557d969": {
+      "type": "recently-viewed-products",
+      "settings": {
+        "subheading": "",
+        "title": "remember these?",
+        "products_count": 4,
+        "background": "#ffffff",
+        "text_color": "#38383a"
+      }
+    },
+    "81fb0ef7-5a88-4d6f-b0a4-46c1943b75df": {
+      "type": "collection-list",
+      "disabled": true,
+      "blocks": {
+        "template--15100505358379__81fb0ef7-5a88-4d6f-b0a4-46c1943b75df-1678791993e461d3c3-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "dinner-time",
+            "subheading": "",
+            "title": "dinner time",
+            "link_text": "Make dinner time with kids fun and cosy with our wide range of plates, bowls, cups, cutlery, bibs, placemats and so much more.",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--15100505358379__81fb0ef7-5a88-4d6f-b0a4-46c1943b75df-1678791993e461d3c3-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "news",
+            "image": "shopify:\/\/shop_images\/croco-cuddle-friend-powder_0013_endnu_mindre.jpg",
+            "subheading": "",
+            "title": "new arrivals",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--15100505358379__81fb0ef7-5a88-4d6f-b0a4-46c1943b75df-1678791993e461d3c3-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "deer-friends",
+            "image": "shopify:\/\/shop_images\/slider-deer-friends_1800x1800_9afd6017-742b-4945-96f9-a990438bb653.jpg",
+            "subheading": "",
+            "title": "Deer friends",
+            "link_text": "Come along. Say “hi” to all of our beloved Deer friends. Our Deer friends will love to entertain you. You can have fun",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--15100505358379__81fb0ef7-5a88-4d6f-b0a4-46c1943b75df-1678791993e461d3c3-0",
+        "template--15100505358379__81fb0ef7-5a88-4d6f-b0a4-46c1943b75df-1678791993e461d3c3-1",
+        "template--15100505358379__81fb0ef7-5a88-4d6f-b0a4-46c1943b75df-1678791993e461d3c3-2"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "layout": "grid",
+        "subheading": "get off to a good start",
+        "title": "explore the webshop",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "bc16eb8d-9e04-4ea7-ae5d-ae92f7fb6d1f": {
+      "type": "blog-posts",
+      "settings": {
+        "blog": "news",
+        "subheading": "",
+        "title": "inspiration",
+        "articles_count": 3,
+        "stack_mobile": false,
+        "show_category": true,
+        "show_excerpt": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "165520649801d9bac7": {
+      "type": "apps",
+      "blocks": {
+        "e4175269-9f23-4d01-a1fa-a99f2bbcbd1f": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "TjhVaJ"
+          }
+        }
+      },
+      "block_order": [
+        "e4175269-9f23-4d01-a1fa-a99f2bbcbd1f"
+      ],
+      "settings": {
+        "include_horizontal_margins": false,
+        "include_vertical_margins": false,
+        "custom_class": ""
+      }
+    },
+    "1655208202645cdf8b": {
+      "type": "apps",
+      "blocks": {
+        "18ce0e42-e4e2-40ab-bd97-6cc656c3a0c2": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": "<h1 style=\"text-align:center\">\n<a href=\"https:\/\/www.instagram.com\/donebydeer\/\" target=\"_blank\">join the fun @donebydeer<\/a>\n<\/h1>"
+          }
+        }
+      },
+      "block_order": [
+        "18ce0e42-e4e2-40ab-bd97-6cc656c3a0c2"
+      ],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true,
+        "custom_class": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "e665158c-0413-457c-822d-2ad6755de3c8",
+    "9f29b561-5469-4c58-af60-f10411479f96",
+    "d3e05347-7a23-42c3-a6bc-f69c1bb277b9",
+    "99a4fdb4-a41b-4a5f-93cd-c747a70c0d1e",
+    "16635869840b2449f7",
+    "16566778243f74371f",
+    "165909269289d4c2bd",
+    "1655205738c8beb381",
+    "16560539834557d969",
+    "81fb0ef7-5a88-4d6f-b0a4-46c1943b75df",
+    "bc16eb8d-9e04-4ea7-ae5d-ae92f7fb6d1f",
+    "165520649801d9bac7",
+    "1655208202645cdf8b"
+  ]
+}

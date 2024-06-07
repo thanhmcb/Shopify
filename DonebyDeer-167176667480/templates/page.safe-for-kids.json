@@ -1,0 +1,133 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "custom_css": [],
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "aca520a5-53a7-4d4b-b639-184a68e65c18": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "safe for kids",
+        "content": "<p>Safety is our top priority when we design for your little one. <br\/><br\/>Our products comply with all relevant standards and regulations, both in relation to safety and unwanted substances.<br\/><br\/>This gives you peace of mind when you use Done by Deer products together with your little one.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#f5f1ec",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "190a7aee-68b3-4334-9ea7-ee6b71e674d4": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--20687225323864__190a7aee-68b3-4334-9ea7-ee6b71e674d4-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Activity-play-mat-Lalee-Sand-9-LS.jpg",
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "safe play time",
+            "content": "<p>All Done by Deer toys comply with the European standard for toys, EN 71, and the American standard, ASTM F963. <br\/><br\/>Our toys are subjected to numerous tests at international test laboratories to ensure they are safe.<br\/><br\/>The materials we use for our toys are tested according to the newest requirements for the migration of unwanted chemicals.<\/p>",
+            "button_text": "see all toys",
+            "button_link": "shopify:\/\/collections\/playtime"
+          }
+        }
+      },
+      "block_order": [
+        "template--20687225323864__190a7aee-68b3-4334-9ea7-ee6b71e674d4-item-1"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "both",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#c4baad",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "c4cb52f3-40ae-492e-a0a5-b024c2da3c07": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--20687225323864__c4cb52f3-40ae-492e-a0a5-b024c2da3c07-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Foodie-bowl-Croco-Green-4-LS.jpg",
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "safe dinner time",
+            "content": "<p>Our dinner time products all comply with the European legislation for food contact materials: EC 1935\/2004. <br\/><br\/>They also comply with the FDA requirements for food contact materials, as described in the Code of Federal Regulations (C.F.R.) under Title 21, also known as 21 CFR.<br\/><br\/>For plastic materials there are extra requirements: EC 10\/2011, which we also comply with.<br\/><br\/>Our silicone products are tested according to the German Food & Feed Act (LFGB) to ensure that our silicone products do not contain any unwanted substances such as BPA and phthalates.<\/p>",
+            "button_text": "see all dinner time",
+            "button_link": "shopify:\/\/collections\/dinner-time"
+          }
+        }
+      },
+      "block_order": [
+        "template--20687225323864__c4cb52f3-40ae-492e-a0a5-b024c2da3c07-item-1"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "both",
+        "image_position": "right",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#f5f1ec",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "165121884441f588fa": {
+      "type": "instafeed",
+      "settings": {
+        "heading_size": 14,
+        "feed_width": 70,
+        "html_area": "<h1 style=\"text-align:center\">\n<a href=\"https:\/\/www.instagram.com\/donebydeer\/\" target=\"_blank\">join the fun @donebydeer<\/a>\n<\/h1>"
+      }
+    },
+    "1651226588564a38e5": {
+      "type": "testimonials",
+      "blocks": {
+        "1651226588612d99d0-0": {
+          "type": "testimonial",
+          "settings": {
+            "content": "“daydream and bounce along\"",
+            "author": "Lalee, one of our Deer friends"
+          }
+        }
+      },
+      "block_order": [
+        "1651226588612d99d0-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "aca520a5-53a7-4d4b-b639-184a68e65c18",
+    "190a7aee-68b3-4334-9ea7-ee6b71e674d4",
+    "c4cb52f3-40ae-492e-a0a5-b024c2da3c07",
+    "165121884441f588fa",
+    "1651226588564a38e5"
+  ]
+}

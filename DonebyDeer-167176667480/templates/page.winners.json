@@ -1,0 +1,126 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "165658926205951090": {
+      "type": "slideshow",
+      "blocks": {
+        "16565892620addce6b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/winner_hero.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/winner_mobilhero.jpg",
+            "text_position": "middle_center",
+            "subheading": "monthly newsletter competition",
+            "title": "our deer winners",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15
+          }
+        }
+      },
+      "block_order": [
+        "16565892620addce6b-0"
+      ],
+      "settings": {
+        "section_height": "small",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 4,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "1656589557f30b0901": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>Here you can see all the previous winners of our monthly prize draw<br\/><br\/>To participate, simply sign up to <a href=\"\/pages\/newsletter-sign-up\" title=\"newsletter sign up\">our weekly newsletter<\/a>.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "rich_text_XUMeHe": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "2024",
+        "title": "",
+        "content": "<p>January: Emilie, Denmark (<a href=\"\/collections\/baby-play-gyms-activity-blankets\" title=\"baby activity gyms & play mats\">activity play gym<\/a>)<br\/><br\/>February: Julia, Austria (<a href=\"\/products\/done-by-deer-gift-card\" title=\"Digital gift card\">140 EUR gift card<\/a>)<br\/><br\/>March: Elyse, Belgium (<a href=\"\/collections\/out-and-about\" title=\"\/collections\/out-and-about\">Changing bag + kids bag<\/a>)<br\/> <br\/>April: Patricija, Sweden (<a href=\"\/collections\/wooden-toys\" title=\"\/collections\/wooden-toys\">wooden toy<\/a>)<br\/><br\/>May: Amber, Belgium (<a href=\"\/collections\/foodie\" title=\"\/collections\/foodie\">Foodie bundle<\/a>)<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "64584ac6-c8d8-4bcf-a450-3337a624ba7f": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "2023",
+        "title": "",
+        "content": "<p>January: Josephie, Denmark (<a href=\"\/products\/activity-gym-lalee-sand\" title=\"Activity gym - Lalee - Sand\">activity play gym<\/a>)<br\/><br\/>February:  Anna, Sweden (<a href=\"\/products\/bedlinen-baby-happy-clouds-green\" title=\"Bedlinen baby - Happy clouds - Green\">Happy Clouds bedlinen<\/a> + <a href=\"\/products\/soft-toy-happy-clouds-ozzo-powder\" title=\"Soft toy Happy clouds - Ozzo - Powder\">Ozzo plush<\/a>)<br\/><br\/>March: Sandra, Germany (<a href=\"\/products\/done-by-deer-gift-card\" title=\"Gift card\">140 EUR gift card<\/a>)<\/p><p>April: Irene, Nederlands (<a href=\"\/products\/stacking-tower-raffi-colour-mix\" title=\"Stacking tower - Raffi - Colour mix\">Raffi stacking tower<\/a>)<br\/><br\/>May: Catherine, Spain (<a href=\"\/products\/changing-backpack-black\" title=\"Changing backpack - Black\">Black changing backpack<\/a>)<\/p><p>June: Marion, France (<a href=\"https:\/\/donebydeer.com\/products\/done-by-deer-gift-card\" target=\"_blank\" title=\"https:\/\/donebydeer.com\/products\/done-by-deer-gift-card\">115 EUR gift card<\/a>)<\/p><p>July: Carmen, Spain (<a href=\"https:\/\/donebydeer.com\/products\/kids-quilted-backpack-kit-powder?_pos=3&_sid=bfbc18788&_ss=r\" title=\"https:\/\/donebydeer.com\/products\/kids-quilted-backpack-kit-powder?_pos=3&_sid=bfbc18788&_ss=r\">Kids quilted backpack kit<\/a>)<\/p><p>August: Jelke, Belgium (<a href=\"https:\/\/donebydeer.com\/products\/foodie-dinnerset-bundle-elphee-blue\" target=\"_blank\" title=\"https:\/\/donebydeer.com\/products\/foodie-dinnerset-bundle-elphee-blue\">Foodie plate set<\/a>)<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "165658986349294c71": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "2022",
+        "title": "",
+        "content": "<p>June: Anne-lie, Sweden (<a href=\"\/products\/sand-play-set-5-pcs-deer-friends-sand-mix\" title=\"Sand play set 5 pcs - Deer friends - Sand mix\">sand play set<\/a>)<\/p><p><\/p><p>July: Ravít, Spain ('tour de friends'-set)<\/p><p><\/p><p>August: Maria, Spain (two <a href=\"\/collections\/kids-lunch-and-snack-boxes\" title=\"kids lunch & snack boxes\">kiddish lunch boxes<\/a>)<\/p><p><\/p><p>September: Deborah, Netherlands (<a href=\"\/products\/peekaboo-dinner-set-deer-friends-powder\" title=\"Peekaboo dinner set - Deer friends - Powder\">peekaboo dinner set<\/a>)<\/p><p><\/p><p>October: Maria, Spain (<a href=\"\/products\/changing-backpack-sand\" title=\"Changing backpack - Sand\">changing backpack<\/a>)<br\/><br\/>November: Josefin, Sweden (<a href=\"\/products\/play-time-goodie-box-colour-mix\" title=\"Play time goodie box - Colour mix\">play time goodie box<\/a>)<br\/><br\/>December: Malou, Denmark (<a href=\"\/products\/dinner-time-goodie-box-powder\" title=\"Dinner time goodie box - Powder\">dinner time goodie box<\/a>) <\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "165658926205951090",
+    "1656589557f30b0901",
+    "rich_text_XUMeHe",
+    "64584ac6-c8d8-4bcf-a450-3337a624ba7f",
+    "165658986349294c71"
+  ]
+}

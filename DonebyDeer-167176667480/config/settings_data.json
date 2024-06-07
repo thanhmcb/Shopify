@@ -1,0 +1,980 @@
+{
+  "current": {
+    "icon_stroke_width": 1,
+    "button_border_radius": 30,
+    "block_border_radius": "medium",
+    "vertical_spacing": "small",
+    "heading_color": "#38383a",
+    "text_color": "#38383a",
+    "cart-count-bg": "#c49d69",
+    "background": "#ffffff",
+    "secondary_background": "#f5f1ec",
+    "success_color": "#607066",
+    "error_color": "#aedbd8",
+    "header_background": "#f5f1ec",
+    "header_text_color": "#38383a",
+    "footer_background": "#c4baad",
+    "footer_text_color": "#38383a",
+    "primary_button_background": "#c49d69",
+    "primary_button_text_color": "#ffffff",
+    "secondary_button_background": "#c49d69",
+    "secondary_button_text_color": "#ffffff",
+    "product_rating_color": "#ca9e67",
+    "product_on_sale_accent": "#e86d6d",
+    "product_sold_out_accent": "#38383a",
+    "product_custom_label_background": "#f3b6b9",
+    "product_custom_label_2_background": "#d62525",
+    "product_in_stock_text_color": "#607066",
+    "product_low_stock_text_color": "#de2a2a",
+    "label-sale": "#e86d6d",
+    "label-new": "#7e9285",
+    "heading_font": "montserrat_n7",
+    "heading_font_size": "medium",
+    "heading_text_transform": "lowercase",
+    "text_font": "montserrat_n4",
+    "text_font_size": 14,
+    "currency_code_enabled": true,
+    "stagger_products_apparition": true,
+    "round_color_swatches": true,
+    "color_swatch_config": "neon red:#FF7175\nred:#D1775C\nyellow:#E6B477\nwhite:#FFFFFF\nwhite mix:#FFFFFF\npowder:#E1CFC6\npowder mix:#E1CFC6\nblue:#CCDAD7\nblue mix:#CCDAD7\ngreen:#B6C1B2\ngreen mix:#B6C1B2\nmustard:#CA9E67\nmustard mix:#CA9E67\nbeige:#EEEEE6\nbeige mix:#EEEEE6\ncoral:#FCA389\ncoral mix:#FCA389\ngrey:#C5C6C6\ngrey mix:#C5C6C6\nsand:#EEEEE6\nsand mix:#EEEEE6\nblue\/mustard:blue-mustard.png\nwhite\/grey:white-grey.png\ngreen\/sand:green-sand.png\ngreen\/blue:green-blue.png\nSand\/Green:green-sand.png\nsand\/coral:sand-coral.png\ncoral\/sand:sand-coral.png\nmustard\/powder:mustard-powder.png\ngreen\/mustard:green-mustard.png\nmustard\/green:green-mustard.png\npowder\/green\/mustard:powder-green-mustard.png\ncoral\/sand\/blue:coral-sand-blue.png\nmustard\/sand\/blue:mustard-sand-blue.png\ngrey\/mustard\/blue:grey-mustard-blue.png\ngreen\/powder\/coral:green-powder-coral.png\ngreen\/mustard\/sand:green-mustard-sand.png\ngrey\/beige:grey-beige.png\ncolour mix:colour-mix.png\ncoral:coral.png\npapaya:papaya.png\npapaya\/sand:papaya-sand.png\nblue\/green:blue-green.png\npapaya\/powder:papaya-powder.png\nblack:black.png\npowder\/coral:powder-coral.png\nraffi:raffi-filter.png\njelly:jelly-filter.png\nwally:wally-filter.png\nnozo:nozo-filter.png\nantee:antee-filter.png\nzebee:zebee-filter.png\nelphee:elphee-filter.png\nozzo:ozzo-filter.png\ncroco:croco-filter.png\nlalee:lalee-filter.png\nbirdee:birdee-filter.png",
+    "show_vendor": false,
+    "show_secondary_image": true,
+    "disable_pre_selected": false,
+    "show_product_rating": false,
+    "show_discount": true,
+    "discount_mode": "percentage",
+    "product_color_display": "hide",
+    "product_image_size": "square",
+    "search_enable_pages": true,
+    "search_unavailable_products": "last",
+    "cart_type": "drawer",
+    "cart_icon": "tote_bag",
+    "cart_show_free_shipping_threshold": true,
+    "cart_free_shipping_threshold": "DKK:499,SEK:499,EUR:79",
+    "cart_shipping_price": "DKK:39,SEK:39,EUR:8",
+    "terms_message": "<p>I have read and accept the <a href=\"\/pages\/terms-and-conditions\" target=\"_blank\" title=\"terms and conditions\">terms & conditions<\/a><\/p>",
+    "terms_message_error": "Please accept our terms and conditions before proceeding.",
+    "social_facebook": "https:\/\/www.facebook.com\/donebydeer",
+    "social_pinterest": "https:\/\/www.pinterest.dk\/Donebydeer\/",
+    "social_instagram": "https:\/\/www.instagram.com\/donebydeer\/",
+    "social_youtube": "https:\/\/www.youtube.com\/channel\/UC_hT0063sF6vtMPtksExm9Q",
+    "social_linkedin": "https:\/\/www.linkedin.com\/company\/done-by-deer-a-s\/",
+    "favicon": "shopify:\/\/shop_images\/favicon.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Logo_donebydeer_c945eeec-2556-47bf-93fd-a45c57d9b18b.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_sidebar_background_color": "#f5f1ec",
+    "checkout_accent_color": "#c4baad",
+    "checkout_button_color": "#c49d69",
+    "checkout_error_color": "#de2a2a",
+    "terms_message_mini_cart": "<p>I have read and accept the terms and conditions <\/p>",
+    "app_wk_enabled": true,
+    "app_wk_login_required": false,
+    "app_wk_icon": "heart",
+    "app_wk_col_bg_shape": "square",
+    "app_wk_share_position": "top",
+    "app_wk_products_per_row": "4",
+    "accent_color": "#405de6",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "883f00df-a805-475c-9de8-84222ea3f78d": {
+            "type": "message",
+            "disabled": true,
+            "settings": {
+              "text": "Easter delivery 🐣",
+              "learn_more_text": "See details",
+              "image": "shopify:\/\/shop_images\/easter-delivery-announcementbar.jpg",
+              "title": "easter delivery",
+              "content": "<p>Our warehouse and customer service are closed during Easter (from 28th of March - 1st of April).<br\/><br\/>We will ship orders again from the 2nd of April. <\/p>",
+              "button_text": "",
+              "button_link": ""
+            }
+          },
+          "8a376b17-8d56-488c-b114-cb62538a721b": {
+            "type": "message",
+            "settings": {
+              "text": "365 days full return",
+              "learn_more_text": "Learn more",
+              "title": "",
+              "content": "",
+              "button_text": "",
+              "button_link": "shopify:\/\/collections\/all"
+            }
+          },
+          "d372f1ce-7b26-49ce-be99-565be99e383b": {
+            "type": "message",
+            "settings": {
+              "text": "Shipping within 1-3 business days",
+              "learn_more_text": "",
+              "title": "",
+              "content": "",
+              "button_text": "find your favourites here",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "883f00df-a805-475c-9de8-84222ea3f78d",
+          "8a376b17-8d56-488c-b114-cb62538a721b",
+          "d372f1ce-7b26-49ce-be99-565be99e383b"
+        ],
+        "settings": {
+          "announcement_bar_position": "sticky",
+          "announcement_text_size": "normal",
+          "autoplay": true,
+          "show_shipping_price_1": "show_shipping_at_first",
+          "cycle_speed": 5,
+          "find-store-label": "find store",
+          "font-weight": "400",
+          "find-store-link": "shopify:\/\/pages\/store-locator",
+          "section-background": "#fdbeac",
+          "text_color": "#1a1a1a",
+          "button_background": "#38383a",
+          "button_text_color": "#ffffff"
+        }
+      },
+      "header": {
+        "type": "header",
+        "blocks": {
+          "b9f56cf0-7176-471c-b486-d8b6ade5cb5d": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "shop collection",
+              "images_position": "right",
+              "image_1_heading": "",
+              "image_1_text": "ages",
+              "image_1_link": "",
+              "image_2_heading": "",
+              "image_2_text": "",
+              "image_2_link": "",
+              "image_3_heading": "",
+              "image_3_text": "",
+              "image_3_link": "",
+              "image_4_heading": "",
+              "image_4_text": "",
+              "image_4_link": "",
+              "image_5_heading": "",
+              "image_5_text": "",
+              "image_5_link": "",
+              "image_6_heading": "",
+              "image_6_text": "",
+              "image_6_link": ""
+            }
+          },
+          "0eac1500-4446-4230-b0a2-98501c66e481": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "shop Deer friends",
+              "images_position": "right",
+              "image_1": "shopify:\/\/shop_images\/mega-menu-deerfriends_420x420_NY.jpg",
+              "image_1_heading": "Meet the deer friends",
+              "image_1_text": "",
+              "image_1_link": "shopify:\/\/pages\/meet-the-deer-friends",
+              "image_2": "shopify:\/\/shop_images\/sea-friends-mega-menu-420x420.jpg",
+              "image_2_heading": "sea friends theme",
+              "image_2_text": "",
+              "image_2_link": "shopify:\/\/collections\/sea-friends",
+              "image_3": "shopify:\/\/shop_images\/happyclouds_megamenu_a521f50e-f380-4514-9212-dca05935f28f.jpg",
+              "image_3_heading": "happy clouds theme",
+              "image_3_text": "",
+              "image_3_link": "shopify:\/\/collections\/happy-clouds",
+              "image_4": "shopify:\/\/shop_images\/mega-menu-free-stuff_420x420_5809d170-9b30-47cb-a464-cb3ce4799e15.jpg",
+              "image_4_heading": "free downloads",
+              "image_4_text": "",
+              "image_4_link": "shopify:\/\/pages\/free-printables",
+              "image_5_heading": "",
+              "image_5_text": "antee",
+              "image_5_link": "",
+              "image_6_heading": "",
+              "image_6_text": "zebee",
+              "image_6_link": ""
+            }
+          },
+          "mega_menu_JyRCmz": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "",
+              "images_position": "right",
+              "image_1_heading": "",
+              "image_1_text": "",
+              "image_1_link": "",
+              "image_2_heading": "",
+              "image_2_text": "",
+              "image_2_link": "",
+              "image_3_heading": "",
+              "image_3_text": "",
+              "image_3_link": "",
+              "image_4_heading": "",
+              "image_4_text": "",
+              "image_4_link": "",
+              "image_5_heading": "",
+              "image_5_text": "",
+              "image_5_link": "",
+              "image_6_heading": "",
+              "image_6_text": "",
+              "image_6_link": ""
+            }
+          },
+          "e40ded7c-b192-49b7-a69e-48493d4af061": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "gifts",
+              "images_position": "right",
+              "image_1": "shopify:\/\/shop_images\/toy-guide-750x750_aa40e69d-fc37-4d2b-84ef-455319e0c780.jpg",
+              "image_1_heading": "toy guide",
+              "image_1_text": "find the perfect toys for both babies and toddlers",
+              "image_1_link": "shopify:\/\/pages\/toy-and-gift-guide",
+              "image_2": "shopify:\/\/shop_images\/Dinner-time-goodie-box-Blue-5-LS.jpg",
+              "image_2_heading": "Goodie boxes",
+              "image_2_text": "Ready-to-give gift sets for baby & toddler",
+              "image_2_link": "shopify:\/\/collections\/goodie-boxes",
+              "image_3_heading": "Advent gift bundles",
+              "image_3_text": "",
+              "image_3_link": "",
+              "image_4": "shopify:\/\/shop_images\/gift-card-grafik_2.jpg",
+              "image_4_heading": "Gift card",
+              "image_4_text": "let the lucky ones pick and choose",
+              "image_4_link": "shopify:\/\/products\/done-by-deer-gift-card",
+              "image_5_heading": "",
+              "image_5_text": "",
+              "image_5_link": "",
+              "image_6_heading": "",
+              "image_6_text": "",
+              "image_6_link": ""
+            }
+          },
+          "cd2212ef-cb63-4c0b-8bcc-5854484bdb0c": {
+            "type": "mega_menu",
+            "disabled": true,
+            "settings": {
+              "menu_item": "Christmas gifts",
+              "images_position": "right",
+              "image_1": "shopify:\/\/shop_images\/header_toygiftguide_xmas_megamenu.jpg",
+              "image_1_heading": "Play time gift",
+              "image_1_text": "ready to be given to a little special someone",
+              "image_1_link": "shopify:\/\/collections\/tiny-activity-toys-gift-set",
+              "image_2": "shopify:\/\/shop_images\/slider_gift_mobile.jpg",
+              "image_2_heading": "Dinner time gift",
+              "image_2_text": "perfect gifts for little eaters",
+              "image_2_link": "shopify:\/\/collections\/dinner-time-gift-set",
+              "image_3_heading": "",
+              "image_3_text": "",
+              "image_3_link": "",
+              "image_4_heading": "",
+              "image_4_text": "",
+              "image_4_link": "",
+              "image_5_heading": "",
+              "image_5_text": "",
+              "image_5_link": "",
+              "image_6_heading": "",
+              "image_6_text": "",
+              "image_6_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "b9f56cf0-7176-471c-b486-d8b6ade5cb5d",
+          "0eac1500-4446-4230-b0a2-98501c66e481",
+          "mega_menu_JyRCmz",
+          "e40ded7c-b192-49b7-a69e-48493d4af061",
+          "cd2212ef-cb63-4c0b-8bcc-5854484bdb0c"
+        ],
+        "settings": {
+          "enable_sticky_header": true,
+          "logo": "shopify:\/\/shop_images\/Logo_donebydeer_245c531b-036d-42dc-974b-d1af56e40191.png",
+          "logo_max_width": 250,
+          "mobile_logo_max_width": 140,
+          "navigation_menu": "main-menu",
+          "sidebar_navigation_menu": "mobile-menu",
+          "header_layout": "logo_left_navigation_inline",
+          "show_icons": true,
+          "reduce_desktop_padding": true,
+          "show_locale_selector": false,
+          "show_country_selector": true,
+          "enable_transparent_header": false,
+          "transparent_header_text_color": "#ffffff",
+          "search_menu": "search-menu"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "text_qbCkRr": {
+            "type": "text",
+            "settings": {
+              "title": "Info",
+              "content": "<p>Done by Deer A\/S<br\/>Haarupvej 22D<br\/>8600 Silkeborg<br\/>Denmark<br\/><br\/>shop@donebydeer.com<br\/>CVR: 36456329 <\/p>"
+            }
+          },
+          "links": {
+            "type": "links",
+            "settings": {
+              "menu": "about-us"
+            }
+          },
+          "f7349b5e-3898-43b4-a89a-3962ad934460": {
+            "type": "links",
+            "settings": {
+              "menu": "footer"
+            }
+          },
+          "newsletter": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Become a deer member",
+              "content": "<p>Sign up to our friendly newsletter to get a chance to win in our monthly prize draw.<\/p>"
+            }
+          },
+          "social_media": {
+            "type": "social_media",
+            "settings": {
+              "title": "Wanna be friends?",
+              "content": "<p>Follow us and check out #donebydeer for inspiration.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "text_qbCkRr",
+          "links",
+          "f7349b5e-3898-43b4-a89a-3962ad934460",
+          "newsletter",
+          "social_media"
+        ],
+        "custom_css": [],
+        "settings": {
+          "show_payment_icons": true,
+          "show_country_selector": true,
+          "show_locale_selector": false,
+          "show_cookie_bar": false,
+          "cookie_bar_title": "Cookie policy",
+          "cookie_bar_content": "<p>I agree to the processing of my data in accordance with the conditions set out in the policy of Privacy.<\/p>",
+          "image-copy-right": "shopify:\/\/shop_images\/brand_mark_300x181_f46f6fb3-806a-481f-bff0-2b5e0de3a7bd.png",
+          "image-copy-right-width": 50
+        }
+      },
+      "popup": {
+        "type": "popup",
+        "settings": {
+          "enable": false,
+          "apparition_delay": 10,
+          "show_only_on_index": true,
+          "show_only_for_visitors": true,
+          "show_only_once": true,
+          "image_position": "left",
+          "title": "WIN our new sand play set",
+          "content": "<p>Become a Deer member and get:<\/p><p><br\/>- a chance to win in our monthly prize draw<br\/>- useful tips for your little one<br\/>- pre-access to our sales & offers<\/p>"
+        }
+      },
+      "mini-cart": {
+        "type": "mini-cart",
+        "settings": {
+          "show_order_note": false,
+          "show_checkout_button": true,
+          "show_checkout_shipping_price": true,
+          "empty_button_link": "shopify:\/\/collections\/all",
+          "show_recommendations": true,
+          "recommendations_title": "you may also like"
+        }
+      },
+      "static-text-with-icons": {
+        "type": "static-text-with-icons",
+        "blocks": {
+          "static-text-with-icons-0": {
+            "type": "item",
+            "settings": {
+              "icon": "picto-love",
+              "custom_icon_width": 50,
+              "title": "safe for kids",
+              "content": "<p>Our products are thoroughly tested<\/p>"
+            }
+          },
+          "static-text-with-icons-1": {
+            "type": "item",
+            "settings": {
+              "icon": "picto-worldwide",
+              "custom_icon_width": 50,
+              "title": "danish design",
+              "content": "<p>Modern, colourful design with playful features<\/p>"
+            }
+          },
+          "static-text-with-icons-2": {
+            "type": "item",
+            "settings": {
+              "icon": "picto-store",
+              "custom_icon_width": 50,
+              "title": "ALL DEER FRIENDS IN ONE PLACE",
+              "content": "<p>Shop the whole collection<\/p>"
+            }
+          },
+          "static-text-with-icons-3": {
+            "type": "item",
+            "disabled": true,
+            "settings": {
+              "icon": "picto-email",
+              "custom_icon_width": 50,
+              "title": "Contact us",
+              "content": "<p>Need to contact us ? Just send us an e-mail at info@yourstore.com<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "static-text-with-icons-0",
+          "static-text-with-icons-1",
+          "static-text-with-icons-2",
+          "static-text-with-icons-3"
+        ],
+        "settings": {
+          "show_section": true,
+          "background": "#e4e0db",
+          "text_color": "rgba(0,0,0,0)"
+        }
+      },
+      "static-newsletter": {
+        "type": "static-newsletter",
+        "settings": {
+          "show_section": false,
+          "reveal_on_scroll": true,
+          "subheading": "Subscribe to our newsletter",
+          "content": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>",
+          "text_position": "right",
+          "text_alignment": "left",
+          "text_background": "rgba(0,0,0,0)",
+          "text_color": "rgba(0,0,0,0)",
+          "button_background": "rgba(0,0,0,0)",
+          "button_text_color": "rgba(0,0,0,0)"
+        }
+      },
+      "image-with-text-custom": {
+        "type": "image-with-text-custom",
+        "blocks": {
+          "19ddd482-36a1-4074-964b-6a7370e87d95": {
+            "type": "usp",
+            "settings": {
+              "top-icon": "005-grapes.svg",
+              "usp": "Lorem Ipsum has been the industry's standard dummy"
+            }
+          },
+          "65b0f545-9a49-47ba-b9da-4de43923cfa3": {
+            "type": "usp",
+            "settings": {
+              "top-icon": "005-grapes.svg",
+              "usp": "Lorem Ipsum has been the industry's standard dummy"
+            }
+          },
+          "86871eb4-589c-425c-8cbe-677b9246eee5": {
+            "type": "usp",
+            "settings": {
+              "top-icon": "005-grapes.svg",
+              "usp": "Lorem Ipsum has been the industry's standard dummy"
+            }
+          },
+          "40da9ac9-5447-4731-9080-67b100a6fb71": {
+            "type": "usp",
+            "settings": {
+              "top-icon": "005-grapes.svg",
+              "usp": "Lorem Ipsum has been the industry's standard dummy"
+            }
+          },
+          "1ab0f6ca-b6ac-45a8-aceb-6de76c4cac7e": {
+            "type": "image-text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/oeko-tex_1400x1400_sizeguide_background.jpg",
+              "subheading": "Subheading 1",
+              "title": "Image with text 1",
+              "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story<\/p>",
+              "button_text": "Button 1",
+              "button_link": "shopify:\/\/products\/activity-floor-mirror-lalee-sand"
+            }
+          },
+          "0d6cc617-683c-4064-abd1-3b83f39a8a99": {
+            "type": "image-text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/mega-menu-free-stuff_420x420_d1faff0d-b4b6-4e75-ad56-80b5a48de974.jpg",
+              "subheading": "Subheading 2",
+              "title": "Image with text 2",
+              "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+              "button_text": "Button 2",
+              "button_link": "shopify:\/\/products\/activity-gym-deer-friends-powder"
+            }
+          },
+          "7d4d45c8-906f-4ad9-a771-deb008f27e99": {
+            "type": "icon",
+            "settings": {
+              "default_logo_svg": "005-grapes.svg",
+              "icon-bg": "#913b59",
+              "icon-border-radius": "8px"
+            }
+          },
+          "24ba37df-de63-4e3d-8e01-8e71e52fea61": {
+            "type": "icon",
+            "settings": {
+              "default_logo_svg": "005-grapes.svg",
+              "icon-bg": "#1a1a1a",
+              "icon-border-radius": "8px"
+            }
+          },
+          "e360669d-249a-4bfb-8a41-6bf601e458c1": {
+            "type": "icon",
+            "settings": {
+              "default_logo_svg": "005-grapes.svg",
+              "icon-bg": "#ca9e67",
+              "icon-border-radius": "8px"
+            }
+          },
+          "5d3b65c1-a7a9-4a59-91e2-f942484dfe2d": {
+            "type": "icon",
+            "settings": {
+              "default_logo_svg": "005-grapes.svg",
+              "icon-bg": "#6f719b",
+              "icon-border-radius": "8px"
+            }
+          },
+          "76772ce9-4e56-4206-959f-454c2d1ddbf4": {
+            "type": "icon",
+            "settings": {
+              "default_logo_svg": "005-grapes.svg",
+              "icon-bg": "#935d5f",
+              "icon-border-radius": "8px"
+            }
+          },
+          "20721789-eb6f-4cea-b1e3-b826bae69261": {
+            "type": "icon",
+            "settings": {
+              "default_logo_svg": "005-grapes.svg",
+              "icon-bg": "#e4e0db",
+              "icon-border-radius": "8px"
+            }
+          }
+        },
+        "block_order": [
+          "19ddd482-36a1-4074-964b-6a7370e87d95",
+          "65b0f545-9a49-47ba-b9da-4de43923cfa3",
+          "86871eb4-589c-425c-8cbe-677b9246eee5",
+          "40da9ac9-5447-4731-9080-67b100a6fb71",
+          "1ab0f6ca-b6ac-45a8-aceb-6de76c4cac7e",
+          "0d6cc617-683c-4064-abd1-3b83f39a8a99",
+          "7d4d45c8-906f-4ad9-a771-deb008f27e99",
+          "24ba37df-de63-4e3d-8e01-8e71e52fea61",
+          "e360669d-249a-4bfb-8a41-6bf601e458c1",
+          "5d3b65c1-a7a9-4a59-91e2-f942484dfe2d",
+          "76772ce9-4e56-4206-959f-454c2d1ddbf4",
+          "20721789-eb6f-4cea-b1e3-b826bae69261"
+        ],
+        "settings": {
+          "main-heading": "The Basics Of Buying",
+          "sub-heading": "sub heading",
+          "reveal_on_scroll": true,
+          "top-icon-width": 30,
+          "section-bg": "#5a6b60",
+          "background_overlap": "image",
+          "image_position": "left",
+          "text_alignment": "center",
+          "text-color": "#ffffff",
+          "button-bg-color": "",
+          "button_text_color": "",
+          "slide-dot": "#e4e0db",
+          "slide-dot-active": "#c49d69"
+        }
+      },
+      "main-gift-card": {
+        "type": "main-gift-card",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/Logo_donebydeer_bw.png",
+          "logo_max_width": 140,
+          "mobile_logo_max_width": 100,
+          "image": "shopify:\/\/shop_images\/giftcard-1800x1800.jpg",
+          "background": "#c4baad",
+          "content_background": "#ffffff",
+          "text_color": "#c49d69"
+        }
+      },
+      "store-locator-main": {
+        "type": "store-locator-main",
+        "blocks": {
+          "3687b963-462a-4db3-8d74-e876b3cc2607": {
+            "type": "text_block",
+            "settings": {
+              "title": "German",
+              "page-country": "shopify:\/\/pages\/webshops-germany"
+            }
+          },
+          "fbb58221-2ff2-40b2-81b5-55fba4528dbc": {
+            "type": "text_block",
+            "settings": {
+              "title": "Sweden",
+              "page-country": "shopify:\/\/pages\/webshops-sweden"
+            }
+          }
+        },
+        "block_order": [
+          "3687b963-462a-4db3-8d74-e876b3cc2607",
+          "fbb58221-2ff2-40b2-81b5-55fba4528dbc"
+        ],
+        "settings": {
+          "page_width": "medium",
+          "tab1": "Store",
+          "tab2": "Webshop",
+          "tab-tab-country-active-label": "Denmark",
+          "page-country-default": "shopify:\/\/pages\/webshops-denmark"
+        }
+      }
+    },
+    "content_for_index": [],
+    "blocks": {
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {}
+      },
+      "yoast-seo-metatags": {
+        "type": "shopify:\/\/apps\/yoast-seo-seo-for-everyone\/blocks\/metatags\/7c777011-bc88-4743-a24e-64336e1e5b46",
+        "disabled": false,
+        "settings": {}
+      },
+      "14060646107696862457": {
+        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {}
+      },
+      "15683396631634586217": {
+        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "disabled": false,
+        "settings": {
+          "button_color": "#b99362",
+          "secondary_color": "#ffffff",
+          "ternary_color": "#6a6a6a",
+          "button_icon": "chat_bubble",
+          "button_text": "no_text",
+          "button_horizontal_position": "bottom_right",
+          "button_vertical_position": "lowest",
+          "greeting_message": "Hi 🙂 \n\nHave a question or need help?\nWe’re happy to help you! \n\nPlease write in English or Danish."
+        }
+      }
+    }
+  },
+  "presets": {
+    "Ivory": {
+      "button_border_radius": 4,
+      "block_border_radius": "small",
+      "heading_color": "#1a1a1a",
+      "text_color": "#1a1a1a",
+      "secondary_background": "#f5f1ec",
+      "success_color": "#2e9e7b",
+      "error_color": "#de2a2a",
+      "header_background": "#56112a",
+      "header_text_color": "#ffffff",
+      "footer_background": "#56112a",
+      "footer_text_color": "#ffffff",
+      "primary_button_background": "#56112a",
+      "primary_button_text_color": "#ffffff",
+      "secondary_button_background": "#f7aea6",
+      "secondary_button_text_color": "#56112a",
+      "product_on_sale_accent": "#913b59",
+      "product_custom_label_background": "#405de6",
+      "product_custom_label_2_background": "#f3e5b6",
+      "product_in_stock_text_color": "#2e9e7b",
+      "product_low_stock_text_color": "#de2a2a",
+      "heading_font": "itc_caslon_no_224_n5",
+      "heading_font_size": "medium",
+      "heading_text_transform": "normal",
+      "text_font": "avenir_next_n4",
+      "text_font_size": 15,
+      "stagger_products_apparition": true,
+      "round_color_swatches": true,
+      "show_vendor": false,
+      "show_secondary_image": true,
+      "product_color_display": "count",
+      "product_image_size": "natural",
+      "cart_type": "drawer",
+      "accent_color": "#405de6",
+      "checkout_sidebar_background_color": "#f6f3ed",
+      "checkout_accent_color": "#353535",
+      "checkout_button_color": "#353535",
+      "checkout_error_color": "#de2a2a",
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "blocks": {
+            "message-1": {
+              "type": "message",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "message-1"
+          ],
+          "settings": {
+            "announcement_bar_position": "non_sticky",
+            "announcement_text_size": "small",
+            "autoplay": true,
+            "cycle_speed": 5,
+            "section-background": "#1e2d7d",
+            "text_color": "#56112a",
+            "button_background": "#56112a",
+            "button_text_color": "#ffffff"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "enable_sticky_header": true,
+            "navigation_menu": "main-menu",
+            "header_layout": "logo_center_navigation_inline",
+            "show_icons": false,
+            "reduce_desktop_padding": false,
+            "enable_transparent_header": false,
+            "transparent_header_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "text": {
+              "type": "text",
+              "settings": {}
+            },
+            "links": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {}
+            },
+            "social_media": {
+              "type": "social_media",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "text",
+            "links",
+            "newsletter",
+            "social_media"
+          ],
+          "settings": {}
+        }
+      }
+    },
+    "Carbon": {
+      "button_border_radius": 0,
+      "block_border_radius": "none",
+      "heading_color": "#282828",
+      "text_color": "#282828",
+      "secondary_background": "#f5f5f5",
+      "success_color": "#2e9e7b",
+      "error_color": "#de2a2a",
+      "header_background": "#282828",
+      "footer_background": "#282828",
+      "footer_text_color": "#ffffff",
+      "primary_button_background": "#405de6",
+      "secondary_button_background": "#f3ff34",
+      "secondary_button_text_color": "#282828",
+      "product_on_sale_accent": "#de2a2a",
+      "product_custom_label_background": "#405de6",
+      "product_custom_label_2_background": "#f3ff34",
+      "product_in_stock_text_color": "#2e9e7b",
+      "product_low_stock_text_color": "#de2a2a",
+      "heading_font": "zurich_extended_n8",
+      "heading_font_size": "medium",
+      "heading_text_transform": "uppercase",
+      "text_font": "zurich_n4",
+      "text_font_size": 15,
+      "currency_code_enabled": false,
+      "stagger_products_apparition": true,
+      "round_color_swatches": false,
+      "show_vendor": false,
+      "show_secondary_image": true,
+      "product_color_display": "count",
+      "product_image_size": "natural",
+      "show_product_rating": false,
+      "cart_type": "message",
+      "cart_show_free_shipping_threshold": true,
+      "accent_color": "#405de6",
+      "checkout_sidebar_background_color": "#f5f5f5",
+      "checkout_accent_color": "#282828",
+      "checkout_button_color": "#405de6",
+      "checkout_error_color": "#de2a2a",
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "blocks": {
+            "message-1": {
+              "type": "message",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "message-1"
+          ],
+          "settings": {
+            "announcement_bar_position": "non_sticky",
+            "announcement_text_size": "normal",
+            "autoplay": true,
+            "cycle_speed": 5,
+            "section-background": "#1e2d7d",
+            "text_color": "#282828",
+            "button_background": "#282828",
+            "button_text_color": "#ffffff"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "enable_sticky_header": true,
+            "navigation_menu": "main-menu",
+            "header_layout": "logo_left_navigation_center",
+            "show_icons": false,
+            "reduce_desktop_padding": false,
+            "enable_transparent_header": false,
+            "transparent_header_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "text": {
+              "type": "text",
+              "settings": {}
+            },
+            "links": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {}
+            },
+            "social_media": {
+              "type": "social_media",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "text",
+            "links",
+            "newsletter",
+            "social_media"
+          ],
+          "settings": {}
+        }
+      }
+    },
+    "Quartz": {
+      "icon_stroke_width": 1.3,
+      "button_border_radius": 0,
+      "block_border_radius": "none",
+      "vertical_spacing": "medium",
+      "heading_color": "#0d0d0d",
+      "text_color": "#2e2e2e",
+      "background": "#ffffff",
+      "secondary_background": "#f5f5f5",
+      "success_color": "#3c6e71",
+      "error_color": "#de2a2a",
+      "header_background": "#ffffff",
+      "header_text_color": "#2e2e2e",
+      "footer_background": "#ffffff",
+      "footer_text_color": "#2e2e2e",
+      "primary_button_background": "#051e38",
+      "primary_button_text_color": "#ffffff",
+      "secondary_button_background": "#dfdfdf",
+      "secondary_button_text_color": "#2e2e2e",
+      "product_on_sale_accent": "#de2b2b",
+      "product_sold_out_accent": "#5b5b5b",
+      "product_custom_label_background": "#051e38",
+      "product_custom_label_2_background": "#2e9e7b",
+      "product_in_stock_text_color": "#2e9e7b",
+      "product_low_stock_text_color": "#de2b2b",
+      "heading_font": "futura_n3",
+      "heading_font_size": "medium",
+      "heading_text_transform": "uppercase",
+      "text_font": "din_next_n4",
+      "text_font_size": 15,
+      "stagger_products_apparition": true,
+      "round_color_swatches": false,
+      "show_vendor": false,
+      "show_secondary_image": true,
+      "product_color_display": "hide",
+      "product_image_size": "natural",
+      "cart_type": "drawer",
+      "cart_icon": "tote_bag",
+      "checkout_sidebar_background_color": "#f5f5f5",
+      "checkout_accent_color": "#051e38",
+      "checkout_button_color": "#051e38",
+      "checkout_error_color": "#de2a2a",
+      "accent_color": "#405de6",
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "blocks": {
+            "message-1": {
+              "type": "message",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "message-1"
+          ],
+          "settings": {
+            "announcement_bar_position": "non_sticky",
+            "announcement_text_size": "small",
+            "autoplay": true,
+            "cycle_speed": 5,
+            "section-background": "#1e2d7d",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#051e38"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "enable_sticky_header": true,
+            "navigation_menu": "main-menu",
+            "header_layout": "logo_center_navigation_inline",
+            "show_icons": true,
+            "reduce_desktop_padding": false,
+            "enable_transparent_header": true,
+            "transparent_header_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "text": {
+              "type": "text",
+              "settings": {}
+            },
+            "links": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {}
+            },
+            "social_media": {
+              "type": "social_media",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "text",
+            "links",
+            "newsletter",
+            "social_media"
+          ],
+          "settings": {}
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "16635869840b2449f7": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<div class=\"klaviyo-form-Wvv7tJ\"><\/div>",
+        "add_vertical_spacing": false,
+        "background_type": "boxed",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "#38383a"
+      }
+    },
+    "16566778243f74371f": {
+      "type": "image-with-text",
+      "blocks": {
+        "1656677824086796bc-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/115_eur_giftcard.jpg",
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "June prize",
+            "content": "<p>The June prize is a 115 EUR gift card to use at donebydeer.com.<br\/><br\/>If you're the luck winner, we will contact you by e-mail the last business day in March.  <\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "f2944bf7-a476-4686-b5c7-9a368d75c031": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "tab_label": "Item",
+            "subheading": "Subheading",
+            "title": "Image with text",
+            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1656677824086796bc-0",
+        "f2944bf7-a476-4686-b5c7-9a368d75c031"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "both",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#e4e0db",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "165909269289d4c2bd": {
+      "type": "image-with-text-block",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/peekaboo_prize4.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/peekaboo_prize5.jpg",
+        "subheading": "",
+        "title": "sign up & win",
+        "content": "<p>Sign up to our friendly newsletter and join in our monthly prize draw.<\/p><p>The September prize is a Peekaboo dinner set with plate, fork and a two-handle cup.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "left",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1655205738c8beb381": {
+      "type": "newsletter",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/newsletter_signup_colour_d532487a-8eb8-43f9-985d-d8cad6151bd6.jpg",
+        "subheading": "",
+        "content": "",
+        "text_position": "center",
+        "text_alignment": "left",
+        "text_background": "#ffffff",
+        "text_color": "#a89573",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16560539834557d969": {
+      "type": "recently-viewed-products",
+      "settings": {
+        "subheading": "remember these?",
+        "title": "",
+        "products_count": 4,
+        "background": "#ffffff",
+        "text_color": "#38383a"
+      }
+    },
+    "165520649801d9bac7": {
+      "type": "apps",
+      "blocks": {
+        "e4175269-9f23-4d01-a1fa-a99f2bbcbd1f": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "TjhVaJ"
+          }
+        }
+      },
+      "block_order": [
+        "e4175269-9f23-4d01-a1fa-a99f2bbcbd1f"
+      ],
+      "settings": {
+        "include_horizontal_margins": false,
+        "include_vertical_margins": false,
+        "custom_class": ""
+      }
+    },
+    "1655208202645cdf8b": {
+      "type": "apps",
+      "blocks": {
+        "18ce0e42-e4e2-40ab-bd97-6cc656c3a0c2": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": "<h1 style=\"text-align:center\">\n<a href=\"https:\/\/www.instagram.com\/donebydeer\/\" target=\"_blank\">join the fun @donebydeer<\/a>\n<\/h1>"
+          }
+        }
+      },
+      "block_order": [
+        "18ce0e42-e4e2-40ab-bd97-6cc656c3a0c2"
+      ],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true,
+        "custom_class": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16635869840b2449f7",
+    "16566778243f74371f",
+    "165909269289d4c2bd",
+    "1655205738c8beb381",
+    "16560539834557d969",
+    "165520649801d9bac7",
+    "1655208202645cdf8b"
+  ]
+}

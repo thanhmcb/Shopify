@@ -1,0 +1,838 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "1652087977ce2d0cae": {
+      "type": "slideshow",
+      "blocks": {
+        "16520879774e1fdf26-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/christmas-sliderB_2160x1080_76d890a0-c215-44a4-98f9-44456734a965.webp",
+            "mobile_image": "shopify:\/\/shop_images\/christmas-slider-mobil_1080x1400_0e15b8c0-8e96-4ab0-82a3-c2b4f7f7e3d6.webp",
+            "text_position": "top_left",
+            "subheading": "finally, it's the season",
+            "title": "christmas with deer friends",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "16520879774e1fdf26-0"
+      ],
+      "custom_css": [
+        "h2 {color: white;}"
+      ],
+      "settings": {
+        "section_height": "small",
+        "transition_type": "sweep",
+        "autoplay": false,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "fe253c55-8a79-4af6-9174-e349333410c3": {
+      "type": "collection-list",
+      "blocks": {
+        "template--20888376312152__fe253c55-8a79-4af6-9174-e349333410c3-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Sensory-ring-rattle-Elphee-Blue-4-LS.jpg",
+            "subheading": "under € 20",
+            "title": "tiny gifts",
+            "link_text": "shop now",
+            "link_url": "shopify:\/\/collections\/advent-tiny-gifts",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "template--20888376312152__fe253c55-8a79-4af6-9174-e349333410c3-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "small-gifts",
+            "image": "shopify:\/\/shop_images\/Fold-out-soft-book-Croco-Green-6-LS.jpg",
+            "subheading": "under € 65",
+            "title": "small gifts",
+            "link_text": "shop now",
+            "link_url": "shopify:\/\/collections\/small-gifts",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "template--20888376312152__fe253c55-8a79-4af6-9174-e349333410c3-collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "big-gifts",
+            "image": "shopify:\/\/shop_images\/Comfy-body-pillow-Croco-Sand-3-LS.jpg",
+            "subheading": "over € 65",
+            "title": "big gifts",
+            "link_text": "shop now",
+            "link_url": "shopify:\/\/collections\/big-gifts",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "5140d277-e5a4-4ba3-82c6-080e9fcd2d14": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "advent-gift-bundles",
+            "image": "shopify:\/\/shop_images\/advent1.jpg",
+            "subheading": "4 gifts",
+            "title": "advent gifts",
+            "link_text": "shop now",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--20888376312152__fe253c55-8a79-4af6-9174-e349333410c3-collection-1",
+        "template--20888376312152__fe253c55-8a79-4af6-9174-e349333410c3-collection-2",
+        "template--20888376312152__fe253c55-8a79-4af6-9174-e349333410c3-collection-3",
+        "5140d277-e5a4-4ba3-82c6-080e9fcd2d14"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "layout": "carousel",
+        "subheading": "",
+        "title": "gifts for every budget",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "10f72fe4-48aa-437f-b883-0f02c3735bb1": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--20888376312152__10f72fe4-48aa-437f-b883-0f02c3735bb1-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/advent1.jpg",
+            "tab_label": "Item",
+            "subheading": "Make gift shopping easy",
+            "title": "advent calendar gifts",
+            "content": "<p>With a gift bundle you get four lovely gifts for your little loved one.<\/p>",
+            "button_text": "see all bundles",
+            "button_link": "shopify:\/\/collections\/advent-gift-bundles"
+          }
+        }
+      },
+      "block_order": [
+        "template--20888376312152__10f72fe4-48aa-437f-b883-0f02c3735bb1-item-1"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "boxed",
+        "background_overlap": "text",
+        "image_position": "right",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#f5f1ec",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "95ecc740-bad6-4944-a1f4-3b2415a4e422": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--15072744308779__95ecc740-bad6-4944-a1f4-3b2415a4e422-1675681193a1fa582d-0": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "advent-gift-bundles",
+            "label": "",
+            "button_text": "show me more",
+            "button_url": "shopify:\/\/collections\/advent-gift-bundles"
+          }
+        },
+        "e7c2666a-0826-49c7-b80d-2430a210cdf3": {
+          "type": "collection",
+          "settings": {
+            "collection": "advent-tiny-gifts",
+            "label": "",
+            "button_text": "show me more",
+            "button_url": "shopify:\/\/collections\/advent-tiny-gifts"
+          }
+        },
+        "618aabf2-0c17-4521-96c2-8c6ccd2b1bf6": {
+          "type": "collection",
+          "settings": {
+            "collection": "small-gifts",
+            "label": "",
+            "button_text": "show me more",
+            "button_url": "shopify:\/\/collections\/small-gifts"
+          }
+        },
+        "18f93fa8-4375-40ea-8a01-463683294231": {
+          "type": "collection",
+          "settings": {
+            "collection": "big-gifts",
+            "label": "",
+            "button_text": "show me more",
+            "button_url": "shopify:\/\/collections\/big-gifts"
+          }
+        }
+      },
+      "block_order": [
+        "template--15072744308779__95ecc740-bad6-4944-a1f4-3b2415a4e422-1675681193a1fa582d-0",
+        "e7c2666a-0826-49c7-b80d-2430a210cdf3",
+        "618aabf2-0c17-4521-96c2-8c6ccd2b1bf6",
+        "18f93fa8-4375-40ea-8a01-463683294231"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "gift ideas",
+        "content": "",
+        "products_count": 4,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "083b3ec3-d70b-491e-b4b0-ea6ce24d06f4": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/Advent-bundle-slider_2160x1080_09065ed8-f8dc-4df7-88e9-9e6921c05279.webp",
+        "subheading": "Make gift shopping easy",
+        "title": "advent calendar gifts",
+        "content": "<p>With a gift bundle you get four lovely gifts for your little loved one.<\/p>",
+        "button_text": "see all bundles",
+        "button_link": "shopify:\/\/collections\/advent-gift-bundles",
+        "link_style": "button",
+        "background_type": "full_width",
+        "text_width": "small",
+        "text_position": "middle_left",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 10
+      }
+    },
+    "2f3b9147-092d-4166-bf9c-04e3b554574b": {
+      "type": "multi-column",
+      "blocks": {
+        "16490728785bc8007b-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/toyguide_0-3months_oversigt.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "0-3 months",
+            "content": "<p>Find the perfect toy for your newborn baby to explore<\/p>",
+            "link_text": "see more",
+            "link_url": "shopify:\/\/pages\/toy-and-gift-guide-0-3-months",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "16490728785bc8007b-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tg_3-6months_oversigt.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "3-6 months",
+            "content": "<p>Find tummy toys and activity centres for a curious baby<\/p>",
+            "link_text": "see more >",
+            "link_url": "shopify:\/\/pages\/toy-and-gift-guide-3-6-months",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "16490728785bc8007b-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mega-menu-toyguide_420x420_7774fa0d-eea7-4936-aa9a-359da69a8498.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "6-12 months",
+            "content": "<p>Find toys for your baby to investigate and explore<\/p>",
+            "link_text": "see more >",
+            "link_url": "shopify:\/\/pages\/toy-and-gift-guide-6-12-months",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "16490728785bc8007b-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/toyguide_12months_oversigt.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "12+ months",
+            "content": "<p>Find toys for your curious and more active toddler<\/p>",
+            "link_text": "see more >",
+            "link_url": "shopify:\/\/pages\/toy-and-gift-guide-12-months",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "16490728785bc8007b-0",
+        "16490728785bc8007b-1",
+        "16490728785bc8007b-2",
+        "16490728785bc8007b-3"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": true,
+        "content_position": "below",
+        "subheading": "",
+        "title": "gifts for every age",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "medium",
+        "spacing": "tight",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "item_text_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#000000",
+        "image_overlay_opacity": 0
+      }
+    },
+    "5da71ec9-8346-4405-ab66-ef4606477dc4": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--20888376312152__5da71ec9-8346-4405-ab66-ef4606477dc4-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/woodentoys.jpg",
+            "tab_label": "",
+            "subheading": "timeless treasures",
+            "title": "wooden toys",
+            "content": "<p>Our wooden Deer friends are not only cute - they also teach your child about shapes, colours, problem-solving, and train fine and gross motor skills. <\/p>",
+            "button_text": "go to wooden toys",
+            "button_link": "shopify:\/\/collections\/wooden-toys"
+          }
+        }
+      },
+      "block_order": [
+        "template--20888376312152__5da71ec9-8346-4405-ab66-ef4606477dc4-item-1"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "both",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#f5f1ec",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "4838b43b-5d1a-4521-b2de-554d6c2d2058": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--20888376312152__4838b43b-5d1a-4521-b2de-554d6c2d2058-item-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "custom_icon": "shopify:\/\/shop_images\/Shipping_a63f3f6b-c468-4f1b-b6a8-d290e2a1c55e.jpg",
+            "custom_icon_width": 60,
+            "title": "",
+            "content": "<p>Shipping within 1-3 business days<\/p>"
+          }
+        },
+        "template--20888376312152__4838b43b-5d1a-4521-b2de-554d6c2d2058-item-4": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-email",
+            "custom_icon": "shopify:\/\/shop_images\/Return.jpg",
+            "custom_icon_width": 60,
+            "title": "",
+            "content": "<p>365 days full return<\/p>"
+          }
+        },
+        "template--20888376312152__4838b43b-5d1a-4521-b2de-554d6c2d2058-item-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "custom_icon": "shopify:\/\/shop_images\/Payment_b46d526a-77f1-4e0d-bdb5-884c0fdcf263.jpg",
+            "custom_icon_width": 60,
+            "title": "",
+            "content": "<p>Safe payment<\/p>"
+          }
+        },
+        "template--20888376312152__4838b43b-5d1a-4521-b2de-554d6c2d2058-item-2": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "icon": "picto-phone",
+            "custom_icon_width": 50,
+            "title": "Customer service",
+            "content": "<p>We are available from monday to friday to answer your questions.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20888376312152__4838b43b-5d1a-4521-b2de-554d6c2d2058-item-1",
+        "template--20888376312152__4838b43b-5d1a-4521-b2de-554d6c2d2058-item-4",
+        "template--20888376312152__4838b43b-5d1a-4521-b2de-554d6c2d2058-item-3",
+        "template--20888376312152__4838b43b-5d1a-4521-b2de-554d6c2d2058-item-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "fe52c69a-ed47-4404-9a90-941fa376f018": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--20888376312152__fe52c69a-ed47-4404-9a90-941fa376f018-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "goodie-boxes",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "0b5bf754-2ee5-4190-be23-bcc288764113": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "advent-gift-bundles",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20888376312152__fe52c69a-ed47-4404-9a90-941fa376f018-collection-1",
+        "0b5bf754-2ee5-4190-be23-bcc288764113"
+      ],
+      "settings": {
+        "subheading": "wrapped & ready",
+        "title": "goodie boxes",
+        "content": "",
+        "products_count": 8,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "c48bf822-2739-41f6-9ef8-0f4dfa747a0a": {
+      "type": "featured-product",
+      "blocks": {
+        "template--20888376312152__c48bf822-2739-41f6-9ef8-0f4dfa747a0a-variant_picker-1": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "template--20888376312152__c48bf822-2739-41f6-9ef8-0f4dfa747a0a-quantity_selector-1": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "template--20888376312152__c48bf822-2739-41f6-9ef8-0f4dfa747a0a-buy_buttons-1": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "atc_button_background": "rgba(0,0,0,0)",
+            "atc_button_text_color": "rgba(0,0,0,0)",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "template--20888376312152__c48bf822-2739-41f6-9ef8-0f4dfa747a0a-variant_picker-1",
+        "template--20888376312152__c48bf822-2739-41f6-9ef8-0f4dfa747a0a-quantity_selector-1",
+        "template--20888376312152__c48bf822-2739-41f6-9ef8-0f4dfa747a0a-buy_buttons-1"
+      ],
+      "settings": {
+        "product": "done-by-deer-gift-card",
+        "subheading": "",
+        "title": "",
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_share_buttons": false,
+        "help_page": "",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_image_zoom": false,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "slide",
+        "background": "#f5f1ec",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "daf1341c-722c-45ac-9b7b-9022c01e0082": {
+      "type": "image-with-text-block",
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/Toy-catalogue_2800x1400_d4119909-76af-45a0-886d-039d419dbe4a.webp",
+        "mobile_image": "shopify:\/\/shop_images\/mobilslider_toy-catalogue-2_1080x1400_e7c5bb90-5a81-4902-97fd-286173723d6a.webp",
+        "subheading": "",
+        "title": "toy catalogue",
+        "content": "<p>Explore our delightful toy catalogue filled with inspiration and fun activities.<br\/><br\/>Find age-appropriate gift ideas and read the cute, holiday story about our Deer friends.<\/p><p>Psst. we also add a catalogue to all orders.<\/p>",
+        "button_text": "go explore",
+        "button_link": "https:\/\/www.paperturn-view.com\/?pid=MzY367019&v=3.4",
+        "background_type": "full_width",
+        "text_position": "left",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "3d2f08fa-93aa-43b8-bb6d-e60e85a38070": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--20888376312152__3d2f08fa-93aa-43b8-bb6d-e60e85a38070-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gift-card-grafik_3.jpg",
+            "tab_label": "",
+            "subheading": "can't decide?",
+            "title": "buy a gift card",
+            "content": "<p>With a digital gift card, the lucky receiver can explore our universe and pick exactly what they dream about.<\/p>",
+            "button_text": "shop now",
+            "button_link": "shopify:\/\/products\/done-by-deer-gift-card"
+          }
+        }
+      },
+      "block_order": [
+        "template--20888376312152__3d2f08fa-93aa-43b8-bb6d-e60e85a38070-item-1"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "7169fee8-7c07-4300-b752-a2c5d50068b7": {
+      "type": "promotion-blocks",
+      "blocks": {
+        "template--20888376312152__7169fee8-7c07-4300-b752-a2c5d50068b7-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DBD_Lifestyle_20242074-2.jpg",
+            "highlight": false,
+            "subheading": "fun christmas",
+            "title": "drawing",
+            "link_text": "download",
+            "link_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0565\/6808\/6571\/files\/lalee-dot-to-dot_A4.pdf?v=1699017315",
+            "link_style": "link",
+            "text_position": "bottom_left",
+            "background": "#f7f8fd",
+            "text_color": "#38383a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "template--20888376312152__7169fee8-7c07-4300-b752-a2c5d50068b7-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DBD_Lifestyle_20242089-2.jpg",
+            "highlight": false,
+            "subheading": "Deer friends",
+            "title": "cut-outs",
+            "link_text": "download",
+            "link_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0565\/6808\/6571\/files\/deer-friends-christmas-deco_A4.pdf?v=1699017315",
+            "link_style": "link",
+            "text_position": "top_right",
+            "background": "#f7f8fd",
+            "text_color": "#38383a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        }
+      },
+      "block_order": [
+        "template--20888376312152__7169fee8-7c07-4300-b752-a2c5d50068b7-image-1",
+        "template--20888376312152__7169fee8-7c07-4300-b752-a2c5d50068b7-image-2"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "make waiting fun",
+        "section_size": "medium",
+        "stack_on_mobile": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16647965959e7e4d9a": {
+      "type": "apps",
+      "blocks": {
+        "0d7f87a6-59f0-44df-bca6-5044e39bf441": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "TjhVaJ"
+          }
+        }
+      },
+      "block_order": [
+        "0d7f87a6-59f0-44df-bca6-5044e39bf441"
+      ],
+      "settings": {
+        "include_horizontal_margins": false,
+        "include_vertical_margins": false,
+        "custom_class": ""
+      }
+    },
+    "1150e288-032b-4a04-893c-5b306b311fdc": {
+      "type": "multi-column",
+      "blocks": {
+        "template--15072744308779__1150e288-032b-4a04-893c-5b306b311fdc-167882722379a54540-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/birdee-icon_450x450_2f80f0af-7843-42ab-af8b-ed917bceca49.png",
+            "image_width": 60,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "Birdee",
+            "link_url": "shopify:\/\/collections\/birdee",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "template--15072744308779__1150e288-032b-4a04-893c-5b306b311fdc-167882722379a54540-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/croco-icon_450x450_633f0264-b6e9-428b-8189-424a27c635ff.png",
+            "image_width": 60,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "Croco",
+            "link_url": "shopify:\/\/collections\/croco",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "template--15072744308779__1150e288-032b-4a04-893c-5b306b311fdc-167882722379a54540-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ozzo-icon_450x450_9eae22fb-f4a0-4d6e-9e15-195585d15ca8.png",
+            "image_width": 60,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "ozzo",
+            "link_url": "shopify:\/\/collections\/ozzo",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "template--15072744308779__1150e288-032b-4a04-893c-5b306b311fdc-167882722379a54540-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lalee-icon_450x450_35fdc114-ef4f-4631-8d8c-b587a1d23dbe.png",
+            "image_width": 60,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "lalee",
+            "link_url": "shopify:\/\/collections\/lalee",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "f0199ff4-a9a5-4e12-802d-a852b9a468ba": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/elphee-icon_450x450_7dfc21d2-4a09-48ba-b54b-d6d0482ddd4d.png",
+            "image_width": 61,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "elphee",
+            "link_url": "shopify:\/\/collections\/elphee",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "835e6c2a-2771-4c8f-8e62-e8f27c29edb7": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/raffi-icon_450x450_c949d89e-ad85-45f0-8956-292ad9261789.png",
+            "image_width": 60,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "raffi",
+            "link_url": "shopify:\/\/collections\/raffi",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "fd9b7f10-6487-43c3-81e4-fa0c804c9342": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/nozo-icon_450x450_d45f6b7d-dea7-486a-a080-07e58b0e8479.png",
+            "image_width": 60,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "nozo",
+            "link_url": "shopify:\/\/collections\/nozo",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "517c5a22-ffce-459e-aaa1-20a187c1e9fa": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/antee-icon_450x450_f0806e7f-aee0-4963-8057-ef3b436485c6.png",
+            "image_width": 61,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "antee",
+            "link_url": "shopify:\/\/collections\/antee",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "5d3e86ae-9ccc-4ee5-becc-ad8f3f7167f3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/zebee-icon_450x450_7e40fefd-fc9c-47d7-8f2f-e3efa20f875c.png",
+            "image_width": 61,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "zebee",
+            "link_url": "shopify:\/\/collections\/zebee",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "4f84d9c4-6307-4e15-b376-180cc92243ca": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wally-icon_450x450_cd65c004-e9a1-4fee-84da-6e60815008a8.png",
+            "image_width": 60,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "wally",
+            "link_url": "shopify:\/\/collections\/wally",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "2153b80e-1f66-4099-93ca-b908a1402c6a": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jelly-icon_450x450_cb91e6b6-c0ea-41f7-9d4c-d0b3d0274580.png",
+            "image_width": 61,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "jelly",
+            "link_url": "shopify:\/\/collections\/jelly",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--15072744308779__1150e288-032b-4a04-893c-5b306b311fdc-167882722379a54540-0",
+        "template--15072744308779__1150e288-032b-4a04-893c-5b306b311fdc-167882722379a54540-1",
+        "template--15072744308779__1150e288-032b-4a04-893c-5b306b311fdc-167882722379a54540-2",
+        "template--15072744308779__1150e288-032b-4a04-893c-5b306b311fdc-167882722379a54540-3",
+        "f0199ff4-a9a5-4e12-802d-a852b9a468ba",
+        "835e6c2a-2771-4c8f-8e62-e8f27c29edb7",
+        "fd9b7f10-6487-43c3-81e4-fa0c804c9342",
+        "517c5a22-ffce-459e-aaa1-20a187c1e9fa",
+        "5d3e86ae-9ccc-4ee5-becc-ad8f3f7167f3",
+        "4f84d9c4-6307-4e15-b376-180cc92243ca",
+        "2153b80e-1f66-4099-93ca-b908a1402c6a"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "content_position": "below",
+        "subheading": "spend christmas with a deer friend",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "small",
+        "desktop_item_size": "pico",
+        "spacing": "tight",
+        "background": "#eeeee6",
+        "text_color": "rgba(0,0,0,0)",
+        "item_text_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#000000",
+        "image_overlay_opacity": 30
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1652087977ce2d0cae",
+    "fe253c55-8a79-4af6-9174-e349333410c3",
+    "10f72fe4-48aa-437f-b883-0f02c3735bb1",
+    "95ecc740-bad6-4944-a1f4-3b2415a4e422",
+    "083b3ec3-d70b-491e-b4b0-ea6ce24d06f4",
+    "2f3b9147-092d-4166-bf9c-04e3b554574b",
+    "5da71ec9-8346-4405-ab66-ef4606477dc4",
+    "4838b43b-5d1a-4521-b2de-554d6c2d2058",
+    "fe52c69a-ed47-4404-9a90-941fa376f018",
+    "c48bf822-2739-41f6-9ef8-0f4dfa747a0a",
+    "daf1341c-722c-45ac-9b7b-9022c01e0082",
+    "3d2f08fa-93aa-43b8-bb6d-e60e85a38070",
+    "7169fee8-7c07-4300-b752-a2c5d50068b7",
+    "16647965959e7e4d9a",
+    "1150e288-032b-4a04-893c-5b306b311fdc"
+  ]
+}

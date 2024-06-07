@@ -1,0 +1,102 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": false,
+        "page_width": "small"
+      }
+    },
+    "b5df272f-75e1-44d5-b46d-1410036b1061": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "instore guides",
+        "content": "<p>Here you'll find useful video guides on how to mount our top signs.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "92c7000d-c883-46f2-9b03-e32c3a1d3bd7": {
+      "type": "video",
+      "settings": {
+        "subheading": "foodie top sign",
+        "title": "",
+        "video_url": "https:\/\/youtu.be\/ppzqrns58iQ? autoplay=0&rel=0",
+        "image": "shopify:\/\/shop_images\/IMG_E0950.jpg",
+        "background_type": "boxed",
+        "video_size": "auto",
+        "autoplay": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "8001d2a4-c01a-448f-b08d-e07c0092e958": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p><strong>Video includes:<\/strong><br\/>9094155 - Foodie top sign<br\/>9094137 - Sign holder set<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1bced5e8-d9e3-4e3c-b56d-08e42be7ecc2": {
+      "type": "video",
+      "custom_css": [],
+      "settings": {
+        "subheading": "birdee top sign",
+        "title": "",
+        "video_url": "https:\/\/youtu.be\/eU7-yg415AM? autoplay=0&rel=0",
+        "image": "shopify:\/\/shop_images\/mq1.webp",
+        "background_type": "boxed",
+        "video_size": "auto",
+        "autoplay": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "c8125b9b-caf3-4e92-90ad-93ac6b50184e": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p><strong>Video includes:<\/strong> <br\/>9094133 - Birdee top sign<br\/> 9094136 - sign holder set<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "b5df272f-75e1-44d5-b46d-1410036b1061",
+    "92c7000d-c883-46f2-9b03-e32c3a1d3bd7",
+    "8001d2a4-c01a-448f-b08d-e07c0092e958",
+    "1bced5e8-d9e3-4e3c-b56d-08e42be7ecc2",
+    "c8125b9b-caf3-4e92-90ad-93ac6b50184e"
+  ]
+}

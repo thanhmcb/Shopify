@@ -1,0 +1,442 @@
+{%- if section.settings.background_type == 'boxed' -%}
+  {%- assign is_boxed = true -%}
+{%- else -%}
+  {%- assign is_boxed = false -%}
+{%- endif -%}
+
+<style>
+.section-info--{{section.id}} .section-image-text .image-with-text__text-wrapper, .section-info--{{section.id}} .section-image-text .heading, .section-info--{{section.id}} .container {
+  color:{{section.settings.text-color}};
+}
+.section-info--{{section.id}} .section-image-text .button.slider-button {
+  background-color:{{section.settings.button-bg-color}};
+  color:{{section.settings.button_text_color}};
+  background-image: none;
+}
+.section-info--{{section.id}} {
+  background-color: {{section.settings.section-bg}};
+}
+.section-info--{{section.id}} .owl-theme .owl-dots .owl-dot.active span, .section-info--{{section.id}} .owl-theme .owl-dots .owl-dot:hover span {
+  background: {{section.settings.slide-dot-active}};
+}
+
+.section-info--{{section.id}} .owl-theme .owl-dots .owl-dot span{
+  background: {{section.settings.slide-dot}};
+}
+.section-info--{{section.id}} .section-usps .usp-item img {
+  width: {{section.settings.top-icon-width}}px;
+}
+
+  {%- if section.settings.background_overlap != 'both' -%}
+    /* We have to remove some extra spacing adding in non-overlap mode */
+    @media screen and (max-width: 999px) {
+      {%- if section.settings.background_overlap == 'image' -%}
+        {%- unless is_boxed -%}
+          #shopify-section-{{ section.id }} .section {
+            margin-top: 0;
+          }
+
+          #shopify-section-{{ section.id }} .image-with-text {
+            margin-bottom: calc(-1 * var(--vertical-breather)) !important;
+          }
+        {%- else -%}
+          #shopify-section-{{ section.id }} .image-with-text {
+            margin-bottom: calc(-1 * var(--container-gutter)) !important;
+          }
+        {%- endunless -%}
+      {%- elsif section.settings.background_overlap == 'text' -%}
+        {%- unless is_boxed -%}
+          #shopify-section-{{ section.id }} .section {
+            margin-bottom: 0;
+          }
+
+          #shopify-section-{{ section.id }} .image-with-text {
+            margin-top: calc(-1 * var(--vertical-breather)) !important;
+          }
+        {%- else -%}
+          #shopify-section-{{ section.id }} .image-with-text {
+            margin-top: calc(-1 * var(--container-gutter)) !important;
+          }
+        {%- endunless -%}
+      {%- endif -%}
+    }
+  {%- endif -%}
+</style>
+{% if product.metafields.my_fields.c5infoblock == "gots" %}
+    <section class="section-info--{{section.id}} section--info">
+      <div class="section--image-text-header">
+        <div class="container">
+          <h1 class="header--main text-center">{{section.settings.main-heading}}</h1>
+          <div class="header--sub text-center">{{section.settings.sub-heading}}</div>
+        </div>
+      </div>
+      <div class="section-usps">
+        <div class="container">
+          <div class="usp-grid">
+            {%- for block in section.blocks -%}
+            {% case block.type %}
+            {% when 'usp'%}
+            <div class="usp-item">
+              {%- assign img_url = block.settings.top-icon -%}
+              {%- assign top-icon_type = 'svg' -%}  
+                <img class="lazyload"
+                  src="{{ img_url | asset_url }}"
+                  data-sizes="auto"
+                  img_type: top-icon_type > 
+              {{block.settings.usp}}</div>
+                {% endcase %}
+            {%- endfor -%}
+          </div>
+        </div>
+      </div>
+      <div class="section-image-text {% if section.settings.background_overlap == 'both' and is_boxed == false %}section--flush{% endif %}" >
+        <div class="container">
+          <div id="owl-demo-4" class="owl-theme ">
+            {%- for block in section.blocks -%}
+            {% case block.type %}
+            {% when 'image-text'%}
+            <div {% if section.settings.reveal_on_scroll %}reveal-on-scroll{% endif %} class="image-with-text {% if is_boxed %}image-with-text--boxed{% endif %} {% if section.settings.image_position == 'right' %}image-with-text--reverse{% endif %} image-with-text--overlap-{{ section.settings.background_overlap }}" style="--image-aspect-ratio: {{ first_block.settings.image.aspect_ratio | default: 1 }}">
+                    <div class="image-with-text__wrapper">
+                      <div class="image-with-text__image-wrapper">
+                        {%- if block.settings.image != blank -%}
+                        <img id="block-{{ block.id }}-{{ block.settings.image.id }}" class="image-with-text__image" sizes="(max-width: 740px) calc(100vw - 96px), (max-width: 999px) calc(100vw - 160px), 600px" loading="lazy" {% render 'image-attributes', image: block.settings.image, sizes: '600,700,800,1000,1200,1400' %}>
+                      {%- endif -%}
+                      </div>          
+                      <div class="image-with-text__content-wrapper">
+                        <div class="slide-image-with-text__content-list">
+                          <div class="image-with-text__text-wrapper" >
+                            {%- if block.settings.subheading != blank -%}
+                              <h5 class="slider-heading">
+                            {{ block.settings.subheading | escape }}
+                              </h5>
+                            {%- endif -%}
+                            {%- if block.settings.title != blank -%}
+                              <h3 class="heading h3">
+                                {{ block.settings.title | escape }}
+                              </h3>
+                            {%- endif -%}
+                            {%- if block.settings.content != blank -%}
+                              {{- block.settings.content -}}
+                            {%- endif -%}
+                          </div>
+                          {%- if block.settings.button_text != blank -%}
+                            <div class="button-wrapper">
+                              <a href="{{ block.settings.button_link }}" class="button button--primary slider-button">{{ block.settings.button_text }}</a>
+                            </div>
+                          {%- endif -%}             
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            {% endcase %}
+          
+        {%- endfor -%}
+        
+        
+          </div>
+        
+        </div>
+
+      </div>
+      <div class="section-bottom-icon">
+        <div class="container">
+          <div class="scroller">
+            <scrollable-content class="multi-column__inner multi-column__inner--center multi-column__inner--scroller is-scrollable">
+              {%- for block in section.blocks -%}
+              {% case block.type %}
+              {% when 'icon'%}
+                  <div class="multi-column__item icon--item-{{block.id}}">
+                    {%- style -%}
+                    .section-bottom-icon .icon--item-{{block.id}} .multi-column__image-wrapper{
+                      background-color: {{ block.settings.icon-bg }};
+                      border-radius:{{block.settings.icon-border-radius}};
+                    }
+              {%- endstyle -%}
+                <div class="icon-bottom--item multi-column__image-wrapper">
+                  {%- assign img_url = block.settings.default_logo_svg -%}
+                  {%- assign logo_default_type = 'svg' -%}  
+                    <img class="lazyload multi-column__image"
+                      src="{{ img_url | asset_url }}"
+                      data-sizes="auto"
+                      img_type: logo_default_type > 
+                </div>  
+                  </div>
+                  {% endcase %}
+              {%- endfor -%}
+            </scrollable-content>
+          </div>
+
+        </div>
+      </div>
+    </section>
+{%- endif -%}
+{% schema %}
+{
+  "name": "Infoblock - Gots",
+  "settings": [
+  {
+    "type": "text",
+    "id": "main-heading",
+    "label": "Section main heading",
+    "default":"The Basics Of Buying"
+  },
+  {
+    "type": "text",
+    "id": "sub-heading",
+    "label": "Section sub heading",
+    "default":"sub heading"
+  },
+    {
+      "type": "checkbox",
+      "id": "reveal_on_scroll",
+      "label": "Reveal on scroll",
+      "info": "Show animation when section becomes visible.",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "top-icon-width",
+      "label": "Icon Width",
+      "default": 30,
+      "min": 20,
+      "max": 50,
+      "step": 1,
+      "unit": "px"
+  },
+    {
+      "type": "color",
+      "id": "section-bg",
+      "label": "Section background color"
+    },
+   
+    {
+      "type": "select",
+      "id": "background_overlap",
+      "label": "Background overlap",
+      "info": "Add an accent background color below.",
+      "options": [
+        {
+          "value": "image",
+          "label": "Image"
+        },
+        {
+          "value": "text",
+          "label": "Text"
+        },
+        {
+          "value": "both",
+          "label": "Both"
+        }
+      ],
+      "default": "image"
+    },
+    {
+      "type": "select",
+      "id": "image_position",
+      "label": "Desktop image position",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "color",
+      "id": "text-color",
+      "label": "Text color"
+    },
+    {
+      "type": "color",
+      "id": "button-bg-color",
+      "label": "Button background"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button text"
+    },
+    {
+      "type": "color",
+      "id": "slide-dot",
+      "label": "Slide dot"
+    },
+    {
+      "type": "color",
+      "id": "slide-dot-active",
+      "label": "Slide dot active"
+    }
+  ],
+  "blocks": [
+    
+    {
+      "type": "usp",
+      "name": "Ups",
+      "settings": [
+      {
+        "type": "text",
+        "id": "top-icon",
+        "label": "Svg Icon"
+      },
+        {
+          "type": "text",
+          "id": "usp",
+          "label": "usp",
+          "default": "Frequently asked question"
+        }
+
+      ]
+    },
+    {
+      "type": "image-text",
+      "name": "Image text",
+      "settings": [
+     
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image",
+        "info": "1400 x 1400px .jpg recommended"
+      },
+      {
+        "type": "text",
+        "id": "subheading",
+        "label": "Subheading",
+        "default": "Subheading"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "Image with text"
+      },
+      {
+        "type": "richtext",
+        "id": "content",
+        "label": "Content",
+        "default": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>"
+      },
+      {
+        "type": "text",
+        "id": "button_text",
+        "label": "Button text"
+      },
+      {
+        "type": "url",
+        "id": "button_link",
+        "label": "Button link"
+      }
+
+      ]
+    },
+    {
+      "type": "icon",
+      "name": "Bottom icons",
+      "settings": [
+      {
+        "type": "text",
+        "id": "default_logo_svg",
+        "label": "Usp Icon"
+      },
+      {
+        "type": "color",
+        "id": "icon-bg",
+        "label": "Usp Icon background"    
+      },
+      {
+        "type": "select",
+        "id": "icon-border-radius",
+        "label": "Icon background shape",
+        "options": [
+          {
+            "value": "0",
+            "label": "Square"
+          },
+          {
+            "value": "8px",
+            "label": "Rounded corner"
+          },
+          {
+            "value": "50%",
+            "label": "Circle"
+          }
+        ],
+        "default": "8px"
+      }
+    ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Infoblock - Gots"  
+    }
+  ]
+}
+{% endschema %}
+
+
+
+<script>
+  $(document).ready(function() {
+
+
+//Init the carousel
+$("#owl-demo-4").owlCarousel({      
+  items: 1,
+  onInitialized: startProgressBar,
+  onTranslate: resetProgressBar,
+  onTranslated: startProgressBar
+});
+
+ function startProgressBar() {
+  // apply keyframe animation
+  $(".slide-progress").css({
+    width: "30px",
+    transition: "width 10000ms"
+  });
+}
+
+function resetProgressBar() {
+  $(".slide-progress").css({
+    width: 0,
+    transition: "width 0s"
+  });
+}
+//Init progressBar where elem is $("#owl-demo")
+function progressBar(elem){
+  $elem = elem;
+  //build progress bar elements
+  buildProgressBar();
+  //start counting
+  start();
+}
+
+
+
+});
+</script>

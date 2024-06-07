@@ -1,0 +1,506 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "1509e59e-9ad7-47d4-be9a-6eaeff665ae9": {
+      "type": "image-with-text-block",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/happy_clouds_header2.jpg",
+        "subheading": "Subheading",
+        "title": "Image with text block",
+        "content": "<p>Use block text to give your customers insight into your brand. Select impactful text that relates to your brand and story.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "left",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1652087977ce2d0cae": {
+      "type": "slideshow",
+      "blocks": {
+        "16520879774e1fdf26-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/happy-clouds-slider_2160x1080_dc808431-57e7-4aad-ab37-6136fbcf8328.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/happy-clouds-mobile-slider_1000x1400_fffea5c4-25b7-4040-82e2-953d130338d6.jpg",
+            "text_position": "middle_center",
+            "subheading": "welcome to",
+            "title": "happy clouds",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "16520879774e1fdf26-0"
+      ],
+      "custom_css": [
+        "h2 {color: white;}"
+      ],
+      "settings": {
+        "section_height": "small",
+        "transition_type": "sweep",
+        "autoplay": false,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "5494661b-4f4f-4cdb-bf83-f594d3bc6fee": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "a playful world of fun",
+        "content": "<p>Watch the cute story below and follow the adventurous Deer friends, Croco the warm-hearted crocodile and Ozzo the loveable hippo on a magical journey.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "59364a47-be40-4895-bb75-448855ff9de1": {
+      "type": "video",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "video_url": "https:\/\/youtu.be\/0y_hF3sPBvs",
+        "image": "shopify:\/\/shop_images\/Animation-thumbnail_1920x1080_d92ffbd2-9f37-4d5e-b9cc-5b55acc3be8d.png",
+        "background_type": "boxed",
+        "video_size": "auto",
+        "autoplay": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "5de5c357-f23a-4610-8e8b-0fcd64f6355f": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "animation!",
+        "html": "<p style=\"text-align: center\">Write or copy\/paste HTML code<\/p>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "627c4a8c-1f32-40f7-a8a6-f1cf80bb7025": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<video controls=\"controls\" style=\"max-width: 100%; height: auto;\">\n  <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f2d44b5522de48bcb4fc350a1d733ee3.mp4\">\nYour browser does not support our video.\n<\/source><\/video>",
+        "add_vertical_spacing": false,
+        "background_type": "boxed",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "95ecc740-bad6-4944-a1f4-3b2415a4e422": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--15072744308779__95ecc740-bad6-4944-a1f4-3b2415a4e422-1675681193a1fa582d-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "happy-clouds",
+            "label": "",
+            "button_text": "explore it all",
+            "button_url": "shopify:\/\/collections\/happy-clouds"
+          }
+        }
+      },
+      "block_order": [
+        "template--15072744308779__95ecc740-bad6-4944-a1f4-3b2415a4e422-1675681193a1fa582d-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "shop happy clouds",
+        "content": "",
+        "products_count": 12,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "f3927dae-34b4-40ee-9402-bb3c597ea877": {
+      "type": "collection-list",
+      "disabled": true,
+      "blocks": {
+        "template--15072744308779__f3927dae-34b4-40ee-9402-bb3c597ea877-167524333180b65eb3-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/bundelement_stor2_4580be8f-2020-4644-971d-51a1bf126c88.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--15072744308779__f3927dae-34b4-40ee-9402-bb3c597ea877-167524333180b65eb3-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/happy_clouds_landingpage2.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--15072744308779__f3927dae-34b4-40ee-9402-bb3c597ea877-167524333180b65eb3-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/bundelement_sma2.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--15072744308779__f3927dae-34b4-40ee-9402-bb3c597ea877-167524333180b65eb3-0",
+        "template--15072744308779__f3927dae-34b4-40ee-9402-bb3c597ea877-167524333180b65eb3-1",
+        "template--15072744308779__f3927dae-34b4-40ee-9402-bb3c597ea877-167524333180b65eb3-2"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "layout": "collage",
+        "subheading": "",
+        "title": "spend the day with Deer friends",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "6aba477b-8740-4d50-9389-5e9d4443b6c8": {
+      "type": "video",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "video_url": "https:\/\/youtu.be\/3Dn_SY_4NOQ",
+        "image": "shopify:\/\/shop_images\/happy-clouds-film-thumbnail_1920x1080_b28a524c-9a16-4a31-91b9-b463d208e46a.jpg",
+        "background_type": "boxed",
+        "video_size": "auto",
+        "autoplay": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16647965959e7e4d9a": {
+      "type": "apps",
+      "blocks": {
+        "0d7f87a6-59f0-44df-bca6-5044e39bf441": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "TjhVaJ"
+          }
+        }
+      },
+      "block_order": [
+        "0d7f87a6-59f0-44df-bca6-5044e39bf441"
+      ],
+      "settings": {
+        "include_horizontal_margins": false,
+        "include_vertical_margins": false,
+        "custom_class": ""
+      }
+    },
+    "f43d0d71-a906-4b39-9f36-2822b17c6fe7": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=0ZxrBUTlpng",
+        "background_type": "full_width",
+        "video_size": "auto",
+        "autoplay": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "e86de192-92e4-4e08-a9d4-aa2ad49e1860": {
+      "type": "gallery",
+      "disabled": true,
+      "blocks": {
+        "template--15072744308779__e86de192-92e4-4e08-a9d4-aa2ad49e1860-167481325825d227f3-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2023_DeerFriends-book_11x11cm_20pages_ENGELSK_10000stk_Side_01.jpg",
+            "caption": ""
+          }
+        },
+        "template--15072744308779__e86de192-92e4-4e08-a9d4-aa2ad49e1860-167481325825d227f3-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2023_DeerFriends-book_11x11cm_20pages_ENGELSK_10000stk_Side_02.jpg",
+            "caption": ""
+          }
+        },
+        "template--15072744308779__e86de192-92e4-4e08-a9d4-aa2ad49e1860-167481325825d227f3-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2023_DeerFriends-book_11x11cm_20pages_ENGELSK_10000stk_Side_03.jpg",
+            "caption": ""
+          }
+        },
+        "9566d9d8-5bdb-4b89-ae7b-df313f1f5ef8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2023_DeerFriends-book_11x11cm_20pages_ENGELSK_10000stk_Side_04.jpg",
+            "caption": ""
+          }
+        },
+        "440db2a8-e742-4e85-8d16-44447e2104a1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2023_DeerFriends-book_11x11cm_20pages_ENGELSK_10000stk_Side_05.jpg",
+            "caption": ""
+          }
+        },
+        "95e6bd7d-49f9-45d8-868a-1a71d2819142": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2023_DeerFriends-book_11x11cm_20pages_ENGELSK_10000stk_Side_06.jpg",
+            "caption": ""
+          }
+        },
+        "affb3b35-b726-44be-9174-51db9d342452": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2023_DeerFriends-book_11x11cm_20pages_ENGELSK_10000stk_Side_07.jpg",
+            "caption": ""
+          }
+        },
+        "26d1536d-4954-48d4-8a5c-e844f2f2f322": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2023_DeerFriends-book_11x11cm_20pages_ENGELSK_10000stk_Side_08.jpg",
+            "caption": ""
+          }
+        },
+        "71d70a22-b3e9-4704-9049-57c6df040c83": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2023_DeerFriends-book_11x11cm_20pages_ENGELSK_10000stk_Side_09.jpg",
+            "caption": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15072744308779__e86de192-92e4-4e08-a9d4-aa2ad49e1860-167481325825d227f3-0",
+        "template--15072744308779__e86de192-92e4-4e08-a9d4-aa2ad49e1860-167481325825d227f3-1",
+        "template--15072744308779__e86de192-92e4-4e08-a9d4-aa2ad49e1860-167481325825d227f3-2",
+        "9566d9d8-5bdb-4b89-ae7b-df313f1f5ef8",
+        "440db2a8-e742-4e85-8d16-44447e2104a1",
+        "95e6bd7d-49f9-45d8-868a-1a71d2819142",
+        "affb3b35-b726-44be-9174-51db9d342452",
+        "26d1536d-4954-48d4-8a5c-e844f2f2f322",
+        "71d70a22-b3e9-4704-9049-57c6df040c83"
+      ],
+      "settings": {
+        "subheading": "Shopify",
+        "title": "gallery",
+        "show_arrows": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "daf1341c-722c-45ac-9b7b-9022c01e0082": {
+      "type": "image-with-text-block",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/blog.jpg",
+        "subheading": "blog - new collection",
+        "title": "toys & everyday essentials",
+        "content": "<p>The collection offers hours of fun with a playful theme and adds new product groups to our collection.<\/p>",
+        "button_text": "go explore",
+        "button_link": "shopify:\/\/blogs\/news\/happy-home-23",
+        "background_type": "boxed",
+        "text_position": "right",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "5427e58b-18eb-4a73-ab46-339905f6802b": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15072744308779__5427e58b-18eb-4a73-ab46-339905f6802b-16788256327b75df77-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/croco-cuddle-friend-powder_0013_2160.jpg",
+            "tab_label": "Item",
+            "subheading": "blog - new collection",
+            "title": "toys & everyday essentials",
+            "content": "<p>The happy home '23 collection offers hours of fun with a playful theme and adds new product groups to our collection.<\/p>",
+            "button_text": "Go explore",
+            "button_link": "shopify:\/\/blogs\/news\/happy-home-23"
+          }
+        }
+      },
+      "block_order": [
+        "template--15072744308779__5427e58b-18eb-4a73-ab46-339905f6802b-16788256327b75df77-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "both",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#e1cfc6",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1150e288-032b-4a04-893c-5b306b311fdc": {
+      "type": "multi-column",
+      "blocks": {
+        "template--15072744308779__1150e288-032b-4a04-893c-5b306b311fdc-167882722379a54540-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/birdee-icon_450x450_2f80f0af-7843-42ab-af8b-ed917bceca49.png",
+            "image_width": 50,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "Birdee",
+            "link_url": "shopify:\/\/collections\/birdee",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "template--15072744308779__1150e288-032b-4a04-893c-5b306b311fdc-167882722379a54540-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/croco-icon_450x450_633f0264-b6e9-428b-8189-424a27c635ff.png",
+            "image_width": 50,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "Croco",
+            "link_url": "shopify:\/\/collections\/croco",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "template--15072744308779__1150e288-032b-4a04-893c-5b306b311fdc-167882722379a54540-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ozzo-icon_450x450_9eae22fb-f4a0-4d6e-9e15-195585d15ca8.png",
+            "image_width": 50,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "ozzo",
+            "link_url": "shopify:\/\/collections\/ozzo",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "template--15072744308779__1150e288-032b-4a04-893c-5b306b311fdc-167882722379a54540-3": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Column 1",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--15072744308779__1150e288-032b-4a04-893c-5b306b311fdc-167882722379a54540-0",
+        "template--15072744308779__1150e288-032b-4a04-893c-5b306b311fdc-167882722379a54540-1",
+        "template--15072744308779__1150e288-032b-4a04-893c-5b306b311fdc-167882722379a54540-2",
+        "template--15072744308779__1150e288-032b-4a04-893c-5b306b311fdc-167882722379a54540-3"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "content_position": "below",
+        "subheading": "shop the three deer friends",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "small",
+        "desktop_item_size": "pico",
+        "spacing": "tight",
+        "background": "#eeeee6",
+        "text_color": "rgba(0,0,0,0)",
+        "item_text_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#000000",
+        "image_overlay_opacity": 30
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1509e59e-9ad7-47d4-be9a-6eaeff665ae9",
+    "1652087977ce2d0cae",
+    "5494661b-4f4f-4cdb-bf83-f594d3bc6fee",
+    "59364a47-be40-4895-bb75-448855ff9de1",
+    "5de5c357-f23a-4610-8e8b-0fcd64f6355f",
+    "627c4a8c-1f32-40f7-a8a6-f1cf80bb7025",
+    "95ecc740-bad6-4944-a1f4-3b2415a4e422",
+    "f3927dae-34b4-40ee-9402-bb3c597ea877",
+    "6aba477b-8740-4d50-9389-5e9d4443b6c8",
+    "16647965959e7e4d9a",
+    "f43d0d71-a906-4b39-9f36-2822b17c6fe7",
+    "e86de192-92e4-4e08-a9d4-aa2ad49e1860",
+    "daf1341c-722c-45ac-9b7b-9022c01e0082",
+    "5427e58b-18eb-4a73-ab46-339905f6802b",
+    "1150e288-032b-4a04-893c-5b306b311fdc"
+  ]
+}
