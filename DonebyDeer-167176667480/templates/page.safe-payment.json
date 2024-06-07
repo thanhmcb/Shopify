@@ -1,0 +1,27 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "custom_html_XLkpbe": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<div style=\"text-align: center;\">\n    <button onclick=\"history.back()\" style=\"text-decoration: underline;\"><strong>GO BACK<\/strong><\/button>\n<\/div>",
+        "add_vertical_spacing": true,
+        "background_type": "boxed",
+        "background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_html_XLkpbe"
+  ]
+}

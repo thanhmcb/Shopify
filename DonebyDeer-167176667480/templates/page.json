@@ -1,0 +1,49 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": false,
+        "page_width": "large"
+      }
+    },
+    "1bced5e8-d9e3-4e3c-b56d-08e42be7ecc2": {
+      "type": "video",
+      "custom_css": [],
+      "settings": {
+        "subheading": "how to mount",
+        "title": "the birdee top sign",
+        "video_url": "https:\/\/youtu.be\/eU7-yg415AM",
+        "image": "shopify:\/\/shop_images\/mq1.webp",
+        "background_type": "boxed",
+        "video_size": "auto",
+        "autoplay": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "c8125b9b-caf3-4e92-90ad-93ac6b50184e": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p><strong>Video includes:<\/strong> item no. 9094133 - Birdee top sign, 9094136 - sign holder set<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1bced5e8-d9e3-4e3c-b56d-08e42be7ecc2",
+    "c8125b9b-caf3-4e92-90ad-93ac6b50184e"
+  ]
+}

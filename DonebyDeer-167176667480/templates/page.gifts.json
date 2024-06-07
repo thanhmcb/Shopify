@@ -1,0 +1,457 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "1651136137c36d6424": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "gifts",
+        "content": "<p>Looking for a gift for a little special someone? We want to make it friendly for you to pick a perfect gift for babies and toddlers, so we have gathered our best gift ideas for you here!<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1651134958c907015d": {
+      "type": "collection-list",
+      "blocks": {
+        "1651134957971bb153-0": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/giftcard-party-1800x1800.jpg",
+            "subheading": "",
+            "title": "gift card",
+            "link_text": "",
+            "link_url": "shopify:\/\/products\/gift-card",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "1651134957971bb153-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/toy-guide-750x750_01f39777-9a87-4c5a-8f67-a69f98841c12.jpg",
+            "subheading": "",
+            "title": "Toy guide",
+            "link_text": "",
+            "link_url": "shopify:\/\/pages\/toy-and-gift-guide",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "1651134957971bb153-1": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "dinner-time-gift-set",
+            "image": "shopify:\/\/shop_images\/toyguide-giftsets-750x750.jpg",
+            "subheading": "",
+            "title": "dinner time gifts",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "1651134957971bb153-2": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "tiny-activity-toys-gift-set",
+            "image": "shopify:\/\/shop_images\/toyguide-giftsets_750x750_59eae74a-1c14-4af8-8527-30b31e6a193f.jpg",
+            "subheading": "",
+            "title": "play time gifts",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "1651134957971bb153-0",
+        "1651134957971bb153-3",
+        "1651134957971bb153-1",
+        "1651134957971bb153-2"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "layout": "collage",
+        "subheading": "",
+        "title": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "0d159811-c7d9-44a8-9b13-34fa5b26d4f8": {
+      "type": "collection-list",
+      "blocks": {
+        "template--14990133657643__0d159811-c7d9-44a8-9b13-34fa5b26d4f8-1667899118995449cc-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "advent-tiny-gifts",
+            "subheading": "",
+            "title": "tiny gifts",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5
+          }
+        },
+        "template--14990133657643__0d159811-c7d9-44a8-9b13-34fa5b26d4f8-1667899118995449cc-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "small-gifts",
+            "subheading": "",
+            "title": "small gifts",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5
+          }
+        },
+        "template--14990133657643__0d159811-c7d9-44a8-9b13-34fa5b26d4f8-1667899118995449cc-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "big-gifts",
+            "subheading": "",
+            "title": "big gifts",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5
+          }
+        },
+        "template--14990133657643__0d159811-c7d9-44a8-9b13-34fa5b26d4f8-1667899118995449cc-3": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--14990133657643__0d159811-c7d9-44a8-9b13-34fa5b26d4f8-1667899118995449cc-4": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--14990133657643__0d159811-c7d9-44a8-9b13-34fa5b26d4f8-1667899118995449cc-5": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--14990133657643__0d159811-c7d9-44a8-9b13-34fa5b26d4f8-1667899118995449cc-0",
+        "template--14990133657643__0d159811-c7d9-44a8-9b13-34fa5b26d4f8-1667899118995449cc-1",
+        "template--14990133657643__0d159811-c7d9-44a8-9b13-34fa5b26d4f8-1667899118995449cc-2",
+        "template--14990133657643__0d159811-c7d9-44a8-9b13-34fa5b26d4f8-1667899118995449cc-3",
+        "template--14990133657643__0d159811-c7d9-44a8-9b13-34fa5b26d4f8-1667899118995449cc-4",
+        "template--14990133657643__0d159811-c7d9-44a8-9b13-34fa5b26d4f8-1667899118995449cc-5"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "layout": "grid",
+        "subheading": "",
+        "title": "gifts by price",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "9d842156-4965-491a-adb6-0b6899aaa693": {
+      "type": "collection-list",
+      "blocks": {
+        "template--14990133657643__9d842156-4965-491a-adb6-0b6899aaa693-1667899118995449cc-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "newborn",
+            "subheading": "0-3 months",
+            "title": "newborn",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5
+          }
+        },
+        "template--14990133657643__9d842156-4965-491a-adb6-0b6899aaa693-1667899118995449cc-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "baby",
+            "subheading": "3-12 months",
+            "title": "baby",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5
+          }
+        },
+        "template--14990133657643__9d842156-4965-491a-adb6-0b6899aaa693-1667899118995449cc-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "toddler",
+            "subheading": "12+ months",
+            "title": "toddler",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5
+          }
+        },
+        "template--14990133657643__9d842156-4965-491a-adb6-0b6899aaa693-1667899118995449cc-3": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--14990133657643__9d842156-4965-491a-adb6-0b6899aaa693-1667899118995449cc-4": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--14990133657643__9d842156-4965-491a-adb6-0b6899aaa693-1667899118995449cc-5": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--14990133657643__9d842156-4965-491a-adb6-0b6899aaa693-1667899118995449cc-0",
+        "template--14990133657643__9d842156-4965-491a-adb6-0b6899aaa693-1667899118995449cc-1",
+        "template--14990133657643__9d842156-4965-491a-adb6-0b6899aaa693-1667899118995449cc-2",
+        "template--14990133657643__9d842156-4965-491a-adb6-0b6899aaa693-1667899118995449cc-3",
+        "template--14990133657643__9d842156-4965-491a-adb6-0b6899aaa693-1667899118995449cc-4",
+        "template--14990133657643__9d842156-4965-491a-adb6-0b6899aaa693-1667899118995449cc-5"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "layout": "grid",
+        "subheading": "",
+        "title": "gifts by age",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "52022bd7-54cc-4787-8b93-55791051dd41": {
+      "type": "featured-product",
+      "blocks": {
+        "template--15033430573099__52022bd7-54cc-4787-8b93-55791051dd41-16709203337ef07d69-0": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "template--15033430573099__52022bd7-54cc-4787-8b93-55791051dd41-16709203337ef07d69-1": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "template--15033430573099__52022bd7-54cc-4787-8b93-55791051dd41-16709203337ef07d69-2": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "atc_button_background": "rgba(0,0,0,0)",
+            "atc_button_text_color": "rgba(0,0,0,0)",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "template--15033430573099__52022bd7-54cc-4787-8b93-55791051dd41-16709203337ef07d69-0",
+        "template--15033430573099__52022bd7-54cc-4787-8b93-55791051dd41-16709203337ef07d69-1",
+        "template--15033430573099__52022bd7-54cc-4787-8b93-55791051dd41-16709203337ef07d69-2"
+      ],
+      "settings": {
+        "product": "done-by-deer-gift-card",
+        "subheading": "Not sure what to get?",
+        "title": "buy a gift card",
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_share_buttons": false,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "slide",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "20106d58-733f-4d3e-9890-e7607c157194": {
+      "type": "multi-column",
+      "blocks": {
+        "template--14990133657643__20106d58-733f-4d3e-9890-e7607c157194-1665479757da2f4655-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Website_shopping_return_shipping_expanded_Shipping_bd14d988-f5f1-4d10-83eb-a1b4de547164.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "get it fast",
+            "content": "<p>Our warehouse strives to ship all orders within 1-3 business days.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "template--14990133657643__20106d58-733f-4d3e-9890-e7607c157194-1665479757da2f4655-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Website_shopping_return_shipping_expanded_Return.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Take your time",
+            "content": "<p>You have 365 days full return when you shop at donebydeer.com<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "template--14990133657643__20106d58-733f-4d3e-9890-e7607c157194-1665479757da2f4655-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Website_shopping_return_shipping_expanded_Payment.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "it's safe",
+            "content": "<p>Your credit card details and card information are not stored anywhere on our site.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "template--14990133657643__20106d58-733f-4d3e-9890-e7607c157194-1665479757da2f4655-3": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Column 1",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14990133657643__20106d58-733f-4d3e-9890-e7607c157194-1665479757da2f4655-2",
+        "template--14990133657643__20106d58-733f-4d3e-9890-e7607c157194-1665479757da2f4655-1",
+        "template--14990133657643__20106d58-733f-4d3e-9890-e7607c157194-1665479757da2f4655-0",
+        "template--14990133657643__20106d58-733f-4d3e-9890-e7607c157194-1665479757da2f4655-3"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "content_position": "below",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "medium",
+        "spacing": "normal",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "item_text_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#000000",
+        "image_overlay_opacity": 30
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1651136137c36d6424",
+    "1651134958c907015d",
+    "0d159811-c7d9-44a8-9b13-34fa5b26d4f8",
+    "9d842156-4965-491a-adb6-0b6899aaa693",
+    "52022bd7-54cc-4787-8b93-55791051dd41",
+    "20106d58-733f-4d3e-9890-e7607c157194"
+  ]
+}

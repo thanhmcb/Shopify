@@ -1,0 +1,483 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "1651230626524da112": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "free printables",
+        "content": "<p>Be creative and have fun with our Deer friends - they love to play!<br\/>We have made some free and friendly prints* with our Deer friends for you to print and colour with your kids.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "95caa3a3-2154-473f-ac36-c927acb2bfab": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15033430507563__95caa3a3-2154-473f-ac36-c927acb2bfab-16769772680aab7c12-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/happy-clouds-drawing.jpg",
+            "tab_label": "Item",
+            "subheading": "print & colour",
+            "title": "happy clouds",
+            "content": "<p>Join Croco, Ozzo, and Birdee on their adventure among the clouds. <\/p>",
+            "button_text": "download",
+            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0565\/6808\/6571\/files\/happy-clouds-drawing.pdf?v=1676986728"
+          }
+        }
+      },
+      "block_order": [
+        "template--15033430507563__95caa3a3-2154-473f-ac36-c927acb2bfab-16769772680aab7c12-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "boxed",
+        "background_overlap": "both",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#f5f1ec",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1651047239d12c9d52": {
+      "type": "image-with-text",
+      "blocks": {
+        "1651047239a2478937-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Drawings_03203.jpg",
+            "tab_label": "Item",
+            "subheading": "print & colour",
+            "title": "Elphee in the skies",
+            "content": "<p>Up the elephant goes! Elphee is going on a big adventure - join it!<\/p>",
+            "button_text": "download",
+            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0565\/6808\/6571\/files\/Drawing_elphee-balloons_9c2521af-b02a-4c95-bd8b-ea9309f947a6.pdf?v=1658309583"
+          }
+        }
+      },
+      "block_order": [
+        "1651047239a2478937-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "boxed",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "7d858e94-3210-42bc-8993-8a3a6b7b28b2": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15033430507563__7d858e94-3210-42bc-8993-8a3a6b7b28b2-1671698510122f4d23-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Deer-friends_A4-new.jpg",
+            "tab_label": "",
+            "subheading": "print & colour",
+            "title": "that's what friends are for",
+            "content": "<p>The Deer friends are so grateful for having each other - especially when it rains.<\/p>",
+            "button_text": "DOWNLOAD",
+            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0565\/6808\/6571\/files\/Deer-friends_A4-new.pdf?v=1671699326"
+          }
+        }
+      },
+      "block_order": [
+        "template--15033430507563__7d858e94-3210-42bc-8993-8a3a6b7b28b2-1671698510122f4d23-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1651046655f6269874": {
+      "type": "image-with-text",
+      "blocks": {
+        "1651046655249fef4d-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Drawings_03206.jpg",
+            "tab_label": "Item",
+            "subheading": "print & colour",
+            "title": "Sea friends",
+            "content": "<p>Put on your favourite swimsuit and dive into the ocean with Wally and Jelly.<\/p>",
+            "button_text": "Download",
+            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0565\/6808\/6571\/files\/Drawing_Seafriends_40d8bbe8-234d-471f-8e26-ab2e1b94ce55.pdf?v=1658309583"
+          }
+        }
+      },
+      "block_order": [
+        "1651046655249fef4d-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "boxed",
+        "background_overlap": "both",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#f5f1ec",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1651047350bef75c0c": {
+      "type": "image-with-text",
+      "blocks": {
+        "1651047350e05a010a-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Drawings_0320.jpg",
+            "tab_label": "Item",
+            "subheading": "print & colour",
+            "title": "alphabet & animals",
+            "content": "<p>Travel around the world with all our Deer friends. Make sure your suitcase is big enough for the entire alphabet!<\/p>",
+            "button_text": "download",
+            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0565\/6808\/6571\/files\/Drawing_alphabet_cd1eafa0-f495-4fce-957a-71725d68d787.pdf?v=1658309583"
+          }
+        }
+      },
+      "block_order": [
+        "1651047350e05a010a-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "boxed",
+        "background_overlap": "both",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#f5f1ec",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1651047515050afcce": {
+      "type": "image-with-text",
+      "blocks": {
+        "165104751506d79e81-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Drawings_03204.jpg",
+            "tab_label": "Item",
+            "subheading": "print & colour",
+            "title": "Raffi & elphee",
+            "content": "<p>Two good friends catching up in the lovely fresh air.<\/p>",
+            "button_text": "download",
+            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0565\/6808\/6571\/files\/Drawing_raffi-elphee_2e00d1ca-79b6-4486-a8af-e23cacc23873.pdf?v=1658309584"
+          }
+        }
+      },
+      "block_order": [
+        "165104751506d79e81-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "boxed",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16510476031f05d2a0": {
+      "type": "image-with-text",
+      "blocks": {
+        "16510476038b5d28b6-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Drawings_03202.jpg",
+            "tab_label": "Item",
+            "subheading": "print & colour",
+            "title": "deer friends",
+            "content": "<p>It's playtime! Our Deer friends love fooling around and making up new games. Do you want to play along?<\/p>",
+            "button_text": "download",
+            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0565\/6808\/6571\/files\/Drawing_deerfriends_5ee7d838-1f92-420c-a867-2343c9b9da27.pdf?v=1658309583"
+          }
+        }
+      },
+      "block_order": [
+        "16510476038b5d28b6-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "boxed",
+        "background_overlap": "both",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#f5f1ec",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16510477016a6a19b6": {
+      "type": "image-with-text",
+      "blocks": {
+        "165104770044d7d54f-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Drawings_03205.jpg",
+            "tab_label": "Item",
+            "subheading": "print & colour",
+            "title": "Elphee & the balloons",
+            "content": "<p>Do you also looove ballons? Elphees favourite thing to do is walking on a line with colourful balloons. What is your favourite activity?<\/p>",
+            "button_text": "download",
+            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0565\/6808\/6571\/files\/Drawing_elphee-linedancer_36a9d776-7e61-4535-a302-570b63468a35.pdf?v=1658309583"
+          }
+        }
+      },
+      "block_order": [
+        "165104770044d7d54f-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "boxed",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "aeddbbd2-9c72-43f8-a54c-bc4c80171fe2": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18524040986968__aeddbbd2-9c72-43f8-a54c-bc4c80171fe2-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/deer-friends-christmas-deco_A4.webp",
+            "tab_label": "Item",
+            "subheading": "cut out and",
+            "title": "decorate with deer friends",
+            "content": "<p>Cut out our Deer friends and hang them on the christmas tree or besides the changing table for your little one to enjoy.  <\/p>",
+            "button_text": "download",
+            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0565\/6808\/6571\/files\/deer-friends-christmas-deco_A4.pdf?v=1699017315"
+          }
+        }
+      },
+      "block_order": [
+        "template--18524040986968__aeddbbd2-9c72-43f8-a54c-bc4c80171fe2-item-1"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "both",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#f5f1ec",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "c1fcc219-5ba7-4642-9554-1724be3d1c05": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18524040986968__c1fcc219-5ba7-4642-9554-1724be3d1c05-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Halloween-printable-preview.jpg",
+            "tab_label": "Item",
+            "subheading": "print & colour",
+            "title": "Halloween",
+            "content": "<p>Celebrate Halloween with Elphee and Birdee<\/p>",
+            "button_text": "download",
+            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0565\/6808\/6571\/files\/Halloween-printable.pdf?v=1698224452"
+          }
+        }
+      },
+      "block_order": [
+        "template--18524040986968__c1fcc219-5ba7-4642-9554-1724be3d1c05-item-1"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "e2e19c33-6f25-42c3-8241-5df1c187ab24": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18524040986968__e2e19c33-6f25-42c3-8241-5df1c187ab24-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lalee-dot-to-dot_A4.webp",
+            "tab_label": "Item",
+            "subheading": "dot-to-dot",
+            "title": "christmas fun",
+            "content": "<p>Who is pulling the sled? <br\/>Draw dot to dot and see who it is. <\/p>",
+            "button_text": "download",
+            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0565\/6808\/6571\/files\/lalee-dot-to-dot_A4.pdf?v=1699017315"
+          }
+        }
+      },
+      "block_order": [
+        "template--18524040986968__e2e19c33-6f25-42c3-8241-5df1c187ab24-item-1"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "both",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1651051568d1c5a8ca": {
+      "type": "image-with-text",
+      "blocks": {
+        "16510515686bd04ee2-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Poster_elphee_1080x1080jpg.jpg",
+            "tab_label": "Item",
+            "subheading": "print a poster",
+            "title": "You can trust Elphee",
+            "content": "<p>Elphee would love to move into your room, and the elpheetastic elephant promises to be 100% friendly.<\/p>",
+            "button_text": "download",
+            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0565\/6808\/6571\/files\/2020_Elphee-poster_A4.pdf?v=1658731221"
+          }
+        }
+      },
+      "block_order": [
+        "16510515686bd04ee2-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "boxed",
+        "background_overlap": "both",
+        "image_position": "right",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#f5f1ec",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "165105201990b03d63": {
+      "type": "image-with-text",
+      "blocks": {
+        "16510520196bf80bb3-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/raffi-poster.jpg",
+            "tab_label": "Item",
+            "subheading": "print a poster",
+            "title": "raffi cares about you",
+            "content": "<p>Are you all about long hugs? Raffi is! Invite Raffi in and get aaall the hugs you want.<\/p>",
+            "button_text": "download",
+            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0565\/6808\/6571\/files\/Raffi-poster_A4.pdf?v=1658309583"
+          }
+        }
+      },
+      "block_order": [
+        "16510520196bf80bb3-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "boxed",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1649777230761299dc": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p><em><strong>*Please Note:<\/strong><\/em><em> All printables and downloads designed by Done by Deer are for PERSONAL USE ONLY. Please do not alter the files or claim them as your own. These files are not intended for resale, nor are the printed versions of these files.<\/em><\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1651230626524da112",
+    "95caa3a3-2154-473f-ac36-c927acb2bfab",
+    "1651047239d12c9d52",
+    "7d858e94-3210-42bc-8993-8a3a6b7b28b2",
+    "1651046655f6269874",
+    "1651047350bef75c0c",
+    "1651047515050afcce",
+    "16510476031f05d2a0",
+    "16510477016a6a19b6",
+    "aeddbbd2-9c72-43f8-a54c-bc4c80171fe2",
+    "c1fcc219-5ba7-4642-9554-1724be3d1c05",
+    "e2e19c33-6f25-42c3-8241-5df1c187ab24",
+    "1651051568d1c5a8ca",
+    "165105201990b03d63",
+    "1649777230761299dc"
+  ]
+}

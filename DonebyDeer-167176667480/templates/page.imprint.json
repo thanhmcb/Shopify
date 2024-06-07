@@ -1,0 +1,33 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "16509796870073602a": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "impressum",
+        "content": "<p>Done by Deer A\/S<br\/>Haarupvej 22D<br\/>8600 Silkeborg<br\/>Denmark<br\/><br\/>CEO: Malene Schmelling<\/p><p><strong>Contact<br\/><\/strong>+45 44 22 66 03<br\/>shop@donebydeer.com<br\/><br\/>CVR nr.: 36456329<\/p><p><strong>Board members<br\/><\/strong>- Jan Jakobsen (Chairman)<br\/>- Niels Backman Dahl-Nielsen <br\/>- Henrik Hedegård Lyhne<br\/><\/p><p><strong>Complaints<br\/><\/strong>If you wish to complain about a product or service, please send us an e-mail to <a href=\"mailto:shop@donebydeer.com\" target=\"_blank\" title=\"mailto:shop@donebydeer.com\">shop@donebydeer.com<\/a>. <br\/>Make sure to include a photo of the product and your order number, in order for us to help you as fast as possible.<br\/><br\/>If you feel that your problem has not be resolved, you can send a complaint to:<br\/><\/p><p>For Danish citizens:<br\/>Nævnenes Hus, Toldboden, 8800 Viborg, Denmark, <a href=\"https:\/\/naevneneshus.dk\/\" target=\"_blank\" title=\"https:\/\/naevneneshus.dk\/\">https:\/\/naevneneshus.dk\/<br\/><br\/><\/a>For European citizens outside of Denmark: please send your complaint to EU Commission’s online complaints portal here – <a href=\"http:\/\/ec.europa.eu\/odr\" target=\"_blank\" title=\"http:\/\/ec.europa.eu\/odr\">http:\/\/ec.europa.eu\/odr<\/a>.<\/p><p><\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16509796870073602a"
+  ]
+}

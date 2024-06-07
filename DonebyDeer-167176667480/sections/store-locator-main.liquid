@@ -1,0 +1,160 @@
+<section>
+    <div class="container">
+        <div class="region-tab-menu">
+            <ul class="tabs">
+                <li class="tab-link current shopify-payment-button__button shopify-payment-button__button--unbranded" data-tab="storerocket-widget">{{section.settings.tab1}}</li>
+                <li class="tab-link product-form__add-button button button--secondary button--full" data-tab="tab-content-country-store" >{{section.settings.tab2}}</li>
+            </ul>
+        </div>
+        
+        <div id="storerocket-widget" style="width: 100%;" data-storerocket-env="p" data-storerocket-id="vk8PxOa8bm" class="tab-content-a current storerocket-widget">
+            <p style="text-align: center; font-size: 13px; padding: 10px;">Loading store locator...</p>
+            </div>
+    
+            <div class="tab-content-country-store tab-container tab-content-a">
+				<div class="tab-navigation">              
+                  <select id="select-box">
+                    <option value="{{section.settings.tab-tab-country-active-label}}">{{section.settings.tab-tab-country-active-label}}</option>
+                    {%- for block in section.blocks -%}
+                    <option value="{{block.settings.title}}">{{block.settings.title}}</option>
+                    {%- endfor -%}
+                  </select>
+              	</div>             
+                    <div id="tab-{{section.settings.tab-tab-country-active-label}}" class="tab-content">
+                      <iframe src="{{section.settings.page-country-default}}" style="width:100%;min-height:700px;"></iframe> 
+                    </div>
+                    {%- for block in section.blocks -%}
+                    <div id="tab-{{block.settings.title}}" class="tab-content">
+                      <iframe src="{{block.settings.page-country}}" style="width:100%;min-height:700px;"></iframe> 
+                    </div>
+                    {%- endfor -%}
+
+
+               
+                
+            </div>   
+
+    </div>
+  </section>
+  
+  {% schema %}
+  {
+    "name": "Store Locator setion",
+    "settings": [     
+      {
+        "type": "select",
+        "id": "page_width",
+        "label": "Page width",
+        "options": [
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          },
+          {
+            "value": "large",
+            "label": "Large"
+          }
+        ],
+        "default": "medium"
+      },
+      {
+        "type": "text",
+        "id": "tab1",
+        "label":"Tab 1 name",
+        "default":"Store"  
+      },
+      {
+        "type": "text",
+        "id": "tab2",
+        "label":"Tab 2 name",
+        "default":"Webshop"  
+      },
+      {
+        "type": "text",
+        "id": "tab-tab-country-active-label",
+        "label":"Country Default",
+        "default":"Denmark"  
+      },
+    
+      {
+        "type": "url",
+        "id": "page-country-default",
+        "label":"Default Country store"
+
+      }
+    ],
+    "blocks" : [
+    {
+        "type": "text_block",
+        "name": "Country",
+        "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Country"
+        },
+        {
+            "type": "url",
+            "id": "page-country",
+            "label": "Country store page"
+          }
+
+  
+        ]
+      }
+    
+        
+]
+  }
+  {% endschema %}
+
+
+
+  <script>// <![CDATA[
+    (function(){var a=document.createElement('script');a.type='text/javascript';a.async=!0;a.src='https://cdn.storerocket.io/js/widget-mb.js';var b=document.getElementsByTagName('script')[0];b.parentNode.insertBefore(a,b);}());
+    // ]]></script>
+
+
+
+<script>
+    $(document).ready(function(){       
+     $('ul.tabs li').click(function(){
+         var tab_id = $(this).attr('data-tab');
+ 
+         $('ul.tabs li').removeClass('current');
+         $('.tab-content-a').removeClass('current');
+ 
+         $(this).addClass('current');
+         $("."+tab_id).addClass('current');
+     })
+ })
+     </script>
+
+
+
+   <script>
+      //hide all tabs first
+    $('.tab-content').hide();
+    //show the first tab content
+    $('#tab-{{section.settings.tab-tab-country-active-label}}').show();
+
+    $('#select-box').change(function () {
+       dropdown = $('#select-box').val();
+      //first hide all tabs again when a new option is selected
+      $('.tab-content').hide();
+      //then show the tab content of whatever option value was selected
+      $('#' + "tab-" + dropdown).show();                                    
+    });
+   </script>
+
+<script>
+    $(document).ready(function () {
+    $('iframe').on('load', function() {
+        $("iframe").contents().find(".shopify-section--announcement-bar, .shopify-section--header, .shopify-section--footer, .shopify-section--text-with-icons").css("display", "none");
+    }); 
+});
+  </script>

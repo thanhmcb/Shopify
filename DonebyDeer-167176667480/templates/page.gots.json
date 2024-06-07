@@ -1,0 +1,253 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "1649764793a4919a59": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify:\/\/shop_images\/textiles-2800x1400_913adb3e-1e30-45e2-bc6e-f5745f692a5c.jpg",
+        "subheading": "",
+        "title": "Soft & safe textiles",
+        "content": "<p>We are a GOTS certified brand and we produce all our sleepy and care textiles according to the standards of GOTS, OEKO-TEX® or both.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "small",
+        "text_position": "bottom_center",
+        "text_color": "#5d7361",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "slideshow_nRkybd": {
+      "type": "slideshow",
+      "blocks": {
+        "image_z7VHpw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/textiles-2800x1400_913adb3e-1e30-45e2-bc6e-f5745f692a5c.jpg",
+            "text_position": "bottom_center",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "image_z7VHpw"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "rich_text_RMrMpP": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>Done by Deer is a GOTS-certified brand and we produce all our sleepy and care textiles according to the standards of GOTS, OEKO-TEX or both.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "164803052268ac8865": {
+      "type": "image-with-text",
+      "blocks": {
+        "16480305227608584a-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gots_1400x1400_a32e350f-e7ec-49a7-9060-2d53f9a68a94.jpg",
+            "tab_label": "Item",
+            "subheading": "GOTS certification",
+            "title": "Global Organic Textile Standard",
+            "content": "<p>Our GOTS certified products are made from organic fibers and meet the strict standard for ecological and socially responsible production. <br\/><br\/>The certificate is your guarantee that our textiles are produced responsibly throughout our whole supply chain. <\/p>",
+            "button_text": "read more about GOTS",
+            "button_link": "https:\/\/global-standard.org\/the-standard"
+          }
+        }
+      },
+      "block_order": [
+        "16480305227608584a-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "boxed",
+        "background_overlap": "text",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#e0e3dd",
+        "text_color": "#607066",
+        "button_background": "#f3f1eb",
+        "button_text_color": "#607066"
+      }
+    },
+    "16480347477f9aa795": {
+      "type": "featured-collections",
+      "blocks": {
+        "1648034747568b134f-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "bathrobes-ponchos",
+            "label": "bathrobes & ponchoes",
+            "button_text": "dive into bathtime",
+            "button_url": ""
+          }
+        },
+        "0391a28b-3a71-4147-a221-cde720e5ed8d": {
+          "type": "collection",
+          "settings": {
+            "collection": "baby-sleeping-bags",
+            "label": "sleepy bags",
+            "button_text": "cozy sleeping",
+            "button_url": ""
+          }
+        },
+        "cfeb2240-563f-49c9-9435-eb2b7c67c00d": {
+          "type": "collection",
+          "settings": {
+            "collection": "bedlinen-baby",
+            "label": "Bedlinen",
+            "button_text": "dream away",
+            "button_url": ""
+          }
+        },
+        "6aee8f4f-2138-475c-8b7d-f1d9b3f5b8dc": {
+          "type": "collection",
+          "settings": {
+            "collection": "burp-cloths",
+            "label": "",
+            "button_text": "more baby musthaves",
+            "button_url": ""
+          }
+        },
+        "a5476992-77d6-4951-9ece-0d36a0abc2fc": {
+          "type": "collection",
+          "settings": {
+            "collection": "swaddles",
+            "label": "",
+            "button_text": "it's a wrap",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1648034747568b134f-0",
+        "0391a28b-3a71-4147-a221-cde720e5ed8d",
+        "cfeb2240-563f-49c9-9435-eb2b7c67c00d",
+        "6aee8f4f-2138-475c-8b7d-f1d9b3f5b8dc",
+        "a5476992-77d6-4951-9ece-0d36a0abc2fc"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "GOTS & OEKO-TEX certified products",
+        "title": "",
+        "content": "",
+        "products_count": 4,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "164803192530ccbcf6": {
+      "type": "image-with-text",
+      "blocks": {
+        "164803192535ee8f7a-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/oeko-tex_1400x1400_31f0d694-f0d6-44ec-9053-565bb3a72a0c.jpg",
+            "tab_label": "Item",
+            "subheading": "OEKO-TEX certification",
+            "title": "confidence in textiles",
+            "content": "<p>Our sleepy and care textiles are certified according to STANDARD 100 Class 1 by OEKO-TEX®. <br\/><br\/>All parts (i.e. fabric, thread, zippers, filling, tags and prints) of an OEKO-TEX® certified product are tested for toxic substances, so you can trust the product is harmless for you and your little one’s health.*<\/p><p><\/p><p><em>* Products for babies and toddlers belong to product Class 1, which has the strictest criteria. Every 12 months the certification must be renewed to assure that products continue to meet the yearly updated limit values and requirements.<\/em><\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "164803192535ee8f7a-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "boxed",
+        "background_overlap": "text",
+        "image_position": "right",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#e0e3dd",
+        "text_color": "#5d7361",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1649690219364b66dd": {
+      "type": "testimonials",
+      "blocks": {
+        "1649690219a8ca5f3c-0": {
+          "type": "testimonial",
+          "settings": {
+            "content": "We continue to take steps to improve our impact on the environment and make safe and better items for little ones.",
+            "author": "Helene Hjorth, Head of Design at Done by Deer"
+          }
+        }
+      },
+      "block_order": [
+        "1649690219a8ca5f3c-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "",
+        "background": "#ffffff",
+        "text_color": "#5a6b60"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1649764793a4919a59",
+    "slideshow_nRkybd",
+    "rich_text_RMrMpP",
+    "164803052268ac8865",
+    "16480347477f9aa795",
+    "164803192530ccbcf6",
+    "1649690219364b66dd"
+  ]
+}

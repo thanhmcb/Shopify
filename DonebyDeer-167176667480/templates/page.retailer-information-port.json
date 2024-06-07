@@ -1,0 +1,362 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "dd756b53-0bcb-4ed2-8adb-61851e6af0fe": {
+      "type": "slideshow",
+      "blocks": {
+        "16520879774e1fdf26-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/header-fair-02_2160x1080_b2258e46-c2cb-4e10-9d95-2e33a06918eb.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/header-fair-02C_1000x1400_8f557bc1-6c6e-4d1b-ae31-876ede376baf.jpg",
+            "text_position": "top_left",
+            "subheading": "join our",
+            "title": "friendly family",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "16520879774e1fdf26-0"
+      ],
+      "custom_css": [
+        "h2 {color: white;}"
+      ],
+      "settings": {
+        "section_height": "small",
+        "transition_type": "sweep",
+        "autoplay": false,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "9895a1ff-9cb2-4933-82e9-c0747f7ca415": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18346824958296__9895a1ff-9cb2-4933-82e9-c0747f7ca415-1679050088f4ab89c1-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/inspiration-01_1400x1400_564a5fa0-6621-4461-b897-7f4f9579938e.jpg",
+            "tab_label": "Item",
+            "subheading": "Being a retailer means",
+            "title": "working closely with our passionate team",
+            "content": "<p>Done by Deer is a Danish children’s brand that designs everyday essentials for families with kids – toys, tableware, and interiors that are fun and stimulating for little ones and pleasing for grown-ups.<\/p><p>All our products are designed in Denmark by founder Helene Hjorth and her design team – Hjort means Deer in Danish. Our design team is excellent at spotting design trends and converting them into safe,<br\/>long-lasting products that stimulate and spark kids’ imagination. Nothing is left to chance – every colour, material, and shape is chosen for a reason. We say that the ‘Deer’ is in every detail.<\/p><p>We are 100% friendly in everything we do: from designing products that put a smile on everyone’s face to sourcing suppliers with similar values as ours, we aim to create a friendly working environment within the company and in relation to all our business partners. Done by Deer is 100% Danish design with a love for Deer friends.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18346824958296__9895a1ff-9cb2-4933-82e9-c0747f7ca415-1679050088f4ab89c1-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#f5f1ec",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "6e068dec-20ca-4851-b143-99f965d2fc99": {
+      "type": "timeline",
+      "blocks": {
+        "16497144779affa461-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/our-story-danish-design-1000x1000.jpg",
+            "label": "danish design",
+            "title": "designed in denmark",
+            "content": "<p>We combine modern Scandinavian design with features that are fun and playful for children.<\/p><p>All of our products are designed in-house in Denmark.<\/p>",
+            "button_text": "Read more",
+            "button_link": "shopify:\/\/pages\/our-story"
+          }
+        },
+        "16497144779affa461-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/our-story-friendly-1000x1000.jpg",
+            "label": "100% friendly",
+            "title": "100% friendly in everything we do",
+            "content": "<p>We are 100% friendly in everything we do, starting with designing products that put a smile on your face, sourcing suppliers with similar values as ours and creating a friendly working environment within the company and with all of our business partners. <\/p><p>We strive to do our best 100% of the time.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "16497144779affa461-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/our-story-safe-products-1000x1000.jpg",
+            "label": "safe for kids",
+            "title": "Products that are safe for your kids to use",
+            "content": "<p>All our products for babies and toddlers are naturally tested thoroughly to comply with strict European safety standards.<\/p>",
+            "button_text": "Read more",
+            "button_link": "shopify:\/\/pages\/gots-certification"
+          }
+        }
+      },
+      "block_order": [
+        "16497144779affa461-0",
+        "16497144779affa461-2",
+        "16497144779affa461-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "text_position": "middle",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "item_background": "rgba(0,0,0,0)",
+        "item_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "06e27309-db52-412e-a881-8b434688d2a3": {
+      "type": "multi-column",
+      "blocks": {
+        "template--18524041511256__06e27309-db52-412e-a881-8b434688d2a3-16811957541d9280bb-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Our_story_1200x1200_62560519-e35a-4bf4-80da-ae536750cfe0.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "our story",
+            "link_url": "shopify:\/\/pages\/our-story",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "template--18524041511256__06e27309-db52-412e-a881-8b434688d2a3-16811957541d9280bb-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/become-a-retailer_1200x1200_0d0b3288-505c-4395-b15a-8226ac6b08af.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "become a retailer",
+            "link_url": "shopify:\/\/pages\/become-a-retailer",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "template--18524041511256__06e27309-db52-412e-a881-8b434688d2a3-16811957541d9280bb-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/B2B_webshop_1200x1200_2812d4ce-0585-4639-bc50-7a875b7f69e2.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "B2B webshop",
+            "link_url": "https:\/\/b2b.donebydeer.com\/da\/login",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "template--18524041511256__06e27309-db52-412e-a881-8b434688d2a3-16811957541d9280bb-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/13-04-2023_-_Mediecenter_Badge-3_1200x1200_372857ee-0a6f-411b-99a0-8947116114b6.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "media center",
+            "link_url": "https:\/\/donebydeer.filecamp.com\/l",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--18524041511256__06e27309-db52-412e-a881-8b434688d2a3-16811957541d9280bb-3",
+        "template--18524041511256__06e27309-db52-412e-a881-8b434688d2a3-16811957541d9280bb-0",
+        "template--18524041511256__06e27309-db52-412e-a881-8b434688d2a3-16811957541d9280bb-1",
+        "template--18524041511256__06e27309-db52-412e-a881-8b434688d2a3-16811957541d9280bb-2"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "content_position": "below",
+        "subheading": "",
+        "title": "where do you want to go?",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "medium",
+        "spacing": "normal",
+        "background": "#f5f1ec",
+        "text_color": "#38383a",
+        "item_text_color": "#ffffff",
+        "image_overlay_color": "#000000",
+        "image_overlay_opacity": 0
+      }
+    },
+    "426c169a-9090-48f6-81fc-70f0ad91b361": {
+      "type": "multi-column",
+      "blocks": {
+        "template--18524041511256__426c169a-9090-48f6-81fc-70f0ad91b361-item-1": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Formex",
+            "content": "<p><em>16th - 18th January<\/em><br\/>Stockholm, Sweden<br\/>C17 <strong>·<\/strong> 41<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "template--18524041511256__426c169a-9090-48f6-81fc-70f0ad91b361-item-2": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "babykid spain + fimi",
+            "content": "<p><em>25th - 27th January<\/em><br\/>Valencia, Spain<br\/>hall 2 <strong>·<\/strong> stand B63<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "template--18524041511256__426c169a-9090-48f6-81fc-70f0ad91b361-item-3": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Spielwarenmesse",
+            "content": "<p><em>30th January - 3rd February<\/em><br\/>Nuremberg, Germany<br\/>hall 2 <strong>·<\/strong> stand C-14<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "item_DnQdpG": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "ShowUp",
+            "content": "<p><em>4th - 5th February<\/em><br\/>Amsterdam, the Netherlands<br\/>GrowUp Area <strong>·<\/strong> stand C-127<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--18524041511256__426c169a-9090-48f6-81fc-70f0ad91b361-item-1",
+        "template--18524041511256__426c169a-9090-48f6-81fc-70f0ad91b361-item-2",
+        "template--18524041511256__426c169a-9090-48f6-81fc-70f0ad91b361-item-3",
+        "item_DnQdpG"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "content_position": "below",
+        "subheading": "",
+        "title": "come meet us at the fairs",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "large",
+        "desktop_item_size": "large",
+        "spacing": "normal",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "item_text_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#000000",
+        "image_overlay_opacity": 30
+      }
+    },
+    "85a72aee-6a5a-44ea-afe7-5fae3d180abf": {
+      "type": "rich-text",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "Explore now",
+        "button_link": "shopify:\/\/pages\/happy-clouds",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_text_Pkmt7m": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_JzKDHr": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Spielwarenmesse_stand-view_da3f232f-f632-413c-9d3c-9f10b7cf2eb5.webp",
+            "tab_label": "Item",
+            "subheading": "blog post",
+            "title": "join us at the fairs",
+            "content": "<p>Explore our stand and toy collection at the largest international toy fair, Spielwarenmesse in Nuremberg, Germany<\/p>",
+            "button_text": "see more",
+            "button_link": "shopify:\/\/blogs\/news\/spielwarenmesse-2024"
+          }
+        }
+      },
+      "block_order": [
+        "item_JzKDHr"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dd756b53-0bcb-4ed2-8adb-61851e6af0fe",
+    "9895a1ff-9cb2-4933-82e9-c0747f7ca415",
+    "6e068dec-20ca-4851-b143-99f965d2fc99",
+    "06e27309-db52-412e-a881-8b434688d2a3",
+    "426c169a-9090-48f6-81fc-70f0ad91b361",
+    "85a72aee-6a5a-44ea-afe7-5fae3d180abf",
+    "image_with_text_Pkmt7m"
+  ]
+}

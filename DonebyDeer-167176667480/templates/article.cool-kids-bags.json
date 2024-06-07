@@ -1,0 +1,145 @@
+{
+  "sections": {
+    "blog-post-banner": {
+      "type": "blog-post-banner",
+      "settings": {
+        "show_category": true,
+        "blog_header_background": "#f5f5f5",
+        "blog_header_text_color": "#282828"
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "settings": {
+        "show_on_scroll_navigation": true,
+        "show_author": true,
+        "show_date": true,
+        "show_share_buttons": true
+      }
+    },
+    "164872857641e8d1d6": {
+      "type": "featured-product",
+      "disabled": true,
+      "blocks": {
+        "164872857685dc7cc5-0": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "164872857685dc7cc5-1": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "164872857685dc7cc5-2": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "atc_button_background": "rgba(0,0,0,0)",
+            "atc_button_text_color": "rgba(0,0,0,0)",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "164872857685dc7cc5-0",
+        "164872857685dc7cc5-1",
+        "164872857685dc7cc5-2"
+      ],
+      "settings": {
+        "product": "kids-backpack-elphee-blue",
+        "subheading": "",
+        "title": "products in this blogpost",
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_share_buttons": true,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "slide",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "blog-post-comments": {
+      "type": "blog-post-comments",
+      "settings": {
+        "show_gravatar": true
+      }
+    },
+    "164872775238a29dd0": {
+      "type": "featured-collections",
+      "blocks": {
+        "16487277527a5f6d7d-0": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "dinner-time",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "321aee8a-e9a9-468c-829c-919b4fe7515f": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "sea-friends",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "8065305c-a229-4f04-a25a-4b8747ff8f39": {
+          "type": "collection",
+          "settings": {
+            "collection": "kids-backpacks",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "16487277527a5f6d7d-0",
+        "321aee8a-e9a9-468c-829c-919b4fe7515f",
+        "8065305c-a229-4f04-a25a-4b8747ff8f39"
+      ],
+      "settings": {
+        "subheading": "check out",
+        "title": "backpacks for kids",
+        "content": "",
+        "products_count": 4,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "blog-post-prev-next": {
+      "type": "blog-post-prev-next",
+      "settings": {}
+    }
+  },
+  "order": [
+    "blog-post-banner",
+    "main",
+    "164872857641e8d1d6",
+    "blog-post-comments",
+    "164872775238a29dd0",
+    "blog-post-prev-next"
+  ]
+}

@@ -1,0 +1,512 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "slideshow_kegQHV": {
+      "type": "slideshow",
+      "blocks": {
+        "image_7fKkUH": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slider-deer-friends_1200_76f4c2c4-f101-48ec-bcfc-54ac22ff116d.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/slider-deer-friends_1800x1800_9afd6017-742b-4945-96f9-a990438bb653.jpg",
+            "text_position": "middle_center",
+            "subheading": "meet our lovable",
+            "title": "deer friends",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_EfUUFb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/deer-friends_house.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/deer-friends_house_mobil.jpg",
+            "text_position": "bottom_right",
+            "subheading": "meet our lovable",
+            "title": "deer friends",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_7fKkUH",
+        "image_EfUUFb"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "164854323159d325a1": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>The Done by Deer universe is created around the Deer friends who all wander in and out of our products.<br\/><br\/>Our Deer friends will love to grow up with your little one and be the best companion anyone can ask for. <\/p><p>From <a href=\"\/collections\/dinner-time\" title=\"dinner time\">dinner time<\/a>, to <a href=\"\/collections\/playtime\" title=\"play time\">play time<\/a>, and even at <a href=\"\/collections\/sleepy-time\" title=\"sleepy time\">bed time<\/a> you can count on the Deer friends. <\/p><p>All the friends are good at being cuddly and keeping secrets, and they all have different skills and personalities – so there is a Deer friend for all little ones. <\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#f5f1ec",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "multi_column_bhxwxb": {
+      "type": "multi-column",
+      "blocks": {
+        "item_jje3TQ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/antee-icon_450x450_f0806e7f-aee0-4963-8057-ef3b436485c6.png",
+            "image_width": 60,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Antee",
+            "content": "<p>\"it's okay to be nozy\"<\/p>",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/antee",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "item_688CTq": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/birdee-icon_450x450_2f80f0af-7843-42ab-af8b-ed917bceca49.png",
+            "image_width": 60,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "birdee",
+            "content": "<p>\"keep singing happy tunes\"<\/p>",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/birdee",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "item_HiFMGK": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/croco-icon_450x450_633f0264-b6e9-428b-8189-424a27c635ff.png",
+            "image_width": 60,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "croco",
+            "content": "<p>\"I'll look after you, my friend\"<\/p>",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/croco",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "item_QVDXXT": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/elphee-icon_450x450_7dfc21d2-4a09-48ba-b54b-d6d0482ddd4d.png",
+            "image_width": 60,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "elphee",
+            "content": "<p>\"your secrets are safe with me\"<\/p>",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/elphee",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "item_9PjHjD": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jelly-icon_450x450_cb91e6b6-c0ea-41f7-9d4c-d0b3d0274580.png",
+            "image_width": 60,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "jelly",
+            "content": "<p>\"have a splashing good day\"<\/p>",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/jelly",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "item_UkdfQT": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lalee-icon_450x450_35fdc114-ef4f-4631-8d8c-b587a1d23dbe.png",
+            "image_width": 60,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "lalee",
+            "content": "<p>\"daydream and bounce along\"<\/p>",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/lalee",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "item_mVywaK": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/nozo-icon_450x450_d45f6b7d-dea7-486a-a080-07e58b0e8479.png",
+            "image_width": 60,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "nozo",
+            "content": "<p>\"new adventures - here I come\"<\/p>",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/nozo",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "item_pjb6aa": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ozzo-icon_450x450_9eae22fb-f4a0-4d6e-9e15-195585d15ca8.png",
+            "image_width": 60,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "ozzo",
+            "content": "<p>\"come dance with me\"<\/p>",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/ozzo",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "item_h43MEH": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/raffi-icon_450x450_c949d89e-ad85-45f0-8956-292ad9261789.png",
+            "image_width": 60,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "raffi",
+            "content": "<p>\"long necks are for long hugs\"<\/p>",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/raffi",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "item_WYBYDy": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wally-icon_450x450_cd65c004-e9a1-4fee-84da-6e60815008a8.png",
+            "image_width": 60,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "wally",
+            "content": "<p>\"have a whale of a time\"<\/p>",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/wally",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "item_rcHfND": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/zebee-icon_450x450_7e40fefd-fc9c-47d7-8f2f-e3efa20f875c.png",
+            "image_width": 60,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "zebee",
+            "content": "<p>\"enjoy the day, sleep at night\"<\/p>",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/zebee",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "item_jje3TQ",
+        "item_688CTq",
+        "item_HiFMGK",
+        "item_QVDXXT",
+        "item_9PjHjD",
+        "item_UkdfQT",
+        "item_mVywaK",
+        "item_pjb6aa",
+        "item_h43MEH",
+        "item_WYBYDy",
+        "item_rcHfND"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": true,
+        "content_position": "below",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "small",
+        "desktop_item_size": "medium",
+        "spacing": "tight",
+        "background": "#f5f1ec",
+        "text_color": "rgba(0,0,0,0)",
+        "item_text_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#000000",
+        "image_overlay_opacity": 0
+      }
+    },
+    "1653658617f3ced15e": {
+      "type": "logo-list",
+      "blocks": {
+        "1f373fb8-d199-473a-9f92-e6a522f10154": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/antee-filter.png",
+            "link": "shopify:\/\/collections\/antee"
+          }
+        },
+        "303c56f2-9d0d-4f77-9b66-a0e416dd2df4": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/birdee-icon_450x450_2f80f0af-7843-42ab-af8b-ed917bceca49.png",
+            "link": "shopify:\/\/collections\/birdee"
+          }
+        },
+        "165365861762e4b2b5-1": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/croco-filter.png",
+            "link": "shopify:\/\/collections\/croco"
+          }
+        },
+        "165365861762e4b2b5-0": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/elphee-filter.png",
+            "link": "shopify:\/\/collections\/elphee"
+          }
+        },
+        "165365861762e4b2b5-2": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/lalee-filter.png",
+            "link": "shopify:\/\/collections\/lalee"
+          }
+        },
+        "165365861762e4b2b5-5": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/nozo-filter.png",
+            "link": "shopify:\/\/collections\/nozo"
+          }
+        },
+        "165365861762e4b2b5-4": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/ozzo-filter.png",
+            "link": "shopify:\/\/collections\/ozzo"
+          }
+        },
+        "165365861762e4b2b5-3": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/raffi-filter.png",
+            "link": "shopify:\/\/collections\/raffi"
+          }
+        },
+        "e15ae8c3-a0ff-40cd-a6f6-7a21ff40ef6e": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/jelly-filter.png",
+            "link": "shopify:\/\/collections\/jelly"
+          }
+        },
+        "9a6b0e32-f5e2-48ef-a587-1fcb53d8d293": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/wally-filter.png",
+            "link": "shopify:\/\/collections\/wally"
+          }
+        },
+        "4c957fe6-ba66-4da0-97f6-3216b9a05afa": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/zebee-filter.png",
+            "link": "shopify:\/\/collections\/zebee"
+          }
+        }
+      },
+      "block_order": [
+        "1f373fb8-d199-473a-9f92-e6a522f10154",
+        "303c56f2-9d0d-4f77-9b66-a0e416dd2df4",
+        "165365861762e4b2b5-1",
+        "165365861762e4b2b5-0",
+        "165365861762e4b2b5-2",
+        "165365861762e4b2b5-5",
+        "165365861762e4b2b5-4",
+        "165365861762e4b2b5-3",
+        "e15ae8c3-a0ff-40cd-a6f6-7a21ff40ef6e",
+        "9a6b0e32-f5e2-48ef-a587-1fcb53d8d293",
+        "4c957fe6-ba66-4da0-97f6-3216b9a05afa"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "",
+        "button_text": "shop deer friends",
+        "button_link": "shopify:\/\/collections",
+        "stack_logos": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)",
+        "logo_background": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_text_block_tA4dq8": {
+      "type": "image-with-text-block",
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/webslider_back_to_school_slider_2160x1080_509f1065-7e55-4df3-89cd-3bd8e514cf2f.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/mobilslider_back_to_school__1400x1080_7a0822e5-0164-4a99-96ff-e5098b0ad39f.jpg",
+        "subheading": "",
+        "title": "a deer friend for eveyone",
+        "content": "<p>Our beloved animals provide comfort, spark imaginatgion, and grow with kids, offering fun playtime and cuddles. <br\/><br\/>If little ones fall in love with a special Deer friend, they will stick to their chosen animal as they grow and develop.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "right",
+        "text_alignment": "center",
+        "text_background": "#f5f1ec",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "timeline_XWEA88": {
+      "type": "timeline",
+      "blocks": {
+        "item_ppmf3b": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/antee-icon_450x450_f0806e7f-aee0-4963-8057-ef3b436485c6.png",
+            "label": "2014",
+            "title": "antee",
+            "content": "<p>\"it's okay to be nozy\"<\/p>",
+            "button_text": "shop antee",
+            "button_link": "shopify:\/\/collections\/antee"
+          }
+        },
+        "item_AeYRVE": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/croco-icon_450x450_633f0264-b6e9-428b-8189-424a27c635ff.png",
+            "label": "2014",
+            "title": "croco",
+            "content": "<p>\"I'll look after you, my friend\"<\/p>",
+            "button_text": "shop croco",
+            "button_link": "shopify:\/\/collections\/croco"
+          }
+        },
+        "item_YX4aiM": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/raffi-icon_450x450_c949d89e-ad85-45f0-8956-292ad9261789.png",
+            "label": "2014",
+            "title": "raffi",
+            "content": "<p>\"long necks are for long hugs\"<\/p>",
+            "button_text": "shop raffi",
+            "button_link": "shopify:\/\/collections\/raffi"
+          }
+        },
+        "item_MqxjEb": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/nozo-icon_450x450_d45f6b7d-dea7-486a-a080-07e58b0e8479.png",
+            "label": "2014",
+            "title": "nozo",
+            "content": "<p>\"new adventures - here I come\"<\/p>",
+            "button_text": "shop nozo",
+            "button_link": "shopify:\/\/collections\/nozo"
+          }
+        },
+        "item_rQJFhk": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ozzo-icon_450x450_9eae22fb-f4a0-4d6e-9e15-195585d15ca8.png",
+            "label": "2014",
+            "title": "ozzo",
+            "content": "<p>\"come dance with me\"<\/p>",
+            "button_text": "shop ozzo",
+            "button_link": "shopify:\/\/collections\/ozzo"
+          }
+        }
+      },
+      "block_order": [
+        "item_ppmf3b",
+        "item_AeYRVE",
+        "item_YX4aiM",
+        "item_MqxjEb",
+        "item_rQJFhk"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "the adventure began in...",
+        "title": "",
+        "text_position": "middle",
+        "background": "#f5f1ec",
+        "text_color": "rgba(0,0,0,0)",
+        "item_background": "rgba(0,0,0,0)",
+        "item_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "testimonials_A7fTky": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_Gg7tcf": {
+          "type": "testimonial",
+          "settings": {
+            "content": "You can rest assured that your child's favourite Deer friend will always feature across various categories and products",
+            "author": "Helene Hjort, Head of Design"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_Gg7tcf"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "",
+        "background": "#f5f1ec",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_kegQHV",
+    "164854323159d325a1",
+    "multi_column_bhxwxb",
+    "1653658617f3ced15e",
+    "image_with_text_block_tA4dq8",
+    "timeline_XWEA88",
+    "testimonials_A7fTky"
+  ]
+}

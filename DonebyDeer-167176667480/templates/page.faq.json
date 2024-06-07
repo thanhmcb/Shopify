@@ -1,0 +1,479 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "3cf56364-9613-4847-9b70-6d9d1a7c7a0c": {
+          "type": "category",
+          "settings": {
+            "title": "order"
+          }
+        },
+        "9bb49766-2a0a-45ea-a67a-3a2efb5d9f21": {
+          "type": "question",
+          "settings": {
+            "title": "How do I place an order on the webshop?",
+            "answer": "<p>To place your order, simply select the item(s) that you wish to purchase and add it to your cart. Then, proceed to the checkout page, fill in your personal information and pay for your order. Please make sure you have filled in your details correctly to ensure that you receive all the necessary info by e-mail and that your order is delivered without any complications.<\/p>"
+          }
+        },
+        "773d271c-25ff-4a11-89fa-44ed1a7f8ffa": {
+          "type": "question",
+          "settings": {
+            "title": "Can I make changes to my order?",
+            "answer": "<p>Once your order is placed, we are unfortunately not able to make any changes to it. You will need to place a new order and cancel the original order. <\/p><p>Please note, it is only possible to cancel your order if our warehouse has not started handling it yet.  <\/p>"
+          }
+        },
+        "afe0895c-8dfa-4a1c-8fdd-75e1aa4deec1": {
+          "type": "question",
+          "settings": {
+            "title": "Can I cancel my order?",
+            "answer": "<p>Yes, we can cancel any order that hasn’t yet left our warehouse.<\/p><p>If you want to cancel your order, send us an email to shop@donebydeer.com with the subject line “Cancel order” or contact us by phone +45 44 22 66 03 during our <a href=\"\/pages\/contact\" title=\"Contact us\">opening hours<\/a>.<\/p>"
+          }
+        },
+        "f6dfc573-2c74-4b5a-9424-506a1b29f14e": {
+          "type": "question",
+          "settings": {
+            "title": "Why have I not received my order confirmation?",
+            "answer": "<p>If you haven't received your order confirmation, it could be because:<br\/><br\/>1. Your order confirmation e-mail has been caught in your junk mail folder.<br\/><\/p><p>2. You made a spelling mistake when typing in your email address during checkout. <\/p><p><\/p><p>Please contact us at shop@donebydeer.com and we will happily re-send you your order confirmation.<\/p>"
+          }
+        },
+        "d6ae04a4-594c-41dc-91d1-faeba3041382": {
+          "type": "question",
+          "settings": {
+            "title": "Can I request for a price match?",
+            "answer": "<p>Unfortunately, we do not offer price matching.<\/p>"
+          }
+        },
+        "e662e7ca-15f3-4743-ac84-3d97c8e90eb6": {
+          "type": "category",
+          "settings": {
+            "title": "shipping"
+          }
+        },
+        "22655c9e-81e4-45a4-b07b-b0d4327387f7": {
+          "type": "question",
+          "settings": {
+            "title": "Which countries do you ship to?",
+            "answer": "<p>We ship to these countries in Europe (mainland only):<\/p><p>Austria, Belgium, Denmark, Finland, France, Germany, the Netherlands, Portugal, Spain and Sweden.<\/p><p><\/p><p>If you cannot find your country on the list make sure to check our store locator to find a store near you. Find our store locator <a href=\"\/pages\/store-locator\" title=\"Store Locator\">here.<\/a><\/p>"
+          }
+        },
+        "d73ec0b2-4c37-4443-b86f-dd0c42d8ea34": {
+          "type": "question",
+          "settings": {
+            "title": "What is the shipping cost to my country?",
+            "answer": "<p>Denmark: DKK 39 (free shipping at DKK 499)<br\/><br\/>Sweden: 39 SEK (free shipping at 499 SEK)<\/p><p>Austria, Belgium, Finland, France, Germany, the Netherlands, Portugal and Spain: 8 EUR (free shipping at 79 EUR).<\/p>"
+          }
+        },
+        "7f3970d3-2ed9-4cd6-9847-8a22934443a2": {
+          "type": "question",
+          "settings": {
+            "title": "When will I receive my order?",
+            "answer": "<p>It depends on your location, but we usually deliver your order within 4-6 working days within Europe.<\/p><p><\/p><p>Contact us at shop@donebydeer.com if you are experiencing any delivery issues (remember to include your order number). Please note, that delivery delays might occur on international shipping.<\/p>"
+          }
+        },
+        "2f8bd7cd-0e8b-4377-9d59-bc9b681c7840": {
+          "type": "question",
+          "settings": {
+            "title": "How is my order delivered?",
+            "answer": "<p>Your package is delivered with GLS or with your local courier.<\/p><p>The local couriers used are:<\/p><p>Austria: Post AT<\/p><p>Belgium: Bpost<\/p><p>France: Colissimo or Colis Prive<\/p><p>Germany: DHL or Hermes<\/p><p>The Netherlands: PostNL or DHL Parcel<br\/><br\/>Portugal: Tourline<br\/><br\/>Spain: Correos<\/p>"
+          }
+        },
+        "71379598-a49d-4e2d-9fc3-cb95a47cffd8": {
+          "type": "category",
+          "settings": {
+            "title": "returns"
+          }
+        },
+        "4c1bc193-53e0-4b1a-9a89-8eebf63b4994": {
+          "type": "question",
+          "settings": {
+            "title": "How do I return my product(s)?",
+            "answer": "<p>If you wish to return an item bought at www.donebydeer.com you have 365 days to do so.<br\/><\/p><p>Just send this return form together with the items you wish to return and write this address on the package:<br\/><br\/>Done by Deer A\/S<br\/>att. Webshop<br\/>Haarupvej 22D <br\/>8600 Silkeborg <br\/>Denmark<br\/><\/p><p>Please note that we do not cover return shipping costs and we recommend that you send it insured with a tracking number. <\/p><p>Read more about returns <a href=\"\/pages\/shipping-returns\" title=\"shipping & returns\">here<\/a>.<\/p>"
+          }
+        },
+        "531021c8-eb50-490b-bbf7-4d1cfa9a1581": {
+          "type": "question",
+          "settings": {
+            "title": "Do I pay my own return costs?",
+            "answer": "<p>Yes, the return shipping costs are at your own expense. <br\/><br\/>Done by Deer does not reimburse shipping costs. <br\/><br\/>It’s a good idea to use a trackable shipping service or purchase a shipping insurance.<\/p>"
+          }
+        },
+        "ca4d14f2-93a6-46dd-b074-7e46186ee831": {
+          "type": "question",
+          "settings": {
+            "title": "When will I receive a refund?",
+            "answer": "<p>Your refund will take place within 14 days after we receive your return parcel at our warehouse. Your refund will be credited to the original payment method.<\/p>"
+          }
+        },
+        "bc6d2ac6-6598-48a1-82b7-682da15b50ff": {
+          "type": "question",
+          "settings": {
+            "title": "I recieved a wrong product, or a product with a defect",
+            "answer": "<p>If you receive a wrong item or an item with an defect, please send an email to shop@donebydeer.com with photos and a description of the defect.<\/p>"
+          }
+        },
+        "94ed3bf1-40aa-4ee0-ba6f-66377d3fc369": {
+          "type": "question",
+          "settings": {
+            "title": "Can I exchange a gift bought on your webshop?",
+            "answer": "<p>We are very sorry, but we are not able to transfer money to a gift recipient's account. If an item is returned, the money will be returned to the account from which the gift was purchased.<\/p>"
+          }
+        },
+        "8559a987-9235-47a8-98ff-7c7e1be8eed3": {
+          "type": "question",
+          "settings": {
+            "title": "Can I exchange an item if, for example I want another size?",
+            "answer": "<p>If you would like to exchange your product to another size or colour we ask you to return the product to us and place a new order in our webshop. <br\/><br\/>Please be aware that Done by Deer does not reimburse the return costs.<\/p>"
+          }
+        },
+        "2fc65047-0b9e-4e58-9728-2e757ba2609a": {
+          "type": "question",
+          "settings": {
+            "title": "Where can I return items that I bought in another shop?",
+            "answer": "<p>If you bought a Done by Deer item in a physical store or in another webshop, we kindly ask you to contact the particular shop. <\/p><p>The Done by Deer webshop only accepts returns for products bought at www.donebydeer.com. <\/p>"
+          }
+        },
+        "0de4555d-21fa-48b4-84ce-a8cde99193e2": {
+          "type": "category",
+          "settings": {
+            "title": "products"
+          }
+        },
+        "22337743-7314-468e-9fcd-6bcc642dfc59": {
+          "type": "question",
+          "settings": {
+            "title": "Are your toys safe for kids?",
+            "answer": "<p>All Done by Deer products are tested to comply with strict European standards and are therefore perfectly safe for kids to use. <br\/><br\/>All our toys are approved according to the European safety standard EN 71 and CE marked. <\/p>"
+          }
+        },
+        "c74f91a9-d3f1-4241-a06d-6a45b17e131f": {
+          "type": "question",
+          "settings": {
+            "title": "Are your bedlinen kids friendly?",
+            "answer": "<p>All our bedlinen are tested according to the Oeko-Tex® Standard 100 and are washable at 60°.<\/p>"
+          }
+        },
+        "ca158437-0b2a-42e7-b0b8-1f106fe28260": {
+          "type": "question",
+          "settings": {
+            "title": "Are your plates, cups, and cutlery dishwasher safe?",
+            "answer": "<p>Yes, all our tableware is dishwasher safe.<\/p>"
+          }
+        },
+        "fecce1ae-a9ec-4ba9-9718-53087de48719": {
+          "type": "question",
+          "settings": {
+            "title": "How should I wash silicone tableware?",
+            "answer": "<p>- Use dish soap or dishwashing tablets without perfume.<br\/><br\/>- Allow the product to air-dry after washing.<br\/><br\/>- To remove any odour from food or perfumed soap, it is recommended to wash the product in a dishwasher using dishwashing tablets without perfume. Repeat treatment may be necessary.<br\/><br\/>- Some highly coloured foods such as tomato sauce may transfer to the product. Clean the product as soon as possible after use. Repeat treatment may be necessary.<\/p>"
+          }
+        },
+        "785f03c4-d641-4563-8393-ab3ef0fd2f5e": {
+          "type": "question",
+          "settings": {
+            "title": "The velcro on my product doesn't stick anymore - what to do?",
+            "answer": "<p>To ensure that velcro remains in good condition after washing, it is important to close each fastener before washing. <br\/><br\/>This will help prevent the fabric from getting snagged and minimize the amount of lint that gets trapped in the velcro. <br\/><br\/>Over time, velcro can become dull and less effective. <br\/><br\/>Please try one of these methods to revive the velcro:<br\/><br\/>· If there's any dirt in the velcro, remove it (meybe you need to use tweezers)<br\/><br\/>· Use a piece of velcro (the hard side with the hooks) to remove lint and other debris by rubbing it against the velcro. <br\/><br\/>· Use a fine comb or toothbrush to brush the velcro. <\/p>"
+          }
+        },
+        "0a40082c-0dad-4156-bda3-77c063a609ea": {
+          "type": "category",
+          "settings": {
+            "title": "gift cards"
+          }
+        },
+        "080d4d02-882f-4fd4-ab34-d29c23d255aa": {
+          "type": "question",
+          "settings": {
+            "title": "How will I recieve the gift card?",
+            "answer": "<p>You will receive the gift card by e-mail.<\/p>"
+          }
+        },
+        "911dfa74-2cbe-4935-96d0-5e69364b7e1c": {
+          "type": "question",
+          "settings": {
+            "title": "When will I receive the gift card?",
+            "answer": "<p>If you have other items in your cart together with your gift card, the gift card will be e-mailed to you, when the rest of your order leaves our warehouse. If you would like to receive the gift card right away, please place two separate orders.<\/p>"
+          }
+        },
+        "05dc2f02-4369-43ac-a117-aadc61cf42b0": {
+          "type": "question",
+          "settings": {
+            "title": "How long is the gift card valid?",
+            "answer": "<p>The gift card is valid for 5 years.<\/p>"
+          }
+        },
+        "978e2a19-dd7f-41a6-8a8f-72e237726792": {
+          "type": "question",
+          "settings": {
+            "title": "Where can the gift card be used?",
+            "answer": "<p>The gift card is only for online use on donebydeer.com.<\/p>"
+          }
+        },
+        "2fbd49ab-61ff-4f6e-afc8-d9616b7d691a": {
+          "type": "question",
+          "settings": {
+            "title": "Can a gift card be used more than once?",
+            "answer": "<p>Yes, you can use the gift card as long as there is a balance remaining on the card.<\/p><p><\/p><p>Please send us an e-mail at shop@donebydeer.com if you want to know the updated balance on your gift card.<\/p>"
+          }
+        },
+        "0929c404-5fd0-4e55-a850-ad7d1cdab79f": {
+          "type": "question",
+          "settings": {
+            "title": "Can a gift card be used to buy a gift card?",
+            "answer": "<p>No, you can't use a gift card to buy another gift card.<\/p>"
+          }
+        },
+        "af3c0d1f-b1ab-4dd5-9762-34b799ec79d5": {
+          "type": "question",
+          "settings": {
+            "title": "Shopping from Denmark or Sweden?",
+            "answer": "<p>Please note that the value of the gift card is in EUR, but you pay in DKK or SEK.<\/p>"
+          }
+        },
+        "84ea9001-5e44-4f42-9301-fdce1bb94949": {
+          "type": "question",
+          "settings": {
+            "title": "Does the gift card trigger free delivery?",
+            "answer": "<p>If you have other items in your cart together with a gift card, free delivery does not apply unless you meet our free shipping limit.<\/p>"
+          }
+        },
+        "67962778-cf1f-4e2c-ab01-b60be3fae0ee": {
+          "type": "question",
+          "settings": {
+            "title": "Can I print the gift card?",
+            "answer": "<p>The gift card is print-friendly.<\/p>"
+          }
+        },
+        "8f060d24-9213-4cf0-8e6b-5f40e6b42e3b": {
+          "type": "question",
+          "settings": {
+            "title": "Can I buy a gift card for a person in another country than mine?",
+            "answer": "<p>Yes. But it is important that the person whom the gift card is for lives in one of the <a href=\"\/pages\/shipping-returns\" title=\"shipping & returns\"><span style=\"text-decoration:underline\">countries we ship to.<\/span><\/a><\/p>"
+          }
+        },
+        "3a432c53-ff52-4ff3-adb7-0d3aba094867": {
+          "type": "category",
+          "settings": {
+            "title": "Payment"
+          }
+        },
+        "0b44a2e4-b0ec-4641-9899-ecdcc86dd851": {
+          "type": "question",
+          "settings": {
+            "title": "Which payment options can I choose?",
+            "answer": "<p>We accept online payments with the following credit cards and payment methods: PayPal, Visa\/Dankort, Mastercard, American Express, Maestro, Shop Pay, Apple pay, Google Pay, Mobilepay (Denmark), Bancontact (Belgium) and iDEAL (the Netherlands).<\/p>"
+          }
+        },
+        "dc2502d7-c636-451f-b4ed-584d73cfc646": {
+          "type": "question",
+          "settings": {
+            "title": "Is it safe to use my credit card or other payment options in the shop?",
+            "answer": "<p>Yes, it is safe. We use a secure payment server that encrypts all information with SSL protocol, that means your data is secure and cannot be read by other third parties.<\/p>"
+          }
+        },
+        "177d9a9e-8dc1-449b-804e-a9ac3be0601c": {
+          "type": "question",
+          "settings": {
+            "title": "When is the payment withdrawn from my account?",
+            "answer": "<p>After placing your order, we automatically contact your bank for authorization to verify your card information.<br\/><br\/>We then reserve the amount for your order on your credit card until we ship your order. <br\/>Note that we can only reserved the amount on your card for up to 7 days.<br\/><br\/>Please note that the actual charge on your credit card will occur only when we ship your order from our warehouse.<\/p>"
+          }
+        },
+        "26d1ba09-bce5-4137-9974-13e0e3a8ad77": {
+          "type": "category",
+          "settings": {
+            "title": "customer account"
+          }
+        },
+        "0323eb5a-0d8e-47ce-8a50-74dd2a422da4": {
+          "type": "question",
+          "settings": {
+            "title": "Why should I create an account?",
+            "answer": "<p>There are several reasons why you should become a part of our Deer universe! We will save your basket for you, you can save and share your wishlist, you can easily find your previous orders and we'll save your addresse for a fast and friendly checkout. Come join us!<\/p>"
+          }
+        },
+        "4ff39dc1-08cd-4680-b9d6-8006f271dc76": {
+          "type": "question",
+          "settings": {
+            "title": "How do I create an account?",
+            "answer": "<p>To create your own personal account and become a part of the Done by Deer universe, go to <a href=\"https:\/\/donebydeer.com\/account\/register\" title=\"https:\/\/donebydeer.com\/account\/register\">our customer account page.<\/a><\/p>"
+          }
+        },
+        "63d3546a-22c8-475b-9f4a-e3ac1c6c2b6b": {
+          "type": "question",
+          "settings": {
+            "title": "How do I delete my account?",
+            "answer": "<p>Send us an e-mail at shop@donebydeer.com and we will delete your account for you. Please remember to inform us which e-mail address you used to create the account.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "3cf56364-9613-4847-9b70-6d9d1a7c7a0c",
+        "9bb49766-2a0a-45ea-a67a-3a2efb5d9f21",
+        "773d271c-25ff-4a11-89fa-44ed1a7f8ffa",
+        "afe0895c-8dfa-4a1c-8fdd-75e1aa4deec1",
+        "f6dfc573-2c74-4b5a-9424-506a1b29f14e",
+        "d6ae04a4-594c-41dc-91d1-faeba3041382",
+        "e662e7ca-15f3-4743-ac84-3d97c8e90eb6",
+        "22655c9e-81e4-45a4-b07b-b0d4327387f7",
+        "d73ec0b2-4c37-4443-b86f-dd0c42d8ea34",
+        "7f3970d3-2ed9-4cd6-9847-8a22934443a2",
+        "2f8bd7cd-0e8b-4377-9d59-bc9b681c7840",
+        "71379598-a49d-4e2d-9fc3-cb95a47cffd8",
+        "4c1bc193-53e0-4b1a-9a89-8eebf63b4994",
+        "531021c8-eb50-490b-bbf7-4d1cfa9a1581",
+        "ca4d14f2-93a6-46dd-b074-7e46186ee831",
+        "bc6d2ac6-6598-48a1-82b7-682da15b50ff",
+        "94ed3bf1-40aa-4ee0-ba6f-66377d3fc369",
+        "8559a987-9235-47a8-98ff-7c7e1be8eed3",
+        "2fc65047-0b9e-4e58-9728-2e757ba2609a",
+        "0de4555d-21fa-48b4-84ce-a8cde99193e2",
+        "22337743-7314-468e-9fcd-6bcc642dfc59",
+        "c74f91a9-d3f1-4241-a06d-6a45b17e131f",
+        "ca158437-0b2a-42e7-b0b8-1f106fe28260",
+        "fecce1ae-a9ec-4ba9-9718-53087de48719",
+        "785f03c4-d641-4563-8393-ab3ef0fd2f5e",
+        "0a40082c-0dad-4156-bda3-77c063a609ea",
+        "080d4d02-882f-4fd4-ab34-d29c23d255aa",
+        "911dfa74-2cbe-4935-96d0-5e69364b7e1c",
+        "05dc2f02-4369-43ac-a117-aadc61cf42b0",
+        "978e2a19-dd7f-41a6-8a8f-72e237726792",
+        "2fbd49ab-61ff-4f6e-afc8-d9616b7d691a",
+        "0929c404-5fd0-4e55-a850-ad7d1cdab79f",
+        "af3c0d1f-b1ab-4dd5-9762-34b799ec79d5",
+        "84ea9001-5e44-4f42-9301-fdce1bb94949",
+        "67962778-cf1f-4e2c-ab01-b60be3fae0ee",
+        "8f060d24-9213-4cf0-8e6b-5f40e6b42e3b",
+        "3a432c53-ff52-4ff3-adb7-0d3aba094867",
+        "0b44a2e4-b0ec-4641-9899-ecdcc86dd851",
+        "dc2502d7-c636-451f-b4ed-584d73cfc646",
+        "177d9a9e-8dc1-449b-804e-a9ac3be0601c",
+        "26d1ba09-bce5-4137-9974-13e0e3a8ad77",
+        "0323eb5a-0d8e-47ce-8a50-74dd2a422da4",
+        "4ff39dc1-08cd-4680-b9d6-8006f271dc76",
+        "63d3546a-22c8-475b-9f4a-e3ac1c6c2b6b"
+      ],
+      "settings": {
+        "show_navigation": true,
+        "title": "",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1648649817ad5007b4": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>Didn't find the answer to your question? <br\/>Contact us at shop@donebydeer.com and we will get back to you as soon as possible. <\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16480235668597a322": {
+      "type": "text-with-icons",
+      "blocks": {
+        "16480235664e87a705-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-email",
+            "custom_icon_width": 50,
+            "title": "Contact us",
+            "content": "<p>Need to contact us ? Just send us an e-mail at info@yourstore.com<\/p>"
+          }
+        },
+        "16480235664e87a705-0": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "icon": "picto-box",
+            "custom_icon_width": 50,
+            "title": "Free shipping",
+            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included<\/p>"
+          }
+        },
+        "16480235664e87a705-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-phone",
+            "custom_icon_width": 50,
+            "title": "Customer service",
+            "content": "<p>We are available from monday to friday to answer your questions.<\/p>"
+          }
+        },
+        "16480235664e87a705-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "custom_icon_width": 50,
+            "title": "Secure payment",
+            "content": "<p>Your payment information is processed securely.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16480235664e87a705-3",
+        "16480235664e87a705-0",
+        "16480235664e87a705-1",
+        "16480235664e87a705-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "background": "#f7aea6",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "45554432-8651-4095-ab4d-d5fc03c4e48a": {
+      "type": "newsletter",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/newsletter_-_venstre.png",
+        "subheading": "Subscribe to our newsletter",
+        "content": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>",
+        "text_position": "right",
+        "text_alignment": "left",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "2fc5c3c6-ced6-4f2d-9b95-76f15ab6567f": {
+      "type": "blog-posts",
+      "settings": {
+        "blog": "news",
+        "subheading": "",
+        "title": "Blog posts",
+        "articles_count": 3,
+        "stack_mobile": false,
+        "show_category": true,
+        "show_excerpt": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "faq",
+    "1648649817ad5007b4",
+    "16480235668597a322",
+    "45554432-8651-4095-ab4d-d5fc03c4e48a",
+    "2fc5c3c6-ced6-4f2d-9b95-76f15ab6567f"
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "1652087977ce2d0cae": {
+      "type": "slideshow",
+      "blocks": {
+        "16520879774e1fdf26-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/foodie_stories.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/foodie_stories_mobil.jpg",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "let me tell you a story",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/collections\/foodie",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5
+          }
+        }
+      },
+      "block_order": [
+        "16520879774e1fdf26-0"
+      ],
+      "custom_css": [
+        "h2 {color: white;}"
+      ],
+      "settings": {
+        "section_height": "small",
+        "transition_type": "sweep",
+        "autoplay": false,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "a3a5a558-3603-4c46-bb93-9fdbee69bb77": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "foodie tableware",
+        "title": "",
+        "content": "<p>Little ones will enjoy mealtime with the new Foodie tableware.<br\/><br\/>Foodie plates, bowls, mugs, and cutlery serve up exciting stories at dinner time, inspiring little ones to dig in and explore new kinds of foods.<br\/><br\/>Your kids might even become new, little foodies who dare to try new and different types of food.<\/p>",
+        "button_text": "Shop foodie now",
+        "button_link": "shopify:\/\/collections\/foodie",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#ced9d5",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "custom_html_6z7wFz": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<video controls=\"controls\" style=\"max-width: 100%; height: auto;\">\n  <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c53906d87cb44a74bf2f3f55c5a4eccf.mp4\" type=\"video\/mp4\">\nYour browser does not support our video.\n<\/source><\/video>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "#ced9d5",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_text_overlay_MVLr4Q": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/foodie_stories_mobil.jpg",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "image_with_text_block_JjLf67": {
+      "type": "image-with-text-block",
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/webslider_foodie_2160x10802_2.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/mobilslider_foodie_2160x10802_2.jpg",
+        "subheading": "",
+        "title": "safe & sound choice",
+        "content": "<p>The Foodie tableware is made of durable and food grade PP and TPE that adds soft anti-slip features. <br\/><br\/>The materials used are free from BPA, phthalates, and other harmful substances, which makes Foodie a safe and sound choice for little ones. <\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "left",
+        "text_alignment": "center",
+        "text_background": "#ced9d5",
+        "text_color": "#ffffff",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "982366f0-1d77-4780-a451-2b00e8fb1ae7": {
+      "type": "image-with-text",
+      "blocks": {
+        "8cda9793-c1bc-4640-a0e3-0503e785951c": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Foodie-plate-Croco-Green-Function-3-PS.jpg",
+            "tab_label": "anti-slip",
+            "subheading": "foodie",
+            "title": "anti-slip base",
+            "content": "<p>Most of our Foodie tableware comes with practical anti-slip base which prevents, plates, bowls, and cups from sliding on the table. <\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "template--19079306543448__982366f0-1d77-4780-a451-2b00e8fb1ae7-16862229483d79dae4-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Foodie-dinner-set-Lalee-Sand-9-LS.jpg",
+            "tab_label": "stick & stay",
+            "subheading": "foodie",
+            "title": "stick & stay",
+            "content": "<p>No more pushing, tipping, or trowing - the Deer friends have it all under control. <br\/><br\/>The strong suction base keeps the tableware in place.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "8cda9793-c1bc-4640-a0e3-0503e785951c",
+        "template--19079306543448__982366f0-1d77-4780-a451-2b00e8fb1ae7-16862229483d79dae4-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "both",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 7,
+        "accent_background": "#ced9d5",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_text_CngAGV": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_X4yACe": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Foodie-spout-and-snack-cup-Croco-Green-6-LS.jpg",
+            "tab_label": "Item",
+            "subheading": "3-in-1",
+            "title": "ready for drinks & snacks",
+            "content": "<p>The foodie spout\/snack cup has a changeable silicone lid for both drinks and snacks.<\/p>",
+            "button_text": "shop now",
+            "button_link": "shopify:\/\/products\/foodie-spout-snack-cup-croco-green"
+          }
+        }
+      },
+      "block_order": [
+        "item_X4yACe"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "both",
+        "image_position": "right",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#ced9d5",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "95ecc740-bad6-4944-a1f4-3b2415a4e422": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_eQJ6y3": {
+          "type": "collection",
+          "settings": {
+            "collection": "foodie",
+            "label": "",
+            "button_text": "explore all foodie",
+            "button_url": "shopify:\/\/collections\/foodie"
+          }
+        }
+      },
+      "block_order": [
+        "collection_eQJ6y3"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "products_count": 8,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "#ced9d5",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "5427e58b-18eb-4a73-ab46-339905f6802b": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15072744308779__5427e58b-18eb-4a73-ab46-339905f6802b-16788256327b75df77-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Foodie-compartment-plate-Happy-clouds-Powder-5-LS.jpg",
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "",
+            "content": "",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15072744308779__5427e58b-18eb-4a73-ab46-339905f6802b-16788256327b75df77-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "both",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#ced9d5",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "4f64e550-3780-4f3e-b75e-95c56dbf414f": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "it's lunch time!",
+        "content": "<p>The practical insulated bags and bottle holders will keep your child's food and drinks the right temperature.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16647965959e7e4d9a": {
+      "type": "apps",
+      "blocks": {
+        "0d7f87a6-59f0-44df-bca6-5044e39bf441": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "TjhVaJ"
+          }
+        }
+      },
+      "block_order": [
+        "0d7f87a6-59f0-44df-bca6-5044e39bf441"
+      ],
+      "settings": {
+        "include_horizontal_margins": false,
+        "include_vertical_margins": false,
+        "custom_class": ""
+      }
+    },
+    "promotion_blocks_TgXCet": {
+      "type": "promotion-blocks",
+      "blocks": {
+        "image_Mhb36m": {
+          "type": "image",
+          "settings": {
+            "highlight": false,
+            "subheading": "Subheading",
+            "title": "Image with text",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f8fd",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "quote_a7VETA": {
+          "type": "quote",
+          "settings": {
+            "highlight": false,
+            "subheading": "Subheading",
+            "content": "Use this text to share information about your brand with your customers.",
+            "author": "John S.",
+            "background": "#f7f8fd",
+            "text_color": "#1e316a"
+          }
+        },
+        "image_z38UUi": {
+          "type": "image",
+          "settings": {
+            "highlight": false,
+            "subheading": "Subheading",
+            "title": "Image with text",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f8fd",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        }
+      },
+      "block_order": [
+        "image_Mhb36m",
+        "quote_a7VETA",
+        "image_z38UUi"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "Subheading",
+        "title": "Promotion blocks",
+        "section_size": "medium",
+        "stack_on_mobile": true,
+        "background": "#ced9d5",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1652087977ce2d0cae",
+    "a3a5a558-3603-4c46-bb93-9fdbee69bb77",
+    "custom_html_6z7wFz",
+    "image_with_text_overlay_MVLr4Q",
+    "image_with_text_block_JjLf67",
+    "982366f0-1d77-4780-a451-2b00e8fb1ae7",
+    "image_with_text_CngAGV",
+    "95ecc740-bad6-4944-a1f4-3b2415a4e422",
+    "5427e58b-18eb-4a73-ab46-339905f6802b",
+    "4f64e550-3780-4f3e-b75e-95c56dbf414f",
+    "16647965959e7e4d9a",
+    "promotion_blocks_TgXCet"
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "sections": {
+    "blog-post-banner": {
+      "type": "blog-post-banner",
+      "settings": {
+        "show_category": true,
+        "blog_header_background": "#ecdfcf",
+        "blog_header_text_color": "#282828"
+      }
+    },
+    "164811922989a7a70e": {
+      "type": "image-with-text-block",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/08-jan_hospital-bag.jpg",
+        "subheading": "The ultimate",
+        "title": "Hospital bag packing list",
+        "content": "<p>Here it is - look no further! <br\/>We have asked our Instagram followers to mention all the must-have items to bring when having your baby.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "left",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "settings": {
+        "show_on_scroll_navigation": false,
+        "show_author": false,
+        "show_date": false,
+        "show_share_buttons": true
+      }
+    },
+    "1647954068cb093135": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "blog-post-comments": {
+      "type": "blog-post-comments",
+      "disabled": true,
+      "settings": {
+        "show_gravatar": true
+      }
+    },
+    "164855266224d6891e": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>So, here it is - the ultimate packing list for your hospital bag:<\/p><p>• burp cloths<br\/>• a special 'going-home' outfit for the baby + baby's first outfit + extra clothes <\/p><p>• nappies<br\/>• baby blanket <br\/>• little beanie\/knitted hat <br\/>• tiny soft toy <br\/>• a little ready-made formula - just in case <br\/>• bottle<br\/>• warm socks <br\/>• comfort blanket<br\/>• pacifier<br\/>• diapercreme<br\/>• swaddle<br\/>• wet wipes<br\/>• nursery pillow<br\/>• baby bedlinen (and duvet) <br\/>• musical toy <br\/>• camera <\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "left",
+        "text_alignment": "left",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "38305cbb-67fc-4ef4-8575-38c9943c2f32": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--15072877379627__38305cbb-67fc-4ef4-8575-38c9943c2f32-1677164255918c3af0-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "happy-clouds",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15072877379627__38305cbb-67fc-4ef4-8575-38c9943c2f32-1677164255918c3af0-0"
+      ],
+      "settings": {
+        "subheading": "shop from the",
+        "title": "happy clouds",
+        "content": "",
+        "products_count": 4,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "164872690024024fa9": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "164872690060efad39-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cloth-wipes-for-your-baby.jpg",
+            "tab_label": "",
+            "subheading": "",
+            "title": "",
+            "content": "<p><strong>For baby<\/strong><\/p><p>• <a href=\"\/collections\/burp-cloths\" target=\"_blank\" title=\"\/collections\/burp-cloths\">burp cloths<\/a><br\/>• 'going-home' outfit for the baby<br\/>• baby's first outfit + extra clothes <br\/>• nappies<br\/>• <a href=\"\/collections\/blankets\" target=\"_blank\" title=\"baby blankets\">baby blanket<\/a><br\/>• <a href=\"\/collections\/baby-comfort-blankets-and-cuddle-cloths\" target=\"_blank\" title=\"baby comfort blankets & cuddle cloths\">comfort blanket<\/a><br\/>• little beanie\/knitted hat <br\/>• <a href=\"\/collections\/cuddle-toys\" target=\"_blank\" title=\"cuddle toys & stuffed animals\">tiny soft toy <\/a><br\/>• a little ready-made formula - just in case <br\/>• bottle<br\/>• warm socks <br\/>• pacifier<br\/>• diaper creme<br\/>• <a href=\"\/collections\/swaddles\" target=\"_blank\" title=\"\/collections\/swaddles\">swaddles<\/a><br\/>• wet wipes<br\/>• <a href=\"\/collections\/nursing-pillows\" target=\"_blank\" title=\"nursing pillows\">nursing pillow<\/a><br\/>• <a href=\"\/collections\/bedlinen-baby\" target=\"_blank\" title=\"\/collections\/bedlinen-baby\">baby bedlinen<\/a> (and duvet) <br\/>• <a href=\"\/collections\/mobiles-musical-toys\" target=\"_blank\" title=\"\/collections\/mobiles-musical-toys\">musical toy<\/a> <br\/>• baby car seat <\/p><p><\/p><p><strong>For you<br\/><\/strong>• washbag<br\/> • comfortable clothes (extra baggy pants)<br\/>• nursing bras<br\/>• maternity pads<br\/>• snacks<br\/>• camera<\/p>",
+            "button_text": "download checklist here",
+            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0565\/6808\/6571\/files\/hospitalbag_checklist.pdf?v=1674132040"
+          }
+        }
+      },
+      "block_order": [
+        "164872690060efad39-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "both",
+        "image_position": "left",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "#e4e0db",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "blog-post-prev-next": {
+      "type": "blog-post-prev-next",
+      "settings": {}
+    },
+    "de9f16df-a437-48bf-89f7-74877231799c": {
+      "type": "recently-viewed-products",
+      "settings": {
+        "subheading": "still here for you",
+        "title": "",
+        "products_count": 4,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "blog-post-banner",
+    "164811922989a7a70e",
+    "main",
+    "1647954068cb093135",
+    "blog-post-comments",
+    "164855266224d6891e",
+    "38305cbb-67fc-4ef4-8575-38c9943c2f32",
+    "164872690024024fa9",
+    "blog-post-prev-next",
+    "de9f16df-a437-48bf-89f7-74877231799c"
+  ]
+}

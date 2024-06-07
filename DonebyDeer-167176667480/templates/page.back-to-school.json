@@ -1,0 +1,560 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "1652087977ce2d0cae": {
+      "type": "slideshow",
+      "blocks": {
+        "16520879774e1fdf26-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/back-to-school.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/back-to-school_mobil.jpg",
+            "text_position": "middle_center",
+            "subheading": "get ready for new adventures",
+            "title": "back to school",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/products\/quilted-kids-backpack-croco-green",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_xPrVtK": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "text_position": "middle_center",
+            "subheading": "Tell your story",
+            "title": "Slide title",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "16520879774e1fdf26-0",
+        "image_xPrVtK"
+      ],
+      "custom_css": [
+        "h2 {color: white;}"
+      ],
+      "settings": {
+        "section_height": "small",
+        "transition_type": "sweep",
+        "autoplay": false,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "a3a5a558-3603-4c46-bb93-9fdbee69bb77": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>Sending your child off to its first day at daycare or school is always a big day. <br\/><br\/>Our Deer friends are ready to be a part of this special day and keep your child company.  <br\/><br\/>Discover the perfect backpacks, lunch essentials, and more to ensure your child is ready for their school adventure<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "small",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "f3927dae-34b4-40ee-9402-bb3c597ea877": {
+      "type": "collection-list",
+      "blocks": {
+        "template--15072744308779__f3927dae-34b4-40ee-9402-bb3c597ea877-167524333180b65eb3-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "kids-backpacks",
+            "image": "shopify:\/\/shop_images\/Quilted-kids-backpack-Croco-Green-4-LS.jpg",
+            "subheading": "",
+            "title": "bags",
+            "link_text": "shop now",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "template--15072744308779__f3927dae-34b4-40ee-9402-bb3c597ea877-167524333180b65eb3-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "kids-lunch-and-snack-boxes",
+            "image": "shopify:\/\/shop_images\/Kiddish-lunch-box-Elphee-Sand-6-LS.jpg",
+            "subheading": "",
+            "title": "lunch boxes",
+            "link_text": "shop now",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "template--15072744308779__f3927dae-34b4-40ee-9402-bb3c597ea877-167524333180b65eb3-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "kids-water-bottles",
+            "image": "shopify:\/\/shop_images\/Metal-bottle-Raffi-Mustard-4-LS.jpg",
+            "subheading": "",
+            "title": "bottles",
+            "link_text": "shop now",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "e4bda30b-4b52-41a1-857d-659125373787": {
+          "type": "collection",
+          "settings": {
+            "collection": "food-storage",
+            "image": "shopify:\/\/shop_images\/Snack-box-set-3-pcs-Deer-friends-Blue-4-LS.jpg",
+            "subheading": "",
+            "title": "snack boxes",
+            "link_text": "shop now",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        }
+      },
+      "block_order": [
+        "template--15072744308779__f3927dae-34b4-40ee-9402-bb3c597ea877-167524333180b65eb3-0",
+        "template--15072744308779__f3927dae-34b4-40ee-9402-bb3c597ea877-167524333180b65eb3-1",
+        "template--15072744308779__f3927dae-34b4-40ee-9402-bb3c597ea877-167524333180b65eb3-2",
+        "e4bda30b-4b52-41a1-857d-659125373787"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "layout": "collage",
+        "subheading": "",
+        "title": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "982366f0-1d77-4780-a451-2b00e8fb1ae7": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19079306543448__982366f0-1d77-4780-a451-2b00e8fb1ae7-16862229483d79dae4-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bundle_quiltkids2.jpg",
+            "tab_label": "green",
+            "subheading": "",
+            "title": "green backpack kit",
+            "content": "<p>Let Croco join your little one's first day at school or daycare with this perfect backpack kit.<br\/><br\/>Includes a quilted backpack, a straw bottle, Kiddish lunch box and a Croco cuddle cute.  <\/p>",
+            "button_text": "see more",
+            "button_link": "shopify:\/\/products\/kids-quilted-backpack-kit-green"
+          }
+        },
+        "8cda9793-c1bc-4640-a0e3-0503e785951c": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bundle_quiltkids.jpg",
+            "tab_label": "powder",
+            "subheading": "",
+            "title": "powder backpack kit",
+            "content": "<p>Croco, Ozzo and Elphee are all waiting to join your little one on new adventures. Whether it's a first day of school or starting daycare.<br\/><br\/>The kit includes a quilted backpack, a straw bottle, a Kiddish lunch box and an Elphee cuddle cute.  <\/p>",
+            "button_text": "see more",
+            "button_link": "shopify:\/\/products\/kids-quilted-backpack-kit-powder"
+          }
+        }
+      },
+      "block_order": [
+        "template--19079306543448__982366f0-1d77-4780-a451-2b00e8fb1ae7-16862229483d79dae4-0",
+        "8cda9793-c1bc-4640-a0e3-0503e785951c"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 7,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "59364a47-be40-4895-bb75-448855ff9de1": {
+      "type": "video",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "video_url": "https:\/\/youtu.be\/stvSwsiKHxc",
+        "background_type": "boxed",
+        "video_size": "auto",
+        "autoplay": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "4f64e550-3780-4f3e-b75e-95c56dbf414f": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "it's lunch time!",
+        "content": "<p>The practical insulated bags and bottle holders will keep your child's food and drinks the right temperature.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "small",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "95ecc740-bad6-4944-a1f4-3b2415a4e422": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--15072744308779__95ecc740-bad6-4944-a1f4-3b2415a4e422-1675681193a1fa582d-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "insulated-bags",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15072744308779__95ecc740-bad6-4944-a1f4-3b2415a4e422-1675681193a1fa582d-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "products_count": 6,
+        "products_per_row": 3,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16647965959e7e4d9a": {
+      "type": "apps",
+      "blocks": {
+        "0d7f87a6-59f0-44df-bca6-5044e39bf441": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "TjhVaJ"
+          }
+        }
+      },
+      "block_order": [
+        "0d7f87a6-59f0-44df-bca6-5044e39bf441"
+      ],
+      "settings": {
+        "include_horizontal_margins": false,
+        "include_vertical_margins": false,
+        "custom_class": ""
+      }
+    },
+    "daf1341c-722c-45ac-9b7b-9022c01e0082": {
+      "type": "image-with-text-block",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/blog.jpg",
+        "subheading": "blog - new collection",
+        "title": "toys & everyday essentials",
+        "content": "<p>The collection offers hours of fun with a playful theme and adds new product groups to our collection.<\/p>",
+        "button_text": "go explore",
+        "button_link": "shopify:\/\/blogs\/news\/happy-home-23",
+        "background_type": "boxed",
+        "text_position": "right",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "5427e58b-18eb-4a73-ab46-339905f6802b": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15072744308779__5427e58b-18eb-4a73-ab46-339905f6802b-16788256327b75df77-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Kids-backpack-Ozzo-Powder-5-LS.jpg",
+            "tab_label": "Item",
+            "subheading": "blog",
+            "title": "4 tips for starting preschool",
+            "content": "<p>Is your child starting kindergarten or (pre)school?<br\/><br\/>Consider these four tips to ensure a smooth transition and give your child the best start.<\/p>",
+            "button_text": "Read blog",
+            "button_link": "shopify:\/\/blogs\/news\/4-tips-for-starting-preschool"
+          }
+        }
+      },
+      "block_order": [
+        "template--15072744308779__5427e58b-18eb-4a73-ab46-339905f6802b-16788256327b75df77-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "both",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#e1cfc6",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1150e288-032b-4a04-893c-5b306b311fdc": {
+      "type": "multi-column",
+      "blocks": {
+        "template--15072744308779__1150e288-032b-4a04-893c-5b306b311fdc-167882722379a54540-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/birdee-icon_450x450_2f80f0af-7843-42ab-af8b-ed917bceca49.png",
+            "image_width": 60,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "Birdee",
+            "link_url": "shopify:\/\/collections\/birdee",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "template--15072744308779__1150e288-032b-4a04-893c-5b306b311fdc-167882722379a54540-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/croco-icon_450x450_633f0264-b6e9-428b-8189-424a27c635ff.png",
+            "image_width": 60,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "Croco",
+            "link_url": "shopify:\/\/collections\/croco",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "template--15072744308779__1150e288-032b-4a04-893c-5b306b311fdc-167882722379a54540-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ozzo-icon_450x450_9eae22fb-f4a0-4d6e-9e15-195585d15ca8.png",
+            "image_width": 60,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "ozzo",
+            "link_url": "shopify:\/\/collections\/ozzo",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "template--15072744308779__1150e288-032b-4a04-893c-5b306b311fdc-167882722379a54540-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lalee-icon_450x450_35fdc114-ef4f-4631-8d8c-b587a1d23dbe.png",
+            "image_width": 60,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "lalee",
+            "link_url": "shopify:\/\/collections\/lalee",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "f0199ff4-a9a5-4e12-802d-a852b9a468ba": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/elphee-icon_450x450_7dfc21d2-4a09-48ba-b54b-d6d0482ddd4d.png",
+            "image_width": 61,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "elphee",
+            "link_url": "shopify:\/\/collections\/elphee",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "835e6c2a-2771-4c8f-8e62-e8f27c29edb7": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/raffi-icon_450x450_c949d89e-ad85-45f0-8956-292ad9261789.png",
+            "image_width": 60,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "raffi",
+            "link_url": "shopify:\/\/collections\/raffi",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "fd9b7f10-6487-43c3-81e4-fa0c804c9342": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/nozo-icon_450x450_d45f6b7d-dea7-486a-a080-07e58b0e8479.png",
+            "image_width": 60,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "nozo",
+            "link_url": "shopify:\/\/collections\/nozo",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "517c5a22-ffce-459e-aaa1-20a187c1e9fa": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/antee-icon_450x450_f0806e7f-aee0-4963-8057-ef3b436485c6.png",
+            "image_width": 61,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "antee",
+            "link_url": "shopify:\/\/collections\/antee",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "5d3e86ae-9ccc-4ee5-becc-ad8f3f7167f3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/zebee-icon_450x450_7e40fefd-fc9c-47d7-8f2f-e3efa20f875c.png",
+            "image_width": 61,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "zebee",
+            "link_url": "shopify:\/\/collections\/zebee",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "4f84d9c4-6307-4e15-b376-180cc92243ca": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wally-icon_450x450_cd65c004-e9a1-4fee-84da-6e60815008a8.png",
+            "image_width": 60,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "wally",
+            "link_url": "shopify:\/\/collections\/wally",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "2153b80e-1f66-4099-93ca-b908a1402c6a": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jelly-icon_450x450_cb91e6b6-c0ea-41f7-9d4c-d0b3d0274580.png",
+            "image_width": 61,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "jelly",
+            "link_url": "shopify:\/\/collections\/jelly",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--15072744308779__1150e288-032b-4a04-893c-5b306b311fdc-167882722379a54540-0",
+        "template--15072744308779__1150e288-032b-4a04-893c-5b306b311fdc-167882722379a54540-1",
+        "template--15072744308779__1150e288-032b-4a04-893c-5b306b311fdc-167882722379a54540-2",
+        "template--15072744308779__1150e288-032b-4a04-893c-5b306b311fdc-167882722379a54540-3",
+        "f0199ff4-a9a5-4e12-802d-a852b9a468ba",
+        "835e6c2a-2771-4c8f-8e62-e8f27c29edb7",
+        "fd9b7f10-6487-43c3-81e4-fa0c804c9342",
+        "517c5a22-ffce-459e-aaa1-20a187c1e9fa",
+        "5d3e86ae-9ccc-4ee5-becc-ad8f3f7167f3",
+        "4f84d9c4-6307-4e15-b376-180cc92243ca",
+        "2153b80e-1f66-4099-93ca-b908a1402c6a"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "content_position": "below",
+        "subheading": "bring a deer friend to school",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "small",
+        "desktop_item_size": "pico",
+        "spacing": "tight",
+        "background": "#eeeee6",
+        "text_color": "rgba(0,0,0,0)",
+        "item_text_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#000000",
+        "image_overlay_opacity": 30
+      }
+    },
+    "rich_text_g6ADyR": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "Back to school with Done by Deer",
+        "title": "",
+        "content": "<p>Get ready to send your little ones off to school or pre-school in style with our range of backpacks,lunch boxes, insulated lunch bags, insulated bottle holders, and drinking bottles. <\/p><p>At Done by Deer, we understand the importance of providing children with practical and stylish essentials for their school journey.<\/p><p>Our <a href=\"\/collections\/kids-backpacks\" title=\"kids bags\">backpacks<\/a> are not only functional but also designed with playful prints that kids will love. With ample storage space and comfortable straps, they're perfect for carrying books, stationery, and other school necessities.<\/p><p>Ensure your child's lunch stays fresh and organised with our range of <a href=\"\/collections\/kids-lunch-and-snack-boxes\" title=\"kids lunch & snack boxes\">lunch boxes<\/a> and <a href=\"\/collections\/insulated-bags\" title=\"insulated bags\">insulated lunch bags<\/a>. <br\/><br\/>From cute <a href=\"\/products\/kiddish-lunch-box-elphee-grey\" title=\"Kiddish lunch box - Elphee - Grey\">Deer friends lunch box<\/a> designs to practical <a href=\"\/products\/metal-lunch-box-deer-friends-blue\" title=\"Metal lunch box - Deer friends - Blue\">metal lunch boxes<\/a>, we have something to suit every taste.<\/p><p>Keep drinks at the perfect temperature throughout the day with our <a href=\"\/products\/kids-insulated-bottle-holder-croco-green\" title=\"Kids insulated bottle holder - Croco - Green\">insulated bottle holders <\/a>and <a href=\"\/collections\/kids-water-bottles\" title=\"kids water bottles\">drinking bottles<\/a>. Made from high-quality materials and featuring practical hide-away straws, they're ideal for keeping little ones hydrated during busy school days.<\/p><p>Shop the Done by Deer Back to School collection today and make sure your child is fully equipped for their educational adventures. <\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1652087977ce2d0cae",
+    "a3a5a558-3603-4c46-bb93-9fdbee69bb77",
+    "f3927dae-34b4-40ee-9402-bb3c597ea877",
+    "982366f0-1d77-4780-a451-2b00e8fb1ae7",
+    "59364a47-be40-4895-bb75-448855ff9de1",
+    "4f64e550-3780-4f3e-b75e-95c56dbf414f",
+    "95ecc740-bad6-4944-a1f4-3b2415a4e422",
+    "16647965959e7e4d9a",
+    "daf1341c-722c-45ac-9b7b-9022c01e0082",
+    "5427e58b-18eb-4a73-ab46-339905f6802b",
+    "1150e288-032b-4a04-893c-5b306b311fdc",
+    "rich_text_g6ADyR"
+  ]
+}

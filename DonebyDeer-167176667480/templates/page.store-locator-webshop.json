@@ -1,0 +1,37 @@
+{
+  "sections": {
+    "main": {
+      "type": "store-locator-main",
+      "blocks": {
+        "2d31483b-ac7d-4ec6-885f-33b5943150b4": {
+          "type": "text_block",
+          "settings": {
+            "title": "Germany",
+            "page-country": "shopify:\/\/pages\/webshops-germany"
+          }
+        },
+        "f215da97-05b6-468e-baf9-1eddcaf649a3": {
+          "type": "text_block",
+          "settings": {
+            "title": "Sweden",
+            "page-country": "shopify:\/\/pages\/webshops-sweden"
+          }
+        }
+      },
+      "block_order": [
+        "2d31483b-ac7d-4ec6-885f-33b5943150b4",
+        "f215da97-05b6-468e-baf9-1eddcaf649a3"
+      ],
+      "settings": {
+        "page_width": "medium",
+        "tab1": "Stores",
+        "tab2": "Webshops",
+        "tab-tab-country-active-label": "Denmark",
+        "page-country-default": "shopify:\/\/pages\/webshops-denmark"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

@@ -1,0 +1,757 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "1652087977ce2d0cae": {
+      "type": "slideshow",
+      "blocks": {
+        "16520879774e1fdf26-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slider.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/slider_mobil.jpg",
+            "text_position": "middle_center",
+            "subheading": "Take a peek",
+            "title": "happy home 24",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "16520879774e1fdf26-0"
+      ],
+      "custom_css": [
+        "h2 {color: white;}"
+      ],
+      "settings": {
+        "section_height": "small",
+        "transition_type": "sweep",
+        "autoplay": false,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "5494661b-4f4f-4cdb-bf83-f594d3bc6fee": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<h1>new happy home 24 collection<\/h1><p><br\/>When entering the world of our Happy home 24 collection you find colourful elements, high contrasting colours, and a ton of stimulating features.<br\/><br\/>Meet well-known favourites with a new touch and novelties that complement our existing product range. <br\/><br\/>There’s something for every stage of your child’s developmental journey.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "59364a47-be40-4895-bb75-448855ff9de1": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "video_url": "https:\/\/youtu.be\/0y_hF3sPBvs",
+        "image": "shopify:\/\/shop_images\/Animation-thumbnail_1920x1080_d92ffbd2-9f37-4d5e-b9cc-5b55acc3be8d.png",
+        "background_type": "boxed",
+        "video_size": "auto",
+        "autoplay": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "5de5c357-f23a-4610-8e8b-0fcd64f6355f": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "animation!",
+        "html": "<p style=\"text-align: center\">Write or copy\/paste HTML code<\/p>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "627c4a8c-1f32-40f7-a8a6-f1cf80bb7025": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<video controls=\"controls\" style=\"max-width: 100%; height: auto;\">\n  <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f2d44b5522de48bcb4fc350a1d733ee3.mp4\">\nYour browser does not support our video.\n<\/source><\/video>",
+        "add_vertical_spacing": false,
+        "background_type": "boxed",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "95ecc740-bad6-4944-a1f4-3b2415a4e422": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--15072744308779__95ecc740-bad6-4944-a1f4-3b2415a4e422-1675681193a1fa582d-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "happy-clouds",
+            "label": "",
+            "button_text": "explore it all",
+            "button_url": "shopify:\/\/collections\/happy-clouds"
+          }
+        },
+        "collection_YXwxBa": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15072744308779__95ecc740-bad6-4944-a1f4-3b2415a4e422-1675681193a1fa582d-0",
+        "collection_YXwxBa"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "shop happy clouds",
+        "content": "",
+        "products_count": 12,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "f3927dae-34b4-40ee-9402-bb3c597ea877": {
+      "type": "collection-list",
+      "blocks": {
+        "template--15072744308779__f3927dae-34b4-40ee-9402-bb3c597ea877-167524333180b65eb3-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/bundelement_stor2_4580be8f-2020-4644-971d-51a1bf126c88.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--15072744308779__f3927dae-34b4-40ee-9402-bb3c597ea877-167524333180b65eb3-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/happy_clouds_landingpage2.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--15072744308779__f3927dae-34b4-40ee-9402-bb3c597ea877-167524333180b65eb3-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/bundelement_sma2.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--15072744308779__f3927dae-34b4-40ee-9402-bb3c597ea877-167524333180b65eb3-0",
+        "template--15072744308779__f3927dae-34b4-40ee-9402-bb3c597ea877-167524333180b65eb3-1",
+        "template--15072744308779__f3927dae-34b4-40ee-9402-bb3c597ea877-167524333180b65eb3-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": false,
+        "layout": "collage",
+        "subheading": "",
+        "title": "spend the day with Deer friends",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "6aba477b-8740-4d50-9389-5e9d4443b6c8": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "video_url": "https:\/\/youtu.be\/3Dn_SY_4NOQ",
+        "image": "shopify:\/\/shop_images\/happy-clouds-film-thumbnail_1920x1080_b28a524c-9a16-4a31-91b9-b463d208e46a.jpg",
+        "background_type": "boxed",
+        "video_size": "auto",
+        "autoplay": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16647965959e7e4d9a": {
+      "type": "apps",
+      "blocks": {
+        "0d7f87a6-59f0-44df-bca6-5044e39bf441": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "TjhVaJ"
+          }
+        }
+      },
+      "block_order": [
+        "0d7f87a6-59f0-44df-bca6-5044e39bf441"
+      ],
+      "settings": {
+        "include_horizontal_margins": false,
+        "include_vertical_margins": false,
+        "custom_class": ""
+      }
+    },
+    "f43d0d71-a906-4b39-9f36-2822b17c6fe7": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=0ZxrBUTlpng",
+        "background_type": "full_width",
+        "video_size": "auto",
+        "autoplay": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "daf1341c-722c-45ac-9b7b-9022c01e0082": {
+      "type": "image-with-text-block",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/blog.jpg",
+        "subheading": "blog - new collection",
+        "title": "toys & everyday essentials",
+        "content": "<p>The collection offers hours of fun with a playful theme and adds new product groups to our collection.<\/p>",
+        "button_text": "go explore",
+        "button_link": "shopify:\/\/blogs\/news\/happy-home-23",
+        "background_type": "boxed",
+        "text_position": "right",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "5427e58b-18eb-4a73-ab46-339905f6802b": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15072744308779__5427e58b-18eb-4a73-ab46-339905f6802b-16788256327b75df77-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/croco-cuddle-friend-powder_0013_2160.jpg",
+            "tab_label": "Item",
+            "subheading": "blog - new collection",
+            "title": "toys & everyday essentials",
+            "content": "<p>The happy home '23 collection offers hours of fun with a playful theme and adds new product groups to our collection.<\/p>",
+            "button_text": "Go explore",
+            "button_link": "shopify:\/\/blogs\/news\/happy-home-23"
+          }
+        }
+      },
+      "block_order": [
+        "template--15072744308779__5427e58b-18eb-4a73-ab46-339905f6802b-16788256327b75df77-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "both",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#e1cfc6",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1150e288-032b-4a04-893c-5b306b311fdc": {
+      "type": "multi-column",
+      "blocks": {
+        "template--15072744308779__1150e288-032b-4a04-893c-5b306b311fdc-167882722379a54540-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/birdee-icon_450x450_2f80f0af-7843-42ab-af8b-ed917bceca49.png",
+            "image_width": 50,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "Birdee",
+            "link_url": "shopify:\/\/collections\/birdee",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "template--15072744308779__1150e288-032b-4a04-893c-5b306b311fdc-167882722379a54540-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/croco-icon_450x450_633f0264-b6e9-428b-8189-424a27c635ff.png",
+            "image_width": 50,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "Croco",
+            "link_url": "shopify:\/\/collections\/croco",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "template--15072744308779__1150e288-032b-4a04-893c-5b306b311fdc-167882722379a54540-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ozzo-icon_450x450_9eae22fb-f4a0-4d6e-9e15-195585d15ca8.png",
+            "image_width": 50,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "ozzo",
+            "link_url": "shopify:\/\/collections\/ozzo",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "template--15072744308779__1150e288-032b-4a04-893c-5b306b311fdc-167882722379a54540-3": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Column 1",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--15072744308779__1150e288-032b-4a04-893c-5b306b311fdc-167882722379a54540-0",
+        "template--15072744308779__1150e288-032b-4a04-893c-5b306b311fdc-167882722379a54540-1",
+        "template--15072744308779__1150e288-032b-4a04-893c-5b306b311fdc-167882722379a54540-2",
+        "template--15072744308779__1150e288-032b-4a04-893c-5b306b311fdc-167882722379a54540-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "content_position": "below",
+        "subheading": "shop the three deer friends",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "small",
+        "desktop_item_size": "pico",
+        "spacing": "tight",
+        "background": "#eeeee6",
+        "text_color": "rgba(0,0,0,0)",
+        "item_text_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#000000",
+        "image_overlay_opacity": 30
+      }
+    },
+    "multi_column_gXwDxP": {
+      "type": "multi-column",
+      "blocks": {
+        "item_bMLcUD": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Walker-Ozzo-Powder-8-LS.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "item_kewLxg": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wrist-rattle-set-2-pack-Happy-clouds-Powder-4-LS.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "item_D3bQQh": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Walker-Ozzo-Powder-6-LS.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "item_tJwjYm": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Water-play-and-stacking-cups-3-pcs-Elphee-Colour-mix-12-LS.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "item_MqPTTE": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Waterproof-kids-apron-Lalee-Sand-4-LS.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "item_chbkyG": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Tummy-time-soft-book-Deer-friends-Colour-mix-7-LS.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "item_kGWCNw": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Spinner-activity-toy-Birdee-Colour-mix-4-LS.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "item_yWdnAx": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Silicone-StickandStay-snack-plate-Lalee-Powder-7-LS.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "item_LFDLUn": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Soft-toy-gift-box-Lalee-Sand-6-LS.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "item_bMLcUD",
+        "item_kewLxg",
+        "item_D3bQQh",
+        "item_tJwjYm",
+        "item_MqPTTE",
+        "item_chbkyG",
+        "item_kGWCNw",
+        "item_yWdnAx",
+        "item_LFDLUn"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": true,
+        "content_position": "below",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "large",
+        "desktop_item_size": "large",
+        "spacing": "normal",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "item_text_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#000000",
+        "image_overlay_opacity": 30
+      }
+    },
+    "image_with_text_VYWpyj": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_XBnpff": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/contrast.jpg",
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "contrast & colour",
+            "content": "<p>In our happy home 24 collection, you will see many products with captivating contrasts.<br\/> <br\/>Newborns see high-contrast patterns like dots and stripes in light and dark shades. <br\/><br\/>As they grow, their ability to perceive more complex patterns, like confetti sprinkles and motives, improves.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_XBnpff"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "both",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#f5f1ec",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_text_EHnLHG": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_cyGAwj": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wooden-toys.jpg",
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "new wooden toys",
+            "content": "<p>We're expanding our wooden toys collection with new favourites. <br\/><br\/>From fun building sets with our Deer friends to stimulating baby toys.  <br\/><br\/>Our wooden toys are designed to support babies and toddler’s development while having fun.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_cyGAwj"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_text_Jh9rHc": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_nhNLpn": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dinnerware.jpg",
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "for little eaters",
+            "content": "<p>Our popular silicone stick & stay plates will get two new friends in '24. <br\/><br\/>Lalee and Birdee will love to stick around for your little one's first meals adding a little fun to your family meals.  <\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_nhNLpn"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "both",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#f5f1ec",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "rich_text_7NpYfT": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "stay tuned!",
+        "title": "",
+        "content": "<p><em>The Happy home 24 collection will launch in stores and webshops from February 2024.<br\/><br\/>Sign up to our newsletter and be the first to know when the new collection is online!<\/em><\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "custom_liquid_khmh4G": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<div class=\"klaviyo-form-Wvv7tJ\"><\/div>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "170625940193f7c74b": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_TUaGq8": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "TjhVaJ"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_TUaGq8"
+      ],
+      "settings": {
+        "include_horizontal_margins": false,
+        "include_vertical_margins": false,
+        "custom_class": ""
+      }
+    },
+    "featured_collections_WCgwWJ": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_3YWe7C": {
+          "type": "collection",
+          "settings": {
+            "collection": "news",
+            "label": "",
+            "button_text": "see all news",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_3YWe7C"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "new arrivals",
+        "content": "",
+        "products_count": 8,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1652087977ce2d0cae",
+    "5494661b-4f4f-4cdb-bf83-f594d3bc6fee",
+    "59364a47-be40-4895-bb75-448855ff9de1",
+    "5de5c357-f23a-4610-8e8b-0fcd64f6355f",
+    "627c4a8c-1f32-40f7-a8a6-f1cf80bb7025",
+    "95ecc740-bad6-4944-a1f4-3b2415a4e422",
+    "f3927dae-34b4-40ee-9402-bb3c597ea877",
+    "6aba477b-8740-4d50-9389-5e9d4443b6c8",
+    "16647965959e7e4d9a",
+    "f43d0d71-a906-4b39-9f36-2822b17c6fe7",
+    "daf1341c-722c-45ac-9b7b-9022c01e0082",
+    "5427e58b-18eb-4a73-ab46-339905f6802b",
+    "1150e288-032b-4a04-893c-5b306b311fdc",
+    "multi_column_gXwDxP",
+    "image_with_text_VYWpyj",
+    "image_with_text_EHnLHG",
+    "image_with_text_Jh9rHc",
+    "rich_text_7NpYfT",
+    "custom_liquid_khmh4G",
+    "170625940193f7c74b",
+    "featured_collections_WCgwWJ"
+  ]
+}

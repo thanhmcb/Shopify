@@ -1,0 +1,196 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-list-collections",
+      "disabled": true,
+      "settings": {
+        "collections_to_show": "selected",
+        "show_collection_title": true
+      }
+    },
+    "16497502152bfe851f": {
+      "type": "collection-list",
+      "blocks": {
+        "164975021511f226c0-5": {
+          "type": "collection",
+          "settings": {
+            "collection": "antee",
+            "image": "shopify:\/\/shop_images\/antee-icon_450x450_f0806e7f-aee0-4963-8057-ef3b436485c6.png",
+            "subheading": "",
+            "title": "antee",
+            "link_text": "shop now",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "22d36dec-ae0b-49e3-8605-57ce2a074920": {
+          "type": "collection",
+          "settings": {
+            "collection": "birdee",
+            "image": "shopify:\/\/shop_images\/birdee-icon_450x450_2f80f0af-7843-42ab-af8b-ed917bceca49.png",
+            "subheading": "",
+            "title": "Birdee",
+            "link_text": "shop now",
+            "link_url": "shopify:\/\/collections\/birdee",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5
+          }
+        },
+        "164975021511f226c0-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "croco",
+            "image": "shopify:\/\/shop_images\/croco-icon_450x450_633f0264-b6e9-428b-8189-424a27c635ff.png",
+            "subheading": "",
+            "title": "croco",
+            "link_text": "shop now",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5
+          }
+        },
+        "164975021511f226c0-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "elphee",
+            "image": "shopify:\/\/shop_images\/elphee-icon_450x450_7dfc21d2-4a09-48ba-b54b-d6d0482ddd4d.png",
+            "subheading": "",
+            "title": "elphee",
+            "link_text": "shop now",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5
+          }
+        },
+        "collection_6Dbpay": {
+          "type": "collection",
+          "settings": {
+            "collection": "jelly",
+            "image": "shopify:\/\/shop_images\/jelly-icon_450x450_cb91e6b6-c0ea-41f7-9d4c-d0b3d0274580.png",
+            "subheading": "",
+            "title": "jelly",
+            "link_text": "shop now",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "164975021511f226c0-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "lalee",
+            "image": "shopify:\/\/shop_images\/lalee-icon_450x450_35fdc114-ef4f-4631-8d8c-b587a1d23dbe.png",
+            "subheading": "",
+            "title": "lalee",
+            "link_text": "shop now",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5
+          }
+        },
+        "164975021511f226c0-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "nozo",
+            "image": "shopify:\/\/shop_images\/nozo-icon_450x450_d45f6b7d-dea7-486a-a080-07e58b0e8479.png",
+            "subheading": "",
+            "title": "nozo",
+            "link_text": "shop now",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5
+          }
+        },
+        "488c7d40-81f8-4683-99e6-6f29a2d8a4f7": {
+          "type": "collection",
+          "settings": {
+            "collection": "ozzo",
+            "image": "shopify:\/\/shop_images\/ozzo-icon_450x450_9eae22fb-f4a0-4d6e-9e15-195585d15ca8.png",
+            "subheading": "",
+            "title": "ozzo",
+            "link_text": "shop now",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5
+          }
+        },
+        "164975021511f226c0-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "raffi",
+            "image": "shopify:\/\/shop_images\/raffi-icon_450x450_c949d89e-ad85-45f0-8956-292ad9261789.png",
+            "subheading": "",
+            "title": "raffi",
+            "link_text": "shop now",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5
+          }
+        },
+        "collection_wXxcaH": {
+          "type": "collection",
+          "settings": {
+            "collection": "wally",
+            "image": "shopify:\/\/shop_images\/wally-icon_450x450_cd65c004-e9a1-4fee-84da-6e60815008a8.png",
+            "subheading": "",
+            "title": "wally",
+            "link_text": "shop now",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5
+          }
+        },
+        "1994b934-9319-48ed-b39f-c108b0d44df0": {
+          "type": "collection",
+          "settings": {
+            "collection": "zebee",
+            "image": "shopify:\/\/shop_images\/zebee-icon_450x450_7e40fefd-fc9c-47d7-8f2f-e3efa20f875c.png",
+            "subheading": "",
+            "title": "zebee",
+            "link_text": "shop now",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5
+          }
+        }
+      },
+      "block_order": [
+        "164975021511f226c0-5",
+        "22d36dec-ae0b-49e3-8605-57ce2a074920",
+        "164975021511f226c0-2",
+        "164975021511f226c0-0",
+        "collection_6Dbpay",
+        "164975021511f226c0-1",
+        "164975021511f226c0-4",
+        "488c7d40-81f8-4683-99e6-6f29a2d8a4f7",
+        "164975021511f226c0-3",
+        "collection_wXxcaH",
+        "1994b934-9319-48ed-b39f-c108b0d44df0"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "layout": "grid",
+        "subheading": "",
+        "title": "shop deer friends",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16497502152bfe851f"
+  ]
+}

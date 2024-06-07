@@ -1,0 +1,891 @@
+{
+  "sections": {
+    "1648878611fe56b87b": {
+      "type": "apps",
+      "blocks": {
+        "69b6fec3-407a-475e-af84-24c81a082538": {
+          "type": "shopify:\/\/apps\/category-breadcrumbs\/blocks\/category-breadcrumbs\/dba51573-4328-452d-90db-1ad2dc5be363",
+          "settings": {
+            "show_catroot": true,
+            "link_catroot": "\/",
+            "text_catroot": "Home",
+            "show_tags": true,
+            "show_finalbread_as_textonly": false,
+            "separator_char_code": "rsaquo;",
+            "sep_plus_class": "breadcrumb__sep_plus5",
+            "insert_jsonld": true,
+            "insert_shortlinkfix": false,
+            "prod_ignore_referrer": false,
+            "prod_multicat_sel": "first",
+            "link_catall": "\/collections\/all",
+            "text_catall": "All Products",
+            "show_product_title": true,
+            "truncate_limit": 0
+          }
+        }
+      },
+      "block_order": [
+        "69b6fec3-407a-475e-af84-24c81a082538"
+      ],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": false,
+        "custom_class": ""
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "07813eaa-5970-452a-a0ff-49ba5d862d01": {
+          "type": "custom_color_swatch",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "dropdown",
+            "color_mode": "color",
+            "size_chart_page": "size-chart"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "2fcb8ac0-fa94-4b27-9983-336bbb5d8691": {
+          "type": "inventory",
+          "settings": {
+            "low_inventory_threshold": 3
+          }
+        },
+        "e32409ba-7fc6-4253-b698-ca0f104317d3": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p><em>Christmas gift? Order by 15th Dec. for delivery before Christmas.<\/em><\/p>"
+          }
+        },
+        "8db99329-c04c-4c6b-80e6-59a5da1ca149": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<script type=\"text\/javascript\">\nvar _learnq = _learnq || [];\nfunction addedToCart() {\n  fetch(`${window.location.origin}\/cart.js`)\n  .then(res => res.clone().json().then(data => {\n    var cart = {\n      total_price: data.total_price\/100,\n      $value: data.total_price\/100,\n      total_discount: data.total_discount,\n      original_total_price: data.original_total_price\/100,\n      items: data.items\n    }\n    if (item !== 'undefined') {\n      cart = Object.assign(cart, item)\n    }\n    _learnq.push(['track', 'Added to Cart', cart])\n  }))\n} \n(function (ns, fetch) {\n  ns.fetch = function() {\n    const response = fetch.apply(this, arguments);\n    response.then(res => {\n      if (`${window.location.origin}\/cart\/add.js`\n      \t.includes(res.url)) {\n        \taddedToCart()\n      }\n    });\n    return response\n  }\n}(window, window.fetch))\n$(document).ajaxComplete(function(event, request, settings){\n  if(settings.url == \"\/cart\/add.js\"){\n      addedToCart()\n  }\n})<\/script>"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "atc_button_background": "rgba(0,0,0,0)",
+            "atc_button_text_color": "rgba(0,0,0,0)",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)",
+            "store-link": "<p>The product is available in stores. <a href=\"\/pages\/store-locator\" target=\"_blank\" title=\"Store Locator\">Find a store near you<\/a>.<\/p>"
+          }
+        },
+        "938acdbc-51b6-451b-8196-bba8eb14dfb8": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link": "shopify:\/\/pages\/gots-certification",
+            "text": "Notify me when available",
+            "stretch": true,
+            "background": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "0f988c3c-f124-466a-a3b5-deaac0f538f8": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<p style=\"font-size:12,5px\">✔ 365 days full return <br> ✔ 2-year product warranty<br> ✔ Shipping within 1-3 business days<br> <\/strong><\/p>"
+          }
+        },
+        "1b370d87-dc5d-4543-9d77-f13819048017": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "{{product.metafields.my_fields.shorttext}}"
+          }
+        }
+      },
+      "block_order": [
+        "07813eaa-5970-452a-a0ff-49ba5d862d01",
+        "variant_picker",
+        "quantity_selector",
+        "2fcb8ac0-fa94-4b27-9983-336bbb5d8691",
+        "e32409ba-7fc6-4253-b698-ca0f104317d3",
+        "8db99329-c04c-4c6b-80e6-59a5da1ca149",
+        "buy_buttons",
+        "938acdbc-51b6-451b-8196-bba8eb14dfb8",
+        "0f988c3c-f124-466a-a3b5-deaac0f538f8",
+        "1b370d87-dc5d-4543-9d77-f13819048017"
+      ],
+      "custom_css": [
+        ".product:not(.product--featured) {margin-bottom: 10px;}"
+      ],
+      "settings": {
+        "show_vendor": false,
+        "show_sku": true,
+        "show_taxes_included": true,
+        "show_product_rating": true,
+        "show_sticky_add_to_cart": true,
+        "show_share_buttons": false,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "fade"
+      }
+    },
+    "7d189bc0-ba68-4557-a0fa-7e59b2801cc7": {
+      "type": "rich-text",
+      "custom_css": [
+        ".vertical-breather {padding-top: 25px; padding-bottom: 15px;}"
+      ],
+      "settings": {
+        "subheading": "{{ product.metafields.custom.produkt_ups_sub.value }}",
+        "title": "",
+        "content": "<p>{{ product.metafields.custom.produkt_usp | metafield_tag }}<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "left",
+        "text_alignment": "left",
+        "background": "{{ product.metafields.custom.produkt_usp_colour.value }}",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "product-content": {
+      "type": "product-content",
+      "blocks": {
+        "bfc0cd16-0c78-4e90-9da8-a5de82ef4a12": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "title": "about",
+            "content": "<p>{{ product.metafields.my_fields.c5softtext1 | metafield_tag }}<br\/><br\/>{{ product.metafields.my_fields.c5softtext2 | metafield_tag }}<br\/><br\/>{{ product.metafields.my_fields.c5softtext3 | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "8ab25f01-b1af-48a8-a6a1-d4f3467bdf53": {
+          "type": "content",
+          "settings": {
+            "title": "Good to know",
+            "content": "<p><strong>I'm made of:<\/strong><\/p><p>{{ product.metafields.my_fields.c5material.value }}<\/p><p>{{ product.metafields.my_fields.c5environment.value }}<\/p><p><strong>I'm this big:<\/strong><\/p><p>{{ product.metafields.my_fields.c5size.value }}<\/p><p>{{ product.metafields.my_fields.c5capacity.value }}<\/p><p><strong>How to care for me:<\/strong><\/p><p>{{ product.metafields.my_fields.c5care.value }}<\/p>",
+            "page": ""
+          }
+        },
+        "b8d3ca73-5051-4bf0-b79e-d114a22b025f": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "title": "Material",
+            "content": "<p><strong>I'm made of:<\/strong><br\/>{{ product.metafields.my_fields.c5material.value }}<br\/><br\/><strong>I'm friendly:<\/strong><br\/>{{ product.metafields.my_fields.c5environment.value }}<\/p>",
+            "page": ""
+          }
+        },
+        "552cd99e-5c4a-49e4-b8f5-594ec9b411f4": {
+          "type": "content",
+          "settings": {
+            "title": "safety stuff",
+            "content": "<p>All Done by Deer products are tested to comply with strict European standards and are therefore perfectly safe for kids to use.<br><\/p><p><strong>I've passed the test:<\/strong> <br> {{ product.metafields.my_fields.c5safety.value }}<br><br><\/p>",
+            "page": ""
+          }
+        },
+        "96a62f45-da49-4e07-919b-121d6b22b0b3": {
+          "type": "content",
+          "settings": {
+            "title": "Size guide",
+            "content": "",
+            "page": "{{ product.metafields.my_fields.sizeguide.value }}"
+          }
+        },
+        "d8193bdc-2588-46f9-a5d4-22eef5457f0a": {
+          "type": "featured_products",
+          "settings": {
+            "title": "My perfect match",
+            "products_count": 20,
+            "show_cta": true,
+            "products_per_row": 3
+          }
+        },
+        "6de060a1-e592-416a-bc3c-5a5b6629506a": {
+          "type": "reviews",
+          "settings": {}
+        },
+        "29022c68-3989-40e8-913d-afbfc598162d": {
+          "type": "trust",
+          "settings": {
+            "icon_1": "picto-DbD-delievery",
+            "title_1": "Shipping 1-3 days",
+            "content_1": "<p>Our warehouse strives to ship all orders within 1-3 business days.<br\/><\/p><p>Shipping rates:<\/p><p><strong>Denmark and Sweden<\/strong>: 39 DKK (free shipping above 499 DKK)<\/p><p><strong>Austria, Belgium, Finland, France, Germany, Netherlands, Portugal and Spain<\/strong>: 8 EUR (free shipping above 79 EUR)<\/p><p><br\/>Find more info on shipping <a href=\"\/pages\/shipping-returns\" title=\"shipping & returns\">here<\/a>.<br\/><br\/><br\/><strong>My country is not on on the list<\/strong><br\/>If your country is not on the list, please use our <a href=\"https:\/\/donebydeer.com\/pages\/store-locator \" title=\"https:\/\/donebydeer.com\/pages\/store-locator \">Store locator to find a local store or webshop.<\/a><\/p>",
+            "icon_2": "picto-DbD-payment",
+            "title_2": "Safe payment",
+            "content_2": "<p>We accept online payments with:<br\/>· Visa<br\/>· Dankort (Denmark)<br\/>· Mastercard<br\/>· American Express<br\/>· Maestro<br\/>· Bancontact (Belgium)<br\/>· iDEAL (the Netherlands)<br\/>· Apple pay <br\/>· Google Pay <br\/><br\/>Your payment information is processed securely. <br\/><br\/>We do not store credit card details nor have access to your credit card information.<\/p>",
+            "icon_3": "picto-DbD-return",
+            "title_3": "365 days full return",
+            "content_3": "<p>You have 365 days full return on unused items in original packaging when you shop at donebydeer.com.<\/p><p><\/p><p>Find more info on returns <a href=\"\/pages\/shipping-returns\" title=\"shipping & returns\">here<\/a>.<\/p>"
+          }
+        },
+        "c49010b3-6060-4d9b-a378-21b15a889d14": {
+          "type": "content",
+          "settings": {
+            "title": "",
+            "content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "bfc0cd16-0c78-4e90-9da8-a5de82ef4a12",
+        "description",
+        "8ab25f01-b1af-48a8-a6a1-d4f3467bdf53",
+        "b8d3ca73-5051-4bf0-b79e-d114a22b025f",
+        "552cd99e-5c4a-49e4-b8f5-594ec9b411f4",
+        "96a62f45-da49-4e07-919b-121d6b22b0b3",
+        "d8193bdc-2588-46f9-a5d4-22eef5457f0a",
+        "6de060a1-e592-416a-bc3c-5a5b6629506a",
+        "29022c68-3989-40e8-913d-afbfc598162d",
+        "c49010b3-6060-4d9b-a378-21b15a889d14"
+      ],
+      "settings": {}
+    },
+    "1648715139ff690474": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>- natural anti-slip & easy-grip<br\/>- microware, oven, frezer & dishwasher safe<br\/>- durable & unbreakable - perfect for kids!<br\/>- long lasting & recyclable<br\/><br\/>Our silicone kids tableware is soft, durable and practical – and with<br\/>playful designs it is both fun and safe for kids to use during mealtime. <br\/><\/p><p>We take advantage of the natural and practical silicone features in our designs.<br\/>Silicone has natural anti-slip, which stops the tableware from moving across<br\/>the table and makes a silicone placemat a perfect mealtime accessory. A clever<br\/>suction base makes sure our Stick & Stay plates and bowls stay put on most<br\/>smooth surfaces, preventing little ones from tipping or throwing them.<br\/><\/p><p>The easy-grip quality makes it easier for little ones to hold on to cups<br\/>and makes our cutlery sets perfect tools when learning to self-feed.<br\/><\/p><p>Silicone is easy to clean and resistant to high and low temperatures which makes our<br\/>silicone tableware suitable for use in the microwave oven, oven, freezer and dishwasher.<br\/><\/p><p>All Done by Deer silicone tableware is produced from 100% virgin food grade silicone<br\/>– free of BPA, phthalates and other harmful substances – and complies with<br\/><br\/>the European food standards as well as FDA, LFGB and ASTM.<br\/><\/p><p>Our silicone tableware has proven to be an everyday favourite.<br\/><br\/><\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "fill",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "164871499475ef92d0": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "subheading": "Your subheading",
+        "title": "Your title",
+        "html": "<p style=\"text-align: center\"><\/p><p><\/p><li>natural<\/li><p><\/p>\n<li>natural<\/li><p><\/p>\n<li>natural<\/li><p><\/p>\n<li>natural<\/li><p><\/p>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "subheading": "Like this? Try these...",
+        "title": "",
+        "recommendations_count": 4,
+        "background": "{{ product.metafields.my_fields.uicolor.value }}",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1650015051d4b253ec": {
+      "type": "image-with-text-custom",
+      "blocks": {
+        "635d7306-000a-4fba-80d1-2c0ebe4c94b6": {
+          "type": "usp",
+          "settings": {
+            "top-icon": "DbD-silicone.svg",
+            "usp": "microwave, oven & freezer safe"
+          }
+        },
+        "6edc9559-8801-4748-831c-dfb03c2f468d": {
+          "type": "usp",
+          "settings": {
+            "top-icon": "DbD-silicone.svg",
+            "usp": "natural anti-slip & easy-grip"
+          }
+        },
+        "a5b9fd5c-d33f-4f7e-9f73-3fa356a91d93": {
+          "type": "usp",
+          "settings": {
+            "top-icon": "DbD-silicone.svg",
+            "usp": "durable & unbreakable – perfect for kids!"
+          }
+        },
+        "db6e2f59-fedd-40ab-b587-10e447a31226": {
+          "type": "usp",
+          "settings": {
+            "top-icon": "DbD-silicone.svg",
+            "usp": "long lasting & recyclable"
+          }
+        },
+        "56cbc60e-c5ef-4a6d-aa1a-673f772f4bec": {
+          "type": "usp",
+          "settings": {
+            "top-icon": "DbD-silicone.svg",
+            "usp": "free of BPA, phtalates and other harmful substances"
+          }
+        },
+        "4ad50fe4-a4ef-473a-8007-7ae22aa12e63": {
+          "type": "icon",
+          "settings": {
+            "default_logo_svg": "DbD-silicone-microwave.svg",
+            "icon-bg": "#ede2dd",
+            "icon-border-radius": "50%"
+          }
+        },
+        "015f691d-aac9-4635-9f7d-6d7202f51f8e": {
+          "type": "icon",
+          "settings": {
+            "default_logo_svg": "DbD-silicone-oven.svg",
+            "icon-bg": "#ede2dd",
+            "icon-border-radius": "50%"
+          }
+        },
+        "13539b25-65ec-4d50-a1a1-88b4665d8c0c": {
+          "type": "icon",
+          "settings": {
+            "default_logo_svg": "DbD-silicone-freezer.svg",
+            "icon-bg": "#ede2dd",
+            "icon-border-radius": "50%"
+          }
+        },
+        "0e1e8e40-e3b8-4a13-a92e-1ff4b18fb9c6": {
+          "type": "icon",
+          "settings": {
+            "default_logo_svg": "DbD-silicone-dishwasher.svg",
+            "icon-bg": "#ede2dd",
+            "icon-border-radius": "50%"
+          }
+        },
+        "cc2c4361-6c2b-4718-8a76-3bd30e7e7830": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Stick-and-Stay-dinner-set-Deer-friends-Colour-mix-5-LS_700x_6fc6baaa-ee1d-4945-a646-530e3bec9aad.webp",
+            "subheading": "",
+            "title": "natural anti-slip and easy-grip",
+            "content": "<p>Our silicone kids tableware is soft, durable and practical – and with playful designs it is both fun and safe for kids to use during mealtime.<\/p><p>We take advantage of the natural and practical silicone features in our designs. Silicone has natural anti-slip, which stops the tableware from moving across the table and makes a silicone placemat a perfect mealtime accessory. A clever suction base makes sure our Stick & Stay plates and bowls stay put on most smooth surfaces, preventing little ones from tipping or throwing them.<\/p><p>The easy-grip quality makes<br\/>it easier for little ones to hold on to cups and makes our cutlery sets perfect tools when learning to self-feed.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "d978834a-1736-496f-a99b-e5d70de32cf5": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1719844_2-hxcab3.jpg",
+            "subheading": "",
+            "title": "resistant to high & low temperatures",
+            "content": "<p>Silicone is easy to clean and resistant to high and low temperatures, which makes our silicone tableware suitable for use in the microwave oven, oven, freezer and dishwasher.<br\/><\/p><p>All Done by Deer silicone tableware is produced from 100% virgin food grade silicone – free of BPA, phthalates and other harmful substances – and complies with the European food standards as well as FDA, LFGB and ASTM.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "635d7306-000a-4fba-80d1-2c0ebe4c94b6",
+        "6edc9559-8801-4748-831c-dfb03c2f468d",
+        "a5b9fd5c-d33f-4f7e-9f73-3fa356a91d93",
+        "db6e2f59-fedd-40ab-b587-10e447a31226",
+        "56cbc60e-c5ef-4a6d-aa1a-673f772f4bec",
+        "4ad50fe4-a4ef-473a-8007-7ae22aa12e63",
+        "015f691d-aac9-4635-9f7d-6d7202f51f8e",
+        "13539b25-65ec-4d50-a1a1-88b4665d8c0c",
+        "0e1e8e40-e3b8-4a13-a92e-1ff4b18fb9c6",
+        "cc2c4361-6c2b-4718-8a76-3bd30e7e7830",
+        "d978834a-1736-496f-a99b-e5d70de32cf5"
+      ],
+      "settings": {
+        "main-heading": "silicone tableware",
+        "sub-heading": "practical, durable & safe",
+        "reveal_on_scroll": true,
+        "top-icon-width": 30,
+        "section-bg": "#f1e8e4",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "text-color": "#8b6f70",
+        "button-bg-color": "#eae1dd",
+        "button_text_color": "#8b6f70",
+        "slide-dot": "#eae1dd",
+        "slide-dot-active": "#8b6f70"
+      }
+    },
+    "165001518545833f37": {
+      "type": "image-with-text-custom-2",
+      "blocks": {
+        "3d69d911-c8e4-4f64-97d8-a6c372bfd306": {
+          "type": "usp",
+          "settings": {
+            "top-icon": "DbD-kiddish.svg",
+            "title": "designed & made in Denmark"
+          }
+        },
+        "291cad2e-b030-425b-9807-a7f4c7ecc436": {
+          "type": "usp",
+          "settings": {
+            "top-icon": "DbD-kiddish.svg",
+            "title": "free of BPA, phthalates and other harmful substances"
+          }
+        },
+        "7c640066-b553-41c6-8239-b1187524cb92": {
+          "type": "usp",
+          "settings": {
+            "top-icon": "DbD-kiddish.svg",
+            "title": "can be recycled & made into new products"
+          }
+        },
+        "ee3db4ad-ba35-4ab3-a2ac-31cc3d3b6640": {
+          "type": "usp",
+          "settings": {
+            "top-icon": "DbD-kiddish.svg",
+            "title": "strong & durable - perfect for kids!"
+          }
+        },
+        "5e69dcec-8ebe-4129-905a-cb2cbb11ee9b": {
+          "type": "usp",
+          "settings": {
+            "top-icon": "DbD-kiddish.svg",
+            "title": "dishwasher & microwave safe"
+          }
+        },
+        "a9002bba-9fde-4b19-bcaf-6f26f69bb2e5": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Kiddish-plate-Elphee-Powder-3-LS_700x_8c0a9951-a9dc-4ea5-ad14-52d5a630f772.webp",
+            "subheading": "",
+            "title": "gravity tested by toddlers",
+            "content": "<p>The Kiddish series is made in Denmark with raw materials sourced from Scandinavia. With the production set so close to our warehouse, we ensure a good and friendly journey for our products.<\/p><p>Happy colours define the Kiddish collection and the tableware is designed to be practical, safe and fun for kids to use. Kiddish tableware can be used in the microwave oven, is dishwasher safe and will survive any gravity testing by a toddler.<\/p><p><\/p>",
+            "button_text": "",
+            "button_link": "shopify:\/\/pages\/meet-the-sea-friends"
+          }
+        },
+        "ff84bf32-4da2-44ee-8f44-8a4c43c72c2a": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Kiddish-mini-mug-2-pack-Croco-Blue-3-LS_700x_6ec067de-a254-47e9-a8bc-30e41db670d1.webp",
+            "subheading": "",
+            "title": "free from harmful substances",
+            "content": "<p>Kiddish is made in durable Polypropylene (PP) - free of BPA, phthalates and other harmful substances. This makes the tableware a perfect choice for kids. After countless family meals, fun parties and picnics, the Kiddish items can be recycled to produce new daily life products such as furniture, sneakers or fibers for making clothing - a thought we really like!<\/p>",
+            "button_text": "",
+            "button_link": "shopify:\/\/collections\/kiddish-tableware"
+          }
+        },
+        "d8f48356-74e7-4518-a811-d7b3f3c4328d": {
+          "type": "icon",
+          "settings": {
+            "default_logo_svg": "blue-vector-microwave.svg",
+            "icon-bg": "#e0e9e7",
+            "icon-border-radius": "50%"
+          }
+        },
+        "68040f4c-4898-4c18-890a-57e598c0a065": {
+          "type": "icon",
+          "settings": {
+            "default_logo_svg": "blue-vector-dishwasher.svg",
+            "icon-bg": "#e0e9e7",
+            "icon-border-radius": "50%"
+          }
+        },
+        "8aa55131-9787-4b46-b7d1-c447f4f15786": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "default_logo_svg": "",
+            "icon-bg": "",
+            "icon-border-radius": "8px"
+          }
+        },
+        "0d414bda-fafc-481d-af40-d2ec848252b8": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "default_logo_svg": "",
+            "icon-bg": "",
+            "icon-border-radius": "8px"
+          }
+        }
+      },
+      "block_order": [
+        "3d69d911-c8e4-4f64-97d8-a6c372bfd306",
+        "291cad2e-b030-425b-9807-a7f4c7ecc436",
+        "7c640066-b553-41c6-8239-b1187524cb92",
+        "ee3db4ad-ba35-4ab3-a2ac-31cc3d3b6640",
+        "5e69dcec-8ebe-4129-905a-cb2cbb11ee9b",
+        "a9002bba-9fde-4b19-bcaf-6f26f69bb2e5",
+        "ff84bf32-4da2-44ee-8f44-8a4c43c72c2a",
+        "d8f48356-74e7-4518-a811-d7b3f3c4328d",
+        "68040f4c-4898-4c18-890a-57e598c0a065",
+        "8aa55131-9787-4b46-b7d1-c447f4f15786",
+        "0d414bda-fafc-481d-af40-d2ec848252b8"
+      ],
+      "settings": {
+        "main-heading": "kiddish tableware",
+        "sub-heading": "fun, durable & safe",
+        "reveal_on_scroll": true,
+        "top-icon-width": 30,
+        "section-bg": "#f0f4f3",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "text-color": "#648589",
+        "button-bg-color": "",
+        "button_text_color": "",
+        "slide-dot": "#e0e9e7",
+        "slide-dot-active": "#648589"
+      }
+    },
+    "1663314429521a3525": {
+      "type": "image-with-text-custom-6",
+      "blocks": {
+        "1dce3281-cf76-4877-9abc-c96d10676af8": {
+          "type": "usp",
+          "settings": {
+            "top-icon": "DbD-kiddish.svg",
+            "title": "designed & made in Denmark"
+          }
+        },
+        "28f0cc89-5b28-41bd-9642-f46c6ed683c3": {
+          "type": "usp",
+          "settings": {
+            "top-icon": "DbD-kiddish.svg",
+            "title": "free of BPA, phthalates and other harmful substances"
+          }
+        },
+        "37004054-018d-4740-8422-73bf342b57f0": {
+          "type": "usp",
+          "settings": {
+            "top-icon": "DbD-kiddish.svg",
+            "title": "can be recycled & made into new products"
+          }
+        },
+        "e47af38c-3262-4865-b3b0-4ba5841f204b": {
+          "type": "usp",
+          "settings": {
+            "top-icon": "DbD-kiddish.svg",
+            "title": "strong & durable - perfect for kids!"
+          }
+        },
+        "954cf09a-3bff-4c35-9116-ee625d7128ad": {
+          "type": "usp",
+          "settings": {
+            "top-icon": "DbD-kiddish.svg",
+            "title": "dishwasher safe"
+          }
+        },
+        "c5c14a71-03c6-4e87-992f-02dc3746e2f2": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/header_kiddish_1000x1000_d9f27972-416b-4413-b98f-6a4218c47d20.jpg",
+            "subheading": "",
+            "title": "gravity tested by toddlers",
+            "content": "<p>The Kiddish series is made in Denmark with raw materials sourced from Scandinavia. With the production set so close to our warehouse, we ensure a good and friendly journey for our products.<\/p><p>Happy colours define the Kiddish collection and the tableware is designed to be practical, safe and fun for kids to use. Kiddish tableware can be used in the microwave oven, is dishwasher safe and will survive any gravity testing by a toddler.<\/p><p><\/p>",
+            "button_text": "",
+            "button_link": "shopify:\/\/pages\/meet-the-sea-friends"
+          }
+        },
+        "167d45fc-9534-4431-bc2a-d2f76c1e1051": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Kiddish-mini-mug-2-pack-Croco-Blue-3-LS_700x_6ec067de-a254-47e9-a8bc-30e41db670d1.webp",
+            "subheading": "",
+            "title": "free from harmful substances",
+            "content": "<p>Kiddish is made in durable Polypropylene (PP) - free of BPA, phthalates and other harmful substances. This makes the tableware a perfect choice for kids. After countless family meals, fun parties and picnics, the Kiddish items can be recycled to produce new daily life products such as furniture, sneakers or fibers for making clothing - a thought we really like!<\/p>",
+            "button_text": "",
+            "button_link": "shopify:\/\/collections\/kiddish-tableware"
+          }
+        },
+        "31627bd6-76fc-4d1d-a05f-28d77989ad3a": {
+          "type": "icon",
+          "settings": {
+            "default_logo_svg": "blue-vector-dishwasher.svg",
+            "icon-bg": "#e0e9e7",
+            "icon-border-radius": "50%"
+          }
+        }
+      },
+      "block_order": [
+        "1dce3281-cf76-4877-9abc-c96d10676af8",
+        "28f0cc89-5b28-41bd-9642-f46c6ed683c3",
+        "37004054-018d-4740-8422-73bf342b57f0",
+        "e47af38c-3262-4865-b3b0-4ba5841f204b",
+        "954cf09a-3bff-4c35-9116-ee625d7128ad",
+        "c5c14a71-03c6-4e87-992f-02dc3746e2f2",
+        "167d45fc-9534-4431-bc2a-d2f76c1e1051",
+        "31627bd6-76fc-4d1d-a05f-28d77989ad3a"
+      ],
+      "settings": {
+        "main-heading": "kiddish tableware",
+        "sub-heading": "fun, durable & safe",
+        "reveal_on_scroll": true,
+        "top-icon-width": 30,
+        "section-bg": "#f0f4f3",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "text-color": "#648589",
+        "button-bg-color": "",
+        "button_text_color": "",
+        "slide-dot": "#e0e9e7",
+        "slide-dot-active": "#648589"
+      }
+    },
+    "16500151924b155878": {
+      "type": "image-with-text-custom-3",
+      "blocks": {
+        "d5b3e2ab-2a3f-40e6-992f-95b9adcc4a36": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/oeko-tex_1400x1400_sizeguide_background.jpg",
+            "subheading": "",
+            "title": "confidence in textiles",
+            "content": "<p>As a minimum, our sleepy and care textiles are certified according to STANDARD 100 Class 1 by OEKO-TEX®.<br\/><br\/>All parts (i.e. fabric, thread, zippers, filling, tags and prints) of an OEKO-TEX® certified product are tested for toxic substances, so you can trust the product is harmless for you and your little one’s health.*<\/p><p><\/p><p><em>* Products for babies and toddlers belong to product Class 1, which has the strictest criteria. Every 12 months the certification must be renewed to assure that products continue to meet the yearly updated limit values and requirements.<\/em><\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "d5b3e2ab-2a3f-40e6-992f-95b9adcc4a36"
+      ],
+      "settings": {
+        "main-heading": "OEKO-TEX certified",
+        "sub-heading": "",
+        "reveal_on_scroll": true,
+        "top-icon-width": 30,
+        "section-bg": "#e0e3dd",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "text-color": "#5a6b60",
+        "button-bg-color": "",
+        "button_text_color": "",
+        "slide-dot": "",
+        "slide-dot-active": ""
+      }
+    },
+    "1651119377ef04f401": {
+      "type": "image-with-text-custom-5",
+      "blocks": {
+        "fc685338-9249-48d0-8890-2ebbc406f4f4": {
+          "type": "usp",
+          "settings": {
+            "top-icon": "DbD-pet.svg",
+            "usp": "our bags are made of recycled PET bottles"
+          }
+        },
+        "852c81a0-61c4-4cf0-b557-f50b54551d35": {
+          "type": "usp",
+          "settings": {
+            "top-icon": "DbD-pet.svg",
+            "usp": "all backpacks have waterproof surface and zippers"
+          }
+        },
+        "f11e996b-ae3a-42e0-8ce2-24eed02603c3": {
+          "type": "usp",
+          "settings": {
+            "top-icon": "DbD-pet.svg",
+            "usp": "all kids backpacks have a reflective Elphee print"
+          }
+        },
+        "31f888c3-da16-43d3-9a04-0173bf4b4de8": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/recycle.jpg",
+            "subheading": "",
+            "title": "recycled bags",
+            "content": "<p>In making our bags, we use up to 38 recycled PET bottles. <br\/><br\/>The bottles are shredded into small pieces, and after a thorough cleaning the flakes are transferred into pellets that are spun into yarn. <br\/><br\/>This yarn is used for making polyester fabric for our bags.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "64ebff4f-3803-468b-b839-ab4c21214dce": {
+          "type": "icon",
+          "settings": {
+            "default_logo_svg": "DbD-green-vector-waterproofv2.svg",
+            "icon-bg": "#eceeeb",
+            "icon-border-radius": "50%"
+          }
+        },
+        "bf52fca6-7a88-4591-80c6-276efc56f881": {
+          "type": "icon",
+          "settings": {
+            "default_logo_svg": "DbD-green-vector-bottlesv2.svg",
+            "icon-bg": "#eceeeb",
+            "icon-border-radius": "50%"
+          }
+        },
+        "b33b26ec-8bec-4369-8e37-dfa256db2c54": {
+          "type": "icon",
+          "settings": {
+            "default_logo_svg": "DbD-green-vector-reflectivev2.svg",
+            "icon-bg": "#eceeeb",
+            "icon-border-radius": "50%"
+          }
+        }
+      },
+      "block_order": [
+        "fc685338-9249-48d0-8890-2ebbc406f4f4",
+        "852c81a0-61c4-4cf0-b557-f50b54551d35",
+        "f11e996b-ae3a-42e0-8ce2-24eed02603c3",
+        "31f888c3-da16-43d3-9a04-0173bf4b4de8",
+        "64ebff4f-3803-468b-b839-ab4c21214dce",
+        "bf52fca6-7a88-4591-80c6-276efc56f881",
+        "b33b26ec-8bec-4369-8e37-dfa256db2c54"
+      ],
+      "settings": {
+        "main-heading": "from bottle to backpack",
+        "sub-heading": "",
+        "reveal_on_scroll": true,
+        "top-icon-width": 30,
+        "section-bg": "#e0e3dd",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "text-color": "#5a6b60",
+        "button-bg-color": "",
+        "button_text_color": "",
+        "slide-dot": "",
+        "slide-dot-active": ""
+      }
+    },
+    "165113419077a99ebc": {
+      "type": "image-with-text-custom-4",
+      "blocks": {
+        "fae0862c-6615-422e-aa70-3119e748b4bd": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gots_1400x1400_a32e350f-e7ec-49a7-9060-2d53f9a68a94.jpg",
+            "subheading": "",
+            "title": "100% friendly textiles",
+            "content": "<p>We continue to produce more and more of our cozy textiles in GOTS certified organic cotton. The certificate is your guarantee that our textiles are produced 100% friendly throughout our whole supply chain.<\/p><p><br\/>Our GOTS products are made of organic fibres and meet the strict standard for ecological and socially responsible production.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "fae0862c-6615-422e-aa70-3119e748b4bd"
+      ],
+      "settings": {
+        "main-heading": "GOTS",
+        "sub-heading": "global organic textile standard",
+        "reveal_on_scroll": true,
+        "top-icon-width": 30,
+        "section-bg": "#e0e3dd",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "text-color": "#5a6b60",
+        "button-bg-color": "",
+        "button_text_color": "",
+        "slide-dot": "",
+        "slide-dot-active": ""
+      }
+    },
+    "1648204301f8a06e23": {
+      "type": "recently-viewed-products",
+      "settings": {
+        "subheading": "remember these?",
+        "title": "",
+        "products_count": 4,
+        "background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16539870392e25ae1d": {
+      "type": "image-with-text-block",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/changing-mat-confetti-sand_30.jpg",
+        "subheading": "know your materials",
+        "title": "waterproof or water-repellent?",
+        "content": "<p><strong>waterproof surface<\/strong> - water cannot penetrate the surface. It's easy to wipe clean with a cloth.<\/p><p><strong>water-repellent surface <\/strong>- the soft coating provides a good resistance towards liquid in moderate amounts.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "left",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1653987182a7485e8f": {
+      "type": "image-with-text",
+      "blocks": {
+        "1653987182f2a4c3a8-0": {
+          "type": "item",
+          "settings": {
+            "tab_label": "Item",
+            "subheading": "know your materials",
+            "title": "waterproof or water-repellent?",
+            "content": "<p><strong>waterproof surface<\/strong> - water cannot penetrate the surface. It's easy to wipe clean with a cloth.<\/p><p><strong>water-repellent surface <\/strong>- the soft coating provides a good resistance towards liquid in moderate amounts<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "3d697fa0-8069-455f-88cc-1908b356d107": {
+          "type": "item",
+          "settings": {
+            "tab_label": "Item",
+            "subheading": "Subheading",
+            "title": "Image with text",
+            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1653987182f2a4c3a8-0",
+        "3d697fa0-8069-455f-88cc-1908b356d107"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "1648878611fe56b87b",
+    "main",
+    "7d189bc0-ba68-4557-a0fa-7e59b2801cc7",
+    "product-content",
+    "1648715139ff690474",
+    "164871499475ef92d0",
+    "product-recommendations",
+    "1650015051d4b253ec",
+    "165001518545833f37",
+    "1663314429521a3525",
+    "16500151924b155878",
+    "1651119377ef04f401",
+    "165113419077a99ebc",
+    "1648204301f8a06e23",
+    "16539870392e25ae1d",
+    "1653987182a7485e8f"
+  ]
+}

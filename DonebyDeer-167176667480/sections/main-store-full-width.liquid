@@ -1,0 +1,123 @@
+{{ 'webshop_urls.js' | file_url | script_tag }} 
+<section>
+    <div class="container">
+        <div class="region-tab-menu">
+            <ul class="tabs">
+                <li class="tab-link current shopify-payment-button__button shopify-payment-button__button--unbranded" data-tab="storerocket-widget">{{section.settings.tab1}}</li>
+                <li class="tab-link product-form__add-button button button--secondary button--full" data-tab="tab-content-country-store" >{{section.settings.tab2}}</li>
+            </ul>
+        </div>
+      </div>
+   <div class="section-store-full-width">
+        <div class="tab-content-a current storerocket-widget">
+        {{- page.content -}}
+        </div>
+      </div>
+         
+    
+            <div class="tab-content-country-store tab-container tab-content-a">
+				<div class="tab-navigation">              
+					<div id="languageSelector"></div>
+                  {%- render 'icon' with 'chevron' -%}
+              	</div>             
+                    <div  class="tab-content">
+						<div id="languageTable"></div> 
+                    </div>  
+            </div>   
+    
+  </section>
+  
+  <script>
+	var x = "{{section.settings.opt-text}}";
+	function change_myselect(sel) {
+		text = "<table border='1'>"
+		for (let i = 0; i < webshop_urls.length; i++) {
+			const cc = webshop_urls[i];
+		
+			if (cc.CountryCode == sel ) {
+				for (let j = 0; j < cc.Webshops.length; j++) {
+					const w = cc.Webshops[j];
+					text += "<tr><td><a href='" + w.Url + "' target='_blank'>" + w.Name + "</a></td></tr>";
+				}
+				break;
+			}			
+		}
+		text += "</table>"    
+		document.getElementById("languageTable").innerHTML = text;
+	}
+	
+	selector_text = "<select id='myselect' onchange='change_myselect(this.value)'>";
+	selector_text += "<option value=''>" + x + "</option>"
+	for (let i = 0; i < webshop_urls.length; i++) {
+		const cc = webshop_urls[i];
+		selector_text += "<option value='" + cc.CountryCode + "'>" + cc.Country + "</option>"
+	}
+	selector_text += "</select>"    
+	document.getElementById("languageSelector").innerHTML = selector_text;
+	
+	</script>
+
+  {% schema %}
+  {
+    "name": "Store Locator setion",
+    "settings": [     
+      {
+        "type": "select",
+        "id": "page_width",
+        "label": "Page width",
+        "options": [
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          },
+          {
+            "value": "large",
+            "label": "Large"
+          }
+        ],
+        "default": "medium"
+      },
+      {
+        "type": "text",
+        "id": "tab1",
+        "label":"Tab 1 name",
+        "default":"Stores"  
+      },
+      {
+        "type": "text",
+        "id": "tab2",
+        "label":"Tab 2 name",
+        "default":"Webshops"  
+      },
+      {
+        "type": "text",
+        "id": "opt-text",
+        "label":"Option text",
+        "default":"Choose the language"  
+      }
+    ]
+  
+  }
+  {% endschema %}
+
+
+
+<script>
+    $(document).ready(function(){       
+     $('ul.tabs li').click(function(){
+         var tab_id = $(this).attr('data-tab');
+ 
+         $('ul.tabs li').removeClass('current');
+         $('.tab-content-a').removeClass('current');
+ 
+         $(this).addClass('current');
+         $("."+tab_id).addClass('current');
+     })
+ })
+</script>
+
+

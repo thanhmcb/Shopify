@@ -1,0 +1,609 @@
+{
+  "404": {
+    "general": {
+      "title": "Oh Deer!",
+      "description": "We have lost the page you were looking for.",
+      "back_to_home": "Back to home"
+    }
+  },
+  "general": {
+    "meta": {
+      "page": "Page {{ page }}"
+    },
+    "label": {
+      "color": "Color,Colour,deer friend",
+      "white": "White",
+      "size": "Size"
+    },
+    "breadcrumb": {
+      "title": "Breadcrumb",
+      "home": "Home"
+    },
+    "pagination": {
+      "previous_page": "Previous",
+      "next_page": "Next",
+      "go_to_page": "Navigate to page {{page}}"
+    },
+    "accessibility": {
+      "skip_to_content": "Skip to content",
+      "close": "Close",
+      "previous": "Previous",
+      "next": "Next",
+      "play_video": "Play video",
+      "go_to_slide": "Go to slide {{num}}",
+      "delete": "Delete",
+      "show_product": "Show product {{title}}",
+      "star_reviews_info": "{{ rating_value }} out of {{ rating_max }} stars"
+    },
+    "social": {
+      "facebook_share": "Share on Facebook",
+      "pinterest_pin": "Pin on Pinterest",
+      "twitter_tweet": "Tweet on Twitter",
+      "email_share": "Share by e-mail",
+      "email_label": "E-mail",
+      "follow_label": "Follow us on {{ social_media }}"
+    },
+    "newsletter": {
+      "email": "your e-mail",
+      "first_name": "first name",
+      "subscribe_legal_html": "By signing up I accept the <a href=\"\/pages\/privacy-policy\">privacy policy<\/a>. Consent can be withdrawn at any time.",
+      "subscribe": "Subscribe",
+      "success": "Yay! You have been subscribed to our friendly newsletter"
+    },
+    "faq": {
+      "categories": "Categories"
+    },
+    "onboarding": {
+      "blog_post_category": "Category",
+      "blog_post_title": "Article",
+      "product_vendor": "Vendor",
+      "product_title": "Product",
+      "product_description": "Write text about your product",
+      "collection_title": "Collection"
+    }
+  },
+  "header": {
+    "general": {
+      "navigation": "Navigation",
+      "newsletter": "Newsletter",
+      "login": "Login",
+      "account": "Account",
+      "cart": "Cart",
+      "language": "Language",
+      "country": "Country\/region"
+    }
+  },
+  "footer": {
+    "general": {
+      "language": "Language",
+      "country": "Country\/region",
+      "we_accept": "Safe payment with",
+      "footer_logo": "Copyright Done By Deer 2023 © All Right Reserved"
+    },
+    "newsletter": {
+      "email": "your e-mail",
+      "submit": "Sign up",
+      "success": "Elpheetastic! You are now registered to our friendly newsletter"
+    },
+    "cookie_bar": {
+      "accept": "Accept",
+      "decline": "Decline"
+    }
+  },
+  "cart": {
+    "general": {
+      "title": "Your cart",
+      "empty": "Oh Deer! Your cart is empty",
+      "start_shopping": "Find new favourites >",
+      "free_shipping": "Hooray! You get FREE shipping!",
+      "free_shipping_gift_card_html": "Your gift card will be sent to  {{ gift_card_recipient }}",
+      "no_recipient": "your email",
+      "free_shipping_mix": "Want your gift card now? Place a separate order for the gift card.",
+      "free_shipping_remaining_html": "FREE shipping is only {{ remaining_amount }} away!",
+      "free_shipping_announcement_html": "FREE shipping on orders over {{ free_shipping_amount }}",
+      "free": "Free!",
+      "no_more_stock": "No more stock",
+      "shipping_tax_note": "",
+      "product": "Product",
+      "quantity": "Quantity",
+      "decrease_quantity": "Decrease quantity",
+      "increase_quantity": "Increase quantity",
+      "change_quantity": "Change quantity",
+      "remove": "Remove",
+      "order_note": "Order note",
+      "add_order_note": "Add order note",
+      "edit_order_note": "Edit order note",
+      "order_note_placeholder": "How can we help you?",
+      "order_note_save": "Save",
+      "total": "Total",
+      "checkout": "Checkout",
+      "go_to_cart": "Go to cart",
+      "we_accept": "Safe payment with",
+      "item_added": "Item added to your cart!",
+      "item_added_short": "Added to your cart!",
+      "view_cart": "View cart",
+      "cart_notification": "",
+      "item_count": {
+        "zero": "{{ count }} items",
+        "one": "{{ count }} item",
+        "other": "{{ count }} items"
+      }
+    },
+    "shipping_estimator": {
+      "estimate_shipping": "Estimate shipping",
+      "country": "Country",
+      "province": "Province",
+      "zip_code": "Zip code",
+      "submit": "Estimate",
+      "no_results": "Sorry, we don't ship to your address",
+      "one_result": "There is one shipping rate for your address:",
+      "multiple_results": "There are several shipping rates for your address:",
+      "error": "One or more error occurred while retrieving shipping rates:"
+    }
+  },
+  "collection": {
+    "general": {
+      "filters": "Filters",
+      "show_filters": "Show filters",
+      "all_products": "All products",
+      "view_results": "View results",
+      "apply_filters": "Apply filters",
+      "clear_filters": "Clear all",
+      "price_range_to": "to",
+      "price_filter_from": "From price",
+      "price_filter_to": "To price",
+      "price_filter": "{{min_price}} - {{max_price}}",
+      "no_results_title": "No results",
+      "no_results_label": "Sorry, your search did not yield any results",
+      "no_results_button": "Reset filters",
+      "empty_title": "Empty collection",
+      "empty_label": "This collection does not contain any products",
+      "empty_button": "Shop now",
+      "sort_by": "Sort by",
+      "products_count": {
+        "zero": "{{ count }} products",
+        "one": "{{ count }} product",
+        "other": "{{ count }} products"
+      }
+    },
+    "product": {
+      "sold_out": "Sold out",
+      "soldout_custom": "Sold out",
+      "coming_soon_custom": "Available in stores",
+      "in_stores_custom": "Available in stores",
+      "Sale_label_text": "-{{ savings }}",
+      "discount_html": "outlet",
+      "sale_label_percentage": "{{ savings }}",
+      "from_price_html": "From {{ price_min }}",
+      "add_to_cart": "Add to cart",
+      "add_to_cart_short": "Add to cart",
+      "view_detail": "View detail",
+      "quick_view": "Select size",
+      "available_colors_count": {
+        "one": "{{ count }} color available",
+        "other": "{{ count }} colors available"
+      }
+    }
+  },
+  "product": {
+    "general": {
+      "description": "Description",
+      "reviews": "Reviews",
+      "sku": "item no.",
+      "regular_price": "Regular price",
+      "sale_price": "Sale price",
+      "view_in_space": "View in your space",
+      "zoom": "Zoom",
+      "share": "Share with your friends:",
+      "size_chart": "Size chart",
+      "color": "Colour",
+      "color_custom": "Colour",
+      "soldout_custom": "Coming soon - notify me",
+      "coming_soon_custom": "Coming soon - notify me",
+      "in_stores_custom": "Coming soon - notify me",
+      "need_help": "Need help?",
+      "view_details": "View details",
+      "include_taxes": "VAT included.",
+      "shipping_policy_html": "",
+      "reviews_count": {
+        "zero": "Write a review",
+        "one": "{{ count }} review",
+        "other": "{{ count }} reviews"
+      },
+      "pagetitle_prefix": ""
+    },
+    "form": {
+      "choose_options": "Select size",
+      "quantity": "Quantity",
+      "variant": "Variant",
+      "unavailable": "Unavailable",
+      "pre_order": "Pre-order",
+      "add_to_cart": "Add me to cart",
+      "sold_out": "Sold out",
+      "in_stock": "In stock",
+      "oversell_stock": "Re-stocking soon",
+      "incoming_stock": "Re-stocking on {{ next_incoming_date }}",
+      "low_stock_with_quantity_count": {
+        "one": "Only {{count}} left",
+        "other": "Only {{count}} left"
+      },
+      "contact_us": "Contact us"
+    }
+  },
+  "store_availability": {
+    "general": {
+      "view_store_info": "View store information",
+      "check_other_stores": "Check availability at other stores",
+      "pick_up_available": "Pickup available",
+      "pick_up_currently_unavailable": "Pickup currently unavailable",
+      "pick_up_available_at": "Pickup available at {{ location_name }}",
+      "pick_up_unavailable_at": "Pickup currently unavailable at {{ location_name }}"
+    }
+  },
+  "list_collections": {
+    "general": {
+      "title": "Collections",
+      "empty": "This store does not contain any collection",
+      "back_to_home": "Back to home page",
+      "products_count": {
+        "zero": "No products",
+        "one": "{{count}} product",
+        "other": "{{count}} products"
+      }
+    }
+  },
+  "blog": {
+    "general": {
+      "empty": "Oh no, this blog has no articles",
+      "back_to_home": "Back to home",
+      "view": "View",
+      "all_posts": "All posts"
+    }
+  },
+  "article": {
+    "general": {
+      "written_by": "By {{ author }}",
+      "share": "Share with your friends",
+      "next": "Next",
+      "reading": "You're now reading",
+      "tags": "More like this",
+      "continue_reading": "Other great stuff for you to read",
+      "reading_time": {
+        "zero": "{{ count }} minutes",
+        "one": "{{ count }} minute",
+        "other": "{{ count }} minutes"
+      }
+    },
+    "comments": {
+      "leave_comment": "Leave a comment",
+      "moderated": "All comments are moderated before being published",
+      "name": "name",
+      "email": "e-mail",
+      "message": "message",
+      "submit": "Submit",
+      "comment_sent": "Your comment has been sent. It will be visible once the shop owner has accepted it!",
+      "comment_published": "Your comment has been published",
+      "comments_count": {
+        "zero": "{{ count }} comments",
+        "one": "{{ count }} comment",
+        "other": "{{ count }} comments"
+      }
+    }
+  },
+  "customer": {
+    "general": {
+      "title": "My account"
+    },
+    "login": {
+      "title": "Welcome Deer friend",
+      "instructions": "By logging into our universe you can save all your favourite products and share them with your Deer friends and family. You can find your previous orders, and we save your address for a fast and friendly checkout. Please log in with your e-mail and password:",
+      "email": "e-mail",
+      "password": "password",
+      "submit": "Login",
+      "forgot_password": "forgot password?",
+      "new_customer": "Don't have an account?",
+      "create_account": "Create an account"
+    },
+    "recover_password": {
+      "title": "Recover password",
+      "instructions": "Please enter your e-mail:",
+      "email": "e-mail",
+      "submit": "Recover",
+      "remember_password": "Remember your password?",
+      "back_to_login": "Back to login",
+      "success": "We've sent you an e-mail with instructions to recover your password"
+    },
+    "activate_account": {
+      "title": "Activate account",
+      "instructions": "Enter a password to create your account:",
+      "password": "password",
+      "password_confirmation": "password confirmation",
+      "submit": "Activate",
+      "cancel": "Cancel"
+    },
+    "reset_password": {
+      "title": "Reset password",
+      "instructions": "Enter a new password for your account:",
+      "password": "password",
+      "password_confirmation": "password confirmation",
+      "submit": "Reset"
+    },
+    "register": {
+      "title": "create an account",
+      "instructions": "With an account you can save and share your wishlist, you can easily find your previous orders and we'll save your address for a fast and friendly checkout. Come join us!",
+      "first_name": "first name",
+      "last_name": "last name",
+      "email": "e-mail",
+      "password": "password",
+      "submit": "Create account",
+      "already_have_account": "Already have an account?",
+      "login": "Login"
+    },
+    "orders": {
+      "title": "my orders",
+      "no_orders": "we're looking forward to receiving your first order",
+      "start_shopping": "Explore it all",
+      "back_to_orders": "Back to orders",
+      "number": "Order number",
+      "order_name": "Order {{name}}",
+      "date": "Date",
+      "payment_status": "Payment status",
+      "fulfillment_status": "Order status",
+      "view_details": "View order details",
+      "cancelled_at": "Cancelled at: {{date}}. Reason: {{reason}}",
+      "fulfillment_with_url_and_number_html": "All products have been sent on {{date}}. Track the shipment with number {{tracking_number}} or by <a href=\"{{tracking_url}}\" target=\"_blank\">clicking here<\/a>.",
+      "fulfillment_with_url_html": "All products have been sent on {{date}}. Track the shipment by <a href=\"{{tracking_url}}\" target=\"_blank\">clicking here<\/a>.",
+      "fulfillment_with_number_html": "All products have been sent on {{date}}. Track the shipment with number {{tracking_number}}.",
+      "fulfillment_html": "All products have been sent on {{date}}.",
+      "line_fulfillment_with_url_and_number_html": "This product has been sent on {{date}}. Track the shipment with number {{tracking_number}} or by <a href=\"{{tracking_url}}\" target=\"_blank\">clicking here<\/a>.",
+      "line_fulfillment_with_url_html": "This product has been sent on {{date}}. Track the shipment by <a href=\"{{tracking_url}}\" target=\"_blank\">clicking here<\/a>.",
+      "line_fulfillment_with_number_html": "This product has been sent on {{date}}. Track the shipment with number {{tracking_number}}.",
+      "line_fulfillment_html": "This product has been sent on {{date}}.",
+      "total": "Total",
+      "subtotal": "Subtotal",
+      "discount": "Discount",
+      "shipping": "Shipping",
+      "total_duties": "Duties",
+      "refunded_amount": "Refunded amount",
+      "tax_included": "VAT included",
+      "tax_excluded": "Tax excluded",
+      "quantity": "Quantity: {{quantity}}",
+      "shipping_address": "Shipping address",
+      "billing_address": "Billing address"
+    },
+    "addresses": {
+      "title": "my addresses",
+      "no_address": "You have not saved any addresses yet",
+      "add_new": "add a new address",
+      "edit": "edit",
+      "delete": "delete",
+      "delete_confirm": "Are you sure you wish to delete this address?",
+      "save": "save",
+      "default_address": "primary address",
+      "address_count": "secondary address",
+      "fill_address": "Please fill in the fields below:",
+      "first_name": "first name",
+      "last_name": "last name",
+      "company": " company (optional)",
+      "phone": "phone number",
+      "address1": "address 1",
+      "address2": "address 2",
+      "city": "city",
+      "zip": "zip code",
+      "country": "country",
+      "province": "province",
+      "set_default": "Set as primary address"
+    },
+    "logout": {
+      "title": "logout"
+    }
+  },
+  "search": {
+    "general": {
+      "title": "Search products, categories, blog posts and more...",
+      "terms": "What we found for \"{{terms}}\"",
+      "search_placeholder": "What are you looking for, Deer?",
+      "no_results": "Oh Deer! We have no match for your search. Please try again.",
+      "new_search": "New search",
+      "view_all_results": "View all results",
+      "products": "Products",
+      "articles": "Blog",
+      "pages": "Pages",
+      "collections": "Collections"
+    }
+  },
+  "contact": {
+    "form": {
+      "name": "name",
+      "email": "e-mail",
+      "message": "what can we do for you?",
+      "submit": "send",
+      "successfully_sent": "Elpheetastic! Your message has been sent to us. We look forward to reading and replying it."
+    }
+  },
+  "gift_card": {
+    "issued": {
+      "subtext": "your Done by Deer gift card!",
+      "illustration": "Gift card illustration",
+      "disabled": "Your gift card is disabled",
+      "expired": "Your gift card expired on {{expiry}}",
+      "expires_on": "Expires on {{expiry}}",
+      "redeem": "Insert this code at checkout to use your gift card:",
+      "remaining_amount_html": "Remaining amount: {{balance}} (out of {{initial_value}})",
+      "print": "Print",
+      "scan_qr_code": "Scan this QR code:",
+      "add_to_apple_wallet": "Add to Apple Wallet",
+      "go_to_store": "Go to the store"
+    },
+    "recipient": {
+      "checkbox": "I want to send this as a gift",
+      "email_label": "Recipient email",
+      "name_label": "Recipient name (optional)",
+      "send_on_label": "Send on (optional)",
+      "message_label": "Message (optional)"
+    }
+  },
+  "password": {
+    "general": {
+      "store_owner": "Store owner?",
+      "login": "Login here",
+      "powered_by": "This store will be powered by",
+      "enter_password": "Enter using password"
+    },
+    "password": {
+      "label": "Please enter password to access the store",
+      "input": "password",
+      "submit": "Enter"
+    },
+    "newsletter": {
+      "success": "You have been registered to our newsletter",
+      "email": "your e-mail",
+      "submit": "Notify me"
+    }
+  },
+  "shopify": {
+    "collections": {
+      "sorting": {
+        "manual": "Recommended",
+        "best_selling": "Best selling",
+        "date_descending": "New",
+        "price_ascending": "Price (low to high)",
+        "price_descending": "Price (high to low)"
+      }
+    },
+    "search": {
+      "sorting": {
+        "price_ascending": "Price (low to high)",
+        "price_descending": "Price (high to low)"
+      }
+    },
+    "page_titles": {
+      "products": "Products"
+    },
+    "checkout": {
+      "thank_you": {
+        "thank_you_title": "Our Deer friends just hit the send-button and a confirmation email is on its way to you!",
+        "order_status_confirmed_order_with_email": "Please check your spam folder, if the e-mail doesn’t show up within a few minutes.",
+        "gift_card_confirmation_by_text": "If you have bought this gift card together with physical products, your gift card will be e-mailed you, when your order is shipped.",
+        "gift_card_confirmation_by_email": "If you have bought this gift card together with physical products, your gift card will be e-mailed you, when your order is shipped.",
+        "page_title_no_name": "Thank you, Deer!"
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Enter our monthly giveaway by signing up to our newsletter. Your consent can be withdrawn at any time. By subscribing you agree to our privacy policy."
+      },
+      "general": {
+        "back_to_cart": "Back to cart",
+        "continue_to_shipping_method": "Go to shipping"
+      },
+      "failed_payment": {
+        "return_to_cart_button_label": "Back to cart"
+      },
+      "order_summary": {
+        "discount_label": "Discount code",
+        "gift_card_and_discount_title": "Discount code",
+        "discount_placeholder": "Discount code",
+        "gift_card_and_discount_label": "discount code",
+        "gift_card_and_discount_placeholder": "discount code"
+      },
+      "contact": {
+        "email_label": "e-mail ",
+        "email_placeholder": "e-mail",
+        "email_or_phone_label": "e-mail or phone number",
+        "email_or_phone_placeholder": "e-mail or phone number",
+        "stored_addresses_label": "saved addresses",
+        "new_address_label": "use a new address",
+        "first_name_label": "first name",
+        "optional_first_name_label": "first name",
+        "last_name_label": "last name",
+        "company_label": "company",
+        "optional_company_label": "company (optional)",
+        "address1_label": "street and house number (max. 40 characters)",
+        "address2_label": "address 2 ",
+        "city_label": "city",
+        "country_label": "country",
+        "country_code": "country code",
+        "province_label": "province",
+        "phone_label": "phone number (with country code)",
+        "optional_phone_label": "phone number (for delivery info only)",
+        "phone_placeholder": "phone",
+        "zip_code_label": "ZIP code",
+        "zip_code_placeholder": "ZIP code",
+        "postal_code_label": "postal code",
+        "postal_code_placeholder": "postal code",
+        "postcode_label": "postcode",
+        "pincode_label": "PIN code",
+        "pincode_placeholder": "PIN code",
+        "title": "Information",
+        "optional_address2_label": "optional (apartment, floor, door, etc.)",
+        "phone_tooltip": "For delivery info only",
+        "civic_number_warning": "Please add a house number if possible"
+      },
+      "field_errors": {
+        "address_first_name_blank": "first name"
+      },
+      "payment": {
+        "card_number_label": "card number",
+        "card_number_placeholder": "card number",
+        "name_on_card_label": "name on card",
+        "name_on_card_placeholder": "name on card",
+        "card_expiry_label": "expiration date (MM \/ YY)",
+        "card_expiry_placeholder": "expiration date (MM \/ YY)",
+        "card_verification_value_label": "security code",
+        "card_verification_value_placeholder": "security code"
+      },
+      "shipping_errors": {
+        "shipping_method_not_available": "Oh deer! Unfortunately, we do not ship to your address. "
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "We have updated your cart based on your shipping country."
+      },
+      "customer_account": {
+        "save_my_information_label": "Faster checkout next time? Yes, save my info. "
+      }
+    },
+    "attributes": {
+      "first_name": "first name"
+    },
+    "errors": {
+      "full_name_required": "enter your first and last name"
+    },
+    "addresses": {
+      "postal_code": "postal code"
+    },
+    "notices": {
+      "cart": {
+        "too_many_items_in_cart": "oh deer! we only have a few items left. try adding less."
+      }
+    }
+  },
+  "app_wishlist-king": {
+    "general": {
+      "wishlist": "Wishlist",
+      "wishlist_empty_note": "Hmm. Your wishlist is empty. Add your favourites by clicking on the heart icon next to the products. ",
+      "add_to_wishlist": "Add to wishlist",
+      "remove_from_wishlist": "Remove from wishlist",
+      "clear_wishlist": "Clear wishlist",
+      "in_wishlist": "On your wishlist",
+      "share_wishlist": "Log in to share your wishlist",
+      "copy_share_link": "Copy link",
+      "share_link_copied": "Link copied",
+      "share_by_email_body": "Here is the link to my Done by Deer wishlist:",
+      "share_list_title": "My wishes from Done by Deer",
+      "share_list_description": "Here is some of my favorite things from {{ shopName }}",
+      "login_or_signup_note_html": "Psst. To save and share your wishlist please <a href='{{ login_url }}'>login<\/a> or <a href='{{ register_url }}'>sign up<\/a>",
+      "add_to_cart": "Add me to cart",
+      "sold_out": "Sold out",
+      "quantity": "Quantity",
+      "view_product": "View product",
+      "view_wishlist": "View wishlist",
+      "share_on_facebook": "Share with Facebook",
+      "share_on_twitter": "Share on Twitter",
+      "share_on_pinterest": "Share on Pinterest",
+      "share_with_whatsapp": "Share with Whatsapp",
+      "share_by_email": "Share by e-mail",
+      "get_link": "Get link",
+      "send_to_customer_service": "Send to customer service",
+      "add_all_to_cart": "Add my wishes to cart"
+    }
+  }
+}
