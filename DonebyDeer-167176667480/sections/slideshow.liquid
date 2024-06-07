@@ -154,26 +154,19 @@
           {%- endcapture -%}
 
           {%- if section_content != blank -%}
-            <div class="container hidden-pocket">
+            <div class="container">
               {%- assign text_alignment = block.settings.text_position | split: '_' | first -%}
               {%- assign text_position = block.settings.text_position | split: '_' | last -%}
 
-              <div class="slideshow__text-wrapper slideshow__text-wrapper--{{ text_alignment }} vertical-breather">
-                <div class="content-box content-box--medium content-box--text-{{ text_position }} content-box--{{ text_position }} text-container">
-                  {{- section_content -}}
-                </div>
-              </div>
-            </div>
-            <div class="container hidden-lap-and-up">
               {%- assign text_alignment_mobile = block.settings.text_position_mobile | split: '_' | first -%}
               {%- assign text_position_mobile = block.settings.text_position_mobile | split: '_' | last -%}
 
-              <div class="slideshow__text-wrapper slideshow__text-wrapper--{{ text_alignment_mobile }} vertical-breather"> 
-                <div class="content-box content-box--medium content-box--text-{{ text_position_mobile  }} content-box--{{ text_position_mobile  }} text-container">
+              <div class="slideshow__text-wrapper slideshow__text-wrapper--{{ text_alignment }} mobile-slideshow__text-wrapper--{{ text_alignment_mobile }} vertical-breather">
+                <div class="content-box content-box--medium content-box--text-{{ text_position }} content-box--{{ text_position }} mobile-content-box--text-{{ text_position_mobile }} mobile-content-box--{{ text_position_mobile }} text-container">
                   {{- section_content -}}
                 </div>
               </div>
-            </div>
+            </div>        
           {%- endif -%}
         {%- endcapture -%}
 
