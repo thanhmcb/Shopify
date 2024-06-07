@@ -8,6 +8,7 @@
 
   {%- for block in section.blocks -%}
     {%- assign text_position = block.settings.text_position | split: '_' | first -%}
+    {%- assign text_position_mobile = block.settings.text_position_mobile | split: '_' | first -%}
 
     {%- case text_position -%}
       {%- when 'top' -%}
@@ -16,6 +17,16 @@
         {%- assign section_items_alignment = 'center' -%}
       {%- when 'bottom' -%}
         {%- assign section_items_alignment = 'flex-end' -%}
+    {%- endcase -%}    
+    
+
+    {%- case text_position_mobile -%}
+      {%- when 'top' -%}
+        {%- assign section_items_alignment_mobile = 'flex-start' -%}
+      {%- when 'middle' -%}
+        {%- assign section_items_alignment_mobile = 'center' -%}
+      {%- when 'bottom' -%}
+        {%- assign section_items_alignment_mobile = 'flex-end' -%}
     {%- endcase -%}
 
     #block-{{ section.id }}-{{ block.id }} {
@@ -23,12 +34,24 @@
       --text-color: {{ block.settings.text_color.red }}, {{ block.settings.text_color.green }}, {{ block.settings.text_color.blue }};
       --primary-button-background: {{ block.settings.button_background.red }}, {{ block.settings.button_background.green }}, {{ block.settings.button_background.blue }};
       --primary-button-text-color: {{ block.settings.button_text_color.red }}, {{ block.settings.button_text_color.green }}, {{ block.settings.button_text_color.blue }};
-
-      --section-blocks-alignment: {{ section_items_alignment }};
       --section-blocks-overlay-color: {{ block.settings.overlay_color.red }}, {{ block.settings.overlay_color.green }}, {{ block.settings.overlay_color.blue }};
-      --section-blocks-overlay-opacity: {{ block.settings.overlay_opacity | divided_by: 100.0 }};
+      --section-blocks-overlay-opacity: {{ block.settings.overlay_opacity | divided_by: 100.0 }}      
+    }
+
+    @media screen and (min-width: 741px) {
+    #block-{{ section.id }}-{{ block.id }} {
+      --section-blocks-alignment: {{ section_items_alignment }};
+   
+    }
+    }
+    @media screen and (max-width: 740px) {
+      #block-{{ section.id }}-{{ block.id }} {
+        --section-blocks-alignment: {{ section_items_alignment_mobile }};  
+      }
     }
   {%- endfor -%}
+ 
+
 </style>
 
 <section class="section section--flush">
@@ -131,12 +154,22 @@
           {%- endcapture -%}
 
           {%- if section_content != blank -%}
-            <div class="container">
+            <div class="container hidden-pocket">
               {%- assign text_alignment = block.settings.text_position | split: '_' | first -%}
               {%- assign text_position = block.settings.text_position | split: '_' | last -%}
 
               <div class="slideshow__text-wrapper slideshow__text-wrapper--{{ text_alignment }} vertical-breather">
                 <div class="content-box content-box--medium content-box--text-{{ text_position }} content-box--{{ text_position }} text-container">
+                  {{- section_content -}}
+                </div>
+              </div>
+            </div>
+            <div class="container hidden-lap-and-up">
+              {%- assign text_alignment_mobile = block.settings.text_position_mobile | split: '_' | first -%}
+              {%- assign text_position_mobile = block.settings.text_position_mobile | split: '_' | last -%}
+
+              <div class="slideshow__text-wrapper slideshow__text-wrapper--{{ text_alignment_mobile }} vertical-breather"> 
+                <div class="content-box content-box--medium content-box--text-{{ text_position_mobile  }} content-box--{{ text_position_mobile  }} text-container">
                   {{- section_content -}}
                 </div>
               </div>
@@ -173,7 +206,7 @@
     {%- if section.blocks.size > 1 -%}
       <page-dots {% if section.settings.autoplay %}animation-timer{% endif %} class="slideshow__nav container">
         {%- for block in section.blocks -%}
-          <button class="slideshow__progress-bar" aria-controls="block-{{ section.id }}-{{ block.id }}" {% if forloop.first %}aria-current="true"{% endif%}>
+          <button class="slideshow__progress-bar" aria-controls="block-{{ section.id }}-{{ block.id }}" {% if forloop.first %}aria-current="true"{% endif %}>
             <span class="visually-hidden">{{ 'general.accessibility.go_to_slide' | t: num: forloop.index }}</span>
           </button>
         {%- endfor -%}
@@ -292,6 +325,51 @@
           "type": "select",
           "id": "text_position",
           "label": "Text position",
+          "options": [
+            {
+              "value": "top_left",
+              "label": "Top left"
+            },
+            {
+              "value": "top_center",
+              "label": "Top center"
+            },
+            {
+              "value": "top_right",
+              "label": "Top right"
+            },
+            {
+              "value": "middle_left",
+              "label": "Middle left"
+            },
+            {
+              "value": "middle_center",
+              "label": "Middle center"
+            },
+            {
+              "value": "middle_right",
+              "label": "Middle right"
+            },
+            {
+              "value": "bottom_left",
+              "label": "Bottom left"
+            },
+            {
+              "value": "bottom_center",
+              "label": "Bottom center"
+            },
+            {
+              "value": "bottom_right",
+              "label": "Bottom right"
+            }
+          ],
+          "default": "middle_center"
+        },
+        {
+          "type": "select",
+          "id": "text_position_mobile",
+          "label": "Mobile Text Position",
+          "info":"Mobile Text Position - MCB",
           "options": [
             {
               "value": "top_left",
