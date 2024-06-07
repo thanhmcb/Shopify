@@ -161,8 +161,14 @@
               {%- assign text_alignment_mobile = block.settings.text_position_mobile | split: '_' | first -%}
               {%- assign text_position_mobile = block.settings.text_position_mobile | split: '_' | last -%}
 
-              <div class="slideshow__text-wrapper slideshow__text-wrapper--{{ text_alignment }} mobile-slideshow__text-wrapper--{{ text_alignment_mobile }} vertical-breather">
-                <div class="content-box content-box--medium content-box--text-{{ text_position }} content-box--{{ text_position }} mobile-content-box--text-{{ text_position_mobile }} mobile-content-box--{{ text_position_mobile }} text-container">
+              <div class="slideshow__text-wrapper slideshow__text-wrapper--{{ text_alignment }} vertical-breather hidden-pocket">
+                <div class="content-box content-box--medium content-box--text-{{ text_position }} content-box--{{ text_position }} text-container">
+                  {{- section_content -}}
+                </div>
+              </div>
+              
+              <div class="slideshow__text-wrapper slideshow__text-wrapper--{{ text_alignment_mobile }} vertical-breather hidden-lap-and-up">
+                <div class="content-box content-box--medium content-box--text-{{ text_position_mobile }} content-box--{{ text_position_mobile }} text-container">
                   {{- section_content -}}
                 </div>
               </div>
