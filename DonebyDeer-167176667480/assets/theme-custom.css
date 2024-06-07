@@ -877,20 +877,3 @@ a.product-item-meta__title {font-weight:bold;}
 #shopify-section-template--20888376312152__3d2f08fa-93aa-43b8-bb6d-e60e85a38070 .container {
   margin-bottom: 50px;
 }
-
-/*Slide header*/
-
-@media screen and (max-width: 740px){
-  [dir="ltr"] .mobile-content-box--text-right {
-    text-align: right;
-  }
-  [dir="ltr"] .mobile-content-box--right {
-    margin-left: auto;
-  }
-  .mobile-content-box--text-center{
-    text-align: center;
-  }
-  [dir="ltr"] .mobile-content-box--left {
-    margin-right: auto;
-  }
-} 
