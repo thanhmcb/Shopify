@@ -321,7 +321,7 @@
       {%- when 'buy_buttons' -%}
         {%- assign main_form_exists = true -%}
         {%- if request.page_type != 'password' -%}
-          <div class="product-info__buy-buttons {% if product.template_suffix contains 'discontinued' %}product-info__buy-buttons-discontinued{% endif %}" {{ block.shopify_attributes }}>
+        <div class="product-info__buy-buttons {% unless product.available %} product-available__buy-buttons{% endunless %}" {{ block.shopify_attributes }}>
             {% style %}
                {%- unless block.settings.show_add_to_wishlist_when_sold_out-%} 
     
