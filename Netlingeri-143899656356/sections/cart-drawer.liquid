@@ -304,32 +304,14 @@
         {%- endif -%}
       </div>
     </div>
-    {% assign value = 'thanh kim' %} 
+   
       
      
-       {%- for item in cart.items -%}
-        {% if item.variant.inventory_quantity < 1 %} 
-           {% assign variable = item.variant.id %} 
-            {{ variable }} - {{ item.variant.inventory_quantity }}
-        {%- endif -%}      
-      {%- endfor -%} 
-
+       
   </cart-form>
 
-  {%- capture variant_json -%}
-    {%- for item in cart.items -%}
-      {% if item.variant.inventory_quantity < 1 %}                      
-                  ,{ "variable":{{- item.variant.id -}}, "inventory_quantity":{{- item.variant.inventory_quantity -}} }
-            {%- endif -%}      
-    {%- endfor -%}
- 
-  {%- endcapture -%}
-  <script type="application/json">
-    [
-      {{- variant_json | replace_first: ',', '' -}}
-   
-    ]
-  </script>
+
+
 </side-drawer>
 {%- endunless -%}
 {% schema %}
@@ -797,6 +779,32 @@
   ]
 }
 {% endschema %}
+
+<script>
+  let formData = {
+  'items': [{
+   'id': 45091103768740,
+   'line': 3,
+  'properties': { 'First name': 'Carolinthanhe' }
+   }]
+ };
+
+ 
+ fetch(window.Shopify.routes.root + 'cart/change.js', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify(formData)
+})
+.then(response => {
+  return response.json();
+})
+.catch((error) => {
+  console.error('Error:', error);
+}); 
+</script>
+  
 
 
 

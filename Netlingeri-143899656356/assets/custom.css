@@ -334,6 +334,19 @@ a.sibling__link.sibling__link--current:after {
 .product-inventory--b8 .product-inventory__icon-low {
   color: var(--product-inventory-b8-icon-box-fill-color);
 }
-.cart-item__description .line-item-property {
+
+.msg_hide{
   display: none;
+}
+
+.product-info__property input[type="text"]{
+  border: unset;
+  padding: 0;
+  margin-left: .2rem;
+  font-size: 8px;
+  width: 100%;
+}
+
+.product-info__property input[type="text"]:focus{
+  box-shadow: none;
 }

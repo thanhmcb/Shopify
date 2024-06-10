@@ -32,7 +32,7 @@
       endif
     endif
   -%}
-
+ 
   <div class="product-info-block product-inventory {% if block.settings.enable_pulse %}product-inventory--pulse{% endif %} product-inventory--{% if current_variant.inventory_quantity <= block.settings.inventory_threshold %}low{% else %}ok{% endif %} with-icon{% if block.settings.enable_box %} text-box{% endif %} lightly-spaced-row"
     {%- if current_variant == blank or current_variant.inventory_management == blank  %} hidden a
     {%- elsif current_variant and current_variant.inventory_management != blank  %} hidden 
@@ -48,21 +48,9 @@
 
   {%- capture quantity_json -%}
     {%- for variant in product.variants -%}
-      {%- if variant.inventory_management != blank -%}
+      {%- if variant.inventory_management != blank and variant.inventory_policy == 'continue' -%}
         {%- if block.settings.show_inventory_notice == 'always' or variant.inventory_quantity <= block.settings.inventory_threshold -%}
-          {%- if block.settings.activate_b8_info -%}
-            {%- if product.metafields.easypos.product_b8 and variant.inventory_policy == 'continue'  -%}
-              
-                  ,{ "id":{{- variant.id -}}, "inventory_quantity":{{- variant.inventory_quantity -}} }
-               
-              {%- elsif product.metafields.easypos.product_b8 != true and variant.inventory_quantity > 0-%} 
-                ,{ "id":{{- variant.id -}}, "inventory_quantity":{{- variant.inventory_quantity -}} } 
-            {%- endif -%} 
-          {%- else -%} 
-            {%- if variant.inventory_quantity > 0 -%}   
-              ,{ "id":{{- variant.id -}}, "inventory_quantity":{{- variant.inventory_quantity -}} }
-            {%- endif -%}
-          {%- endif -%}
+          ,{ "id":{{- variant.id -}}, "inventory_quantity":{{- variant.inventory_quantity -}} } 
         {%- endif -%}
       {%- endif -%}
     {%- endfor -%}
@@ -77,7 +65,7 @@
     ]
   </script>
   
-</product-inventory>
+</product-inventory> 
 
 
 
