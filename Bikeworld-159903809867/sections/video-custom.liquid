@@ -1,0 +1,72 @@
+{%- style -%}
+  #video-custom-section--{{ section.id }} {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
+{%- endstyle -%}
+
+{%- if product.metafields.custom.video != blank -%}
+  <div class="brick--margin "
+    data-section-id="{{ section.id }}"
+    data-section-type="featured-video"
+    id="video-custom-section--{{ section.id }}"
+    data-overlay-header>
+    <iframe width="100%" height="{{section.settings.video-height}}" src="{{section.settings.video_link}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    {%- endif -%}
+
+  </div>
+
+{% schema %}
+{
+  "name": "Video-MCB custom",
+  "class": "section-fullscreen",
+  "settings": [
+  {
+    "type": "text",
+    "id": "video_link",
+    "label": "Video popup link",
+    "info": "Video links from YouTube, Vimeo or MP4 file link."
+  },
+    {
+      "type": "range",
+      "id": "video-height",
+      "label": "Video height",
+        "min": 300,
+        "max": 700,
+        "step": 10,
+        "default": 400
+    },
+    {
+      "type": "header",
+      "content": "Section padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 0
+    }
+
+  ],
+  "presets": [
+    {
+      "name": "Video - MCB custom",
+      "category": "Image"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,189 @@
+{%- assign block_element = block_element | default: false -%}
+{%- assign desktop_height = section_height | default: section.settings.height | default: section.settings.desktop_height -%}
+{%- assign mobile_height = section_height | default: section.settings.height | default: section.settings.mobile_height -%}
+{%- assign mobile_desktop_classes = section.settings.desktop_height | append: ' ' | append: section.settings.mobile_height -%}
+{%- assign section_height = section_height | default: section.settings.height | default: mobile_desktop_classes -%}
+{%- assign transparency_class = '' -%}
+{%- if section.settings.transparent -%}
+  {%- assign transparency_class = 'hero__content--transparent' -%}
+{%- endif -%}
+
+{%- assign animation_anchor = '#video--' | append: section.id -%}
+
+<div class="hero__content__wrapper {{ section.settings.flex_align }} {{ transparency_class }}" id="video--{{ section.id }}">
+  <div class="hero__content{% unless block_element %} js-overflow-content{% endunless %}"{% if block_element %} data-overflow-content{% endif %}>
+    {% if section.settings.title != blank %}
+      <h2 class="hero__title"
+        data-aos="hero"
+        data-aos-anchor="{{ animation_anchor }}"
+        data-aos-order="1">
+        {{ section.settings.title | escape }}
+      </h2>
+    {% endif %}
+
+    {% if section.settings.description != blank %}
+      <p class="hero__description h5--body"
+        data-aos="hero"
+        data-aos-anchor="{{ animation_anchor }}"
+        data-aos-order="2">
+        {{ section.settings.description }}
+      </p>
+    {% endif %}
+
+    {% if section.settings.link_text != blank and section.settings.video_link == blank %}
+      <a class="{{ section.settings.button_style }} {{ section.settings.button_color }}"
+        href="{{ section.settings.link }}"
+        data-aos="hero"
+        data-aos-anchor="{{ animation_anchor }}"
+        data-aos-order="3">
+        {{ section.settings.link_text | escape }}
+      </a>
+    {% endif %}
+
+    {%- if section.settings.video_link != blank -%}
+      {%- assign video_link_downcase = section.settings.video_link | downcase -%}
+      {%- assign video_type = '' -%}
+      {%- assign video_id = '' -%}
+      {%- if section.settings.video_link contains "vimeo.com" -%}
+        {%- assign video_type = "vimeo" -%}
+      {%- elsif section.settings.video_link contains "youtube.com" -%}
+        {%- assign video_type = "youtube" -%}
+      {%- elsif section.settings.video_link contains "youtu.be" -%}
+        {%- assign video_type = "youtube" -%}
+        {%- assign youtubeShortlink = true -%}
+      {%- elsif video_link_downcase contains ".mp4" -%}
+        {%- assign video_type = "native" -%}
+      {%- endif -%}
+      {%- assign link_array = section.settings.video_link | split: '/' -%}
+      {%- assign id_with_params = link_array | last -%}
+
+      {%- if video_type == "vimeo" or youtubeShortlink -%}
+        {% comment %}
+          https://vimeo.com/[ID]?foo=bar&baz=boo
+          https://youtu.be/[ID]?foo=bar&baz=boo
+        {% endcomment %}
+        {%- assign starts_with_id = id_with_params | split: '?' -%}
+        {%- assign video_id = starts_with_id | first -%}
+      {%- elsif video_type == "youtube"  -%}
+        {% comment %}
+          https://youtube.com/watch?v=[ID]?foo=bar&baz=boo
+        {% endcomment %}
+        {%- assign first_param = id_with_params | split: '&' | first -%}
+        {%- assign watch_then_id = first_param | split: '?' -%}
+        {%- assign equals_id = watch_then_id[1] -%}
+        {%- assign ends_with_id = equals_id | split: '=' -%}
+        {%- assign video_id = ends_with_id | last -%}
+      {%- endif -%}
+
+      {%- if video_type != '' -%}
+        {%- if video_type == 'youtube' -%}
+          {% capture video_link %}https://www.youtube.com/watch?v={{ video_id }}{% endcapture %}
+        {%- elsif video_type == 'vimeo' -%}
+          {% capture video_link %}https://vimeo.com/{{ video_id }}{% endcapture %}
+        {%- elsif video_type == 'native' -%}
+        {% capture video_link %}{{ section.settings.video_link }}{% endcapture %}
+        {%- endif -%}
+
+        {%- assign video_parent_id = 'item-video-' | append: section.id -%}
+
+        <a href="{{ video_link }}"
+          class="{{ section.settings.button_style }} {{ section.settings.button_color }} image__video__play"
+          data-aos="hero"
+          data-aos-anchor="{{ animation_anchor }}"
+          data-aos-order="3"
+          data-video-play="{%- render 'photoswipe-video-html' item_link: section.settings.video_link, item_link_type: video_type, item_link_id: video_id, item_id: video_parent_id -%}">
+            &#8203;
+            {% render 'icon-play' %}
+        </a>
+      {%- endif -%}
+    {%- endif -%}
+  </div>
+
+  {%- if section.settings.link != blank -%}
+    {%- unless section.settings.link_text != blank -%}
+      <a href="{{ section.settings.link }}" class="hero__content__link">&nbsp;</a>
+    {%- endunless -%}
+  {%- endif -%}
+</div>
+{% assign overlay_opacity = section.settings.overlay_opacity | times: 0.01 %}
+<div class="image-overlay" style="background-color:{{ section.settings.overlay_color }} !important; opacity:{{ overlay_opacity }};"></div>
+
+{%- assign video_bg_show = false -%}
+{%- if section.settings.video_link_bg != blank -%}
+  {%- assign video_link_bg_downcase = section.settings.video_link_bg | downcase -%}
+
+  {%- if video_link_bg_downcase contains '.mp4' -%}
+    {%- assign video_bg_show = true -%}
+  {%- endif -%}
+{%- endif -%}
+
+{%- if video_bg_show -%}
+  {%- assign image_height_styles = '' -%}
+  {%- assign default_image = 'blank.svg' | asset_url -%}
+  {%- assign has_diff_options = false -%}
+
+  {%- if section_height == 'image-height' -%}
+    {%- assign section_image = section.settings.image | default: default_image -%}
+    {%- assign aspect_ratio = section_image.aspect_ratio | default: 2.63 -%}
+    {%- capture image_height_styles -%}
+      style="padding-top: {{ 1 | divided_by: aspect_ratio | times: 100 }}%;
+            background-image: url('{{ section_image | img_url: '1x1' }}');"
+    {%- endcapture -%}
+  {%- endif -%}
+
+  {%- if desktop_height contains 'image-height' -%}
+    {%- assign has_diff_options = true -%}
+    {%- assign section_image = section.settings.image | default: default_image -%}
+    {%- assign aspect_ratio = section_image.aspect_ratio | default: 2.63 -%}
+    {%- capture image_height_styles -%}
+      {{ image_height_styles }}
+      --desktop-padding: {{ 1 | divided_by: aspect_ratio | times: 100 }}%;
+    {%- endcapture -%}
+  {%- endif -%}
+
+  {%- if mobile_height contains 'image-height--mobile' -%}
+    {%- assign has_diff_options = true -%}
+    {%- assign section_image = section.settings.mobile_image | default: default_image -%}
+    {%- assign aspect_ratio = section_image.aspect_ratio | default: 2.63 -%}
+    {%- capture image_height_styles -%}
+      {{ image_height_styles }}
+      --mobile-padding: {{ 1 | divided_by: aspect_ratio | times: 100 }}%;
+    {%- endcapture -%}
+  {%- endif -%}
+  <div 
+    class="video-background {{ section_height }}"
+    data-overflow-background
+    {% if has_diff_options %}
+      style="{{ image_height_styles }} background-image: url('{{ section_image | img_url: '1x1' }}');"
+    {% else %}      
+      {{ image_height_styles }}
+    {% endif %}>
+    <video 
+      {% if section.settings.image != blank %}poster="{{ section.settings.image }}"{% endif %}
+      id="{{ section.id }}-video-background" 
+      data-video-type="native"
+      data-video-id="{{ section.id }}-video-background"
+      playsinline
+      autoplay
+      loop
+      muted
+      width="320" 
+      height="240">
+      <source src="{{ section.settings.video_link_bg }}" type="video/mp4" />
+    </video>
+  </div>
+{%- else -%}
+  {%- assign desktop_image_modifier = '' -%}
+  {%- assign mobile_image = '' -%}
+  {%- if section.settings.mobile_image != blank -%}
+    {%- assign desktop_image_modifier = 'desktop' -%}
+    
+    {%- capture mobile_image -%}
+      {% render 'image-background', img_object: section.settings.mobile_image, frame_height_class: mobile_height, bg_position: section.settings.bg_position, modifier: 'mobile' %}
+    {%- endcapture -%}
+  {%- endif -%}
+
+  {% render 'image-background', img_object: section.settings.image, frame_height_class: desktop_height, bg_position: section.settings.bg_position, modifier: desktop_image_modifier %}
+
+  {{ mobile_image }}
+{%- endif -%}

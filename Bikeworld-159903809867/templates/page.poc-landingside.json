@@ -1,0 +1,408 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text-dark",
+        "bg_color": "#ffffff"
+      }
+    },
+    "1657706040c74481cf": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/24_POC_2020_Women_Coron_air_spin_Ora_joint_VPD_system_knee_essential_MTB_Ws_jersey-1200x800.jpg",
+        "bg_position": "center-bottom",
+        "height": "screen-height-two-thirds",
+        "overlay_opacity": 15,
+        "overlay_color": "#282828",
+        "title": "POC",
+        "description": "Om du vil udforske de danske landeveje eller skovområderne, så er det altid vigtig at have det rigtige udstyr til din kommende tur. Hos Bikeworld kan vi hjælpe dig med at finde alt fra Cykelhjelm til Tøj og Beskyttelse indenfor samme mærke, hos POC.",
+        "flex_align": "align--middle-left",
+        "text_color": "text-light",
+        "transparent": true,
+        "link_text": "Se hele udvalget her",
+        "link": "shopify:\/\/collections\/poc-1",
+        "button_color": "btn--primary",
+        "button_style": "hero__btn btn btn--large btn--outline caps",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "166089805596ad888e": {
+      "type": "section-custom-content",
+      "blocks": {
+        "1660898055a190dec6-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/867136d12efdb84c1729aef1447844c1.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "description": "",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "1660898055a190dec6-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "",
+            "text": "<p>POC, er en førende producent af hjelme, briller, panser, tøj og tilbehør til snesport og cykling, blev grundlagt i 2005 i Sverige.<br\/><br\/>Med en mission om at 'beskytte liv og reducere konsekvenserne af ulykker for atleter og enhver, der er inspireret til at være det', har POC en krystalklar vision om at give optimeret personlig beskyttelse og sikkerhed gennem udvikling af produkter af uomtvistelig kvalitet og relevans.<br\/><br\/>For at støtte sin udvikling og kvalitet etablerede POC to videnskabelige fora, POC Lab og WATTS Lab, som samler nogle af de bedste hjerner inden for forskning, medicin og sikkerhed for at rådgive om ny forskning og trend<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "text_color": "text-dark",
+            "bg_color": "#ffffff",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "1660898055a190dec6-0",
+        "1660898055a190dec6-1"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "padding": true,
+        "borders": false,
+        "wrapper": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1660900415fb9db1ed": {
+      "type": "section-custom-content",
+      "blocks": {
+        "1660900415b700e152-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Amani-MigrationGravel-18_1024x1024_jpg.webp",
+            "bg_position": "center-top",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "description": "",
+            "flex_align": "align--bottom-center",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "Se POC Cykelhjelme her",
+            "link": "shopify:\/\/collections\/poc-hjelme",
+            "button_color": "btn--secondary",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "0bfeadf1-0839-449b-8ca7-f394f0041f28": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/norco_journal7-1024x1024_jpg.webp",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "description": "",
+            "flex_align": "align--bottom-center",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "Se poc beskyttelse HEr",
+            "link": "shopify:\/\/collections\/poc-beskyttelse",
+            "button_color": "btn--secondary",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "1660900415b700e152-0",
+        "0bfeadf1-0839-449b-8ca7-f394f0041f28"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "padding": false,
+        "borders": false,
+        "wrapper": false,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "1657706489ee9c5bc9": {
+      "type": "section-columns",
+      "disabled": true,
+      "blocks": {
+        "1657706489effeda23-0": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shutterstock_1964829970.jpg",
+            "bg_position": "center-center",
+            "title": "Mountainbikes",
+            "text": "<p>Trek er en af de førende producenter af mountainbikes. De er altid blandt de førende inden for teknologi og udvikling. Mountainbikes skal kunne tåle at blive brugt i hårdt terræn. Hvilket træk altid lever op til. Trek har et bredt udvalg af hardtails og fullsuspension i alle prisklasser til både mænd og kvinder og selvfølgelig også til børn.<\/p>",
+            "button_text": "Læs mere her",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large caps",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "1657706489effeda23-1": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shutterstock_659821903.jpg",
+            "bg_position": "center-center",
+            "title": "Racercykler",
+            "text": "<p>Inden for landevejsdisciplinen har Trek altid været fremme i skoene - de producerer racercykler i aluminium og kulfiber og har de seneste år været involveret i hold som Team Leopard Trek, Trek Factory Racing og Trek-Segafredo.<\/p>",
+            "button_text": "Læs mere her",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large caps",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "1657706489effeda23-0",
+        "1657706489effeda23-1"
+      ],
+      "settings": {
+        "title": "",
+        "bg_color": "#ffffff",
+        "align_text": "text-left",
+        "width": "wrapper--full",
+        "equalize_height": true,
+        "photo_aspect_ratio": 0.7,
+        "enable_image": true
+      }
+    },
+    "1660900896ea91b710": {
+      "type": "section-custom-content",
+      "blocks": {
+        "1660900895feb5c559-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "Mere om POC",
+            "text": "<p>Inspireret af sin mission og videnskabelige tilgang har POC opbygget et ry for at bryde med konventioner, udforske nye ideer og innovere for at forbedre beskyttelsen for alle. POC har været så heldig at beskytte mange olympiske atleter, verdensmestre og eliteatleter over hele kloden og få del i mange af deres succeser.<br\/><br\/>At skabe produkter smedet i sikkerhed og innovation er kernen i POCs tilgang, hvad enten det er for en eliteatlet, weekendskiløbere eller en daglig cykelpendler. Det er en tilgang, der har ført til over 60 internationale sikkerheds-, design- og innovationspriser, herunder den prestigefyldte cykelindustri \"Brand of the Year\"-prisen.<\/p>",
+            "text_size": 2,
+            "text_columns": 2,
+            "align_text": "text-left",
+            "text_color": "text-dark",
+            "bg_color": "#ffffff",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "1660900895feb5c559-1"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "padding": false,
+        "borders": false,
+        "wrapper": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1660898735c81b1eac": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "1660898735f94e7652-1": {
+          "type": "collection",
+          "settings": {
+            "title": "Overdele",
+            "featured_collection": "poc-overdele",
+            "show_image": true,
+            "image": "shopify:\/\/shop_images\/POC_kit-4.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "text_color": "text-light",
+            "link_text": "Se alle overdele her",
+            "link": "shopify:\/\/collections\/poc-overdele",
+            "button_color": "btn--primary",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "1660898735f94e7652-0": {
+          "type": "collection",
+          "settings": {
+            "title": "Underdele",
+            "featured_collection": "poc-underdele-1",
+            "show_image": true,
+            "image": "shopify:\/\/shop_images\/inline-2-2112x1400-poc-22-09-bike24-1325815.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "text_color": "text-light",
+            "link_text": "Se Alle underdele her",
+            "link": "shopify:\/\/collections\/poc-underdele-1",
+            "button_color": "btn--primary",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "138fe6d8-0bca-4d53-86b7-a573e0bdb742": {
+          "type": "collection",
+          "settings": {
+            "title": "Cykelbriller",
+            "featured_collection": "poc-briller",
+            "show_image": true,
+            "image": "shopify:\/\/shop_images\/pics-image.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "text_color": "text-light",
+            "link_text": "Se alle cykelbriller her",
+            "link": "shopify:\/\/collections\/poc-briller",
+            "button_color": "btn--primary",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "1660898735f94e7652-1",
+        "1660898735f94e7652-0",
+        "138fe6d8-0bca-4d53-86b7-a573e0bdb742"
+      ],
+      "settings": {
+        "title": "Udforsk vores udvalg af tøj og pleje fra Assos"
+      }
+    },
+    "1657707395cbc44915": {
+      "type": "section-custom-content",
+      "disabled": true,
+      "blocks": {
+        "1657707395ef63013d-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "Proven Power",
+            "text": "<p>Quick to charge, easy to operate, and always a blast to ride—we partner exclusively with the world’s best battery and motor manufacturers.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "text_color": "text-dark",
+            "bg_color": "#ffffff",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--large"
+          }
+        },
+        "1657707395ef63013d-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/141048140_204222531397000_3625305243681231095_n.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "description": "",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "1657707395ef63013d-1",
+        "1657707395ef63013d-0"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "padding": false,
+        "borders": false,
+        "wrapper": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "16577079142be374cb": {
+      "type": "section-custom-content",
+      "disabled": true,
+      "blocks": {
+        "1657707914e4f68bf2-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/156428214_231031318716121_7771899036568233940_n.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "description": "",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "caps--large"
+          }
+        },
+        "1657707914e4f68bf2-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "Tuned for the Ride",
+            "text": "<p>We blend state-of-the-art chassis with class-leading motors and batteries, optimized for riding. You get unrivaled handling and a smooth boost of power on every ride.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "text_color": "text-dark",
+            "bg_color": "#ffffff",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "1657707914e4f68bf2-0",
+        "1657707914e4f68bf2-1"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "padding": false,
+        "borders": false,
+        "wrapper": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1657706040c74481cf",
+    "166089805596ad888e",
+    "1660900415fb9db1ed",
+    "1657706489ee9c5bc9",
+    "1660900896ea91b710",
+    "1660898735c81b1eac",
+    "1657707395cbc44915",
+    "16577079142be374cb"
+  ]
+}

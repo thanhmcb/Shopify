@@ -1,0 +1,17 @@
+{
+  "wrapper": "section#wishlist.wishlist",
+  "sections": {
+    "main": {
+      "type": "wishlist-template",
+      "settings": {
+        "share-button-text": "DEL MED DINE VENNER",
+        "share_button": "Del ønskeliste",
+        "drawer-header": "Del ønskeliste",
+        "drawer-content": "<p>Del dette link eller gem det til dig selv.<br\/><br\/>Når linket indsættes i ens browser, genvises den aktuelle ønskeliste.<\/p>"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

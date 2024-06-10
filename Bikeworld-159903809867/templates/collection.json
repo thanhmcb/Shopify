@@ -1,0 +1,65 @@
+{
+  "sections": {
+    "hero": {
+      "type": "collection-image-with-title",
+      "settings": {
+        "show_title": true,
+        "show_description": true,
+        "text_color": "text-dark",
+        "flex_align": "align--middle-left",
+        "transparent": true,
+        "show_image": false,
+        "banner_layout": "inline",
+        "height": "two-fifty-height-hero",
+        "overlay_opacity": 40,
+        "overlay_color": "#000000"
+      }
+    },
+    "subcollections": {
+      "type": "subcollections",
+      "settings": {
+        "subcollection_layout": "carousel",
+        "subcollection_description": false,
+        "select_image": "collection"
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "b15125e3-6af1-43ab-9ca9-b7fb9c9ec97a": {
+          "type": "featured_image",
+          "disabled": true,
+          "settings": {
+            "featured_image": "shopify:\/\/shop_images\/Supercaliber_Primary_Features_16x9_1.webp",
+            "featured_image_bg_position": "center-center",
+            "featured_heading": "TREK",
+            "featured_text": "<p>Hvorfor mener vi TREK producerer nogle af de bedste MTB cykler?<\/p>",
+            "featured_button_text": "Læs mere",
+            "featured_button_link": "",
+            "featured_color_text": "#ffffff",
+            "featured_color_overlay": "#222222",
+            "featured_overlay_opacity": 10
+          }
+        }
+      },
+      "block_order": [
+        "b15125e3-6af1-43ab-9ca9-b7fb9c9ec97a"
+      ],
+      "settings": {
+        "enable_sort": true,
+        "enable_filters": true,
+        "filter_layout": "slide-out",
+        "grid": 3,
+        "grid_mobile": "1",
+        "product_limit": 36,
+        "show_vendor": true,
+        "vendor_logo_max_limit": 80
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "subcollections",
+    "main"
+  ]
+}
