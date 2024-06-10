@@ -8,8 +8,10 @@
 
   {%- for block in section.blocks -%}
     {%- assign text_position = block.settings.text_position | split: '_' | first -%}
+     /*MCB start */  
     {%- assign text_position_mobile = block.settings.text_position_mobile | split: '_' | first -%}
-
+     /* MCB end */
+     
     {%- case text_position -%}
       {%- when 'top' -%}
         {%- assign section_items_alignment = 'flex-start' -%}
@@ -18,8 +20,8 @@
       {%- when 'bottom' -%}
         {%- assign section_items_alignment = 'flex-end' -%}
     {%- endcase -%}    
-    
-
+     
+   /*MCB start */  
     {%- case text_position_mobile -%}
       {%- when 'top' -%}
         {%- assign section_items_alignment_mobile = 'flex-start' -%}
@@ -28,6 +30,8 @@
       {%- when 'bottom' -%}
         {%- assign section_items_alignment_mobile = 'flex-end' -%}
     {%- endcase -%}
+
+    /* MCB end */ 
 
     #block-{{ section.id }}-{{ block.id }} {
       --heading-color: {{ block.settings.text_color.red }}, {{ block.settings.text_color.green }}, {{ block.settings.text_color.blue }};
@@ -38,6 +42,7 @@
       --section-blocks-overlay-opacity: {{ block.settings.overlay_opacity | divided_by: 100.0 }}      
     }
 
+ /*MCB start */  
     @media screen and (min-width: 741px) {
     #block-{{ section.id }}-{{ block.id }} {
       --section-blocks-alignment: {{ section_items_alignment }};
@@ -50,7 +55,7 @@
       }
     }
   {%- endfor -%}
- 
+ /* MCB end */ 
 
 </style>
 
@@ -158,20 +163,23 @@
               {%- assign text_alignment = block.settings.text_position | split: '_' | first -%}
               {%- assign text_position = block.settings.text_position | split: '_' | last -%}
 
+           {%- comment -%} MCB start   {%- endcomment -%}
               {%- assign text_alignment_mobile = block.settings.text_position_mobile | split: '_' | first -%}
               {%- assign text_position_mobile = block.settings.text_position_mobile | split: '_' | last -%}
-
+            {%- comment -%} MCB end   {%- endcomment -%}
+            
               <div class="slideshow__text-wrapper slideshow__text-wrapper--{{ text_alignment }} vertical-breather hidden-pocket">
                 <div class="content-box content-box--medium content-box--text-{{ text_position }} content-box--{{ text_position }} text-container">
                   {{- section_content -}}
                 </div>
               </div>
-              
+            {%- comment -%} MCB start   {%- endcomment -%}
               <div class="slideshow__text-wrapper slideshow__text-wrapper--{{ text_alignment_mobile }} vertical-breather hidden-lap-and-up">
                 <div class="content-box content-box--medium content-box--text-{{ text_position_mobile }} content-box--{{ text_position_mobile }} text-container">
                   {{- section_content -}}
                 </div>
               </div>
+             {%- comment -%} MCB end   {%- endcomment -%}
             </div>        
           {%- endif -%}
         {%- endcapture -%}
@@ -364,6 +372,7 @@
           ],
           "default": "middle_center"
         },
+         {%- comment -%} MCB start {%- endcomment -%}
         {
           "type": "select",
           "id": "text_position_mobile",
@@ -409,6 +418,7 @@
           ],
           "default": "middle_center"
         },
+         {%- comment -%} MCB end  {%- endcomment -%}
         {
           "type": "text",
           "id": "subheading",
