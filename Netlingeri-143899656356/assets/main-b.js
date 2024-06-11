@@ -1061,26 +1061,23 @@ const CartForm = class extends HTMLElement {
     frag.appendChild(newContent);
     newContent.innerHTML = html;
     newContent.querySelectorAll('[data-cc-animate]').forEach((el) => el.removeAttribute('data-cc-animate'));
-     /** newContent.querySelectorAll('.cart-item__quantity-input').forEach((el) => {
+    newContent.querySelectorAll('.cart-item__quantity-input').forEach((el) => {
       const variantQuantity = Number(el.closest('.cart-item').querySelector('.variant_inventory_quantity').textContent);
-      const inputQuantity = el.value;
-      if (variantQuantity > 0 ){
-        if (el.closest('.cart-item').querySelector('.product-info-block') ){
-          if (inputQuantity > variantQuantity) {
-            el.closest('.cart-item').querySelector('.product-info-block').classList.add('msg_hide');
-            if (el.closest('.cart-item').querySelector('.line-item-property')){
-              el.closest('.cart-item').querySelector('.line-item-property').classList.remove('msg_hide');
-            }
-            
-          } else if (inputQuantity === variantQuantity){
-            el.closest('.cart-item').querySelector('.product-info-block').classList.remove('msg_hide');
-            el.closest('.cart-item').querySelector('.line-item-property').classList.add('msg_hide')
+      const a = el.value;
+      if (el.closest('.cart-item').querySelector('.product-info-block') ){
+        if (a > variantQuantity) {
+          el.closest('.cart-item').querySelector('.product-info-block').classList.add('msg_hide');
+          if (el.closest('.cart-item').querySelector('.line-item-property-avaiable-variant')){
+            el.closest('.cart-item').querySelector('.line-item-property-avaiable-variant').classList.remove('msg_hide');
           }
-        } 
-      }
-     
+          
+        } else if (a === variantQuantity){
+          el.closest('.cart-item').querySelector('.product-info-block').classList.remove('msg_hide');
+          el.closest('.cart-item').querySelector('.line-item-property-avaiable-variant').classList.add('msg_hide')
+        }
+      } 
     }); 
- */  
+ 
     theme.mergeNodes(newContent, this);
 
     this.classList.remove('cart-form--refreshing');
@@ -1100,6 +1097,7 @@ const CartForm = class extends HTMLElement {
 
   adjustItemQuantity(item, change) {
     const quantityInput = item.querySelector('.cart-item__quantity-input');
+    const variantQuantity = Number(item.querySelector('.variant_inventory_quantity').textContent);
     let newQuantity = parseInt(quantityInput.value, 10);
     
     if (typeof change.to !== 'undefined') {
@@ -1108,6 +1106,7 @@ const CartForm = class extends HTMLElement {
     } else if (change.increase) {
       newQuantity += quantityInput.step || 1;
       quantityInput.value = newQuantity;
+      const purchaseQuanity = variantQuantity - newQuantity;
     
     } else if (change.decrease) {
       newQuantity -= quantityInput.step || 1;
@@ -2927,17 +2926,15 @@ class ProductInventory extends HTMLElement {
       return;
     } 
 
-    if (this.closest('.js-product').querySelector('.product-info__property')) {
-      var myNode = this.closest('.js-product').querySelector('.product-info__property');
+    if (this.closest('.js-product').querySelector('.properties-test')) {
+      var myNode = this.closest('.js-product').querySelector('.properties-test');
       clone = myNode.cloneNode(true);
     }
-    
 
     var count = inventory.inventory_quantity;
     var variantID = inventory.id;
     const b8 = this.dataset.showB8Info;
     const b8Metafield = this.dataset.showB8Metafield;
-  
     
    
     const showCount = this.dataset.showInventoryCount === 'always'
@@ -2947,49 +2944,47 @@ class ProductInventory extends HTMLElement {
       );
       
     let notice = null; 
-    let b8Notice = null;
- 
+
+
     if (showCount) {      
       if (count <= this.threshold) {
-           var textXLeftLow = this.dataset.textXLeftLow;
-           //var b8InputText = this.closest('.js-product').querySelector('cart-message').dataset.textALeftLow;
-           //var b8Input = this.closest('.js-product').querySelector('.product-info__property input');
+           var a = this.dataset.textXLeftLow;
+           var b = theme.strings.textCartMessage; 
+           var c = this.querySelector('.product-inventory__status');
            if (b8 === 'true'){
             if (count > 1 ){ 
-              notice = textXLeftLow.replace('[QTY]', count);
-              this.inventoryNotice.classList.remove("only_one_left");  
-              this.classList.remove("product-inventory--b8");                
-              //b8Notice = b8InputText.replace('[QTY]', count);
-              //console.log(b8Notice);
-              //b8Input.value = b8Notice;
+              notice = a.replace('[QTY]', count);
+              c.classList.remove("thanh"); 
+              c.classList.remove("khoi");  
+              this.classList.remove("product-inventory--b8");   
               console.log(myNode); 
               myNode.remove(); 
+           
             } else if (count === 1){
-              notice = textXLeftLow.replace('[QTY]', count); 
-              this.inventoryNotice.classList.add("only_one_left");                     
+              notice = a.replace('[QTY]', count); 
+              c.classList.add("khoi");                     
               this.classList.remove("product-inventory--b8"); 
-              //b8Notice = b8InputText.replace('[QTY]', count);
-              //b8Input.value = b8Notice;
-              //console.log(b8Notice);
-              console.log(myNode); 
-              myNode.remove(); 
-            }  
-            else { 
+              console.log("c" + variantID);
+              c.classList.remove("thanh"); 
+              myNode.remove();
+            }
+            else {
               if (b8Metafield === 'true'){
-                notice = textXLeftLow.replace(textXLeftLow, theme.strings.b8NoticeUnvailable);
-                //b8Input.value = theme.strings.b8NoticeUnvailable;
-                this.inventoryNotice.classList.remove("only_one_left");
-                this.classList.add("product-inventory--b8");  
+                notice = a.replace(a, b);
+                c.classList.add("thanh"); 
+                c.classList.remove("khoi");
+                this.classList.add("product-inventory--b8"); 
+                console.log("b" + variantID); 
                 this.closest('.js-product').querySelector('cart-message').appendChild(clone);
-                var a = this.closest('.js-product').querySelectorAll('cart-message .product-info__property'); 
-                a.forEach(el => { if (el.nextSibling){ el.remove();}});                  
+                var a = this.closest('.js-product').querySelectorAll('.cart-message-row .properties'); 
+                a.forEach(el => { if (el.nextSibling){ el.remove();}});                     
               } else {
-                notice = textXLeftLow.replace('[QTY]', count);
+                notice = a.replace('[QTY]', count);
               }              
             }
-             
+            
           }else{
-            notice = textXLeftLow.replace('[QTY]', count); 
+            notice = a.replace('[QTY]', count); 
           }
   
       } else {
@@ -3000,7 +2995,7 @@ class ProductInventory extends HTMLElement {
       // eslint-disable-next-line no-lonely-if
       if (count <= this.threshold) {
         notice = this.dataset.textLow;
-      } else { 
+      } else {
         notice = this.dataset.textOk;
       }
     }
@@ -3028,11 +3023,6 @@ if (!customElements.get('quantity-wrapper')) {
         evt.preventDefault();
         const input = this.querySelector('[name="quantity"]');
         let change = btn.dataset.quantity === 'up' ? 1 : -1;
-        if (btn.dataset.quantity === 'up') {
-          console.log("thanh");
-        } else{
-          console.log("thanh2");
-        }
         if (input.step) {
           change *= parseInt(input.step, 10);
         }
@@ -3040,7 +3030,6 @@ if (!customElements.get('quantity-wrapper')) {
         input.dispatchEvent(
           new CustomEvent('change', { bubbles: true, cancelable: false })
         );
-        
       }
     }
   }
