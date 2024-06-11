@@ -1835,7 +1835,7 @@ quick buy information in a template, that will be extracted in JS, but ensure it
 <script>
   $(document).ready(function() {
   
-    $('.buy-buttons .button:not(.button--subdued)').closest('.product-info__buy-buttons').addClass('product-available__buy-buttons');
+  
     var moretext = "{{ 'general.accessibility.read_more' | t }}";
     var lesstext = "{{ 'general.accessibility.read_less' | t }}";
     $('.variant-block-title ').remove();
@@ -1944,15 +1944,17 @@ quick buy information in a template, that will be extracted in JS, but ensure it
     }
 
     function ready(){
-      const wishlistDisable = document.querySelector('.wishlist_disable');
+      
+        
+  }
+
+
+  document.addEventListener("DOMContentLoaded", (event) => {
+    const wishlistDisable = document.querySelector('.wishlist_disable');
       if(wishlistDisable){
         wishlistDisable.closest('.product').classList.add('produt-wishlist_disable');
       }
-    
-    
-  }
-  document.addEventListener("DOMContentLoaded", ready)
-
+});
   
     
 </script>

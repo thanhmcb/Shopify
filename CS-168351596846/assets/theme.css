@@ -2709,7 +2709,6 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 
 .buy-buttons {
   align-items: start;
-  gap: var(--spacing-2);
   display: grid;
 }
 
