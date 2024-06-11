@@ -317,13 +317,13 @@
         <div class="product-info__inventory {{ block.shopify_attributes }}">
           {%- render 'inventory', product: product, low_threshold: block.settings.low_inventory_threshold, form_id: product_form_id -%}
         </div>
-
+ 
       {%- when 'buy_buttons' -%}
         {%- assign main_form_exists = true -%}
-        {%- if request.page_type != 'password' -%}
-        <div class="product-info__buy-buttons {% unless product.available %} product-available__buy-buttons{% endunless %}" {{ block.shopify_attributes }}>
+        {%- if request.page_type != 'password' -%} 
+        <div class="product-info__buy-buttons {% unless product.available %} product-un_available__buy-buttons{% endunless %}" {{ block.shopify_attributes }}>
             {% style %}
-               {%- unless block.settings.show_add_to_wishlist_when_sold_out-%} 
+               {%- unless block.settings.show_add_to_wishlist_when_sold_out-%}  
     
                     .buy-buttons .button--subdued{
                     width: 100%;
