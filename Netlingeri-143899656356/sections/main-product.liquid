@@ -400,8 +400,8 @@
           {%- render 'product-siblings' product: product, product_form_id: product_form_id, block: block, block_style: block_style, quick_add_product: false -%}
 
           {% when 'buy-buttons' %}
-          
-            <cart-message data-text-a-left-low="{{ 'products.inventory.only_a_left' | t: quantity: '[QTY]' }}" hidden>
+         
+            <cart-message  hidden>
                 <div class="product-info__property" >    
                 {%- capture name -%}properties[{{ 'products.inventory.b8_advisory_in_cart_and_checkout_and_orderconfirmation' | t }}]{%- endcapture -%}  
                   <label for="{{ id }}"  name="{{ name }}">{{ 'products.inventory.b8_advisory_in_cart_and_checkout_and_orderconfirmation' | t }}</label>                         
@@ -437,7 +437,7 @@
                     {% if block.settings.show_quantity_selector %}
                       <label class="label" for="quantity">{{ 'products.product.quantity' | t }}</label>
                       <quantity-wrapper class="quantity-wrapper">
-                        <a href="#" data-quantity="down" aria-label="{{ 'cart.items.decrease_quantity' | t }}">{% render 'icon-minus' %}</a>
+                        <a href="#" data-quantity="down" aria-label="{{ 'cart.items.decrease_quantity' | t }}" class="button-up">{% render 'icon-minus' %}</a>
                         <input aria-label="{{ 'products.product.quantity' | t }}" id="quantity" type="number" name="quantity" value="1" />
                         <a href="#" data-quantity="up" aria-label="{{ 'cart.items.increase_quantity' | t }}">{% render 'icon-plus' %}</a>
                       </quantity-wrapper>
