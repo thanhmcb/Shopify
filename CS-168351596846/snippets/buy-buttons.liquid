@@ -52,8 +52,6 @@ Supported variables
 {%- endcapture -%}
 {%- assign button_disabled = true -%}
   {%- endif -%}
-
-
   <buy-buttons
     class="buy-buttons {% if show_notify %} notify_enable{% else %} notify_disable{%- endif -%}{% if show_add_to_wishlist_when_sold_out %} wishlist_enable {% else %} wishlist_disable{%- endif -%}" 
     template="{{ product.template_suffix | escape }}"
@@ -87,7 +85,7 @@ Supported variables
     {%- endif -%}
     </div>
     {% if show_notify %}
-      <a class="klaviyo-bis-trigger button button--xl button--subdued" href="#">{{ 'product.general.no_stock' | t }}</a>  
+    <a class="klaviyo-bis-trigger button button--xl button--subdued {% if product.selected_or_first_available_variant.available %} product-select-variant-available{% endif %}" href="#">{{ 'product.general.no_stock' | t }}</a>  
     {%- endif -%} 
     {%- render 'button-wishlist', product: product -%}
   </buy-buttons>
