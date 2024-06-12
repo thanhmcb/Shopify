@@ -2782,11 +2782,11 @@ var BuyButtons = class extends HTMLElement {
   _onVariantChanged(event) {
     const addToCartButton = this.querySelector('button[type="submit"]'), paymentButton = this.querySelector(".shopify-payment-button");
     const textToReplace = this.querySelector('.text_to_replace').textContent;
-    const klaviyoButton = this.querySelector('.klaviyo-disable');
+    const klaviyoButton = this.querySelector('.product-select-variant-available');
     addToCartButton.classList.remove("button--secondary", "button--subdued");
     this.classList.remove("form-variant--subdued");
     if (klaviyoButton){
-        klaviyoButton.classList.remove("klaviyo-disable");
+        klaviyoButton.classList.remove("product-select-variant-available");
     }
     addToCartButton.disabled = !event.detail.variant || !event.detail.variant["available"];
     const addToCartButtonText = addToCartButton.getAttribute("is") === "custom-button" ? addToCartButton.firstElementChild : addToCartButton;
@@ -2794,8 +2794,7 @@ var BuyButtons = class extends HTMLElement {
       addToCartButtonText.innerHTML = window.themeVariables.strings.unavailableButton;
       addToCartButton.classList.add("button--subdued");
       
-    
-      if (paymentButton) {
+          if (paymentButton) {
         paymentButton.style.display = "none";
       }
     } else {    
