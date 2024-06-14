@@ -350,3 +350,12 @@ a.sibling__link.sibling__link--current:after {
 .product-info__property input[type="text"]:focus{
   box-shadow: none;
 }
+
+/* Hide marker menu item on desktop */
+.desktop-only .navigation__tier-1 .navigation__item:last-child,  .navigation--left .navigation__tier-1 .navigation__item:last-child {
+  display: none; 
+}
+
+.class-bold, .variant-value__first {
+  font-weight: bold;
+}

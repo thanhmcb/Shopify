@@ -1293,7 +1293,7 @@ const FilterContainer = class extends HTMLElement {
       });
     }
   }
-
+ 
   connectedCallback() {
     // scroll
     if (this.throttledCheckStickyScroll) {
@@ -1309,8 +1309,9 @@ const FilterContainer = class extends HTMLElement {
     // layout switch
     if (this.section.querySelector('.layout-switchers')) {
       this.boundSwitchGridLayout = theme.addDelegateEventListener(this.section, 'click', '.layout-switch', this.switchGridLayout.bind(this));
+     
     }
-
+ 
     // show/hide filters
     this.delegatedToggleFiltersCallback = theme.addDelegateEventListener(this.section, 'click', '[data-toggle-filters]', (evt) => {
       evt.preventDefault();
@@ -2722,7 +2723,7 @@ const ProductForm = class extends HTMLElement {
   async handleSubmit(evt) {
     evt.preventDefault();
     if (this.submitBtn.getAttribute('aria-disabled') === 'true') return;
-
+    console.log("jflksdjfldksjf");
     this.setErrorMsgState();
 
     const formValid = this.validate();
@@ -2792,6 +2793,7 @@ const ProductForm = class extends HTMLElement {
         detail: {
           variantId: data.variant_id
         }
+       
       }));
 
       // Re-enable 'Add to Cart' button.
@@ -2985,6 +2987,7 @@ class ProductInventory extends HTMLElement {
                 a.forEach(el => { if (el.nextSibling){ el.remove();}});                  
               } else {
                 notice = textXLeftLow.replace('[QTY]', count);
+                myNode.remove();  
               }              
             }
              
