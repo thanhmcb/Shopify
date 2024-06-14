@@ -1,0 +1,377 @@
+{
+  "sections": {
+    "template-header": {
+      "type": "template-header",
+      "settings": {
+        "full_width": false,
+        "overlay_opacity": 30,
+        "show_subcollections": true,
+        "display_description": true
+      }
+    },
+    "rich_text_tzGiMq": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_QwNh38": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_Q7pkwi": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "size": "h3"
+          }
+        },
+        "text_D8Rgtp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Browse through some of the many designs we have created in collaboration with our clients and partners! <\/p>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_QwNh38",
+        "heading_Q7pkwi",
+        "text_D8Rgtp"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "gallery_CQBcY8": {
+      "type": "gallery",
+      "blocks": {
+        "image_aqMTNP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_22.png",
+            "title": "HAC Elite Youth Extreme",
+            "text": "Uniforms",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "image_nJHHHW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_18.png",
+            "title": "Joanna Remes",
+            "text": "Team Wear",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "image_TcwhYh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_21.png",
+            "title": "NLC Pearls",
+            "text": "Uniforms",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_aqMTNP",
+        "image_nJHHHW",
+        "image_TcwhYh"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "columns_desktop": 3,
+        "full_width": true,
+        "mobile_swipe": false,
+        "image_ratio": "adapt",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "column_spacing": "small",
+        "heading_size": "h4",
+        "overlay_opacity": 70,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "image_with_text_overlay_miBkdD": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_eLLrnw": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_7npijb": {
+          "type": "heading",
+          "settings": {
+            "text": "TCS",
+            "heading_size": "h3"
+          }
+        },
+        "text_naRaEC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Uniforms<\/p>"
+          }
+        },
+        "button_49eyFE": {
+          "type": "button",
+          "settings": {
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_eLLrnw",
+        "heading_7npijb",
+        "text_naRaEC",
+        "button_49eyFE"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_design_23.png",
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-500",
+        "content_position": "bottom-left",
+        "text_alignment": "center",
+        "full_width": true,
+        "overlay_opacity": 30,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "image_with_text_LFXkmq": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_nMkbGw": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_JGLyBr": {
+          "type": "heading",
+          "settings": {
+            "text": "Creating dreams",
+            "heading_size": "h3"
+          }
+        },
+        "text_9nfhyy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We know the calue of your spirit on the mat and we want to make your dreams for the perfect uniform come true.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_nMkbGw",
+        "heading_JGLyBr",
+        "text_9nfhyy"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_design_33.png",
+        "use_video": false,
+        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "content_position": "text-left",
+        "full_width": false,
+        "color_bg": "#ffffff",
+        "color_text": "#103a3a",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "gallery_nBiDYq": {
+      "type": "gallery",
+      "blocks": {
+        "image_BqmqdV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_29.png",
+            "title": "HAC Elite",
+            "text": "Team Wear",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "image_CtbWKi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_26.png",
+            "title": "SSC Blizzard",
+            "text": "Uniforms",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_BqmqdV",
+        "image_CtbWKi"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "columns_desktop": 2,
+        "full_width": true,
+        "mobile_swipe": false,
+        "image_ratio": "adapt",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "column_spacing": "small",
+        "heading_size": "h4",
+        "overlay_opacity": 70,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "image_with_text_overlay_YJUptc": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_VrgLJB": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_cRQLhr": {
+          "type": "heading",
+          "settings": {
+            "text": "Bounce Brisk",
+            "heading_size": "h3"
+          }
+        },
+        "text_JJJAMg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Uniforms<\/p>"
+          }
+        },
+        "button_4CNGtJ": {
+          "type": "button",
+          "settings": {
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_VrgLJB",
+        "heading_cRQLhr",
+        "text_JJJAMg",
+        "button_4CNGtJ"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_design_31.png",
+        "mobile_image": "shopify:\/\/shop_images\/Untitled_design_30.png",
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-500",
+        "content_position": "bottom-left",
+        "text_alignment": "center",
+        "full_width": true,
+        "overlay_opacity": 30,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "gallery_Tk9KPK": {
+      "type": "gallery",
+      "blocks": {
+        "image_h4UtCc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_3f01d123-7815-4b03-9535-b5b60c74f53b.jpg",
+            "title": "Jaguar Spirit Athletes",
+            "text": "Uniforms",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "image_wRW36G": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_1.jpg",
+            "title": "Loma Teneriffa",
+            "text": "Uniforms",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "image_BKEFLj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_2.jpg",
+            "title": "MuSyke Dazzling",
+            "text": "Uniforms",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_h4UtCc",
+        "image_wRW36G",
+        "image_BKEFLj"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "columns_desktop": 3,
+        "full_width": true,
+        "mobile_swipe": false,
+        "image_ratio": "adapt",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "column_spacing": "small",
+        "heading_size": "h4",
+        "overlay_opacity": 70,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    }
+  },
+  "order": [
+    "template-header",
+    "rich_text_tzGiMq",
+    "gallery_CQBcY8",
+    "image_with_text_overlay_miBkdD",
+    "image_with_text_LFXkmq",
+    "gallery_nBiDYq",
+    "image_with_text_overlay_YJUptc",
+    "gallery_Tk9KPK",
+    "main"
+  ]
+}
