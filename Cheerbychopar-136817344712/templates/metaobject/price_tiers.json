@@ -1,0 +1,47 @@
+{
+  "sections": {
+    "rich_text_Ue8r8Y": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_JK8mFz": {
+          "type": "heading",
+          "settings": {
+            "text": "{{ metaobject.name.value }}",
+            "size": "h3"
+          }
+        },
+        "text_TD6g6x": {
+          "type": "text",
+          "settings": {
+            "text": "{{ metaobject.tiers | metafield_tag }}",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        },
+        "button_6rTL7a": {
+          "type": "button",
+          "settings": {
+            "link_label": "Learn More",
+            "link": "",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_JK8mFz",
+        "text_TD6g6x",
+        "button_6rTL7a"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "rich_text_Ue8r8Y"
+  ]
+}

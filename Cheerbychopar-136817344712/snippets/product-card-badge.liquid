@@ -1,0 +1,12 @@
+{%- assign badge_position = settings.badge_position -%}
+{%- unless product_card_product.available -%}
+<span class="badge out-of-stock {{ badge_position }}">{{ 'products.product.sold_out' | t }}</span>
+{%- endunless -%}
+{%- if product_card_product.compare_at_price > product_card_product.price and product_card_product.available -%}
+<span class="badge onsale {{ badge_position }}">{{ 'products.product.on_sale' | t }}</span>
+{%- endif -%}
+{%- if product_card_product.metafields.theme.preorder and product_card_product.available -%}
+<span class="badge pre-order {{ badge_position }}">
+	{{ 'products.product.pre_order' | t }}
+</span>
+{%- endif -%}
