@@ -1,0 +1,205 @@
+{
+  "sections": {
+    "template-header": {
+      "type": "template-header",
+      "settings": {
+        "full_width": true,
+        "overlay_opacity": 30,
+        "show_subcollections": true,
+        "display_description": true
+      }
+    },
+    "1652120914ae452f7a": {
+      "type": "rich-text",
+      "blocks": {
+        "1652120914012681b9-1": {
+          "type": "heading",
+          "settings": {
+            "text": "\"Cheerleading is our passion - just like it is yours\"",
+            "size": "h4"
+          }
+        }
+      },
+      "block_order": [
+        "1652120914012681b9-1"
+      ],
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "165346409355bacb50": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 40,
+        "spacer_desktop": 60,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "16521210505e7fc635": {
+      "type": "image-with-text",
+      "blocks": {
+        "16521210505eeb74be-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Who are we? ",
+            "heading_size": "h3"
+          }
+        },
+        "16521210505eeb74be-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>CHOPAR is a Nordic company who lives for the passion of cheerleading. We work to help cheerleading clubs and teams all around Europe to reach their goals while wearing their dream uniforms. With our high quality, unique designs, competitive prices, and many years of experience we help you to reach your goals and to be your best. <\/p><p>CHOPAR was born in 1989 and started as a gymnastic brand. After years of experience on textile industry with focus on gymnastics we got fascinated by the sport of cheerleading and started to produce our first uniforms in 2018. During the 2020 century our growth has been phenomenal within cheerleaders in the Nordics.  <\/p><p>Today we are 25 employees. Our main office is based in Ikast, Denmark, and the second one in Vantaa, Finland. Our production is based in Poland, Ukraine, and Turkey.  <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16521210505eeb74be-1",
+        "16521210505eeb74be-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2_8035014d-16ac-43d8-8191-19b8cde29b00.png",
+        "use_video": false,
+        "video": "",
+        "video_autoplay": true,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "content_position": "text-left",
+        "full_width": false,
+        "color_bg": "#ffffff",
+        "color_text": "#103a3a",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "image_with_text_zXnbNn": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_KqqQiR": {
+          "type": "heading",
+          "settings": {
+            "text": "Vision",
+            "heading_size": "h3"
+          }
+        },
+        "text_KktFjf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We have a vision to not just produce the best cheerleading uniforms and team wear – we want to develop the products and be an inspiration to the industry and the sport. We want our products to be innovative and developed in close collaborations with athletes. Because of that we prioritize to keep a close contact with our customers, to make sure we deliver products that reach the best performance. <\/p><p>We strive to be the leading cheerleading brand in Europe. As you can hear our mission in the sport is not done at all, but we’re on our way and we are not slowing down. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KqqQiR",
+        "text_KktFjf"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1_8f3e6a45-d5be-411a-8046-42162bc0e39b.png",
+        "use_video": false,
+        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "content_position": "text-left",
+        "full_width": false,
+        "color_bg": "#ffffff",
+        "color_text": "#103a3a",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "logo_list_8KrN6M": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_bk3BwG": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/About_us_-_section_banner_3.png",
+            "link": ""
+          }
+        },
+        "logo_QJiGBH": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/About_us_-_section_banner_4.png",
+            "link": ""
+          }
+        },
+        "logo_h6BmQM": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/About_us_-_section_banner_5.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_bk3BwG",
+        "logo_QJiGBH",
+        "logo_h6BmQM"
+      ],
+      "settings": {
+        "heading": "Collaborations",
+        "description": "<p>We at CHOPAR have had a unique chance to collaborate with some talented teams and athletes, which we are beyond proud of.<\/p>",
+        "columns": 3,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "rich_text_YRReXm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_n6eTxU": {
+          "type": "heading",
+          "settings": {
+            "text": "Want to know more?",
+            "size": "h3"
+          }
+        },
+        "text_KE6gAc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Do you have any questions or are you ready to start the journey towards you next dream uniform?<\/p>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        },
+        "button_TeBzMC": {
+          "type": "button",
+          "settings": {
+            "link_label": "Get in touch",
+            "link": "shopify:\/\/pages\/contact",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_n6eTxU",
+        "text_KE6gAc",
+        "button_TeBzMC"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "template-header",
+    "1652120914ae452f7a",
+    "165346409355bacb50",
+    "16521210505e7fc635",
+    "image_with_text_zXnbNn",
+    "logo_list_8KrN6M",
+    "rich_text_YRReXm"
+  ]
+}

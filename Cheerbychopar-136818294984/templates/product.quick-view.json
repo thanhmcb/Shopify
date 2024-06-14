@@ -1,0 +1,48 @@
+{
+  "sections": {
+    "main-product-quick-view": {
+      "type": "main-product-quick-view",
+      "blocks": {
+        "sku_yMg6ei": {
+          "type": "sku",
+          "settings": {
+            "sku_style": "style_vendor"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "color_picker": true,
+            "variant_is_disabled": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "show_quantity_selector": true,
+            "show_dynamic_checkout": true
+          }
+        }
+      },
+      "block_order": [
+        "sku_yMg6ei",
+        "title",
+        "variant_picker",
+        "buy_buttons"
+      ],
+      "settings": {
+        "show_taxes_included": false,
+        "hide_variants": false
+      }
+    }
+  },
+  "order": [
+    "main-product-quick-view"
+  ]
+}

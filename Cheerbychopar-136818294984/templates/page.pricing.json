@@ -1,0 +1,212 @@
+{
+  "sections": {
+    "template-header": {
+      "type": "template-header",
+      "settings": {
+        "full_width": true,
+        "overlay_opacity": 30,
+        "show_subcollections": true,
+        "display_description": true
+      }
+    },
+    "1652120914ae452f7a": {
+      "type": "rich-text",
+      "blocks": {
+        "text_rUknaz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our pricing can vary due to different factors due to the style you want and how much you would like to change in a certain design. Our prices consist of the following factors: colours, fabrics, sewing, logo type, stones\/sequins, design, delivery costs and the order amount. <\/p><p>The order amount affects the price as following:<\/p><p>1-5 pcs: + 20%<\/p><p>6-19 pcs: standard price<\/p><p>20+ pcs: –18%<\/p><p>We can make uniforms for different price categories depending on your budget.<\/p><p>Below we have listet a couple of examples to help you get a better idea of how we calculate prices for a specific design. And don't worry, our customer service will be there to help you all the way! <\/p>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "text_rUknaz"
+      ],
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "165346409355bacb50": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 40,
+        "spacer_desktop": 60,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "16521210505e7fc635": {
+      "type": "image-with-text",
+      "blocks": {
+        "16521210505eeb74be-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Example no. 1",
+            "heading_size": "h3"
+          }
+        },
+        "16521210505eeb74be-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Simple set with 2-3 colours including simple logo + 200 sequins. <\/p><p>Starting from: 175 € standard price.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16521210505eeb74be-1",
+        "16521210505eeb74be-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/About_us_-_section_banner.png",
+        "use_video": false,
+        "video": "",
+        "video_autoplay": true,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "content_position": "text-left",
+        "full_width": false,
+        "color_bg": "#ffffff",
+        "color_text": "#103a3a",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "image_with_text_zXnbNn": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_KqqQiR": {
+          "type": "heading",
+          "settings": {
+            "text": "Example no. 2",
+            "heading_size": "h3"
+          }
+        },
+        "text_KktFjf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Set with special sewing and 2-4 colours including logo + 600 stones. <\/p><p>Starting from: 260 € standard price.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KqqQiR",
+        "text_KktFjf"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/About_us_-_section_banner_1.png",
+        "use_video": false,
+        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "content_position": "text-left",
+        "full_width": false,
+        "color_bg": "#ffffff",
+        "color_text": "#103a3a",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "image_with_text_cFnxUi": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_NtqUMe": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_EEkhep": {
+          "type": "heading",
+          "settings": {
+            "text": "Example no. 3",
+            "heading_size": "h3"
+          }
+        },
+        "text_xrUBhq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Special custom design made with sublimation includingstones and special fabrics. <\/p><p>Starting from: 350 € standard price.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_NtqUMe",
+        "heading_EEkhep",
+        "text_xrUBhq"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/About_us_-_section_banner_2.png",
+        "use_video": false,
+        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "content_position": "text-left",
+        "full_width": false,
+        "color_bg": "#ffffff",
+        "color_text": "#103a3a",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "rich_text_YRReXm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_n6eTxU": {
+          "type": "heading",
+          "settings": {
+            "text": "Want to know more?",
+            "size": "h3"
+          }
+        },
+        "text_KE6gAc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Do you have any questions or are you ready to start the journey towards you next dream uniform?<\/p>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        },
+        "button_TeBzMC": {
+          "type": "button",
+          "settings": {
+            "link_label": "Get in touch",
+            "link": "shopify:\/\/pages\/contact",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_n6eTxU",
+        "text_KE6gAc",
+        "button_TeBzMC"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "template-header",
+    "1652120914ae452f7a",
+    "165346409355bacb50",
+    "16521210505e7fc635",
+    "image_with_text_zXnbNn",
+    "image_with_text_cFnxUi",
+    "rich_text_YRReXm"
+  ]
+}
