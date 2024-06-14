@@ -33,8 +33,16 @@
           {%- if item.product.variants.size > 1 -%}
             {%- for option in item.product.options -%}
               <div class="cart-item__variant">
-                <span class="cart-item__variant-label">{{ option | escape_once }}:</span>
-                <span class="cart-item__variant-value">{{ item.variant.options[forloop.index0] | escape_once }}</span>
+                <span class="cart-item__variant-label {% if item.variant.options[forloop.index0] contains "(" %} class-bold {%- endif -%}">{{ option | escape_once }}:</span>                
+                {% if item.variant.options[forloop.index0] contains "(" %}
+                  <span class="cart-item__variant-value">
+                    <span class="class-bold">{{ item.variant.options[forloop.index0] | escape_once | split:"(" | first }}</span>
+                    {{ item.variant.options[forloop.index0] | split:"(" | last | prepend: "(" }} 
+                  </span>
+                {%- else -%} 
+                  <span class="cart-item__variant-value">{{ item.variant.options[forloop.index0] | escape_once }}</span>
+                {%- endif -%}
+                </span>
               </div>
             {%- endfor -%}
           {%- endif -%}
@@ -52,7 +60,7 @@
           {%- for property in item.properties -%}               
               {%- assign property_first_char = property.first | slice: 0 -%}
               {% if property.last != blank and property_first_char != '_' %}
-                {% if property.first contains label %}
+                 
                   <div class="line-item-property {% if item.variant.inventory_quantity >= 1 -%} msg_hide {%- endif -%}">
                     <span class="line-item-property__label">{{ property.first | escape_once }}</span>
                     <span class="line-item-property__value">
@@ -63,7 +71,7 @@
                       {%- endif -%}
                     </span>
                   </div>
-                {%- endif -%}
+               
               {% endif %}
           {%- endfor -%}
     

@@ -201,7 +201,7 @@
                 {%- assign value_index0 = forloop.index0 -%}
                 <input
                   type="radio"
-                  class="opt-btn visually-hidden focus-label js-option" 
+                  class="opt-btn visually-hidden focus-label js-option thanh" 
                   name="{{ option_id }}-option"
                   id="{{ option_id }}-opt-{{ value_index0 }}"
                   value="{{ value | escape }}"
@@ -243,14 +243,18 @@
                     endif
                   -%}
                   <label
-                    class="opt-label {% if is_swatch %}opt-label--swatch{% else %}opt-label--btn{% endif %} btn relative text-center"
+                    class="opt-label khoi{% if is_swatch %}opt-label--swatch{% else %}opt-label--btn{% endif %} btn relative text-center"
                     {% if is_swatch %}
                       data-swatch="{{ value | replace: '"', '' | downcase }}"
                     {% endif %}
                     for="{{ option_id }}-opt-{{ value_index0 }}"
                   >
                     <span class="{% if is_swatch and settings.swatch_style != 'listed' %}visually-hidden {% endif %}js-value">
-                      {{- value -}}
+                      {% if value contains "(" %}  
+                        <span class="class-bold">{{ value | split:"(" | first }}</span>{{ value | split:"(" | last | prepend: "(" }} 
+                      {%- else -%} 
+                        {{- value -}}
+                      {%- endif -%} 
                     </span>
                   </label>
                 {%- endif -%}
