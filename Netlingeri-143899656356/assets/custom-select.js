@@ -134,6 +134,7 @@ if (!customElements.get('custom-select')) {
       // mouse down + move + up will trigger a click event on parent - only respond to clicks on LI
       if (evt.target.tagName === 'LI') {
         this.selectOption(evt.target);
+        console.log(evt.target);
       }
     }
 
@@ -328,9 +329,17 @@ if (!customElements.get('custom-select')) {
         if (this.swatches) {
           this.button.dataset.swatch = option.dataset.swatch || '';
         }
-
+        var substring = "(";
+        var optionValueFirst = option.firstElementChild.textContent.split('(')[0];
+        var optionValueLast = "(" + option.firstElementChild.textContent.split('(')[1]; 
+         if (option.firstElementChild.textContent.includes(substring) ) {
+          var optionSelectedValue = `<span class="class-bold">${optionValueFirst}</span>${optionValueLast}`;
+          this.button.firstElementChild.innerHTML =  optionSelectedValue; 
+         }else{
+          this.button.firstElementChild.textContent = option.firstElementChild.textContent;
+         }
         // Update the button text and set the option as active.
-        this.button.firstElementChild.textContent = option.firstElementChild.textContent;
+      
         this.listbox.setAttribute('aria-activedescendant', option.id);
         this.selectedOption = document.getElementById(option.id);
 
