@@ -50,6 +50,7 @@
   endif
 -%}
 
+
 {%- if country_selector -%}
   <country-selector>
 {%- else -%}
@@ -66,7 +67,8 @@
     <button class="custom-select__btn input items-center" type="button"
             aria-expanded="false" aria-haspopup="listbox" id="{{ id }}-button"
             {% if swatches and selected_value %} data-swatch="{{ selected_value | escape | downcase }}"{% endif %}>
-      <span class="text-start">{{- selected_name -}}</span>
+      <span class="text-start"> 
+        {% if selected_name contains "(" %}<span class="class-bold">{{ selected_name | split:"(" | first }}</span>{{ selected_name | split:"(" | last | prepend: "(" }}  {%- else -%}{{- selected_name -}}{%- endif -%}</span>
       <svg width="20" height="20" viewBox="0 0 24 24" class="icon" role="presentation" focusable="false" aria-hidden="true">
         <path d="M20 8.5 12.5 16 5 8.5" stroke="currentColor" stroke-width="1.5" fill="none"/>
       </svg>
@@ -83,7 +85,14 @@
             data-value="{{ value | escape }}"
             {% if swatches %} data-swatch="{{ value | escape | downcase }}"{% endif %}
             {% if value == selected_value %} aria-selected="true"{% endif %}>
-          <span class="pointer-events-none">{{- option_names[forloop.index0] -}}</span>
+          <span class="pointer-events-none">
+            {% if option_names[forloop.index0] contains "(" %}
+              <span class="class-bold">{{ option_names[forloop.index0] | split:"(" | first }}</span>{{ option_names[forloop.index0] | split:"(" | last | prepend: "(" }} 
+              {%- else -%}
+              {{- option_names[forloop.index0] -}}
+            {%- endif -%}
+            
+            </span>
         </li>
       {%- endfor -%}
     </ul>
