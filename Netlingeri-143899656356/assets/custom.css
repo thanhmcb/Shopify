@@ -359,3 +359,15 @@ a.sibling__link.sibling__link--current:after {
 .class-bold, .variant-value__first {
   font-weight: bold;
 }
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  padding-bottom:.6rem;
+}
+
+#footer-localization-language-button .class-bold{
+  font-weight: 500 !important;
+}
+
+#footer-localization-language-button ~ .custom-select__listbox .class-bold{
+  font-weight: 500 !important; 
+}

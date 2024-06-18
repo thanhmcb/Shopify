@@ -410,9 +410,8 @@
             </cart-message>
 
             <buy-buttons class="buy-buttons-row block
-            {% unless product.metafields.easypos.product_b8 %} klaviyo-enable{% endunless %}{% unless product.available %} product-not-available{% endunless %}{%- if request.page_type == 'collection' -%} collection-quick-view{% endif %}" {{ block.shopify_attributes }}>                             
-              {% form 'product', product, id: product_form_id, class: 'form js-product-form ', data-product-id: product.id %}
-                <input type="hidden" name="id" value="{{ current_variant.id }}" disabled>
+          {% unless product.metafields.easypos.product_b8 %} klaviyo-enable{% endunless %}{% unless product.available %} product-not-available{% endunless %}{%- if request.page_type == 'collection' -%} collection-quick-view{% endif %}" {{ block.shopify_attributes }}>                             
+            {% form 'product', product, id: product_form_id, class: 'form js-product-form ', data-product-id: product.id %} 
 
                 {% if product.available %}
                   {%- liquid
