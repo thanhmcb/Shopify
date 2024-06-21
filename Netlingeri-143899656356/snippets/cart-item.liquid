@@ -32,18 +32,27 @@
         <div class="small-text">
           {%- if item.product.variants.size > 1 -%}
             {%- for option in item.product.options -%}
-              <div class="cart-item__variant">
-                <span class="cart-item__variant-label {% if item.variant.options[forloop.index0] contains "(" %} class-bold {%- endif -%}">{{ option | escape_once }}:</span>                
-                {% if item.variant.options[forloop.index0] contains "(" %}
-                  <span class="cart-item__variant-value">
-                    <span class="class-bold">{{ item.variant.options[forloop.index0] | escape_once | split:"(" | first }}</span>
-                    {{ item.variant.options[forloop.index0] | split:"(" | last | prepend: "(" }} 
+              {%- comment %} MCB - Bold text {%- endcomment -%}  
+              {% if settings.enable_bold_text -%}
+                <div class="cart-item__variant">
+                  <span class="cart-item__variant-label {% if item.variant.options[forloop.index0] contains "(EU" %} class-bold {%- endif -%}">{{ option | escape_once }}:</span>                
+                  {% if item.variant.options[forloop.index0] contains "(EU" %}
+                    <span class="cart-item__variant-value">
+                      <span class="class-bold">{{ item.variant.options[forloop.index0] | escape_once | split:"(" | first }}</span>
+                      {{ item.variant.options[forloop.index0] | split:"(" | last | prepend: "(" }} 
+                    </span>
+                  {%- else -%} 
+                    <span class="cart-item__variant-value">{{ item.variant.options[forloop.index0] | escape_once }}</span>
+                  {%- endif -%}
                   </span>
-                {%- else -%} 
-                  <span class="cart-item__variant-value">{{ item.variant.options[forloop.index0] | escape_once }}</span>
-                {%- endif -%}
-                </span>
-              </div>
+                </div>
+              {% else %}
+                <div class="cart-item__variant">
+                  <span class="cart-item__variant-label">{{ option | escape_once }}:</span>                    
+                  <span class="cart-item__variant-value">{{ item.variant.options[forloop.index0] | escape_once }}</span>                 
+                </div>
+              {% endif %}
+              {%- comment %} MCB - Bold text {%- endcomment -%}  
             {%- endfor -%}
           {%- endif -%}
 

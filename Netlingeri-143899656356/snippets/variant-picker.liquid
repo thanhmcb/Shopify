@@ -243,18 +243,24 @@
                     endif
                   -%}
                   <label
-                    class="opt-label khoi{% if is_swatch %}opt-label--swatch{% else %}opt-label--btn{% endif %} btn relative text-center"
+                    class="opt-label {% if is_swatch %}opt-label--swatch{% else %}opt-label--btn{% endif %} btn relative text-center"
                     {% if is_swatch %}
                       data-swatch="{{ value | replace: '"', '' | downcase }}"
                     {% endif %}
                     for="{{ option_id }}-opt-{{ value_index0 }}"
                   >
                     <span class="{% if is_swatch and settings.swatch_style != 'listed' %}visually-hidden {% endif %}js-value">
-                      {% if value contains "(" %}  
-                        <span class="class-bold">{{ value | split:"(" | first }}</span>{{ value | split:"(" | last | prepend: "(" }} 
+                      {%- comment %} MCB - Bold text {%- endcomment -%}  
+                      {% if settings.enable_bold_text -%}
+                        {% if value contains "(" %}  
+                          <span class="class-bold">{{ value | split:"(" | first }}</span>{{ value | split:"(" | last | prepend: "(" }} 
+                        {%- else -%} 
+                          {{- value -}}
+                        {%- endif -%} 
                       {%- else -%} 
                         {{- value -}}
-                      {%- endif -%} 
+                    {%- endif -%} 
+                    {%- comment %} MCB - Bold text {%- endcomment -%}  
                     </span>
                   </label>
                 {%- endif -%}

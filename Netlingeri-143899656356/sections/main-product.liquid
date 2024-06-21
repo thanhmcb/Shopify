@@ -39,7 +39,6 @@
     </div>
   </div>
 {% endif %}
-
 <product-form class="js-product product-info quickbuy-content spaced-row container">
   <media-gallery class="media-gallery media-gallery--layout-{{ section.settings.gallery_layout }} media-gallery-size-{{ section.settings.gallery_size }} product-column-left {% if product.media.size > 1 %}has-thumbnails{% endif %}"
     data-cc-animate
@@ -430,20 +429,19 @@
                   {% if gift_card_recipient_feature_active %}
                     {% render 'gift-card-recipient', section: section %}
                   {% endif %}
-
+                  <div class="js-form-error lightly-spaced-row" role="alert" hidden></div>
                   <div class="quantity-submit-row {% if enable_dynamic_payment_button %}has-spb{% endif %}">
-                    {% if block.settings.show_quantity_selector %}
-                      <label class="label" for="quantity">{{ 'products.product.quantity' | t }}</label>
-                      <quantity-wrapper class="quantity-wrapper">
-                        <a href="#" data-quantity="down" aria-label="{{ 'cart.items.decrease_quantity' | t }}">{% render 'icon-minus' %}</a>
-                        <input aria-label="{{ 'products.product.quantity' | t }}" id="quantity" type="number" name="quantity" value="1" />
-                        <a href="#" data-quantity="up" aria-label="{{ 'cart.items.increase_quantity' | t }}">{% render 'icon-plus' %}</a>
-                      </quantity-wrapper>
-                    {% endif %}
+                    
 
                     <div class="quantity-submit-row__submit">
-                      <div class="js-form-error lightly-spaced-row" role="alert" hidden></div>
-
+                      
+                      {% if block.settings.show_quantity_selector %}
+                        <quantity-wrapper class="quantity-wrapper">
+                          <a href="#" data-quantity="down" aria-label="{{ 'cart.items.decrease_quantity' | t }}">{% render 'icon-minus' %}</a>
+                          <input aria-label="{{ 'products.product.quantity' | t }}" id="quantity" type="number" name="quantity" value="1" />
+                          <a href="#" data-quantity="up" aria-label="{{ 'cart.items.increase_quantity' | t }}">{% render 'icon-plus' %}</a>
+                        </quantity-wrapper>
+                      {% endif %}
                       {%- capture add_to_cart_text -%}
                         {%- if product.template_suffix contains 'preorder' -%}
                           {{- 'products.product.preorder' | t -}}
@@ -459,6 +457,7 @@
                             {{- 'products.variant.no_stock' | t -}}
                           {%- endif -%}
                         </button>
+                        
                       </div>
                     </div>
                     {% if enable_dynamic_payment_button %}
@@ -470,6 +469,10 @@
                     {% if block.settings.show_backorder_text %}
                       {% render 'backorder', product: product, variant: current_variant %}
                     {% endif %}
+
+                    {%  unless product.metafields.easypos.product_b8  %}                        
+                    <a class="klaviyo-bis-trigger btn btn--large {% if product.selected_or_first_available_variant.available  %} product-first-variant-available{% endif %}" href="#">{{ 'products.product.notify_text' | t }}</a>          
+                    {% endunless %}  
                   </div>
 
                 {% else %}
@@ -481,10 +484,9 @@
                     </div>
                   </div>
                 {% endif %}
+                
               {% endform %}
-              {%  unless product.metafields.easypos.product_b8  %}                        
-                  <a class="klaviyo-bis-trigger btn btn--large {% if product.selected_or_first_available_variant.available  %} product-first-variant-available{% endif %}" href="#">{{ 'products.product.notify_text' | t }}</a>          
-               {% endunless %} 
+              
               {%- if product.available and block.settings.show_pickup_availability -%}
                 {% render 'pickup-availability', current_variant: current_variant %}
               {%- endif -%}
@@ -853,12 +855,14 @@
                           </button>
                         </div>
                       </div>
-                      <div class="collection-listing slider slider--no-scrollbar">
+                      <div class="collection-listing  slider slider--no-scrollbar">
                         <div class="product-grid product-grid--per-row-2 product-grid--per-row-mob-2 slider__grid product-grid--carousel">
                           {% for related_product in recommendations.products limit: block.settings.max_products %}
                             <div class="slider__item{% if forloop.first %} is-active{% endif %}">
-                              {%- render 'product-block', product: related_product, no_quick_buy: true, no_swiping: true, custom_aspect_ratio: chosen_aspect_ratio, grid: 5 -%}
-                            </div>
+                             
+                              {%- render 'product-block-custom', product: related_product, enable_quick_add: block.settings.enable_quick_add, no_quick_buy: true, no_swiping: true, custom_aspect_ratio: chosen_aspect_ratio, grid: 5 -%}
+                        
+                              </div>
                           {% endfor %}
                         </div>
                       </div>
@@ -869,10 +873,11 @@
                     </div>
                     <div class="fixed-layout fixed-layout--no-wide-gutter">
                       {%- liquid
-                        for related_product in recommendations.products limit: block.settings.max_products
+                        for related_product in recommendations.products limit: block.settings.max_products 
                           echo '<div class="column column--half">'
-                          render 'product-block', product: related_product, no_quick_buy: true, custom_aspect_ratio: chosen_aspect_ratio, grid: 5
+                          render 'product-block-custom', product: related_product, no_quick_buy: true, custom_aspect_ratio: chosen_aspect_ratio, grid: 5
                           echo '</div>'
+                    
                         endfor
                       -%}
                     </div>
@@ -881,7 +886,8 @@
               {%- endif -%}
             </cc-fetched-content>
 
-          {% when 'countdown' %}
+          
+            {% when 'countdown' %}
             <div class="lightly-spaced-row{% unless block.settings.show_in_quickbuy %} not-in-quickbuy{% endunless %}" {{ block.shopify_attributes }}>
               {%- liquid
                 assign hide_on_end = block.settings.hide_on_end | default: false
@@ -913,8 +919,40 @@
                 </div>
               {%- endif -%}
             </div>
-
-          {% when 'feature-rating' %}
+            {% when 'upsell_product' %}
+            <upsell-products>
+              <div class="variant-drop-down">
+                <form action="/cart/add" method="post" class="upsell_form" >
+                <select name="id" id="upsell_select">
+                
+               
+                <option value="45092801675428">my upsell</option>
+               
+               
+                </select>
+                <button type="submit" value="Buy now" id="upsell_btn"  class="variant-button">Add to cart</button>
+                </form></div>
+            </upsell-products>
+            <upsell-products>
+              <div class="variant-drop-down">
+                <form action="/cart/add" method="post" class="upsell_form" >
+                
+                <select name="id">
+                      {% for variant in product.variants %}
+                      {% if variant.available %}
+                      <option value="{{ variant.id }}">{{ variant.title }}</option>
+                      {% else %}
+                      <option disabled="disabled">{{ variant.title }} - Sold Out</option>
+                      {% endif %}
+                      {% endfor %}
+</select> 
+                <button type="submit" value="Buy now" id="upsell_btn"  class="variant-button">Add to cart</button>
+                </form></div>
+            </upsell-products>
+               
+                
+          
+            {% when 'feature-rating' %}
             <link rel="stylesheet" href="{{ 'feature-rating.css' | asset_url }}">
             <div class="input-row{% unless block.settings.show_in_quickbuy %} not-in-quickbuy{% endunless %}" {{ block.shopify_attributes }}>
               {%- if block.settings.heading != blank -%}
@@ -975,6 +1013,13 @@
       "label": "Show breadcrumbs",
       "default": true
     },
+    {
+          "type": "checkbox",
+          "id": "enable_quick_add",
+          "label": "Quick-add function on 'se også...' - MCB",
+          "info":"This will disable/activate quick add function on 'se også...'",
+          "default": true
+        },
     {
       "type": "checkbox",
       "id": "show_location_underneath",
@@ -2810,12 +2855,14 @@
           "default": "Pairs well with",
           "label": "Heading"
         },
+          
         {
           "type": "checkbox",
           "id": "enable_carousel",
           "label": "Enable carousel",
           "default": true
         },
+       
         {
           "type": "range",
           "id": "max_products",
@@ -2825,8 +2872,11 @@
           "label": "Maximum products to show",
           "default": 10
         }
+        
+       
       ]
     },
+    
     {
       "type": "feature-rating",
       "name": "Fit / Feature rating",
@@ -3084,4 +3134,8 @@
             }
              
           }); 
-</script>                        
+         
+         
+
+</script>     
+

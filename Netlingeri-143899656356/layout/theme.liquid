@@ -160,6 +160,8 @@
     <script src="{{ 'theme-editor.js' | asset_url }}" defer></script>
   {%- endif -%}
 
+  
+
   {% if settings.animations_enabled_desktop %}
     <script src="{{ 'animate-on-scroll.js' | asset_url }}" defer></script>
     {{ 'animate-on-scroll.css' | asset_url | stylesheet_tag: preload: true }}
@@ -227,5 +229,6 @@
 {%- assign lang_code =  request.locale.iso_code -%}
 {%- assign  klaviyo_script = 'klaviyo-setup-' | append: lang_code | append: ".js"-%}
 <script src="{{ klaviyo_script | asset_url }}" defer></script>
+
 </body>
 </html>

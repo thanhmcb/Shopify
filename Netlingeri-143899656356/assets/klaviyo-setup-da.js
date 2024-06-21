@@ -2,7 +2,8 @@ var klaviyo = klaviyo || [];
     klaviyo.init({
       account: "Rx7dRj",
       list: "QQ4aVE",
-      platform: "shopify"
+      platform: "shopify",
+      collection_urls: ["/collections/"]   
     });
     klaviyo.enable("backinstock",{ 
     trigger: {
@@ -10,7 +11,12 @@ var klaviyo = klaviyo || [];
       product_page_class: "btn",
       product_page_text_align: "center",
       product_page_margin: "0px",
-      replace_anchor: false
+      replace_anchor: false,
+      collection_page_class: 'btn',    
+      collection_page_text_align: 'center',    
+      collection_page_width: '200px',    
+      collection_page_text: 'Notify Me When Available',    
+      collection_page_padding: 'inherit',
     },
     modal: {
      headline: "{product_name}",

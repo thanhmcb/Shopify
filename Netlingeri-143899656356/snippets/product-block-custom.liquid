@@ -12,7 +12,7 @@ Parameters:
   - grid {Number} - Desktop grid column count, used for image sizing (option, default is section.settings.grid)
 
   Usage:
-  {% render 'product-block',
+  {% render 'product-block-custom',
     product: product
   %}
 {%- endcomment -%}
@@ -22,6 +22,8 @@ Parameters:
   else
     assign product_url = product.url
   endif
+
+
 
   assign product_images = product.media | where: 'media_type', 'image'
   if settings.prod_thumb_hover_image and product_images.size > 1
@@ -56,6 +58,8 @@ Parameters:
     assign loading = 'lazy'
     assign hover_loading = 'lazy'
   endif
+
+  assign enable_quick_add = section.settings.enable_quick_add
 
   if in_predictive_search
     assign show_vendor = settings.quick_search_show_vendor
@@ -178,9 +182,41 @@ Parameters:
                 </div>
               {%- endif -%}
             </a>
-
-     
            
+            {%- if enable_quick_add -%}
+             
+              <upsell-products>     
+                <div class="variant-drop-down">
+                  <form action="/cart/add" method="post" class="upsell_form" >
+                 
+
+                  <select name="id">
+                    
+                    {% for variant in product.variants %}
+                      {% if variant.available %}
+                       
+
+                        <option value="{{ variant.id }}">{{ variant.option2 }}</option> 
+                      {% else %}
+                        <option disabled="disabled">{{ variant.option2 }} -  {{- 'products.variant.no_stock' | t -}}</option>
+                      {% endif %}
+                    {% endfor %}
+                  </select>
+                  <button type="submit" value="Buy now"   class="btn variant-button">{{- 'products.product.add_to_cart' | t -}}</button>
+                  </form>
+                </div>
+               
+              
+            
+                {% if product.has_only_default_variant %}
+                  <form method="post" action="/cart/add" class="upsell_form" >
+                  <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
+                  <input type="submit" value="Buy now" class="btn btn--large" />
+                  </form>
+                {% endif %}             
+              </upsell-products>
+            {%- endif -%}
+            
 
             {%- if settings.swatch_enabled and settings.prod_thumb_show_options and hide_swatches == blank -%}
               {%- liquid
@@ -340,3 +376,4 @@ Parameters:
     {%- endunless -%}
   {%- endif -%}
 </product-block>
+
