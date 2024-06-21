@@ -1,0 +1,321 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "image_with_text_overlay_mJb6Nt": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_ChcNFp": {
+          "type": "heading",
+          "settings": {
+            "text": "{{ page.title }}",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_JyFNtj": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>We're always looking for new, exciting ambassadors and influencers who share our love for great sound and Scandinavian design<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ChcNFp",
+        "richtext_JyFNtj"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "sm",
+        "image": "shopify:\/\/shop_images\/argon_5a375e01-c0bf-462b-a57c-19b19a27efaa.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "7674864b-bfdb-41fe-bad4-83c0cf2953e6": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17265392419128__7674864b-bfdb-41fe-bad4-83c0cf2953e6-16750754821e6a0faa-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Join our growing team of influencers across Europe",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--17265392419128__7674864b-bfdb-41fe-bad4-83c0cf2953e6-16750754821e6a0faa-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>At Argon Audio, we believe that music is an essential part of life and that everyone should have access to high-quality audio equipment. That's why we've made it our mission to bring the best value-for-money audio products to market, combining cutting-edge technology with sleek design.<br\/><br\/>How is this possible? In short, we develop the products ourselves and ship them directly from the factory to our customers. The savings by doing business this way are substantial and benefit the end user massively. Oh, and don't worry about the quality; Argon Audio is built to work for years!<br\/><br\/>We're looking for spirited creators with a keen eye for creating engaging and visually appealing content, with our products at the centre. Is this you? Then apply to our team and let's get rocking!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17265392419128__7674864b-bfdb-41fe-bad4-83c0cf2953e6-16750754821e6a0faa-1",
+        "template--17265392419128__7674864b-bfdb-41fe-bad4-83c0cf2953e6-16750754821e6a0faa-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_LA3pxi": {
+      "type": "multi-column",
+      "blocks": {
+        "item_fK93Yg": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "Influencer platform",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "https:\/\/infl.dreaminfluencers.com\/?d=iiLms6Vukp",
+            "link_text": "Join now",
+            "link_style": "button"
+          }
+        },
+        "item_UVBF3W": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "Email formula",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "Join now",
+            "link_style": "button"
+          }
+        }
+      },
+      "block_order": [
+        "item_fK93Yg",
+        "item_UVBF3W"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Send us a message",
+        "content": "<p>We recommend applying through our influencer platform. But if that's not your style, don't worry – you can also send us a personal application using our email formula. We look forward to hearing from you!<\/p><p><\/p><p>If you have any additional questions, email us at <a href=\"mailto:ambassadors@nordichifi.com\" title=\"mailto:ambassadors@nordichifi.com\">ambassadors@nordichifi.com<\/a><\/p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_wWKQ4c": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_WATrBz": {
+          "type": "heading",
+          "settings": {
+            "text": "Passionate about music, hi-fi, or Scandinavian aesthetics?",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WATrBz"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Banner_desktop_9be9602c-0fac-4fcf-85ae-6d98ebfa43b9.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/ARGSA1MK2_ARGFORUS5BK_ARGTT4BK_L_05.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_NnV3gr": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wpPFeF": {
+          "type": "heading",
+          "settings": {
+            "text": "Previous collaborations",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_wpPFeF"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_grid_pwpCkx": {
+      "type": "media-grid",
+      "blocks": {
+        "image_Ete3hH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC08101.jpg",
+            "title": "picpond photography",
+            "heading_tag": "h5",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "video_nxrz66": {
+          "type": "video",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/Argon Audio.mp4",
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "show_video_controls": false,
+            "title": "AmarMuric",
+            "heading_tag": "h5",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_xh8HnY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_2083.png",
+            "title": "mamoavisuals",
+            "heading_tag": "h5",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_Ete3hH",
+        "video_nxrz66",
+        "image_xh8HnY"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "image_with_text_overlay_bXV7RY": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_MXLRTk": {
+          "type": "heading",
+          "settings": {
+            "text": "Get to know us better",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_mrRhQD": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Learn all about who we are, what we do, and why we do it<\/p>"
+          }
+        },
+        "button_t6rk34": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Learn more",
+            "link_url_page": "the-promise",
+            "url": "",
+            "text-color": "#ffffff",
+            "button_background": "#8a7052",
+            "button_border_color": "#8a7052"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MXLRTk",
+        "richtext_mrRhQD",
+        "button_t6rk34"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/fenris_desktop_1b038f8f-62e5-4405-aa81-e537c95d7da1.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_mJb6Nt",
+    "7674864b-bfdb-41fe-bad4-83c0cf2953e6",
+    "multi_column_LA3pxi",
+    "image_with_text_overlay_wWKQ4c",
+    "rich_text_NnV3gr",
+    "media_grid_pwpCkx",
+    "image_with_text_overlay_bXV7RY"
+  ]
+}

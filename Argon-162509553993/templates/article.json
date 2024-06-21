@@ -1,0 +1,84 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "settings": {
+        "allow_transparent_header": false,
+        "layout": "image_left_text_right",
+        "show_author": false,
+        "show_date": false,
+        "show_comments_count": false,
+        "show_share_buttons": false,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "950px"
+      }
+    },
+    "featured_collection_neDRWN": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "{{ article.metafields.custom.featured_collection.value }}",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "blog_posts_XHPmEe": {
+      "type": "blog-posts",
+      "blocks": {
+        "blog_yXyCGz": {
+          "type": "blog",
+          "settings": {
+            "blog": "insights",
+            "posts_count": 3,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "blog_yXyCGz"
+      ],
+      "settings": {
+        "full_width": false,
+        "show_excerpt": false,
+        "show_date": false,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "Blog posts",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "featured_collection_neDRWN",
+    "blog_posts_XHPmEe"
+  ]
+}

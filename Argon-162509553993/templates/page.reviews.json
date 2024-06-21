@@ -1,0 +1,285 @@
+{
+  "sections": {
+    "e900f29b-d18c-4314-89a3-6deddbde1290": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17829298864440__e900f29b-d18c-4314-89a3-6deddbde1290-16750760212251f96b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/The-Promise_3200x1600_16b98bdb-010b-4012-b9cb-00f8f98f6d7f.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/The-Promise_1300x1500_95aaa073-418e-4118-9b43-be3812eccde6.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Let Customers Speak For Us",
+            "title": "Reviews",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17829298864440__e900f29b-d18c-4314-89a3-6deddbde1290-16750760212251f96b-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "sm",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "fc74fb7c-5773-47ed-a186-dc1d499bd1ad": {
+      "type": "testimonials",
+      "blocks": {
+        "template--18162581242168__fc74fb7c-5773-47ed-a186-dc1d499bd1ad-1677585776021b592c-0": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ARGTT4_EISA_fbe695f1-804f-47ec-aafd-817c60224004.png",
+            "round_avatar": false,
+            "show_rating": false,
+            "rating": 4,
+            "author": "",
+            "title": "Argon Audio TT-4",
+            "content": "<p>\"This deck is all about pitch-perfect, accurate music replay, aided by a 1.5kg platter, heavyweight MDF plinth and vibration-damping feet – even the 8.9in carbon-fibre tonearm features an ATS (Anisotropic Torsion Stabiliser) system to minimise resonances. Ease of use is aided by the TT-4’s integrated, high-quality RIAA phono preamp, electronic speed control and prefitted Ortofon 2M Red cartridge. And with its timeless combination of wood veneer, black and white chassis options, this overperforming turntable is a bit of a looker too…\"<\/p><p><a href=\"https:\/\/eisa.eu\/awards\/argon-audio-tt-4\/\" target=\"_blank\" title=\"https:\/\/eisa.eu\/awards\/argon-audio-tt-4\/\"><strong>Read review<\/strong><\/a><strong> (English)<\/strong><\/p>"
+          }
+        },
+        "template--18162581242168__fc74fb7c-5773-47ed-a186-dc1d499bd1ad-1677585776021b592c-1": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ARGSOLO_Hifitest_EN_Year_69bb7531-b683-402b-8c42-400292d3ce62.jpg",
+            "round_avatar": false,
+            "show_rating": false,
+            "rating": 5,
+            "author": "",
+            "title": "Argon Audio SOLO",
+            "content": "<p>\"The Argon Audio SOLO is a great little streaming box! It supports various streaming services and is easy and reliable to set up. The sound quality is really clean, even satisfying the needs of demanding listeners.\"<\/p><p>Grade: 1.3 | Class: Premium Class | Price\/Performance: Very good<\/p><p><a href=\"https:\/\/www.hifitest.de\/test\/hifi-sonstiges\/argon-audio-solo-21124\" target=\"_blank\" title=\"https:\/\/www.hifitest.de\/test\/hifi-sonstiges\/argon-audio-solo-21124\"><strong>Read review<\/strong><\/a><strong> (German)<\/strong><\/p>"
+          }
+        },
+        "c8f95705-f714-40af-ad48-10645d303d13": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EN-Argon-Forte-A5-MK2_b7344984-44c2-4f8c-a79f-fea58c8139ac.png",
+            "round_avatar": false,
+            "show_rating": false,
+            "rating": 4,
+            "author": "",
+            "title": "Argon Audio FORTE A5 MK2",
+            "content": "<p>\"The Argon Audio Forte A5 MK2 is a refinement of an already successful recipe. The sound is nothing to complain about, as they play with a precision you’ll have to look hard for in this price range. Here the choice will easily come down to between it and Argon’s smaller and cheaper Forte A4. Unless both budget and room size are very limited, it pays to opt for the Forte A5, which plays both deeper and louder. In my medium-sized 25 square metre living room, there was no shortage of power.\"<\/p><p><a href=\"https:\/\/www.lbtechreviews.com\/test\/speakers\/argon-forte-a5-mk2\" target=\"_blank\" title=\"https:\/\/www.lbtechreviews.com\/test\/speakers\/argon-forte-a5-mk2\"><strong>Read review<\/strong><\/a><strong> (English)<\/strong><\/p>"
+          }
+        },
+        "template--18162581242168__fc74fb7c-5773-47ed-a186-dc1d499bd1ad-1677585776021b592c-2": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ARGSOLO_Stereo_9edc662f-035e-4017-9cf5-940b6265036c.png",
+            "round_avatar": false,
+            "show_rating": false,
+            "rating": 4,
+            "author": "",
+            "title": "Argon Audio SOLO",
+            "content": "<p>\"When using the analogue output, you may notice that the music quality is slightly inferior compared to that of expensive high-end streamers, but given the price point, it's impossible to criticize the Argon Audio SOLO for anything. It works well, is easy to set up, and functions without any problems, without requiring any digital maintenance. If you want to maximize its potential, combine it with an external digital converter or connect it digitally to one of your amplifier's or receiver's digital inputs. Doing so will significantly improve the overall sound quality and exceed the value of the product for the price paid.\"<\/p><p><a href=\"https:\/\/viewer.joomag.com\/stereo-stereopluss-3-2022\/0515715001652116036\" target=\"_blank\" title=\"https:\/\/viewer.joomag.com\/stereo-stereopluss-3-2022\/0515715001652116036\"><strong>Read review<\/strong><\/a><strong> (Norwegian)<\/strong><\/p>"
+          }
+        },
+        "b67e9afc-c7e5-4eb9-812e-0a770b36821f": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ARGFENRISA4_HIFI-JOURNAL_00f7c4d4-306b-400d-809b-771bdde9b2cb.jpg",
+            "round_avatar": false,
+            "show_rating": false,
+            "rating": 4,
+            "author": "",
+            "title": "Argon Audio FENRIS A4",
+            "content": "<p>\"These stylish and modern active speakers offer surprisingly powerful sound! I was impressed by the perceived soundscape and also surprised by the great sound that comes out of such small speakers. Along with good detail reproduction, the dynamic and structured low-frequency range is convincing and underlines the versatility of the Fenris A4.\"<\/p><p><a href=\"https:\/\/www.hifi-journal.de\/testberichte\/lautsprecher\/2372-test-argon-audio-fenris-a4\" target=\"_blank\" title=\"https:\/\/www.hifi-journal.de\/testberichte\/lautsprecher\/2372-test-argon-audio-fenris-a4\"><strong>Read review<\/strong><\/a><strong> (German)<\/strong><\/p>"
+          }
+        },
+        "fb87b197-0ee1-4fda-b860-c17fb8b3c244": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ARGFORTEA4MK2_Lite_7f436ac7-411b-41c0-89b2-9f58fbe79f9d.png",
+            "round_avatar": false,
+            "show_rating": false,
+            "rating": 4,
+            "author": "",
+            "title": "Argon Audio FORTE A4 MK2",
+            "content": "<p>\"Argon Audio makes a bold statement in compact design with the FORTE A4 MK2. The demanding Danish company impresses on several levels: visually, the speaker pair is an elegant mini sound furniture piece that reflects its Scandinavian origin. Most importantly, the FORTE A4 MK2 has exceptional sound quality. The sound is powerful, has great depth, and is very clear, regardless of the music genre. The two speakers are highly versatile, replacing both a soundbar and a Hi-Fi system. Visually, it's high-end, and acoustically, it's high-end. We give this performance a big compliment!\"<\/p><p><a href=\"https:\/\/www.lite-magazin.de\/2022\/11\/argon-audio-forte-a4-mk2-stylische-aktivlautsprecher-fuer-anspruchsvolle\/\" target=\"_blank\" title=\"https:\/\/www.lite-magazin.de\/2022\/11\/argon-audio-forte-a4-mk2-stylische-aktivlautsprecher-fuer-anspruchsvolle\/\"><strong>Read review<\/strong><\/a><strong> (German)<\/strong><\/p>"
+          }
+        },
+        "61ffdd18-a5ac-4176-af7f-b5d584de85f2": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ARGTT_HIFINL_ba66f14a-14ad-4266-abcb-0158c211a7a8.jpg",
+            "round_avatar": false,
+            "show_rating": false,
+            "rating": 4,
+            "author": "",
+            "title": "Argon Audio TT",
+            "content": "<p>\"I was pleasantly surprised by the rendering of the turntable. It's not a flat, lifeless rendition, but a dynamic rendering with plenty of detail. My favorite John Mayer album, Continuum, sounds excellent, with flowing guitar parts and lots of texture in the bass lines. The drums sound tight, and the vocals have a nice full sound. The turntable offers a great way to (re)discover the world of vinyl.\"<\/p><p><a href=\"https:\/\/hifi.nl\/artikel\/30059\/Review-Argon-Audio-Alto-A4-luidsprekers-en-TT-platenspeler.html\" target=\"_blank\" title=\"https:\/\/hifi.nl\/artikel\/30059\/Review-Argon-Audio-Alto-A4-luidsprekers-en-TT-platenspeler.html\"><strong>Read review<\/strong><\/a><strong> (Dutch)<\/strong><\/p>"
+          }
+        },
+        "ac1284ad-2c1c-459e-813e-2e20bf7943aa": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ARGTT4_LITEMAGAZIN_5078ec10-f01d-4be7-9663-53c04d398014.jpg",
+            "round_avatar": false,
+            "show_rating": false,
+            "rating": 4,
+            "author": "",
+            "title": "Argon Audio TT-4",
+            "content": "<p>\"The Argon Audio TT-4 is impressive on multiple levels: its timeless and elegant design, its sophisticated concept, the high-quality tonearm, the excellent cartridge system, and of course, its integrated phono preamplifier. The combination of style and features is further complemented by its sound quality. In my testing, it proved to be an exciting all-rounder that can handle soft tones just as well as rocking guitar sounds and heavy bass beats. All things considered, this Danish turntable is an unconditional recommendation for vinyl newcomers with high sound demands, as well as those who are looking for a cool and flexible turntable without the need for many hi-fi components cluttering their living space.\"<\/p><p><a href=\"https:\/\/www.lite-magazin.de\/2022\/08\/argon-audio-tt-4-ein-guter-grund-die-platten-wieder-aus-dem-keller-zu-holen\/\" target=\"_blank\" title=\"https:\/\/www.lite-magazin.de\/2022\/08\/argon-audio-tt-4-ein-guter-grund-die-platten-wieder-aus-dem-keller-zu-holen\/\"><strong>Read review<\/strong><\/a><strong> (German)<\/strong><\/p>"
+          }
+        },
+        "001f5cd1-ad7a-4b67-8dab-f9a1382c25a3": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ARGFENRISA55_HIFIDE_d2fd90c4-a2e2-4ec2-9fd6-f77edccff863.png",
+            "round_avatar": false,
+            "show_rating": false,
+            "rating": 4,
+            "author": "",
+            "title": "Argon Audio FENRIS A55",
+            "content": "<p>\"With the Argon Audio Fenris A55, you can enjoy excellent sound quality at a very reasonable price. The speaker set provides versatile connection options, ranging from your TV to your record player, making it an excellent choice as the centerpiece of a low-budget hi-fi system.\"<\/p><p><a href=\"https:\/\/hifi.de\/test\/argon-audio-fenris-a55-test-93197\" target=\"_blank\" title=\"https:\/\/hifi.de\/test\/argon-audio-fenris-a55-test-93197\"><strong>Read review<\/strong><\/a><strong> (German)<\/strong><\/p>"
+          }
+        },
+        "11aee795-72f5-41f7-82cf-8f6337804add": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Argon_Audio_Solo_300px_35c37ead-3c2d-4471-8baa-db5a226d9e08.jpg",
+            "round_avatar": false,
+            "show_rating": false,
+            "rating": 4,
+            "author": "",
+            "title": "Argon Audio SOLO",
+            "content": "<p>\"The sound quality of the SOLO is at a level I wouldn't have believed possible for sub-€500 streamers until recently. It may not be the most dynamic or analytically detailed device, but it makes up for it with a mature, minimally distanced, and very pleasing sound that is both relaxed and authoritative, clean and undistorted, and spatially expansive. It features Bluetooth, AirPlay, and Roon Ready compatibility, making it quite versatile, if not fully maxed out. The optics, hands-on controls, and industrial design are all exceptional for the price point. The Argon Audio SOLO is not just an add-on or an upgrade path for existing models from the brand; it's a true price-to-performance sensation at this price.\"<\/p><p><\/p><p><a href=\"https:\/\/www.fairaudio.de\/test\/argon-audio-solo-netzwerkplayer-streamer\/\" target=\"_blank\" title=\"https:\/\/www.fairaudio.de\/test\/argon-audio-solo-netzwerkplayer-streamer\/\"><strong>Read review<\/strong><\/a><strong> (German)<\/strong><\/p>"
+          }
+        },
+        "7273192a-0b11-4a0a-a487-8fad222b3bfe": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ARGFENRISA5_COMPUTERWORLD_52ac7715-7aae-4d3e-817f-7acd1a4c6e53.jpg",
+            "round_avatar": false,
+            "show_rating": false,
+            "rating": 4,
+            "author": "",
+            "title": "Argon Audio FENRIS A5",
+            "content": "<p>\"The Argon Audio Fenris is a solid speaker set that fills a gap in the market and reflects a good trend that has been gaining momentum for a few years. The Fenris A5 is a versatile speaker that performs exceptionally well for both TV and music playback. Priced at €399, it is certainly a reasonable investment and therefore earns a clear recommendation and an honorable rating.\"<\/p><p><a href=\"https:\/\/www.computerworld.dk\/art\/259928\/test-derfor-fungerer-et-saet-streaming-hoejttalere-som-en-gave-til-dit-tv\" target=\"_blank\" title=\"https:\/\/www.computerworld.dk\/art\/259928\/test-derfor-fungerer-et-saet-streaming-hoejttalere-som-en-gave-til-dit-tv\"><strong>Read review<\/strong><\/a><strong> (Danish)<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18162581242168__fc74fb7c-5773-47ed-a186-dc1d499bd1ad-1677585776021b592c-0",
+        "template--18162581242168__fc74fb7c-5773-47ed-a186-dc1d499bd1ad-1677585776021b592c-1",
+        "c8f95705-f714-40af-ad48-10645d303d13",
+        "template--18162581242168__fc74fb7c-5773-47ed-a186-dc1d499bd1ad-1677585776021b592c-2",
+        "b67e9afc-c7e5-4eb9-812e-0a770b36821f",
+        "fb87b197-0ee1-4fda-b860-c17fb8b3c244",
+        "61ffdd18-a5ac-4176-af7f-b5d584de85f2",
+        "ac1284ad-2c1c-459e-813e-2e20bf7943aa",
+        "001f5cd1-ad7a-4b67-8dab-f9a1382c25a3",
+        "11aee795-72f5-41f7-82cf-8f6337804add",
+        "7273192a-0b11-4a0a-a487-8fad222b3bfe"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "stack_testimonials": false,
+        "subheading": "",
+        "title": "HiFi Testimonials",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "",
+        "testimonial_card_text_color": ""
+      }
+    },
+    "e76d9667-3791-4718-97f7-5076c231d236": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18162581242168__e76d9667-3791-4718-97f7-5076c231d236-1677585041e5e67860-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Customer reviews",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18162581242168__e76d9667-3791-4718-97f7-5076c231d236-1677585041e5e67860-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "1707992251952ee2f2": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_agg_section_7zLzmH": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-agg-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "hide_thumbnails": false,
+            "product_handle": "",
+            "aggregated": true,
+            "data-limit": 20,
+            "maxwidth": 1600,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_agg_section_7zLzmH"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    }
+  },
+  "order": [
+    "e900f29b-d18c-4314-89a3-6deddbde1290",
+    "fc74fb7c-5773-47ed-a186-dc1d499bd1ad",
+    "e76d9667-3791-4718-97f7-5076c231d236",
+    "1707992251952ee2f2",
+    "main"
+  ]
+}

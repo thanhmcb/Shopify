@@ -1,0 +1,197 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "c03fa2f7-d125-476c-9e1b-de3afd2543de": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18164129759544__c03fa2f7-d125-476c-9e1b-de3afd2543de-16775188529c67ba76-1": {
+          "type": "heading",
+          "settings": {
+            "text": "{{ page.title }}",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--18164129759544__c03fa2f7-d125-476c-9e1b-de3afd2543de-16775188529c67ba76-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "sm",
+        "image": "shopify:\/\/shop_images\/The-Promise_3200x1600_16b98bdb-010b-4012-b9cb-00f8f98f6d7f.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/The-Promise_1300x1500_95aaa073-418e-4118-9b43-be3812eccde6.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "custom_html_6X4P8w": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "html": "<iframe id=\"iFrame1\" src=\"https:\/\/nordic-hifi.elevio.help\/en\" style=\"width: 100%; overflow: hidden;\"><\/iframe>\n\n<style>\n#iFrame1 {\nheight:2000px;\noverflow: hidden; \n}\n\n@media screen and (max-width: 699px) {\n#iFrame1 {\nheight:4000px;\noverflow: hidden; \n}\n<\/style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "d2599e8e-a7b9-4880-a5f2-47a0af1bf13c": {
+      "type": "faq",
+      "blocks": {
+        "template--18173941973304__d2599e8e-a7b9-4880-a5f2-47a0af1bf13c-1677585153f9056829-0": {
+          "type": "item",
+          "settings": {
+            "title": "ACTIVE SPEAKERS",
+            "content": "<p><strong>FENRIS A4 \/ FENRIS A5 \/ FENRIS A55<\/strong><br\/><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/FENRIS_-_UK_Manual.pdf?v=1691745415\" title=\"FENRIS - UK MANUAL\">English<\/a> \/<a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/FENRIS_-_Quick_Start_Guide.pdf?v=1691745414\" title=\"FENRIS - English (Quick Start Guide)\"> English (Quick Start Guide)<\/a><\/p><p><strong>FORTE A4 \/ FORTE A5 \/ FORTE A55<\/strong><br\/><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/FORTE_-_UK_Manual.pdf?v=1691745422\" title=\"FORTE - UK MANUAL\">English<\/a> \/ <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/FORTE_-_Quick_Start_Guide.pdf?v=1691745420\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/FORTE_-_Quick_Start_Guide.pdf?v=1691745420\">English (Quick Start Guide)<\/a> \/ <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/FORTE_-_DK_Manual.pdf?v=1691746332\" title=\"FORTE - DK MANUAL\">Danish <\/a>\/ <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/FORTE_-_SE_Manual.pdf?v=1691745423\" title=\"FORTE - SE MANUAL\">Swedish<\/a> \/ <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/FORTE_-_NL_Manual.pdf?v=1691745422\" title=\"FORTE - NL MANUAL\">Dutch (FORTE A4 & A5)<\/a> \/ <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/FORTE_-_DE_Manual.pdf?v=1691745422\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/FORTE_-_DE_Manual.pdf?v=1691745422\">German (FORTE A4 & A5)<\/a> <\/p><p><strong>FORTE A4 MK2 \/ FORTE A5 MK2 \/ FORTE A55 MK2<\/strong><br\/><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/FORTE_MK2_-_UK_Manual.pdf?v=1691745429\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/FORTE_MK2_-_UK_Manual.pdf?v=1691745429\">English<\/a> \/ <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/FORTE_MK2-_Quick_Start_Guide.pdf?v=1691745428\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/FORTE_MK2-_Quick_Start_Guide.pdf?v=1691745428\">English (Quick Start Guide)<\/a><\/p><p><strong>TEMPO A4<\/strong><br\/><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/TEMPO_-_UK_Manual.pdf?v=1691745657\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/TEMPO_-_UK_Manual.pdf?v=1691745657\">English<\/a> \/ <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/TEMPO_-_Quick_Start_Guide.pdf?v=1691745656\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/TEMPO_-_Quick_Start_Guide.pdf?v=1691745656\">English (Quick Start Guide)<\/a> \/ <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/TEMPO_-_SE_Manual.pdf?v=1691745658\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/TEMPO_-_SE_Manual.pdf?v=1691745658\">Swedish<\/a><\/p><p><strong>ALTO A4 \/ALTO A5<\/strong><br\/><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/ALTO_A4_A5_-_UK_Manual.pdf?v=1691744416\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/ALTO_A4_A5_-_UK_Manual.pdf?v=1691744416\">English<\/a> \/ <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/ALTO_A4_A5_-_DE_Manual.pdf?v=1691744415\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/ALTO_A4_A5_-_DE_Manual.pdf?v=1691744415\">German<\/a><\/p>"
+          }
+        },
+        "template--18173941973304__d2599e8e-a7b9-4880-a5f2-47a0af1bf13c-1677585153f9056829-1": {
+          "type": "item",
+          "settings": {
+            "title": "AMPLIFIERS",
+            "content": "<p><strong>SA1<\/strong><br\/><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/SA1_-_UK_Manual.pdf?v=1691758849\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/SA1_-_UK_Manual.pdf?v=1691758849\">English<\/a> \/ <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/SA1_-_Quick_Start_Guide.pdf?v=1691745569\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/SA1_-_Quick_Start_Guide.pdf?v=1691745569\">English (Quick Start Guide)<\/a> \/ <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/SA1_-_DE_Manual.pdf?v=1691745569\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/SA1_-_DE_Manual.pdf?v=1691745569\">German<\/a><\/p>"
+          }
+        },
+        "template--18173941973304__d2599e8e-a7b9-4880-a5f2-47a0af1bf13c-1677585153f9056829-2": {
+          "type": "item",
+          "settings": {
+            "title": "HEADPHONES",
+            "content": "<p><strong>IE20<\/strong><br\/><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/IE20_-_Quick_Start_Guide.pdf?v=1691745435\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/IE20_-_Quick_Start_Guide.pdf?v=1691745435\">English (Quick Start Guide)<\/a><br\/><br\/><strong>SOUL3<\/strong><br\/><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/SOUL3_Quick_Start_Guide.pdf?v=1699360794\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/SOUL3_Quick_Start_Guide.pdf?v=1699360794\">English (Quick Start Guide)<\/a><br\/><br\/><strong>QUIET STORM<br\/><\/strong><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/Quiet_Storm_-_Quick_Start_Guide.pdf?v=1691745514\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/Quiet_Storm_-_Quick_Start_Guide.pdf?v=1691745514\">English (Quick Start Guide)<\/a><\/p>"
+          }
+        },
+        "5991f660-1220-4c9b-9eac-986f8bbb8e58": {
+          "type": "item",
+          "settings": {
+            "title": "PASSIVE SPEAKERS",
+            "content": "<p><strong>ALTO 4<\/strong><br\/><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/ALTO_4_-_UK_Manual.pdf?v=1691744448\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/ALTO_4_-_UK_Manual.pdf?v=1691744448\">English<\/a> \/ <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/ALTO_4_-_DE_Manual.pdf?v=1691744448\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/ALTO_4_-_DE_Manual.pdf?v=1691744448\">German<\/a><\/p><p><strong>ALTO 55<\/strong><br\/><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/ALTO_55_-_UK_Manual.pdf?v=1691744449\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/ALTO_55_-_UK_Manual.pdf?v=1691744449\">English<\/a> \/ <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/ALTO_55_-_DE_Manual.pdf?v=1691744448\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/ALTO_55_-_DE_Manual.pdf?v=1691744448\">German<\/a><\/p><p><strong>ALTO Center<\/strong><br\/><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/ALTO_C_-_UK_Manual.pdf?v=1691744448\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/ALTO_C_-_UK_Manual.pdf?v=1691744448\">English<\/a> \/ <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/ALTO_C_-_DE_Manual.pdf?v=1691744449\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/ALTO_C_-_DE_Manual.pdf?v=1691744449\">German<\/a><\/p>"
+          }
+        },
+        "3ccd6cc7-a459-48f7-ad2e-e692ccef1fb5": {
+          "type": "item",
+          "settings": {
+            "title": "RADIOS",
+            "content": "<p><strong>RADIO 1<\/strong><br\/><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/RADIO_1_-_UK_Manual.pdf?v=1691745523\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/RADIO_1_-_UK_Manual.pdf?v=1691745523\">English<\/a> \/ <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/RADIO_1_-_Quick_Start_Guide.pdf?v=1691745521\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/RADIO_1_-_Quick_Start_Guide.pdf?v=1691745521\">English (Quick Start Guide)<\/a> \/ <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/RADIO_1_-_NL_Manual.pdf?v=1691745522\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/RADIO_1_-_NL_Manual.pdf?v=1691745522\">Dutch<\/a> \/ <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/RADIO_1_-_DE_Manual.pdf?v=1691745522\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/RADIO_1_-_DE_Manual.pdf?v=1691745522\">German<\/a><br\/><br\/><strong>RADIO 2<\/strong><br\/><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/RADIO_2_-_UK_Manual.pdf?v=1691745531\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/RADIO_2_-_UK_Manual.pdf?v=1691745531\">English<\/a> \/ <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/RADIO_2_-_Quick_Start_Guide.pdf?v=1691745530\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/RADIO_2_-_Quick_Start_Guide.pdf?v=1691745530\">English (Quick Start Guide<\/a>) \/ <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/RADIO_2_-_NL_Manual.pdf?v=1691745532\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/RADIO_2_-_NL_Manual.pdf?v=1691745532\">Dutch<\/a> \/ <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/RADIO_2_-_DE_Manual.pdf?v=1691745532\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/RADIO_2_-_DE_Manual.pdf?v=1691745532\">German<\/a><br\/><br\/><strong>RADIO 3<\/strong><br\/><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/RADIO_3_-_UK_Manual.pdf?v=1691745546\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/RADIO_3_-_UK_Manual.pdf?v=1691745546\">English<\/a> \/ <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/RADIO_3_-_Quick_Start_Guide.pdf?v=1691745545\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/RADIO_3_-_Quick_Start_Guide.pdf?v=1691745545\">English (Quick Start Guide)<\/a> \/ <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/RADIO_3_-_NL_Manual.pdf?v=1691745546\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/RADIO_3_-_NL_Manual.pdf?v=1691745546\">Dutch<\/a> \/ <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/RADIO_3_-_DE_Manual.pdf?v=1691745546\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/RADIO_3_-_DE_Manual.pdf?v=1691745546\">German<\/a><br\/><br\/><strong>RADIO 2i MK2<br\/><\/strong><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/RADIO_2i_MK2_-_UK_Manual.pdf?v=1691745539\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/RADIO_2i_MK2_-_UK_Manual.pdf?v=1691745539\">English<\/a> \/ <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/RADIO_2i_MK2_-_Quick_Start_Guide.pdf?v=1691745538\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/RADIO_2i_MK2_-_Quick_Start_Guide.pdf?v=1691745538\">English (Quick Start Guide)<\/a><br\/><br\/><strong>RADIO 3i MK2<br\/><\/strong><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/RADIO_3i_MK2_-_UK_Manual.pdf?v=1691745560\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/RADIO_3i_MK2_-_UK_Manual.pdf?v=1691745560\">English<\/a> \/ <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/RADIO_3i_MK2_-_Quick_Start_Guide.pdf?v=1691745559\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/RADIO_3i_MK2_-_Quick_Start_Guide.pdf?v=1691745559\">English (Quick Start Guide)<\/a><\/p>"
+          }
+        },
+        "97a1c469-8b64-4f3d-b511-2cd9d0480b94": {
+          "type": "item",
+          "settings": {
+            "title": "SUBWOOFERS",
+            "content": "<p><strong>BASS8 MK2<\/strong><br\/><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/BASS_8_-_UK_Manual.pdf?v=1691744457\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/BASS_8_-_UK_Manual.pdf?v=1691744457\">English<\/a> \/ <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/BASS_8_-_Quick_Start_Guide.pdf?v=1691744456\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/BASS_8_-_Quick_Start_Guide.pdf?v=1691744456\">English (Quick Start Guide)<\/a> \/ <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/BASS_8_-_DE_Manual.pdf?v=1691744457\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/BASS_8_-_DE_Manual.pdf?v=1691744457\">German<\/a><br\/><br\/><strong>BASS10 MK2<\/strong><br\/><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/BASS_10_-_UK_Manual.pdf?v=1691745374\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/BASS_10_-_UK_Manual.pdf?v=1691745374\">English<\/a> \/<a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/BASS_10_-_Quick_Start_Guide.pdf?v=1691745374\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/BASS_10_-_Quick_Start_Guide.pdf?v=1691745374\"> English (Quick Start Guide)<\/a> \/ <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/BASS_10_-_DE_Manual.pdf?v=1691745374\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/BASS_10_-_DE_Manual.pdf?v=1691745374\">German<\/a><br\/><\/p>"
+          }
+        },
+        "e2b3dc9c-3087-43bc-a929-efbe8ab1a9ad": {
+          "type": "item",
+          "settings": {
+            "title": "TURNTABLES",
+            "content": "<p><strong>TT<\/strong><br\/><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/TT_-_UK_Manual.pdf?v=1691745668\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/TT_-_UK_Manual.pdf?v=1691745668\">English<\/a> \/ <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/TT_-_Quick_Start_Guide.pdf?v=1691745667\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/TT_-_Quick_Start_Guide.pdf?v=1691745667\">English (Quick Start Guide)<\/a> <br\/><br\/><strong>TT-3<\/strong><br\/><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/TT-3_-_UK_Manual.pdf?v=1691745675\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/TT-3_-_UK_Manual.pdf?v=1691745675\">English<\/a><\/p><p><strong>TT-4<\/strong><br\/><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/TT-4_-_UK_Manual.pdf?v=1691745682\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/TT-4_-_UK_Manual.pdf?v=1691745682\">English<\/a><\/p>"
+          }
+        },
+        "d9b235c6-a467-4cb7-8cd9-83e27f098d3f": {
+          "type": "item",
+          "settings": {
+            "title": "STREAMERS & ADAPTERS",
+            "content": "<p><strong>SOLO<\/strong><br\/><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/SOLO_-_Quick_Start_Guide.pdf?v=1691745577\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/SOLO_-_Quick_Start_Guide.pdf?v=1691745577\">English (Quick Start Guide)<\/a><\/p><p><strong>BT-2<\/strong><br\/><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/BT2_-_UK_Manual.pdf?v=1691745381\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/BT2_-_UK_Manual.pdf?v=1691745381\">English<\/a> \/<a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/BT2_-_Quick_Start_Guide.pdf?v=1691745380\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/BT2_-_Quick_Start_Guide.pdf?v=1691745380\"> English (Quick Start Guide)<\/a> \/ <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/BT2_-_SE_Manual.pdf?v=1691745381\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/BT2_-_SE_Manual.pdf?v=1691745381\">Swedish<\/a> \/ <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/BT2_-_DE_Manual.pdf?v=1691745381\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/BT2_-_DE_Manual.pdf?v=1691745381\">German<\/a><\/p><p><strong>BT-3<\/strong><br\/><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/BT3_-_UK_Manual.pdf?v=1691745388\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/BT3_-_UK_Manual.pdf?v=1691745388\">English<\/a> \/ <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/BT3_-_Quick_Start_Guide.pdf?v=1691745387\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/BT3_-_Quick_Start_Guide.pdf?v=1691745387\">English (Quick Start Guide)<\/a><\/p><p><strong>DAB Adapter 3<\/strong><br\/><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/DAB_ADAPTER_3_-_UK_Manual.pdf?v=1691745408\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/DAB_ADAPTER_3_-_UK_Manual.pdf?v=1691745408\">English<\/a> \/ <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/DAB_ADAPTER_3_MK2_-_Quick_Start_Guide.pdf?v=1691745407\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/DAB_ADAPTER_3_MK2_-_Quick_Start_Guide.pdf?v=1691745407\">English (Quick Start Guide)<\/a> \/ <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/DAB_ADAPTER_3_-_DK_Manual.pdf?v=1691745408\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/DAB_ADAPTER_3_-_DK_Manual.pdf?v=1691745408\">Danish<\/a> \/ <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/DAB_ADAPTER_3_-_DE_Manual.pdf?v=1691745408\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/DAB_ADAPTER_3_-_DE_Manual.pdf?v=1691745408\">German<\/a><\/p><p><strong>Stream 2 MK3<br\/><\/strong><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/Stream_2_MK3_manual_UK_07-12-2023_DIGITAL_A4format.pdf?v=1702029541\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/Stream_2_MK3_manual_UK_07-12-2023_DIGITAL_A4format.pdf?v=1702029541\">English<\/a><\/p><p><strong>Stream 3 MK2<br\/><\/strong><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/STREAM_3_MK2_-_UK_Manual.pdf?v=1691745649\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/STREAM_3_MK2_-_UK_Manual.pdf?v=1691745649\">English<\/a> \/ <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/STREAM_3_MK2_-_Quick_Start_Guide.pdf?v=1691745648\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/STREAM_3_MK2_-_Quick_Start_Guide.pdf?v=1691745648\">English (Quick Start Guide)<\/a><\/p><p><strong>NanoDAC<\/strong><br\/><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/NanoDAC_-_Quick_Start_Guide.pdf?v=1691745448\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/NanoDAC_-_Quick_Start_Guide.pdf?v=1691745448\">English (Quick Start Guide)<\/a><\/p><p><strong>WRT<\/strong><br\/><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/WRT_-_Quick_Start_Guide.pdf?v=1691745694\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/WRT_-_Quick_Start_Guide.pdf?v=1691745694\">English (Quick Start Guide)<\/a><\/p><p><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18173941973304__d2599e8e-a7b9-4880-a5f2-47a0af1bf13c-1677585153f9056829-0",
+        "template--18173941973304__d2599e8e-a7b9-4880-a5f2-47a0af1bf13c-1677585153f9056829-1",
+        "template--18173941973304__d2599e8e-a7b9-4880-a5f2-47a0af1bf13c-1677585153f9056829-2",
+        "5991f660-1220-4c9b-9eac-986f8bbb8e58",
+        "3ccd6cc7-a459-48f7-ad2e-e692ccef1fb5",
+        "97a1c469-8b64-4f3d-b511-2cd9d0480b94",
+        "e2b3dc9c-3087-43bc-a929-efbe8ab1a9ad",
+        "d9b235c6-a467-4cb7-8cd9-83e27f098d3f"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "subheading": "",
+        "title": "",
+        "content": "<p>Below, you will find links to manuals for our products. Feel free to browse through them, and if you decide to read the manual, we thank you for taking the time to do so. We put a lot of effort into creating them, so it's always nice to know that someone is benefiting from our hard work.<\/p>",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "a0796e9e-c84b-449a-afc2-cfdd97c99e2d": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18173941973304__a0796e9e-c84b-449a-afc2-cfdd97c99e2d-1677585041e5e67860-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Firmware updates",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--18173941973304__a0796e9e-c84b-449a-afc2-cfdd97c99e2d-1677585041e5e67860-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Download the firmware for your product and follow the instructions. This article describes how to update the firmware of your device. Find all the latest firmware updates<\/p>"
+          }
+        },
+        "b50ecf5c-3dab-4974-80b3-013f9861e32b": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Firmware updates",
+            "url": "shopify:\/\/pages\/firmware-updates",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18173941973304__a0796e9e-c84b-449a-afc2-cfdd97c99e2d-1677585041e5e67860-1",
+        "template--18173941973304__a0796e9e-c84b-449a-afc2-cfdd97c99e2d-1677585041e5e67860-2",
+        "b50ecf5c-3dab-4974-80b3-013f9861e32b"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c03fa2f7-d125-476c-9e1b-de3afd2543de",
+    "custom_html_6X4P8w",
+    "d2599e8e-a7b9-4880-a5f2-47a0af1bf13c",
+    "a0796e9e-c84b-449a-afc2-cfdd97c99e2d"
+  ]
+}
