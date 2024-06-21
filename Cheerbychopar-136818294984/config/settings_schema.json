@@ -786,7 +786,7 @@
       },
       {
         "type": "checkbox",
-        "id": "mcb_diable_pricing",
+        "id": "mcb_disable_pricing",
         "label": "Disable Product Pricing",
         "info": "Globally across theme, disable all theme default display of the price.",
         "default": false

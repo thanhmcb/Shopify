@@ -1,5 +1,11 @@
 {% paginate search.results by section.settings.coll_num_per_page_int %}
-
+  {%- style -%}
+    {%- if section.settings.text_uppercase -%}
+     .filter-group {
+       text-transform:uppercase;
+     }
+   {%- endif -%} 
+   {%- endstyle -%}
 <div class="page-header" data-cc-animate>
   <div class="container">
     <h1 class="visually-hidden">{{ 'general.search.title' | t }}</h1>
@@ -256,6 +262,13 @@
       "id": "collapse_tag_sidebar_by_default",
       "label": "Collapse filter column",
       "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "text_uppercase",
+      "label": "Text Uppercase",
+      "default": true,
+      "info": "MCB Custom"
     },
     {
       "type": "select",

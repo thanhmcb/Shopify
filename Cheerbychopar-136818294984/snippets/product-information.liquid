@@ -12,23 +12,27 @@
   {%- when 'title' -%}
     <div class="product-title-container" {{ block.shopify_attributes }}>
       <h1 class="product-title">{{ product.title }}</h1>
+    
       <div class="product-price-container">
         <div class="no-js-hidden" id="price-{{ section.id }}">
           {% render 'product-price', product: product, use_variant: true, show_badges: true %}
         </div>
-        {%- if section.settings.show_taxes_included != blank -%}
-          {%- if cart.taxes_included or shop.shipping_policy.body != blank -%}
-            <div class="product__tax caption">
-              {%- if cart.taxes_included -%}
-                {{ 'products.product.include_taxes' | t }}
-              {%- endif -%}
-              {%- if shop.shipping_policy.body != blank -%}
-                {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
-              {%- endif -%}
-            </div>
+        
+          {%- if section.settings.show_taxes_included != blank -%}
+            {%- if cart.taxes_included or shop.shipping_policy.body != blank -%}
+              <div class="product__tax caption">
+                {%- if cart.taxes_included -%}
+                  {{ 'products.product.include_taxes' | t }}
+                {%- endif -%}
+                {%- if shop.shipping_policy.body != blank -%}
+                  {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
+                {%- endif -%}
+              </div>
+            {%- endif -%}
           {%- endif -%}
-        {%- endif -%}
+       
       </div>
+
       {%- if block.settings.show_products_rating and product.metafields.reviews.rating.value != blank -%}
         <a class="star-rating-container" href="#shopify-product-reviews">
           <div class="star-rating" style="--star-rating: {{ product.metafields.reviews.rating.value.rating }};"></div>
@@ -156,7 +160,7 @@
               </div>
               <div class="product-cart-item-info">
                 <a href="{{ product.url }}" title="{{ product.title | escape }}" class="cart-product-link">{{ product.title }}</a>
-                {% render 'product-price', product: product %}
+                 {% render 'product-price', product: product %}
               </div>
             </div>
             {%- endfor -%}

@@ -134,7 +134,6 @@ if (!customElements.get('custom-select')) {
       // mouse down + move + up will trigger a click event on parent - only respond to clicks on LI
       if (evt.target.tagName === 'LI') {
         this.selectOption(evt.target);
-        console.log(evt.target);
       }
     }
 
@@ -329,15 +328,21 @@ if (!customElements.get('custom-select')) {
         if (this.swatches) {
           this.button.dataset.swatch = option.dataset.swatch || '';
         }
+        //MCB Make text bold when choosing variant
+        var textBoldContainer = this.querySelector('.text-start-bold');
+        var substringContains = "(EU";
         var substring = "(";
         var optionValueFirst = option.firstElementChild.textContent.split('(')[0];
-        var optionValueLast = "(" + option.firstElementChild.textContent.split('(')[1]; 
-         if (option.firstElementChild.textContent.includes(substring) ) {
-          var optionSelectedValue = `<span class="class-bold">${optionValueFirst}</span>${optionValueLast}`;
-          this.button.firstElementChild.innerHTML =  optionSelectedValue; 
-         }else{
-          this.button.firstElementChild.textContent = option.firstElementChild.textContent;
-         }
+        var optionValueLast = "(" + option.firstElementChild.textContent.split('(')[1];
+        if(textBoldContainer) {
+          if (option.firstElementChild.textContent.includes(substringContains) ) {
+            var optionSelectedValue = `<span class="class-bold">${optionValueFirst}</span>${optionValueLast}`;
+            this.button.firstElementChild.innerHTML =  optionSelectedValue;  
+           }else{
+            this.button.firstElementChild.textContent = option.firstElementChild.textContent;
+           }
+        } 
+         
         // Update the button text and set the option as active.
       
         this.listbox.setAttribute('aria-activedescendant', option.id);

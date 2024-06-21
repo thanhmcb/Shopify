@@ -67,8 +67,19 @@
     <button class="custom-select__btn input items-center" type="button"
             aria-expanded="false" aria-haspopup="listbox" id="{{ id }}-button"
             {% if swatches and selected_value %} data-swatch="{{ selected_value | escape | downcase }}"{% endif %}>
-      <span class="text-start"> 
-        {% if selected_name contains "(" %}<span class="class-bold">{{ selected_name | split:"(" | first }}</span>{{ selected_name | split:"(" | last | prepend: "(" }}  {%- else -%}{{- selected_name -}}{%- endif -%}</span>
+      {%- comment %} MCB - Bold text {%- endcomment -%}         
+      <span class="text-start {% if settings.enable_bold_text -%} text-start-bold{% endif %}">          
+        {% if settings.enable_bold_text -%}
+          {% if selected_name contains "(EU" %}
+            <span class="class-bold">{{ selected_name | split:"(" | first }}</span>{{ selected_name | split:"(" | last | prepend: "(" }}  
+          {%- else -%}
+            {{- selected_name -}}
+          {%- endif -%}
+        {%- else -%} 
+          {{- selected_name -}}
+        {% endif %}
+        {%- comment %} MCB - Bold text {%- endcomment -%} 
+      </span>
       <svg width="20" height="20" viewBox="0 0 24 24" class="icon" role="presentation" focusable="false" aria-hidden="true">
         <path d="M20 8.5 12.5 16 5 8.5" stroke="currentColor" stroke-width="1.5" fill="none"/>
       </svg>
@@ -86,12 +97,18 @@
             {% if swatches %} data-swatch="{{ value | escape | downcase }}"{% endif %}
             {% if value == selected_value %} aria-selected="true"{% endif %}>
           <span class="pointer-events-none">
-            {% if option_names[forloop.index0] contains "(" %}
+
+          {%- comment %} MCB - Bold text {%- endcomment -%}  
+          {% if settings.enable_bold_text -%}
+            {% if option_names[forloop.index0] contains "(EU" %}
               <span class="class-bold">{{ option_names[forloop.index0] | split:"(" | first }}</span>{{ option_names[forloop.index0] | split:"(" | last | prepend: "(" }} 
-              {%- else -%}
+            {%- else -%}
               {{- option_names[forloop.index0] -}}
             {%- endif -%}
-            
+          {%- else -%}
+            {{- option_names[forloop.index0] -}} 
+          {% endif %}
+          {%- comment %} MCB - Bold text {%- endcomment -%}   
             </span>
         </li>
       {%- endfor -%}

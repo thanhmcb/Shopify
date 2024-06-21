@@ -570,7 +570,14 @@ class DeferredMedia extends HTMLElement {
   }
 }
 
+
+
 customElements.define('deferred-media', DeferredMedia);
+
+
+
+
+
 
 class DetailsDisclosure extends HTMLElement {
   constructor() {
@@ -2715,15 +2722,16 @@ const ProductForm = class extends HTMLElement {
       }
     }
   }
-
+  
   /**
    * Handles submission of the product form.
    * @param {object} evt - Event object.
    */
   async handleSubmit(evt) {
     evt.preventDefault();
+
     if (this.submitBtn.getAttribute('aria-disabled') === 'true') return;
-    console.log("jflksdjfldksjf");
+    console.log(this.querySelector('.cart-drawer-quantity-selector'));
     this.setErrorMsgState();
 
     const formValid = this.validate();
@@ -2877,6 +2885,150 @@ const ProductForm = class extends HTMLElement {
 };
 
 window.customElements.define('product-form', ProductForm);
+
+const UpsellProduct = class extends HTMLElement {
+  constructor() {
+    super();
+
+    this.form = this.querySelector('.upsell_form');
+    if (this.form) {
+      const idInput = this.form.querySelector('[name="id"]');
+      idInput.disabled = false;
+      idInput.required = true;
+
+      if (theme.settings.afterAddToCart !== 'no-js') {
+         
+        this.form.addEventListener('submit', this.handleSubmit.bind(this));
+      }
+    }
+  }
+
+ 
+  /**
+   * Handles submission of the product form.
+   * @param {object} evt - Event object.
+   */
+  async handleSubmit(evt) {
+    evt.preventDefault();
+
+      
+
+    
+
+    // Disable "Add to Cart" button until submission is complete.
+   
+
+    const formData = new FormData(this.form);
+    const sectionsToUpdate = ['page-header', 'cart-drawer'].map((sel) => document.querySelector(sel)).filter((el) => el);
+    const sectionIds = sectionsToUpdate.map((el) => el.dataset.sectionId);
+
+    formData.append('sections_url', window.location.pathname);
+    formData.append('sections', sectionIds.join(','));
+
+    const fetchRequestOpts = {
+      method: 'POST',
+      headers: {
+        Accept: 'application/javascript',
+        'X-Requested-With': 'XMLHttpRequest'
+      },
+      body: formData
+    };
+
+    try {
+      const response = await fetch(theme.routes.cartAdd, fetchRequestOpts);
+      const data = await response.json();
+      let error = typeof data.description === 'string' ? data.description : data.message;
+      if (data.errors && typeof data.errors === 'object') {
+        error = Object.entries(data.errors).map((item) => item[1].join(', '));
+      }
+      if (data.status) this.setErrorMsgState(error);
+      if (!response.ok) throw new Error(response.status);
+
+      if (document.querySelector('.template-cart')) {
+        // Cart page
+        const cartForm = document.querySelector('cart-form');
+        if (cartForm && cartForm.enableAjaxUpdate) {
+          cartForm.refresh();
+        }
+      } else if (theme.settings.afterAddToCart === 'page') {
+        // Allow the tick animation to complete
+        setTimeout(() => {
+          window.location.href = theme.routes.cart;
+        }, 300);
+      } else {
+        sectionsToUpdate.forEach((el) => {
+          el.updateFromCartChange(data.sections[el.dataset.sectionId]);
+        });
+
+        if (theme.settings.afterAddToCart === 'notification') {
+          const notification = document.getElementById('AddedNotification').content.firstElementChild.cloneNode(true);
+          notification.dataset.productTitle = data.product_title;
+          let notificationContainer = document.querySelector('.pageheader--sticky');
+          if (!notificationContainer) {
+            notificationContainer = document.querySelector('body');
+          }
+          notificationContainer.appendChild(notification);
+        } else if (theme.settings.afterAddToCart === 'drawer') {
+          document.querySelector('.js-cart-drawer').open();
+        }
+      }
+
+      this.dispatchEvent(new CustomEvent('on:cart:add', {
+        bubbles: true,
+        detail: {
+          variantId: data.variant_id
+        }
+       
+    
+      }));
+
+      // Re-enable 'Add to Cart' button.
+      
+    } catch (error) {
+      console.log(error); // eslint-disable-line
+      this.dispatchEvent(new CustomEvent('on:cart:error', {
+        bubbles: true,
+        detail: {
+          error: this.errorMsg.textContent          
+        }
+      }));
+    
+      // Re-enable 'Add to Cart' button.
+     
+    }
+  }
+
+  /**
+   * Shows/hides an error message.
+   * @param {string} [error=false] - Error to show a message for.
+   */
+  setErrorMsgState(error = false) {
+    this.errorMsg = this.errorMsg || this.querySelector('.js-form-error');
+
+    if (!this.errorMsg) return;
+
+    this.errorMsg.hidden = !error;
+    if (error) {
+      this.errorMsg.innerHTML = '';
+      const errorArray = Array.isArray(error) ? error : [error];
+      errorArray.forEach((err, index) => {
+        if (index > 0) this.errorMsg.insertAdjacentHTML('beforeend', '<br>');
+        this.errorMsg.insertAdjacentText('beforeend', err);
+      });
+    }
+  }
+
+  /**
+   * Validate form & show errors.
+   * @returns {boolean} - Is form valid.
+   */
+  
+};
+
+
+
+window.customElements.define('upsell-products', UpsellProduct);
+
 
 var clone;
 class ProductInventory extends HTMLElement {

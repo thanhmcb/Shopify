@@ -1734,5 +1734,16 @@
         "content": "For a full list of JavaScript events included with Symmetry, please refer to the \/assets\/custom.js file within the theme code, or read our [JavaScript Technical Guide](https:\/\/cleancanvas.co.uk\/support\/symmetry\/technical-guides\/js)."
       }
     ]
+  },  
+  {
+    "name": "MCB Custom",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "enable_bold_text",
+        "label": "Enable bold text on variant",
+        "default": true
+      }
+     ]
   }
 ]

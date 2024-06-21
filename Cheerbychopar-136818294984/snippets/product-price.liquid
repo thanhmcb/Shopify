@@ -8,7 +8,7 @@
     {% render 'price', product: product %}
 {% endcomment %}
 
-{%- comment %} MCB - Price Disabling Start
+
 
 {%- liquid
 	if use_variant
@@ -29,51 +29,54 @@
   endif
 
 -%}
-<span class="price">
-	{%- unless product.price_varies == false and product.compare_at_price_varies %}
-		{% if compare_at_price != null and compare_at_price != 0 and price != compare_at_price %}
-			<del>
-				<span class="amount">
-					{% if settings.currency_code_enabled %}
-						{{ compare_at_price | money_with_currency }}
-					{% else %}
-						{{ compare_at_price | money }}
-					{% endif %}
-				</span>
-			</del>
-		{% endif %}
-	{%- endunless -%}
-	<ins><span class="amount">{{ money_price }}</span></ins>
-	<small class="unit-price {% if product.selected_or_first_available_variant.unit_price_measurement == nil %} hidden{% endif %}">
-		<span>{{- product.selected_or_first_available_variant.unit_price | money -}}</span>
-    <span class="unit-price-separator">/</span>
-		<span>
-      {%- if product.selected_or_first_available_variant.unit_price_measurement.reference_value != 1 -%}
-        {{- product.selected_or_first_available_variant.unit_price_measurement.reference_value -}}
-      {%- endif -%}
-      {{ product.selected_or_first_available_variant.unit_price_measurement.reference_unit }}
-    </span>
-	</small>
-	{%- if show_badges -%}
-		<span class="badges">
-			{%- if compare_at_price > price %}
-			<span class="badge onsale">
-		    {{ 'products.product.on_sale' | t }}
-		  </span>
+ {%- comment %} MCB - Price Disabling {%- endcomment -%}  
+ {%- unless settings.mcb_disable_pricing -%}
+	<span class="price">
+		{%- unless product.price_varies == false and product.compare_at_price_varies %}
+			{% if compare_at_price != null and compare_at_price != 0 and price != compare_at_price %}
+				<del>
+					<span class="amount">
+						{% if settings.currency_code_enabled %}
+							{{ compare_at_price | money_with_currency }}
+						{% else %}
+							{{ compare_at_price | money }}
+						{% endif %}
+					</span>
+				</del>
 			{% endif %}
-			{%- if available == false -%}
-		  <span class="badge out-of-stock">
-		    {{ 'products.product.sold_out' | t }}
-		  </span>
-			{% endif %}
-			{%- if product.metafields.theme.preorder and product.available -%}
-			<span class="badge pre-order">
-				{{ 'products.product.pre_order' | t }}
-			</span>
-			{%- endif -%}
+		{%- endunless -%}
+		<ins><span class="amount">{{ money_price }}</span></ins>
+		<small class="unit-price {% if product.selected_or_first_available_variant.unit_price_measurement == nil %} hidden{% endif %}">
+			<span>{{- product.selected_or_first_available_variant.unit_price | money -}}</span>
+		<span class="unit-price-separator">/</span>
+			<span>
+		{%- if product.selected_or_first_available_variant.unit_price_measurement.reference_value != 1 -%}
+			{{- product.selected_or_first_available_variant.unit_price_measurement.reference_value -}}
+		{%- endif -%}
+		{{ product.selected_or_first_available_variant.unit_price_measurement.reference_unit }}
 		</span>
-	{% endif %}
-</span>
+		</small>
+		{%- if show_badges -%}
+			<span class="badges">
+				{%- if compare_at_price > price %}
+				<span class="badge onsale">
+				{{ 'products.product.on_sale' | t }}
+			</span>
+				{% endif %}
+				{%- if available == false -%}
+			<span class="badge out-of-stock">
+				{{ 'products.product.sold_out' | t }}
+			</span>
+				{% endif %}
+				{%- if product.metafields.theme.preorder and product.available -%}
+				<span class="badge pre-order">
+					{{ 'products.product.pre_order' | t }}
+				</span>
+				{%- endif -%}
+			</span>
+		{% endif %}
+	</span>
+{%- endunless -%} 
+{%- comment %} MCB - Price Disabling {%- endcomment -%}
 
 
- MCB - Price Disabling End {%- endcomment %}
