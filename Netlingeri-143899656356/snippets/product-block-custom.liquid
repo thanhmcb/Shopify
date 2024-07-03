@@ -182,20 +182,15 @@ Parameters:
                 </div>
               {%- endif -%}
             </a>
-           
-            {%- if enable_quick_add -%}
-             
+
+            {% comment %} MCB quick add {% endcomment %} 
+            {%- if enable_quick_add -%}            
               <upsell-products>     
                 <div class="variant-drop-down">
                   <form action="/cart/add" method="post" class="upsell_form" >
-                 
-
-                  <select name="id">
-                    
+                  <select name="id">                   
                     {% for variant in product.variants %}
                       {% if variant.available %}
-                       
-
                         <option value="{{ variant.id }}">{{ variant.option2 }}</option> 
                       {% else %}
                         <option disabled="disabled">{{ variant.option2 }} -  {{- 'products.variant.no_stock' | t -}}</option>
@@ -205,9 +200,6 @@ Parameters:
                   <button type="submit" value="Buy now"   class="btn variant-button">{{- 'products.product.add_to_cart' | t -}}</button>
                   </form>
                 </div>
-               
-              
-            
                 {% if product.has_only_default_variant %}
                   <form method="post" action="/cart/add" class="upsell_form" >
                   <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
@@ -216,7 +208,7 @@ Parameters:
                 {% endif %}             
               </upsell-products>
             {%- endif -%}
-            
+            {% comment %} MCB quick add {% endcomment %} 
 
             {%- if settings.swatch_enabled and settings.prod_thumb_show_options and hide_swatches == blank -%}
               {%- liquid

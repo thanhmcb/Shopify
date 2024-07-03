@@ -860,7 +860,7 @@
                           {% for related_product in recommendations.products limit: block.settings.max_products %}
                             <div class="slider__item{% if forloop.first %} is-active{% endif %}">
                              
-                              {%- render 'product-block-custom', product: related_product, enable_quick_add: block.settings.enable_quick_add, no_quick_buy: true, no_swiping: true, custom_aspect_ratio: chosen_aspect_ratio, grid: 5 -%}
+                              {%- render 'product-block-custom', product: related_product, no_quick_buy: true, no_swiping: true, custom_aspect_ratio: chosen_aspect_ratio, grid: 5 -%}
                         
                               </div>
                           {% endfor %}

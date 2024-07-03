@@ -1,0 +1,2664 @@
+{
+  "general": {
+    "page": "Strona {{ page }}",
+    "home": "Strona główna",
+    "accessibility": {
+      "skip_to_content": "Przejdź do treści",
+      "pagination": "Nawigacja stronicowania",
+      "go_to_page": "Przejdź do strony {{ index }}",
+      "go_to_item": "Przejdź do {{ index }}",
+      "item_nth_of_count": "{{ index }} z {{ count }}",
+      "drag": "Przeciągnij",
+      "close": "Zamknij",
+      "next": "Następne",
+      "previous": "Poprzednie",
+      "play_video": "Odtwórz wideo",
+      "read_more": "Czytaj dalej"
+    },
+    "label": {
+      "color": "Kolor",
+      "white": "Biały",
+      "size": "Rozmiar"
+    },
+    "social": {
+      "follow_on": "Obserwuj nas na {{ social_media }}",
+      "share": "Udostępnij",
+      "share_on": "Udostępnij na {{ social_media }}",
+      "share_email": "Udostępnij przez e-mail"
+    },
+    "rating": {
+      "info": "{{ rating_value }} z {{ rating_max }} gwiazdek"
+    },
+    "newsletter": {
+      "email": "E-mail",
+      "subscribe": "Subskrybuj",
+      "notify_me": "Powiadom mnie",
+      "subscribed_successfully": "Zapisałeś się do naszego newslettera."
+    },
+    "localization": {
+      "country": "Kraj",
+      "language": "Język"
+    },
+    "privacy_bar": {
+      "accept": "Zgoda",
+      "decline": "Odrzuć"
+    },
+    "customer_rating_bar": {
+      "review_text": "Klienci oceniają nas na {{ rounded_rating }}\/5 na podstawie {{ review_count }} opinii"
+    },
+    "on_boarding": {
+      "blog_post_category": "Kategoria",
+      "blog_post_title": "Artykuł",
+      "blog_post_excerpt": "Napisz coś o swoim artykule.",
+      "product_vendor": "Producent",
+      "product_title": "Produkt",
+      "product_description": "Napisz coś o swoim produkcie.",
+      "collection_title": "Kolekcja"
+    }
+  },
+  "header": {
+    "general": {
+      "account": "Konta",
+      "open_menu": "Otwórz menu nawigacji",
+      "open_search": "Otwórz wyszukiwarkę",
+      "open_account": "Otwórz stronę konta",
+      "open_cart": "Otwórz koszyk"
+    }
+  },
+  "product": {
+    "general": {
+      "description": "Opis",
+      "view_product": "Zobacz produkt",
+      "quick_add": "+ Dodaj do koszyka",
+      "add_to_cart_short": "+ Dodaj",
+      "add_to_cart_button": "Dodaj do koszyka",
+      "pre_order_button": "Przedsprzedaż",
+      "sold_out_button": "Wyprzedane",
+      "unavailable_button": "Niedostępne",
+      "added_to_cart": "Dodano do koszyka!",
+      "sold_out_badge": "Wyprzedane",
+      "on_sale_badge": "Wyprzedaż",
+      "discount_badge_html": "Oszczędzasz {{ savings }}",
+      "sku": "SKU:",
+      "variant": "Wariant",
+      "view_in_space": "Zobacz w przestrzeni",
+      "taxes_included": "Podatek wliczony w cenę.",
+      "taxes_excluded": "Bez podatku.",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Koszt dostawy<\/a> przy kasie",
+      "size_chart": "Tabela rozmiarów",
+      "compare": "Porównaj",
+      "available_colors_count": {
+        "one": "{{ count }} dostępny kolor",
+        "few": "{{ count }} dostępne kolory",
+        "many": "{{ count }} dostępnych kolorów",
+        "other": "{{ count }} dostępne kolorów"
+      },
+      "store_info": "Gdzie kupić"
+    },
+    "gallery": {
+      "close": "Zamknij galerię",
+      "zoom": "Przybliż",
+      "error": "Zdjęcie nie mogło zostać załadowane"
+    },
+    "price": {
+      "regular_price": "Cena regularna",
+      "sale_price": "Cena promocyjna",
+      "from_price_html": "Od {{ price_min }}",
+      "unit_price_pair": "para",
+      "unit_price_pcs": "szt."
+    },
+    "quantity": {
+      "label": "Ilość",
+      "increase_quantity": "Zwiększ ilość",
+      "decrease_quantity": "Zmniejsz ilość"
+    },
+    "rating_count": {
+      "zero": "Brak opinii",
+      "one": "{{ count }} opinia",
+      "few": "{{ count }} opinie",
+      "many": "{{ count }} opinii",
+      "other": "{{ count }} opinie"
+    },
+    "inventory": {
+      "in_stock": "W magazynie. 2-4 dni dostawy ",
+      "oversell_stock": "Chwilowo niedostępne. 4-7 dni dostawy",
+      "incoming_stock": "Dostępne od {{ next_incoming_date }}",
+      "low_stock_with_quantity_count": {
+        "one": "Została tylko {{ count }} sztuka",
+        "few": "Zostały tylko {{ count }} sztuki",
+        "many": "Zostało tylko {{ count }} sztuk"
+      }
+    },
+    "store_availability": {
+      "view_store_info": "Zobacz informację o sklepie",
+      "check_other_stores": "Sprawdź dostępność w innych sklepach",
+      "pick_up_available": "Dostępny odbiór w sklepie",
+      "pick_up_currently_unavailable": "Odbiór w sklepie niedostępny",
+      "pick_up_available_at": "Odbierz w: {{ location_name }}",
+      "pick_up_unavailable_at": "Odbiór niedostępny w: {{ location_name }}"
+    }
+  },
+  "collection": {
+    "general": {
+      "empty_collection": "Ta kolekcja jest pusta",
+      "all_collections": "Wszystkie kolekcje",
+      "no_collections": "Ten sklep nie posiada żadnych kolekcji.",
+      "continue_shopping": "Kontynuuj zakupy"
+    },
+    "products_count": {
+      "one": "{{ count }} produkt",
+      "few": "{{ count }} produkty",
+      "many": "{{ count }} produktów",
+      "other": "{{ count }} produktów"
+    },
+    "faceting": {
+      "filters": "Filtry",
+      "filter_and_sort": "Filtry i sortowanie",
+      "filter_button": "Filtry",
+      "clear_filters": "Wyczyść wszystkie",
+      "apply_filters": "Zastosuj filtry",
+      "sort_by": "Sortowanie",
+      "remove_filter": "Usuń filtr \"{{ name }}\"",
+      "no_results": "Żadne produkty nie pasują do tych filtrów.",
+      "price_range_to": "do",
+      "price_filter_from": "Od kwoty",
+      "price_filter_to": "Do kwoty",
+      "price_filter": "{{ min_price }} - {{ max_price }}",
+      "availability_label": "Dostępne na magazynie"
+    }
+  },
+  "blog": {
+    "general": {
+      "empty_blog": "Ten blog jest pusty",
+      "back_to_home": "Powrót",
+      "view": "Zobacz",
+      "all_posts": "Wszystkie posty"
+    },
+    "post": {
+      "written_by": "Autor: {{ author }}",
+      "share": "Udostępnij",
+      "tags": "Tagi",
+      "continue_reading": "Czytaj dalej"
+    },
+    "comments": {
+      "leave_comment": "Zostaw komentarz",
+      "moderated": "Wszystkie komentarze są moderowane przed opublikowaniem.",
+      "name": "Imię",
+      "email": "E-mail",
+      "message": "Wiadomość",
+      "submit": "Wyślij",
+      "comment_sent": "Twój komentarz został wysłany. Opublikujemy go w ciągu kilku chwil, ponieważ nasz blog jest moderowany.",
+      "comment_published": "Twój komentarz został opublikowany.",
+      "count": {
+        "zero": "{{ count }} komentarzy",
+        "one": "{{ count }} komentarz",
+        "few": "{{ count }} komentarze",
+        "many": "{{ count }} komentarzy"
+      }
+    }
+  },
+  "contact": {
+    "form": {
+      "name": "Imię i nazwisko",
+      "email": "E-mail",
+      "message": "Wiadomość",
+      "submit": "Wyślij",
+      "success_message": "Twoja wiadomość została wysłana."
+    }
+  },
+  "customer": {
+    "account": {
+      "welcome": "Witaj, {{first_name}}",
+      "tagline": "Przeglądaj wszystkie swoje zamówienia i zarządzaj informacjami o koncie.",
+      "orders": "Zamówienia",
+      "addresses": "Adresy",
+      "logout": "Wyloguj",
+      "no_orders": "Nie złożyłeś jeszcze żadnych zamówień.",
+      "continue_shopping": "Kontynuuj zakupy"
+    },
+    "login": {
+      "title": "Zaloguj się",
+      "email": "E-mail",
+      "password": "Hasło",
+      "submit": "Zaloguj się",
+      "forgot_password": "Nie pamiętasz hasła?",
+      "sign_up": "Zarejestruj się"
+    },
+    "recover_password": {
+      "title": "Odzyskaj hasło",
+      "email": "E-mail",
+      "submit": "Odzyskaj hasło",
+      "back_to_login": "Wróć do logowania",
+      "success_message": "Na Twój adres została wysłana wiadomość e-mail z instrukcjami dotyczącymi resetowania hasła."
+    },
+    "register": {
+      "title": "Zarejestruj się",
+      "first_name": "Imię",
+      "last_name": "Nazwisko",
+      "email": "E-mail",
+      "password": "Hasło",
+      "accepts_marketing": "Subskrybuj nasz newsletter",
+      "submit": "Utwórz konto",
+      "login": "Zaloguj się"
+    },
+    "activate_account": {
+      "title": "Aktywuj konto",
+      "instructions": "Wprowadź hasło, aby utworzyć konto:",
+      "password": "Hasło",
+      "password_confirmation": "Powtórz hasło",
+      "submit": "Aktywuj",
+      "cancel": "Anuluj"
+    },
+    "reset_password": {
+      "title": "Zresetuj hasło",
+      "password": "Hasło",
+      "password_confirmation": "Powtórz hasło",
+      "submit": "Zresetuj"
+    },
+    "order": {
+      "order": "Zamówienie",
+      "order_name": "Zamówienie {{name}}",
+      "view_details": "Zobacz szczegóły zamówienia",
+      "back": "Powrót",
+      "date": "Data",
+      "payment_status": "Status płatności",
+      "fulfillment_status": "Status realizacji",
+      "cancelled_on": "Anulowano w dniu: {{date}}. Powód: {{reason}}",
+      "product": "Produkt",
+      "quantity": "Ilość",
+      "fulfillment_with_number": "Wszystkie produkty zostały wysłane w dniu {{date}}. Śledź przesyłkę za pomocą numeru {{tracking_number}}.",
+      "fulfillment": "Twoje zamówienie zostało wysłane w dniu {{date}}.",
+      "track_shipment": "Śledź przesyłkę",
+      "subtotal": "Wartość produktów",
+      "discount": "Rabat",
+      "shipping": "Sposób dostawy",
+      "taxes_included": "W tym podatek",
+      "taxes_excluded": "Bez podatku",
+      "total_duties": "Cła",
+      "refunded_amount": "Zwrócona kwota",
+      "total": "Łącznie",
+      "shipping_address": "Adres dostawy",
+      "billing_address": "Adres rozliczeniowy"
+    },
+    "addresses": {
+      "no_addresses": "Nie zapisałeś jeszcze żadnych adresów.",
+      "add_address": "Dodaj nowy adres",
+      "edit_address": "Edytuj adres",
+      "save_address": "Zapisz adres",
+      "edit": "Edytuj",
+      "delete": "Usuń",
+      "default_address": "Domyślny adres",
+      "address_title": "Adres {{ position }}",
+      "delete_confirm": "Czy na pewno chcesz usunąć ten adres?",
+      "fill_form": "Uzupełnij poniższe pola:",
+      "first_name": "Imię",
+      "last_name": "Nazwisko",
+      "company": "Firma",
+      "phone": "Numer telefonu",
+      "address1": "Ulica i numer budynku",
+      "address2": "Numer lokalu",
+      "city": "Miasto",
+      "zip": "Kod pocztowy",
+      "country": "Kraj",
+      "province": "Prowincja",
+      "set_default": "Ustaw jako domyślny"
+    }
+  },
+  "cart": {
+    "general": {
+      "title": "Koszyk",
+      "empty": "Twój koszyk jest pusty",
+      "continue_shopping": "Kontynuuj zakupy",
+      "weight": "Waga",
+      "subtotal": "Wartość produktów",
+      "total": "Total",
+      "taxes_and_shipping_policy_at_checkout_html": "Bezpieczna płatność - płatność przy odbiorze",
+      "taxes_included_but_shipping_at_checkout": "Podatek wliczony w cenę. Bezpieczna płatność - płatność przy odbiorze",
+      "taxes_included_and_shipping_policy_html": "Podatek wliczony w cenę. Bezpieczna płatność - płatność przy odbiorze.",
+      "taxes_and_shipping_at_checkout": "Podatek wliczony w cenę. Bezpieczna płatność - płatność przy odbiorze",
+      "add_order_note": "Dodaj uwagi do zamówienia",
+      "edit_order_note": "Edytuj uwagi do zamówienia",
+      "order_note": "Uwagi do zamówienia",
+      "save_note": "Zapisz",
+      "view_cart": "Zobacz koszyk",
+      "checkout": "Przejdź dalej",
+      "we_accept": "Akceptujemy"
+    },
+    "order": {
+      "product": "Produkt",
+      "total": "Łącznie",
+      "quantity": "Ilość",
+      "change_quantity": "Zmień ilość",
+      "increase_quantity": "Zmniejsz ilość",
+      "decrease_quantity": "Zwiększ ilość",
+      "remove": "Usuń"
+    },
+    "free_shipping_bar": {
+      "limit_unreached_html": "Wydaj jeszcze {{ remaining_amount }}, aby uzyskać bezpłatną dostawę!",
+      "limit_reached_html": "Otrzymujesz bezpłatną dostawę."
+    },
+    "shipping_estimator": {
+      "estimate_shipping": "Oszacuj koszt dostawy",
+      "country": "Kraj",
+      "province": "Prowincja",
+      "zip": "Kod pocztowy",
+      "estimate": "Oszacuj",
+      "no_results": "Przepraszamy, nie oferujemy dostawy na podany adres.",
+      "one_result": "Dla podanego adresu dostępna jest jedna metoda dostawy:",
+      "multiple_results": "Dla podanego adresu dostępne są poniższe metoda dostawy:",
+      "error": "Wystąpił co najmniej jeden błąd podczas pobierania metod dostawy:"
+    }
+  },
+  "404": {
+    "general": {
+      "title": "Nie znaleziono strony",
+      "continue_shopping": "Kontynuuj zakupy"
+    }
+  },
+  "search": {
+    "general": {
+      "title": "Szukaj",
+      "terms": "Wyniki wyszukiwania dla \"{{terms}}\"",
+      "search_placeholder": "Szukaj...",
+      "products": "Produkty",
+      "suggestions": "Propozycje",
+      "collections": "Kolekcje",
+      "posts": "Blog",
+      "pages": "Strony",
+      "clear": "Wyczyść",
+      "view_all": "Zobacz wszystko",
+      "view_all_results": "Zobacz wszystko",
+      "no_results": "Nie znaleziono wyników."
+    },
+    "results_count": {
+      "zero": "0 wyników dla \"{{ terms }}\"",
+      "one": "1 wynik dla \"{{ terms }}\"",
+      "few": "{{ count }} wyniki dla \"{{ terms }}\"",
+      "many": "{{ count }} wyników dla \"{{ terms }}\"",
+      "other": "{{ count }} wyników dla \"{{ terms }}\""
+    }
+  },
+  "gift_card": {
+    "general": {
+      "title": "Oto Twoja karta podarunkowa!",
+      "copy": "Skopiuj",
+      "print": "Wydrukuj",
+      "scan": "lub zeskanuj ten kod QR",
+      "back_to_store": "Powrót do sklepu"
+    },
+    "issued": {
+      "remaining_amount": "Pozostało",
+      "out_of_html": "z {{ initial_value }}",
+      "redeem_instructions": "Aby skorzystać z karty, użyj tego kodu:",
+      "code": "Kod karty podarunkowej",
+      "expires_on": "Wygasa w dniu: {{ expires_on }}",
+      "expired": "Twoja karta podarunkowa wygasła lub została dezaktywowana.",
+      "add_to_apple_wallet": "Dodaj do Apple Wallet"
+    }
+  },
+  "password": {
+    "general": {
+      "follow_us": "Obserwuj nas",
+      "store_owner": "Jesteś właścicielem sklepu?",
+      "login": "Zaloguj się"
+    },
+    "storefront_access": {
+      "enter_password": "Wejdź, używając hasła",
+      "store_access": "Dostęp do sklepu",
+      "instructions": "Wprowadź hasło, aby uzyskać dostęp do sklepu",
+      "password": "Hasło",
+      "enter_store": "Wyślij"
+    }
+  },
+  "apps": {
+    "shopify_reviews": {
+      "review_info": "Ten produkt ma {{ rating_value }} na {{ rating_max }} gwiazdek.",
+      "leave_review": "Zostaw opinię",
+      "review_count": {
+        "zero": "Ten produkt nie ma jeszcze opinii.",
+        "one": "Ma {{ count }} opinii.",
+        "few": "Ma {{ count }} opinie.",
+        "many": "Ma {{ count }} opinii",
+        "other": "Ma {{ count }} opinii."
+      }
+    }
+  },
+  "shopify": {
+    "checkout": {
+      "order_payment_collection": {
+        "changes_summary": {
+          "added": {
+            "one": "Dodane",
+            "other": "Dodano %{count}"
+          },
+          "removed": "Usunięte",
+          "subtracted": "%{count} usunięto"
+        },
+        "checkout_review_and_pay": "Twoje zamówienie %{order_name} zostało zaktualizowane. Zweryfikuj zmiany, a następnie zapłać w celu potwierdzenia zamówienia.",
+        "custom_line_item_description": "Kwota do zapłaty za zamówienie %{order_name}",
+        "order_review_and_pay": "Twoje zamówienie zostało zaktualizowane. Sprawdź je i zapłać w celu potwierdzenia zamówienia.",
+        "order_updated_on": "Twoje zamówienie zostało zaktualizowane %{last_edited_at}.",
+        "pay_now": "Zapłać teraz",
+        "additional_payment_requested": "Wymagana jest płatność %{total_outstanding}"
+      },
+      "alternative_payment_method": {
+        "button_html": "Realizuj zakup za pomocą: %{method}",
+        "button_label": "Realizuj zakup za pomocą: %{method}"
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "Ekspresowa realizacja zakupu",
+        "or": "LUB"
+      },
+      "apple_pay": {
+        "button_html": "Kup z %{logo}"
+      },
+      "cart_checkout_validation": {
+        "runtime_error": "Wystąpił problem podczas przetwarzania Twojego żądania, skontaktuj się z właścicielem sklepu."
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "Twój kraj\/region został zaktualizowany. Wpisz swój adres wysyłki, aby kontynuować realizację zakupu."
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Twój koszyk został zaktualizowany na podstawie kraju przeznaczenia."
+      },
+      "change_currency": {
+        "card_provider_fx_charges_warning": "Twój dostawca karty może pobierać opłatę za transakcje w %{currency_code}.",
+        "change_currency_link": "Zmień na %{currency_name}",
+        "conversion_rate": "1 %{from_currency_code} = %{rate} %{to_currency_code}",
+        "credit_card_will_be_charged_html": "Twoja karta kredytowa zostanie obciążona kwotą %{amount}",
+        "currency_not_supported_by_shop": "Wybrana waluta nie jest już dostępna. Wszystkie ceny są teraz w %{currency_code}.",
+        "currency_button_label": "%{currency} (%{currency_symbol})",
+        "payment_total_label": "Cała płatność"
+      },
+      "contact": {
+        "address1_label": "Adres",
+        "address2_label": "Mieszkanie, apartament, itp.",
+        "address_title": "Adres",
+        "city_label": "Miasto",
+        "civic_number_warning": "Dodaj numer domu, jeśli go posiadasz",
+        "contact_method_title": "Dane kontaktowe",
+        "country_code": "Kod kraju\/regionu",
+        "country_label": "Kraj\/region",
+        "county_label": "Hrabstwo",
+        "county_placeholder": "Hrabstwo",
+        "delivery_option_title": "Metoda dostawy",
+        "email_label": "E-mail",
+        "email_or_phone_label": "E-mail lub numer telefonu komórkowego",
+        "email_or_phone_placeholder": "E-mail lub numer telefonu komórkowego",
+        "email_placeholder": "E-mail",
+        "emirate_label": "Emirat",
+        "emirate_placeholder": "Emirat",
+        "first_name_label": "Imię",
+        "governorate_label": "Gubernatorstwo",
+        "governorate_placeholder": "Gubernatorstwo",
+        "last_name_label": "Nazwisko",
+        "new_address_label": "Użyj nowego adresu",
+        "optional_address2_label": "Mieszkanie, apartament itp. (opcjonalnie)",
+        "optional_company_label": "Firma (opcjonalnie)",
+        "optional_first_name_label": "Imię (opcjonalnie)",
+        "optional_phone_label": "Telefon (opcjonalnie)",
+        "phone_label": "Telefon",
+        "phone_placeholder": "Telefon",
+        "phone_tooltip": "Na wypadek potrzeby kontaktu w sprawie Twojego zamówienia",
+        "pincode_label": "Kod PIN",
+        "pincode_placeholder": "Kod PIN",
+        "postal_code_label": "Kod pocztowy",
+        "postal_code_placeholder": "Kod pocztowy",
+        "postcode_label": "Kod pocztowy",
+        "postcode_placeholder": "Kod pocztowy",
+        "prefecture_label": "Prefektura",
+        "prefecture_placeholder": "Prefektura",
+        "province_label": "Województwo",
+        "province_placeholder": "Województwo",
+        "region_label": "Region",
+        "region_none": "Wybrano Brak",
+        "region_placeholder": "Region",
+        "shipping_address_title": "Adres wysyłki",
+        "state_and_territory_label": "Państwo \/ terytorium",
+        "state_and_territory_placeholder": "Państwo \/ terytorium",
+        "state_label": "Stan",
+        "state_placeholder": "Stan",
+        "stored_addresses_label": "Zapisane adresy",
+        "title": "Informacja",
+        "zip_code_label": "Kod pocztowy",
+        "zip_code_placeholder": "Kod pocztowy"
+      },
+      "contextual_availability": {
+        "all_products_in_cart_unavailable": {
+          "one": "Produkt ten nie jest dostępny w Twoim kraju\/regionie.",
+          "other": "Produkty te nie są dostępne w Twoim kraju\/regionie."
+        },
+        "products_not_available": {
+          "one": "Produkt ten zostanie usunięty z koszyka, ponieważ nie jest dostępny w Twoim kraju\/regionie.",
+          "other": "Produkty te zostaną usunięte z koszyka, ponieważ nie są dostępne w Twoim kraju\/regionie."
+        },
+        "title": {
+          "one": "Produkt niedostępny",
+          "other": "Produkty niedostępne"
+        },
+        "unavailable_label": "Niedostępne"
+      },
+      "customer_account": {
+        "have_an_account_label": "Masz już konto?",
+        "not_user_label": "Nie %{first_name}?",
+        "save_my_information_label": "Zapisz te informacje, aby ich użyć następnym razem",
+        "sign_in_link_label": "Zaloguj się",
+        "sign_out_link_label": "Wyloguj"
+      },
+      "customer_payment_methods": {
+        "delete_customer_mandate": {
+          "generic_error": "Podczas przetwarzania Twojego wniosku wystąpił problem.",
+          "success_message": "Twoja metoda płatności została pomyślnie usunięta"
+        },
+        "page_title": "Metody płatności",
+        "title": "Metody płatności",
+        "update_card_button_label": "Aktualizuj kartę"
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "label": "Brak dostawy",
+          "message": {
+            "one": "Ten przedmiot zostanie usunięty z koszyka, ponieważ nie ma dostępnych metod dostawy dla Twojego adresu.",
+            "other": "Te pozycje zostaną usunięte z koszyka, ponieważ nie ma dostępnych metod dostawy dla Twojego adresu."
+          },
+          "title": {
+            "one": "Brak możliwości dostawy dla %{count} pozycji",
+            "other": "Brak możliwości dostawy dla %{count} pozycji"
+          }
+        }
+      },
+      "delivery_options": {
+        "free_total_label": "Gratis",
+        "pick_up": "Odbierz",
+        "pick_up_immediately": "Gotowe do odbioru teraz",
+        "pick_up_in_five_or_more_days": "Zwykle gotowe w ciągu powyżej 5 dni",
+        "pick_up_in_four_hours": "Zwykle gotowe w ciągu 4 godzin",
+        "pick_up_in_one_hour": "Zwykle gotowe w ciągu 1 godziny",
+        "pick_up_in_twenty_four_hours": "Zwykle gotowe w ciągu 24 godzin",
+        "pick_up_in_two_hours": "Zwykle gotowe w ciągu 2 godzin",
+        "pick_up_in_two_to_four_days": "Zwykle gotowe w ciągu 2-4 dni",
+        "pick_up_in_two_to_four_hours": "Gotowe do odbioru za 4 godziny",
+        "pick_up_in_zero_to_two_hours": "Gotowe do odbioru za 2 godziny",
+        "pick_up_locations": "Lokalizacje odbioru",
+        "pick_up_next_day": "Gotowe do odbioru następnego dnia",
+        "ship": "Wyślij",
+        "shipping_address": "Adres wysyłki"
+      },
+      "failed_payment": {
+        "page_title": "Przetwarzanie płatności było niemożliwe.",
+        "payment_not_processed_text": "Nie dokonano obciążenia. Wróć do koszyka, aby zrealizować zakup.",
+        "payment_not_processed_title": "Przetwarzanie płatności było niemożliwe.",
+        "return_to_cart_button_label": "Wróć do koszyka"
+      },
+      "field_errors": {
+        "address_address1_contains_html_tags": "Adres 1 nie może zawierać tagów HTML.",
+        "address_address2_blank": "Wpisz mieszkanie, apartament itp.",
+        "address_address2_contains_emojis": "Adres 2 nie może zawierać emoji",
+        "address_address2_contains_html_tags": "Adres 2 nie może zawierać tagów HTML.",
+        "address_address2_too_long": "Druga linia adresu jest za długa (maksymalna liczba znaków to 255)",
+        "address_city_blank": "Wpisz miasto",
+        "address_city_contains_emojis": "Miasto nie może zawierać emoji",
+        "address_city_contains_html_tags": "Miasto nie może zawierać tagów HTML.",
+        "address_city_too_long": "Miasto zawiera zbyt dużo znaków (maksymalna liczba znaków to 255)",
+        "address_company_blank": "Wpisz nazwę firmy",
+        "address_company_contains_emojis": "Firma nie może zawierać emoji",
+        "address_company_contains_html_tags": "Firma nie może zawierać tagów HTML.",
+        "address_company_too_long": "Nazwa firmy jest za długa (maksymalna liczba znaków to 255)",
+        "address_country_blank": "Wybierz kraj\/region",
+        "address_country_not_supported": "Nie obsługujemy obecnie wysyłek do tego kraju lub regionu. Wprowadź nowy adres wysyłki i spróbuj ponownie.",
+        "address_first_name_blank": "Wpisz imię",
+        "address_first_name_contains_emojis": "Imię nie może zawierać emoji",
+        "address_first_name_contains_html_tags": "Imię nie może zawierać tagów HTML.",
+        "address_first_name_contains_url": "Imię nie może zawierać adresu URL",
+        "address_first_name_too_long": "Imię jest za długie (maksymalna liczba znaków to 255)",
+        "address_last_name_blank": "Wpisz nazwisko",
+        "address_last_name_contains_emojis": "Nazwisko nie może zawierać emoji",
+        "address_last_name_contains_html_tags": "Nazwisko nie może zawierać tagów HTML.",
+        "address_last_name_contains_url": "Nazwisko nie może zawierać adresu URL",
+        "address_last_name_too_long": "Nazwisko jest za długie (maksymalna liczba znaków to 255)",
+        "address_phone_blank": "Wpisz prawidłowy numer telefonu",
+        "address_phone_contains_emojis": "Numer telefonu nie może zawierać emoji",
+        "address_province_blank": "Wybierz województwo",
+        "address_zip_blank": "Wpisz kod pocztowy",
+        "address_zip_contains_emojis": "Kod pocztowy nie może zawierać emoji",
+        "address_zip_invalid_for_country": "Wpisz prawidłowy kod pocztowy dla %{country}",
+        "address_zip_invalid_for_country_and_province": "Wpisz prawidłowy kod pocztowy dla %{province}, %{country}",
+        "address_zip_not_supported": "Ta lokalizacja nie jest obsługiwana.",
+        "credit_card_expiry_invalid": "Wprowadź prawidłową datę ważności karty",
+        "credit_card_name_blank": "Wprowadź nazwisko zgodne z widniejącym na karcie",
+        "credit_card_name_invalid": "Wprowadź nazwisko zgodne z widniejącym na karcie",
+        "credit_card_number_invalid": "Wprowadź ważny numer karty",
+        "credit_card_start_invalid": "Wprowadź prawidłową datę początku ważności karty",
+        "credit_card_start_month_invalid": "Wprowadź prawidłowy miesiąc początku ważności karty",
+        "credit_card_start_year_invalid": "Wprowadź prawidłowy rok początku ważności karty",
+        "credit_card_verification_value_blank": "Wprowadź kod CVV lub kod weryfikacyjny swojej karty",
+        "credit_card_year_invalid": "Wprowadź prawidłowy rok ważności karty",
+        "delivery_line_detail_changed": "Niektóre dane dostawy mogły ulec zmianie. Zweryfikuj swoją metodę wysyłki i spróbuj ponownie.",
+        "delivery_zone_not_found": "Określona strefa nie została znaleziona w określonym kraju.",
+        "email_invalid": "Wpisz poprawny adres e-mail",
+        "email_or_phone_blank": "Wpisz adres e-mail lub numer telefonu komórkowego",
+        "email_or_phone_invalid": "Wprowadź prawidłowy adres e-mail lub numer telefonu komórkowego",
+        "gift_card_buying_gift_card": "Nie można użyć karty prezentowej do zakupu innej karty prezentowej",
+        "gift_card_currency_mismatch": "W przypadku tego zamówienia można wykorzystać tylko karty prezentowe w %{checkout_currency}",
+        "gift_card_depleted": "Na tej karcie prezentowej nie pozostały żadne środki",
+        "gift_card_disabled": "Ta karta prezentowa jest już niedostępna",
+        "gift_card_expired": "Karta prezentowa straciła ważność",
+        "gift_cards_not_supported_with_deferred_purchase_options": "Karty prezentowe nie są obsługiwane w przypadku opcji zakupu z odroczoną płatnością.",
+        "handle_email_invalid": "Wpisz poprawny adres e-mail",
+        "handle_phone_invalid": "Wpisz prawidłowy numer telefonu",
+        "payment_gateway_incompatible_with_multi_currency": "Aby zrealizować ten zakup w walucie lokalnej, musisz zapłacić kartą kredytową.",
+        "payment_gateway_needs_paid_plan_error": "Ta metoda płatności nie jest obecnie dostępna w sklepie",
+        "payment_gateway_not_in_test_mode": "nie jest ustawiony na testowanie zamówień. Ten sklep nie może przyjmować prawdziwych zamówień ani prawdziwych płatności.",
+        "payment_gateway_unsupported_for_country": "Ta metoda płatności nie jest obecnie dostępna dla Twojego kraju wysyłki.",
+        "payment_gateway_unsupported_for_deferred_purchase_options": "Ta metoda płatności nie jest dostępna dla opcji zakupu z odroczoną płatnością.",
+        "payment_gateway_unsupported_for_subscriptions": "Ta metoda płatności nie jest obecnie dostępna dla zamówień na subskrypcję.",
+        "purchase_options_agreement_blank": "Aby kontynuować zakup, należy wyrazić zgodę na warunki zakupu z odroczoną płatnością lub zakupu powtarzającego się.",
+        "reduction_code_code_not_found": "Wprowadź ważny kod rabatowy lub kartę prezentową",
+        "reduction_code_discount_not_found": "Wprowadź ważny kod rabatowy",
+        "reduction_code_gift_card_code_invalid": "Wprowadź ważną kartę prezentową",
+        "reduction_code_gift_card_unusable": "Nie można użyć karty prezentowej do zakupu innej karty prezentowej",
+        "reduction_code_gift_cards_not_supported_with_deferred_purchase_options": "Karty prezentowe nie są obsługiwane w przypadku opcji zakupu z odroczoną płatnością.",
+        "shipping_line_phone_blank": "Wprowadź numer telefonu, aby skorzystać z tej metody dostawy",
+        "shipping_line_phone_invalid": "Wprowadź prawidłowy numer telefonu, aby skorzystać z tej metody dostawy",
+        "tips_invalid_tip_amount": "Wprowadź napiwek nie większy niż %{amount}",
+        "address_address1_blank": "Wpisz adres",
+        "address_address1_too_long": "Pierwsza linia adresu jest za długa (maksymalna liczba znaków to 255)",
+        "physical_gift_card_invalid_quantity": "Liczba pozycji fizycznej karty prezentowej musi odpowiadać liczbie kodów kart prezentowych."
+      },
+      "general": {
+        "all_rights_reserved": "Wszelkie prawa zastrzeżone %{shop_name}",
+        "authenticate_purchase_button_label": "Uwierzytelnij płatność",
+        "autocomplete_close": "Zamknij sugestie",
+        "autocomplete_selection": "{{number}} z {{total}}",
+        "autocomplete_single_item": "1 pozycja dostępna",
+        "autocomplete_title": "Sugestie",
+        "back_to_cart": "Wróć do koszyka",
+        "back_to_contact_information": "Wróć do informacji",
+        "back_to_shipping_method": "Wróć do wysyłki",
+        "breadcrumb": "Ścieżka nawigacji",
+        "cart": "Koszyk",
+        "checkout_context": {
+          "step_one": "%{shop_name} - realizacja zakupu"
+        },
+        "choose_billing_address": "Wybierz adres rozliczeniowy",
+        "choose_payment_method": "Wybierz metodę płatności",
+        "choose_shipping_method": "Wybierz metodę wysyłki",
+        "close_modal_label": "Zamknij",
+        "close_notice_label": "Zamknij",
+        "complete_purchase_button_label": "Zamawiam i płacę",
+        "contact_us_html": "Skontaktuj się z nami, aby uzyskać więcej informacji",
+        "continue_button_label": "Kontynuuj",
+        "continue_to_review": "Sprawdź zamówienie",
+        "continue_to_shipping_method": "Przejdź do wysyłki",
+        "edit_link_label": "Edytuj",
+        "error_page_title": "Błąd",
+        "errors": {
+          "line_item_limit_reached": "Osiągnięto maksymalną liczbę pozycji pojedynczych.",
+          "session_identifier_not_unique_error": "Coś poszło nie tak z Twoim zamówieniem, spróbuj zrealizować ponownie zakup."
+        },
+        "expand_notice_label": "Wyświetl więcej",
+        "forwarding_indicator": {
+          "external": "Otwiera zewnętrzną stronę internetową.",
+          "external_and_new_window": "Otwiera zewnętrzną stronę internetową w nowym oknie.",
+          "new_window": "Otwiera się w nowym oknie."
+        },
+        "full_price": "Pełna cena:",
+        "page_title": "Realizacja zakupu",
+        "pay_now_button_label": "Zapłać teraz",
+        "print_policies_link_label": "Drukuj",
+        "skip_to_content": "Przejdź do treści",
+        "back_to_payment_method": "Wróć do płatności",
+        "continue_to_payment_method": "Przejdź do płatności"
+      },
+      "localized_fields": {
+        "additional_information": {
+          "title": "Dodatkowe informacje"
+        }
+      },
+      "marketing": {
+        "accept_sms_checkbox_label": "Wysyłaj do mnie SMS-y z nowościami i ofertami",
+        "pending_accept_marketing_checkbox_label": "Sprawdź swój e-mail, aby potwierdzić subskrypcję wiadomości i ofert",
+        "post_accept_marketing_checkbox_label": "Zapisałeś(-aś) się, aby otrzymywać wiadomości e-mail z nowościami i ofertami",
+        "sms": {
+          "disclaimer": {
+            "description_html": "Rejestrując się za pomocą wiadomości tekstowej, wyrażasz zgodę na otrzymywanie automatycznych wiadomości marketingowych, w tym przypomnień dotyczących koszyka, na podany numer telefonu. Zgoda nie jest warunkiem zakupu. Odpowiedz STOP, aby zrezygnować z subskrypcji. Odpowiedz HELP, aby uzyskać pomoc. Częstotliwość wysyłania wiadomości jest różna. Mogą obowiązywać stawki za wysyłanie wiadomości i transmisję danych. Zobacz nasze %{privacy_policy_link} i %{terms_of_service_link}.",
+            "description_transactional_html": "Możesz otrzymywać wiadomości tekstowe związane z potwierdzeniem zamówienia i aktualizacjami dotyczącymi wysyłki. Odpowiedz STOP, aby zrezygnować z subskrypcji. Odpowiedz HELP, aby uzyskać pomoc. Częstotliwość wysyłania wiadomości jest różna. Mogą obowiązywać stawki za wysyłanie wiadomości i transmisję danych. Zobacz nasze %{privacy_policy_modal_link} i %{terms_of_service_modal_link}.",
+            "privacy_policy": "Politykę prywatności",
+            "terms_of_service": "Warunki użytkowania"
+          }
+        },
+        "unsubscribe": {
+          "description": "Nie będziesz już otrzymywać od nas przypomnień dotyczących koszyka.",
+          "title": "Anulowałeś(-aś) subskrypcję"
+        }
+      },
+      "mor_policies": {
+        "privacy_policy": "Polityka prywatności oficjalnego sprzedawcy",
+        "terms_and_conditions": "Zasady i warunki oficjalnego sprzedawcy"
+      },
+      "notifications": {
+        "title": "Powiadomienia"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "one": "Kup %{product_name} i %{count} inny artykuł",
+          "other": "Kup %{product_name} i %{count} inne artykuły\/innych artykułów",
+          "zero": "Kup %{product_name}"
+        }
+      },
+      "order_summary": {
+        "amount_off_shipping": "%{amount} rabatu na wysyłkę",
+        "applied_discount_message": "%{amount} zniżki od łącznej ceny zamówienia",
+        "applied_free_shipping_discount_label": "Zastosowano",
+        "apply_discount_button_label": "Zastosuj",
+        "calculating_shipping": "Obliczanie…",
+        "cart_does_not_meet_discount_requirements_notice": "Kod rabatowy<strong style=\"text-transform:uppercase\">%{code}<\/strong> jest nieważny dla pozycji w Twoim koszyku",
+        "collapse_order_summary": "Ukryj podsumowanie zamówienia",
+        "confirmation_number_label": "Potwierdzenie nr %{confirmation_number}",
+        "cost_table_title": "Posumowanie kosztów",
+        "customer_already_used_once_per_customer_discount_notice": "Kod rabatowy <strong style=\"text-transform:uppercase\">%{code}<\/strong>został już wykorzystany",
+        "customer_does_not_meet_discount_requirements_notice": "Kod rabatowy <strong style=\"text-transform:uppercase\">%{code}<\/strong> jest obecnie niedostępny",
+        "deferred_payment_info": {
+          "description_html": "Jeśli masz pytania dotyczące zamówienia, %{contact_us}.",
+          "due_on_fulfillment_title": "Płatność w wysokości %{amount_due} jest wymagalna po realizacji",
+          "due_on_receipt_title": "Kwota %{amount_due} jest płatna po otrzymaniu",
+          "paid_today": "Łączna kwota zapłacona dzisiaj",
+          "title": "Płatności w wysokości %{amount_due} należy dokonać do %{due_at}"
+        },
+        "description_label": "Opis",
+        "discount_already_applied": "Do tego zamówienia zastosowano rabat. Nie można dodać innego rabatu.",
+        "discount_and_gift_card_savings_notice": "Po odjęciu rabatu %{discount_amount} i kwoty z kart prezentowych %{gift_card_amount}",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> aktualnie nie działa. Skontaktuj się z nami, aby uzyskać pomoc.",
+        "discount_has_been_applied": "Rabat został zastosowany",
+        "discount_has_been_removed": "Rabat został usunięty",
+        "discount_label": "Kod rabatowy",
+        "discount_placeholder": "Kod rabatowy",
+        "discount_requires_customer_notice": "Wprowadź informacje o wysyłce, aby zastosować kod rabatowy <strong style=\"text-transform:uppercase\">%{code}<\/strong>",
+        "discount_savings_notice": "Po odjęciu rabatu %{discount_amount}",
+        "discount_title": "Rabat",
+        "estimated_tax_label": "Szacowany podatek",
+        "estimated_taxes_finalization_tooltip_content": "Ostateczna wysokość podatku i całkowita kwota zostaną potwierdzone e-mailem lub SMS-em po złożeniu zamówienia.",
+        "estimated_taxes_label": "Szacowane podatki",
+        "expand_order_summary": "Pokaż podsumowanie zamówienia",
+        "free_shipping_discount_label": "Darmowa wysyłka",
+        "gift_card_and_discount_label": "Karta prezentowa lub kod rabatowy",
+        "gift_card_and_discount_placeholder": "Karta prezentowa lub kod rabatowy",
+        "gift_card_and_discount_title": "Karta prezentowa lub kod rabatowy",
+        "gift_card_ending": "Karta prezentowa z końcówką %{last_characters}",
+        "gift_card_has_been_applied": "Karta prezentowa została zastosowana",
+        "gift_card_has_been_removed": "Karta prezentowa została usunięta",
+        "gift_card_placeholder": "Karta prezentowa",
+        "gift_card_savings_notice": "Po odjęciu kwoty z kart prezentowych %{gift_card_amount}",
+        "gift_card_subscriptions_notice": "Karty podarunkowe będą miały zastosowanie tylko do Twojej pierwszej płatności.",
+        "gift_card_title": "Karta prezentowa",
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> nie można użyć z istniejącymi rabatami. Masz już lepsze połączenie.",
+        "information_estimated_taxes_label": "Podatki (szacowane)",
+        "maximum_discount_code_limit_reached": "Osiągnięto maksymalną liczbę kodów rabatowych. Usuń istniejący kod, aby użyć <strong style=\"text-transform:uppercase\">%{code}<\/strong>.",
+        "multiple_shipping_lines_label": "Wysyłka łącznie",
+        "no_pickup_location": "Twoje zamówienie nie jest dostępne do odbioru. Wpisz adres wysyłki.",
+        "order_name_label": "Zamówienie %{name}",
+        "order_total_label": "Suma zamówienia",
+        "order_total_updated_label": "Zaktualizowana suma",
+        "original_price": "Cena oryginalna",
+        "paid_label": "Zapłacone",
+        "partial_total_label": "Suma",
+        "payment_due_label": "Termin zapłaty",
+        "payment_terms_totals": {
+          "due_later": "Łączna kwota należna %{due_at}",
+          "due_later_checkout_to_draft": "Łączna kwota należna później",
+          "due_on_fulfillment": "Suma płatna po realizacji",
+          "due_on_receipt": "Suma płatna po otrzymaniu",
+          "due_today": "Łączna kwota należna dzisiaj"
+        },
+        "percent_off_shipping": "%{percent}% rabatu na wysyłkę",
+        "pickup_label": "Odbierz",
+        "price_label": "Cena",
+        "product_change_label": "Zmień",
+        "product_image_label": "Obraz produktu",
+        "quantity_label": "Ilość",
+        "recurring_subtotal_label": "Okresowa suma częściowa",
+        "recurring_total_label": "Suma okresowa",
+        "recurring_total_tooltip": "Nie obejmuje wysyłki, podatków, ceł ani żadnych obowiązujących rabatów.",
+        "remove_discount_label": "Usuń rabat",
+        "remove_gift_card_label": "Wyczyść kartę prezentową",
+        "sale_price": "Cena promocyjna",
+        "scroll_order_summary": "Przewiń, aby wyświetlić więcej pozycji",
+        "shipping_default_value": "Obliczane w następnym kroku",
+        "shipping_information_does_not_meet_discount_requirements_notice": "Kod rabatowy <strong style=\"text-transform:uppercase\">%{code}<\/strong> jest niedostępny dla Twojego adresu wysyłki",
+        "shipping_label": "Wysyłka",
+        "shipping_pending_message": "Jeszcze nie dostępny",
+        "shipping_pending_value": "—",
+        "shipping_policy_link": "Koszty wysyłki",
+        "shopping_cart_label": "Koszyk zakupów",
+        "subtotal_label": "Suma częściowa",
+        "taxes_label": "Podatki",
+        "tip_label": "Napiwek",
+        "title": "Podsumowanie zamówienia",
+        "total_already_paid_label": "Już zapłacone",
+        "total_label": "Suma",
+        "total_outstanding_label": "Kwota do zapłaty",
+        "total_updated_label": "Zaktualizowana cena całkowita:",
+        "unit_price": {
+          "accessible_separator": "za",
+          "content_html": "%{price}%{accessible_separator}%{per_unit}"
+        },
+        "vat_label_html": "W tym podatki: %{amount}",
+        "gift_card_label": "Karta prezentowa"
+      },
+      "payment": {
+        "account_connected": "Konto podłączone.",
+        "amazon_payments_abandoned_mfa_challenge": "Twoja płatność nie mogła zostać zakończona. Wybierz inną metodę płatności lub skontaktuj się z bankiem lub wystawcą karty.",
+        "amazon_payments_could_not_enqueue_authorize": "Podczas przetwarzania płatności wystąpił problem. Spróbuj ponownie lub użyj innej metody płatności.",
+        "amazon_payments_failed_mfa_challenge": "Nie można użyć wybranej metody płatności. Wybierz inną metodę lub skontaktuj się z bankiem lub wystawcą karty.",
+        "amazon_payments_label": "Amazon Pay",
+        "amazon_payments_login_hint": "Pojawi się prośba o zalogowanie do Amazon.",
+        "amazon_payments_logout": "Wyloguj się z Amazon Pay",
+        "amount_left_to_pay_label": "Termin zapłaty:",
+        "apple": {
+          "connect": "Kliknij, aby podłączyć swoje konto Apple Pay",
+          "not_available": "Usługa Apple Pay nie jest dostępna w tej przeglądarce. Aby podłączyć konto Apple Pay, musisz korzystać z przeglądarki Safari na urządzeniu Apple."
+        },
+        "apple_pay_payment_error": "Twoja płatność nie mogła zostać zakończona. Spróbuj ponownie lub użyj innej metody płatności.",
+        "apply_gift_card_button_label": "Zastosuj",
+        "bancontact_label": "Bancontact",
+        "bank_picker_label": "Bank",
+        "billing_address_associated_with_mandate": "Użyj adresu powiązanego z metodą płatności",
+        "billing_address_associated_with_mandate_info": "Jeśli chcesz zmienić swój adres rozliczeniowy, usuń i wprowadź ponownie dane karty kredytowej",
+        "billing_address_description": "Wybierz adres, który pasuje do Twojej karty lub metody płatności.",
+        "billing_address_description_no_shipping_address": "Wpisz adres, który pasuje do Twojej karty lub metody płatności.",
+        "billing_address_not_supported_for_payment_method_error": "Ta metoda płatności nie jest dostępna dla Twojego adresu rozliczeniowego i waluty. Spróbuj użyć innej metody płatności.",
+        "billing_address_title": "Adres rozliczeniowy",
+        "card_change_label": "Zmień",
+        "card_expiration_month_label": "Miesiąc wygaśnięcia",
+        "card_expiration_year_label": "Rok wygaśnięcia",
+        "card_expired": "Ważność wygasła",
+        "card_expiry_date_explanation": "Data ważności karty w formacie: miesiąc, miesiąc, rok, rok",
+        "card_expiry_label": "Data ważności (MM \/ RR)",
+        "card_expiry_placeholder": "Data ważności (MM \/ RR)",
+        "card_fields_container_prefix": "Kontener pola dla:",
+        "card_fields_processing_error": "Wystąpił problem podczas przetwarzania płatności. Spróbuj odświeżyć tę stronę lub sprawdź połączenie internetowe.",
+        "card_fields_unavailable_html": {
+          "one": "Płatności kartą kredytową i debetową są teraz niedostępne.<br><a href=\"%{current_url}\">Odśwież tę stronę<\/a> lub spróbuj ponownie później.",
+          "other": "Płatności kartą kredytową i debetową są teraz niedostępne.<br><a href=\"%{current_url}\">Odśwież tę stronę<\/a> lub użyj innej metody płatności."
+        },
+        "card_information_notice": "Wszystkie transakcje są bezpieczne i szyfrowane. Informacje o karcie kredytowej nie są nigdy przechowywane.",
+        "card_issue_number_label": "Numer wydania",
+        "card_issue_number_placeholder": "Numer wydania",
+        "card_number_label": "Numer karty",
+        "card_number_placeholder": "Numer karty",
+        "card_pay_with": "Zapłać za pomocą:",
+        "card_security_notice": "Wszystkie transakcje są bezpieczne i szyfrowane.",
+        "card_security_vault_notice": "Potrzebujemy danych dla przyszłych płatności. Wszystkie transakcje są bezpieczne i szyfrowane.",
+        "card_start_label": "Data wydania (MM \/ RR)",
+        "card_start_placeholder": "Data wydania (MM \/ RR)",
+        "card_update_label": "Aktualizuj kartę",
+        "card_vaulted_company_location": "Karta zapisana dla tej lokalizacji",
+        "card_verification_confirm": "W celu weryfikacji prosimy o podanie kodu zabezpieczającego karty.",
+        "card_verification_value_explanation": "3-cyfrowy kod weryfikacyjny z reguły umieszczony na odwrocie karty. Karty American Express mają 4-cyfrowy kod umieszczony z przodu.",
+        "card_verification_value_explanation_amex": "4-cyfrowy kod weryfikacyjny z przodu karty",
+        "card_verification_value_explanation_other": "3-cyfrowy kod weryfikacyjny na odwrocie karty",
+        "card_verification_value_label": "Kod weryfikacyjny",
+        "card_verification_value_placeholder": "Kod weryfikacyjny",
+        "change_currency_section_description": "Wybierz opcję waluty",
+        "credit_card_start_month": "Miesiąc początkowy",
+        "credit_card_start_year": "Rok początkowy",
+        "credit_card_vaulting_sign_in_banner_button_label": "Zaloguj",
+        "credit_card_vaulting_sign_in_banner_info": "Zaloguj się lub utwórz konto, aby zapisać swoją kartę kredytową dla przyszłych zakupów.",
+        "credit_card_vaulting_sign_in_banner_title": "Zapisz swoją kartę kredytową",
+        "delete_customer_mandate_modal_body": "Jeśli usuniesz tę kartę, musisz dodać ją ponownie przed użyciem jej do płatności.",
+        "delete_customer_mandate_modal_cancel": "Anuluj",
+        "delete_customer_mandate_modal_confirm": "Wyjmij kartę",
+        "delete_customer_mandate_modal_title": "Czy usunąć tę kartę płatniczą?",
+        "detected_card_brand": "Wykryta marka karty: {brand}",
+        "different_billing_address_label": "Użyj innego adresu rozliczeniowego",
+        "different_credit_card_label": "Użyj innej karty kredytowej",
+        "discount_button_action_label": "Zastosuj kod rabatowy",
+        "ends_with_label": "z końcówką %{last_digits}",
+        "eps_label": "eps-Überweisung (przelew EPS)",
+        "expiry_long": "(Wygasa %{month}\/%{year})",
+        "expiry_short": "(Wygasa %{month}\/%{year})",
+        "express_checkout_free_order": "Nie zostaniesz obciążony(-a) opłatą za bezpłatne zamówienie",
+        "free_order_notice_html": "Twoje zamówienie jest <strong>bezpłatne<\/strong>. Płatność nie jest wymagana.",
+        "ftd_vault_credit_card_label": "Zapisz tę kartę kredytową na moim koncie w celu szybszej realizacji zakupu",
+        "generic_incorrect_card_info": "Weryfikacja szczegółów płatności była niemożliwa. Sprawdź dane swojej karty i spróbuj ponownie.",
+        "gift_card_balance_label": "Saldo:",
+        "gift_card_code_label": "Kod karty prezentowej",
+        "giropay_label": "Giropay",
+        "google": {
+          "connect": "Kliknij, aby podłączyć swoje konto Google Pay",
+          "error_authorizing": "Błąd autoryzacji płatności"
+        },
+        "ideal_label": "iDEAL",
+        "klarna_label": "Klarna",
+        "klarna_pay_later_label": "Zapłać później za pomocą systemu Klarna",
+        "klarna_pay_now_label": "Zapłać teraz za pomocą systemu Klarna",
+        "klarna_slice_it_label": "Finanse z użyciem Klarna",
+        "masked_digits_label": "•••• %{last_digits}",
+        "missing_credit_card_error": "Wprowadź dane karty, aby zrealizować płatność",
+        "mor_disclaimer_html": "Klikając poniżej i składając zamówienie, wyrażasz zgodę na zakup towarów od firmy Global-e jako oficjalnego sprzedawcy\nw ramach tej transakcji zgodnie z <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Zasadami i warunkami<\/a>\noraz <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Polityką prywatności<\/a> firmy Global-e. Global-e jest międzynarodowym\ndostawcą usług realizacji dla %{shop_name}",
+        "multibanco_label": "Multibanco",
+        "name_on_card_label": "Nazwisko na karcie",
+        "name_on_card_placeholder": "Nazwisko na karcie",
+        "no_js_credit_card_fields_redirect_hint": "Nastąpi przekierowanie umożliwiające dodanie informacji o płatności.",
+        "no_method_error": "Ten sklep nie może teraz przyjmować płatności.",
+        "no_real_orders_dev_store": "Ten sklep nie może przyjmować prawdziwych zamówień ani prawdziwych płatności.",
+        "no_taxes_banner_content": "Od tego zamówienia nie będą pobierane podatki. Po pobraniu płatności nie można już dodać podatków.",
+        "not_configured_error": "Ten sklep nie może teraz przyjmować płatności.",
+        "offsite_gateway_redirect_hint": "Po kliknięciu “%{button_label}” zostaniesz przekierowany(-a) do %{gateway_label} w celu bezpiecznego ukończenia procesu zakupu.",
+        "offsite_gateway_redirect_hint_multi_currency_html": "%{gateway_label} – suma – %{total_shop_price}",
+        "order_covered_by_gift_cards_notice": {
+          "one": "Zamówienie pokrywa karta prezentowa.",
+          "other": "Zamówienie pokrywają karty prezentowe."
+        },
+        "pay_with_payment_method": "Zapłać za pomocą %{payment_method}",
+        "payment_method_saved": "Metoda płatności została zapisana",
+        "paypal": {
+          "connect": "Kliknij, aby podłączyć swoje konto PayPal"
+        },
+        "paypal_label": "PayPal",
+        "paypal_modal": {
+          "order_contains_fixed_selling_plans": "Suma może nie obejmować podatków, wysyłki, opłat odroczonych i niektórych rabatów. Przejdź dalej do realizacji zakupu, aby wyświetlić należną dzisiaj kwotę.",
+          "order_contains_subscriptions": "Subskrypcja"
+        },
+        "pending_payment": {
+          "due_notice": "Termin Twojej płatności w wysokości %{amount_due} upływa dnia %{due_date}.",
+          "multibanco": {
+            "amount": "Kwota",
+            "entity": "Jednostka",
+            "find_nearest_atm": "Znajdź najbliższy bankomat",
+            "instruction_html": "Dokonaj płatności w Multibanco lub online, korzystając z poniższych danych. W przypadku pytań lub aktualizacji danych dotyczących płatności, %{contact_us}.",
+            "reference": "Referencja"
+          }
+        },
+        "purchase_options_agreement_label": "Przyjmuję do wiadomości, że co najmniej jedna pozycja w moim koszyku to zakup z odroczoną płatnością lub zakup powtarzający się. Kontynuując, wyrażam zgodę na %{cancellation_policy_label} i upoważniam Shopify do automatycznego obciążania mnie zgodnie z moją metodą płatności w podanych terminach, do wysokości określonych cen i ze wskazaną częstotliwością do momentu zrealizowania zamówienia lub anulowania go przeze mnie, jeśli będzie to dozwolone.",
+        "purchase_options_agreement_label_html": "Przyjmuję do wiadomości, że co najmniej jedna pozycja w moim koszyku to zakup z odroczoną płatnością lub zakup powtarzający się. Kontynuując, akceptuję \n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">politykę anulowania<\/a>\ni upoważniam Shopify do automatycznego obciążania mnie zgodnie z moją metodą płatności w podanych terminach, do wysokości określonych cen i ze wskazaną częstotliwością do momentu zrealizowania zamówienia lub anulowania go przeze mnie, jeśli będzie to dozwolone.",
+        "purchase_options_card_update_agreement_label_html": "Aktualizując metodę płatności, użytkownik wyraża zgodę na dokonywanie płatności za wszelkie zakupy powtarzające się lub zakupy z odroczoną płatnością zgodnie z <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">polityką anulowania<\/a> sklepu.",
+        "receiver_payment_experience_hint": "Po złożeniu zamówienia otrzymasz szczegóły dotyczące płatności. Dokonaj płatności w Multibanco lub online w ciągu %{due_days} dni.",
+        "same_billing_address_label": "Taki sam jak adres wysyłki",
+        "saved_by_payment_method": "Zaoszczędzone dzięki: %{payment_method}",
+        "sofort_label": "Przelew bankowy Sofort",
+        "subscription_agreement_cancelled": "anulowano",
+        "subscription_agreement_label": "Potwierdzam, że zgadzam się na subskrypcję. Będzie ona odnawiana po podanej cenie i ze wskazaną częstotliwością, aż do czasu, gdy zostanie zakończona lub %{cancelled}.",
+        "subscription_agreement_label_html": "Potwierdzam, że zgadzam się na subskrypcję. Będzie ona odnawiana po cenie i ze wskazaną częstotliwością aż do jej zakończenia lub \n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">anulowania<\/a>.",
+        "subscription_card_update_agreement_label": "Zmiana metody płatności spowoduje aktualizację subskrypcji i przyszłych powtarzających się płatności.",
+        "supported_card_brands_more_label": "i więcej...",
+        "taxes_not_included": "Podatki nie zostały wliczone",
+        "technical_error": "Nie można teraz przetwarzać płatności z powodu problemu technicznego. Spróbuj ponownie za kilka minut.",
+        "title": "Płatność",
+        "update_payment_method": "Zaktualizuj metodę płatności",
+        "waiting_on_payment_methods": "Pobieranie dostępnych metod płatności..."
+      },
+      "payment_errors": {
+        "checkout_amount_changed": "Twoja płatność nie mogła zostać przetworzona, ponieważ należna kwota na stronie realizacji zakupu uległa zmianie. Sprawdź swoje zamówienie i spróbuj ponownie.",
+        "credit_card_processing": "Twoja płatność nie może zostać przetworzona z przyczyn technicznych. Spróbuj ponownie za kilka minut lub użyj innej metody płatności.",
+        "decision_rule_block": "Podczas przetwarzania płatności wystąpił problem. Skontaktuj się z właścicielem sklepu.",
+        "deferred_amount_changed": "Twoja płatność nie mogła zostać przetworzona, ponieważ zmieniła się kwota płatności odroczonej. Sprawdź swoje zamówienie i spróbuj ponownie.",
+        "deferred_date_changed": "Twoja płatność nie mogła zostać przetworzona, ponieważ zmieniła się data płatności odroczonej. Sprawdź swoje zamówienie i spróbuj ponownie.",
+        "deferred_payment_not_allowed": "Płatności odroczone są niedozwolone. Sprawdź swoje zamówienie i spróbuj ponownie.",
+        "deferred_payment_required": "To zamówienie wymaga płatności odroczonej. Sprawdź swoje zamówienie i spróbuj ponownie.",
+        "fraud_payment_errors": {
+          "address_mismatch": "Ulica i kod pocztowy nie zgadzają się.",
+          "cannot_process": "Nie można przetworzyć transakcji",
+          "card_declined": "Twoja karta została odrzucona",
+          "no_match": "Brak dopasowań",
+          "transaction_declined": "Ta transakcja została odrzucona"
+        },
+        "multiple_deferred_payment_not_allowed": "Na jeden wniosek dozwolona jest tylko jedna płatność odroczona. Sprawdź swój wniosek i spróbuj ponownie.",
+        "order_total_changed": "Twoja płatność nie mogła zostać zrealizowana, ponieważ suma zamówienia uległa zmianie. Sprawdź sumę zamówienia i spróbuj ponownie.",
+        "pay_later_failed": "Wystąpił błąd podczas przetwarzania płatności za pomocą opcji Zapłać później. Wybierz inną metodę płatności i spróbuj ponownie.",
+        "payment_processing": "Twoja płatność nie może zostać przetworzona z przyczyn technicznych. Spróbuj ponownie lub użyj innej metody płatności.",
+        "payment_processing_no_retry": "Twoja płatność nie może zostać przetworzona z przyczyn technicznych. Spróbuj użyć innej metody płatności.",
+        "paypal_invalid_token": "Usługa PayPal była niedostępna. Spróbuj ponownie lub użyj innej opcji realizacji zakupu.",
+        "paypal_zero_amount": "Nie można używać PayPal dla %{amount} zamówień. Potwierdź prawidłowość zamówienia i zrealizuj zakup bez użycia PayPal.",
+        "rejected_transaction": "Twoja płatność została odrzucona. Spróbuj ponownie lub użyj innej metody płatności.",
+        "shipping_must_match_billing": "Adres rozliczeniowy musi być zgodny z adresem wysyłki. Użyj innej metody płatności.",
+        "subscription_agreement_blank": "Zakup subskrypcji wymaga zapisania danych płatności. Aby kontynuować, potwierdź, że akceptujesz lub usuwasz pozycje subskrypcji ze swojego zamówienia.",
+        "three_d_secure_failed": "Weryfikacja Twojej płatności była niemożliwa. Spróbuj ponownie lub użyj innej metody płatności.",
+        "three_d_secure_failed_duplicate": "Uwierzytelnianie 3D Secure karty kredytowej nie powiodło się, ponieważ inne uwierzytelnianie jest już w toku.",
+        "three_d_secure_throttled": "Za dużo prób; poczekaj przed ponowną próbą",
+        "generic_error": "Podczas przetwarzania płatności wystąpił problem. Spróbuj ponownie lub użyj innej metody płatności.",
+        "insufficient_funds": "Twoja płatność nie powiodła się z powodu niewystarczających środków. Spróbuj ponownie lub użyj innej metody płatności."
+      },
+      "payment_gateway": {
+        "bank_deposit_label": "Wpłata na konto",
+        "cash_on_delivery_label": "Płatność przy odbiorze",
+        "credit_card_label": "Karta kredytowa",
+        "money_order_label": "Przekaz pieniężny"
+      },
+      "payment_summary": {
+        "billing_address_title": "Adres rozliczeniowy",
+        "credit_card_expires_on_notice": "Traci ważność %{month}\/%{year}",
+        "express_payment_gateway_label": "Ekspresowo",
+        "free_label": "Gratis",
+        "gift_card_current_balance_notice": "Saldo bieżące: %{amount}",
+        "manual_payment_gateway_label": "Ręcznie"
+      },
+      "paypal": {
+        "button_html": "Realizuj zakup za pomocą %{logo}"
+      },
+      "post_purchase": {
+        "components": {
+          "close": "Zamknij",
+          "expand": "Wyświetl więcej",
+          "processing": "Przetwarzanie…",
+          "submit": "Prześlij"
+        },
+        "escape_action": "Pokaż potwierdzenie zamówienia ›",
+        "escape_confirmation": "Zapłaciłeś(-aś) za swoje zamówienie.",
+        "page_title": "Po zakupie",
+        "title": "Po zakupie"
+      },
+      "processing": {
+        "complete_your_purchase_title": "Zrealizuj zakup",
+        "complete_your_purchase_title_error": "Skoryguj informacje o płatności",
+        "continue_to_payment_gateway_button_label": "Przejdź do płatności",
+        "continue_to_payment_gateway_button_label_error": "Zaktualizuj informacje o płatności",
+        "continue_to_payment_gateway_notice": "Przejdź do płatności, aby dodać informacje o płatności.",
+        "continue_to_payment_gateway_notice_error": "Weryfikacja Twoich informacji o płatności była niemożliwa.",
+        "page_title": "Przetwarzanie zamówienia",
+        "redirecting_notice": "Poczekaj na przekierowanie.",
+        "redirecting_page_title": "Przekierowanie...",
+        "redirecting_title": "Przekierowanie...",
+        "title": "Przetwarzanie zamówienia",
+        "wait": {
+          "long": "Otrzymasz wiadomość e-mail natychmiast po przetworzeniu zamówienia. Obecnie jest dużo zamówień.",
+          "medium": {
+            "one": "Twoje zamówienie jest przetwarzane. Szacowany czas oczekiwania: %{count} minuta.",
+            "other": "Twoje zamówienie jest przetwarzane. Szacowany czas oczekiwania: %{count} minut(-y)."
+          },
+          "no_auto_refresh_html": "Jeśli nie zostaniesz automatycznie przekierowany(-a), %{link}.",
+          "refresh_this_page": "odśwież tę stronę",
+          "short": "Twoje zamówienie jest przetwarzane."
+        },
+        "you_will_not_be_charged": "Nie zostaniesz jeszcze obciążony(-a)",
+        "you_will_receive_confirmation": "Otrzymujemy obecnie dużo zamówień. Wkrótce otrzymasz potwierdzenie e-mailem lub SMS-em. Jeśli go nie dostaniesz w ciągu najbliższej godziny, powiadom nas.",
+        "your_order_has_been_received_title": "Dziękujemy za złożenie zamówienia"
+      },
+      "remember_me": {
+        "description_html": "Następnym razem, realizując zakupy tutaj lub w innych sklepach obsługiwanych przez Shopify, otrzymasz kod w wiadomości tekstowej zapewniający bezpieczne zakupy za pomocą Shop Pay.",
+        "errors": {
+          "optin": "Usługa Shop Pay jest niedostępna"
+        },
+        "external_acessibility_label": "(otwiera nowe okno)",
+        "installments": {
+          "paid_in_installments": "Zapłacono w ratach za pomocą Shop Pay.",
+          "view_schedule": "Wyświetl harmonogram"
+        },
+        "label": "Zapisz moje informacje w celu szybszej realizacji zakupu",
+        "mobile_phone_icon_alt": "Telefon komórkowy",
+        "mobile_phone_number": "Numer telefonu komórkowego",
+        "save": "Zapisz",
+        "shopify_pay_label": "Shop Pay",
+        "terms_and_privacy_html": "Kontynuując, wyrażasz zgodę na %{privacy_href} i %{terms_href} Shop Pay.",
+        "terms_of_service": "Warunki użytkowania",
+        "title": "Pamiętaj mnie",
+        "privacy_policy": "Polityka prywatności"
+      },
+      "review": {
+        "blocks": {
+          "billing_address_title": "Rozliczenie",
+          "change_billing_address_link_label": "Zmień adres rozliczeniowy",
+          "change_contact_method_link_label": "Zmień dane kontaktowe",
+          "change_link_label": "Zmień",
+          "change_payment_method_link_label": "Zmień metodę płatności",
+          "change_shipping_address_link_label": "Zmień adres wysyłki",
+          "change_shipping_method_link_label": "Zmień metodę wysyłki",
+          "contact_method_title": "Kontakt",
+          "payment_method_title": "Płatność",
+          "pick_up_in_store_shipping_method_html": "Odbiór w sklepie · %{location_name}",
+          "shipping_address_title": "Odbiorca dostawy",
+          "shipping_method_title": "Metoda"
+        },
+        "checkout_as_guest": "Zrealizuj zakup jako gość",
+        "review_title": "Sprawdź zamówienie",
+        "title": "Sprawdź"
+      },
+      "shipping": {
+        "arrives_time": "Przybycie %{time}",
+        "arrives_time_range": "Przybycie %{min_time}–%{max_time}",
+        "cheapest_rate_label": "Najtańsze",
+        "delivery": "Dostawa %{time}",
+        "delivery_date_range": "%{min_time}–%{max_time}",
+        "delivery_today": "Dostawa tego samego dnia %{time}",
+        "delivery_tomorrow": "Dostawa następnego dnia %{time}",
+        "estimated_delivery_date": {
+          "one": "%{count} dzień roboczy",
+          "other": "Liczba dni roboczych: %{count}"
+        },
+        "estimated_delivery_date_range": "%{minimum} do %{maximum} dni roboczych",
+        "estimated_delivery_time": "Przewidywany czas dostawy: %{time}",
+        "estimated_delivery_time_range": "Przewidywany czas dostawy: %{min_time}–%{max_time}",
+        "estimated_time": "Przewidywany czas dostawy: %{time}",
+        "estimated_time_range": "Przewidywany czas dostawy: %{min_time}–%{max_time}",
+        "free_rate_label": "Gratis",
+        "local_delivery": "Dostawa lokalna",
+        "no_pickup_location_notice": "Co najmniej jeden z Twoich produktów nie jest dostępny do odbioru",
+        "no_rates_contact_notice": "Skontaktuj się z nami, aby uzyskać więcej informacji",
+        "no_rates_for_cart_or_destination_notice": "Brak dostępnych metod wysyłki dla Twojego koszyka lub adresu",
+        "no_rates_for_country_notice": "Nie znaleziono stawek wysyłki dla tego adresu.",
+        "other_method": {
+          "zero": "Brak innych dostępnych metod",
+          "one": "%{count} inna metoda dostępna w",
+          "other": "Liczba innych dostępnych metod: %{count} – od"
+        },
+        "please_enter_your_shipping_information_notice": "Wpisz informacje dotyczące wysyłki.",
+        "shipping_line_delivery_instructions": "Wprowadź niezbędne informacje, takie jak kody do drzwi lub instrukcje nadawania paczek.",
+        "shipping_line_delivery_phone": "Możemy kontaktować się z Tobą w celu aktualizacji statusu dostawy.",
+        "shipping_line_delivery_phone_label": "Numer telefonu komórkowego",
+        "shipping_line_phone": "Kurier może użyć tego numeru, aby skontaktować się z Tobą.",
+        "shipping_line_phone_label": "Numer telefonu komórkowego (wymagany)",
+        "shipping_method_one_time_purchase_group_title": "Zakup jednorazowy",
+        "shipping_method_subscription_group_title": "Subskrypcja",
+        "shipping_method_title": "Metoda wysyłki",
+        "shipping_rate_discounted_amount": "Było: %{original_amount}. Jest: %{amount}",
+        "subscription_delivery_description": {
+          "first_n_order_free": {
+            "one": "Pierwsze zamówienie za darmo",
+            "other": "Pierwsze(-ych) %{count} zamówienia(-ń) za darmo"
+          },
+          "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} za dostawę), następnie %{recurring_order_shipping_price}",
+          "first_order_shipping_price_included": "Pierwsze zamówienie wliczone, następne %{recurring_order_shipping_price}",
+          "free_for_first_n_order": {
+            "one": "Dla pierwszego zamówienia",
+            "other": "Dla %{count} pierwszych zamówień"
+          },
+          "initial_order_discounted": "Najpierw koszt wysyłki %{discounted_shipping_cost}, następnie %{frequency_description}",
+          "multiple_subscriptions_shipping_price_label": "%{shipping_price} za dostawę",
+          "prepaid_delivery_frequency": {
+            "one": "dla %{count} dostawy",
+            "other": "dla %{count} dostaw(y)"
+          },
+          "prepaid_initial_order_discounted": "Najpierw koszt wysyłki %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Najpierw koszt wysyłki %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Najpierw koszt wysyłki %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), następnie %{shipping_price} %{billing_cycle}",
+          "prepaid_initial_order_discounted_with_renewal": "Najpierw koszt wysyłki %{discounted_shipping_price} %{prepaid_delivery_frequency}, następnie %{shipping_price} %{billing_cycle}",
+          "prepaid_shipping_price_label": "%{shipping_price} za dostawę x %{delivery_interval_count}",
+          "recurring_order_shipping_price": "a następnie %{recurring_order_shipping_price}",
+          "shipping_price_included": "Zawarte",
+          "subscription_delivery_frequency": {
+            "day": {
+              "one": "codziennie",
+              "other": "co %{count} dni"
+            },
+            "month": {
+              "one": "co miesiąc",
+              "other": "co %{count} miesiące\/miesięcy"
+            },
+            "week": {
+              "one": "co tydzień",
+              "other": "co %{count} tygodni(e)"
+            },
+            "year": {
+              "one": "co rok",
+              "other": "co %{count} lat(a)"
+            }
+          }
+        },
+        "subscription_local_delivery": "Dostawa lokalna w przypadku subskrypcji",
+        "subscription_pickup": "Odbiór w przypadku subskrypcji",
+        "subscription_shipping": "Wysyłanie subskrypcji",
+        "title": "Wysyłka",
+        "two_day_delivery": "Dostawa w ciągu 2 dni %{time}",
+        "waiting_on_pickup_location_notice": "Pobieranie dostępnych lokalizacji odbioru…",
+        "waiting_on_rate_notice": "Pobieranie dostępnych stawek wysyłki...",
+        "one_time_purchase_shipping": "Wysyłka jednorazowa",
+        "optional_shipping_line_delivery_instructions_label": "Instrukcje dotyczące dostawy (opcjonalnie)"
+      },
+      "shipping_errors": {
+        "payment_method_not_supported": "Nie możesz użyć tej metody płatności dla kraju: %{country}. Użyj innej metody płatności, aby wysłać do tego kraju.",
+        "shipping_method": "Twój koszyk został zaktualizowany i poprzednia stawka wysyłki jest nieprawidłowa. Wybierz nową stawkę.",
+        "shipping_method_not_available": "Twój koszyk został zaktualizowany, a dodanych produktów nie można wysłać na Twój adres. Usuń pozycje, aby zakończyć zamówienie.",
+        "shipping_method_not_available_generic": {
+          "one": "Zamówienia nie można wysłać na podany adres. Sprawdź swój adres, aby upewnić się, że wszystkie pola zostały wprowadzone poprawnie i spróbuj ponownie.",
+          "other": "Niektórych pozycji z Twojego koszyka nie można wysłać na podany adres. Sprawdź swój adres, aby upewnić się, że wszystkie pola zostały wprowadzone poprawnie i spróbuj ponownie."
+        },
+        "shipping_method_not_available_updated": {
+          "one": "Dodanej przez Ciebie pozycji nie można wysyłać do Twojej lokalizacji. Wyjmij ją, aby zrealizować zakup, lub skontaktuj się ze sklepem.",
+          "other": "Dodanej\/Dodanych przez Ciebie pozycji nie można wysyłać do Twojej lokalizacji. Wyjmij ją\/je, aby zrealizować zakup, lub skontaktuj się ze sklepem."
+        }
+      },
+      "shop_policies": {
+        "contact_information": "Dane kontaktowe",
+        "legal_notice": "Nota prawna",
+        "privacy_policy": "Polityka prywatności",
+        "purchase_options_policy": "Polityka opcji zakupu",
+        "refund_policy": "Polityka zwrotu kosztów",
+        "shipping_policy": "Polityka wysyłki",
+        "subscription_policy": "Polityka anulowania opcji zakupu",
+        "terms_of_sale": "Warunki sprzedaży",
+        "terms_of_service": "Warunki użytkowania"
+      },
+      "stock": {
+        "continue_shopping_button_label": "Kontynuuj",
+        "go_back_to_cart_button_label": "Wróć do mojego koszyka",
+        "items_unavailable_notice": "Niektóre pozycje nie są już dostępne. Twój koszyk został zaktualizowany.",
+        "page_title": "Problemy dotyczące zapasów",
+        "price_column_header": "Cena",
+        "product_column_header": "Produkty",
+        "quantity_column_header": "Ilość",
+        "reduced_label": "Zmniejszono",
+        "reduced_with_quantity_label": "Pozostało tylko %{quantity_available}",
+        "remove_from_cart_button_label": "Usuń z koszyka",
+        "removed_from_cart_notice": "Usunięto z koszyka",
+        "sold_out_label": "Wyprzedane",
+        "status_column_header": "Status",
+        "title": "Zapas wyczerpany"
+      },
+      "subscriptions": {
+        "recurring_total_intervals": {
+          "day": {
+            "one": "dzień",
+            "other": "%{count} dni"
+          },
+          "month": {
+            "one": "miesiąc",
+            "other": "%{count} miesiące\/miesięcy"
+          },
+          "week": {
+            "one": "tydzień",
+            "other": "%{count} tygodni"
+          },
+          "year": {
+            "one": "rok",
+            "other": "%{count} lat(-a)"
+          }
+        },
+        "recurring_totals": "%{total_price} co %{interval}",
+        "recurring_totals_with_initial_order_shipping_discount": "Najpierw płatność %{total_price_with_discount}, następnie %{recurring_total}",
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ", następnie %{count} płatność w wysokości %{total_price}",
+            "other": ", następnie %{count} płatności po %{total_price}"
+          }
+        },
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "one": "Pierwsza płatność %{total_price}",
+            "other": "Pierwsze %{count} płatności po %{total_price}"
+          },
+          "following_cycles": ", następnie %{total_price} co %{interval}"
+        }
+      },
+      "thank_you": {
+        "attempted_delivery": "Próba dostarczenia",
+        "attempted_delivery_description_html": "Dokonano nieudanej próby doręczenia Twojej przesyłki. %{contact_us}, aby uzgodnić kolejną próbę doręczenia.",
+        "attempted_delivery_local_description_html": "Nie mogliśmy dostarczyć Twojego zamówienia. Aby zaplanować następną dostawę, %{contact_us}.",
+        "attempted_delivery_local_title": "Nieodebrana dostawa",
+        "attempted_delivery_title": "Dokonano próby doręczenia Twojego zamówienia",
+        "billing_address_title": "Adres rozliczeniowy",
+        "branded_promise": {
+          "shop_promise": {
+            "confirmed": {
+              "guaranteed_on_time": "Dostawa gwarantowana do %{date} przez",
+              "on_time": "Dostawa do %{date} przez"
+            },
+            "delivered": {
+              "delayed": "Dostarczono %{date}, przewidywana pierwotnie data dostawy przypadała %{original_delivery_date}",
+              "guaranteed_delayed": "Ponieważ Twoja przesyłka dotarła po spodziewanej dacie %{date}, możesz kwalifikować się do otrzymania %{shop_cash} z",
+              "guaranteed_on_time": "Dostarczone na czas przez",
+              "on_time": "Dostarczone do %{date} przez"
+            },
+            "guarantee": {
+              "app_user": {
+                "popover_subtitle": "Twoje zamówienie dotarło później niż oczekiwano. Wykorzystaj Shop Cash na przyszłe zakupy w aplikacji Shop.",
+                "popover_title": "Zeskanuj, aby otrzymać Shop Cash"
+              },
+              "non_app_user": {
+                "popover_subtitle": "Twoje zamówienie dotarło później niż oczekiwano. Pobierz Shop, aby wykorzystać Shop Cash na przyszłe zakupy.",
+                "popover_title": "Pobierz Shop, aby otrzymać Shop Cash"
+              }
+            },
+            "in_transit": {
+              "delayed": "Twoja przesyłka z przewidywaną datą dostawy do %{date} jest opóźniona.",
+              "guaranteed_delayed": "Twoja przesyłka nie dotarła w oczekiwanym terminie do %{date}. Po jej otrzymaniu można złożyć reklamację za pomocą",
+              "guaranteed_on_time": "Dostawa gwarantowana do %{date} przez",
+              "on_time": "Dostawa do %{date} przez"
+            },
+            "out_for_delivery": {
+              "guaranteed_delayed": "Twoja przesyłka nie dotarła w oczekiwanym terminie do %{date}. Po jej otrzymaniu można złożyć reklamację za pomocą",
+              "guaranteed_on_time": "Dostawa gwarantowana do %{date} przez",
+              "on_time": "Dostawa do %{date} przez",
+              "delayed": "Twoja przesyłka z przewidywaną datą dostawy do %{date} jest opóźniona."
+            }
+          }
+        },
+        "breadcrumbs_confirmed": "Potwierdzone",
+        "breadcrumbs_submitted": "Przesłane",
+        "cancelled_description": "Zamówienie zostało anulowane %{date}. Skontaktuj się z nami, jeśli masz pytania.",
+        "cancelled_page_title": "Zamówienie anulowane",
+        "cancelled_title": "Zamówienie zostało anulowane",
+        "choose_payment_method_later": "Wybierz później metodę płatności",
+        "company_location_title": "Lokalizacja",
+        "company_tracking_number": "Numer śledzenia %{company}:",
+        "confirmation_email_sent_text": "Wiadomość e-mail z potwierdzeniem została wysłana do %{email}",
+        "confirmed": "Potwierdzone",
+        "confirmed_description": "Zaakceptowaliśmy Twoje zamówienie i przygotowujemy je. Wróć do tej strony w celu uzyskania najnowszych informacji na temat statusu przesyłki.",
+        "confirmed_title": "Twoje zamówienie jest potwierdzone",
+        "contact_information_title": "Dane kontaktowe",
+        "contact_us": "Skontaktuj się z nami",
+        "contact_us_html": "Potrzebujesz pomocy? %{contact_us}",
+        "contact_us_lowercase": "skontaktuj się z nami",
+        "customer_information_hidden_fields_message": "Zaloguj się, aby wyświetlić wszystkie informacje dotyczące klienta.",
+        "customer_information_title": "Informacje dotyczące klienta",
+        "customer_validation_error_phone": "Wprowadź prawidłowy numer telefonu lub numer zamówienia.",
+        "delivered": "Dostarczono",
+        "delivered_description_html": "Zamówienie zostało dostarczone na podany przez Ciebie adres. Jeśli go nie otrzymałeś(-aś) lub masz inne problemy, %{contact_us}.",
+        "delivered_local_description_html": "Nie otrzymałeś(-aś) zamówienia? %{let_us_know}.",
+        "delivered_title": "Twoje zamówienie zostało dostarczone",
+        "estimated_arrival": "Przewidywana data dostawy:",
+        "estimated_delivery": "Przewidywana dostawa:",
+        "failed_contact_merchant": "Skontaktuj się z %{company}, aby uzgodnić dostawę.",
+        "failed_contact_merchant_no_company": "Skontaktuj się z nami, aby uzgodnić dostawę.",
+        "failed_title": "Dostarczenie Twojego zamówienia było niemożliwe",
+        "failure": "Nie dostarczono",
+        "first_payment_complete": "Pierwsza transakcja została zakończona",
+        "fulfillment": {
+          "description_label": "Opis",
+          "fulfilled_table_title": "Pozycje w tej wysyłce",
+          "product_image_label": "Obraz produktu",
+          "quantity_label": "Ilość",
+          "unfulfilled_table_title": "Przygotowanie pozycji do wysyłki"
+        },
+        "gift_card_confirmation_by_email": "Karty prezentowe są wysyłane e-mailem. Jeśli nie otrzymałeś(-aś) swoich kart, spróbuj wysłać je ponownie lub skontaktuj się z nami.",
+        "gift_card_confirmation_by_text": "Karty prezentowe są wysyłane SMS-em. Jeśli nie otrzymałeś(-aś) swoich kart, spróbuj wysłać je ponownie lub skontaktuj się z nami.",
+        "gift_card_sent_confirmation": "Karty prezentowe zostały wysłane",
+        "in_store_purchase": "Zakup w sklepie stacjonarnym",
+        "in_transit": "W drodze",
+        "in_transit_description": "Będziesz otrzymywać aktualizacje na temat jego postępów.",
+        "in_transit_description_days": "Zamówienie powinno zostać doręczone w ciągu najbliższych %{number} dni.",
+        "in_transit_description_today": "Zamówienie powinno zostać doręczone dzisiaj.",
+        "in_transit_description_tomorrow": "Zamówienie powinno zostać doręczone w kolejnym dniu.",
+        "in_transit_title": "Twoje zamówienie jest w drodze",
+        "let_us_know": "Powiadom nas",
+        "login": "Zaloguj się",
+        "login_description": "Nr zamówienia znajdziesz na paragonie wysłanym e-mailem.",
+        "login_description_phone": "Nr zamówienia znajdziesz na paragonie wysłanym w wiadomości tekstowej",
+        "login_not_customer_html": "Nie %{name}? Możesz %{link}",
+        "login_reorder_link_text": {
+          "one": "kupić też ten produkt",
+          "other": "kupić też te produkty"
+        },
+        "login_title": "Zaloguj się, aby wyświetlić wszystkie szczegóły zamówienia",
+        "marker": {
+          "current": "Obecna lokalizacja przesyłki",
+          "shipping": "Adres wysyłki"
+        },
+        "missing_shipping_address_banner": {
+          "text_html": "%{contact_us}, aby dodać swój adres",
+          "title": "Zamówienie nie ma adresu wysyłki"
+        },
+        "no_tracking_number": "Nie ma numeru śledzenia dla tego zamówienia.",
+        "non_shippable_title": "Twoje zamówienie zostało zrealizowane",
+        "opt_in_message_html": "Twoje dane zostały zapisane w %{shopify_pay}",
+        "optimus_button_label": "Kup za pośrednictwem firmy Optimus: Śledź przesyłkę",
+        "order_number_label": "Nr zamówienia",
+        "order_status_confirmed_order_local": "Przygotowujemy Twoje zamówienie do dostawy.",
+        "order_status_confirmed_order_with_email_and_phone": "Gdy Twoje zamówienie będzie gotowe, otrzymasz wiadomość e-mail.",
+        "order_status_confirmed_order_with_email_and_phone_pick_up": "Otrzymasz wiadomość e-mail i SMS, gdy Twoje zamówienie będzie gotowe do odbioru.",
+        "order_status_confirmed_order_with_email_payment": "Dokonałeś(-aś) zapłaty za zamówienie %{date}.",
+        "order_status_confirmed_order_with_email_pick_up": "Gdy Twoje zamówienie będzie gotowe do odbioru, otrzymasz wiadomość e-mail.",
+        "order_status_confirmed_order_with_phone": "Gdy Twoje zamówienie będzie gotowe, możesz otrzymać SMS.",
+        "order_status_confirmed_order_with_phone_payment": "Dokonałeś(-aś) zapłaty za zamówienie %{date}.",
+        "order_status_confirmed_order_with_phone_pick_up": "Gdy Twoje zamówienie będzie gotowe do odbioru, otrzymasz SMS.",
+        "order_status_confirmed_with_installments_payment_confirm": "Wkrótce otrzymasz e-mail z potwierdzeniem zawierający nr zamówienia i szczegóły planu ratalnego.",
+        "order_status_confirmed_with_installments_payment_return": "Skup się ponownie na pracowniku sprzedaży.",
+        "order_status_updates_with_email": "Będziesz otrzymywać e-mailem aktualizacje informacji dotyczących wysyłki i dostawy.",
+        "order_status_updates_with_email_and_phone": "Będziesz otrzymywać e-mailem aktualizacje informacji dotyczących wysyłki i dostawy.",
+        "order_status_updates_with_missing": "Wybierz, w jaki sposób chcesz otrzymywać aktualizacje informacji dotyczących wysyłki.",
+        "order_status_updates_with_phone": "Możesz otrzymywać SMS-em aktualizacje informacji dotyczących wysyłki i dostawy.",
+        "order_updates_current_step_prefix": "Bieżący etap:",
+        "order_updates_description_html": "Aktualizacje zostaną wysłane do %{customer_contact}",
+        "order_updates_description_missing": "Nie otrzymujesz aktualizacji informacji dotyczących wysyłki.",
+        "order_updates_past_step_prefix": "Poprzedni etap:",
+        "order_updates_submit_subscription": "Prześlij",
+        "order_updates_subscribe_to_email_notifications": "Otrzymuj aktualizacje informacji dotyczących wysyłki e-mailem",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Otrzymuj aktualizacje informacji dotyczących wysyłki e-mailem lub SMS-em",
+        "order_updates_subscribe_to_phone_notifications": "Otrzymuj aktualizacje informacji dotyczących wysyłki SMS-em",
+        "order_updates_title": "Aktualizacje zamówienia",
+        "order_updates_upcoming_step_prefix": "Kolejny etap:",
+        "other_options": "Inne opcje",
+        "out_for_delivery": "Wydano do doręczenia",
+        "out_for_delivery_description_html": "Twoje zamówienie jest w drodze i powinno dotrzeć jeszcze dzisiaj. Jeśli nie otrzymasz go w ciągu najbliższych 2 dni, %{contact_us}.",
+        "out_for_delivery_local_description_html": "Twoje zamówienie zostanie niedługo dostarczone.",
+        "out_for_delivery_local_title": "Twoje zamówienie wydano do doręczenia",
+        "out_for_delivery_title": "Twoje zamówienie wydano do doręczenia",
+        "page_title": "Dziękujemy, %{display_name}!",
+        "page_title_no_name": "Dziękujemy!",
+        "payment_information_title": "Informacje o płatności",
+        "payment_method_draft_order": "Do zapłaty po weryfikacji zamówienia",
+        "payment_method_title": "Metoda płatności",
+        "pick_up_in_store_marker": {
+          "current": "Obecna lokalizacja przesyłki",
+          "shipping": "Miejsce odbioru"
+        },
+        "picked_up_description_html": "Twoje zamówienie zostało odebrane w %{location_name} %{date}.",
+        "picked_up_title": "Twoje zamówienie zostało odebrane",
+        "print_link_label": "Drukuj paragon",
+        "purchase_order_number_title": "Numer zamówienia %{purchase_order_number}",
+        "qr_code": {
+          "send_link_to_phone": "lub wyślij link na swój telefon",
+          "subtitle": "Skanuj kod za pomocą telefonu, aby śledzić dostawę z wykorzystaniem aplikacji Shop.",
+          "title": "Śledź za pomocą telefonu"
+        },
+        "re-order": "Ponownie zamów te same pozycje",
+        "ready_for_delivery_description": "Twoje zamówienie jest przygotowane.",
+        "ready_for_delivery_title": "Twoje zamówienie jest gotowe do dostawy.",
+        "ready_for_pickup_description": "Twoje zamówienie jest gotowe do odbioru. Prosimy o przyniesienie potwierdzenia zamówienia w celu pokazania przy odbiorze.",
+        "ready_for_pickup_title": "Twoje zamówienie jest gotowe do odbioru",
+        "return_to_store_link_label": "Kontynuuj zakupy",
+        "shipping_address_map_title": "Mapa Google pokazująca znacznik adresu wysyłki: %{address}",
+        "shipping_information_title": "Informacje o wysyłce",
+        "shipping_method_title": "Metoda wysyłki",
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "description": "Aplikacja Shop wyśle Ci aktualizacje dostawy w czasie rzeczywistym, gdy Twoje zamówienie zostanie wysłane.",
+            "title": "Zeskanuj kod za pomocą telefonu"
+          },
+          "sms": {
+            "title": "lub wyślij link na swój telefon"
+          }
+        },
+        "shopify_pay": {
+          "learn_more_label": "Dowiedz się więcej o Shop Pay",
+          "order_completed_html": "Zamówienie zrealizowane za pomocą %{shopify_pay}"
+        },
+        "thank_you_confirmed_order_with_draft": "Poinformujemy Cię, jeśli będziemy potrzebować więcej informacji lub gdy Twoje zamówienie zostanie potwierdzone.",
+        "thank_you_confirmed_order_with_email": "Wkrótce otrzymasz wiadomość e-mail z potwierdzeniem zawierającym Twój nr zamówienia.",
+        "thank_you_confirmed_order_with_email_and_phone": "Wkrótce otrzymasz wiadomość e-mail z potwierdzeniem zawierającym Twój nr zamówienia.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Dokonałeś(-aś) zapłaty za zamówienie %{date}.",
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "Gdy Twoje zamówienie będzie gotowe do odbioru, otrzymasz wiadomość e-mail.",
+        "thank_you_confirmed_order_with_email_payment": "Dokonałeś(-aś) zapłaty za zamówienie %{date}.",
+        "thank_you_confirmed_order_with_email_pick_up": "Gdy Twoje zamówienie będzie gotowe do odbioru, otrzymasz wiadomość e-mail.",
+        "thank_you_confirmed_order_with_missing": "Skontaktuj się z nami e-mailem lub telefonicznie w celu otrzymania potwierdzenia zamówienia.",
+        "thank_you_confirmed_order_with_phone": "Możesz wkrótce otrzymać SMS z potwierdzeniem zawierającym Twój nr zamówienia.",
+        "thank_you_confirmed_order_with_phone_payment": "Dokonałeś(-aś) zapłaty za zamówienie %{date}.",
+        "thank_you_confirmed_order_with_phone_pick_up": "Gdy Twoje zamówienie będzie gotowe do odbioru, otrzymasz SMS.",
+        "thank_you_title": "Twoje zamówienie jest potwierdzone",
+        "thank_you_title_payment": "Twoja płatność jest potwierdzona",
+        "thank_you_title_review": "Twoje zamówienie zostało przesłane do weryfikacji",
+        "title": "Dziękujemy za dokonanie zakupu!",
+        "track_shipment": "Śledź przesyłkę",
+        "tracking_number": "Numer śledzenia:",
+        "unfulfilled_items_description": "Obecnie przygotowujemy te pozycje do wysyłki.",
+        "unfulfilled_items_title": "Przygotowanie do wysyłki",
+        "updated_time": "Zaktualizowano %{time_ago} temu",
+        "view_business_customer_account": "Wyświetl konto",
+        "breadcrumbs_in_review": "W trakcie weryfikacji",
+        "customer_validation_error": "Wprowadź prawidłowy adres e-mail lub nr zamówienia.",
+        "delivered_local_title": "Twoje zamówienie zostało dostarczone",
+        "delivery_information_label": "Informacje o dostawie:",
+        "gift_card_title": "Karty prezentowe",
+        "order_status_confirmed_order_with_email": "Gdy Twoje zamówienie będzie gotowe, otrzymasz wiadomość e-mail.",
+        "order_status_confirmed_order_with_email_and_phone_payment": "Dokonałeś(-aś) zapłaty za zamówienie %{date}.",
+        "resend_gift_cards": "Wyślij ponownie karty prezentowe",
+        "shipping_address_title": "Adres wysyłki",
+        "shop_phone_description": "Otrzymasz wiadomość z linkiem do aplikacji Shop, która pomoże Ci śledzić Twoje zamówienie."
+      },
+      "throttle": {
+        "cart_summary_heading": "Twój koszyk",
+        "estimated_wait_time": {
+          "calculating": "Obliczanie szacunkowego czasu oczekiwania",
+          "less_than_one": "Szacowany czas oczekiwania wynosi: Poniżej 1 minuty",
+          "one": "Szacowany czas oczekiwania: {{count}} minuta",
+          "other": "Szacowany czas oczekiwania: {{count}} minut(-y)"
+        },
+        "footer": {
+          "body": "Ze względu na duży ruch musisz poczekać kilka minut. Kiedy nadejdzie Twoja kolej, strona realizacji zakupu zostanie załadowana automatycznie.",
+          "heading": "Nie odświeżaj strony, bo stracisz swoje miejsce."
+        },
+        "inventory": {
+          "partial_inventory_banner": "Część koszyka jest wyprzedana i nie będzie dostępna do zakupu w kasie.",
+          "sold_out": {
+            "heading": "Towary z Twojego koszyka są wyprzedane",
+            "link": "Wróć do sklepu",
+            "no_storefront_body": "Niestety towar, który chcesz kupić, nie jest już dostępny.",
+            "storefront_body": "Wróć do sklepu, aby kontynuować zakupy"
+          }
+        },
+        "last_checked": "(Ostatnia kontrola: {{time}})",
+        "line_to_check_out": "Jesteś w kolejce do realizacji zakupu",
+        "merchandise": {
+          "available": "Dostępny",
+          "sold_out": "Wyprzedane"
+        },
+        "time_to_checkout_title": "Czas zrealizować zakupy - {{shopName}}",
+        "title": "Kolejka"
+      },
+      "tips": {
+        "add_tip": "Dodaj napiwek",
+        "custom_label": "Niestandardowy napiwek",
+        "description": "Pokaż swoje wsparcie dla zespołu %{shop_name}",
+        "message": "Dziękujemy, doceniamy to",
+        "no_tip_label": "Brak",
+        "preset_label": "%{tip_percent}%",
+        "presets_description": "Wybierz wartość procentową napiwku",
+        "title": "Dodaj napiwek",
+        "update_tip": "Zaktualizuj napiwek"
+      }
+    },
+    "addresses": {
+      "confirm": "Czy na pewno chcesz usunąć ten adres?",
+      "county": "Hrabstwo",
+      "emirate": "Emirat",
+      "governorate": "Gubernatorstwo",
+      "pincode": "Kod PIN",
+      "postal_code": "Kod pocztowy",
+      "postcode": "Kod pocztowy",
+      "prefecture": "Prefektura",
+      "region": "Region",
+      "state": "Stan",
+      "state_and_territory": "Państwo \/ terytorium",
+      "zip_code": "Kod pocztowy",
+      "province": "Prowincja"
+    },
+    "attributes": {
+      "email": "e-mail",
+      "first_name": "imię",
+      "last_name": "nazwisko",
+      "password": "hasło",
+      "password_confirmation": "Potwierdzenie hasła",
+      "signature": "Adres",
+      "body": "treść"
+    },
+    "cart": {
+      "discounts_with_count": "Liczba zastosowanych rabatów: %{count}"
+    },
+    "challenge": {
+      "error": "Odpowiedź nie była prawidłowa, spróbuj ponownie.",
+      "message": "Aby kontynuować, potwierdź, że nie jesteś robotem.",
+      "submit_button_text": "Wyślij"
+    },
+    "checkpoint": {
+      "error": "Sprawdzanie poprawności Captcha nie powiodło się",
+      "message": "Rozwiąż zadanie Captcha, aby kontynuować",
+      "submit_button_text": "Wyślij"
+    },
+    "collections": {
+      "sorting": {
+        "az": "Alfabetycznie, A-Z",
+        "best_selling": "Najpopularniejsze",
+        "date_ascending": "Data, od najnowszych do najstarszych",
+        "date_descending": "Data, od najstarszych do najnowszych",
+        "manual": "Polecane",
+        "price_ascending": "Cena, od najniższej  do najwyższej",
+        "price_descending": "Cena, od wysokiej do niskiej",
+        "za": "Alfabetycznie, Z-A"
+      }
+    },
+    "email_marketing": {
+      "open_tracking": {
+        "no_longer_track": {
+          "status_html": "<b>Nie śledzimy już otwarć e-maili.<\/b>",
+          "privacy_policy": "Po wysłaniu tego e-maila, zaktualizowaliśmy naszą politykę prywatności i nie śledzimy już otwarć."
+        },
+        "opt_in": {
+          "opt_out_html": "Jeśli nie chcesz udostępniać tych informacji, możesz <a style='text-decoration:underline;' href='%{link}'>zrezygnować<\/a> ze śledzenia otwarć e-maili.",
+          "opted_in_html": "<b>Wyraziłeś(-aś) zgodę na śledzenie otwarć e-maili.<\/b>",
+          "preview_bar": "Wyświetlasz podgląd tego, co zobaczą klienci, którzy zdecydują się na śledzenie otwarć e-maili.",
+          "visibility": "Wskaźniki otwarć e-maili będą raportowane anonimowo. Informacja o otwarciu przez Ciebie wiadomości e-mail będzie dla nas widoczna tylko w postaci wskaźnika wszystkich otwarć e-maili."
+        },
+        "opt_out": {
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Wyraź zgodę<\/a> na śledzenie otwarć e-maili.",
+          "opted_out_html": "<b>Zrezygnowałeś(-aś) ze śledzenia otwarć e-maili.<\/b>",
+          "preview_bar": "Wyświetlasz podgląd tego, co zobaczą klienci, którzy zrezygnują ze śledzenia otwarć  e-maili.",
+          "visibility": "Nie będziemy widzieć, czy otworzyłeś(-aś) nasze e-maile."
+        },
+        "track": {
+          "status_html": "<b>Śledzenie otwarć e-maili jest raportowane.<\/b>",
+          "visibility": "Informacja o otwarciu przez Ciebie wiadomości e-mail będzie dla nas widoczna tylko w postaci wskaźnika wszystkich otwarć e-maili."
+        },
+        "updated_policy": {
+          "opt_out_html": "Jeśli nie chcesz udostępniać tych informacji, możesz <a style='text-decoration:underline;' href='%{link}'>anulować subskrypcję<\/a>.",
+          "status_html": "<b>Śledzenie otwarć e-maili jest raportowane.<\/b>",
+          "visibility": "Zaktualizowaliśmy naszą politykę i teraz śledzimy otwarcia e-maili. Wskaźniki otwarć e-maili będą raportowane anonimowo. Informacja o otwarciu przez Ciebie wiadomości e-mail będzie dla nas widoczna tylko w postaci wskaźnika wszystkich otwarć e-maili."
+        }
+      },
+      "subscribed": {
+        "disclaimer": "Możesz zrezygnować z subskrypcji w dowolnym momencie.",
+        "unsubscribe": "Anuluj subskrypcję",
+        "confirmation": "Dziękujemy za subskrypcję naszej listy mailingowej."
+      },
+      "unsubscribed": {
+        "confirmation": "Wypisałeś(-aś) się z naszej listy mailingowej.",
+        "preview": "Wyświetlasz podgląd tego, co klienci zobaczą po wypisaniu się z subskrypcji.",
+        "disclaimer": "Nie będziesz otrzymywać od nas żadnych aktualizacji marketingowych. Możesz ponownie subskrybować listę w dowolnym momencie."
+      }
+    },
+    "errors": {
+      "bad_domain": "zawiera nieprawidłową nazwę domeny",
+      "blank": "nie może być puste\/-a\/-y",
+      "blocked_address": "Ta lokalizacja nie jest obsługiwana.",
+      "contains_html_tags": "nie może zawierać tagów HTML",
+      "contains_spaces": "zaczyna się lub kończy spacjami.",
+      "credit_card_session_expired": "Upłynął termin ważności autoryzacji karty kredytowej. Wprowadź ponownie informacje o płatności. Twoja karta nie została obciążona.",
+      "customer_already_used_once_per_customer_discount_notice": "Osiągnięto limit wykorzystania tego rabatu",
+      "discount_disabled": "Ten rabat został wyłączony",
+      "discount_expired": "Ten rabat utracił ważność",
+      "discount_limit_reached": "Osiągnięto limit wykorzystania tego rabatu",
+      "discount_not_found": "Nie można znaleźć ważnego rabatu pasującego do wprowadzonego kodu",
+      "empty": "nie może być puste\/-a\/-y",
+      "expired": "– wygasł(a)",
+      "full_name_required": "Wprowadź imię i nazwisko",
+      "gift_card_already_applied": "Kod został już zastosowany do realizacji zakupu",
+      "gift_card_code_invalid": "Kod jest nieprawidłowy",
+      "gift_card_currency_mismatch": "Twoja karta prezentowa jest w %{gift_card_currency}. Skontaktuj się z nami, aby zlecić jej ponowne wydanie w %{checkout_currency}.",
+      "gift_card_depleted": "Na tej karcie prezentowej nie pozostały żadne środki",
+      "gift_card_disabled": "Karta prezentowa jest wyłączona",
+      "gift_card_expired": "Karta prezentowa straciła ważność",
+      "invalid": "jest nieprawidłowe\/-a\/-y",
+      "invalid_email": "musi być prawidłowym adresem e-mail",
+      "invalid_expiry_year": "nie jest prawidłowym rokiem ważności",
+      "invalid_for_card_type": "jest nieprawidłowe\/-a\/-y",
+      "invalid_for_country": "jest nieprawidłowe\/-a\/-y dla: %{country}",
+      "invalid_for_country_and_province": "jest nieprawidłowe\/-a\/-y dla: %{province} i %{country}",
+      "invalid_format": "format jest nieprawidłowy",
+      "invalid_province_in_country": "nie jest prawidłowym województwem w: %{country}",
+      "invalid_region_in_country": "nie jest prawidłowym regionem w: %{country}",
+      "invalid_start_date_or_issue_number_for_debit": "wymagana jest prawidłowa data początku ważności lub numer wydania",
+      "invalid_state_in_country": "nie jest prawidłowym stanem w: %{country}",
+      "invalid_type": "przepraszamy, nie akceptujemy kart tego typu",
+      "less_than_or_equal_to": "musi być mniejsze niż lub równe %{count}",
+      "not_supported": "nie jest obsługiwane\/-a\/-y",
+      "password_mismatch": "muszą pasować do podanego hasła",
+      "product_not_available": "produkt nie został opublikowany dla tego klienta.",
+      "reset_password_html": "Ten adres e-mail jest już powiązany z kontem. Jeśli to konto należy do Ciebie, możesz <a href=\"\/account\/login#recover\">zresetować hasło<\/a>",
+      "taken": "– już wykorzystano",
+      "too_long": "jest za długi (maksymalna liczba znaków to %{count})",
+      "too_short": "jest za krótki (minimalna liczba znaków to %{count})",
+      "verify_email": "Wysłaliśmy e-mail do %{customer_email}, kliknij zawarty w nim link, aby zweryfikować swój adres e-mail.",
+      "email_domain_invalid": "dostawca nie jest obsługiwany"
+    },
+    "feed": {
+      "more": "Więcej"
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "in_stock": "W magazynie",
+          "out_of_stock": "Zapas wyczerpany"
+        }
+      },
+      "boolean": {
+        "false_label": "Nie",
+        "true_label": "Tak"
+      }
+    },
+    "links": {
+      "learn_more": "Dowiedz się więcej"
+    },
+    "notices": {
+      "address": {
+        "created": "Pomyślnie utworzony adres",
+        "deleted": "Pomyślnie usunięty adres",
+        "error_creating": "Błąd tworzenia adresu.",
+        "error_deleting": "Błąd usuwania adresu.",
+        "error_updating": "Błąd aktualizacji adresu",
+        "updated": "Pomyślnie zaktualizowany adres."
+      },
+      "cart": {
+        "all_items_in_cart": "Wszystkie %{count} %{name} są w Twoim koszyku.",
+        "changed": "Koszyk zmieniony",
+        "digital_product_not_available_for_company_locations": "Tej pozycji nie można dodać do zamówienia B2B",
+        "empty_update": "nie można zaktualizować pustego koszyka",
+        "generic_error": "Błąd koszyka",
+        "items_changed": "Jedna lub więcej pozycji zmienionych.",
+        "less_than_minimum": "Pozycja ma minimalny limit %{min}.",
+        "link_expired": "Link wygasł",
+        "link_no_longer_exists": "Link już nie istnieje",
+        "missing_parameters": "brak prawidłowego id lub parametru linii",
+        "more_than_maximum": "Pozycja ma maksymalny limit %{max}.",
+        "not_respect_step": "Możesz dodać tę pozycję tylko w ilości będącej wielokrotnością %{step}.",
+        "only_n_items_available": "Możesz dodać do koszyka tylko %{count} %{name}.",
+        "product_not_available": "Produkt nie jest dostępny",
+        "product_sold_out": "Produkt '%{name}' został już wyprzedany.",
+        "selling_plan_not_applicable": "Nie można zastosować planu sprzedaży do wariantu",
+        "selling_plan_not_available_for_company_locations": "W przypadku zamówień B2B możliwy jest tylko jednorazowy zakup",
+        "shipping_address_not_required": "Ten koszyk nie wymaga wysyłki",
+        "stock_problems_html": "Jedna lub więcej pozycji już niedostępnych. Udostępniliśmy <a href='%{link}'>zaktualizowany koszyk<\/a>.",
+        "too_many_items_in_cart": "Nie możesz dodać więcej %{name} do koszyka.",
+        "too_many_line_items_error": "Koszyk nie może zawierać więcej niż %{max} pozycji.",
+        "variant_not_found": "Nie można znaleźć wariantu",
+        "variant_requires_selling_plan": "Wariant można kupić tylko z planem sprzedaży.",
+        "shipping_address_invalid": "Wystąpił problem z obliczeniem stawek wysyłki. Przejdź do realizacji zakupu, aby wybrać stawkę dostawy przed zakończeniem zamówienia."
+      },
+      "customer": {
+        "denylisted_reset_password": "Nie można uzyskać dostępu do Twojego konta, ponieważ aktualne hasło nie jest bezpieczne. Otrzymasz wiadomość e-mail z prośbą o aktualizację hasła.",
+        "invalid_credentials": "Nieprawidłowy email lub hasło.",
+        "no_account_found": "Nie znaleziono konta z tym e-mailem.",
+        "password_reset_error": "Błąd resetu hasła"
+      },
+      "order": {
+        "cancel_reason": {
+          "customer": "Klient zmienił\/anulował zamówienie",
+          "declined": "Płatność odrzucona",
+          "inventory": "Pozycje niedostępne",
+          "other": "Inny",
+          "fraud": "Fałszywe zamówienie"
+        },
+        "cash_on_delivery": "Płatność przy odbiorze",
+        "financial_status": {
+          "expired": "Ważność wygasła",
+          "paid": "Zapłacone",
+          "partially_paid": "Częściowo zapłacone",
+          "partially_refunded": "Koszty zwrócone częściowo",
+          "pending": "W oczekiwaniu",
+          "refunded": "Zwrócono koszty",
+          "unpaid": "Niezapłacone",
+          "voided": "Unieważnione",
+          "authorized": "Autoryzowane"
+        },
+        "fulfillment_status": {
+          "complete": "Zakończ",
+          "fulfilled": "Zrealizowane",
+          "partial": "Częściowe",
+          "restocked": "Zwrócone do magazynu",
+          "unfulfilled": "Niezrealizowane"
+        },
+        "not_available": "To zamówienie jest niedostępne",
+        "transaction_status": {
+          "error": "Błąd",
+          "failure": "Niepowodzenie",
+          "pending": "W oczekiwaniu",
+          "success": "Udało się"
+        }
+      },
+      "storefront": {
+        "invalid_password": "Hasło nieprawidłowe, spróbuj ponownie."
+      },
+      "tags": {
+        "add_articles": "Zawęź wyszukiwanie do artykułów, które również posiadają tag %{tag}",
+        "add_products": "Zawęź wybór do produktów pasujących do tagu %{tag}",
+        "remove_articles": "Poszerz wyszukiwanie o artykuły, które nie są oznaczone tagiem %{tag}",
+        "remove_products": "Usuń tag %{tag}"
+      }
+    },
+    "page_titles": {
+      "account": "Konto",
+      "addresses": "Adresy",
+      "blog_or_article_with_error": "Błąd - %{title}",
+      "challenge": "Wyzwanie",
+      "checkpoint": "Punkt kontrolny",
+      "collections": "Kolekcje",
+      "create_account": "Utwórz konto",
+      "not_found": "404 Nie znaleziono",
+      "order": "Zamówienie %{name}",
+      "products": "Produkty",
+      "reset_account": "Zresetuj konto",
+      "search": "Szukaj",
+      "search_results": {
+        "one": "Wyszukiwanie: Znaleziono %{count} wynik dla \"%{terms}\"",
+        "other": "Wyszukiwanie: Znaleziono %{count} wyniki(-ów) dla \"%{terms}\""
+      },
+      "shopping_cart": "Twój koszyk zakupów"
+    },
+    "pagination": {
+      "next": "Kolejny",
+      "previous": "Poprzednie"
+    },
+    "search": {
+      "sorting": {
+        "price_ascending": "Cena, od najniższej  do najwyższej",
+        "price_descending": "Cena, od wysokiej do niskiej",
+        "relevance": "Trafność"
+      }
+    },
+    "sentence": {
+      "last_word_connector": ", i",
+      "words_connector": ",",
+      "two_words_connector": "i"
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "five_or_more_days": "Zwykle gotowe w ciągu powyżej 5 dni",
+        "four_hours": "Zwykle gotowe w ciągu 4 godzin",
+        "immediately": "Gotowe do odbioru teraz",
+        "one_hour": "Zwykle gotowe w ciągu 1 godziny",
+        "twenty_four_hours": "Zwykle gotowe w ciągu 24 godzin",
+        "two_hours": "Zwykle gotowe w ciągu 2 godzin",
+        "two_to_four_days": "Zwykle gotowe w ciągu 2-4 dni",
+        "two_to_four_hours": "Zwykle gotowe w ciągu 4 godzin",
+        "zero_to_two_hours": "Zwykle gotowe w ciągu 2 godzin",
+        "next_day": "Gotowe do odbioru następnego dnia"
+      }
+    }
+  },
+  "customer_accounts": {
+    "B2B": {
+      "account_information": {
+        "company_card_location_count_label": "Lokalizacje",
+        "company_card_main_contact_label": "Główna osoba do kontaktów",
+        "company_card_name_label": "Nazwa firmy",
+        "company_card_section_accessibility_label": "Firma"
+      },
+      "addresses": {
+        "add_billing_address_button": "Dodaj adres rozliczeniowy",
+        "add_billing_address_section_accessibility_label": "Dodaj adres rozliczeniowy",
+        "add_shipping_address_button": "Dodaj adres wysyłki",
+        "add_shipping_address_section_accessibility_label": "Dodaj adres wysyłki",
+        "billing_address_card_title": "Adres rozliczeniowy",
+        "cancel_adding_billing_address_accessibility_label": "Anuluj dodawanie adresu rozliczeniowego",
+        "cancel_adding_shipping_address_accessibility_label": "Anuluj dodawanie adresu wysyłki",
+        "save_new_billing_address_accessibility_label": "Zapisz adres rozliczeniowy",
+        "save_new_shipping_address_accessibility_label": "Zapisz adres wysyłki",
+        "shipping_address_card_title": "Adres wysyłki"
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "Potwierdzono {{date}} z zamówienia {{draftOrderName}}",
+        "order_timeline": {
+          "expand_events_label": "Pokaż szczegóły",
+          "hide_events_label": "Ukryj szczegóły",
+          "expand_events_accessibility_label": "Pokaż szczegóły wersji roboczej zamówienia",
+          "hide_events_accessibility_label": "Ukryj szczegóły wersji roboczej zamówienia"
+        },
+        "payment_status": {
+          "canceled": {
+            "description": "Opłata nie zostanie naliczona.",
+            "title": "Anulowana płatność"
+          },
+          "draft": {
+            "description": "Szczegóły płatności są ustalane po potwierdzeniu zamówienia.",
+            "in_review": {
+              "description": "Szczegóły płatności są ustalane po potwierdzeniu zamówienia.",
+              "title": "Płatność nie jest jeszcze niewymagalna"
+            },
+            "submitted": {
+              "description": "Dokonaj płatności, aby potwierdzić to zamówienie.",
+              "title": "Zapłać, aby potwierdzić"
+            },
+            "title": "Płatność nie jest jeszcze niewymagalna"
+          },
+          "paid": {
+            "description": "Twoje zamówienie zostało w pełni opłacone.",
+            "title": "Opłacone",
+            "title_with_date": "Opłacono {{date}}"
+          },
+          "pay_now": "Zapłać teraz",
+          "pay_now_accessibility_label": "Zapłać teraz za zamówienie {{orderName}}",
+          "pending": {
+            "banner_due": {
+              "one": "Termin Twojej płatności upływa za {{count}} dzień",
+              "other": "Termin Twojej płatności upływa za {{count}} dni"
+            },
+            "banner_due_today": "Termin Twojej płatności upływa dzisiaj",
+            "banner_overdue": {
+              "one": "Twoja płatność jest przeterminowana o {{count}} dzień",
+              "other": "Twoja płatność jest przeterminowana o {{count}} dni"
+            },
+            "description_due_on_receipt": "Otrzymasz fakturę, gdy nadejdzie termin płatności.",
+            "description_overdue": "Twoja płatność jest opóźniona.",
+            "description_partially_paid": "To zamówienie zostało częściowo opłacone. Masz jeszcze pozostałe saldo.",
+            "title": "Termin zapłaty",
+            "title_due_on_fulfillment": "Płatność wymagalna po realizacji",
+            "title_due_on_receipt": "Płatność jeszcze nie wymagalna",
+            "title_with_date": "Termin zapłaty {{date}}",
+            "description_authorized": "Opłata zostanie pobrana w dniu upływu terminu płatności, możesz też zapłacić teraz.",
+            "description_due_on_fulfillment": "Płatność jest wymagalna po zrealizowaniu wszystkich pozycji tego zamówienia."
+          },
+          "refund": {
+            "description_full_refund": "Otrzymałeś(-aś) pełny zwrot pieniędzy za to zamówienie.",
+            "description_multiple_refunds": "Otrzymałeś(-aś) częściowe zwroty pieniędzy za to zamówienie.",
+            "description_single_refund": "Otrzymałeś(-aś) częściowy zwrot pieniędzy za to zamówienie.",
+            "title": "Zwrócono koszty",
+            "title_with_date": "Zwrócono koszty {{date}}"
+          },
+          "title": "Status płatności"
+        },
+        "subtitle": "Przesłano dnia {{date}}",
+        "title": "Zamówienie {{name}}",
+        "loading": "Ładowanie szczegółów zamówienia",
+        "loading_finished_accessibility_message": "Szczegóły zamówienia zostały załadowane"
+      },
+      "location_selection": {
+        "clear_search": "Wyczyść wyszukiwanie",
+        "continue_to_store": "Dalej do sklepu",
+        "description": "Jeśli masz już produkty w koszyku, zmiana lokalizacji może wpłynąć na ceny i ilość produktów w koszyku.",
+        "list_accessibility_label": "Lista lokalizacji",
+        "list_item_accessibility_label": "{{name}}: {{address}}",
+        "list_item_without_address_accessibility_label": "{{name}}: Brak adresu",
+        "list_loading_accessibility_message": "Ładowanie listy lokalizacji",
+        "list_loading_address_accessibility_message": "Ładowanie adresu dla {{locationName}}",
+        "list_loading_finished_accessibility_message": "Lista lokalizacji załadowała się",
+        "loading_store_accessibility_message": "Przejście do sklepu",
+        "no_location_description": "Nie masz uprawnień do składania zamówień dla {{company}}. Nadal możesz składać zamówienia indywidualne.",
+        "no_location_title": "Tylko zamówienia indywidualne",
+        "no_locations_found": "Nie znaleziono lokalizacji",
+        "search": "Szukaj lokalizacji",
+        "search_location_title": "Wybierz lokalizację",
+        "selection_cancel_button": "Anuluj",
+        "selection_confirmation_button": "Wybierz lokalizację",
+        "title": "Dla jakiej lokalizacji kupujesz?",
+        "try_new_search": "Spróbuj nowego wyszukiwania"
+      },
+      "locations": {
+        "contact_email": "E-mail",
+        "contact_list_title": "Ludzie",
+        "contact_name": "Nazwa",
+        "contact_permissions": "Uprawnienia",
+        "contact_phone_number": "Numer telefonu",
+        "location_picker_accessibility_label": "Nazwa lokalizacji: {{locationName}}",
+        "location_picker_label": "Nazwa lokalizacji",
+        "multiple_tax_exemptions": "{{taxExemptionsCount}} więcej",
+        "multiple_tax_exemptions_and": "oraz",
+        "net_payment_terms_description": "{{name}}: termin płatności – {{numberOfDays}} dni",
+        "own_role_contact_name": "Ty",
+        "pagination": {
+          "load_more": "Załaduj więcej",
+          "load_more_accessibility_label": "Załaduj więcej lokalizacji"
+        },
+        "payment_details_title": "Dane płatności",
+        "payment_terms": "Warunki płatności",
+        "permissions_label": "Twoje uprawnienia",
+        "permissions_title": "Uprawnienia",
+        "section_title": "Lokalizacja",
+        "shipping_address_required": "Dodaj adres wysyłki do tej lokalizacji, aby rozpocząć składanie zamówień.",
+        "staff_and_permissions_title": "Pracownicy i uprawnienia",
+        "tax_details_title": "Dane podatkowe",
+        "tax_exemption_not_applicable": "Nie dotyczy",
+        "tax_exemptions": "Zwolnienia podatkowe",
+        "tax_exemptions_modal_button_accessibility_label": "Wyświetl wszystkie zwolnienia podatkowe",
+        "tax_exemptions_modal_close": "Zamknij",
+        "tax_id": "Numer identyfikacji podatkowej",
+        "taxes_none": "Brak"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all": "Ukryj wszystko",
+          "hide_all_accessibility_label": "Ukryj wszystkie zamówienia w trakcie weryfikacji",
+          "pagination": {
+            "nav_accessibility_label": "Przyciski nawigacyjne zamówień w trakcie weryfikacji"
+          },
+          "pending_orders_count_more_than_pagination_length": "{{count}}+",
+          "pending_tab_accessibility_label": {
+            "more_than_pagination_length": "Masz więcej niż {{count}} oczekujące(-ych) zamówienia(-ń)",
+            "no_pending_orders": "Nie masz oczekujących zamówień",
+            "pending_orders": {
+              "one": "Masz {{count}} oczekujące zamówienie",
+              "other": "Masz {{count}} oczekujące(-ych) zamówienia(-ń)"
+            }
+          },
+          "show_all": "Pokaż wszystko",
+          "show_all_accessibility_label": "Pokaż wszystkie zamówienia w trakcie weryfikacji",
+          "show_all_orders_in_review": "Pokaż wszystkie zamówienia w trakcie weryfikacji",
+          "show_less_orders_in_review": "Pokaż mniej zamówień w trakcie weryfikacji",
+          "title": "Oczekujące"
+        },
+        "order_list_column_headers_contact": "Kontakt",
+        "order_list_column_headers_location": "Lokalizacja",
+        "removed_company_contact_tooltip": "Usunięto z firmy"
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_with_replacement": "Usunięcie tej metody płatności będzie miało wpływ na wstępnie autoryzowane płatności dla tej lokalizacji. Zastąp ją alternatywną metodą płatności, aby nadal otrzymywać przychodzące zamówienia.",
+          "description_without_replacement": "Ta metoda płatności nie będzie już dostępna dla przyszłych zakupów z tej lokalizacji."
+        },
+        "payment_details": {
+          "draft_label": "Wersja robocza zamówienia {{name}}",
+          "order_label": "Zamówienie {{name}}"
+        }
+      },
+      "purchase_order_number": {
+        "add_accessibility_label": "Dodaj numer zamówienia",
+        "add_modal_title": "Dodaj numer zamówienia",
+        "cancel": "Anuluj",
+        "close_modal_accessibility_label": "Zamknij okno modalne numeru zamówienia",
+        "discard": "Odrzuć",
+        "discard_changes_modal_title": "Czy odrzucić zmiany?",
+        "edit_accessibility_label": "Edytuj numer zamówienia",
+        "edit_modal_title": "Edytuj numer zamówienia",
+        "empty_state": "Brak numeru zamówienia",
+        "modal_po_number_input_label": "Numer zamówienia",
+        "modal_po_number_input_max_length_error": "Numery zamówień składają się maksymalnie z {{maxLength}} znaków.",
+        "save": "Zapisz",
+        "title": "Numer zamówienia {{poNumber}}"
+      }
+    },
+    "account_information": {
+      "add_button": "Dodaj",
+      "loading_accessibility_message": "Ładowanie informacji o koncie",
+      "loading_finished_accessibility_message": "Informacje o koncie zostały załadowane",
+      "people": {
+        "pagination": {
+          "load_more": "Załaduj więcej",
+          "load_more_accessibility_label": "Załaduj więcej osób",
+          "loading_accessibility_label": "Ładowanie osób"
+        }
+      },
+      "profile_card": {
+        "cancel": "Anuluj",
+        "cancel_accessibility_label": "Anuluj edycję profilu",
+        "edit": "Edytuj",
+        "edit_accessibility_label": "Edytuj profil",
+        "email_help_text": "Nie można zmienić adresu e-mail używanego do logowania",
+        "first_name": "Imię",
+        "last_name": "Nazwisko",
+        "phone_number_help_text": "Nie można zmienić numeru telefonu używanego do logowania",
+        "save": "Zapisz",
+        "save_accessibility_label": "Zapisz profil",
+        "title": "Profil"
+      },
+      "profile_update_confirmation_message": "Zaktualizowano profil",
+      "title": "Informacje o koncie"
+    },
+    "address_form": {
+      "attention": "Uwaga",
+      "billing_address": "Użyj jako adresu rozliczeniowego",
+      "cancel": "Anuluj",
+      "cancel_accessibility_label": "Anuluj edycję adresu {{address}}",
+      "creation_success_notification": "Dodano adres",
+      "default_address": "To jest mój adres domyślny",
+      "default_address_creation_success_notification": "Dodano adres domyślny",
+      "default_address_update_success_notification": "Zaktualizowano domyślny adres",
+      "loading_add_form_accessibility_message": "Ładowanie formularza nowego adresu",
+      "loading_edit_form_accessibility_message": "Ładowanie formularza edycji adresu",
+      "loading_finished_accessibility_message": "Formularz adresu załadował się",
+      "loading_form_accessibility_message": "Ładowanie formularza adresu",
+      "save": "Zapisz",
+      "save_accessibility_label": "Zapisz adres {{address}}",
+      "section_title_accessibility_label": "Dodaj adres",
+      "update_success_notification": "Zaktualizowano adres",
+      "attention_help_text": "Nazwa osoby lub działu",
+      "auto_complete_close_accessibility_label": "Zamknij sugestie",
+      "auto_complete_title": "Sugestie"
+    },
+    "addresses": {
+      "add_address_banner": "Dodaj adresy do użycia podczas realizacji zakupu",
+      "add_button": "Dodaj adres",
+      "add_button_accessibility_label": "Dodaj adres",
+      "add_button_text": "Dodaj",
+      "address_deleted_notification": "Usunięto adres",
+      "back_button": "Powrót",
+      "back_button_accessibility_label": "Powrót do edycji adresu {{address}}",
+      "billing_address_dropdown_placeholder": "Adres rozliczeniowy",
+      "cancel_adding_address_accessibility_label": "Anuluj dodawanie adresu",
+      "cancel_deletion_button": "Anuluj",
+      "cancel_deletion_button_accessibility_label": "Anuluj usuwanie {{address}}",
+      "default_address": {
+        "title": "Adres domyślny",
+        "title_accessibility_label": "Adres domyślny: {{address}}"
+      },
+      "delete_button": "Usuń",
+      "delete_button_accessibility_label": "Usuń {{address}}",
+      "delete_confirmation_button": "Usuń adres",
+      "delete_confirmation_button_accessibility_label": "Usuń {{address}}",
+      "delete_confirmation_description": "Nie wpłynie to na istniejące zamówienia.",
+      "delete_confirmation_message": "Usunąć adres? Nie wpłynie to na istniejące zamówienia.",
+      "delete_confirmation_title": "Czy usunąć adres?",
+      "edit_button": "Edytuj",
+      "edit_button_accessibility_label": "Edytuj {{address}}",
+      "edit_modal_title": {
+        "billing": "Edytuj adres rozliczeniowy",
+        "default": "Edytuj adres",
+        "shipping": "Edytuj adres wysyłki"
+      },
+      "edit_section_accessibility_label": "Edytuj {{address}}",
+      "loading_accessibility_message": "Ładowanie adresu",
+      "loading_addresses_accessibility_message": "Ładowanie adresów",
+      "loading_billing_accessibility_message": "Ładowanie adresu rozliczeniowego",
+      "loading_finished_accessibility_message": "Załadowała się nowa strona z adresami",
+      "loading_shipping_accessibility_message": "Ładowanie adresu wysyłki",
+      "pagination": {
+        "load_more": "Załaduj więcej",
+        "load_more_accessibility_label": "Załaduj więcej adresów"
+      },
+      "save_new_address_accessibility_label": "Zapisz adres",
+      "title": "Adresy"
+    },
+    "errors": {
+      "address_deletion_error": {
+        "description": "Podczas usuwania tego adresu wystąpił problem. Spróbuj ponownie lub odśwież stronę."
+      },
+      "addresses_loading_issue": {
+        "description": "Błąd połączenia. Sprawdź połączenie internetowe i spróbuj ponownie."
+      },
+      "banner_title": {
+        "one": "Wystąpił {{count}} błąd",
+        "other": "Liczba błędów: {{count}}"
+      },
+      "failed_address_creation": {
+        "description": "Podczas tworzenia Twojego adresu wystąpił problem. Spróbuj odświeżyć tę stronę lub sprawdź połączenie internetowe."
+      },
+      "failed_address_update": {
+        "description": "Podczas aktualizacji Twojego adresu wystąpił problem. Spróbuj odświeżyć tę stronę lub sprawdź połączenie internetowe."
+      },
+      "load_orders_error": {
+        "description": "Spróbuj ponownie lub wróć później.",
+        "retry_button": "Ponów",
+        "title": "Nie można załadować zamówień"
+      },
+      "load_paypal_error": {
+        "description": "Wystąpił problem z ładowaniem systemu PayPal. Spróbuj ponownie."
+      },
+      "no_access": {
+        "back_to_authentication_link": "Zaloguj się na inne konto",
+        "description": "Nie jesteś zarejestrowany(-a) jako klient B2B w {{shopName}}",
+        "title": "Brak dostępu"
+      },
+      "not_found": {
+        "description": "Sprawdź adres URL lub spróbuj ponownie za kilka minut.",
+        "title": "Podczas ładowania tej strony wystąpił problem"
+      },
+      "order_not_found": {
+        "description": "To zamówienie nie istnieje lub nie masz uprawnień do jego wyświetlania.",
+        "title": "Nie znaleziono zamówienia"
+      },
+      "profile_update_error": {
+        "description": "Podczas aktualizacji Twojego profilu wystąpił problem. Spróbuj odświeżyć tę stronę lub sprawdź połączenie internetowe."
+      },
+      "retry_action_label": "Ponów",
+      "no_access_to_locations": {
+        "description": "Nie masz dostępu do żadnych lokalizacji"
+      }
+    },
+    "navigation_and_structure": {
+      "account_menu": {
+        "hide_accessibility_label": "Ukryj menu Konto",
+        "label": "Konto",
+        "show_accessibility_label": "Pokaż menu Konto"
+      },
+      "action_menu_accessibility_label": "Więcej czynności",
+      "close_menu_accessibility_label": "Zamknij główną nawigację",
+      "contact_email_subject": "Kontakt ze sklepu online {{shopName}}",
+      "contact_link": "Skontaktuj się z nami",
+      "delete_confirmation": {
+        "cancel": "Anuluj",
+        "delete": "Usuń"
+      },
+      "dismiss_toast": "Odrzuć",
+      "document_title": "{{sectionName}} - {{shopName}} - konto",
+      "generic_accessibility_label": "{{label}}: {{value}}",
+      "go_to_store_link": "Przejdź do sklepu",
+      "loading_message": "Ładowanie",
+      "log_out_link": "Wyloguj",
+      "logout_overlay_label": "Wylogowywanie...",
+      "nav_label_accessibility_label": "Nawigacja główna",
+      "navigation_accessibility_message": "Nastąpiło przejście do {{sectionName}}",
+      "open_menu_accessibility_label": "Otwórz główną nawigację",
+      "orders_link_label": "Zamówienia",
+      "shop_logo_accessibility_label": "Logo {{shopName}}",
+      "subscriptions_link_label": "Subskrypcje"
+    },
+    "order_details": {
+      "addresses_section_title": "Rozliczanie i wysyłka",
+      "billing_address": "Adres rozliczeniowy",
+      "card_ending_with": "z końcówką {{lastDigits}}",
+      "company": "Firma",
+      "contact": "Kontakt",
+      "contact_information": "Dane kontaktowe",
+      "discount": "Rabat",
+      "edit_summary": {
+        "added": "Dodano",
+        "added_with_quantity": "Dodano {{quantity}}",
+        "removed": "Usunięto",
+        "removed_with_quantity": "{{quantity}} usunięto",
+        "updated_at": "Twoje zamówienie zostało zaktualizowane {{date}}"
+      },
+      "fully_refunded_label": "ZWRÓCONO KOSZTY",
+      "hide_items": "Ukryj pozycje",
+      "hide_order_summary": "Ukryj podsumowanie zamówienia",
+      "image_gallery": {
+        "next": "Pokaż następne pozycje",
+        "previous": "Pokaż poprzednie pozycje",
+        "product_name_and_quantity": "Ilość {{productName}} {{quantity}}"
+      },
+      "loading": "Ładowanie szczegółów zamówienia",
+      "loading_finished_accessibility_message": "Szczegóły zamówienia zostały załadowane",
+      "location": "Lokalizacja",
+      "marketing_checkbox_label": "Wysyłaj do mnie e-maile z aktualnościami i ofertami",
+      "marketing_checkmark_label": "Zapisałeś(-aś) się, aby otrzymywać wiadomości e-mail z aktualnościami i ofertami",
+      "marketing_description": "Będziesz otrzymywać marketingowe wiadomości e-mail. Możesz zrezygnować z subskrypcji w dowolnym momencie.",
+      "marketing_section_title": "Aktualności i oferty",
+      "mobile_summary_toggle_button": {
+        "closed": "Ukryj podsumowanie zamówienia",
+        "open": "Pokaż podsumowanie zamówienia"
+      },
+      "no_data": "Brak",
+      "order_details": "Szczegóły zamówienia",
+      "pagination": {
+        "load_more": "Załaduj więcej",
+        "load_more_accessibility_label": "Załaduj więcej pozycji",
+        "loading_accessibility_label": "Ładowanie pozycji"
+      },
+      "paid_with_shop_pay_installments_card": {
+        "description": "Bądź na bieżąco z harmonogramem płatności dzięki przypomnieniom w aplikacji Shop.",
+        "desktop_qr_code_content": {
+          "description": "Pobierz przypomnienia dotyczące instalacji z aplikacją Shop.",
+          "title": "Skanuj w poszukiwaniu przypomnień"
+        },
+        "paid_with_shop_pay_installments": "Opłacono za pomocą opcji Raty Shop Pay",
+        "payment_reminders_button": "Otrzymuj przypomnienia o płatnościach"
+      },
+      "partially_refunded_label": "KOSZTY ZWRÓCONO CZĘŚCIOWO",
+      "payment": {
+        "shop_pay_installments": {
+          "paid_in_installments": "Zapłacono w ratach za pomocą Shop Pay.",
+          "view_schedule": "Wyświetl harmonogram"
+        },
+        "status_in_review": "Płatność wymagalna po weryfikacji",
+        "status_unpaid": "Termin płatności {{date}}",
+        "title": "Płatność",
+        "card_payment_details": "z końcówką {{lastDigits}} - {{formattedTransactionAmount}}",
+        "gift_card_payment_details": "z końcówką {{lastDigits}} - {{formattedTransactionAmount}}"
+      },
+      "pickup": {
+        "pickup": "Odbiór",
+        "pickup_location": "Miejsce odbioru"
+      },
+      "refunded_amount": "Ze zwrotem kosztów",
+      "request_return_failed": "Podczas przetwarzania Twojego wniosku wystąpił problem. Spróbuj ponownie.",
+      "returns": {
+        "expand_events_label": "Pokaż szczegóły",
+        "hide_events_label": "Ukryj szczegóły",
+        "ineligible_return_with_policy_message": "Żadna pozycja w tym zamówieniu nie kwalifikuje się do zwrotu. Zapoznaj się z {{returnAndRefundPolicyLinkText}}, aby dowiedzieć się więcej.",
+        "ineligible_return_without_policy_message": "Żadna pozycja w tym zamówieniu nie kwalifikuje się do zwrotu.",
+        "print_shipping_label": "Wydrukuj etykietę wysyłkową",
+        "return_and_refund_link_text": "polityka zwrotów i refundacji",
+        "return_and_refund_modal_header": "Polityka zwrotów i refundacji",
+        "tracking_number": "Numer śledzenia:"
+      },
+      "shipment_timeline": {
+        "expand_events_label": "Pokaż szczegóły",
+        "hide_events_accessibility_label": "Ukryj szczegóły wysyłki zamówienia",
+        "hide_events_label": "Ukryj szczegóły",
+        "expand_events_accessibility_label": "Pokaż szczegóły wysyłki zamówienia"
+      },
+      "shipping": {
+        "address": "Adres wysyłki",
+        "address_map_marker": "Adres wysyłki",
+        "free": "Gratis",
+        "method": "Metoda wysyłki",
+        "summary": "Wysyłka"
+      },
+      "shop_order_tracking": {
+        "download_shop_to_track": "Pobierz Shop, aby śledzić paczkę",
+        "real_time_delivery_updates": "Aplikacja Shop wyśle Ci aktualizacje dostawy w czasie rzeczywistym, gdy Twoje zamówienie zostanie wysłane.",
+        "title_header": "Zeskanuj kod za pomocą telefonu",
+        "track_order_with_shop": "Śledź zamówienie za pomocą aplikacji Shop"
+      },
+      "subtitle": "Potwierdzono {{date}}",
+      "subtotal": "Suma częściowa",
+      "summary_list_title_accessibility_label": "Pozycje zamówienia",
+      "summary_title": "Podsumowanie zamówienia",
+      "taxes": "Podatki",
+      "title": "Zamówienie {{name}}",
+      "total": "Suma",
+      "unit_price": "({{price}}\/szt.)",
+      "no_data_provided": "-",
+      "no_data_provided_accessibility_label": "Pole {{fieldName}} jest puste",
+      "not_applicable": "Nie dotyczy",
+      "shop_pay": {
+        "learn_more": "Dowiedz się więcej",
+        "order_completed_with": "Zamówienie zrealizowano z wykorzystaniem"
+      },
+      "show_items": "Pokaż pozycje",
+      "show_order_summary": "Pokaż podsumowanie zamówienia",
+      "summary_totals_title_accessibility_label": "Sumy z zamówienia",
+      "log_in": "Zaloguj się",
+      "login_to_view_all_order_details": "Zaloguj się, aby wyświetlić wszystkie szczegóły zamówienia."
+    },
+    "orders": {
+      "buy_again": "Kup ponownie",
+      "buy_again_accessibility_label": "Kup ponownie dla zamówienia {{orderId}}",
+      "contact_us": "skontaktuj się z nami.",
+      "didnt_pick_up_order": "Nie odebrałeś(-aś) swojego zamówienia?",
+      "group_title_label": "Część: {{groupTitle}}",
+      "havent_received_your_delivery": "Twoja dostawa jeszcze nie dotarła?",
+      "if_you_didnt_receive_this": "Jeśli go nie otrzymałeś(-aś) tego,",
+      "let_us_know": "Powiadom nas",
+      "list_layout_accessibility_label": "Opcje układu",
+      "list_title": "Zamówienia",
+      "manage": "Zarządzaj",
+      "manage_accessiblity_label": "Zarządzaj zamówieniem {{orderId}}",
+      "order_list": {
+        "carousel": {
+          "five_products_accessibility_label": "Zamówienie obejmuje {{lineItemName1}} w ilości: {{lineItemQuantity1}}, {{lineItemName2}} w ilości: {{lineItemQuantity2}}, {{lineItemName3}} w ilości {{lineItemQuantity3}}, {{lineItemName4}} w ilości: {{lineItemQuantity4}}, {{lineItemName5}} w ilości {{lineItemQuantity5}}",
+          "four_products_accessibility_label": "Zamówienie obejmuje {{lineItemName1}} w ilości: {{lineItemQuantity1}}, {{lineItemName2}} w ilości: {{lineItemQuantity2}}, {{lineItemName3}} w ilości {{lineItemQuantity3}}, {{lineItemName4}} w ilości: {{lineItemQuantity4}}",
+          "next": "Następne",
+          "one_products_accessibility_label": "Zamówienie obejmuje {{lineItemName1}} w ilości {{lineItemQuantity1}}",
+          "previous": "Poprzednie",
+          "six_and_more_products_accessibility_label": "Zamówienie obejmuje {{lineItemName1}} w ilości: {{lineItemQuantity1}}, {{lineItemName2}} w ilości: {{lineItemQuantity2}}, {{lineItemName3}} w ilości {{lineItemQuantity3}}, {{lineItemName4}} w ilości: {{lineItemQuantity4}}, {{lineItemName5}} w ilości {{lineItemQuantity5}}, {{lineItemName6}} ilości {{lineItemQuantity6}} i inne",
+          "six_products_accessibility_label": "Zamówienie obejmuje {{lineItemName1}} w ilości: {{lineItemQuantity1}}, {{lineItemName2}} w ilości: {{lineItemQuantity2}}, {{lineItemName3}} w ilości {{lineItemQuantity3}}, {{lineItemName4}} w ilości: {{lineItemQuantity4}}, {{lineItemName5}} w ilości: {{lineItemQuantity5}}, {{lineItemName6}} w ilości {{lineItemQuantity6}}",
+          "three_products_accessibility_label": "Zamówienie obejmuje {{lineItemName1}} w ilości: {{lineItemQuantity1}}, {{lineItemName2}} w ilości: {{lineItemQuantity2}}, {{lineItemName3}} w ilości {{lineItemQuantity3}}",
+          "two_products_accessibility_label": "Zamówienie obejmuje {{lineItemName1}} w ilości: {{lineItemQuantity1}}, {{lineItemName2}} w ilości: {{lineItemQuantity2}}",
+          "view_order_details": "Wyświetl szczegóły zamówienia"
+        },
+        "column_headers": {
+          "items": "Pozycje",
+          "order": "Zamówienie",
+          "total": "Suma"
+        },
+        "delivered": "Dostarczono {{date}}",
+        "empty_state_order_source_description": "Tylko zamówienia złożone przez {{email}} zostaną tutaj wyświetlone.",
+        "empty_state_subtitle": "Przejdź do sklepu, aby złożyć zamówienie.",
+        "empty_state_title": "Jeszcze nie ma zamówień",
+        "empty_state_title_for_pending_orders": "Brak oczekujących zamówień",
+        "estimated_delivery": "Przewidywany termin dostawy: {{date}}",
+        "estimated_shortform": "Szacunkowo {{date}}",
+        "four_images_accessibility_label": "Zamówienie obejmuje {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}, {{lineItemName4}}",
+        "items": {
+          "one": "{{count}} pozycja",
+          "other": "{{count}} pozycje(-i)"
+        },
+        "list_view": "Pokaż widok listy",
+        "more_than_four_products_accessibility_label": "Zamówienie obejmuje {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}} i {{numberOfAdditionalProducts}} produkty(-ów) więcej",
+        "more_than_three_products_accessibility_label": "Zamówienie obejmuje {{lineItemName1}}, {{lineItemName2}} i {{numberOfAdditionalProducts}} produkty(-ów) więcej",
+        "no_filtered_results_description": "Usuń lub dostosuj filtry, aby zobaczyć swoje zamówienia",
+        "no_filtered_results_title": "Brak odfiltrowanych wyników",
+        "one_images_accessibility_label": "Zamówienie obejmuje {{lineItemName1}}",
+        "order_link": "Wyświetl zamówienie {{name}}",
+        "order_number": "Zamówienie {{name}}",
+        "order_status_and_message": "{{orderStatus}} - {{message}}",
+        "order_status_message": {
+          "list_view": {
+            "estimated_delivery": "Przewidywany czas dostawy: {{date}}",
+            "last_updated": "Ostatnio zaktualizowano {{date}}",
+            "view_order_for_details": "Wyświetl szczegóły zamówienia"
+          },
+          "table_view": {
+            "estimated_delivery": "Szac. dostawa {{date}}",
+            "last_updated": "{{date}}"
+          }
+        },
+        "orders_title": "Potwierdzone",
+        "pagination": {
+          "load_more": "Załaduj więcej",
+          "load_more_accessibility_label": "Załaduj więcej zamówień",
+          "nav_accessibility_label": "Przyciski nawigacyjne zamówień",
+          "next": "Następne",
+          "previous": "Poprzednie",
+          "next_accessibility_label": "Następne zamówienia",
+          "previous_accessibility_label": "Poprzednie zamówienia"
+        },
+        "payment_status": {
+          "list_view": {
+            "due": "Płatność należna {{date}}",
+            "due_on_fulfillment": "Płatność wymagalna po realizacji",
+            "due_today": "Płatność należna dzisiaj",
+            "due_without_date": "Termin zapłaty",
+            "payment_not_due": "Płatność nie jest jeszcze niewymagalna",
+            "overdue": "Zaległa płatność",
+            "pay_to_confirm": "Zapłać, aby potwierdzić"
+          },
+          "table_view": {
+            "due": "Płatne {{date}}",
+            "due_on_fulfillment": "Płatne po realizacji",
+            "due_today": "Należne dzisiaj",
+            "due_without_date": "Płatne",
+            "overdue": "Zaległe",
+            "paid": "Opłacone",
+            "pay_to_confirm": "Zapłać, aby potwierdzić",
+            "payment_not_due": "Nie jest jeszcze niewymagalna"
+          }
+        },
+        "plus_more": "+{{numberOfAdditionalProducts}}",
+        "plus_more_products": "+{{numberOfAdditionalProducts}} produkty(-ów)",
+        "show_order_actions_accessibility_label": "Pokaż działania związane z zamówieniem dla zamówienia {{name}}",
+        "sort": {
+          "date": {
+            "newest": "Od najnowszych do najstarszych",
+            "oldest": "Od najstarszych do najnowszych"
+          },
+          "location": {
+            "ascending": "Lokalizacja (A-Z)",
+            "descending": "Lokalizacja (Z-A)"
+          },
+          "order_number": {
+            "ascending": "Nr zamówienia (od najniższego do najwyższego)",
+            "descending": "Nr zamówienia (od najwyższego do najniższego)"
+          },
+          "order_total": {
+            "ascending": "Suma zamówienia (od najniższej do najwyższej)",
+            "descending": "Suma zamówienia (od najwyższej do najniższej)"
+          }
+        },
+        "sort_by": "Sortuj według: {{option}}",
+        "sort_currently_sorted_by_accessibility_label": "Aktualnie posortowane według: {{option}}",
+        "sort_hide_options_accessibility_label": "Ukryj opcje sortowania dla potwierdzonych zamówień.",
+        "sort_show_options_accessibility_label": "Pokaż opcje sortowania dla potwierdzonych zamówień.",
+        "sort_title": "Sortuj",
+        "table_view": "Pokaż widok tabeli",
+        "three_images_accessibility_label": "Zamówienie obejmuje {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}",
+        "two_images_accessibility_label": "Zamówienie obejmuje {{lineItemName1}}, {{lineItemName2}}"
+      },
+      "order_status": {
+        "attempted_delivery_description": "Próba dostarczenia nie powiodła się.",
+        "attempted_delivery_label": "Próba dostarczenia",
+        "canceled_description": "Zamówienie zostało anulowane dnia {{date}}.",
+        "canceled_label": "Anulowano",
+        "canceled_title": "Zamówienie zostało anulowane",
+        "come_back": "Wróć do tej strony w celu uzyskania najnowszych informacji na temat statusu przesyłki.",
+        "company_tracking_number": "Numer śledzenia {{company}}:",
+        "confirmed_description": "Otrzymaliśmy Twoje zamówienie.",
+        "confirmed_description_digital": "Gdy Twoje zamówienie będzie gotowe, otrzymasz wiadomość e-mail.",
+        "confirmed_description_pickup": "Gdy Twoje zamówienie będzie gotowe do odbioru, otrzymasz wiadomość e-mail.",
+        "confirmed_gift_card_additional_description": {
+          "one": "Karta prezentowa zostanie wysłana w osobnym e-mailu.",
+          "other": "Każda karta prezentowa zostanie wysłana w osobnym e-mailu."
+        },
+        "confirmed_label": "Potwierdzone",
+        "confirmed_title": "Twoje zamówienie jest potwierdzone",
+        "delivered_description": "Ta przesyłka została dostarczona.",
+        "delivered_description_digital": "Twoje zamówienie zostało zrealizowane.",
+        "delivered_description_gift_card": {
+          "one": "Karta prezentowa została wysłana e-mailem.",
+          "other": "Karty prezentowe zostały wysłane e-mailem."
+        },
+        "delivered_label": "Dostarczono",
+        "delivered_title": "Przesyłka została dostarczona",
+        "estimated_delivery": "Przewidywany termin dostawy: {{date}}",
+        "gift_card_label": {
+          "one": "Karta prezentowa",
+          "other": "Karty prezentowe"
+        },
+        "gift_card_resend": {
+          "one": "Wyślij ponownie e-mail",
+          "other": "Wyślij ponownie e-maile"
+        },
+        "gift_card_resend_description": {
+          "one": "Jeśli go nie otrzymałeś(-aś), wyślij ponownie e-mail lub",
+          "other": "Jeśli ich nie otrzymałeś(-aś), wyślij ponownie e-mail lub"
+        },
+        "in_review_description": "Poinformujemy Cię, jeśli będziemy potrzebować więcej informacji lub gdy Twoje zamówienie zostanie potwierdzone.",
+        "in_review_label": "W trakcie weryfikacji",
+        "in_review_title": "Twoje zamówienie jest weryfikowane",
+        "last_updated": "Ostatnio zaktualizowano {{date}}",
+        "multiple_shipments_label": "Wiele przesyłek",
+        "no_tracking_number": "Dla tej przesyłki nie istnieje numer śledzenia.",
+        "on_its_way_description": "Ta przesyłka jest w drodze.",
+        "on_its_way_label": "W drodze",
+        "on_its_way_title": "Twoja przesyłka jest w drodze",
+        "out_for_delivery_description": "Ta przesyłka została wydana do doręczenia.",
+        "out_for_delivery_label": "Wydano do doręczenia",
+        "out_for_delivery_title": "Twoja przesyłka została wydana do doręczenia",
+        "picked_up_description": "Te pozycje zostały odebrane.",
+        "picked_up_label": "Odebrano",
+        "preparing_for_shipping_description": "Te pozycje są przygotowywane do wysyłki.",
+        "preparing_for_shipping_label": "Przygotowanie do wysyłki",
+        "ready_for_pickup_description": "Te pozycje są gotowe do odbioru. Prosimy o przyniesienie potwierdzenia zamówienia w celu pokazania go przy odbiorze.",
+        "ready_for_pickup_label": "Gotowe do odbioru",
+        "ready_for_pickup_location": "Twoje zamówienie jest gotowe do odbioru w miejscu odbioru",
+        "request_return": "Zażądaj zwrotu",
+        "resume_tracking": "Wznów śledzenie",
+        "submitted_description": "Przejrzyj szczegóły zamówienia i płatności.",
+        "submitted_label": "Przesłano",
+        "track_shipment": "Śledź przesyłkę",
+        "view_order_for_details": "Wyświetl szczegóły zamówienia",
+        "confirmed_description_gift_card_text": "Otrzymasz wiadomość tekstową, gdy Twoje zamówienie będzie gotowe.",
+        "confirmed_gift_card_additional_description_text": {
+          "one": "Karta prezentowa zostanie wysłana w osobnej wiadomości tekstowej.",
+          "other": "Każda karta prezentowa zostanie wysłana w osobnej wiadomości tekstowej."
+        },
+        "delivered_description_gift_card_text": {
+          "one": "Karta prezentowa została wysłana w wiadomości tekstowej.",
+          "other": "Karty prezentowe zostały wysłane w wiadomościach tekstowych."
+        },
+        "gift_card_resend_description_text": {
+          "one": "Jeśli jej nie otrzymałeś(-aś), wyślij ponownie wiadomość tekstową lub",
+          "other": "Jeśli ich nie otrzymałeś(-aś), wyślij ponownie wiadomości tekstowe lub"
+        },
+        "gift_card_resend_text": {
+          "one": "Wyślij ponownie wiadomość tekstową",
+          "other": "Wyślij ponownie wiadomości tekstowe"
+        }
+      },
+      "status_mark_as_delivered": "Oznacz jako dostarczone",
+      "status_title": "Status zamówienia"
+    },
+    "payment_method_brands": {
+      "americanexpress": "American Express",
+      "applepay": "Apple Pay",
+      "dankort": "Dankort",
+      "dinersclub": "Diners Club",
+      "discover": "Odkryj",
+      "elo": "Elo",
+      "forbrugsforeningen": "Forbrugsforeningen",
+      "googlepay": "Google Pay",
+      "hipercard": "Hipercard",
+      "jcb": "JCB",
+      "laser": "Laser",
+      "maestro": "Maestro",
+      "mastercard": "Mastercard",
+      "paypal": "PayPal",
+      "shoppay": "Shop Pay",
+      "unionpay": "UnionPay",
+      "visa": "Visa",
+      "visaelectron": "Visa Electron"
+    },
+    "payment_methods": {
+      "add_payment_method": {
+        "billing_address": {
+          "add_billing_address_button": "Dodaj nowy",
+          "add_billing_address_button_accessibility_label": "Dodaj nowy adres rozliczeniowy",
+          "choose_billing_address_from_list_button": "Wybierz z listy",
+          "choose_billing_address_from_list_button_accessibility_label": "Wybierz adres rozliczeniowy z listy",
+          "missing_billing_address_error_message": "Podaj adres rozliczeniowy",
+          "title": "Adres rozliczeniowy"
+        },
+        "payment_method_added_confirmation": "Metoda płatności została dodana",
+        "title": "Dodaj metodę płatności"
+      },
+      "add_payment_method_banner": "Dodaj metodę płatności, aby przyspieszyć realizację zakupów lub aktywować wstępnie autoryzowane usługi",
+      "add_payment_method_button": "Dodaj metodę płatności",
+      "apple_pay": {
+        "errors": {
+          "generic": "Wystąpił problem z Apple Pay. Spróbuj ponownie lub użyj innej metody płatności.",
+          "missing_billing_address": "Apple Pay wymaga adresu rozliczeniowego. Dodaj go do swojego konta.",
+          "not_available": "Usługa Apple Pay nie jest dostępna na tym urządzeniu."
+        },
+        "loading": "Ładowanie Apple Pay"
+      },
+      "back_button": "Powrót",
+      "back_button_accessibility_label": "Powrót do {{paymentMethodStepTitle}}",
+      "card_fields": {
+        "card_expiry_label": "Data ważności (MM \/ RR)",
+        "card_expiry_placeholder": "Data ważności (MM \/ RR)",
+        "card_number_label": "Numer karty",
+        "card_number_placeholder": "Numer karty",
+        "card_start_label": "Data wydania (MM \/ RR)",
+        "card_start_placeholder": "Data wydania (MM \/ RR)",
+        "card_verification_value_label": "Kod weryfikacyjny",
+        "card_verification_value_placeholder": "Kod weryfikacyjny",
+        "field_errors": {
+          "credit_card_expiry_invalid": "Wprowadź prawidłową datę ważności karty",
+          "credit_card_name_invalid": "Wprowadź nazwisko zgodne z widniejącym na karcie",
+          "credit_card_number_invalid": "Wprowadź ważny numer karty",
+          "credit_card_verification_value_blank": "Wprowadź kod CVV lub kod weryfikacyjny swojej karty"
+        },
+        "name_on_card_label": "Nazwisko na karcie",
+        "name_on_card_placeholder": "Nazwisko na karcie",
+        "tooltip": {
+          "card_security_notice": "Wszystkie transakcje są bezpieczne i szyfrowane.",
+          "card_verification_value_explanation": "3-cyfrowy kod weryfikacyjny z reguły umieszczony na odwrocie karty. Karty American Express mają 4-cyfrowy kod umieszczony z przodu.",
+          "card_verification_value_explanation_amex": "4-cyfrowy kod weryfikacyjny z przodu karty",
+          "card_verification_value_explanation_other": "3-cyfrowy kod weryfikacyjny na odwrocie karty",
+          "tooltip_accessibility_label": "Więcej informacji"
+        }
+      },
+      "card_update_consent": "Ta metoda płatności zostanie zapisana dla przyszłych zakupów.",
+      "credit_or_debit_card_title": "Karta kredytowa lub debetowa",
+      "delete_payment_method_button": "Usuń",
+      "delete_payment_method_button_accessibility_label": "Usuń {{paymentMethodName}}",
+      "digital_wallet_title": "Portfel cyfrowy",
+      "edit_payment_method": {
+        "billing_address": "Adres rozliczeniowy",
+        "billing_address_add_new": "Dodaj nowy",
+        "billing_address_choose_from_list": "Wybierz z listy",
+        "cancel_edit_payment_method_button": "Anuluj",
+        "future_purchases_notice": "Ta metoda płatności zostanie zapisana dla przyszłych zakupów.",
+        "payment_method_updated_toast": "Metoda płatności została zaktualizowana",
+        "save_payment_method_button": "Zapisz",
+        "title": "Edytuj metodę płatności"
+      },
+      "edit_payment_method_brand_button_accessibility_label": "Edytuj {{paymentMethodName}}",
+      "edit_payment_method_button_accessibility_label": "Edytuj {{paymentMethodName}} z końcówką {{lastDigits}}",
+      "expiration_warning_button_accessibility_label": "Pokaż ostrzeżenie o wygaśnięciu ważności dla {{paymentMethodName}} z końcówką {{lastDigits}}",
+      "expired": "Ważność tej karty wygasła",
+      "expires_soon": "Ważność tej karty wkrótce wygasa",
+      "generic_card": "Karta",
+      "google_pay": {
+        "errors": {
+          "generic": "Wystąpił problem z Google Pay. Spróbuj ponownie lub użyj innej metody płatności.",
+          "missing_billing_address": "Google Pay wymaga adresu rozliczeniowego Dodaj go do swojego konta."
+        },
+        "loading": "Ładowanie Google Pay"
+      },
+      "payment_delete": {
+        "delete_and_replace_button": "Usuń i zastąp",
+        "delete_and_replace_button_accessibility_label": "Usuń {{currentPaymentMethodName}} i zastąp ją {{newPaymentMethodName}}.",
+        "deleted_successfully": "Usunięto metodę płatności.",
+        "description_with_replacement": "Usunięcie tej metody płatności będzie miało wpływ na wstępnie autoryzowane płatności. Możesz opcjonalnie zastąpić ją inną metodą płatności, aby nadal otrzymywać nadchodzące zamówienia.",
+        "description_without_replacement": "Ta metoda płatności nie będzie już dostępna dla przyszłych zakupów.",
+        "error_when_deleting": "Przepraszamy, ale coś poszło nie tak i nie można było usunąć tej metody płatności. Proszę spróbować ponownie później lub odświeżyć stronę.",
+        "loading_available_payment_methods_accessibility_label": "Ładowanie dostępnych metod płatności",
+        "payment_method_selector_no_alternative_payment": "Brak metody zastępczej",
+        "payment_method_selector_placeholder": "Wybierz zastępczą metodę płatności (opcjonalnie)",
+        "replace_method_with_new_method_description": "Twoja metoda {{currentPaymentMethodName}} zostanie usunięta i zastąpiona {{newPaymentMethodName}}.",
+        "title": "Usuń metodę płatności",
+        "warning_message_with_replacement": {
+          "with_pending_orders": "Usunięcie tej metody płatności spowoduje usunięcie jej z Twojego konta i nie będzie już ona dostępna na potrzeby przyszłych zakupów. O ile nie wybierzesz alternatywnej metody płatności, ta metoda płatności będzie nadal wykorzystywana do pobierania należności z tytułu zamówień.",
+          "with_pending_orders_and_subscriptions": "Usunięcie tej metody płatności będzie miało wpływ na wstępnie autoryzowane płatności. O ile nie wybierzesz alternatywnej metody płatności, ta metoda płatności będzie nadal wykorzystywana do pobierania należności z tytułu zamówień. W przypadku wyboru alternatywnej metody płatności będziesz otrzymywać kolejne zamówienia na subskrypcję w sposób ciągły.",
+          "with_subscriptions": "Usunięcie tej metody płatności będzie miało wpływ na wstępnie autoryzowane płatności. Zastąp ją alternatywną metodą płatności, aby nadal otrzymywać zamówienia."
+        },
+        "warning_message_without_replacement": {
+          "with_pending_orders": "Usunięcie tej metody płatności spowoduje usunięcie jej z Twojego konta i nie będzie już ona dostępna na potrzeby przyszłych zakupów. Będzie ona nadal wykorzystywana do pobierania należności z tytułu zamówień.",
+          "with_pending_orders_and_subscriptions": "Usunięcie tej metody płatności będzie miało wpływ na wstępnie autoryzowane płatności. Ta metoda płatności będzie nadal wykorzystywana do pobierania należności z tytułu zamówień, ale nie będziesz już otrzymywać zamówień na subskrypcje. Dodaj alternatywną metodą płatności, aby nadal otrzymywać zamówienia na subskrypcje.",
+          "with_subscriptions": "Usunięcie tej metody płatności będzie miało wpływ na wstępnie autoryzowane płatności. Dodaj alternatywną metodę płatności, aby nadal otrzymywać zamówienia."
+        }
+      },
+      "payment_details": {
+        "billing_title": "Adres rozliczeniowy",
+        "card_info_title": "Informacje o karcie",
+        "close_payment_modal": "Zamknij",
+        "close_payment_modal_accessibility_label": "Zamknij okno modalne szczegółów metody płatności",
+        "credit_card_details": "{{creditCardBrand}} •••• {{lastDigits}}",
+        "credit_card_details_accessibility_label": "z końcówką {{lastDigits}}",
+        "edit_payment_method_button": "Edytuj",
+        "edit_payment_method_button_accessibility_label": "Edytuj metodę płatności z końcówką {{lastDigits}}",
+        "invalid_payment_method": "Nieprawidłowa metoda płatności",
+        "invalid_payment_method_message": "Użyj nowej karty kredytowej, aby nadal otrzymywać kolejne zamówienia.",
+        "loading_shop_pay": "Ładowanie Shop Pay",
+        "next_payment_due": "Następna należna płatność {{dueDateInMonthDayYear}}",
+        "payment_details_loading": "Ładowanie szczegółów metody płatności",
+        "payment_method_expired_on": "Wygasła dnia {{expiryDate}}",
+        "payment_method_expiring_on": "Wygasa dnia {{expiryDate}}",
+        "payment_method_not_found_error": "Nie można znaleźć metody płatności",
+        "pre_authorized_payments": "Wstępnie autoryzowane płatności",
+        "preauthorized_payments": "Wstępnie autoryzowane płatności",
+        "replace_payment_method": "Zastąp metodę płatności",
+        "title": "Szczegóły metody płatności",
+        "total_amount_of_subscription_line_items_left": "i {{total}} więcej",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "{{totalItems}} pozycje(-i), wyświetlanie {{totalItemsToDisplay}} pozycji."
+      },
+      "title": "Metody płatności"
+    },
+    "shop_policies": {
+      "legal_notice": "Nota prawna",
+      "privacy_policy": "Polityka prywatności",
+      "refund_policy": "Polityka zwrotu kosztów",
+      "shipping_policy": "Polityka wysyłki",
+      "subscription_policy": "Polityka subskrypcji",
+      "terms_of_sale": "Warunki sprzedaży",
+      "terms_of_service": "Warunki użytkowania"
+    },
+    "enable_javascript": "Aby zobaczyć swoje konto, włącz JavaScript w ustawieniach przeglądarki lub zaloguj się za pomocą innej przeglądarki."
+  }
+}

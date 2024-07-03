@@ -2903,18 +2903,12 @@ const UpsellProduct = class extends HTMLElement {
     }
   }
 
- 
   /**
    * Handles submission of the product form.
    * @param {object} evt - Event object.
    */
   async handleSubmit(evt) {
     evt.preventDefault();
-
-      
-
-    
-
     // Disable "Add to Cart" button until submission is complete.
    
 
@@ -3024,9 +3018,6 @@ const UpsellProduct = class extends HTMLElement {
    */
   
 };
-
-
-
 window.customElements.define('upsell-products', UpsellProduct);
 
 

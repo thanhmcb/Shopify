@@ -1,0 +1,159 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "100ch"
+      }
+    },
+    "2f50538a-5741-4e7d-bf9e-e2622a709ef9": {
+      "type": "tabs",
+      "blocks": {
+        "tab_RehKbf": {
+          "type": "tab",
+          "settings": {
+            "title": "SA1 MK2",
+            "content": "<h3>ARGON AUDIO SA1 MK2<\/h3><p>07.06.2024<br\/><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/ArgonSA1MK2_v3_3_20240531.bin?v=1717744914\">Download here<\/a><\/p><ul><li>Improved stability on HDMI ARC and Optical inputs when used with Samsung TVs.<\/li><\/ul><h3>To update the amplifier, please do the following:<\/h3><ol><li>Disconnect the amplifier from power.<\/li><li>Connect the amplifier to a computer via a USB-A to USB-A cable. Alternatively, use a USB-A to USB-C cable if your computer has a USB-C connector.<\/li><li>While the power is unplugged from the amplifier, press and hold the volume knob on the front of the amplifier. While holding the volume knob, reconnect the power cable to the amplifier.<\/li><li>The amplifier should appear on your computer as a “normal” USB drive, named “CRP DISABLD”.<\/li><li>Open the drive and delete the “firmware.bin” file.<\/li><li>Once deleted, copy the new firmware onto the drive.<\/li><li>Once the firmware is copied, unplug the power and USB cable, wait 30 seconds, and reconnect the power to the amplifier.<\/li><li>Powered on the amplifier, and ensure it’s on the Bluetooth\/Streaming input (LED furthest to the left: orange LED on the SA2 and blue LED on the SA1MK2).<\/li><li>Hold the volume knob for 10 seconds. This resets the amplifier. For the SA1MK2, it will take less than a minute; for the SA2, it will take a few minutes. Once it's ready, it will be ready to be set up as new.<\/li><\/ol>",
+            "page": ""
+          }
+        },
+        "tab_akHytG": {
+          "type": "tab",
+          "settings": {
+            "title": "SA2",
+            "content": "<h3>ARGON AUDIO SA2<\/h3><p>07.06.2024<br\/><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/ArgonSA2_v3_6_20240531.bin?v=1717744902\">Download here<\/a><\/p><ul><li>Improved stability on HDMI ARC and Optical inputs when used with Samsung TVs.<\/li><li>Improved clocking, resulting in enhanced streaming quality.<\/li><\/ul><h3>To update the amplifier, please do the following:<\/h3><ol><li>Disconnect the amplifier from power.<\/li><li>Connect the amplifier to a computer via a USB-A to USB-A cable. Alternatively, use a USB-A to USB-C cable if your computer has a USB-C connector.<\/li><li>While the power is unplugged from the amplifier, press and hold the volume knob on the front of the amplifier. While holding the volume knob, reconnect the power cable to the amplifier.<\/li><li>The amplifier should appear on your computer as a “normal” USB drive, named “CRP DISABLD”.<\/li><li>Open the drive and delete the “firmware.bin” file.<\/li><li>Once deleted, copy the new firmware onto the drive.<\/li><li>Once the firmware is copied, unplug the power and USB cable, wait 30 seconds, and reconnect the power to the amplifier.<\/li><li>Powered on the amplifier, and ensure it’s on the Bluetooth\/Streaming input (LED furthest to the left: orange LED on the SA2 and blue LED on the SA1MK2).<\/li><li>Hold the volume knob for 10 seconds. This resets the amplifier. For the SA1MK2, it will take less than a minute; for the SA2, it will take a few minutes. Once it's ready, it will be ready to be set up as new.<\/li><\/ol>",
+            "page": ""
+          }
+        },
+        "template--18504796176713__2f50538a-5741-4e7d-bf9e-e2622a709ef9-tab-1": {
+          "type": "tab",
+          "settings": {
+            "title": "FENRIS",
+            "content": "<h3>ARGON AUDIO FENRIS<\/h3><p>FENRIS A4 | 24.01.2022<br\/><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/FENRIS_A4_V017.zip?v=1643028115\">Download here<\/a><\/p><p>FENRIS A5 | 24.01.2022<br\/><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/FENRIS_A5_V010.zip?v=1643028115\">Download here<\/a><\/p><p>FENRIS A55 | 24.01.2022<br\/><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/FENRIS_A55_V011.zip?v=1643028115\">Download here<\/a><\/p><ul><li>Removed noise gate on all inputs<\/li><li>Fixed muting issue on phono input<\/li><li>Greatly improved sound tuning on A5 and A55<\/li><li>Improved gain on A55<\/li><li>Fixed a volume bug when switching between Bluetooth and HDMI ARC<\/li><li>Fixed disabling and enabling auto power up\/auto power down not working properly<\/li><li>USB power now also works in standby<\/li><\/ul><h3>To update the speakers, please do the following:<\/h3><ol><li>Unzip the file and place the \"ota.bin\" file on an empty USB drive (MAX 32 GB - formatted as FAT32). Remember to properly \"eject\" it before removing it from the computer.<\/li><li>Ensure the Fenris speaker is connected to power and turned on (LED must NOT be red).<\/li><li>Insert the USB flash drive into the Fenris Speaker. The LED will briefly flash green before returning to red.<\/li><li>The upgrade is complete!<\/li><\/ol>",
+            "page": ""
+          }
+        },
+        "tab_ay6WAH": {
+          "type": "tab",
+          "settings": {
+            "title": "FORTE MK2",
+            "content": "<h3>ARGON AUDIO FORTE MK2<\/h3><p>FORTE A4 MK2 <br\/><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/A4_MK2.hex?v=1711525990\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/A4_MK2.hex?v=1711525990\">Download here<\/a><\/p><p>FORTE A5 MK2 <br\/><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/A5_MK2.hex?v=1711524898\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/A5_MK2.hex?v=1711524898\">Download here<\/a><\/p><p>FORTE A55 MK2 <br\/><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/A55_MK2.hex?v=1711524898\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/A55_MK2.hex?v=1711524898\">Download here<\/a><\/p><p>This is the original firmware for FORTE MK2 and the latest version.<\/p><h3>To update the speakers, please do the following:<\/h3><ol><li>Put the \"A4_MK2.hex \/ A5_MK2.hex \/ A55_MK2.hex\" file on an empty USB drive (MAX 32 GB - formatted as FAT32)*. Remember to \"eject\" it properly before removing it from the computer<\/li><li>Power off the speaker completely by removing the power cable (wait until there is no light in the LED on the front)<\/li><li>Plug it into the USB port on the back of the speaker<\/li><li>Power on the speaker. The LED on the front will flash blue for a few seconds, telling you that the update is in progress. When it's done, the LED will go back to constant red.<\/li><li>Remove the USB drive. The speakers are now updated!<\/li><\/ol>",
+            "page": ""
+          }
+        },
+        "tab_VxCe93": {
+          "type": "tab",
+          "settings": {
+            "title": "FORTE A4 MK2 (INSIDE FURNITURE)",
+            "content": "<h3>ARGON AUDIO FORTE A4 MK2 (INSIDE FURNITURE ONLY)<\/h3><p>29.01.2024<br\/><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/A4_MK2_FURNITURE.zip?v=1711525978\">Download here<\/a><\/p><h4><strong>IMPORTANT:<\/strong><\/h4><p>This firmware update is exclusively for the <strong>FORTE A4 MK2 <\/strong>model when it is installed <strong>within furniture (sideways)<\/strong>. It is <strong>NOT <\/strong>intended for use with the device in an upright position. Additionally, this update is <strong>NOT <\/strong>compatible with the earlier version FORTE A4 (MK1).<\/p><p>The smallest FORTE A4 MK2 can be placed inside a piece of furniture for a discreet setup. It could be hi-fi furniture such as UNNU\/CLIC 130, 131, etc. We have developed a special sound profile and guide for this purpose.<\/p><h4><strong>How should I place the speakers in the furniture? <\/strong><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/fortea4_furniture.jpg?v=1706516071\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0264\/7428\/3096\/files\/fortea4_furniture.jpg?v=1706516071\"><strong>(see picture)<\/strong><\/a><\/h4><ul><li>When it comes to placing the speakers in the furniture, there are various opinions on the optimal configuration. Ultimately, you should position them in a way that you believe enhances their sound quality. Our engineer, Michael, have 4 reasons why he recommends having woofers on the outside.<\/li><li>We design Argon active speakers to radiate less downwards (when placed upside) to avoid reflections from the floor. This is a luxury we have, because of DSP and really helps when placing speakers in a room with hard floors. Having woofers on the outside in a furniture means the speaker has the right angle to the listener.<\/li><li>Stereo information and the width of the sound image is opposite what many believes in the midrange and not the treble. So having midranges on the outside create the biggest sound image.<\/li><li>When sound waves are much longer that the radiator, the sound radiates 360 degrees. For a normal sized speaker this happens below 500 Hz and means half the sound is send back into the cavity of the furniture and creating resonances. Having woofers on the outside means much less sound is radiated into the furniture and so less coloration.<\/li><li>Having woofers close (but not too close) to each other creates beaming in the midrange and strong comb filter effects when not listening exactly in centre of the speakers. Having the woofers on the outside creates a better balance between direct and in-direct sound and so makes a more natural timbre.<\/li><\/ul><h3>To update the speakers, please do the following:<\/h3><ol><li>Put the \"A4_MK2.hex\" file on an empty USB drive (MAX 32 GB - formatted as FAT32)*. Remember to \"eject\" it properly before removing it from the computer<\/li><li>Power off the speaker completely by removing the power cable (wait until there is no light in the LED on the front)<\/li><li>Plug it into the USB port on the back of the speaker<\/li><li>Power on the speaker. The LED on the front will flash blue for a few seconds, telling you that the update is in progress. When it's done, the LED will go back to constant red.<\/li><li>Remove the USB drive. The speakers are now updated!<\/li><\/ol>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_RehKbf",
+        "tab_akHytG",
+        "template--18504796176713__2f50538a-5741-4e7d-bf9e-e2622a709ef9-tab-1",
+        "tab_ay6WAH",
+        "tab_VxCe93"
+      ],
+      "settings": {
+        "full_width": false,
+        "content_size": "large",
+        "subheading": "",
+        "title": "{{ page.title }}",
+        "first_tab_open": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "bc4c29a3-421a-48b7-bccd-ed926499d75e": {
+      "type": "accordion-content",
+      "blocks": {
+        "template--18186840736073__bc4c29a3-421a-48b7-bccd-ed926499d75e-1678110456d6c98951-0": {
+          "type": "item",
+          "settings": {
+            "title": "Mac: How To Format Your USB Drive to FAT32",
+            "content": "<p><strong>Step 1<\/strong>: Insert a USB drive into a USB port.<\/p><p><strong>Step 2:<\/strong> Navigate to <strong>Applications &gt; Utilities<\/strong>, and click it twice to open it.<\/p><p><strong>Step 3:<\/strong> Select the drive you want to format and click on <strong>Erase.<\/strong><\/p><p><strong>Step 4:<\/strong> Rename the USB drive (optional), and choose the <strong>MS-DOS(FAT)<\/strong> for format<\/p><p><strong>Step 5:<\/strong> Select <strong>Master Boot Record<\/strong> for scheme, hit <strong>Erase<\/strong><\/p><p><strong>Step 6: <\/strong>Once the process is done, you are ready to use the drive with FAT32 file system to save data<\/p><p><em>All files on the USB flash drive will be deleted during the convert process with format feature, so please back up your files first if you have data inside originally.<\/em><\/p>"
+          }
+        },
+        "template--18186840736073__bc4c29a3-421a-48b7-bccd-ed926499d75e-1678110456d6c98951-1": {
+          "type": "item",
+          "settings": {
+            "title": "Windows: How To Format Your USB Drive to FAT32",
+            "content": "<p><strong>Step 1<\/strong>: Insert a USB drive into a USB port.<\/p><p><strong>Step 2A:<\/strong> Type and search '<strong>This PC<\/strong>' in the Windows search bar, then click Open.<br\/><strong>Step 2B: <\/strong>Open File Explorer. Click on '<strong>This PC<\/strong>' from the left pane.<\/p><p><strong>Step 3:<\/strong> Under the \"Devices and drives\" section, <strong>right-click<\/strong> the flash drive and select the <strong>Format<\/strong> option.<\/p><p><strong>Step 4:<\/strong> Select File system to '<strong>FAT32<\/strong>', then click <strong>Start<\/strong>.<\/p><p><strong>Step 5:<\/strong> A notice appeared to remind that all data on the USB flash drive will be deleted.  Click <strong>OK<\/strong> to start formatting your USB flash drive.<\/p><p><strong>Step 6: <\/strong>The format process is completed and your USB flash drive has been converted to FAT32.  Click <strong>OK<\/strong> to close the window.<\/p><p><em>All files on the USB flash drive will be deleted during the convert process with format feature, so please back up your files first if you have data inside originally.<\/em><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18186840736073__bc4c29a3-421a-48b7-bccd-ed926499d75e-1678110456d6c98951-0",
+        "template--18186840736073__bc4c29a3-421a-48b7-bccd-ed926499d75e-1678110456d6c98951-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "ec8aa9d9-db8d-4439-9119-37c9fa4028db": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "html": "<style>\n.tab-content {\ntext-align: left;\n}\n<\/style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "c7d91665-8c35-4015-9310-aba12dc69cb1": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18504796176713__c7d91665-8c35-4015-9310-aba12dc69cb1-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>If you have any further questions, please do not hesitate to contact our support team at <strong>support@argonaudio.com<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18504796176713__c7d91665-8c35-4015-9310-aba12dc69cb1-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "section-id": "",
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "2f50538a-5741-4e7d-bf9e-e2622a709ef9",
+    "bc4c29a3-421a-48b7-bccd-ed926499d75e",
+    "ec8aa9d9-db8d-4439-9119-37c9fa4028db",
+    "c7d91665-8c35-4015-9310-aba12dc69cb1"
+  ]
+}

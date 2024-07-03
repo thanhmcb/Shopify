@@ -70,7 +70,7 @@ if (!customElements.get('variant-picker')) {
       this.addBtn = this.addBtn || this.productForm.querySelector('[name="add"]');
       const variantAvailable = this.variant && this.variant.available;
       const unavailableStr = this.variant ? theme.strings.noStock : theme.strings.noVariant;
-
+      this.productForm.classList.remove("form__product--sold-out");
       this.addBtn.disabled = !variantAvailable
       if (!variantAvailable) {
         this.productForm.classList.add("form__product--sold-out"); 
