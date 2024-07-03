@@ -5,37 +5,52 @@
     #shopify-section-{{ section.id }} {
       --rich-text-max-width: {% if section.settings.content_width == 'small' %}650px{% elsif section.settings.content_width == 'medium' %}780px{% else %}100%{% endif %}
     }
+  
   </style>
+  {%- comment -%}
+  <div class="section--hide">
 
-    <div {% render 'section-properties' %} id="{{section.settings.section-id}}" >
+  {%- for block in section.blocks -%}     
+      {%- if block.settings.heading == blank and block.settings.rich_text == blank %}
+        section-hide
+      {%- endif -%}
+    {%- break -%}
+  {%- endfor -%}
+  </div>
+{%- endcomment -%}
+<div {% render 'section-properties' %} id="{{section.settings.section-id}}" >
+      
     {%- assign text_position = section.settings.text_position -%}
     {%- assign blocks_before_divider = '' -%}
-    {%- assign blocks_after_divider = '' -%}
-
+    {%- assign blocks_after_divider = '' -%} 
+ 
     {%- for block in section.blocks -%}
-       
       {%- capture block_content -%}
         {%- case block.type -%}
           {%- when 'subheading' -%}
             {%- if block.settings.text != blank -%}
               <p class="bold" {{ block.shopify_attributes }}>{{ block.settings.text | escape }}</p>
-            {%- endif -%}
+            {%- endif -%} 
 
-          {%- when 'heading' -%}
-            {%- if block.settings.text != blank -%}
+          {%- when 'heading' -%} 
+            {%- if block.settings.heading != blank -%}
               <{{ block.settings.heading_tag }} hyphenate {{ block.shopify_attributes }}>
-                {%- render 'styled-text', content: block.settings.text, text_color: block.settings.text_color, gradient: block.settings.gradient -%}
+                {%- render 'styled-text', content: block.settings.heading, text_color: block.settings.text_color, gradient: block.settings.gradient, text_align: block.settings.text_align   -%}
               </{{ block.settings.heading_tag }}>
             {%- endif -%}
  
-
           {%- when 'richtext' -%}
-            {%- if block.settings.content != blank -%}
-              <div {{ block.shopify_attributes }}>
-                {{- block.settings.content -}}
+            {%  style  %} 
+                .shopify-section--rich-text p {
+                  text-align: {{ block.settings.parapraph_text_align }};
+                }
+             {% endstyle %}
+            
+            {%- if block.settings.rich_text != blank -%}
+              <div class="rich_text" {{ block.shopify_attributes }}>
+                {{- block.settings.rich_text -}}
               </div>
             {%- endif -%}
-
           {%- when 'page' -%}
             {%- if block.settings.page.content != blank -%}
               <div {{ block.shopify_attributes }}>
@@ -111,32 +126,34 @@
     {%- endfor -%}
 
     {%- if blocks_before_divider != blank and blocks_after_divider != blank -%}
-      <div class="split-rich-text">
-        <div class="prose {% if text_position == 'center' %}justify-items-center{% else %}justify-items-start{% endif %}">
+      <div class="split-rich-text ">
+        <div class="prose   {% if text_position == 'center' %}justify-items-center{% else %}justify-items-start{% endif %}">
           {{- blocks_before_divider -}}
         </div>
 
-        <div class="prose {% if text_position == 'center' %}justify-items-center{% else %}justify-items-start{% endif %}">
+        <div class="prose {% if text_position == 'center' %}justify-items-center{% else %}justify-items-start{% endif %}"> 
           {{- blocks_after_divider -}}
         </div>
       </div>
     {%- endif -%}
-
-    <div class="rich-text {% if text_position == 'center' %}justify-center{% endif %} {% if blocks_before_divider != blank and blocks_after_divider != blank %}md:hidden{% endif %}">
+ 
+    <div class="rich-text {% if text_position == 'center' %}justify-center{% endif %} {% if  block.settings.text == blank and block.settings.content %}section--hide{% endif %} {% if blocks_before_divider != blank and blocks_after_divider != blank %}md:hidden{% endif %}">
       <div class="rich-text__wrapper">
-        <div class="prose {% if text_position == 'center' %}justify-items-center{% else %}justify-items-start{% endif %}">
+        <div class="prose  {% if text_position == 'center' %}justify-items-center{% else %}justify-items-start{% endif %}">
           {{- blocks_before_divider -}}
           {{- blocks_after_divider -}}
         </div>
       </div>
     </div>
+  
   </div>
 
 {%- endif -%}
+ 
 
 {% schema %}
 {
-  "name": "Rich text",
+  "name": "Rich text - MCB",
   "class": "shopify-section--rich-text",
   "tag": "section",
   "disabled_on": {
@@ -232,7 +249,7 @@
       "settings": [
         {
           "type": "text",
-          "id": "text",
+          "id": "heading",
           "label": "Text",
           "default": "Heading"
         },
@@ -273,6 +290,22 @@
           "default": "h1"
         },
         {
+          "type": "select",
+          "id": "text_align",
+          "label": "Text Alignment",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            }            
+          ],
+          "default": "center"
+        },
+        {
           "type": "color",
           "id": "text_color",
           "label": "Text"
@@ -290,9 +323,25 @@
       "settings": [
         {
           "type": "richtext",
-          "id": "content",
+          "id": "rich_text",
           "label": "Content",
           "default": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+        },
+        {
+          "type": "select",
+          "id": "parapraph_text_align",
+          "label": "Text Alignment",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            }            
+          ],
+          "default": "center"
         }
       ]
     },
@@ -763,26 +812,20 @@
   ],
   "presets": [
     {
-      "name": "Rich text",
-      "blocks": [
-        {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        {
-          "type": "heading",
-          "settings": {
-            "text": "Heading",
-            "heading_tag": "tw-text-h1"
-          }
-        },
-        {
-          "type": "richtext"
-        }
-      ]
+      "name": "Rich text - MCB",
     }
   ]
 }
 {% endschema %}
+<script>
+  const heading = document.querySelector('.shopify-section--rich-text').querySelector('.text-heading');
+  const richtext = document.querySelector('.shopify-section--rich-text').querySelector('.rich_text')
+  window.onload = function(){
+    if( !heading && !richtext) {
+      console.log("thanh");
+    document.querySelector('.shopify-section--rich-text').classList.add('section--hide');
+  }
+  };
+  
+  
+</script>

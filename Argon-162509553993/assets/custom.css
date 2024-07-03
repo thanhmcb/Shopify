@@ -1,0 +1,7 @@
+.text-align-custom {
+    text-align: var(--text-align);
+    display: block;
+  }
+  .section--hide{
+    display: none !important; 
+  }

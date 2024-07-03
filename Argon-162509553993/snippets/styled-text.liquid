@@ -27,10 +27,15 @@ Supported variables
     elsif text_color != blank and text_color != 'rgba(0,0,0,0)'
       echo 'text-custom '
     endif
-
+    echo 'text-align-custom '
+    echo 'text-heading '
     if style == 'outline'
       echo 'text-stroke '
     endif
+    if block.settings.heading == blank
+      echo 'heading-empty ' 
+    endif
+
   endcapture
 
   capture style
@@ -39,6 +44,8 @@ Supported variables
     elsif text_color != blank and text_color != 'rgba(0,0,0,0)'
       echo '--text-color: ' | append: text_color.rgb | append: ';'
     endif
+    echo '--text-align: ' | append: text_align | append: ';' 
+     
   endcapture
 -%}
 

@@ -252,7 +252,7 @@
                     <span class="{% if is_swatch and settings.swatch_style != 'listed' %}visually-hidden {% endif %}js-value">
                       {%- comment %} MCB - Bold text {%- endcomment -%}  
                       {% if settings.enable_bold_text -%}
-                        {% if value contains "(" %}  
+                        {% if value contains "(EU" %}  
                           <span class="class-bold">{{ value | split:"(" | first }}</span>{{ value | split:"(" | last | prepend: "(" }} 
                         {%- else -%} 
                           {{- value -}}
