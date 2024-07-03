@@ -819,8 +819,19 @@
         "label": "Free shipping minimum amount",
         "info": "Indicate the value in your store main currency.",
         "default": "50"
+      },
+      {
+        "type": "richtext",
+        "id": "cart_terms_page",
+        "label": "Terms and conditions link"
+      },
+      {
+        "type": "text",
+        "id": "terms_message_error",
+        "label": "Terms message error",
+        "default": "Accepter venligst vores handelsbetingelser for at fortsætte."
       }
-    ]
+    ] 
   },
   {
     "name": "Social media",

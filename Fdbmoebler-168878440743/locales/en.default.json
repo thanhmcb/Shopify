@@ -311,7 +311,9 @@
       "save_note": "Save",
       "view_cart": "View cart",
       "checkout": "Checkout",
-      "we_accept": "We accept"
+      "we_accept": "We accept",
+      "decline_button":"Decline",
+      "checkout_accept":"Accept"
     },
     "order": {
       "product": "Product",
@@ -337,6 +339,7 @@
       "multiple_results": "There are several shipping rates for your address:",
       "error": "One or more error occurred while retrieving shipping rates:"
     }
+   
   },
   "404": {
     "general": {

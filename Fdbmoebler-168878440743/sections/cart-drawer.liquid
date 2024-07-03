@@ -99,7 +99,7 @@
       </div>
     </div>
 
-    <div class="v-stack gap-4 sm:gap-6" slot="footer">
+    <div class="v-stack gap-4 sm:gap-6" slot="footer" class="footer--inner">
       <div class="v-stack gap-1">
         {% for discount_application in cart.cart_level_discount_applications %}
           <div class="h-stack gap-4 justify-between">
@@ -158,13 +158,21 @@
             </div>
           </cart-note-dialog>
         {%- endif -%}
+
+        
       </div>
 
-      <form action="{{ routes.cart_url }}" method="POST" class="buy-buttons {% if section.settings.show_checkout_button %}buy-buttons--compact{% endif %}">
+      <form action="{{ routes.cart_url }}" method="POST" class="buy-buttons{% if section.settings.show_checkout_button %} buy-buttons--compact{% endif %}">
         {%- assign checkout_label = 'cart.general.checkout' | t -%}
-
+        {% if settings.cart_terms_page != blank %}
+          <terms-agreement class="terms-agreement rte">
+            <input type="checkbox" id="terms" />
+            <div class="cart-term_text">{{ settings.cart_terms_page }}</div>
+          </terms-agreement>
+        {% endif %}
+        
         {%- if section.settings.show_view_cart_button or section.settings.show_checkout_button == false -%}
-          <a href="{{ routes.cart_url }}" class="button button--xl {% if section.settings.show_checkout_button %}button--secondary{% endif %}" data-no-instant>
+          <a href="{{ routes.cart_url }}" class="button button--xl{% if section.settings.show_checkout_button %}button--secondary{% endif %}" data-no-instant>
             {{- 'cart.general.view_cart' | t -}}
           </a>
         {%- endif -%}
@@ -172,8 +180,22 @@
         {%- if section.settings.show_checkout_button -%}
           {%- render 'button', type: 'submit', content: checkout_label, icon: 'picto-lock', name: 'checkout', size: 'xl' -%}
         {%- endif -%}
-      </form>
+      </form>     
     </div>
+    {%- if settings.cart_terms_page != blank -%}
+      <openable-element id="mini-cart-terms" class="mini-cart__terms">
+        <span class="openable__overlay"></span>
+        <div class="mini-cart__terms-heading">{{ settings.cart_terms_page }}</div>
+      <div class="cart-drawer-checkout-buttons">
+        <form action="{{ routes.cart_url }}" method="POST">
+          {%- assign checkout_label_accept = 'cart.general.checkout_accept' | t -%}
+          {%- render 'button', type: 'submit', content: checkout_label_accept, name: 'checkout', size: 'xl' -%}
+        </form>
+        <button id="mini-cart-terms-btn-denice" class="button button--xl button-full" name="btn-denice" data-action="close" data-decline="">{{ 'cart.general.decline_button' | t }}</button>
+        </div>
+       
+      </openable-element>
+    {%- endif -%}
   {%- endif -%}
 </cart-drawer>
 

@@ -308,6 +308,8 @@
       "view_cart": "Vis indkøbskurv",
       "checkout": "Gå til kasse",
       "we_accept": "Vi accepterer",
+      "decline_button":"Decline",
+      "checkout_accept":"Accept",
       "taxes_and_shipping_policy_at_checkout_html": "Moms og <a href=\"{{ link }}\" class=\"link\">levering<\/a> beregnes ved kassen",
       "taxes_included_but_shipping_at_checkout": "Inkl. moms og levering beregnes ved kassen",
       "taxes_included_and_shipping_policy_html": "Moms inkluderet. <a href=\"{{ link }}\" class=\"link\">Levering<\/a> beregnes ved kassen.",
@@ -337,6 +339,7 @@
       "multiple_results": "Der er flere leveringspriser for din adresse:",
       "error": "Der opstod en eller flere fejl under hentning af leveringspriser:"
     }
+   
   },
   "404": {
     "general": {
