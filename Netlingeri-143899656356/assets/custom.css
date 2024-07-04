@@ -507,3 +507,9 @@ margin-top: 0.7rem;
      padding:8px 12px;
   }
 }
+
+/* collection related links */
+.related-collection-links .text-overlay__title{
+  line-height: 1;
+  padding-bottom: 0;
+}
