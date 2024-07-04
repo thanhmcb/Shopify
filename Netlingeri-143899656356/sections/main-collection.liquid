@@ -101,6 +101,25 @@
                       <div class="text-overlay text-overlay--v-{{ section.settings.rel_coll_gall_text_alignment | split: ' ' | first }} text-overlay--h-{{ section.settings.rel_coll_gall_text_alignment | split: ' ' | last }} image-overlay__over">
                         <div class="text-overlay__inner">
                           <div class="text-overlay__text">
+                            {% comment %} MCB related collection {% endcomment %}
+                            {%- style -%}
+                              .related-collection-links .text-overlay__title{
+                                font-size: {{ section.settings.box_font_size }}px;
+                              }
+                           
+                              {%- if section.settings.show_box_border -%}
+                                @media (min-width: 768px){
+                                  .related-collection-links .text-overlay__text {
+                                  border: {{ section.settings.box_border_thickness }}px solid {{ section.settings.box_border_color }}; 
+                                  display: inline-flex;
+                                  padding: .5rem;
+                                  border-radius: {{ section.settings.box_border_radius }}px;
+                                  color: {{ section.settings.box_text_color }}; 
+                                 }
+                                }                                                    
+                              {%- endif -%}
+                          {%- endstyle -%}
+                           {% comment %} MCB related collection {% endcomment %}
                             <h2 class="text-overlay__title h4">{{ loop_collection.title | escape }}</h2>
                           </div>
                         </div>
@@ -377,7 +396,68 @@
       "id": "show_in_quickbuy",
       "label": "Show complementary products in quick buy",
       "default": false
-    },{
+    },
+  
+    {
+      "type": "header",
+      "content": "Related Collection"
+    },
+    
+    {
+      "type": "range",
+      "id": "box_font_size",
+      "min": 12,
+      "max": 25,
+      "step": 1,
+      "unit": "px",
+      "label": "Box font size - MCB custom",
+      "default": 15
+    },
+    {
+      "type": "checkbox",
+      "id": "show_box_border",
+      "label": "Active box border - MCB custom",
+      "default": true,
+      "info": "Applies only on desktop"
+    },  
+    {
+      "type": "range",
+      "id": "box_border_thickness",
+      "min": 1,
+      "max": 5,
+      "step": 1,
+      "unit": "px",
+      "label": "Border Thickness - MCB custom",
+      "default": 1,
+      "info": "Only applied if border box is active"
+    },
+    {
+      "type": "range",
+      "id": "box_border_radius",
+      "min": 3,
+      "max": 15,
+      "step": 1,
+      "unit": "px",
+      "label": "Border Radius - MCB custom",
+      "default": 5,
+      "info": "Only applied if border box is active"
+    },
+    {
+      "type": "color",
+      "id": "box_border_color",
+      "label": "Border color - MCB custom",
+      "info": "Only applied if border box is active",
+      "default": "#FFF"
+    },
+    {
+      "type": "color",
+      "id": "box_text_color",
+      "label": "Text color - MCB custom",
+      "info": "Only applied if border box is active",
+      "default": "#FFF"
+    },
+    
+    {
       "type": "select",
       "id": "gallery_layout",
       "label": "Quickview layout",

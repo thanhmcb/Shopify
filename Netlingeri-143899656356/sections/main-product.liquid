@@ -39,6 +39,10 @@
     </div>
   </div>
 {% endif %}
+<div class=wrapper>
+    <div class=horizontalScroll>Scroll (x,y) to </div>
+    <div class=verticalScroll>see me in action</div>
+</div>
 <product-form class="js-product product-info quickbuy-content spaced-row container">
   <media-gallery class="media-gallery media-gallery--layout-{{ section.settings.gallery_layout }} media-gallery-size-{{ section.settings.gallery_size }} product-column-left {% if product.media.size > 1 %}has-thumbnails{% endif %}"
     data-cc-animate
@@ -3136,6 +3140,42 @@
           }); 
          
          
+          window.addEventListener("scroll", function(event) {
+            const a = document.querySelector('variant-picker');
+  var top = this.scrollY,
+      left = this.scrollX;
+      top2 = top ;
+  var horizontalScroll = document.querySelector(".horizontalScroll"),
+      verticalScroll = document.querySelector(".verticalScroll");
+  
+  horizontalScroll.innerHTML = "Scroll X: " + left + "px";
+    verticalScroll.innerHTML = "Scroll Y: " + top + "px";
 
+    a.addEventListener('click',function(){
+            window.scrollTo(0, top2);
+            console.log(top2);
+          })
+
+}, false);
 </script>     
 
+<style>
+.wrapper{
+    position: fixed;
+    top:0;
+    left:0px;
+    width:700px;
+    background: black;
+    color: green;
+    height: 64px;
+    z-index: 9000;
+}
+.wrapper div{
+    display: inline;
+    width: 50%;
+    float: left;
+    text-align: center;
+    line-height: 64px
+}
+.horizontalScroll{color: orange}
+</style>
