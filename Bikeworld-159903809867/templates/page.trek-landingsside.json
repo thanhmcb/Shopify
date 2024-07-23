@@ -1,0 +1,408 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text-dark",
+        "bg_color": "#ffffff"
+      }
+    },
+    "1657706040c74481cf": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Powerfly_FS_MorePower.webp",
+        "bg_position": "center-center",
+        "height": "screen-height-two-thirds",
+        "overlay_opacity": 15,
+        "overlay_color": "#282828",
+        "title": "Trek",
+        "description": "Trek cykler har altid været et af de store og anerkendte brands. Trek producerer kvalitetscykler i hele verden og vi er i Bikeworld stolte over at kunne tilbyde mærket til dig.",
+        "flex_align": "align--middle-left",
+        "text_color": "text-light",
+        "transparent": true,
+        "link_text": "Se alt fra trek her",
+        "link": "shopify:\/\/collections\/trek",
+        "button_color": "btn--primary",
+        "button_style": "hero__btn btn btn--large btn--outline caps",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "166089805596ad888e": {
+      "type": "section-custom-content",
+      "blocks": {
+        "1660898055a190dec6-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/48637-Sticker-Trek-Logo-2018_1.png",
+            "bg_position": "left-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "description": "",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "1660898055a190dec6-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "En allround cykelproducent",
+            "text": "<p>Trek cykler blev grundlagt i USA i 1976 i en lade i Waterloo, Wisconsin hvor de den dag i dag stadig har deres hovedkvarter.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "text_color": "text-dark",
+            "bg_color": "#ffffff",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "1660898055a190dec6-0",
+        "1660898055a190dec6-1"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "padding": true,
+        "borders": false,
+        "wrapper": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1660900415fb9db1ed": {
+      "type": "section-custom-content",
+      "blocks": {
+        "1660900415b700e152-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DomaneAL2Disc_21_33083_A_Portrait.webp",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "description": "",
+            "flex_align": "align--bottom-center",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "Se Trek racercykler her",
+            "link": "shopify:\/\/collections\/trek-racercykler",
+            "button_color": "btn--secondary",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "0bfeadf1-0839-449b-8ca7-f394f0041f28": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Supercaliber99XX1AXS_22_35145_A_Portrait_3000x_0f3ce088-dcec-42a3-ba84-c4a1b6b13722.webp",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "description": "",
+            "flex_align": "align--bottom-center",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "Se Trek Mountainbikes her",
+            "link": "shopify:\/\/collections\/trek-mountainbike",
+            "button_color": "btn--secondary",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "1660900415b700e152-0",
+        "0bfeadf1-0839-449b-8ca7-f394f0041f28"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "padding": false,
+        "borders": false,
+        "wrapper": false,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "1657706489ee9c5bc9": {
+      "type": "section-columns",
+      "disabled": true,
+      "blocks": {
+        "1657706489effeda23-0": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shutterstock_1964829970.jpg",
+            "bg_position": "center-center",
+            "title": "Mountainbikes",
+            "text": "<p>Trek er en af de førende producenter af mountainbikes. De er altid blandt de førende inden for teknologi og udvikling. Mountainbikes skal kunne tåle at blive brugt i hårdt terræn. Hvilket træk altid lever op til. Trek har et bredt udvalg af hardtails og fullsuspension i alle prisklasser til både mænd og kvinder og selvfølgelig også til børn.<\/p>",
+            "button_text": "Læs mere her",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large caps",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "1657706489effeda23-1": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shutterstock_659821903.jpg",
+            "bg_position": "center-center",
+            "title": "Racercykler",
+            "text": "<p>Inden for landevejsdisciplinen har Trek altid været fremme i skoene - de producerer racercykler i aluminium og kulfiber og har de seneste år været involveret i hold som Team Leopard Trek, Trek Factory Racing og Trek-Segafredo.<\/p>",
+            "button_text": "Læs mere her",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large caps",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "1657706489effeda23-0",
+        "1657706489effeda23-1"
+      ],
+      "settings": {
+        "title": "",
+        "bg_color": "#ffffff",
+        "align_text": "text-left",
+        "width": "wrapper--full",
+        "equalize_height": true,
+        "photo_aspect_ratio": 0.7,
+        "enable_image": true
+      }
+    },
+    "1660900896ea91b710": {
+      "type": "section-custom-content",
+      "blocks": {
+        "1660900895feb5c559-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "Mere om Trek cykler",
+            "text": "<p>Trek er en af de førende producenter af mountainbikes. De er altid blandt de førende inden for teknologi og udvikling. Mountainbikes skal kunne tåle at blive brugt i hårdt terræn. Hvilket træk altid lever op til.<br\/><br\/>Trek har et bredt udvalg af hardtails og fullsuspension i alle prisklasser til både mænd og kvinder og selvfølgelig også til børn.<\/p><p><\/p><p>Inden for landevejsdisciplinen har Trek altid været fremme i skoene - de producerer racercykler i aluminium og kulfiber og har de seneste år været involveret i hold som Team Leopard Trek, Trek Factory Racing og Trek-Segafredo.<br\/><\/p><p>Mange er ikke klar over det, men trek producerer også et væld af citybikes i alle prisklasser og til alle formål - så kom forbi BikeWorld i Silkeborg og prøv din nye Trek cykel.<\/p><p><\/p><p>Trek cykler blev grundlagt i USA i 1976 i en lade i Waterloo, Wisconsin hvor de den dag i dag stadig har deres hovedkvarter.<\/p>",
+            "text_size": 2,
+            "text_columns": 2,
+            "align_text": "text-left",
+            "text_color": "text-dark",
+            "bg_color": "#ffffff",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "1660900895feb5c559-1"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "padding": false,
+        "borders": false,
+        "wrapper": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1660898735c81b1eac": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "1660898735f94e7652-1": {
+          "type": "collection",
+          "settings": {
+            "title": "Hverdagscykler",
+            "featured_collection": "trek-hverdagscykler",
+            "show_image": true,
+            "image": "shopify:\/\/shop_images\/Saddle_Marquee_1.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "text_color": "text-dark",
+            "link_text": "Se Hverdagscykler Her",
+            "link": "shopify:\/\/collections\/trek-hverdagscykler",
+            "button_color": "btn--primary",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "1660898735f94e7652-0": {
+          "type": "collection",
+          "settings": {
+            "title": "Mountainbikes",
+            "featured_collection": "trek-mountainbike",
+            "show_image": true,
+            "image": "shopify:\/\/shop_images\/downcountryPLP-1.webp",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "text_color": "text-light",
+            "link_text": "Se Mountainbikes her",
+            "link": "shopify:\/\/collections\/trek-mountainbike",
+            "button_color": "btn--primary",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "138fe6d8-0bca-4d53-86b7-a573e0bdb742": {
+          "type": "collection",
+          "settings": {
+            "title": "Racercykler",
+            "featured_collection": "trek-racercykler",
+            "show_image": true,
+            "image": "shopify:\/\/shop_images\/TK20_carbon_road_marquee.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "text_color": "text-light",
+            "link_text": "Racercykler fra Trek",
+            "link": "shopify:\/\/collections\/trek-racercykler",
+            "button_color": "btn--primary",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "1660898735f94e7652-1",
+        "1660898735f94e7652-0",
+        "138fe6d8-0bca-4d53-86b7-a573e0bdb742"
+      ],
+      "settings": {
+        "title": "Se et udvalg af vores cykler fra Trek her"
+      }
+    },
+    "1657707395cbc44915": {
+      "type": "section-custom-content",
+      "disabled": true,
+      "blocks": {
+        "1657707395ef63013d-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "Proven Power",
+            "text": "<p>Quick to charge, easy to operate, and always a blast to ride—we partner exclusively with the world’s best battery and motor manufacturers.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "text_color": "text-dark",
+            "bg_color": "#ffffff",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--large"
+          }
+        },
+        "1657707395ef63013d-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/141048140_204222531397000_3625305243681231095_n.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "description": "",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "1657707395ef63013d-1",
+        "1657707395ef63013d-0"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "padding": false,
+        "borders": false,
+        "wrapper": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "16577079142be374cb": {
+      "type": "section-custom-content",
+      "disabled": true,
+      "blocks": {
+        "1657707914e4f68bf2-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/156428214_231031318716121_7771899036568233940_n.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "description": "",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "caps--large"
+          }
+        },
+        "1657707914e4f68bf2-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "Tuned for the Ride",
+            "text": "<p>We blend state-of-the-art chassis with class-leading motors and batteries, optimized for riding. You get unrivaled handling and a smooth boost of power on every ride.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "text_color": "text-dark",
+            "bg_color": "#ffffff",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "1657707914e4f68bf2-0",
+        "1657707914e4f68bf2-1"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "padding": false,
+        "borders": false,
+        "wrapper": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1657706040c74481cf",
+    "166089805596ad888e",
+    "1660900415fb9db1ed",
+    "1657706489ee9c5bc9",
+    "1660900896ea91b710",
+    "1660898735c81b1eac",
+    "1657707395cbc44915",
+    "16577079142be374cb"
+  ]
+}

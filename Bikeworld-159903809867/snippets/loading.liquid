@@ -1,0 +1,42 @@
+{%- liquid
+  assign image_1 = settings.loading_image_1
+  assign image_2 = settings.loading_image_2
+  assign images_size = settings.loading_image_width | append: 'x' | append: settings.loading_image_width
+  assign two_images_exist = false
+  if image_1 != blank and image_2 != blank
+    assign two_images_exist = true
+  endif
+-%}
+{%- if image_1 != blank or image_2 != blank -%}
+  <div class="loading{% if two_images_exist %} loading--animate{% endif %}">
+    {%- if image_1 != blank -%}
+      <div class="loading__image__holder">
+        <img class="loading__image"
+          srcset="{% if image_1.width >= 50 %}{{ image_1 | img_url: '50x' }} 50w,{% endif %}
+          {% if image_1.width >= 100 %}{{ image_1 | img_url: '100x' }} 100w,{% endif %}
+          {% if image_1.width >= 150 %}{{ image_1 | img_url: '150x' }} 150w,{% endif %}
+          {% if image_1.width >= 200 %}{{ image_1 | img_url: '200x' }} 200w{% endif %}"
+          src="{{ image_1 | img_url: images_size }}"
+          loading="lazy"
+          width="{{ settings.loading_image_width }}"
+          height="{{ settings.loading_image_width }}"
+          alt="{{ image_1.alt | strip_html | escape }}">
+      </div>
+    {%- endif -%}
+
+    {%- if image_2 != blank -%}
+      <div class="loading__image__holder">
+        <img class="loading__image"
+          srcset="{% if image_2.width >= 50 %}{{ image_2 | img_url: '50x' }} 50w,{% endif %}
+          {% if image_2.width >= 100 %}{{ image_2 | img_url: '100x' }} 100w,{% endif %}
+          {% if image_2.width >= 150 %}{{ image_2 | img_url: '150x' }} 150w,{% endif %}
+          {% if image_2.width >= 200 %}{{ image_2 | img_url: '200x' }} 200w{% endif %}"
+          src="{{ image_2 | img_url: images_size }}"
+          loading="lazy"
+          width="{{ settings.loading_image_width }}"
+          height="{{ settings.loading_image_width }}"
+          alt="{{ image_2.alt | strip_html | escape }}">
+      </div>
+    {%- endif -%}
+  </div>
+{%- endif -%}

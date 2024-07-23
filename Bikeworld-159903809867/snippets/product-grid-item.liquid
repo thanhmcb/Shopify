@@ -1,0 +1,303 @@
+{% comment %}
+    Renders list of products in grid layout
+
+    Accepts:
+    - product: {Object} product (required)
+    - grid_strings: {String} contains a string of grid classes
+    - animation_delay: {Int} animation timing for load
+    - last_element: {Boolean} True when custom image is taking up the first slot for the collection
+                              and the loop is on the last element for the page.
+    - index: element index in the loop
+
+    Usage:
+    {% render 'product-grid-item', product: product, grid_strings: grid_strings, index: index %}
+{% endcomment %}
+
+{%- assign additional_attributes = additional_attributes | default: '' -%}
+{%- assign aos_image_delay_default = animation_delay | times: 150 -%}
+{%- assign aos_image_duration_default = animation_delay | times: 100 | plus: 800 -%}
+{%- assign aos_text_duration_default = animation_delay | times: 50 | plus: 800 -%}
+{%- assign aos_image_delay = aos_image_delay | default: aos_image_delay_default -%}
+{%- assign aos_image_duration = aos_image_duration | default: aos_image_duration_default -%}
+{%- assign aos_text_duration = aos_text_duration | default: aos_text_duration_default -%}
+
+{%- unless grid_strings -%}
+  {% assign grid_strings = "one-whole" %}
+{%- endunless -%}
+
+{%- assign border_class = '' -%}
+{%- if settings.product_grid_outline == false -%}
+  {%- assign border_class = 'product-item--borderless' -%}
+{%- endif -%}
+
+{%- assign alignment_class = '' -%}
+{%- if settings.product_grid_center == true -%}
+  {%- assign alignment_class = 'product-item--centered' -%}
+{%- endif -%}
+
+{%- if settings.quickview_enable == false and settings.color_swatches -%}
+  {%- assign has_colors = false -%}
+
+  {%- capture swatches -%}
+    {%- capture swatch_translation -%}{{ 'general.swatches.color' | t }}{%- endcapture -%}
+
+    {%- assign swatch_labels = swatch_translation | append: ',' | split: ',' -%}
+    {%- for label in swatch_labels -%}
+      {%- assign sanitized_label = label | lstrip | rstrip -%}
+      {%- if product.options_by_name[sanitized_label].values.size > 1 -%}
+        {%- assign has_colors = true -%}
+
+        <form class="radio__fieldset radio__fieldset--swatches radio__fieldset--small" data-grid-swatch-form>
+          <div class="selector-wrapper__scrollbar" data-scrollbar data-grid-swatches data-swatch-handle="{{ product.handle }}" data-swatch-label="{{ label }}"></div>
+
+          <button type="button" class="radio__fieldset-arrow radio__fieldset-arrow--prev is-hidden" data-scrollbar-arrow-prev>
+            <span class="visually-hidden">{{ 'products.general.see_all' | t }}</span>
+          </button>
+
+          <button type="button" class="radio__fieldset-arrow radio__fieldset-arrow--next is-hidden" data-scrollbar-arrow-next>
+            <span class="visually-hidden">{{ 'products.general.see_all' | t }}</span>
+          </button>
+        </form>
+
+        {%- break -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endcapture -%}
+{%- endif -%}
+
+{%- assign double_img = false -%}
+{%- if product.media[1].preview_image and settings.image_hover_enable -%}
+  {%- assign double_img = true -%}
+{%- endif -%}
+{%- assign current_variant = product.first_available_variant -%}
+
+{%- assign product_url = product.url -%}
+
+{%- capture item_unique -%}product-item--{{ section.id }}-{{ index }}{%- endcapture -%}
+{%- assign animation_anchor_default = item_unique | prepend: '.' -%}
+{%- assign animation_anchor = animation_anchor | default: animation_anchor_default -%}
+
+<div class="product-item {{ grid_strings }} {{ border_class }} {{ alignment_class }} {{ item_unique }}" data-product-grid-item {{ additional_attributes }}>
+  {%- capture over_image_content -%}
+    {%- assign product_tags = product.tags | join: ',' | append: ',' -%}
+    {%- assign preorder = false -%}
+    {%- assign is_preorder_meta = false -%}
+    {%- assign on_sale = false -%}
+    {%- assign sold_out = false -%}
+    {%- assign badge = '' -%}
+
+    {%- if product.metafields.theme.badge != blank and product.metafields.theme.badge.type == 'single_line_text_field' -%}
+      {%- assign badge = product.metafields.theme.badge.value -%}
+    {%- endif -%}
+  
+    {%- if badge == '' and product_tags contains '_badge_' -%}
+      {%- assign badge = product_tags | split: '_badge_' -%}
+      {%- assign badge = badge[1] | split: ',' | first | replace: '_', ' ' -%}
+    {%- endif -%}
+
+    {%- if product.metafields.theme.preorder.type == 'boolean' and product.metafields.theme.preorder.value == true -%}
+      {%- assign is_preorder_meta = true -%}
+    {%- endif -%}
+
+    {%- if product_tags contains '_preorder' or is_preorder_meta -%}
+      {%- assign preorder = true -%}
+    {%- endif -%}
+
+    {%- if product.compare_at_price > product.price and settings.sale_tags_enable -%}
+      {%- assign on_sale = true -%}
+    {%- endif -%}
+
+    {%- unless product.available -%}
+      {%- assign sold_out = true -%}
+    {%- endunless -%}
+    {%- render 'button-wishlist', product: product -%}
+    <div class="badge-box">
+      {%- if preorder and sold_out == false -%}
+        <span class="preorder-box">{{ 'products.product.pre_order' | t }}</span>
+        {%- elsif on_sale and sold_out == false-%}
+        <div class="sale-label sale-box"><span class="skew-fix">{{ 'products.product.on_sale' | t }}</span></div>
+        <div class="sale-label percentage-label">
+          {%- assign savings = product.compare_at_price | minus: product.price | times: 100.0 | divided_by: product.compare_at_price | round | append: '%' -%}
+          <span class="skew-fix">{{savings}}</span>
+        </div>
+        {%- elsif product.metafields.my_fields.custom_label != blank-%}
+        <div class="sale-label custom-label">
+          <span class="skew-fix"> {{product.metafields.my_fields.custom_label}}</span>
+        </div>
+        {%- endif -%}
+    </div>
+    
+    {%- if settings.quickview_enable and current_variant -%}
+      <button type="button" class="quick-add-button" tabindex="-1" data-button-quick-add-mobile{% if product.has_only_default_variant %} data-quick-add-button{% endif %}>
+        <span class="visually-hidden">{{ 'products.general.quick_view' | t }}</span>
+
+        <svg height="18" width="18" class="svg-loader">
+          <circle r="7" cx="9" cy="9" />
+          <circle stroke-dasharray="87.96459430051421 87.96459430051421" r="7" cx="9" cy="9" />
+        </svg>
+      </button>
+
+      <div class="slideup" data-quick-add-holder>
+        <button type="button" class="caps is-disable" data-focus-element data-quick-add-label="{{ product.handle }}" data-collection-handle="{{ collection.handle | default: 'primary' }}" {% if product.has_only_default_variant %} data-quick-add-button{% endif %} tabindex="0">
+          <span>
+            <small>{{ 'products.general.quick_view' | t }}</small>
+            
+            <small>{{ 'products.product.pre_order' | t }}</small>
+          </span>
+
+          <span>{{ 'products.general.quick_view_added' | t }}</span>
+
+          <svg height="18" width="18" class="svg-loader">
+            <circle r="7" cx="9" cy="9" />
+            <circle stroke-dasharray="87.96459430051421 87.96459430051421" r="7" cx="9" cy="9" />
+          </svg>
+
+          <span class="caps__error" data-message-error>&nbsp;</span>
+        </button>
+
+        <div data-quick-add-form-holder>&nbsp;</div>
+      </div>
+    {%- endif -%}
+  {%- endcapture -%}
+
+  <div class="product-item__image{% if double_img %} double__image{% endif %}" data-product-image>
+    <a class="product-link" href="{{ product_url }}" aria-label="{{ product.title | strip_html | escape }}" data-grid-link>
+      {% if product.media.size > 0 %}
+        <div class="product-item__bg lazyload"
+          data-grid-slide
+          data-aos="img-in"
+          data-aos-delay="{{ aos_image_delay }}"
+          data-aos-duration="{{ aos_image_duration }}"
+          data-aos-anchor="{{ animation_anchor }}"
+          data-aos-easing="ease-out-quart"
+          data-bgset="{% render 'bgset', image: product.featured_media.preview_image %}">
+          {% if settings.color_swatches and current_variant %}
+            {%- assign image_inner_empty = true -%}
+            {%- for variant in product.variants -%}
+              {%- if variant.featured_image != blank -%}
+                {%- assign image_inner_empty = false -%}
+                {%- assign variant_title = variant.title | replace: '"', "'" -%}
+                <div class="product-item__bg__inner lazyload" data-bgset="{% render 'bgset', image: variant.featured_image %}" data-variant-title="{{ variant_title }}" style="display: none;">&nbsp;</div>
+              {%- endif -%}
+            {%- endfor -%}
+            {%- if image_inner_empty -%}
+              &nbsp;
+            {%- endif -%}
+          {% else %}
+            &nbsp;
+          {% endif %}
+        </div>
+        {% if double_img %}
+          <div class="product-item__bg__under lazyload" data-bgset="{% render 'bgset', image: product.media[1].preview_image %}">&nbsp;</div>
+        {% endif %}
+      {% else %}
+        {%- comment -%} Show "No image" if product has no media {%- endcomment -%}
+        {%- assign image_url_pattern = product.featured_image | img_url: '540x' | replace: '_540x.', '_{width}x.' -%}
+        {%- assign image_widths = "[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]" -%}
+
+        <div class="product-item__bg product-item__bg--empty"
+          data-grid-slide
+          data-aos="img-in"
+          data-aos-delay="{{ aos_image_delay }}"
+          data-aos-duration="{{ aos_image_duration }}"
+          data-aos-anchor="{{ animation_anchor }}"
+          data-aos-easing="ease-out-quart">
+            <img
+              class="lazyload"
+              src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+              data-src="{{ image_url_pattern }}"
+              data-widths= "{{ image_widths }}"
+              data-aspectratio="1"
+              data-sizes="auto"
+              width="540"
+              height="540"
+              alt="{{ product.title | strip_html | escape }}">
+        </div>
+      {% endif %}
+    </a>
+
+    {{ over_image_content }}
+  </div>
+
+  <noscript>
+    <a class="product-link" href="{{ product_url }}" aria-label="{{ product.title | strip_html | escape }}" data-grid-link>
+      <div class="product-item__image no-js-image" style="background-image:url('{{ product.featured_media.preview_image | img_url: '540x' }}'); background-size: contain; background-position: center center; background-repeat: no-repeat;"></div>
+    </a>
+  </noscript>
+
+  <div class="product-information"
+    data-aos="fade"
+    data-aos-delay="{{ aos_image_delay }}"
+    data-aos-duration="{{ aos_text_duration }}"
+    data-aos-anchor="{{ animation_anchor }}"
+    data-product-information>
+    <a class="product-link" href="{{ product_url }}" aria-label="{{ product.title | strip_html | escape }}" data-grid-link>
+      {% if section.settings.show_vendor and product.vendor != "" %}
+        {% capture vendor_logo %}{{ product.vendor | handleize }}.png{% endcapture %}
+        <a class="product__grid__vendor" href="/collections/{{ product.vendor | handleize }}">
+          <img class="product__grid__vendor__logo" src="{{ vendor_logo | asset_url }}"
+              style="width: {{ section.settings.vendor_logo_max_limit }}px;"
+              data-sizes="auto">
+          <span class="product__grid__vendor__name" >{{ product.vendor }}</span>
+        </a>
+      {%- endif -%}
+
+      {%- if settings.product_grid_show_rating and product.metafields.reviews.rating.value != blank -%}
+        <div class="product__grid__stars">
+          {% render 'product-rating', product: product %}
+        </div>
+      {%- endif -%}
+
+      <p class="product__grid__title">
+        {{ product.title | strip_html | escape }}
+      </p>
+
+      {%- if product.metafields.theme.cutline != blank and product.metafields.theme.cutline.type == 'single_line_text_field' -%}
+        <p class="product__grid__cutline">{{ product.metafields.theme.cutline.value }}</p>
+      {%- endif -%}
+
+      <span class="price{% if product.compare_at_price > product.price %} sale{% endif %}">
+        {% if product.available %}
+          <span class="new-price">
+            {% if product.price_varies %}
+              <small>{{ 'products.general.from' | t }}</small>
+            {% endif %}
+            {%- if product.price == 0 and product.price_varies == false -%}
+              {{ 'general.money.free' | t }}
+            {%- else -%}
+              {{ product.price_min | money }}
+            {%- endif -%}
+          </span>
+          {% if product.compare_at_price > product.price %}
+            <span class="old-price">{{ product.compare_at_price | money }}</span>
+          {% endif %}
+        {% else %}
+          <span class="sold-out">{{ 'products.product.sold_out' | t }}</span>
+        {% endif %}
+      </span>
+      {% if current_variant.unit_price %}
+        {% capture unit_price_separator %}
+          <span aria-hidden="true">/</span>
+          <span class="visually-hidden">{{ 'general.accessibility.unit_price_separator' | t }}&nbsp;</span>
+        {% endcapture %}
+        {% capture unit_price_base_unit %}
+          {% if current_variant.unit_price_measurement.reference_value != 1 %}
+            {{ current_variant.unit_price_measurement.reference_value }}
+          {% endif %}
+          {{ current_variant.unit_price_measurement.reference_unit }}
+        {% endcapture %}
+        <br>
+        <span class="visually-hidden visually-hidden--inline">{{ 'products.product.unit_price_label' | t }}</span>
+        <span class="unit small">{{ current_variant.unit_price | money }}{{ unit_price_separator }}{{ unit_price_base_unit }}</span>
+      {% endif %}
+
+      {% if settings.quickview_enable == false and settings.color_swatches %}
+        {% if has_colors %}
+          <span class="grid__product-swatches-count" data-swatch-count>&nbsp;</span>
+        {% endif %}
+
+        {{ swatches }}
+      {% endif %}
+    </a>
+  </div>
+</div>

@@ -1,0 +1,382 @@
+{
+  "sections": {
+    "165295049498cd2019": {
+      "type": "section-hero",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/bw-video.jpg",
+        "bg_position": "center-center",
+        "height": "four-fifty-height-hero",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "title": "",
+        "description": "",
+        "flex_align": "align--middle-center",
+        "text_color": "text-light",
+        "transparent": true,
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "hero__btn btn btn--large btn--outline caps"
+      }
+    },
+    "16565715254a96a086": {
+      "type": "section-custom-content",
+      "blocks": {
+        "16565715257b6948d9-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/235295318_335101241642461_7400820128939676975_n.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "description": "",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "16565715257b6948d9-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "Om os",
+            "text": "<p>Hos BIKEWORLD er vi 16 ansatte (Dec 2019) og vores mål er at give folk en oplevelse og vise folk at man kan drive en moderne cykelforretning med cykler til alle formål og til alle typer af mennesker hvad end man er skoleelev, pensionist eller supermotionist. Vi vil fremad, og vil vil nå bredt. Vi handler ikke kun med cykler. Vi har alt lige fra fitnessudstyr, action cams, tøj og tasker til elcykler. BIKEWORLD er meget mere en bare cykler og slanger.<\/p><p>Der er god plads i BIKEWORLD. Plads til Danmarks bredeste udvalg, plads til at fordybe sig, plads til både børn og voksne, plads til både hverdagscyklister og halvproffe motionister, plads til en god cykelsnak, plads til at gøre en god handel.<\/p><p>BIKEWORLD er et cykelsupermarked, hvor du finder alt til cyklen, men du<br\/>kan være sikker på, at du ikke finder en eneste ”supermarkedscykel” på de 1800 kvadratmeter.<\/p><p>Vores filosofi er egentlig enkel: vi fører kun de ting, vi selv har lyst til at købe. Det skal være god kvalitet og give en god cykeloplevelse.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "text_color": "text-dark",
+            "bg_color": "#ffffff",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "16565715257b6948d9-0",
+        "16565715257b6948d9-1"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "16565715839c0d7ca3": {
+      "type": "section-custom-content",
+      "blocks": {
+        "16565715833531c1bf-0": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/235295318_335101241642461_7400820128939676975_n.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "Image with text",
+            "description": "Tell your brand's story through images.",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "View products",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "16565715833531c1bf-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "For hele familien",
+            "text": "<p>Selvom der er meget at se på og vælge imellem i BIKEWORLD, er der ro og plads<br\/>om de enkelte produktgrupper. Skal man have en hverdagscykel kigger man i ét område af butikken, mountainbikes i et andet, farverige børnecykler i et tredje og er man landevejsentusiast er racercyklerne samlet i et fjerde område, hvor der er plads til at fordybe sig, få rådgivning og måske et bike fit.<\/p><p>Selvom butiksrummet er 1800 kvadratmeter føles det indbydende og man ledes naturligt på opdagelse i de forskellige afdelinger.<\/p><p>Modsat den typiske cykelforretning er der ikke proppet cykler ind overalt i butikken. Et stort loungeområde med børnehjørne, bordfodbold og mulighed for at købe en forfriskning breder sig ved de store panoramavinduer. Her kan børn og ægtefæller hygge sig, mens man fordyber sig i cykelkøbet.<\/p><p>Vi vil gerne give vores kunder god plads og tid til at vælge det rigtige, også selvom man har hele familien med og børnene bliver utålmodige. Derfor har vi indrettet loungeområdet. Det skal være en god og anderledes oplevelse at handle her.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "text_color": "text-dark",
+            "bg_color": "#ffffff",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "16565715833531c1bf-0",
+        "16565715833531c1bf-1"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "show_content": true,
+        "text_size": 1,
+        "align_text": "text-left",
+        "height": "margin--medium",
+        "width": "wrapper",
+        "text_color": "text-dark",
+        "bg_color": "#f7f7f7"
+      }
+    },
+    "team-0": {
+      "type": "section-columns",
+      "blocks": {
+        "person-1": {
+          "type": "text_block",
+          "settings": {
+            "bg_position": "center-center",
+            "title": "Peter",
+            "text": "<p>Butik<\/p>",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--large",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "person-2": {
+          "type": "text_block",
+          "settings": {
+            "bg_position": "center-center",
+            "title": "Annika",
+            "text": "<p>Butik<\/p>",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--large",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "person-0": {
+          "type": "text_block",
+          "settings": {
+            "bg_position": "center-center",
+            "title": "Kasper",
+            "text": "<p>Webshop<\/p>",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--large",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "person-1",
+        "person-2",
+        "person-0"
+      ],
+      "settings": {
+        "title": "",
+        "bg_color": "#ffffff",
+        "align_text": "text-left",
+        "width": "wrapper--full",
+        "equalize_height": true,
+        "photo_aspect_ratio": 0.5,
+        "enable_image": true
+      }
+    },
+    "story": {
+      "type": "section-custom-content",
+      "blocks": {
+        "story-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "1800 kvm butik",
+            "text": "<p>Med sine 1800 kvadratmeter er BIKEWORLD en af landets allerstørste cykelbutikker og den største i Midtjylland.<\/p><p>Der er dog ingen diskussion om, at BIKEWORLD har Danmarks største udvalg. Der er altid mere end 2000 cykler på lager. Der er mere end 300 forskellige hjelme. Tøjafdelingen bugner<br\/>med kvalitetsmærker som Assos, Maloja og Giordana. Hos BIKEWORLD findes der også masser af gadgets som hovedtelefoner fra SkullCandy, action cams fra Garmin og GoPro. Samt diverse gps'er. Vi fører også en masse fitnessudstyr, livesstilstøj og briller. <\/p><p>BIKEWORLD er meget mere end bare cykler og slanger.<\/p>",
+            "text_size": 2,
+            "text_columns": 2,
+            "align_text": "text-left",
+            "text_color": "text-dark",
+            "bg_color": "#f7f7f7",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "story-1"
+      ],
+      "settings": {
+        "height": "image-height",
+        "padding": true,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "office": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vaerksted.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "description": "",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "Se vores værksted services",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "text-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "Værksted",
+            "text": "<p>På vores store og åbne værksted servicere vi alle former for cykler, lige fra elcykler til de dyreste cykler man kan finde. Vores mekanikere er specialiserede i det som de finder interesse i, så vi kan yde den bedst mulige service på de enkelte cykler. Og vi er hurtige - reparationer fra dag til dag. Hvis ikke man skal have bestilt en reservedel hjem selvfølgelig. Så kan man evt. også benytte sig af en lånecykel.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "text_color": "text-dark",
+            "bg_color": "#f7f7f7",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "image-0",
+        "text-1"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "padding": true,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "16529276379fcc6d5d": {
+      "type": "section-video",
+      "settings": {
+        "video_link_bg": "",
+        "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/7dabf8fad0fc45dd8dcca1b59e34bec0.mp4",
+        "image": "shopify:\/\/shop_images\/Skaermbillede_2022-05-19_kl._09.34.35.png",
+        "mobile_image": "shopify:\/\/shop_images\/bw-fastjob_m.jpg",
+        "bg_position": "center-center",
+        "desktop_height": "screen-height-two-thirds",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "title": "Vores historie",
+        "description": "",
+        "flex_align": "align--middle-center",
+        "text_color": "text-light",
+        "transparent": true,
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "hero__btn btn btn--large btn--outline caps"
+      }
+    },
+    "1652927984a18c0cee": {
+      "type": "section-logo-list",
+      "blocks": {
+        "165292798489a41144-0": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/giant.png",
+            "logo_width": 100,
+            "link": ""
+          }
+        },
+        "165292798489a41144-1": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/48637-Sticker-Trek-Logo-2018_1.png",
+            "logo_width": 100,
+            "link": ""
+          }
+        },
+        "165292798489a41144-2": {
+          "type": "logo-item",
+          "settings": {
+            "logo_width": 100,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165292798489a41144-0",
+        "165292798489a41144-1",
+        "165292798489a41144-2"
+      ],
+      "settings": {
+        "title": "DANMARKS STØRSTE UDVALG",
+        "text_color": "text-dark",
+        "bg_color": "#fafafa"
+      }
+    },
+    "1656571103f8727ddb": {
+      "type": "section-map",
+      "settings": {
+        "height": "screen-height-one-half",
+        "title": "Åbningstider",
+        "address": "<p><strong>Butik og Værksted<\/strong><\/p><p> <\/p><p><strong>Man-Torsdag <\/strong>10:00-17:30<\/p><p><strong>Fredag <\/strong>10:00-18:00<\/p><p><strong>Lørdag <\/strong>10:00-14:00 *<\/p><p> <\/p><p>*(Der udføres ikke reparationer om lørdagen)<\/p><p> <\/p><p><strong>Webshop<\/strong><\/p><p> <\/p><p><strong>Mandag-Fredag <\/strong>10:00-16:00<\/p><p>Lørdag og Søndag lukket<\/p>",
+        "button": "Rutevejledning",
+        "text_color": "text-dark",
+        "bg_color": "#fbfbfb",
+        "api_key": "AIzaSyAEbk-9NFxqsU0U-E4xZUzZlRLf7kcUKpY",
+        "map_address": "Viborgvej 3, 8600 Silkeborg",
+        "zoom": 13,
+        "style": "light",
+        "bg_position": "center-center",
+        "enable_latlong": false,
+        "lat": "",
+        "long": ""
+      }
+    },
+    "1660042576f44cb165": {
+      "type": "video-custom",
+      "settings": {
+        "video_link": "https:\/\/www.youtube.com\/embed\/69Ap8WsenXc",
+        "video-height": 400
+      }
+    }
+  },
+  "order": [
+    "165295049498cd2019",
+    "16565715254a96a086",
+    "16565715839c0d7ca3",
+    "main",
+    "team-0",
+    "story",
+    "office",
+    "16529276379fcc6d5d",
+    "1652927984a18c0cee",
+    "1656571103f8727ddb",
+    "1660042576f44cb165"
+  ]
+}

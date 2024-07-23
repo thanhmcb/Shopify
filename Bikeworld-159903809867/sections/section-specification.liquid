@@ -1,0 +1,86 @@
+{%- if section.blocks.size > 0 -%}
+  <div id="pim" class="faq" data-section-id="{{ section.id }}" data-section-type="faq">
+    {%- render 'pim', section: section -%}
+  </div>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Specification - MCB",
+  "class": "accordions-holder",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Specification"
+
+    }
+  ],
+  "blocks": [
+   
+  {
+    "name": "Pim heading",
+    "type": "pim-heading",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Pim heading"
+        
+      },
+      {
+        "type": "color",
+        "id": "header-bg",
+        "label": "Heading background",
+        "default":"#ddd"
+      }
+     
+     
+    ]
+  },
+    {
+      "type": "icon",
+      "name": "Icon column",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Icon heading"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.</p>"
+        }
+      ]
+    }   
+    
+  ],
+  "presets": [
+    {
+      "name": "Specification - MCB" 
+    }
+  ]
+}
+{% endschema %}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$( document ).ready(function() {
+    $(".no-content").remove();
+    $(".pim-heading").each(function(i, obj) {
+      if(!$(this).next().hasClass("pim-list__item"))
+  	{
+  		$(this).css("display","none");
+  	}
+   });
+if ( jQuery("#pim .pim-heading").css("display") == "none" )  {
+    jQuery('#pim').remove();
+}
+});
+
+  
+</script>
