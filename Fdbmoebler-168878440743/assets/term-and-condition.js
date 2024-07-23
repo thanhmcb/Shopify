@@ -14,7 +14,7 @@ const showCartPopUp = function(){
 }
 
 const container = document.querySelector('.cart-drawer');
-if (container){;
+if (container){
   container.addEventListener('click', function(event) {
     if (event.target.matches('#agree')) {
         if (document.querySelector('#agree').checked){
