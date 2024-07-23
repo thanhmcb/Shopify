@@ -167,6 +167,7 @@
                   {%- when 'checkout_button' -%}
                     {%- assign checkout_button = 'cart.general.checkout' | t -%}
                     {%- render 'button', type: 'submit', icon: 'picto-lock', content: checkout_button, size: 'xl', name: 'checkout', stretch: true, block: block -%}
+                    {%- comment -%} MCB Term and Condition start {%- endcomment -%}
                     {% if settings.cart_terms_page != blank %}
                       <terms-agreement class="terms-agreement cart__terms">
                         <input type="checkbox" id="terms" />
@@ -176,6 +177,7 @@
                     {%- if settings.terms_message_error -%}
                       <span id="cart__terms-error-message">{{ settings.terms_message_error }}</span>
                     {%- endif -%} 
+                    {%- comment -%} MCB Term and Condition start {%- endcomment -%}
                   {%- endcase -%} 
               {%- endfor -%}
             </form>

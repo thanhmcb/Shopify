@@ -1731,6 +1731,8 @@ var __typeError = (msg) => {
       this.replaceChildren(...tempDiv.querySelector("#cart-drawer").children);
     }
   };
+
+
   var CartNotificationDrawer = class extends Drawer {
     constructor() {
       super();
@@ -2726,6 +2728,7 @@ var __typeError = (msg) => {
     }
     connectedCallback() {
       this._productForm = document.forms[this.getAttribute("form")];
+     
       this._productForm?.addEventListener("cart:error", this._onCartErrorListener);
     }
     disconnectedCallback() {
@@ -2756,6 +2759,7 @@ var __typeError = (msg) => {
     window.customElements.define("buy-buttons", BuyButtons);
   }
   
+ 
   // js/common/product/product-gallery.js
   import { PhotoSwipeLightbox } from "vendor";
   var ProductGallery = class extends HTMLElement {
