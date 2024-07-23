@@ -39,10 +39,13 @@
     </div>
   </div>
 {% endif %}
+
+{%  comment  %}  
 <div class=wrapper>
     <div class=horizontalScroll>Scroll (x,y) to </div>
     <div class=verticalScroll>see me in action</div>
 </div>
+{% endcomment %} 
 <product-form class="js-product product-info quickbuy-content spaced-row container">
   <media-gallery class="media-gallery media-gallery--layout-{{ section.settings.gallery_layout }} media-gallery-size-{{ section.settings.gallery_size }} product-column-left {% if product.media.size > 1 %}has-thumbnails{% endif %}"
     data-cc-animate
