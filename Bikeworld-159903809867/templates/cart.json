@@ -1,0 +1,18 @@
+{
+  "sections": {
+    "main": {
+      "type": "cart",
+      "settings": {}
+    },
+    "16648510876fa268ff": {
+      "type": "section-liquid",
+      "settings": {
+        "custom_liquid": "<script>\n(function(d,l){var f=d.getElementsByTagName('script')[0],s=d.createElement('script');s.async=true;s.src='https:\/\/sparxpres.dk\/app\/webintegration\/static\/module-loader.js';s.onload=function(){sparxpresClientLoader(l);};f.parentNode.insertBefore(s,f);})(document,'67526d29-7e55-437f-9b54-fbfeb0c398ce');\n<\/script>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16648510876fa268ff"
+  ]
+}

@@ -1,0 +1,353 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "show_content": true,
+        "text_size": 3,
+        "align_text": "text-center",
+        "height": "margin--medium",
+        "width": "wrapper",
+        "text_color": "text-light",
+        "bg_color": "#66afe2"
+      }
+    },
+    "section_custom_content_Qem7A7": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_mtFTja": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "HOS BIKEWORLD HAR VI ET KÆMPE UDVALG AF ELCYKLER!",
+            "text": "<p>Gennem de seneste par år er udvalget kun vokset. Vi har alt fra almindelige elcykler, til racercykler eller el-mountainbikes.<br\/>For os er det vigtigt at have et bredt udvalg af høj kvalitet, så vi kan finde den elcykel der passer lige netop dig.<\/p><p>Vi uddanner vores personale i alle vores cykler, både i butikken, men også på værkstedet - så vi kan sørge for at du får den bedste service hos os!<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "text_color": "text-dark",
+            "bg_color": "#ffffff",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "image_DAhwmN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC1783.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "description": "",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "SE VORES ELCYKLER HER",
+            "link": "shopify:\/\/collections\/el-cykel",
+            "button_color": "btn--primary",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "text_mtFTja",
+        "image_DAhwmN"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "padding": false,
+        "borders": false,
+        "wrapper": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_sidebar_jPKNKY": {
+      "type": "section-sidebar",
+      "blocks": {
+        "header_6cy96r": {
+          "type": "header",
+          "settings": {
+            "title": "HVORFOR SKAL DU VÆLGE OS?"
+          }
+        },
+        "accordion_WxqDB4": {
+          "type": "accordion",
+          "settings": {
+            "title": "VEJLEDNING",
+            "content": "<p>Du skal vælge os på baggrund af vores mangeårige erfaring inden for alle kategorier af cykler og udstyr. <\/p><p>Hos Bikeworld er det vigtig for os at produkterne i vores sortiment, er noget vi selv vil bruge eller bruger i dagligdagen, uagtet om det er El-cykler, Racercykler, Mountainbikes eller Citybikes.  <\/p><p>Du har altid mulighed for at få den rette personlige vejledning både gennem vores fysiske butik og  hjemmeside via vores telefonnummer: 86 82 73 99 i vores åbningstider. <\/p>"
+          }
+        },
+        "accordion_eTypht": {
+          "type": "accordion",
+          "settings": {
+            "title": "VÆRKSTED",
+            "content": "<p>Vores værksted er toptrænet og topuddannet i service af elcykler.<\/p><ul><li>Vi er certificeret Shimano Service Center og Certificeret Bosch ebike forhandler.<\/li><li>Vi har uddannelser i både Specialized turbo, Promovec motorer, Giant motorer Og Bosch motorer.<\/li><li>Vi sørger også altid for løbende at uddanne personalet i alt nyt udstyr der måtte komme.<\/li><\/ul><p>Vi har fornuftige priser og med vores nye system, gemmer vi alle reparationer, så du kan komme tilbage om 3 år og se alt hvad der er lavet på din cykel.<\/p><p>Når du køber en ny cykel hos BIKEWORLD, får du også et service hæfte, hvor du kan få en super pris på service på vores eget værksted og kan tilvælge automatiske serviceindkaldelser, så du ikke selv skal huske på det.<\/p><p>OG med over 5000 reperationer i 2023 og et værksted der har kørt i over 20 år med 4-5 stjerner på trustpilot, er du helt sikkert i trygge hænder på vores værksted!<\/p>"
+          }
+        },
+        "accordion_JqqxnH": {
+          "type": "accordion",
+          "settings": {
+            "title": "UDVALG",
+            "content": "<p>Hos Bikeworld har vi et af de bredeste udvalg i Danmark på elcykler. Med over 4000 cykler på lager hele året rundt, og et stigende antal i elcykler, har vi altid noget hjemme. Hvad end det er en helt normal elcykel, dame, herre, eller en cross cykel? Vi har el-racercykler, el-mountainbikes, foldecykler eller ladcykler.<\/p><p>Med elcykler fra mere end 14 forskellige brands, og langt over 100 forskellige modeller og farver og priser.<br\/>Muligheden er mange, og vi har helt sikkert noget til dig!<\/p>"
+          }
+        },
+        "header_4X99Lw": {
+          "type": "header",
+          "settings": {
+            "title": "JEG VIL GERNE KØBE EN ELCYKEL"
+          }
+        },
+        "accordion_CyEMYe": {
+          "type": "accordion",
+          "settings": {
+            "title": "HANDEL PÅ NETTET",
+            "content": "<p>Hvad end du handler ved butikken i Silkeborg eller her på hjemmesiden, er det præcis den samme service du får. Du kan ringe til os og få vejledning og blive guided i lige netop hvilken elcykel DU skal have.<br\/>(86 82 73 99)<br\/><br\/>Der medfølger batteri og lader til alle elcykler købt på nettet, og de bliver skruet efter, opdateret og gjort køreklare inden vi pakker dem ned - så cyklen kan rulle når du modtager den.<\/p>"
+          }
+        },
+        "accordion_x4qcwP": {
+          "type": "accordion",
+          "settings": {
+            "title": "TYPE ELCYKEL",
+            "content": "<p>Uanset om du er ude efter en cykel til din normale hverdagspendling, en tur i skoven eller noget helt tredje, så har vi en elcykel som dækker dine specifikke behov.<\/p><p>Vores sortiment spænder meget bredt hvilket er inklusiv: El-Hverdagscykler, El-Hybridcykler, El-Mountainbikes og El-Racercykler. Derudover sørger vi for at ramme tidens trends bedst muligt, hvilket naturligvis betyder at vi også har El-Gravelbikes i vores nuværende sortiment.<\/p><p><\/p>"
+          }
+        },
+        "accordion_wa3gBV": {
+          "type": "accordion",
+          "settings": {
+            "title": "BATTERI",
+            "content": "<p>Når du skal ud og vælge din Elcykel, er det vigtigt at du finder ud af hvor stort et batteri der passer til dine specifikke behov. <\/p><p>Batterierne som du kan finde i vores sortiment starter fra 300 WH og findes helt op til 800 WH. Derudover er der også mulighed for at få en range extender til enkelte cykler eller eventuelt opgradere batteristørrelsen for en merpris.<\/p><p>For at afkræfte den meget velkendte myte omkring, at jo større batteri du har på din elcykel, jo hurtigere kan du køre, kan vi informere om at størrelsen på batteriet udelukkende har effekt på rækkevidden at din assisterede cykeltur.<\/p><p><\/p>"
+          }
+        },
+        "accordion_tqdJff": {
+          "type": "accordion",
+          "settings": {
+            "title": "MOTOR",
+            "content": "<p>Når du skal vælge din nye El-cykel, er det vigtigt at overveje motorplacering, for den rette kørestil til dine behov. Der er tre forskellige motorplaceringer på El-Cykler i dag. Der Findes Forhjul, Baghjul og Centermoterer. <\/p>"
+          }
+        },
+        "header_ehn8UM": {
+          "type": "header",
+          "settings": {
+            "title": "MÆRKER HOS BIKEWORLD"
+          }
+        },
+        "accordion_NqTdb9": {
+          "type": "accordion",
+          "settings": {
+            "title": "SPECIALIZED",
+            "content": "<p>Vores kontormus arbejder på en tekst her :)<\/p>"
+          }
+        },
+        "accordion_ihAtHY": {
+          "type": "accordion",
+          "settings": {
+            "title": "GIANT",
+            "content": "<p>Vores kontormus arbejder på en tekst her :)<\/p>"
+          }
+        },
+        "accordion_6BjLkf": {
+          "type": "accordion",
+          "settings": {
+            "title": "TREK",
+            "content": "<p>Vores kontormus arbejder på en tekst her :)<\/p>"
+          }
+        },
+        "text_etAaEn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Andre spørgsmål vedrørende elcykler? Du er altid velkommen til at skrive til butik@bikeworld.dk eller ringe på 86 82 73 99.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "header_6cy96r",
+        "accordion_WxqDB4",
+        "accordion_eTypht",
+        "accordion_JqqxnH",
+        "header_4X99Lw",
+        "accordion_CyEMYe",
+        "accordion_x4qcwP",
+        "accordion_wa3gBV",
+        "accordion_tqdJff",
+        "header_ehn8UM",
+        "accordion_NqTdb9",
+        "accordion_ihAtHY",
+        "accordion_6BjLkf",
+        "text_etAaEn"
+      ],
+      "settings": {
+        "height": "margin--medium",
+        "width": "wrapper--full",
+        "text_color": "text-dark",
+        "bg_color": "#ffffff"
+      }
+    },
+    "section_rich_text_igJmgx": {
+      "type": "section-rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "HVAD SYNES KUNDERNE OM OS?",
+        "text": "",
+        "text_size": 2,
+        "text_columns": 1,
+        "align_text": "text-center",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "caps--large",
+        "height": "margin--medium",
+        "width": "wrapper",
+        "text_color": "text-light",
+        "bg_color": "#fc9736",
+        "padding_top": 15,
+        "padding_bottom": 15
+      }
+    },
+    "section_hero_tn76FK": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Unavngivet_620_x_346_px_406_x_135_px_3.svg",
+        "mobile_image": "shopify:\/\/shop_images\/Unavngivet_620_x_346_px_406_x_135_px_3.svg",
+        "bg_position": "center-center",
+        "height": "image-height",
+        "overlay_opacity": 0,
+        "overlay_color": "#ffffff",
+        "title": "",
+        "description": "",
+        "flex_align": "align--top-center",
+        "text_color": "text-light",
+        "transparent": true,
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "hero__btn btn btn--large btn--outline caps",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_reviews_eLJMHG": {
+      "type": "section-reviews",
+      "blocks": {
+        "review_8dTwPD": {
+          "type": "review",
+          "settings": {
+            "title": "Ebbe Svaneklink",
+            "subheading": "Trustpilot review",
+            "review_text": "<p>Vi købte 2 Giant elcykler ved Bikeworld.<br\/>Vi blev mødt at en super sælger som lyttede og stillede spørgsmål til vores behov og ud fra det fandt han de helt rigtige cykler til os meget hurtigt.<br\/>I vores søgen efter el cykler havde vi været flere steder hvor vi ikke kunne få en ordentlig forklaring og vejledning, men det kunne man hos Bikeworld<\/p>",
+            "bio_image": "shopify:\/\/shop_images\/Skaermbillede_2024-02-21_kl._13.04.51.png",
+            "review_url": "https:\/\/www.trustpilot.com\/reviews\/6508876ceb5fef7f8ba105ca",
+            "review_link_name": "Se review"
+          }
+        },
+        "review_PjiJP4": {
+          "type": "review",
+          "settings": {
+            "title": "Michael Josiassen",
+            "subheading": "TRUSTPILOT REVIEW",
+            "review_text": "<p>Vi oplevede en god kundeservice og rådgivning i forbindelse med køb af El-cykel. Min kæreste har tidligere købt el-cykel hos Bikeworld, hvor vi har været yderst tilfreds.<br\/><br\/>Cyklen blev klargjort på en halv time samme dag, og vi fik en grundig vejledning fra ekspedienten, både i kørselsmønstre, opladning, indstillinger osv. En stor ros skal lyde for den kompetente gennemgang, som selv min kæreste lærte noget af i forhold til hendes el-cykel.<\/p>",
+            "bio_image": "shopify:\/\/shop_images\/Skaermbillede_2024-02-21_kl._13.05.59.png",
+            "review_url": "https:\/\/www.trustpilot.com\/reviews\/6499378e8d74fa91d8816744",
+            "review_link_name": "se review"
+          }
+        },
+        "review_hjEkkj": {
+          "type": "review",
+          "settings": {
+            "title": "John Kirkegaard Stephansen",
+            "subheading": "trustpilot review",
+            "review_text": "<p>Jeg købte 2 stk. El-cykler kort tid før lukketid, cyklerne blev gjort klar til levering allerede dagen efter til afhentning kl 10.<br\/>Vi fik en detaljeret vejledning i butikken og super kundeservice af en humørfyldt og faglig dygtig ekspedient :-)<br\/>Kan kun anbefale andre at bruge Bikeworld, når de skal have købt en ny cykel.<\/p>",
+            "bio_image": "shopify:\/\/shop_images\/Skaermbillede_2024-02-21_kl._13.08.56.png",
+            "review_url": "https:\/\/www.trustpilot.com\/reviews\/64a6926c73544e4ba7925a2f",
+            "review_link_name": "se review"
+          }
+        }
+      },
+      "block_order": [
+        "review_8dTwPD",
+        "review_PjiJP4",
+        "review_hjEkkj"
+      ],
+      "custom_css": [],
+      "settings": {
+        "text_align": "text-left",
+        "text_color": "text-dark",
+        "bg_color": "#e1f8ff"
+      }
+    },
+    "section_collection_carousel_WcyBTz": {
+      "type": "section-collection-carousel",
+      "disabled": true,
+      "settings": {
+        "heading": "Collection",
+        "description": "",
+        "text_alignment": "inline",
+        "link_text": "Shop All",
+        "link_url": "",
+        "button_color": "btn--black",
+        "button_style": "hero__btn btn btn--input btn--outline caps",
+        "featured_collection": "el-cykel"
+      }
+    },
+    "section_collections_list_89pM9J": {
+      "type": "section-collections-list",
+      "blocks": {
+        "collection_aHd7x7": {
+          "type": "collection",
+          "settings": {
+            "collection": "el-hverdag",
+            "title": ""
+          }
+        },
+        "collection_47PpEK": {
+          "type": "collection",
+          "settings": {
+            "collection": "el-hybridcykel",
+            "title": ""
+          }
+        },
+        "collection_Nk88Kr": {
+          "type": "collection",
+          "settings": {
+            "collection": "el-mountainbikes",
+            "title": ""
+          }
+        },
+        "collection_dWDbGM": {
+          "type": "collection",
+          "settings": {
+            "collection": "el-racercykel",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_aHd7x7",
+        "collection_47PpEK",
+        "collection_Nk88Kr",
+        "collection_dWDbGM"
+      ],
+      "settings": {
+        "title": "SE VORES KÆMPE UDVALG HERUNDER",
+        "description": "",
+        "layout": "grid",
+        "aspect_ratio": 1,
+        "enable_slider": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_custom_content_Qem7A7",
+    "section_sidebar_jPKNKY",
+    "section_rich_text_igJmgx",
+    "section_hero_tn76FK",
+    "section_reviews_eLJMHG",
+    "section_collection_carousel_WcyBTz",
+    "section_collections_list_89pM9J"
+  ]
+}

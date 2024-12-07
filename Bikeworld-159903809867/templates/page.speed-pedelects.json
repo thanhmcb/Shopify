@@ -1,0 +1,88 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text-dark",
+        "bg_color": "#ffffff"
+      }
+    },
+    "166064173845aeb76e": {
+      "type": "section-rich-text",
+      "settings": {
+        "subheading": "Speed Pedelects",
+        "title": "Regler for elcykler der kan køre 45 km\/t",
+        "text": "<p>Den i juli 2018 trådte der en ny forsøgsordning for de såkaldte \"speed pedelects\" i kraft. Det betyder i bund og grund nu at, du kan købe elcykler der helt lovligt kan køre op til 45 km\/t.<\/p><p>Du kan herunder finde en forklaring på hvad der er op og ned i ordningen.<\/p><p>En Speed pedelec er som navnet antyder en elcykel der hjælper når du træder i pedalerne. Motoren er således kun aktiv når der trædes. Motoren må ikke hjælpe når der ikke trædes - det er derfor f.eks ikke muligt at få en cykel med gashåndtag som vi kender der fra scootere og knallerter.<\/p>",
+        "text_size": 2,
+        "text_columns": 1,
+        "align_text": "text-left",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "caps--large",
+        "height": "margin--medium",
+        "width": "wrapper--narrow",
+        "text_color": "text-dark",
+        "bg_color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 5
+      }
+    },
+    "1660642516fed01081": {
+      "type": "section-rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "text": "<p><strong>En speed pedelec må derfor:<\/strong><\/p><p>- Yde assistance op til 45 km\/t når der trædes i pedalerne<\/p><p>- Det er forbudt at køre på en speed pedelec, hvis du er under 15 år<\/p><p>- Hvis du er 15-17 år, skal du have kørekort til en lille knallert eller have taget kørekort til bil efter reglerne om kørekort til 17-årige<\/p><p>- Hvis du er 18 år eller derover, er der ingen krav om kørekort<\/p><p>- Du skal cykle efter cykel-reglerne. Dvs. at du skal bruge cykelstien (hvis der er sådan en) og følge de cyklist signaler og skiltning der måtte være.<\/p><p>- <a href=\"https:\/\/www.bikeworld.dk\/search\/where\/category\/cykelhjelm?q=pedelec\" target=\"_self\">Du skal bruge cykelhjelm. Vi anbefaler at du bruger en pedelec godkendt hjelm (NTA 8776). Denne type hjelme lever op til en højere standard og de højere hastigheder og beskytter derofr hovedet bedre end en almindelig type cykelhjelm.<\/a><\/p><p>- Du skal køre med lys på cyklen hele døgnet<\/p><p>- Du må ikke have passagerer med og du må ikke bruge cykelanhænger<\/p><p>- Promillegrænsen er 0,5 som på bil, knallert og motorcykel og der er nultollerence for euforiserende stoffer. <\/p>",
+        "text_size": 2,
+        "text_columns": 1,
+        "align_text": "text-left",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "caps--large",
+        "height": "margin--medium",
+        "width": "wrapper--narrow",
+        "text_color": "text-dark",
+        "bg_color": "#ededed",
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "16606422823a568200": {
+      "type": "section-rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "text": "<p>Når du kører på en speed pedelec der kan køre op til 45 km\/t er du erstatningsansvarlig for skader, du forvolder, på samme måde som det gælder hvis du kører andre motordrevne køretøjer (knallert, bil og motorcykel). Det er derfor også lovpligtigt at tege en ansvarsforsikring og altid medbringe en præmiekvittering.<\/p><p><\/p><p>Hvis du er i tvivl om hvordan du skal forhold dig eller har du spørgsmål til de nye hurtige elcykler eller almindelige e-bikes så tøv ikke med, at kontakte os eller komme forbi vores butik i Silkeborg.<\/p><p>Vi har personale i butikken der er eksperter i elcykler og vi har naturligvis også mekanikere der er uddannet i de nyeste teknologier. Du er med andre ord i gode hænder i BikeWorld når det handler om elcykler.<\/p>",
+        "text_size": 2,
+        "text_columns": 1,
+        "align_text": "text-left",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "caps--large",
+        "height": "margin--medium",
+        "width": "wrapper--narrow",
+        "text_color": "text-dark",
+        "bg_color": "#ffffff",
+        "padding_top": 5,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "166064173845aeb76e",
+    "1660642516fed01081",
+    "16606422823a568200"
+  ]
+}

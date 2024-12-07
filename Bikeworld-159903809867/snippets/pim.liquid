@@ -1,0 +1,52 @@
+{%- assign animation_anchor = '#faq--' | append: section.id -%}
+
+<section class="section-faq accordion" id="faq--{{ section.id }}" data-accordion>
+  {%- if section.settings.title != blank -%}
+    <h2 data class="section-faq__title accordion__title is-open" data-focus-element tabindex="0" data-accordion-toggle>{{ section.settings.title }}</h2>
+  {%- endif -%}
+
+  <div class="section__body accordion__body" style="display: block; box-sizing: border-box;" data-accordion-body>
+    <div class="faq-list-holder">
+      <div class="faq-list faq-pim faq-list--{{ section.blocks.size }}">
+        {%- for block in section.blocks -%}
+          {% capture text_content %}
+            <div class="faq-list__item-description pim-description">
+            
+                <h3 class="faq-list__item-title">
+                  {{ block.settings.title }}
+                </h3>
+             
+
+              <div class="rte faq-list__item-content">
+                {{ block.settings.text }}
+              </div>
+            </div>
+          {% endcapture %}
+
+          {%- case block.type -%}
+          
+          {%- when 'pim-heading' -%}
+          <div class="faq-list__item pim-heading">
+              {{block.settings.title}}
+              <style>
+                .pim-heading {
+                  background-color: {{block.settings.header-bg}};
+                }
+              </style>
+
+          </div>
+            {%- when 'icon' -%}
+              <div class="faq-list__item pim-list__item {% if block.settings.text == blank %}no-content{% endif %}" {{ block.shopify_attributes }}>
+                {{ text_content }}
+              </div>
+            
+           
+      
+            {%- else -%}
+          {%- endcase -%}
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+</section>
+

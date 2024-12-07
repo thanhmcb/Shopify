@@ -1,0 +1,44 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text-dark",
+        "bg_color": "#ffffff"
+      }
+    },
+    "16541728155b9734c1": {
+      "type": "section-rich-text",
+      "settings": {
+        "subheading": "Ebike Center Bikeworld",
+        "title": "Bikeworld Elcykel Center",
+        "text": "<p>Med den øgede efterspørgsel der er på elcykler og det voksende udvalg af forskellige modeller, har vi valg at satse kraftigt på el-cykler i vores butik i Silkeborg. Du finder derfor altid et kæmpe udvalg af el-cykler fra mærker som Nishiki, Giant, Specialized, Trek, Winther,  E-fly, Kildemoes, Raleigh og mange flere.<\/p><p>Der vil derfor være fokus på elcykler til enhvert formål. Vi har elcykler til hverdagsbrug, <a href=\"https:\/\/www.bikeworld.dk\/cykler\/elcykel\/elcykel-citybike.html\" target=\"_self\">citybikes<\/a>, <a href=\"https:\/\/www.bikeworld.dk\/cykler\/elcykel\/elcykel-citybike.html\" target=\"_self\">pendlercykler<\/a>, <a href=\"https:\/\/www.bikeworld.dk\/cykler\/elcykel\/where\/category\/elcykel-race-og-mtb.html\" target=\"_self\" title=\"El-cykel -MTB\">mountainbikes <\/a>og endda el-racercykler. Du vil derfor altid kunne finde den helt rigtige el-cykel til netop dit behov.<\/p><p>Da butikken er indrettet til salg af elcykler er der selvfølgelig gjort plads til mange forskellige typer. Det betyder. at vi kan levere din nye elcykel uanset om du søger den mere traditionelle med forhjulsstræk og let overskueligt LED display eller om du søger en model med centermotor og køre computer. Ja selv hvis du ønsker en elcykel med automatgear, en racer eller MTB, kan vi klare dette også.<\/p><p>Hvis du har spørgsmål til de forskellige typer motorer og batterier, eller du ønsker måske at opgradere til et batteri med større kapacitet -så tøv ikke med at kontakte os eller komme forbi - Vi står altid klar <br\/>til at hjælpe.<br\/><br\/>Og husk hos Bikeworld Ebike Center finder du de nyeste modeller og de bedste tilbud på elcykler. Du kan se vores udvalg under <a href=\"https:\/\/www.bikeworld.dk\/cykler\/el-cykel.html\"><em><strong>cykler\/el-cykler<\/strong><\/em><\/a> og du er altid velkommen til at komme forbi og prøve den\/de modeller du måtte have interesse. Og vi kan være behjælpelige med en evt. Finansiering.<\/p>",
+        "text_size": 2,
+        "text_columns": 1,
+        "align_text": "text-left",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "caps--large",
+        "height": "margin--medium",
+        "width": "wrapper--narrow",
+        "text_color": "text-dark",
+        "bg_color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16541728155b9734c1"
+  ]
+}

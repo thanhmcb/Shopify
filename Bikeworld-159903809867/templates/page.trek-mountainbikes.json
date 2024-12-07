@@ -1,0 +1,216 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text-dark",
+        "bg_color": "#ffffff"
+      }
+    },
+    "1657706040c74481cf": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/shutterstock_659821903.jpg",
+        "bg_position": "center-top",
+        "height": "screen-height-one-half",
+        "overlay_opacity": 30,
+        "overlay_color": "#000000",
+        "title": "Trek mountainbikes",
+        "description": "Der er mange måder, hvorpå du kan vælge den rigtige mountain bike. Én ting er dog sikkert, og det er, at Trek har den, der passer til dig.",
+        "flex_align": "align--middle-left",
+        "text_color": "text-light",
+        "transparent": true,
+        "link_text": "Se udvalget",
+        "link": "shopify:\/\/pages\/contact",
+        "button_color": "btn--primary",
+        "button_style": "hero__btn btn btn--large caps",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "16577072956bea3c34": {
+      "type": "section-custom-content",
+      "blocks": {
+        "1657707295d9b8d283-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "Mountainbikes til alle typer fra Trek",
+            "text": "",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "text_color": "text-dark",
+            "bg_color": "#ffffff",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--large"
+          }
+        },
+        "ef8e0b7b-0aa5-42b8-9ad8-d26aca88d1ea": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "",
+            "text": "<p>Trek har et bredt udvalg af mountainbikes, der blandt andet tæller crosscountry, trail, el, fatbike og downhill.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "text_color": "text-dark",
+            "bg_color": "#ffffff",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "1657707295d9b8d283-1",
+        "ef8e0b7b-0aa5-42b8-9ad8-d26aca88d1ea"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "padding": false,
+        "borders": false,
+        "wrapper": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1657707395cbc44915": {
+      "type": "section-custom-content",
+      "blocks": {
+        "1657707395ef63013d-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Supercaliber99XX1AXS_22_35145_A_Portrait_3000x_0f3ce088-dcec-42a3-ba84-c4a1b6b13722.webp",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "description": "",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "caps--large"
+          }
+        },
+        "1657707395ef63013d-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "Pasformer til alle",
+            "text": "<p>Trek ved at alle ryttere er forskellige. Engang lavede de cykler til enten mænd eller kvinder. Nu laver de \"unisex\" cykler, da begge køn kan have gavn af de forskellige funktioner.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "text_color": "text-dark",
+            "bg_color": "#ffffff",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "1657707395ef63013d-0",
+        "1657707395ef63013d-1"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "padding": false,
+        "borders": false,
+        "wrapper": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "16577079142be374cb": {
+      "type": "section-custom-content",
+      "blocks": {
+        "1657707914e4f68bf2-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "Mountainbikes i høj kvalitet",
+            "text": "<p>Uanset cyklen man vælger fra Trek, kan man være sikker på én ting og det er den høje kvalitet. Trek har lavet mountainbikes siden 1976 og må derfor siges at være en af de førende producenter.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "text_color": "text-dark",
+            "bg_color": "#ffffff",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--large"
+          }
+        },
+        "1657707914e4f68bf2-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Powerfly_FS_RIB_Feature.webp",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "description": "",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "1657707914e4f68bf2-1",
+        "1657707914e4f68bf2-0"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "padding": false,
+        "borders": false,
+        "wrapper": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "16611474563b09be4b": {
+      "type": "section-collection-carousel",
+      "settings": {
+        "heading": "Udvalg af Trek mountainbikes",
+        "description": "",
+        "text_alignment": "inline",
+        "link_text": "Se alle her",
+        "link_url": "",
+        "button_color": "btn--black",
+        "button_style": "hero__btn btn btn--input btn--outline caps",
+        "featured_collection": "trek-mountainbikes"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1657706040c74481cf",
+    "16577072956bea3c34",
+    "1657707395cbc44915",
+    "16577079142be374cb",
+    "16611474563b09be4b"
+  ]
+}

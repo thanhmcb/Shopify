@@ -1,0 +1,205 @@
+{%- if upsell_product -%}
+  {%- assign upsell_error = false -%}
+
+  {%- assign upsell_variant = upsell_product.selected_or_first_available_variant -%}
+
+  {%- if upsell_product.title == '' or upsell_variant == nil -%}
+    {%- assign upsell_error = true -%}
+  {%- endif -%}
+
+  {%- if request.design_mode -%}
+    {%- assign upsell_error = false -%}
+  {%- endif -%}
+  
+  {%- unless upsell_error -%}
+    {%- if request.design_mode and upsell_product.title == '' or upsell_variant == nil -%}
+      {%- assign upsell_error = true -%}
+    {%- endif -%}
+
+    <div class="product-upsell-holder {{ class }}" data-upsell-holder="{{upsell_product.id}}">
+      <h2 class="product-upsell-holder__title small">{{ 'products.general.upsell_title' | t }}</h2>
+
+      <div data-cart-errors-container class="product-upsell__errors small"></div>
+    
+      <div class="product-upsell">
+        {%- assign upsell_image = upsell_product.featured_media.preview_image -%}
+    
+        <div class="product-upsell__image">
+          {%- if upsell_error -%}
+            <div class="product-upsell__image-inner" style="background-image: url({{ 'blank.svg' | asset_url }});"></div>
+          {%- else -%}
+            <a href="{{ upsell_product.url }}">
+              {%- if upsell_image -%}
+              <div class="product-upsell__image-inner lazyload" aria-label="{{ upsell_image.alt | strip_html | escape }}" role="img" data-bgset="{% render 'bgset', image: upsell_image %}">
+                <noscript>
+                  <img src="{{ upsell_image.preview_image.src | img_url: '720x' }}" width="{{- upsell_image.preview_image.width -}}" height="{{- upsell_image.preview_image.height -}}"  alt="{{ upsell_image.alt | strip_html | escape }}">
+                </noscript>
+              </div>
+              {%- else -%}
+                <div class="product-upsell__image-inner" aria-label="{{ upsell_product.title | strip_html | escape }}" role="img" style="background-image: url({{ 'blank.svg' | asset_url }});">
+                  <noscript>
+                    <img src="{{ 'blank.svg' | asset_url }}" width="300" height="300" alt="{{ upsell_product.title | strip_html | escape }}">        
+                  </noscript>
+                </div>      
+              {%- endif -%}
+            </a>
+          {%- endif -%}
+        </div>
+    
+        <div class="product-upsell__content">
+          {%- if upsell_error -%}
+            <h3 class="product-upsell__title small">{{ 'products.general.upsell_error_title' | t }}</h3>
+    
+            <h4 class="product-upsell__variant-title small">{{ 'products.general.upsell_error_info' | t }}</h4> 
+          {%- else -%}  
+            <a href="{{ upsell_product.url }}">
+              <h3 class="product-upsell__title small">{{ upsell_product.title | strip_html }}</h3>
+    
+              {%- unless upsell_product.has_only_default_variant -%}
+                <h4 class="product-upsell__variant-title small">{{ upsell_variant.title | replace: '/', '<span>&nbsp;</span>' }}</h4> 
+              {%- endunless -%}
+    
+              <p class="product-upsell__price small {% if upsell_variant.compare_at_price > upsell_variant.price %} sale{% endif %}">
+                <span class="new-price">
+                  {%- if upsell_variant.price == 0 -%}
+                    {{ 'general.money.free' | t }}
+                  {%- else -%}
+                    {{ upsell_variant.price | money }}
+                  {%- endif -%}
+                </span>  
+                
+                {%- if upsell_variant.compare_at_price > upsell_variant.price -%}
+                  <span class="old-price">{{ upsell_variant.compare_at_price | money }}</span>
+                {%- endif -%}
+                
+                {%- if upsell_variant.unit_price -%}
+                  {%- capture unit_price_separator -%}
+                    <span aria-hidden="true">/</span>
+                    <span class="visually-hidden">{{ 'general.accessibility.unit_price_separator' | t }}&nbsp;</span>
+                  {%- endcapture -%}
+    
+                  {%- capture unit_price_base_unit -%}
+                    {%- if upsell_variant.unit_price_measurement.reference_value != 1 -%}
+                      {{ upsell_variant.unit_price_measurement.reference_value }}
+                    {%- endif -%}
+                    {{ upsell_variant.unit_price_measurement.reference_unit }}
+                  {%- endcapture -%}
+                  
+                  <br />
+    
+                  <span class="visually-hidden visually-hidden--inline">{{ 'products.product.unit_price_label' | t }}</span>
+    
+                  <span class="unit">{{ upsell_variant.unit_price | money }}{{ unit_price_separator }}{{ unit_price_base_unit }}</span>
+                {% endif -%}
+              </p>  
+            </a>
+
+            {%- if in_cart -%}  
+              <button type="button" class="product-upsell__skip" data-skip-pair-product>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" class="icon"><path fill="#444" d="M15.89 14.696l-4.734-4.734 4.717-4.717c.4-.4.37-1.085-.03-1.485s-1.085-.43-1.485-.03L9.641 8.447 4.97 3.776c-.4-.4-1.085-.37-1.485.03s-.43 1.085-.03 1.485l4.671 4.671-4.688 4.688c-.4.4-.37 1.085.03 1.485s1.085.43 1.485.03l4.688-4.687 4.734 4.734c.4.4 1.085.37 1.485-.03s.43-1.085.03-1.485z"/></svg>
+              </button>
+            {%- endif -%}
+          
+            {%- if upsell_product.has_only_default_variant -%}            
+              {%- form 'product', upsell_product -%}
+                <input type="hidden" name="id" value="{{ upsell_variant.id }}">
+      
+                <button 
+                  type="submit" 
+                  name="add" 
+                  data-add-to-cart
+                  data-focus-element 
+                  data-upsell-btn 
+                  class="product-upsell__btn {% unless upsell_variant.available %} is-hidden {% endunless %}">
+                  <span class="product-upsell__btn-hidden" data-upsell-btn-text>{{ 'products.general.upsell_add_to_cart' | t }}</span>
+      
+                  <span class="product-upsell__btn-text">{{ 'products.general.upsell_add_to_cart' | t }}</span>
+      
+                  <span class="product-upsell__btn-plus" aria-label="+">
+                    <svg width="10px" height="10px" viewBox="0 0 10 10" class="product-upsell__icon-plus">
+                      <path d="M5,0.5 C5.27614237,0.5 5.5,0.723857625 5.5,1 L5.5,5 L9.5,5 C9.77614237,5 10,5.22385763 10,5.5 C10,5.77614237 9.77614237,6 9.5,6 L5.5,6 L5.5,10 C5.5,10.2761424 5.27614237,10.5 5,10.5 C4.72385763,10.5 4.5,10.2761424 4.5,10 L4.5,6 L0.5,6 C0.223857625,6 3.38176876e-17,5.77614237 0,5.5 C-3.38176876e-17,5.22385763 0.223857625,5 0.5,5 L4.5,5 L4.5,1 C4.5,0.723857625 4.72385763,0.5 5,0.5 Z" fill-rule="nonzero"></path>
+                    </svg>
+                  </span>
+      
+                  <span class="product-upsell__btn-progress">
+                    <svg height="18" width="18" class="svg-loader">
+                      <circle r="7" cx="9" cy="9" />
+                      <circle stroke-dasharray="87.96459430051421 87.96459430051421" r="7" cx="9" cy="9" />
+                    </svg>
+                  </span>
+      
+                  <span class="product-upsell__btn-check">&nbsp;</span>
+                </button>
+
+                <p class="product-upsell__out-of-stock">{{ 'products.general.upsell_out_of_stock' | t }}</p>
+              {%- endform -%}
+            {%- endif -%}
+
+            {%- unless upsell_product.has_only_default_variant -%}
+              <button 
+                data-popup-{{upsell_product.id}}="{{upsell_product.id}}"
+                data-upsell-btn
+                class="product-upsell__btn"
+                type="button"> 
+                  <span class="product-upsell__btn-hidden" data-upsell-btn-text>{{ 'products.general.upsell_add_to_cart' | t }}</span>
+      
+                  <span class="product-upsell__btn-text">{{ 'products.general.upsell_add_to_cart' | t }}</span>
+      
+                  <span class="product-upsell__btn-plus" aria-label="+">
+                    <svg width="10px" height="10px" viewBox="0 0 10 10" class="product-upsell__icon-plus">
+                      <path d="M5,0.5 C5.27614237,0.5 5.5,0.723857625 5.5,1 L5.5,5 L9.5,5 C9.77614237,5 10,5.22385763 10,5.5 C10,5.77614237 9.77614237,6 9.5,6 L5.5,6 L5.5,10 C5.5,10.2761424 5.27614237,10.5 5,10.5 C4.72385763,10.5 4.5,10.2761424 4.5,10 L4.5,6 L0.5,6 C0.223857625,6 3.38176876e-17,5.77614237 0,5.5 C-3.38176876e-17,5.22385763 0.223857625,5 0.5,5 L4.5,5 L4.5,1 C4.5,0.723857625 4.72385763,0.5 5,0.5 Z" fill-rule="nonzero"></path>
+                    </svg>
+                  </span>
+      
+                  <span class="product-upsell__btn-progress">
+                    <svg height="18" width="18" class="svg-loader">
+                      <circle r="7" cx="9" cy="9" />
+                      <circle stroke-dasharray="87.96459430051421 87.96459430051421" r="7" cx="9" cy="9" />
+                    </svg>
+                  </span>
+      
+                  <span class="product-upsell__btn-check">&nbsp;</span>
+              </button>
+            {%- endunless -%}
+          {%- endif -%}
+        </div>
+      </div>
+      
+      {%- unless upsell_product.has_only_default_variant -%}
+        <div class="upsell__modal" data-upsell-modal data-tall-layout="false" id="{{upsell_product.id}}" aria-hidden="true">
+          <div class="upsell__modal__overlay" data-micromodal-close tabindex="-1"></div>
+
+          <div class="upsell__modal__content" role="dialog" aria-modal="true">
+            <button type="button" data-micromodal-close class="upsell__modal__close" aria-label="{{ 'general.accessibility.close' | t }}"></button>
+
+            {%- if upsell_product.media.size > 0 -%}  
+              <div class="upsell__modal__images" data-product-slideshow>
+                {% for media in upsell_product.media %}
+                  {% render 'media', media: media, section: section %}
+                {% endfor %}
+              </div>
+            {%- endif -%}
+            
+            <div class="upsell__modal__form">
+              <div class="upsell__modal__form__inner">
+                <h3 class="product__title">
+                  <a href="{{ upsell_product.url }}">{{ upsell_product.title | strip_html }}</a>
+                </h3>
+    
+                {%- render 'product-price' current_product: upsell_product, section: section -%}
+    
+                <div class="upsell__form" data-form-wrapper>
+                  {%- render 'product-form', current_product: upsell_product, block: block, section: section, enable_popup_trigger: true, select_buttons: true, show_quantity: true, quantity_show: true, unique: upsell_product.id, hide_additional_elements: true -%}
+                </div>
+              </div>
+            </div>
+
+            <script data-product-json type="application/json">
+              {{ upsell_product | json }}
+            </script>
+          </div>
+        </div>
+      {%- endunless -%}
+    </div>
+  {%- endunless -%}
+{%- endif -%}

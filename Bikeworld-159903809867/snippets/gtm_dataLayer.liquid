@@ -1,0 +1,230 @@
+<script>
+fetch('/cart.js')
+  .then(response => response.json())
+  .then(data => {
+    cartItems = [];
+    for (var i = 0; i < data.items.length; i++) {
+        cartItems.push({
+            'item_name': data.items[i].product_title,
+            //'item_id': 'shopify_DK_' + data.items[i].product_id + '_' + data.items[i].variant_id,
+            'item_id': data.items[i].sku,
+            'price': data.items[i].price / 100,
+            'item_brand': data.items[i].vendor,
+            'item_category': data.items[i].product_type,
+            'quantity': data.items[i].quantity,
+        });
+    };    
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        'event': 'page_view',
+      	'pageType': '{{request.page_type}}',
+        'currency': '{{shop.currency}}',
+        'cart_token' : data.token,
+        'cart_value' : data.total_price / 100,
+        'cart_quantity' : data.item_count,
+        'cart_items': cartItems
+    });
+    });  
+</script>
+
+<!-- Google Tag Manager -->
+<script>!function(){"use strict";function e(e){return function(e){for(var t=0,r=document.cookie.split(";");t<r.length;t++){var n=r[t].split("=");if(n[0].trim()===e)return n[1]}}(e)}function t(e){return localStorage.getItem(e)}function r(e){return window[e]}function n(e,t){var r=document.querySelector(e);return t?null==r?void 0:r.getAttribute(t):null==r?void 0:r.textContent}!function(o,i,a,c,u,l,s,v,d,f,g){var E,I,m,T;try{I=d&&(m=navigator.userAgent,(T=new RegExp("Version/([0-9._]+)(.*Mobile)?.*Safari.*").exec(m))&&parseFloat(T[1])>=16.4)?function(o,i,a){void 0===i&&(i="");var c={cookie:e,localStorage:t,jsVariable:r,cssSelector:n},u=Array.isArray(i)?i:[i];if(o&&c[o])for(var l=c[o],s=0,v=u;s<v.length;s++){var d=v[s],f=a?l(d,a):l(d);if(f)return f}else console.warn("invalid uid source",o)}(d,"_shopify_y",""):void 0}catch(e){console.error(e)}var _=o;_[c]=_[c]||[],_[c].push({"gtm.start":(new Date).getTime(),event:"gtm.js"});var p=i.getElementsByTagName(a)[0],A=I?"&bi="+encodeURIComponent(I):"",N=i.createElement(a),D=I?"kp"+v:v,R=!I&&s?s:"https://gtm.bikeworld.dk";N.async=!0,N.src=R+"/"+D+".js?id=GTM-NFVRB7X"+A,null===(E=p.parentNode)||void 0===E||E.insertBefore(N,p)}(window,document,"script","dataLayer",0,0,"","yguthzqj","cookie")}();</script>
+<!-- End Google Tag Manager -->
+
+
+<script>  
+{% if request.page_type == 'product' %}
+if (sessionStorage.getItem('item_list')) {
+    var item_list = sessionStorage.getItem('item_list');
+    sessionStorage.removeItem('item_list');
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        'event': 'select_item',
+        'ecommerce': {
+            'items' : [
+                {
+                    'item_name': '{{product.title}}',
+                  	//'item_id': 'shopify_DK_{{product.id}}_{{product.selected_or_first_available_variant.id}}',
+                  	'item_id': '{{product.selected_or_first_available_variant.sku}}',
+                    'price': '{{product.price | money_without_currency | remove: "." | replace: ",", "." }}',
+                    'item_brand': '{{product.vendor}}',
+                    'item_category': '{{product.type}}',
+                    'item_list_name': item_list
+                }
+                    ]
+            }
+         });
+};
+    
+// Theme pushes variant change on all product load, so no need to send event on pageload
+/*window.dataLayer.push({
+  'event': 'view_item',
+  'ecommerce': {
+    'items' : [
+        {
+            'item_name': '{{product.title}}',
+          	//'item_id': 'shopify_DK_{{product.id}}_{{product.selected_or_first_available_variant.id}}',
+          	'item_id': '{{product.selected_or_first_available_variant.sku}}',
+            'price': '{{product.price | money_without_currency | remove: "." | replace: ",", "." }}',
+            'item_brand': '{{product.vendor}}',
+            'item_category': '{{product.type}}',
+            'item_list_name': item_list
+        }
+            ]
+    }
+     });
+*/
+
+document.addEventListener('theme:variant:change', function(evt) {
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+  'event': 'view_item',
+  'ecommerce': {
+    'items' : [
+        {
+            'item_name': '{{product.title}}',
+          	//'item_id': 'shopify_DK_{{product.id}}_' + evt.detail.variant.id,
+          	'item_id': evt.detail.variant.sku,
+            'price': evt.detail.variant.price / 100,
+            'item_brand': '{{product.vendor}}',
+            'item_category': '{{product.type}}',
+            'item_list_name': item_list
+        }
+            ]
+    }
+     });
+});
+
+{% endif %}
+
+{% if request.page_type == 'collection' %}
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+  'event': 'view_item_list',
+  'ecommerce': {
+    'items' : [
+        {
+            'item_name': 'dummy',
+            'item_list_name': '{{collection.title}}',
+        }
+            ]
+    }
+     });
+sessionStorage.setItem('item_list', '{{collection.title}}');
+{% endif %}
+
+{% comment %} Slet List, når man går væk fra produkt eller collection {% endcomment %}
+{% unless  request.page_type == 'product' or request.page_type == 'collection' %}
+sessionStorage.removeItem('item_list');
+{% endunless %} 
+
+document.addEventListener('cart:add-item', function(evt) {
+  var formDataUrl = new URLSearchParams(evt.detail.formData);
+  var product_variants = JSON.parse(document.querySelector('[data-variant-json]').textContent);
+  var product_variant = {};
+  for (var i in product_variants) {
+    if (formDataUrl.get('id') == product_variants[i].id){
+      product_variant.price = product_variants[i].price;
+      product_variant.sku = product_variants[i].sku;
+          }    
+  }
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+  'event': 'add_to_cart',
+  'ecommerce': {
+    'items' : [
+        {
+            'item_name': '{{product.title}}',
+            //'item_id': 'shopify_DK_' + evt.detail.product.product_id + '_' + evt.detail.product.variant_id,
+         	'item_id': product_variant.sku,
+            'price': product_variant.price / 100,
+            'item_brand': '{{product.vendor}}',
+            'item_category': '{{product.type}}',
+            'quantity': formDataUrl.get('quantity'),
+            'item_list_name': item_list
+        }
+            ]
+    }
+     });
+//send update cart event
+update_cart();
+});
+
+
+
+function begin_checkout (){
+fetch('/cart.js')
+  .then(response => response.json())
+  .then(data => {
+    cartItems = [];
+    for (var i = 0; i < data.items.length; i++) {
+        cartItems.push({
+            'item_name': data.items[i].product_title,
+            //'item_id': 'shopify_DK_' + data.items[i].product_id + '_' + data.items[i].variant_id,
+            'item_id': data.items[i].sku,
+            'price': data.items[i].price / 100,
+            'item_brand': data.items[i].vendor,
+            'item_category': data.items[i].product_type,
+            'quantity': data.items[i].quantity,
+        });
+    };    
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        'event': 'begin_checkout',
+        'cart_token' : data.token,
+        'cart_value' : data.total_price / 100,
+        'cart_quantity' : data.item_count,
+        'ecommerce': {
+            'items': cartItems
+             }
+    });
+    });
+return true; 
+}
+
+function update_cart (){  
+fetch('/cart.js')
+  .then(response => response.json())
+  .then(data => {
+    cartItems = [];
+    for (var i = 0; i < data.items.length; i++) {
+        cartItems.push({
+            'item_name': data.items[i].product_title,
+            //'item_id': 'shopify_DK_' + data.items[i].product_id + '_' + data.items[i].variant_id,
+            'item_id': data.items[i].sku,
+            'price': data.items[i].price / 100,
+            'item_brand': data.items[i].vendor,
+            'item_category': data.items[i].product_type,
+            'quantity': data.items[i].quantity,
+        });
+    };    
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        'event': 'update_cart',
+        'cart_token' : data.token,
+        'cart_value' : data.total_price / 100,
+        'cart_quantity' : data.item_count,
+		'cart_items': cartItems
+    });
+    });  
+};
+
+// send update cart, når man ændrer antal i checkout
+document.addEventListener('theme:cart:change', function(evt) {
+  update_cart();
+});
+</script>
+
+<textarea data-variant-json class="hide" aria-hidden="true" aria-label="Product JSON">
+    {{ product.variants | json }}
+</textarea>
+{%- if product.options.size > 1 -%}
+  <textarea data-current-variant-json class="hide" aria-hidden="true" aria-label="Variant JSON">
+    {{ current_variant | json }}
+ </textarea>
+{%- endif -%}
+
+
+
+
+

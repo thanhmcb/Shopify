@@ -1,0 +1,42 @@
+.faq-list__item.pim-heading {
+	padding: .5rem .5rem .5rem 1rem;
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 1.3;
+}
+
+@media only screen and (min-width: 750px) {
+	.faq-list__item.pim-heading {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 749px) {
+	.faq-list__item.pim-heading {
+		margin-left: 1rem;
+	}
+}
+
+@media only screen and (max-width: 749px) {
+	.faq-list.faq-pim {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+.product__slides {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.product__slide {
+	flex: 0 0 100%;
+}
+
+
+
+
+
+
+

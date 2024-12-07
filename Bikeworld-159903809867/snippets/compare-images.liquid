@@ -1,0 +1,17 @@
+{%- assign modifier = modifier | default: '' -%}
+
+<div class="compare {{ modifier }}" data-images-holder data-start-position="50%" data-aos="img-in" data-aos-anchor="{{ animation_anchor }}" data-aos-duration="800" data-aos-easing="ease-out-quart">
+  <div class="compare__image"{% if section.settings.aspect_ratio %} style="padding-top: {{ section.settings.aspect_ratio | times: 100}}%;"{% endif %}>
+    <div class="compare__image__holder">
+      {% render 'image-fill', img_object: section.settings.image_1, aspect_ratio: section.settings.aspect_ratio, bg_position: section.settings.image_position %}
+    </div>
+  </div>
+  
+  <div class="compare__image{% unless section.settings.image_2 != blank %} compare__image--rotate{% endunless %}"{% if section.settings.aspect_ratio %} style="padding-top: {{ section.settings.aspect_ratio | times: 100}}%;"{% endif %} data-image-holder>
+    <div class="compare__image__holder" data-image-element>
+      {% render 'image-fill', img_object: section.settings.image_2, aspect_ratio: section.settings.aspect_ratio, bg_position: section.settings.image_position %}
+    </div>
+  </div>
+
+  <div class="compare__btn" data-images-button style="background-color: {{ section.settings.bg_color }};">&nbsp;</div>
+</div>

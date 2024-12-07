@@ -1,0 +1,716 @@
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "56ffbeda-c6fa-4cc6-af68-3ad858dbc829": {
+          "type": "shopify:\/\/apps\/category-breadcrumbs\/blocks\/category-breadcrumbs\/dba51573-4328-452d-90db-1ad2dc5be363",
+          "settings": {
+            "show_catroot": true,
+            "link_catroot": "\/",
+            "text_catroot": "Home",
+            "show_tags": true,
+            "show_finalbread_as_textonly": false,
+            "separator_char_code": "rsaquo;",
+            "sep_plus_class": "breadcrumb__sep_plus5",
+            "insert_jsonld": true,
+            "prod_multicat_sel": "first",
+            "link_catall": "\/collections\/all",
+            "text_catall": "Alle produkter",
+            "show_product_title": true,
+            "truncate_limit": 0,
+            "insert_shortlinkfix": false
+          }
+        },
+        "price_and_title": {
+          "type": "price_and_title",
+          "settings": {
+            "subheading_option": "breadcrumb",
+            "show_rating": true,
+            "enable_star_rating": true,
+            "show_rating_count": true,
+            "show_discount_price": true
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "info_page": "{{ product.metafields.custom.size_chart.value }}",
+            "size_chart_vendor": true,
+            "show_labels": false,
+            "show_quantity": false,
+            "show_remaining": false,
+            "show_payment_button": false,
+            "subscriptions_enable_selectors": false
+          }
+        },
+        "tabs": {
+          "type": "tab_richtext",
+          "settings": {
+            "show_read_more": true,
+            "style": "accordions",
+            "title_1": "Levering",
+            "raw_content_1": "<p>Normal levering er 1-3 arbejdsdage fra modtagelse af ordren. Vi bestræber os på at få sendt alle ordre samme dag, hvis afgivet inden kl. 12:00.<br\/><br\/>(Cykler dog inden 10:00)<br\/>(Bemærk at lørdage, søndage og helligdage ikke regnes som arbejdsdage.)<br\/><br\/>Vi leverer kun til Danmark (ikke Grønland og Færøerne)<\/p>",
+            "title_2": "",
+            "raw_content_2": "",
+            "title_3": "",
+            "raw_content_3": "",
+            "title_4": "",
+            "raw_content_4": "",
+            "title_5": "",
+            "raw_content_5": ""
+          }
+        },
+        "pickup": {
+          "type": "pickup",
+          "disabled": true,
+          "settings": {}
+        },
+        "ffadf57c-1cd2-482c-8604-2f4449f69b39": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": ""
+          }
+        },
+        "7278ebfa-0630-4290-bec6-4f8ffd9aac5f": {
+          "type": "upsell",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "56ffbeda-c6fa-4cc6-af68-3ad858dbc829",
+        "price_and_title",
+        "form",
+        "tabs",
+        "pickup",
+        "ffadf57c-1cd2-482c-8604-2f4449f69b39",
+        "7278ebfa-0630-4290-bec6-4f8ffd9aac5f"
+      ],
+      "settings": {
+        "product_sticky_enable": true,
+        "image_layout": "stacked",
+        "image_size": "normal",
+        "product-image-spit": "48%",
+        "show_product_vendor": true,
+        "product_vendor_logo_max_limit": 100,
+        "show_cart_bar": true,
+        "enable_zoom": true,
+        "enable_video_looping": true
+      }
+    },
+    "166063809229ae953f": {
+      "type": "section-rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "SPECIFIKATIONER",
+        "text": "<p>{{ product.metafields.my_fields.html_specs.value }}<\/p>",
+        "text_size": 2,
+        "text_columns": 2,
+        "align_text": "text-left",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "caps--large",
+        "height": "margin--medium",
+        "width": "wrapper",
+        "text_color": "text-dark",
+        "bg_color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "165329366423e9af0b": {
+      "type": "section-specification",
+      "blocks": {
+        "8768ef41-da7f-4411-afd7-992161e1060a": {
+          "type": "pim-heading",
+          "settings": {
+            "title": "Rammesæt",
+            "header-bg": "#dddddd"
+          }
+        },
+        "5f3810c9-9d09-499a-99ac-dd9a256f12aa": {
+          "type": "icon",
+          "settings": {
+            "title": "Stel",
+            "text": "<p>{{ product.metafields.my_fields.stel_f.value }}<\/p>"
+          }
+        },
+        "8e762726-5793-4145-ad75-31e6d591b754": {
+          "type": "icon",
+          "settings": {
+            "title": "Forgaffel",
+            "text": "<p>{{ product.metafields.my_fields.forgaffel_f.value }}<\/p>"
+          }
+        },
+        "f79666bb-3e23-4f91-a2d0-d409459ac5d6": {
+          "type": "icon",
+          "settings": {
+            "title": "Støddæmper",
+            "text": "<p>{{ product.metafields.my_fields.affjedring | metafield_text }}<\/p>"
+          }
+        },
+        "d4d498b0-9da1-444d-9251-40e8b359f0f3": {
+          "type": "pim-heading",
+          "settings": {
+            "title": "Hjul",
+            "header-bg": "#dddddd"
+          }
+        },
+        "97134088-d460-4065-88bd-3ac6d69448a5": {
+          "type": "icon",
+          "settings": {
+            "title": "Forhjul",
+            "text": "<p>{{ product.metafields.my_fields.forhjul_f.value }}<\/p>"
+          }
+        },
+        "8c9f11bf-2187-4d3c-bd49-392884688896": {
+          "type": "icon",
+          "settings": {
+            "title": "Baghjul",
+            "text": "<p>{{ product.metafields.my_fields.baghjul_f.value }}<\/p>"
+          }
+        },
+        "8e269e27-a83d-46ee-bbce-c612c0a89e6f": {
+          "type": "icon",
+          "settings": {
+            "title": "Dæk",
+            "text": "<p>{{ product.metafields.my_fields.daek_f.value }}<\/p>"
+          }
+        },
+        "8e46aa11-eb84-4f56-9dbf-605b5a4f4a9e": {
+          "type": "icon",
+          "settings": {
+            "title": "Dækkomponent",
+            "text": "<p>{{ product.metafields.my_fields.daekkomponent_f.value }}<\/p>"
+          }
+        },
+        "7c618daa-41c2-4a4d-8488-ff4b92ac0443": {
+          "type": "icon",
+          "settings": {
+            "title": "Fælg",
+            "text": "<p>{{ product.metafields.my_fields.faelg_f.value }}<\/p>"
+          }
+        },
+        "ec9b1797-4f37-421e-99a6-5271bf96056d": {
+          "type": "icon",
+          "settings": {
+            "title": "Maks. dækstørrelse",
+            "text": "<p>{{ product.metafields.my_fields.maks_daekstoerrelse_f.value }}<\/p>"
+          }
+        },
+        "30359ff9-8f54-462f-8f5e-192cf8c8c790": {
+          "type": "pim-heading",
+          "settings": {
+            "title": "Gearsystem",
+            "header-bg": "#dddddd"
+          }
+        },
+        "0c3dd3ac-b2c9-443f-b874-e5dc826ca97b": {
+          "type": "icon",
+          "settings": {
+            "title": "Gearskifter",
+            "text": "<p>{{ product.metafields.my_fields.gearskifter_f.value }}<\/p>"
+          }
+        },
+        "534397d1-202b-4a64-b22f-378b6bddd91a": {
+          "type": "icon",
+          "settings": {
+            "title": "Bagskifter",
+            "text": "<p>{{ product.metafields.my_fields.bagskifter_f.value }}<\/p>"
+          }
+        },
+        "6fcd7303-8088-4a7a-90e1-dd9c1ff0fc71": {
+          "type": "icon",
+          "settings": {
+            "title": "Kranksæt",
+            "text": "<p>{{ product.metafields.my_fields.kranksaet_f.value }}<\/p>"
+          }
+        },
+        "a294b039-7e6c-4563-a4cc-cc482e12ebac": {
+          "type": "icon",
+          "settings": {
+            "title": "Krankboks",
+            "text": "<p>{{ product.metafields.my_fields.krankboks_f.value }}<\/p>"
+          }
+        },
+        "7642abe2-26be-4e6a-a3fd-7f0056331a8c": {
+          "type": "icon",
+          "settings": {
+            "title": "Kassette",
+            "text": "<p>{{ product.metafields.my_fields.kassette_f.value }}<\/p>"
+          }
+        },
+        "4cd36474-85a6-4696-a131-35a03aefed76": {
+          "type": "icon",
+          "settings": {
+            "title": "Kæde",
+            "text": "<p>{{ product.metafields.my_fields.kaede_f.value }}<\/p>"
+          }
+        },
+        "03362788-d99e-41de-a439-77c4140e3433": {
+          "type": "icon",
+          "settings": {
+            "title": "Maks. klingestørrelse",
+            "text": "<p>{{ product.metafields.my_fields.maks_klingestoerrelse.value }}<\/p>"
+          }
+        },
+        "87d5346d-1f95-4351-b4b9-48b7b8cf05dd": {
+          "type": "pim-heading",
+          "settings": {
+            "title": "Komponenter",
+            "header-bg": "#dddddd"
+          }
+        },
+        "b8b5d0cc-e92c-4b7a-944f-bbabb9849411": {
+          "type": "icon",
+          "settings": {
+            "title": "Sadel",
+            "text": "<p>{{ product.metafields.my_fields.sadel_f.value }}<\/p>"
+          }
+        },
+        "5f8e6750-5c24-4e78-9aea-b51aa0f1ee9d": {
+          "type": "icon",
+          "settings": {
+            "title": "Sadelpind",
+            "text": "<p>{{ product.metafields.my_fields.sadelpind_f.value }}<\/p>"
+          }
+        },
+        "92d02de2-153f-4e54-990f-2d2ce056f9dd": {
+          "type": "icon",
+          "settings": {
+            "title": "Integreret styr",
+            "text": "<p>{{ product.metafields.my_fields.styr_f.value }}<\/p>"
+          }
+        },
+        "9a9ca746-9c27-4652-9fd5-b9258c5eab48": {
+          "type": "icon",
+          "settings": {
+            "title": "Frempind",
+            "text": "<p>{{ product.metafields.my_fields.frempind_f.value }}<\/p>"
+          }
+        },
+        "38d7357d-e61e-4b01-b0ab-b8baa2ba111a": {
+          "type": "icon",
+          "settings": {
+            "title": "Håndtag",
+            "text": "<p>{{ product.metafields.my_fields.haandtag_f.value }}<\/p>"
+          }
+        },
+        "63b9a4c5-f1dd-48a3-9ca0-61c9e9a66669": {
+          "type": "icon",
+          "settings": {
+            "title": "Headset",
+            "text": "<p>{{ product.metafields.my_fields.headset_f.value }}<\/p>"
+          }
+        },
+        "5c6eed45-db91-4ab7-82cf-b2a40d8234f9": {
+          "type": "icon",
+          "settings": {
+            "title": "Bremse",
+            "text": "<p>{{ product.metafields.my_fields.bremse_f.value }}<\/p>"
+          }
+        },
+        "faaa8bdf-9863-44ba-8c56-476874bf0dc5": {
+          "type": "icon",
+          "settings": {
+            "title": "Bremseskive",
+            "text": "<p>{{ product.metafields.my_fields.bremseskive_f.value }}<\/p>"
+          }
+        },
+        "d08f633d-7802-4c9f-8ac0-543793160df3": {
+          "type": "icon",
+          "settings": {
+            "title": "Rotorstørrelse",
+            "text": "<p>{{ product.metafields.my_fields.rotorstoerrelse_f.value }}<\/p>"
+          }
+        },
+        "b7a3c3eb-239d-40c5-92b4-5bb9c3778d54": {
+          "type": "pim-heading",
+          "settings": {
+            "title": "Vægt",
+            "header-bg": "#dddddd"
+          }
+        },
+        "71483d91-66a3-4965-afa8-1f6c5e66f565": {
+          "type": "icon",
+          "settings": {
+            "title": "Vægt",
+            "text": "<p>{{ product.metafields.my_fields.veagt_s.value }}<\/p>"
+          }
+        },
+        "3a3768c0-4d7e-4be6-91bf-61823e117107": {
+          "type": "icon",
+          "settings": {
+            "title": "Vægtgrænse",
+            "text": "<p>{{ product.metafields.my_fields.vaegtgraense_f.value }}<\/p>"
+          }
+        },
+        "f38634ec-bc8c-4298-9807-1a1ab1986870": {
+          "type": "pim-heading",
+          "settings": {
+            "title": "EL",
+            "header-bg": "#dddddd"
+          }
+        },
+        "78916134-aa60-428f-87d5-dbb2ca83f10b": {
+          "type": "icon",
+          "settings": {
+            "title": "Motorstørrelse",
+            "text": "<p>{{ product.metafields.my_fields.motor_f.value }}<\/p>"
+          }
+        },
+        "c2744c99-a38c-486c-92f2-294599d6354e": {
+          "type": "icon",
+          "settings": {
+            "title": "Batteri",
+            "text": "<p>{{ product.metafields.my_fields.batteri_f.value }}<\/p>"
+          }
+        },
+        "f68a07f8-64a8-4913-8dd0-9dad18079c5e": {
+          "type": "icon",
+          "settings": {
+            "title": "Lader",
+            "text": "<p>{{ product.metafields.my_fields.charger_F.value }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "8768ef41-da7f-4411-afd7-992161e1060a",
+        "5f3810c9-9d09-499a-99ac-dd9a256f12aa",
+        "8e762726-5793-4145-ad75-31e6d591b754",
+        "f79666bb-3e23-4f91-a2d0-d409459ac5d6",
+        "d4d498b0-9da1-444d-9251-40e8b359f0f3",
+        "97134088-d460-4065-88bd-3ac6d69448a5",
+        "8c9f11bf-2187-4d3c-bd49-392884688896",
+        "8e269e27-a83d-46ee-bbce-c612c0a89e6f",
+        "8e46aa11-eb84-4f56-9dbf-605b5a4f4a9e",
+        "7c618daa-41c2-4a4d-8488-ff4b92ac0443",
+        "ec9b1797-4f37-421e-99a6-5271bf96056d",
+        "30359ff9-8f54-462f-8f5e-192cf8c8c790",
+        "0c3dd3ac-b2c9-443f-b874-e5dc826ca97b",
+        "534397d1-202b-4a64-b22f-378b6bddd91a",
+        "6fcd7303-8088-4a7a-90e1-dd9c1ff0fc71",
+        "a294b039-7e6c-4563-a4cc-cc482e12ebac",
+        "7642abe2-26be-4e6a-a3fd-7f0056331a8c",
+        "4cd36474-85a6-4696-a131-35a03aefed76",
+        "03362788-d99e-41de-a439-77c4140e3433",
+        "87d5346d-1f95-4351-b4b9-48b7b8cf05dd",
+        "b8b5d0cc-e92c-4b7a-944f-bbabb9849411",
+        "5f8e6750-5c24-4e78-9aea-b51aa0f1ee9d",
+        "92d02de2-153f-4e54-990f-2d2ce056f9dd",
+        "9a9ca746-9c27-4652-9fd5-b9258c5eab48",
+        "38d7357d-e61e-4b01-b0ab-b8baa2ba111a",
+        "63b9a4c5-f1dd-48a3-9ca0-61c9e9a66669",
+        "5c6eed45-db91-4ab7-82cf-b2a40d8234f9",
+        "faaa8bdf-9863-44ba-8c56-476874bf0dc5",
+        "d08f633d-7802-4c9f-8ac0-543793160df3",
+        "b7a3c3eb-239d-40c5-92b4-5bb9c3778d54",
+        "71483d91-66a3-4965-afa8-1f6c5e66f565",
+        "3a3768c0-4d7e-4be6-91bf-61823e117107",
+        "f38634ec-bc8c-4298-9807-1a1ab1986870",
+        "78916134-aa60-428f-87d5-dbb2ca83f10b",
+        "c2744c99-a38c-486c-92f2-294599d6354e",
+        "f68a07f8-64a8-4913-8dd0-9dad18079c5e"
+      ],
+      "settings": {
+        "title": "SPECIFIKATIONER"
+      }
+    },
+    "custom": {
+      "type": "section-custom-content",
+      "blocks": {
+        "custom-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mb.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "description": "",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "custom-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "Mountain Biking",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "text_color": "text-dark",
+            "bg_color": "#f7f7f7",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "custom-0",
+        "custom-1"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "padding": true,
+        "borders": false,
+        "wrapper": false,
+        "padding_top": 28,
+        "padding_bottom": 29
+      }
+    },
+    "reviews": {
+      "type": "reviews",
+      "settings": {
+        "enable_product_reviews": false,
+        "enable_accordion": true
+      }
+    },
+    "165425612101aa1fe4": {
+      "type": "section-text-row",
+      "disabled": true,
+      "blocks": {
+        "16542561219b570aa3-0": {
+          "type": "text-item",
+          "settings": {
+            "icon_name": "icon-lock-shield",
+            "icon_color": "#545454",
+            "title": "Køb",
+            "text": "Transactions are handled with bank-grade security."
+          }
+        },
+        "16542561219b570aa3-1": {
+          "type": "text-item",
+          "settings": {
+            "icon_name": "icon-basket-like",
+            "icon_color": "#545454",
+            "title": "Samling",
+            "text": "Our secure checkout is quick and easy to use."
+          }
+        },
+        "16542561219b570aa3-2": {
+          "type": "text-item",
+          "settings": {
+            "icon_name": "icon-chat",
+            "icon_color": "#545454",
+            "title": "Afhentning",
+            "text": "Have questions? Get in touch with us at any time."
+          }
+        }
+      },
+      "block_order": [
+        "16542561219b570aa3-0",
+        "16542561219b570aa3-1",
+        "16542561219b570aa3-2"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "icon_size": 20,
+        "icon_alignment": "icon--top",
+        "text_color": "text-dark",
+        "heading_size": "h6",
+        "height": "margin--medium",
+        "bg_color": "#fafafa",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "imgtxt": {
+      "type": "section-custom-content",
+      "disabled": true,
+      "blocks": {
+        "imgtxt-0": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "Hvorfor TREK?",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "text_color": "text-dark",
+            "bg_color": "#f7f7f7",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "imgtxt-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/48637-Sticker-Trek-Logo-2018_1.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "description": "",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "imgtxt-0",
+        "imgtxt-1"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "padding": true,
+        "borders": false,
+        "wrapper": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "165537846827a2eb98": {
+      "type": "apps",
+      "blocks": {
+        "f747aa68-13d2-420a-9269-52fa733a5290": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "f747aa68-13d2-420a-9269-52fa733a5290"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "related": {
+      "type": "related",
+      "settings": {
+        "related_products_enable": true,
+        "limit": 4,
+        "product_recommendations_heading": "Relaterede propdukter",
+        "show_recently_viewed": true,
+        "product_recently_limit": 4,
+        "product_recently_heading": "Senest set"
+      }
+    },
+    "16502936457ab51319": {
+      "type": "section-logo-list",
+      "blocks": {
+        "1650293645cb076751-0": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/48637-Sticker-Trek-Logo-2018_1.png",
+            "logo_width": 100,
+            "link": ""
+          }
+        },
+        "1650293645cb076751-1": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/giant.png",
+            "logo_width": 100,
+            "link": ""
+          }
+        },
+        "1650293645cb076751-2": {
+          "type": "logo-item",
+          "settings": {
+            "logo_width": 100,
+            "link": ""
+          }
+        },
+        "d4c1f288-cf24-465a-8df7-bb5ac8d468b1": {
+          "type": "logo-item",
+          "settings": {
+            "logo_width": 100,
+            "link": ""
+          }
+        },
+        "d5942836-167b-47c7-aacd-182a68731671": {
+          "type": "logo-item",
+          "settings": {
+            "logo_width": 100,
+            "link": ""
+          }
+        },
+        "f079835f-8cf6-45ec-9230-0aa907c1fac5": {
+          "type": "logo-item",
+          "settings": {
+            "logo_width": 100,
+            "link": ""
+          }
+        },
+        "a43d6dfb-b1c8-4ca7-b16f-961a891f212f": {
+          "type": "logo-item",
+          "settings": {
+            "logo_width": 100,
+            "link": ""
+          }
+        },
+        "93f09aaf-4c7c-49d5-a252-f928e643488f": {
+          "type": "logo-item",
+          "settings": {
+            "logo_width": 100,
+            "link": ""
+          }
+        },
+        "abdd7f4e-c6e7-41b8-aa4d-2071745614b3": {
+          "type": "logo-item",
+          "settings": {
+            "logo_width": 100,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1650293645cb076751-0",
+        "1650293645cb076751-1",
+        "1650293645cb076751-2",
+        "d4c1f288-cf24-465a-8df7-bb5ac8d468b1",
+        "d5942836-167b-47c7-aacd-182a68731671",
+        "f079835f-8cf6-45ec-9230-0aa907c1fac5",
+        "a43d6dfb-b1c8-4ca7-b16f-961a891f212f",
+        "93f09aaf-4c7c-49d5-a252-f928e643488f",
+        "abdd7f4e-c6e7-41b8-aa4d-2071745614b3"
+      ],
+      "settings": {
+        "title": "",
+        "text_color": "text-dark",
+        "bg_color": "#ffffff"
+      }
+    },
+    "1656674174604d2a89": {
+      "type": "video-custom",
+      "settings": {
+        "video_link": "{{ product.metafields.custom.video.value }}",
+        "video-height": 400,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "166063809229ae953f",
+    "165329366423e9af0b",
+    "custom",
+    "reviews",
+    "165425612101aa1fe4",
+    "imgtxt",
+    "165537846827a2eb98",
+    "related",
+    "16502936457ab51319",
+    "1656674174604d2a89"
+  ]
+}
